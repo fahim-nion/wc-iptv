@@ -17,20 +17,19 @@ export default function App() {
   const [rightOpen, setRightOpen] = useState(true);
   const [viewerCount, setViewerCount] = useState(1240);
 
-  // 1. AUTO-CLOSE SIDEBAR ON MOBILE
+  // 1. SMART SIDEBAR LOGIC (Fixed for Mobile Search)
   useEffect(() => {
-    const handleResize = () => {
+    const initSidebar = () => {
+      // Only run this on the very first load
       if (window.innerWidth < 768) {
         setLeftOpen(false);
         setRightOpen(false);
-      } else {
-        setLeftOpen(true);
-        setRightOpen(true);
       }
     };
-    handleResize(); // Run on mount
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    initSidebar();
+    
+    // We remove the 'resize' listener that was closing the search bar 
+    // whenever the mobile keyboard popped up.
   }, []);
 
   // 2. LIVE VIEWER SIMULATION
@@ -43,7 +42,11 @@ export default function App() {
 
   const handleFile = (e) => {
     const reader = new FileReader();
-    reader.onload = (res) => setChannels(parseM3U(res.target.result));
+    reader.onload = (res) => {
+      const parsedData = parseM3U(res.target.result);
+      setChannels(parsedData);
+      setCategory('All');
+    };
     reader.readAsText(e.target.files[0]);
   };
 
@@ -123,15 +126,16 @@ export default function App() {
         <main className="flex-1 flex flex-col min-w-0 bg-[#060B15] overflow-y-auto scrollbar-hide p-4 md:p-8">
           <div className="max-w-4xl mx-auto w-full">
             
-            {/* INSTRUCTION TEXT */}
-            <div className="mb-6 p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-4">
-              <div className="bg-blue-500 p-2 rounded-xl text-white shrink-0"><Info size={20} /></div>
-              <p className="text-sm text-blue-100 leading-relaxed">
-                <span className="font-bold text-white">How to watch:</span> Go to {' '}
-                <a href="https://t.ly/CVQtD" target="_blank" className="text-amber-500 underline font-black hover:text-amber-400">This Link</a> 
-                {' '} and download the file name <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"sports.m3u"</code> cause Works Best and then import the file using the button above. Done! Select Sports and Try Watching <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"bein Sport 1 HD"</code> when internet is slow. Other files works as well.
-              </p>
-            </div>
+            {channels.length === 0 && (
+              <div className="mb-6 p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-4">
+                <div className="bg-blue-500 p-2 rounded-xl text-white shrink-0"><Info size={20} /></div>
+                <p className="text-sm text-blue-100 leading-relaxed">
+                  <span className="font-bold text-white">How to watch:</span> Go to {' '}
+                  <a href="https://t.ly/CVQtD" target="_blank" className="text-amber-500 underline font-black hover:text-amber-400">This Link</a> 
+                  {' '} and download the file name <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"sports.m3u"</code> cause Works Best and then import the file using the button above. Done! Select Sports and Try Watching <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"bein Sport 1 HD"</code> when internet is slow. Other files works as well.
+                </p>
+              </div>
+            )}
 
             <Player channel={currentChannel} />
             
@@ -152,7 +156,7 @@ export default function App() {
           </div>
         </main>
 
-        {/* RIGHT PANEL */}
+        {/* RIGHT PANEL (Fixed for Mobile Keyboard) */}
         <aside className={`${rightOpen ? 'w-full md:w-96 border-l fixed md:relative z-50 h-[calc(100vh-64px)]' : 'w-0'} transition-all duration-500 border-white/5 bg-[#0B1220] flex flex-col shrink-0 overflow-hidden right-0`}>
           <div className="p-4 border-b border-white/5 flex items-center justify-between">
             <div className="relative flex-1 group">
@@ -169,24 +173,38 @@ export default function App() {
           </div>
 
           <div className="flex-1 overflow-y-auto p-4 space-y-3 scrollbar-hide">
-             {filtered.map(channel => (
-               <div 
-                 key={channel.url} 
-                 onClick={() => {
-                    setCurrentChannel(channel);
-                    if(window.innerWidth < 768) setRightOpen(false);
-                 }}
-                 className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-lg' : 'bg-white/5 border-transparent'}`}
-               >
-                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 ${currentChannel?.url === channel.url ? 'bg-amber-500' : 'bg-black'}`}>
-                   {channel.logo ? <img src={channel.logo} className="w-full h-full object-contain p-1" /> : <Globe size={20} className={currentChannel?.url === channel.url ? 'text-black' : 'text-slate-600'} />}
+             {filtered.map(channel => {
+               const isFav = favorites.includes(channel.url);
+               return (
+                 <div 
+                   key={channel.url} 
+                   className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-lg' : 'bg-white/5 border-transparent'}`}
+                   onClick={() => {
+                      setCurrentChannel(channel);
+                      if(window.innerWidth < 768) setRightOpen(false);
+                   }}
+                 >
+                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 ${currentChannel?.url === channel.url ? 'bg-amber-500' : 'bg-black'}`}>
+                     {channel.logo ? <img src={channel.logo} className="w-full h-full object-contain p-1" /> : <Globe size={20} className={currentChannel?.url === channel.url ? 'text-black' : 'text-slate-600'} />}
+                   </div>
+                   <div className="flex-1 min-w-0">
+                      <h4 className={`text-xs font-bold truncate ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4>
+                      <p className="text-[9px] text-slate-500 uppercase font-bold">{channel.group}</p>
+                   </div>
+                   
+                   {/* FAVORITE STAR ICON */}
+                   <button 
+                     onClick={(e) => {
+                       e.stopPropagation(); // Prevents clicking the star from also selecting the channel
+                       toggleFavorite(channel.url);
+                     }}
+                     className={`p-2 transition-transform hover:scale-125 ${isFav ? 'text-amber-500' : 'text-slate-600'}`}
+                   >
+                     <Star size={18} fill={isFav ? "currentColor" : "none"} />
+                   </button>
                  </div>
-                 <div className="flex-1 min-w-0">
-                    <h4 className={`text-xs font-bold truncate ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4>
-                    <p className="text-[9px] text-slate-500 uppercase font-bold">{channel.group}</p>
-                 </div>
-               </div>
-             ))}
+               );
+             })}
              <div className="h-20" />
           </div>
         </aside>
