@@ -60,7 +60,7 @@ export default function App() {
     <div className={`rounded-3xl bg-gradient-to-br from-amber-500/10 to-transparent border border-amber-500/20 ${compact ? 'p-6 mt-6 max-w-2xl mx-auto w-full' : 'p-5 m-4'}`}>
       <p className="text-[10px] font-black text-amber-500 uppercase tracking-widest mb-1">Developer</p>
       <h3 className={`${compact ? 'text-2xl' : 'text-sm'} font-black tracking-tight text-white`}>Fahim Morshed Nion</h3>
-      <p className="text-xs text-slate-400 mt-1">Feel free to reach out to me for m3u file</p>
+      <p className="text-xs text-slate-400 mt-1">Feel free to reach out to me for the m3u file</p>
       <div className="flex gap-4 mt-4">
         <a href="https://facebook.com/itz.nion00" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-amber-500 transition-transform hover:scale-110">
           <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
@@ -132,7 +132,7 @@ export default function App() {
                 <p className="text-sm text-blue-100 leading-relaxed">
                   <span className="font-bold text-white">How to watch:</span> Go to {' '}
                   <a href="https://t.ly/CVQtD" target="_blank" className="text-amber-500 underline font-black hover:text-amber-400">This Link</a> 
-                  {' '} and download the file name <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"sports.m3u"</code> cause Works Best and then import the file using the button above. Done! Select Sports and Try Watching <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"bein Sport 1 HD"</code> when internet is slow. Other files works as well.
+                  {' '} and download the file name <code className="bg-black/40 px-2 py-0.5 rounded italic text-amber-300">"fifa-2026.m3u"</code> then import the file using the button above. Done! Select Channels from clicking the "🔍" icon again and Happy Watching!
                 </p>
               </div>
             )}
