@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
-import { Play, Pause, Maximize, Volume2, VolumeX, ShieldCheck, Loader2, AlertCircle } from 'lucide-react';
+import { Play, Pause, Maximize, Minimize2, Volume2, VolumeX, ShieldCheck, Loader2, AlertCircle } from 'lucide-react';
 
 export default function Player({ channel }) {
   const videoRef = useRef(null);
@@ -12,80 +12,75 @@ export default function Player({ channel }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
   const [isMuted, setIsMuted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
   const [hasError, setHasError] = useState(false);
   const [showControls, setShowControls] = useState(true);
   const [showVolumeBar, setShowVolumeBar] = useState(false);
   const [streamType, setStreamType] = useState('');
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     if (!channel || !videoRef.current) return;
     setIsLoading(true);
     setLoadingProgress(0);
     setHasError(false);
-    setIsPlaying(false);
-    
-    let hlsInstance = null;
-    let tsInstance = null;
-    
-    // Watchdog to check if channel is dead (Triggers error if no data in 6 seconds)
-    const deadChannelCheck = setTimeout(() => {
-      if (videoRef.current && videoRef.current.readyState < 3 && !hasError) {
-        setHasError(true);
-        setIsLoading(false);
-      }
-    }, 6000);
 
     const url = channel.url.toLowerCase();
     const isTS = url.includes('.ts') || url.includes('mpegts');
     setStreamType(isTS ? 'MPEG-TS' : 'HLS');
 
     const progressInterval = setInterval(() => {
-      setLoadingProgress(prev => (prev < 95 ? prev + Math.random() * 10 : prev));
-    }, 400);
+      setLoadingProgress(prev => (prev < 95 ? prev + Math.random() * 12 : prev));
+    }, 300);
+
+    const watchdog = setTimeout(() => {
+      if (videoRef.current && videoRef.current.readyState < 3) setHasError(true);
+    }, 8000);
 
     if (isTS && mpegts.getFeatureList().mseLivePlayback) {
-      tsInstance = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url, hasVideo: true, hasAudio: true }, {
-        enableWorker: true, enableStashBuffer: true, stashInitialSize: 1024 * 1024 * 8, lazyLoad: false
+      const tsPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url, hasVideo: true }, {
+        enableWorker: true, enableStashBuffer: true, stashInitialSize: 1024 * 1024 * 6, lazyLoad: false
       });
-      tsInstance.attachMediaElement(videoRef.current);
-      tsInstance.load();
-      tsInstance.play().then(() => { clearTimeout(deadChannelCheck); finishLoading(); }).catch(() => setHasError(true));
-      tsInstance.on(mpegts.Events.ERROR, () => setHasError(true));
-      engineRef.current = tsInstance;
+      tsPlayer.attachMediaElement(videoRef.current);
+      tsPlayer.load();
+      tsPlayer.play().then(() => finishLoading()).catch(() => {});
+      engineRef.current = tsPlayer;
     } else if (Hls.isSupported()) {
-      hlsInstance = new Hls({ 
-        enableWorker: true, 
-        maxBufferSize: 250 * 1024 * 1024,
-        // Shortened timeouts for faster dead-channel detection
-        manifestLoadingTimeOut: 5000,
-        manifestLoadingMaxRetry: 1,
-        levelLoadingTimeOut: 5000,
-        levelLoadingMaxRetry: 1,
-        fragLoadingTimeOut: 5000,
-        fragLoadingMaxRetry: 1
+      const hls = new Hls({ enableWorker: true, maxBufferSize: 150 * 1024 * 1024 });
+      hls.loadSource(channel.url);
+      hls.attachMedia(videoRef.current);
+      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        videoRef.current.play().then(() => finishLoading()).catch(() => {});
       });
-      hlsInstance.loadSource(channel.url);
-      hlsInstance.attachMedia(videoRef.current);
-      hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-        videoRef.current.play().then(() => { clearTimeout(deadChannelCheck); finishLoading(); }).catch(() => setHasError(true));
-      });
-      hlsInstance.on(Hls.Events.ERROR, (event, data) => { if (data.fatal) setHasError(true); });
-      engineRef.current = hlsInstance;
+      hls.on(Hls.Events.ERROR, (e, data) => { if(data.fatal) setHasError(true); });
+      engineRef.current = hls;
     }
 
     function finishLoading() {
+      clearTimeout(watchdog);
       clearInterval(progressInterval);
       setLoadingProgress(100);
-      setTimeout(() => { setIsLoading(false); setIsPlaying(true); }, 500);
+      setTimeout(() => { setIsLoading(false); setIsPlaying(true); }, 400);
     }
 
+    // Fullscreen Change Listener (Updates icon if user presses ESC)
+    const handleFsChange = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener('fullscreenchange', handleFsChange);
+
+    const v = videoRef.current;
+    const syncPlay = () => setIsPlaying(true);
+    const syncPause = () => setIsPlaying(false);
+    v.addEventListener('play', syncPlay);
+    v.addEventListener('pause', syncPause);
+
     return () => {
-      clearTimeout(deadChannelCheck);
+      clearTimeout(watchdog);
       clearInterval(progressInterval);
-      if (hlsInstance) hlsInstance.destroy();
-      if (tsInstance) { tsInstance.unload(); tsInstance.destroy(); }
+      document.removeEventListener('fullscreenchange', handleFsChange);
+      v.removeEventListener('play', syncPlay);
+      v.removeEventListener('pause', syncPause);
+      if (engineRef.current) engineRef.current.destroy();
     };
   }, [channel]);
 
@@ -108,45 +103,43 @@ export default function Player({ channel }) {
     }
   };
 
-  const toggleFullscreen = () => {
+  // FIXED FULLSCREEN LOGIC (Cross-Browser)
+  const toggleFullscreen = (e) => {
+    e.stopPropagation();
     if (!containerRef.current) return;
-    if (!document.fullscreenElement) containerRef.current.requestFullscreen();
-    else document.exitFullscreen();
+
+    if (!document.fullscreenElement) {
+      containerRef.current.requestFullscreen().catch(err => console.log(err));
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
   };
 
   if (!channel) return (
-    <div className="aspect-video w-full bg-[#0B1220] rounded-[2.5rem] flex flex-col items-center justify-center border border-white/5">
-      <div className="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-4 animate-pulse border border-amber-500/20 text-amber-500 text-2xl">🏆</div>
+    <div className="aspect-video w-full bg-[#0B1220] rounded-[2.5rem] flex flex-col items-center justify-center border border-white/5 shadow-2xl">
+      <div className="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-4 animate-pulse text-amber-500 text-2xl">🏆</div>
       <h3 className="text-white font-black text-sm uppercase tracking-widest italic">Satellite Standby</h3>
     </div>
   );
 
   return (
-    <div 
-      ref={containerRef} 
-      className="relative w-full aspect-video bg-black rounded-[2rem] overflow-hidden shadow-[0_0_80px_rgba(0,0,0,1)] border border-white/10 cursor-none" 
-      onMouseMove={handleUserActivity}
-      onClick={handleUserActivity}
-    >
-      <video ref={videoRef} className="w-full h-full object-contain" playsInline onClick={() => setIsPlaying(!isPlaying)} />
+    <div ref={containerRef} className="relative w-full aspect-video bg-black rounded-[2rem] overflow-hidden shadow-2xl border border-white/10 cursor-none" onMouseMove={handleUserActivity} onClick={handleUserActivity}>
+      <video ref={videoRef} className="w-full h-full object-contain" playsInline onClick={() => videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause()} />
 
       {isLoading && !hasError && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060B15] z-20 px-12 cursor-default">
-          <div className="relative flex items-center justify-center mb-10">
-            <div className="absolute w-24 h-24 border-2 border-amber-500/10 rounded-full animate-ping" />
-            <Loader2 className="w-10 h-10 text-amber-500 animate-spin" />
-          </div>
-          
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060B15] z-20 px-12">
+          <Loader2 className="w-10 h-10 text-amber-500 animate-spin mb-6" />
           <div className="w-full max-w-xs">
-            <div className="flex justify-between items-end mb-2">
-               <span className="text-[10px] font-black text-amber-500 uppercase tracking-widest animate-pulse">Syncing 4K Satellite...</span>
-               <span className="text-[10px] font-black text-amber-500">{Math.round(loadingProgress)}%</span>
+            <div className="flex justify-between items-end mb-2 text-amber-500 font-black text-[10px] uppercase">
+               <span className="animate-pulse">Syncing 4K Satellite...</span>
+               <span>{Math.round(loadingProgress)}%</span>
             </div>
-            <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden border border-white/5 p-[1px]">
-               <div className="h-full bg-amber-500 rounded-full transition-all duration-500 shadow-[0_0_15px_rgba(251,191,36,0.5)]" style={{ width: `${loadingProgress}%` }} />
+            <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
+               <div className="h-full bg-amber-500 transition-all duration-500 shadow-[0_0_15px_rgba(251,191,36,0.5)]" style={{ width: `${loadingProgress}%` }} />
             </div>
           </div>
-          <p className="text-slate-500 text-[8px] mt-6 uppercase tracking-[0.4em] italic font-bold">Establishing Satellite Link</p>
         </div>
       )}
 
@@ -172,33 +165,27 @@ export default function Player({ channel }) {
         </div>
 
         <div className="absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-8">
-           <div className="flex items-center justify-between bg-black/60 backdrop-blur-3xl p-3 md:p-5 rounded-[1.5rem] md:rounded-[2rem] border border-white/10 shadow-2xl">
-              <div className="flex items-center gap-3 md:gap-6 min-w-0 flex-1">
-                <button onClick={(e) => { e.stopPropagation(); videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause(); }} className="text-white">
+           <div className="flex items-center justify-between bg-black/60 backdrop-blur-3xl p-3 md:p-4 rounded-[1.5rem] border border-white/10 shadow-2xl">
+              <div className="flex items-center gap-3 min-w-0 flex-1">
+                <button onClick={(e) => { e.stopPropagation(); videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause(); }} className="text-white shrink-0">
                   {isPlaying ? <Pause size={24} fill="currentColor" /> : <Play size={24} fill="currentColor" />}
                 </button>
-                
-                <div className="flex items-center gap-2 relative pl-1">
+                <div className="flex items-center gap-2 relative pl-1 shrink-0">
                   <button onClick={(e) => { e.stopPropagation(); setShowVolumeBar(!showVolumeBar); }} className="text-white">
                     {isMuted ? <VolumeX size={22} /> : <Volume2 size={22} />}
                   </button>
-                  <div className={`transition-all duration-300 overflow-hidden flex items-center ${showVolumeBar ? 'w-16 md:w-24 ml-2' : 'w-0'}`}>
-                    <input type="range" min="0" max="1" step="0.01" value={volume} onChange={handleVolumeChange} className="w-full accent-amber-500 h-1 bg-white/20 rounded-lg appearance-none cursor-pointer" />
-                  </div>
+                  {showVolumeBar && <input type="range" min="0" max="1" step="0.01" value={volume} onChange={handleVolumeChange} className="w-16 md:w-24 accent-amber-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer ml-2" />}
                 </div>
-
-                <div className="h-8 w-px bg-white/10 mx-1 md:mx-2" />
+                <div className="h-8 w-px bg-white/10 mx-1 md:mx-2 shrink-0" />
                 <div className="flex flex-col min-w-0 flex-1">
-                   <span className="text-[8px] font-black text-amber-500 uppercase leading-none mb-0.5 opacity-70">Broadcast Feed</span>
-                   <span className="text-[10px] md:text-sm font-black text-white truncate uppercase italic">{channel.name}</span>
+                   <span className="text-[10px] font-black text-white truncate uppercase italic leading-tight">{channel.name}</span>
                 </div>
               </div>
-
-              <div className="flex items-center gap-2 md:gap-4 shrink-0">
-                <button onClick={(e) => { e.stopPropagation(); toggleFullscreen(); }} className="bg-amber-500 p-2 md:p-2.5 rounded-xl text-black hover:bg-white transition-all shadow-lg active:scale-90">
-                  <Maximize size={20} strokeWidth={3} />
-                </button>
-              </div>
+              
+              {/* FIXED FULLSCREEN BUTTON WITH ICON SWITCH */}
+              <button onClick={toggleFullscreen} className="bg-amber-500 p-2 rounded-xl text-black ml-4 shrink-0 shadow-lg active:scale-90 transition-all">
+                {isFullscreen ? <Minimize2 size={20} strokeWidth={3} /> : <Maximize size={20} strokeWidth={3} />}
+              </button>
            </div>
         </div>
       </div>

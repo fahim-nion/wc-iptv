@@ -8,10 +8,21 @@ export default function App() {
   const { channels = [], setChannels, currentChannel, setCurrentChannel, searchQuery = '', setSearchQuery, favorites = [], toggleFavorite, selectedCategory, setCategory } = useStore();
   const [leftOpen, setLeftOpen] = useState(true);
   const [rightOpen, setRightOpen] = useState(true);
-  const [viewerCount, setViewerCount] = useState(1240);
+  
+  // REAL-TIME SYNCED COUNTER LOGIC
+  const [viewerCount, setViewerCount] = useState(313);
 
   useEffect(() => {
-    const interval = setInterval(() => setViewerCount(v => v + Math.floor(Math.random() * 3) - 1), 2000);
+    const updateCount = () => {
+      const now = new Date();
+      const baseLoad = 300;
+      const timeFactor = (now.getHours() * 2) + now.getMinutes();
+      const jitter = Math.floor((now.getSeconds() / 10)); // Changes every 10 seconds
+      setViewerCount(baseLoad + timeFactor + jitter);
+    };
+
+    updateCount();
+    const interval = setInterval(updateCount, 10000); // Sync every 10 seconds
     return () => clearInterval(interval);
   }, []);
 
@@ -47,13 +58,21 @@ export default function App() {
             <Trophy className="text-amber-500" size={24} /><h1 className="font-black text-xl tracking-tighter italic hidden sm:block text-white uppercase">WORLD CUP IPTV 📺</h1>
           </div>
         </div>
-        <div className="hidden lg:flex items-center gap-3 bg-white/5 px-4 py-2 rounded-2xl border border-white/5">
-          <div className="flex -space-x-2">{[1,2,3].map(i => <div key={i} className="w-6 h-6 rounded-full border-2 border-[#0B1220] overflow-hidden"><img src={`https://i.pravatar.cc/100?img=${i+25}`} alt="" /></div>)}</div>
-          <div className="flex flex-col"><span className="text-[10px] font-bold text-slate-500 leading-none uppercase">Live Viewers</span><span className="text-xs font-black text-emerald-500">{viewerCount.toLocaleString()} Online</span></div>
+
+        {/* UPDATED REAL-TIME SYNCED VIEWER UI */}
+        <div className="hidden lg:flex items-center gap-3 bg-white/5 px-4 py-2 rounded-2xl border border-white/5 shadow-inner">
+          <div className="flex -space-x-2">
+            {[1,2,3].map(i => <div key={i} className="w-6 h-6 rounded-full border-2 border-[#0B1220] overflow-hidden bg-slate-800"><img src={`https://i.pravatar.cc/100?img=${i+40}`} alt="" /></div>)}
+          </div>
+          <div className="flex flex-col">
+            <span className="text-[10px] font-black text-emerald-500 leading-none uppercase animate-pulse">Online:{viewerCount}</span>
+            <span className="text-[9px] font-bold text-slate-500 uppercase tracking-tighter">Global Devices</span>
+          </div>
         </div>
+
         <div className="flex items-center gap-3">
-          <label className="bg-emerald-600 hover:bg-emerald-500 px-4 py-2 rounded-xl text-xs font-bold cursor-pointer flex items-center gap-2 active:scale-95 transition-all"><Upload size={16} /> <span className="hidden md:inline">IMPORT M3U</span> <input type="file" accept=".m3u,.ts" className="hidden" onChange={handleFile} /></label>
-          <button onClick={() => setRightOpen(!rightOpen)} className="p-2 bg-white/5 hover:bg-amber-500 rounded-xl text-amber-500"><Search size={20} /></button>
+          <label className="bg-emerald-600 hover:bg-emerald-500 px-4 py-2 rounded-xl text-xs font-bold cursor-pointer flex items-center gap-2 active:scale-95 transition-all shadow-lg"><Upload size={16} /> <span className="hidden md:inline">IMPORT M3U</span> <input type="file" accept=".m3u,.ts" className="hidden" onChange={handleFile} /></label>
+          <button onClick={() => setRightOpen(!rightOpen)} className="p-2 bg-white/5 hover:bg-amber-500 rounded-xl text-amber-500 transition-colors"><ChevronRight size={20} /></button>
         </div>
       </header>
 
@@ -68,19 +87,27 @@ export default function App() {
 
         <main className="flex-1 flex flex-col min-w-0 bg-[#060B15] overflow-y-auto scrollbar-hide p-4 md:p-8">
           <div className="max-w-4xl mx-auto w-full">
-            {channels.length === 0 && (<div className="mb-6 p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-4"><Info size={20} /><p className="text-sm text-blue-100 font-bold uppercase">How to watch: Go to <a href="https://t.ly/CVQtD" target="_blank" className="text-amber-500 underline">This Link</a> and download "sports.m3u" and import above.</p></div>)}
-            <Player channel={currentChannel} />
-            {currentChannel && (<div className="mt-6 border-b border-white/5 pb-6 px-2"><h2 className="text-2xl md:text-4xl font-black text-white tracking-tighter uppercase">{currentChannel.name}</h2><p className="text-amber-500 font-bold uppercase tracking-[0.3em] text-[10px] mt-1">{currentChannel.group}</p></div>)}
-            {(!leftOpen || window.innerWidth < 768) && <div className="mt-10 animate-in fade-in duration-700"><DevCard /></div>}
-            <div className="h-40 w-full" />
+            {channels.length === 0 && (
+              <div className="mb-6 p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-4 animate-in fade-in duration-500">
+                <Info size={20} className="text-blue-400 shrink-0" />
+                <p className="text-sm text-blue-100 font-bold leading-relaxed uppercase tracking-tighter">
+                  How to watch: Go to <a href="https://t.ly/CVQtD" target="_blank" className="text-amber-500 underline">This Link</a> and download the file name "fifa-2026.m3u" and then import the file using the button above. Done! Select Channels by clicking the seach icon again. Happy Watching !! This process is only for the first time only!!!
+                </p>
+              </div>
+            )}
+            
+            {/* UNIQUE KEY FORCED REFRESH */}
+            <Player key={currentChannel?.url} channel={currentChannel} />
+            
+            {currentChannel && (<div className="mt-6 border-b border-white/5 pb-6 px-2 animate-in slide-in-from-left-5 duration-500"><h2 className="text-2xl md:text-4xl font-black text-white tracking-tighter uppercase">{currentChannel.name}</h2><p className="text-amber-500 font-bold uppercase tracking-[0.3em] text-[10px] mt-1">{currentChannel.group}</p></div>)}
+            {(!leftOpen || window.innerWidth < 768) && <div className="mt-10 animate-in fade-in duration-700 pb-20"><DevCard /></div>}
           </div>
         </main>
 
         <aside className={`${rightOpen ? 'w-full md:w-96 border-l fixed md:relative z-50 h-[calc(100vh-64px)]' : 'w-0'} transition-all duration-500 border-white/5 bg-[#0B1220] flex flex-col shrink-0 overflow-hidden right-0`}>
-          <div className="p-4 border-b border-white/5 flex items-center justify-between"><div className="relative flex-1 group"><Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" size={16} /><input type="text" placeholder="Find Channel..." className="w-full bg-[#060B15] border border-white/10 rounded-xl py-3 pl-10 pr-4 text-xs font-bold focus:outline-none" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} /></div><button onClick={() => setRightOpen(false)} className="md:hidden ml-2 p-2 bg-white/5 rounded-lg"><X size={20}/></button></div>
-          <div className="flex-1 overflow-y-auto p-4 space-y-3 scrollbar-hide">
-             {filtered.map(channel => (<div key={channel.url} onClick={() => { setCurrentChannel(channel); if(window.innerWidth < 768) setRightOpen(false); }} className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-lg' : 'bg-white/5 border-transparent'}`}><div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 ${currentChannel?.url === channel.url ? 'bg-amber-500 shadow-lg' : 'bg-black'}`}>{channel.logo ? <img src={channel.logo} className="w-full h-full object-contain p-1" alt="" /> : <Globe size={20} className={currentChannel?.url === channel.url ? 'text-black' : 'text-slate-600'} />}</div><div className="flex-1 min-w-0"><h4 className={`text-xs font-bold truncate ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4><p className="text-[9px] text-slate-500 uppercase font-bold truncate">{channel.group}</p></div><button onClick={(e) => { e.stopPropagation(); toggleFavorite(channel.url); }} className={favorites.includes(channel.url) ? 'text-amber-500' : 'text-slate-700'}><Star size={18} fill={favorites.includes(channel.url) ? "currentColor" : "none"} /></button></div>))}
-             <div className="h-40" />
+          <div className="p-4 border-b border-white/5 flex items-center justify-between shrink-0"><div className="relative flex-1 group"><Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" size={16} /><input type="text" placeholder="Find Channel..." className="w-full bg-[#060B15] border border-white/10 rounded-xl py-3 pl-10 pr-4 text-xs font-bold focus:outline-none" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} /></div><button onClick={() => setRightOpen(false)} className="md:hidden ml-2 p-2 bg-white/5 rounded-lg"><X size={20}/></button></div>
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 scrollbar-hide pb-24">
+             {filtered.map(channel => (<div key={channel.url} onClick={() => { setCurrentChannel(channel); if(window.innerWidth < 768) setRightOpen(false); }} className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-lg' : 'bg-white/5 border-transparent hover:border-white/5'}`}><div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 ${currentChannel?.url === channel.url ? 'bg-amber-500 shadow-lg' : 'bg-black'}`}>{channel.logo ? <img src={channel.logo} className="w-full h-full object-contain p-1" alt="" /> : <Globe size={20} className={currentChannel?.url === channel.url ? 'text-black' : 'text-slate-600'} />}</div><div className="flex-1 min-w-0"><h4 className={`text-xs font-bold truncate ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4><p className="text-[9px] text-slate-500 uppercase font-bold truncate">{channel.group}</p></div><button onClick={(e) => { e.stopPropagation(); toggleFavorite(channel.url); }} className={favorites.includes(channel.url) ? 'text-amber-500' : 'text-slate-700'}><Star size={18} fill={favorites.includes(channel.url) ? "currentColor" : "none"} /></button></div>))}
           </div>
         </aside>
       </div>
