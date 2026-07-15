@@ -19,6 +19,6 @@ export const useStore = create(
       setSearchQuery: (q) => set({ searchQuery: q }),
       setCategory: (cat) => set({ selectedCategory: cat }),
     }),
-    { name: 'iptv-storage' }
+    { name: 'worldcup-iptv-v3' }
   )
 );

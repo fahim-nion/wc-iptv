@@ -3,11 +3,12 @@ import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
 import { Play, Pause, Maximize, Minimize2, Volume2, VolumeX, ShieldCheck, Loader2, AlertCircle } from 'lucide-react';
 
-export default function Player({ channel }) {
+export default function Player({ channel, onStall }) {
   const videoRef = useRef(null);
   const containerRef = useRef(null);
   const engineRef = useRef(null);
   const controlsTimer = useRef(null);
+  const stallTimer = useRef(null); // Ref to track freezing during playback
   
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
@@ -30,13 +31,18 @@ export default function Player({ channel }) {
     const isTS = url.includes('.ts') || url.includes('mpegts');
     setStreamType(isTS ? 'MPEG-TS' : 'HLS');
 
+    // 1. Progress Bar Logic (Slower for 10s buffer)
     const progressInterval = setInterval(() => {
-      setLoadingProgress(prev => (prev < 95 ? prev + Math.random() * 12 : prev));
-    }, 300);
+      setLoadingProgress(prev => (prev < 95 ? prev + Math.random() * 5 : prev));
+    }, 500);
 
+    // 2. INCREASED WATCHDOG: Wait 12 seconds for initial loading before error
     const watchdog = setTimeout(() => {
-      if (videoRef.current && videoRef.current.readyState < 3) setHasError(true);
-    }, 8000);
+      if (videoRef.current && videoRef.current.readyState < 3) {
+        setHasError(true);
+        setIsLoading(false);
+      }
+    }, 12000);
 
     if (isTS && mpegts.getFeatureList().mseLivePlayback) {
       const tsPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url, hasVideo: true }, {
@@ -47,7 +53,12 @@ export default function Player({ channel }) {
       tsPlayer.play().then(() => finishLoading()).catch(() => {});
       engineRef.current = tsPlayer;
     } else if (Hls.isSupported()) {
-      const hls = new Hls({ enableWorker: true, maxBufferSize: 150 * 1024 * 1024 });
+      const hls = new Hls({ 
+        enableWorker: true, 
+        maxBufferSize: 200 * 1024 * 1024,
+        manifestLoadingTimeOut: 15000, // Wait 15s for manifest
+        fragLoadingTimeOut: 15000     // Wait 15s for video chunks
+      });
       hls.loadSource(channel.url);
       hls.attachMedia(videoRef.current);
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
@@ -64,33 +75,38 @@ export default function Player({ channel }) {
       setTimeout(() => { setIsLoading(false); setIsPlaying(true); }, 400);
     }
 
-    // Fullscreen Change Listener (Updates icon if user presses ESC)
-    const handleFsChange = () => setIsFullscreen(!!document.fullscreenElement);
-    document.addEventListener('fullscreenchange', handleFsChange);
-
+    // 3. INCREASED STALL TIMER: Handles freezing during playback
     const v = videoRef.current;
-    const syncPlay = () => setIsPlaying(true);
-    const syncPause = () => setIsPlaying(false);
-    v.addEventListener('play', syncPlay);
-    v.addEventListener('pause', syncPause);
+    const handleWaiting = () => {
+      clearTimeout(stallTimer.current);
+      // Wait 10 seconds of "Waiting/Buffering" state before switching channel
+      stallTimer.current = setTimeout(() => {
+        if (v.paused || v.readyState < 3) onStall();
+      }, 15000); 
+    };
+
+    const handlePlaying = () => clearTimeout(stallTimer.current);
+
+    v.addEventListener('waiting', handleWaiting);
+    v.addEventListener('playing', handlePlaying);
+    v.addEventListener('play', () => setIsPlaying(true));
+    v.addEventListener('pause', () => setIsPlaying(false));
 
     return () => {
       clearTimeout(watchdog);
+      clearTimeout(stallTimer.current);
       clearInterval(progressInterval);
-      document.removeEventListener('fullscreenchange', handleFsChange);
-      v.removeEventListener('play', syncPlay);
-      v.removeEventListener('pause', syncPause);
+      v.removeEventListener('waiting', handleWaiting);
+      v.removeEventListener('playing', handlePlaying);
       if (engineRef.current) engineRef.current.destroy();
     };
   }, [channel]);
 
+  // UI Handlers (Same as before)
   const handleUserActivity = () => {
     setShowControls(true);
     if (controlsTimer.current) clearTimeout(controlsTimer.current);
-    controlsTimer.current = setTimeout(() => {
-      setShowControls(false);
-      setShowVolumeBar(false);
-    }, 2000);
+    controlsTimer.current = setTimeout(() => { setShowControls(false); setShowVolumeBar(false); }, 2500);
   };
 
   const handleVolumeChange = (e) => {
@@ -103,18 +119,11 @@ export default function Player({ channel }) {
     }
   };
 
-  // FIXED FULLSCREEN LOGIC (Cross-Browser)
   const toggleFullscreen = (e) => {
     e.stopPropagation();
     if (!containerRef.current) return;
-
-    if (!document.fullscreenElement) {
-      containerRef.current.requestFullscreen().catch(err => console.log(err));
-    } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      }
-    }
+    if (!document.fullscreenElement) containerRef.current.requestFullscreen();
+    else document.exitFullscreen();
   };
 
   if (!channel) return (
@@ -128,12 +137,16 @@ export default function Player({ channel }) {
     <div ref={containerRef} className="relative w-full aspect-video bg-black rounded-[2rem] overflow-hidden shadow-2xl border border-white/10 cursor-none" onMouseMove={handleUserActivity} onClick={handleUserActivity}>
       <video ref={videoRef} className="w-full h-full object-contain" playsInline onClick={() => videoRef.current.paused ? videoRef.current.play() : videoRef.current.pause()} />
 
+      {/* SYNCING PROGRESS BAR (10s Mode) */}
       {isLoading && !hasError && (
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060B15] z-20 px-12">
-          <Loader2 className="w-10 h-10 text-amber-500 animate-spin mb-6" />
+          <div className="relative flex items-center justify-center mb-10">
+            <div className="absolute w-24 h-24 border-2 border-amber-500/10 rounded-full animate-ping" />
+            <Loader2 className="w-10 h-10 text-amber-500 animate-spin" />
+          </div>
           <div className="w-full max-w-xs">
             <div className="flex justify-between items-end mb-2 text-amber-500 font-black text-[10px] uppercase">
-               <span className="animate-pulse">Syncing 4K Satellite...</span>
+               <span className="animate-pulse tracking-widest">Optimizing 4K Broadcast...</span>
                <span>{Math.round(loadingProgress)}%</span>
             </div>
             <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
@@ -144,16 +157,15 @@ export default function Player({ channel }) {
       )}
 
       {hasError && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/95 z-30 px-6 text-center animate-in fade-in duration-500">
-          <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center mb-4 border border-red-500/20">
-              <AlertCircle className="text-red-500 w-8 h-8" />
-          </div>
-          <h3 className="text-white font-black text-sm uppercase tracking-tighter">Broadcast Failed to Load</h3>
-          <p className="text-slate-400 text-[10px] mt-2 leading-relaxed max-w-[200px] uppercase font-bold">The stream is currently unavailable. Please try another channel.</p>
-          <button onClick={() => window.location.reload()} className="mt-6 px-6 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-[10px] font-black uppercase transition-all">Retry Connection</button>
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/95 z-30 text-center px-6">
+           <AlertCircle className="text-red-500 w-10 h-10 mb-4" />
+           <p className="text-white font-black text-sm uppercase">Broadcast Failed to Load</p>
+           <p className="text-slate-500 text-[10px] mt-2 uppercase font-bold">Please try another channel</p>
+           <button onClick={onStall} className="mt-6 px-6 py-2 bg-white/5 border border-white/10 rounded-xl text-[10px] font-black uppercase">Try Next Channel</button>
         </div>
-            )}
+      )}
 
+      {/* OVERLAY CONTROLS */}
       <div className={`absolute inset-0 bg-gradient-to-t from-black/90 via-transparent transition-opacity duration-300 z-10 ${showControls ? 'opacity-100 cursor-default' : 'opacity-0'}`}>
         <div className="absolute top-4 left-6 right-6 flex justify-between">
           <div className="flex gap-2">
@@ -174,15 +186,13 @@ export default function Player({ channel }) {
                   <button onClick={(e) => { e.stopPropagation(); setShowVolumeBar(!showVolumeBar); }} className="text-white">
                     {isMuted ? <VolumeX size={22} /> : <Volume2 size={22} />}
                   </button>
-                  {showVolumeBar && <input type="range" min="0" max="1" step="0.01" value={volume} onChange={handleVolumeChange} className="w-16 md:w-24 accent-amber-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer ml-2" />}
+                  {showVolumeBar && <input type="range" min="0" max="1" step="0.01" value={volume} onChange={handleVolumeChange} className="w-16 md:w-24 accent-amber-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer ml-3" />}
                 </div>
                 <div className="h-8 w-px bg-white/10 mx-1 md:mx-2 shrink-0" />
                 <div className="flex flex-col min-w-0 flex-1">
-                   <span className="text-[10px] font-black text-white truncate uppercase italic leading-tight">{channel.name}</span>
+                   <span className="text-[10px] md:text-sm font-black text-white truncate uppercase italic leading-tight">{channel.name}</span>
                 </div>
               </div>
-              
-              {/* FIXED FULLSCREEN BUTTON WITH ICON SWITCH */}
               <button onClick={toggleFullscreen} className="bg-amber-500 p-2 rounded-xl text-black ml-4 shrink-0 shadow-lg active:scale-90 transition-all">
                 {isFullscreen ? <Minimize2 size={20} strokeWidth={3} /> : <Maximize size={20} strokeWidth={3} />}
               </button>
