@@ -5,8 +5,8 @@ import Player from './components/Player';
 import { Search, Trophy, Star, Globe, Upload, Menu, X, ChevronRight, Info } from 'lucide-react';
 
 const INITIAL_M3U = `#EXTM3U
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/500px-RT%C3%892_logo.svg.png", RTE 2
-https://lalisccor.cachefly.net/laliscor/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://toppng.com/uploads/preview/logo-4k-11551060322xmawyydci2.png",FUSBALL TV [4K]
+https://cp11.adabmedia.com/hls2/sport.m3u8
 #EXTINF:-1 tvg-logo="https://colatv99.live/assets/images/logo.png",[COLA TV]
 https://live05.miekgo.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://colatv99.live/assets/images/logo.png",[COLA TV 2]
@@ -26,9 +26,9 @@ https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1784143464-0-0-fe5
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/YBF92jSC/logo-1-1.jpg",[XOILACZ]
 https://live1.streambylivepulse.com/live/channel6/playlist.m3u8?wsSecret=20317deda3847ae68be92a0f5ed0a302&wsABSTime=1784182316
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/YBF92jSC/logo-1-1.jpg",XOILACZ
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/500px-RT%C3%892_logo.svg.png", RTE 2
-https://lalisccor.cachefly.net/laliscor/tracks-v1a1/mono.ts.m3u8
 https://tfxk0gr3uomttgr31hctw8rzdncbpptwzc3jt.100ycdn.com/live1.streambylivepulse.com/live/channel4/playlist.m3u8?wsSecret=a7499c154c8948b6955453c733271bc5&wsABSTime=1784101095&wsSession=3b79b4a6e4547ee380d183c4-178405789653961&wsIPSercert=b41b60f371bffd666ca402e9a6e5d4f0&wsBindIP=2&wsserid=1168235407083771445
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Fkn2WyZf/Screenshot-2026-07-19-044156.png",yyzb
+https://pullsgp.yyzb456.top/live/stream-502401_lhd.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/500px-Bangladesh_Television_Logo.svg.png", BTV
 https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.60.204%3A881%2FBTV%2Ftracks-v1a1%2Fmono.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/500px-SOMOY_TV_Logo.svg.png", SOMOY TV
@@ -38,7 +38,22 @@ https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.61.12%2Ftv.
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",TRT 1
 https://andro.evrenesoglu57.click/checklist/androstreamlivetrt1.m3u8
 #EXTINF:-1 tvg-logo="https://kids.kiddle.co/images/thumb/0/0c/PTV_Logo.png/250px-PTV_Logo.png", PTV
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.61.12%2FPTV%2Ftracks-v1a1%2Fmono.m3u8`;
+https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.61.12%2FPTV%2Ftracks-v1a1%2Fmono.m3u8
+#EXTINF:-1 tvg-logo="https://en.wikipedia.org/wiki/File:T_Sports_logo.svg", CCTV 5
+https://live01-cn-ali.bvjicd.com/live/79361366.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/500px-RT%C3%892_logo.svg.png", TYC Sport
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb563d1e786c6d8b84c83b64cef462eda65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5cad6852db80148b6f4adafb8c2360625f5c98435ee3b02bf7a8fe5c40d872a1af1c56953d51e3d146cfd249ed86c9539c42826bf015cb93ed83d011d19b9736fa54b1615b0c722dcc834bbda329de4f0e4043fe530c047477e7ad94f24f3883544b2e9795a99e568fd84a1447fb0416a8099935e47aea39eb610f803ff298eb958b926e84bd498bc9247757bcdb7f599c75f2a3a6f97b7d92f72edf26a370f52d31319cf1ca5bd18d45d6fe148cba6d122fd3d16bafdde3d3a1e0d60aab2cc491a0c37d5a18374d42a74db29668ec2cdf53a1da5c740f1a0afecc158cadf16a1d4e03c68c57df165b9ede8888d0477be9680955e565960a503c8264222cab7db9a93d6a883403ca606eac1666d602d9bc2bbaf68eb5486bfb8e89128d1a85df3ddbf806a67a2f1953e3804b71710c2c80a036777f13aa68edd0d8ee640606f885a4d3c9502a082a185418f18cc2749c8b80645d21c85d226f630355f120d37ad414461024ab4f844c6893658c934bd550094c7b9bf300f6c90ba55c76084b/17/1920x1080_5162480/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/500px-KBS_2_logo.svg.png", KBS TV
+https://a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pullsgp.yyzb456.top/live/stream-259579_lhd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=38f4b38e7c5842a7628642ec13ca5767
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Bein_mediagroup_logo.svg/500px-Bein_mediagroup_logo.svg.png", BEIN ITV
+https://andro.evrenesoglu57.click/checklist/androstreamliveexn4.m3u8
+#EXTINF:-1 tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/07/28/images_d6ce912746f794656d087b55ef04100d_goplay_bios.png", BIOSCOPE
+https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_2.m3u8
+#EXTINF:-1 tvg-logo="https://www.camel1.tv/images/common/logo-en.webp?w=384&q=75",CAMEL LIVE
+https://liveplay1.camel4.live/live/sd-6MwdpxeKKojUVrPPnw.m3u8?txSecret=777849f929c2978f7bd0d9d3024d97ba&txTime=6A5CFDDF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/TSN_Logo.svg/500px-TSN_Logo.svg.png",TSN 720p
+https://dellamonic.s3.us-east-2.amazonaws.com/btsport_720p30.m3u8
+`;
 
 export default function App() {
   const { channels, setChannels, currentChannel, setCurrentChannel, searchQuery, setSearchQuery, favorites, toggleFavorite, selectedCategory, setCategory } = useStore();
