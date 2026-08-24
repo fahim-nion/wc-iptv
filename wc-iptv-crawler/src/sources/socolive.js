@@ -3,102 +3,89 @@ import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import config from '../../config.js';
 import { validateStream } from '../validation/validateStream.js';
-import { captureNetworkStream } from '../extraction/networkCapture.js';
 
 export async function inspectSocolive(matchUrl) {
+    const commonHeaders = { 
+        'User-Agent': config.userAgent,
+        'Referer': 'https://socolivea.tv/',
+        'Origin': 'https://socolivea.tv'
+    };
+
     console.log("Fetching Match Page...");
-    const res = await fetch(matchUrl, { headers: { 'User-Agent': config.userAgent } });
+    const res = await fetch(matchUrl, { headers: commonHeaders });
     const html = await res.text();
     const $ = cheerio.load(html);
 
-    const postId = 
-        $('link[rel="shortlink"]').attr('href')?.split('=')?.pop() || 
-        $('body').attr('class')?.match(/postid-(\d+)/)?.[1] ||
-        html.match(/"postId":(\d+)/)?.[1] ||
-        $('article').attr('id')?.split('-').pop();
+    // 1. Detect Post ID
+    const postId = $('link[rel="shortlink"]').attr('href')?.split('=')?.pop() || 
+                   html.match(/"postId":(\d+)/)?.[1] ||
+                   $('article').attr('id')?.split('-').pop();
 
     if (!postId) throw new Error("Could not detect Socolive Post ID");
-    console.log(`Detected Post ID: ${postId}`);
+    
+    // 2. Get Embed URL
+    const ticketRes = await fetch(`https://socolivea.tv/wp-json/soco/v1/tracker-ticket?post_id=${postId}`, { headers: commonHeaders });
+    const ticket = await ticketRes.json();
+    if (!ticket.src) throw new Error("No embed found");
 
-    const apiEndpoint = `https://socolivea.tv/wp-json/soco/v1/tracker-ticket?post_id=${postId}`;
-    const apiRes = await fetch(apiEndpoint, { headers: { 'User-Agent': config.userAgent } });
-    const ticket = await apiRes.json();
-
-    if (!ticket.src) throw new Error("No embed source found in tracker-ticket");
-    console.log(`Found Embed: ${ticket.src}`);
-
-    // --- STEP 1: Fetch and Save Embed for Debugging ---
-    const embedRes = await fetch(ticket.src, {
-        headers: {
-            'User-Agent': config.userAgent,
-            'Referer': 'https://socolivea.tv/'
-        }
-    });
+    console.log(`Analyzing Embed: ${ticket.src}`);
+    const embedRes = await fetch(ticket.src, { headers: { ...commonHeaders, 'Referer': matchUrl } });
     const embedHtml = await embedRes.text();
     fs.writeFileSync("debug-socolive-embed.html", embedHtml);
 
+    // 3. HUNT FOR THE "PROFILE" OR STREAM URL
     let streamUrl = null;
 
-    // --- STEP 2 & 3: Reproduce Real Player API Flow ---
-    // Search for "profile" or "api.trackervsb.live" in the HTML
-    const profileMatch = embedHtml.match(/profile["']?\s*:\s*["']([^"']+)["']/i) || 
-                         embedHtml.match(/profile=([^"&' \n]+)/i);
+    // A. Direct scan of the embed HTML for the uc?profile= pattern
+    const profileMatch = embedHtml.match(/profile=([a-zA-Z0-9.\-_]+)/i) || 
+                         embedHtml.match(/profile["']?\s*:\s*["']([^"']+)["']/i);
 
     if (profileMatch) {
         const profile = profileMatch[1];
-        console.log(`Detected Profile: ${profile.substring(0, 10)}...`);
+        console.log("Detected Trackervsb Profile. Calling UC API...");
         
-        const ucApiUrl = `https://api.trackervsb.live/uc?profile=${profile}`;
-        console.log("Calling Player Config API (UC)...");
-
-        try {
-            const ucRes = await fetch(ucApiUrl, {
-                headers: {
-                    'User-Agent': config.userAgent,
-                    'Referer': ticket.src,
-                    'Origin': 'https://tracker.sportbo.live'
-                }
-            });
-
-            console.log("UC API STATUS:", ucRes.status);
-            const ucText = await ucRes.text();
-            
-            // Try to find the m3u8 in the response (JSON or raw string)
-            const m3u8Match = ucText.match(/["'](https?[^"']+\.m3u8[^"']*)["']/i);
-            if (m3u8Match) {
-                streamUrl = m3u8Match[1].replace(/\\/g, '');
-                console.log("Stream discovered via UC API.");
-            }
-        } catch (e) {
-            console.error("UC API Flow failed:", e.message);
-        }
+        const ucRes = await fetch(`https://api.trackervsb.live/uc?profile=${profile}`, {
+            headers: { ...commonHeaders, 'Referer': ticket.src }
+        });
+        const ucData = await ucRes.text();
+        const m3u8 = ucData.match(/["'](https?[^"']+\.m3u8[^"']*)["']/i);
+        if (m3u8) streamUrl = m3u8[1].replace(/\\/g, '');
     }
 
-    // --- STEP 4: Playwright Fallback ---
+    // B. Script Scan Fallback: Scan every .js file loaded by the embed
     if (!streamUrl) {
-        console.log("HTTP Extraction failed. Attempting Browser Network Capture...");
-        try {
-            const captured = await captureNetworkStream(ticket.src, "https://socolivea.tv/");
-            streamUrl = captured.url;
-        } catch (e) {
-            console.error("Browser capture failed:", e.message);
+        console.log("Profile not in HTML. Scanning JavaScript files...");
+        const e$ = cheerio.load(embedHtml);
+        const scripts = e$('script[src]').map((i, el) => e$(el).attr('src')).get();
+
+        for (let src of scripts) {
+            try {
+                const scriptUrl = src.startsWith('http') ? src : new URL(src, ticket.src).href;
+                const scriptRes = await fetch(scriptUrl, { headers: commonHeaders });
+                const scriptText = await scriptRes.text();
+                
+                const found = scriptText.match(/https?:\/\/[a-zA-Z0-9\-_.]+\.m3u8[a-zA-Z0-9\-_?=&]*/i);
+                if (found) {
+                    streamUrl = found[0];
+                    break;
+                }
+            } catch (e) { continue; }
         }
     }
 
-    // --- STEP 6 & 7: Validation ---
+    // 4. Final Validation
     if (streamUrl) {
-        const urlObj = new URL(streamUrl);
         const validation = await validateStream(streamUrl);
+        const host = new URL(streamUrl).hostname;
 
         return {
             title: $('h1').first().text().trim() || "Socolive Match",
-            streamUrl: streamUrl,
+            streamUrl,
             type: 'HLS',
-            host: urlObj.hostname,
-            path: urlObj.pathname,
+            host: host,
             valid: validation.isValid ? 'YES' : 'NO'
         };
     }
 
-    throw new Error("Final stream extraction failed.");
+    throw new Error("HTTP/Script extraction failed. Environment requires Chromium for Playwright fallback.");
 }
