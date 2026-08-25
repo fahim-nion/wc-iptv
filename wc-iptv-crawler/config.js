@@ -4,13 +4,13 @@ export default {
             enabled: true, 
             priority: 1, 
             homepage: "https://socoliveq.tv/",
-            mirrors: ["https://socolive.live/", "https://socolive1.com/"]
+            mirrors: ["https://socolivea.tv/", "https://socolive1.com/"]
         },
         colatv: { 
             enabled: true, 
             priority: 2, 
             homepage: "https://cola-affcup2026.tv/",
-            mirrors: ["https://cola.live/", "https://colalive.tv/"]
+            mirrors: ["https://colatv77.live/", "https://colalive.tv/"]
         },
         xoilac: { 
             enabled: true, 
