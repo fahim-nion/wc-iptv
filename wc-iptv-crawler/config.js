@@ -3,22 +3,20 @@ export default {
         socolive: { 
             enabled: true, 
             priority: 1, 
-            // Updated to the working domain from your log
-            homepage: "https://socoliveq.tv/",
-            mirrors: ["https://socolivea.tv/", "https://socolive.live/"]
+            homepage: "https://socolive.live/",
+            mirrors: ["https://socolive1.com/", "https://socoliveq.tv/"]
         },
         colatv: { 
             enabled: true, 
             priority: 2, 
-            // Updated to the working domain from your log
-            homepage: "https://cola-affcup2026.tv/",
-            mirrors: ["https://colatv.live/", "https://bit.ly/colalive"]
+            homepage: "https://cola.live/",
+            mirrors: ["https://colalive.tv/", "https://cola-affcup2026.tv/"]
         },
         xoilac: { 
             enabled: true, 
             priority: 3, 
-            homepage: "https://xoilaczznnz.tv/",
-            mirrors: ["https://xoilaczziiz.tv/", "https://xoilac.tv/"]
+            homepage: "https://xoilac.live/",
+            mirrors: ["https://xoilaczznnz.tv/", "https://xoilaczziiz.tv/"]
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

@@ -25,10 +25,9 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         });
 
         await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        
-        // Trigger player
         await page.click('body').catch(() => {});
-        await page.waitForTimeout(10000);
+        // Standard Wait
+        await new Promise(r => setTimeout(r, 10000));
 
         if (candidates.length > 0) {
             for (const cand of candidates) {
@@ -36,9 +35,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                 if (validation.isValid) return { url: cand.url, type: cand.type };
             }
         }
-    } catch (e) {
-        console.log(`   ✘ ${label} Extraction failed.`);
-    } finally {
+    } catch (e) { } finally {
         await browser.close();
     }
     return null;
