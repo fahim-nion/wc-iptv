@@ -15,53 +15,50 @@ const getChromePath = () => {
 };
 const CHROME_PATH = getChromePath();
 
-async function smartGoto(page, url) {
-    await page.setUserAgent(config.userAgent);
-    await page.setViewport({ width: 390, height: 844, isMobile: true });
+async function smartGoto(page, sourceKey) {
+    const source = config.sources[sourceKey];
+    const urls = [source.homepage, ...(source.mirrors || [])];
     
-    console.log(`   ➤ Accessing: ${url}`);
-    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
-    
-    // 1. Wait specifically for a match link to appear in the HTML
-    // This handles the "Found 0 matches" issue
-    try {
-        await page.waitForSelector('a[href*="/truc-tiep/"]', { timeout: 15000 });
-        console.log("   ✔ Match list rendered.");
-    } catch (e) {
-        console.log("   ⚠ Content timeout: Match list didn't appear.");
+    for (const url of urls) {
+        try {
+            console.log(`   ➤ Trying: ${url}`);
+            // Use 'domcontentloaded' to avoid waiting for heavy ads
+            const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+            
+            // Wait for ANY match link to appear (maximum 10s)
+            await page.waitForSelector('a[href*="/truc-tiep/"]', { timeout: 10000 });
+            return true;
+        } catch (e) {
+            console.log(`   ⚠ Domain failed or timed out: ${new URL(url).hostname}`);
+            continue;
+        }
     }
-
-    // 2. Scroll a bit to trigger lazy-loading of more matches
-    await page.evaluate(() => window.scrollBy(0, 500));
-    await new Promise(r => setTimeout(r, 2000));
+    return false;
 }
 
 export async function discoverSocolive() {
     console.log("🔍 [Socolive] Scanning...");
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH, headless: true, 
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] 
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu'] 
     });
     const page = await browser.newPage();
     const matches = [];
 
     try {
-        await smartGoto(page, config.sources.socolive.homepage);
-        
+        const success = await smartGoto(page, 'socolive');
+        if (!success) throw new Error("No Socolive mirrors reachable.");
+
         const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {
-                // Find team names inside the card
-                const teamNodes = a.querySelectorAll('.name-match span, .name-team, .title span, .name');
-                let title = (teamNodes.length >= 2) 
-                    ? `${teamNodes[0].innerText.trim()} vs ${teamNodes[1].innerText.trim()}`
-                    : a.innerText.trim().split('\n')[0];
-                return { url: a.href, title };
+                const t = a.querySelector('.name-match, .title, .name-team, h3, span');
+                return { url: a.href, title: t ? t.innerText.trim() : a.innerText.trim() };
             });
         });
 
         const seen = new Set();
         for (const link of links) {
-            const clean = link.title.replace(/LINK TRỰC TIẾP |VÀO LÚC.*/gi, '').trim();
+            const clean = link.title.split('\n')[0].replace(/LINK TRỰC TIẾP /gi, '').trim();
             if (clean && !seen.has(link.url) && !link.title.includes('KẾT THÚC')) {
                 seen.add(link.url);
                 matches.push({ source: 'socolive', title: clean, url: link.url });
@@ -75,12 +72,13 @@ export async function discoverSocolive() {
 
 export async function discoverColaTV() {
     console.log("🔍 [ColaTV] Scanning...");
-    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox', '--disable-gpu'] });
     const page = await browser.newPage();
     const matches = [];
 
     try {
-        await smartGoto(page, config.sources.colatv.homepage);
+        const success = await smartGoto(page, 'colatv');
+        if (!success) throw new Error("No ColaTV mirrors reachable.");
         
         const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {
@@ -106,12 +104,13 @@ export async function discoverColaTV() {
 
 export async function discoverXoilac() {
     console.log("🔍 [Xoilac] Scanning...");
-    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox', '--disable-gpu'] });
     const page = await browser.newPage();
     const matches = [];
 
     try {
-        await smartGoto(page, config.sources.xoilac.homepage);
+        const success = await smartGoto(page, 'xoilac');
+        if (!success) throw new Error("No Xoilac mirrors reachable.");
         
         const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {

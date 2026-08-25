@@ -3,22 +3,22 @@ export default {
         socolive: { 
             enabled: true, 
             priority: 1, 
-            homepage: "https://bit.ly/socolive-live",
-            mirrors: ["https://socolive.live/", "https://socolive1.com/", "https://socoliveq.tv/"]
+            homepage: "https://socoliveq.tv/",
+            mirrors: ["https://socolive.live/", "https://socolive1.com/"]
         },
         colatv: { 
             enabled: true, 
             priority: 2, 
-            homepage: "https://bit.ly/colalive",
-            mirrors: ["https://cola.live/", "https://colalive.tv/", "https://cola-affcup2026.tv/"]
+            homepage: "https://cola-affcup2026.tv/",
+            mirrors: ["https://cola.live/", "https://colalive.tv/"]
         },
         xoilac: { 
             enabled: true, 
             priority: 3, 
-            homepage: "https://bit.ly/xoilac-live",
-            mirrors: ["https://xoilac.live/", "https://xoilaczznnz.tv/"]
+            homepage: "https://xoilaczznnz.tv/",
+            mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },
-    userAgent: "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 };
