@@ -1,9 +1,5 @@
 const PROXY = import.meta.env.VITE_PROXY_URL;
 
-/**
- * Wraps the stream URL with a proxy if defined in the environment.
- * Expects backend to handle: /proxy?url=...
- */
 export function getStreamUrl(url) {
   if (!PROXY || PROXY.length === 0) {
     return url;
