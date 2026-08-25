@@ -1,60 +1,36 @@
 {
-  "updatedAt": "2026-08-25T17:27:28.603Z",
+  "updatedAt": "2026-08-25T20:41:18.412Z",
   "channels": [
     {
-      "id": "live-e563eab886",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-351530_lhd.m3u8?auth_key=1787682241-0-0-8e41d00594525d274c606f4ba6efd91a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-48f2ee078f",
-      "title": "BLV GIÀ LÀNG",
+      "id": "live-7cb111a588",
+      "title": "BLV REVIVE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-b55ffa5306",
-      "title": "BLV REDBULL",
+      "id": "live-f51b174c65",
+      "title": "BLV SODA",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/49572724.m3u8",
+      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-8a1bbd1394",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-bfb67bad13",
+      "title": "BLV COZY",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-e33d7b1318",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7e8cccfe2d",
+      "id": "live-5690fd53de",
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=7d58866fb0d82bb55591b720df007a40&wsABSTime=1787722017",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ee7718947",
-      "title": "",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=129a0c50a03cc11839454f8f4a68e1d7&wsABSTime=1787722033",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=5dfa1c6241aa62085899529949349eec&wsABSTime=1787733666",
       "category": "Sports"
     }
   ]
