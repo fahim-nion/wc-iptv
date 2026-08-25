@@ -1,46 +1,32 @@
-import { chromium as baseChromium } from 'playwright-core';
-import { addExtra } from 'playwright-extra';
+import puppeteer from 'puppeteer-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import config from '../../config.js';
 
-// Manual patch for Termux/Playwright-Core compatibility
-const chromium = addExtra(baseChromium);
-chromium.use(stealth());
+puppeteer.use(stealth());
 
-async function setupDiscoveryPage(browser) {
+const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium';
+
+async function setupPage(browser) {
     const page = await browser.newPage();
-    await page.route('**/*', (route) => {
-        const type = route.request().resourceType();
-        if (['image', 'font', 'media'].includes(type)) return route.abort();
-        route.continue();
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+        if (['image', 'font', 'stylesheet', 'media'].includes(req.resourceType())) req.abort();
+        else req.continue();
     });
     return page;
 }
 
-async function smartGoto(page, sourceKey) {
-    const source = config.sources[sourceKey];
-    const urls = [source.homepage, ...(source.mirrors || [])];
-    for (const url of urls) {
-        try {
-            const res = await page.goto(url, { waitUntil: 'commit', timeout: 20000 });
-            await page.waitForSelector('body', { timeout: 10000 });
-            return url;
-        } catch (e) { continue; }
-    }
-    throw new Error(`All domains for ${sourceKey} failed.`);
-}
-
 export async function discoverSocolive() {
     console.log("🔍 [Socolive] Scanning...");
-    const browser = await chromium.launch({ 
-        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
-        headless: true, 
-        args: ['--no-sandbox'] 
+    const browser = await puppeteer.launch({ 
+        executablePath: CHROME_PATH,
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'] 
     });
-    const page = await setupDiscoveryPage(browser);
+    const page = await setupPage(browser);
     const matches = [];
     try {
-        await smartGoto(page, 'socolive');
+        await page.goto(config.sources.socolive.homepage, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await page.waitForTimeout(6000); 
         const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {
@@ -65,17 +51,17 @@ export async function discoverSocolive() {
 
 export async function discoverColaTV() {
     console.log("🔍 [ColaTV] Scanning...");
-    const browser = await chromium.launch({ 
-        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
+    const browser = await puppeteer.launch({ 
+        executablePath: CHROME_PATH,
         headless: true, 
         args: ['--no-sandbox'] 
     });
-    const page = await setupDiscoveryPage(browser);
+    const page = await setupPage(browser);
     const matches = [];
     try {
-        await smartGoto(page, 'colatv');
+        await page.goto(config.sources.colatv.homepage, { waitUntil: 'domcontentloaded' });
         await page.waitForTimeout(5000);
-        const links = await page.$$eval('.list-match a[href*="/truc-tiep/"]', (anchors) => {
+        const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {
                 const teams = a.querySelectorAll('.name');
                 const title = (teams.length >= 2) ? `${teams[0].innerText} vs ${teams[1].innerText}` : a.innerText.trim();
@@ -96,15 +82,15 @@ export async function discoverColaTV() {
 
 export async function discoverXoilac() {
     console.log("🔍 [Xoilac] Scanning...");
-    const browser = await chromium.launch({ 
-        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
+    const browser = await puppeteer.launch({ 
+        executablePath: CHROME_PATH,
         headless: true, 
         args: ['--no-sandbox'] 
     });
-    const page = await setupDiscoveryPage(browser);
+    const page = await setupPage(browser);
     const matches = [];
     try {
-        await smartGoto(page, 'xoilac');
+        await page.goto(config.sources.xoilac.homepage, { waitUntil: 'domcontentloaded' });
         await page.waitForTimeout(5000);
         const links = await page.$$eval('a[href*="/truc-tiep/"]', (anchors) => {
             return anchors.map(a => {
