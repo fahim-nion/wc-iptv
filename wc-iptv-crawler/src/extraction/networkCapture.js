@@ -4,7 +4,7 @@ import { validateStream } from '../validation/validateStream.js';
 
 puppeteer.use(stealth());
 
-const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium';
+const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium-browser';
 
 export async function captureNetworkStream(targetUrl, label = "Source") {
     const browser = await puppeteer.launch({ 

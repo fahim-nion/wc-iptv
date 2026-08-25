@@ -4,7 +4,7 @@ import config from '../../config.js';
 
 puppeteer.use(stealth());
 
-const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium';
+const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium-browser';;
 
 async function setupPage(browser) {
     const page = await browser.newPage();
