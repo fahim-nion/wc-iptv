@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:21:08.250Z",
+  "updatedAt": "2026-08-25T21:31:14.468Z",
   "channels": [
     {
       "id": "live-06a895767a",
@@ -10,11 +10,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-1c253d3b3c",
+      "title": "BLV COZY",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
+      "category": "Sports"
+    },
+    {
       "id": "live-c7e5cd92e1",
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=59eacd7d867ba250207782af18f19272&wsABSTime=1787736039",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=277340bf1117908650dc9eba991674fd&wsABSTime=1787736647",
       "category": "Sports"
     },
     {
@@ -22,7 +30,7 @@
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=4d2e379ce7463cc3ba9c89b5bfddc31a&wsABSTime=1787736056",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=a3feeb85d1fc22fa4a4051d94afaff90&wsABSTime=1787736662",
       "category": "Sports"
     }
   ]
