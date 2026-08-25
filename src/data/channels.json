@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-08-25T20:51:44.302Z",
+  "updatedAt": "2026-08-25T21:02:04.967Z",
   "channels": [
-    {
-      "id": "live-7cb111a588",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f51b174c65",
-      "title": "BLV SODA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-bfb67bad13",
       "title": "BLV COZY",
@@ -26,19 +10,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-5690fd53de",
-      "title": "",
+      "id": "live-06a895767a",
+      "title": "BLV PEPSI",
       "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=6a0454e7770779e3802c1254467b1677&wsABSTime=1787734274",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-7ca4f214e9",
+      "id": "live-f071e2f264",
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel30.flv?wsSecret=a45eb011953cfb04a29ed0ddf7e149b1&wsABSTime=1787734292",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel1.flv?wsSecret=b3a50e854654512ba251e6f24b0d0174&wsABSTime=1787734898",
       "category": "Sports"
     }
   ]
