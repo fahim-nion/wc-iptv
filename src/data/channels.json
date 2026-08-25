@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T20:41:18.412Z",
+  "updatedAt": "2026-08-25T20:51:44.302Z",
   "channels": [
     {
       "id": "live-7cb111a588",
@@ -30,7 +30,15 @@
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=5dfa1c6241aa62085899529949349eec&wsABSTime=1787733666",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=6a0454e7770779e3802c1254467b1677&wsABSTime=1787734274",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7ca4f214e9",
+      "title": "",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel30.flv?wsSecret=a45eb011953cfb04a29ed0ddf7e149b1&wsABSTime=1787734292",
       "category": "Sports"
     }
   ]
