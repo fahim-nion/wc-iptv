@@ -1,7 +1,10 @@
-import { chromium } from 'playwright-extra';
+import { chromium as baseChromium } from 'playwright-core';
+import { addExtra } from 'playwright-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import config from '../../config.js';
 
+// Manual patch for Termux/Playwright-Core compatibility
+const chromium = addExtra(baseChromium);
 chromium.use(stealth());
 
 async function setupDiscoveryPage(browser) {
@@ -29,7 +32,11 @@ async function smartGoto(page, sourceKey) {
 
 export async function discoverSocolive() {
     console.log("🔍 [Socolive] Scanning...");
-    const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+    const browser = await chromium.launch({ 
+        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
+        headless: true, 
+        args: ['--no-sandbox'] 
+    });
     const page = await setupDiscoveryPage(browser);
     const matches = [];
     try {
@@ -58,7 +65,11 @@ export async function discoverSocolive() {
 
 export async function discoverColaTV() {
     console.log("🔍 [ColaTV] Scanning...");
-    const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+    const browser = await chromium.launch({ 
+        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
+        headless: true, 
+        args: ['--no-sandbox'] 
+    });
     const page = await setupDiscoveryPage(browser);
     const matches = [];
     try {
@@ -85,7 +96,11 @@ export async function discoverColaTV() {
 
 export async function discoverXoilac() {
     console.log("🔍 [Xoilac] Scanning...");
-    const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+    const browser = await chromium.launch({ 
+        executablePath: '/data/data/com.termux/files/usr/bin/chromium',
+        headless: true, 
+        args: ['--no-sandbox'] 
+    });
     const page = await setupDiscoveryPage(browser);
     const matches = [];
     try {
