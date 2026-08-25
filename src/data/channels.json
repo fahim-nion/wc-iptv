@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-08-25T21:31:14.468Z",
+  "updatedAt": "2026-08-25T21:41:11.759Z",
   "channels": [
-    {
-      "id": "live-06a895767a",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-1c253d3b3c",
       "title": "BLV COZY",
@@ -22,7 +14,7 @@
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=277340bf1117908650dc9eba991674fd&wsABSTime=1787736647",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=efdcc4d0dcf576e5deacd181193c5a54&wsABSTime=1787737229",
       "category": "Sports"
     },
     {
@@ -30,7 +22,15 @@
       "title": "",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=a3feeb85d1fc22fa4a4051d94afaff90&wsABSTime=1787736662",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=49ce61eb438916b6ba945857805b7667&wsABSTime=1787737245",
+      "category": "Sports"
+    },
+    {
+      "id": "live-43121de4eb",
+      "title": "",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel35.flv?wsSecret=755fe5bd602be81a477ff1307b688f76&wsABSTime=1787737261",
       "category": "Sports"
     }
   ]
