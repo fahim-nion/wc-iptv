@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T19:24:36.692Z",
+  "updatedAt": "2026-08-27T19:33:39.601Z",
   "channels": [
     {
       "id": "live-4733b6dac2",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787862121-0-0-27c5a715ef89e19cce1ac91dae570685",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787862721-0-0-03d6c2d55fc945c65bffa24e5ad95e04",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787862121-0-0-4aebc495bc32641f9cb0c12afabba1d1",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787862661-0-0-4e5f4b6f09b6baf35f9a5b95f093f5c9",
       "category": "Sports"
     }
   ]
