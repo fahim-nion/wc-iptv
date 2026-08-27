@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T19:02:18.142Z",
+  "updatedAt": "2026-08-27T19:11:16.685Z",
   "channels": [
     {
       "id": "live-4733b6dac2",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787860621-0-0-397a15cc2c4d416eed261f56ea72501a",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787861281-0-0-10bb01b1c7de741c6b8b01eff9f6160b",
       "category": "Sports"
     },
     {
@@ -14,15 +14,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787860741-0-0-eb0f77baf684cb75fa7b45a443f11394",
-      "category": "Sports"
-    },
-    {
-      "id": "live-579a74a376",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787861341-0-0-96a98054db9159c7316609e8580f064b",
       "category": "Sports"
     },
     {
