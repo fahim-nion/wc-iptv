@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-27T22:47:17.435Z",
+  "updatedAt": "2026-08-27T22:58:58.079Z",
   "channels": [
+    {
+      "id": "live-f12fcc7fd8",
+      "title": "CHAN ĐÊ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787874961-0-0-283f5100f7ec523699b0954b3e835bee",
+      "category": "Sports"
+    },
+    {
+      "id": "live-09993ef233",
+      "title": "BLV KAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=419b181f9f45f4a952f064f898e339a3&txTime=6a9114e1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e59f2c3744",
+      "title": "BLV CHIVAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=8cd52b3217da03e887b20135ee11c546&txTime=6a9114e1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b925deffb2",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d546998ce",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-1b2d9bd779",
       "title": "BLV YONE",
@@ -23,22 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787874421-0-0-8ac5a1d76e572c26b44272fbe31aa972",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b925deffb2",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4d546998ce",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     }
   ]
