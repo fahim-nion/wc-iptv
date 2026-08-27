@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T20:24:36.615Z",
+  "updatedAt": "2026-08-27T20:34:44.380Z",
   "channels": [
     {
       "id": "live-4733b6dac2",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787865661-0-0-788c86b818e75e8f16e75322e7f181fd",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787866321-0-0-685b0d18fb8b4abf3d2a6e3ae764bec4",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787865721-0-0-261782753f81a8f9d0cd469ca860cc3e",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787866321-0-0-6301f3fef68c461d15028efacf16ae98",
       "category": "Sports"
     },
     {
@@ -31,6 +31,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1931fb24cd",
+      "title": "BLV STING",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
       "category": "Sports"
     }
   ]
