@@ -1,17 +1,22 @@
 import puppeteer from 'puppeteer-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import { validateStream } from '../validation/validateStream.js';
+import fs from 'fs';
 
 puppeteer.use(stealth());
 
-// FIXED: Exact path provided by user
-const CHROME_PATH = '/data/data/com.termux/files/usr/bin/chromium-browser';
+const getChromePath = () => {
+    const paths = ['/usr/bin/google-chrome-stable', '/usr/bin/chromium', '/data/data/com.termux/files/usr/bin/chromium-browser'];
+    for (const p of paths) { if (fs.existsSync(p)) return p; }
+    return null;
+};
+const CHROME_PATH = getChromePath();
 
 export async function captureNetworkStream(targetUrl, label = "Source") {
     const browser = await puppeteer.launch({ 
-        executablePath: CHROME_PATH,
+        executablePath: CHROME_PATH || undefined,
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
     const page = await browser.newPage();
@@ -27,22 +32,27 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             } catch (e) {}
         });
 
-        // FIXED: Using 'domcontentloaded'
         await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.click('body').catch(() => {});
         
-        // FIXED: Standard Promise wait
-        await new Promise(r => setTimeout(r, 10000));
+        // --- FANZONE SPECIAL: GRAB ALL M3U8 LINKS FROM PAGE SOURCE ---
+        const html = await page.content();
+        const m3u8Matches = html.match(/https?[:%][^"']+\.m3u8[^"']*/gi) || [];
+        for (let raw of m3u8Matches) {
+            const cleanUrl = decodeURIComponent(raw).replace(/\\/g, '');
+            candidates.push({ url: cleanUrl, type: 'HLS' });
+        }
+
+        await page.mouse.click(640, 360).catch(() => {});
+        await new Promise(r => setTimeout(r, 8000));
 
         if (candidates.length > 0) {
-            for (const cand of candidates) {
+            const unique = [...new Map(candidates.map(item => [item.url, item])).values()];
+            for (const cand of unique) {
                 const validation = await validateStream(cand.url, targetUrl); 
                 if (validation.isValid) return { url: cand.url, type: cand.type };
             }
         }
-    } catch (e) { 
-        console.log(`   ✘ ${label} Extraction error: ${e.message.substring(0, 30)}`);
-    } finally {
+    } catch (e) { } finally {
         await browser.close();
     }
     return null;

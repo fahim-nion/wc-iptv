@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T20:54:22.223Z",
+  "updatedAt": "2026-08-27T20:43:12.774Z",
   "channels": [
     {
       "id": "live-4733b6dac2",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787867401-0-0-d953990874d7f009fc88390cf89319ee",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787866801-0-0-0a20e0018ecc749ee4c0e28fc465e682",
       "category": "Sports"
     },
     {
@@ -14,31 +14,55 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787867521-0-0-11b8466472cd2fb142082a98c470e362",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787866801-0-0-884e2adae28764b36a58074c61c29bce",
       "category": "Sports"
     },
     {
-      "id": "live-579a74a376",
-      "title": "BLV REVIVE",
+      "id": "live-28a43d42d0",
+      "title": "QUỐC KHÁNH",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=8edea91ee3736b954f19839d373b9c18&txTime=6a90f501",
       "category": "Sports"
     },
     {
-      "id": "live-04ceead947",
-      "title": "BLV WARRIOR",
+      "id": "live-91fe19d9ce",
+      "title": "BLV CUỘI",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-256080_lhd.m3u8?auth_key=1787866801-0-0-fa83cf33fc1f6584c01174c4ab5535d3",
       "category": "Sports"
     },
     {
-      "id": "live-1931fb24cd",
-      "title": "BLV STING",
+      "id": "live-524487d6b9",
+      "title": "BLV MESSI",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787866801-0-0-c28e2022698dfc206526944799ed5786",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5b6450bc5",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=64d5d03184aef53dd7fdae7795c6f95e&txTime=6a90f53d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c617050c08",
+      "title": "BLV PEWPEW",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787866861-0-0-d146bc0afcffff0c79fcbeaf563f5523",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8b1052a20b",
+      "title": "BLV HEHE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1787866861-0-0-55cdc4e6504eb24860769fa5fe7a553c",
       "category": "Sports"
     }
   ]
