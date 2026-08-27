@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T22:38:05.414Z",
+  "updatedAt": "2026-08-27T22:47:17.435Z",
   "channels": [
     {
       "id": "live-1b2d9bd779",
       "title": "BLV YONE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787873761-0-0-36897a6ff1314541d275e6126d3ebcf8",
+      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787874361-0-0-5570f08cc23907797328de299f06dd75",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV FOX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787873761-0-0-68ea4bfba0172269967170ada6dbcd67",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787874361-0-0-02b94367e891fca270302634cba28747",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787873821-0-0-bf8f5e1c37f2fc126d2aaaaf4571cc3c",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787874421-0-0-8ac5a1d76e572c26b44272fbe31aa972",
       "category": "Sports"
     },
     {
