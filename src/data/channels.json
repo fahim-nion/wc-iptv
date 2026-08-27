@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-08-27T21:09:42.264Z",
+  "updatedAt": "2026-08-27T21:38:54.655Z",
   "channels": [
     {
-      "id": "live-91fe19d9ce",
-      "title": "BLV CUỘI",
+      "id": "live-b925deffb2",
+      "title": "BLV MOUNTAIN DEW",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-256080_lhd.m3u8?auth_key=1787868361-0-0-08af905232fb2ce747cf23fa04704f55",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a5b6450bc5",
-      "title": "A BỆU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=64d5d03184aef53dd7fdae7795c6f95e&txTime=6a90f53d",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     }
   ]
