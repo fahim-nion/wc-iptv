@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T19:53:39.230Z",
+  "updatedAt": "2026-08-27T20:04:24.249Z",
   "channels": [
     {
       "id": "live-4733b6dac2",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787863861-0-0-fc2ea58a529276a056f3cad9ac1d2ed8",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787864521-0-0-b73161f40f1ea09c751ecb988ce5ce37",
       "category": "Sports"
     },
     {
@@ -14,7 +14,31 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787863921-0-0-b3e9131fac47466a10da354f55343afb",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787864521-0-0-3b651b2c40db209f3ee4b722f18477a9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-579a74a376",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-04ceead947",
+      "title": "BLV WARRIOR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2514d0a41a",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     }
   ]
