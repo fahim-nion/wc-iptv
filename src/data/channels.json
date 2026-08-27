@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T18:33:22.733Z",
+  "updatedAt": "2026-08-27T18:43:17.728Z",
   "channels": [
     {
       "id": "live-7c404349f7",
       "title": "LOKA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1787858941-0-0-c4a05bf9cd1c4c0c2e126e248b48c644",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1787859541-0-0-8d3c20b4d882dbf22c72f20a1041a5b4",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1787859001-0-0-af7eb8d6b28f3dae00eff3e82ba81301",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1787859661-0-0-b7554477aa76314bb079055d70555d1e",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV A TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787859061-0-0-8d00785433f1120a23dd7da3278a20d1",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787859601-0-0-7e4a6f05df435a11f47f5203c6ec4e27",
       "category": "Sports"
     },
     {
