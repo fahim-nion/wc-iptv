@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T18:23:33.155Z",
+  "updatedAt": "2026-08-27T18:33:22.733Z",
   "channels": [
     {
       "id": "live-7c404349f7",
       "title": "LOKA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1787858341-0-0-91b8c4105ead1a3fa5748425013bbb11",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1787858941-0-0-c4a05bf9cd1c4c0c2e126e248b48c644",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1787858401-0-0-cacc367c4948c0feaf62cc8c2a919efc",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1787859001-0-0-af7eb8d6b28f3dae00eff3e82ba81301",
       "category": "Sports"
     },
     {
@@ -22,31 +22,31 @@
       "title": "BLV A TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787858401-0-0-b963067737fcffde56f70a8120fa65c6",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787859061-0-0-8d00785433f1120a23dd7da3278a20d1",
       "category": "Sports"
     },
     {
-      "id": "live-74efc6588e",
-      "title": "BLV SAMURAI",
+      "id": "live-2514d0a41a",
+      "title": "BLV GIÀ LÀNG",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-8ca031f65b",
-      "title": "BLV REDBULL",
+      "id": "live-a39c25a055",
+      "title": "BLV SODA",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/49572724.m3u8",
+      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-c2a6d24478",
-      "title": "BLV ROCKSTAR",
+      "id": "live-32fd7b574b",
+      "title": "BLV KHÔNG ĐỘ",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/82054853.m3u8",
+      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
       "category": "Sports"
     }
   ]
