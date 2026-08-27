@@ -5,7 +5,6 @@ import fs from 'fs';
 
 puppeteer.use(stealth());
 
-// 1. AUTO-DETECT BROWSER PATH (Fixed for Termux)
 const getChromePath = () => {
     const paths = [
         '/data/data/com.termux/files/usr/bin/chromium-browser',
@@ -16,44 +15,35 @@ const getChromePath = () => {
 };
 const CHROME_PATH = getChromePath();
 
-// 2. RESOURCE BLOCKER (Stops ads from freezing the browser)
 async function setupDiscoveryPage(browser) {
     const page = await browser.newPage();
     await page.setRequestInterception(true);
     page.on('request', (req) => {
         const type = req.resourceType();
-        // We block images and CSS to save Termux RAM and prevent hangs
         if (['image', 'font', 'stylesheet', 'media'].includes(type)) req.abort();
         else req.continue();
     });
     return page;
 }
 
-// 3. MIRROR HANDLER (Handles domain rotation)
 async function smartGoto(page, sourceKey) {
     const source = config.sources[sourceKey];
     const urls = [source.homepage, ...(source.mirrors || [])];
-    
     for (const url of urls) {
         try {
             console.log(`   ➤ Trying ${sourceKey}: ${new URL(url).hostname}`);
             await page.setUserAgent(config.userAgent);
             const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 });
-            
-            // Wait to ensure the list actually exists in the HTML
-            await page.waitForSelector('a[href*="/truc-tiep/"], a[href*="/match/"], a[href*="/live/"]', { timeout: 10000 });
+            await page.waitForSelector('a', { timeout: 10000 });
             return true;
-        } catch (e) {
-            console.log(`   ⚠ Mirror failed: ${new URL(url).hostname}`);
-            continue;
-        }
+        } catch (e) { continue; }
     }
     return false;
 }
 
 export async function discoverSocolive() {
     console.log("🔍 [Socolive] Scanning...");
-    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] });
+    const browser = await puppeteer.launch({ executablePath: CHROME_PATH, headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await setupDiscoveryPage(browser);
     const matches = [];
     try {
@@ -73,8 +63,7 @@ export async function discoverSocolive() {
                 matches.push({ source: 'socolive', title: clean, url: link.url });
             }
         }
-    } catch (e) { console.error(`[Soco Error]: ${e.message.substring(0,50)}`); } 
-    finally { await browser.close(); }
+    } catch (e) { console.error(`[Soco Error]`); } finally { await browser.close(); }
     return matches;
 }
 
@@ -101,8 +90,7 @@ export async function discoverColaTV() {
                 matches.push({ source: 'colatv', title: clean, url: link.url });
             }
         }
-    } catch (e) { console.error(`[Cola Error]: ${e.message.substring(0,50)}`); } 
-    finally { await browser.close(); }
+    } catch (e) { console.error(`[Cola Error]`); } finally { await browser.close(); }
     return matches;
 }
 
@@ -129,8 +117,7 @@ export async function discoverXoilac() {
                 matches.push({ source: 'xoilac', title: link.title.split('\n')[0].trim(), url: link.url });
             }
         }
-    } catch (e) { console.error(`[Xoi Error]: ${e.message.substring(0,50)}`); } 
-    finally { await browser.close(); }
+    } catch (e) { console.error(`[Xoi Error]`); } finally { await browser.close(); }
     return matches;
 }
 
@@ -141,6 +128,7 @@ export async function discoverFanzone() {
     const matches = [];
     try {
         await page.setUserAgent(config.userAgent);
+        // Try to load Fanzone
         await page.goto(config.sources.fanzone.homepage, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await page.waitForTimeout(5000); 
 
@@ -148,8 +136,18 @@ export async function discoverFanzone() {
             return anchors
                 .filter(a => a.href.includes('/match/') || a.href.includes('/live/') || a.href.includes('/truc-tiep/'))
                 .map(a => {
-                    const parts = a.innerText.trim().split('\n');
-                    let title = parts.length >= 2 ? `${parts[0].trim()} vs ${parts[1].trim()}` : a.innerText.trim();
+                    // SAFE EXTRACTION: Check if elements exist before reading properties
+                    const homeEl = a.querySelector('.home, .team-1, .home-name');
+                    const awayEl = a.querySelector('.away, .team-2, .away-name');
+                    
+                    let title = "";
+                    if (homeEl && awayEl) {
+                        title = `${homeEl.innerText.trim()} vs ${awayEl.innerText.trim()}`;
+                    } else {
+                        // Fallback to splitting text by lines
+                        const parts = a.innerText.trim().split('\n').filter(p => p.trim().length > 1);
+                        title = parts.length >= 2 ? `${parts[0].trim()} vs ${parts[1].trim()}` : a.innerText.trim();
+                    }
                     return { url: a.href, title: title };
                 });
         });
@@ -161,7 +159,7 @@ export async function discoverFanzone() {
                 matches.push({ source: 'fanzone', title: link.title.toUpperCase(), url: link.url });
             }
         }
-    } catch (e) { console.error(`[Fanzone Error]: ${e.message.substring(0,50)}`); } 
+    } catch (e) { console.error(`[Fanzone Error]: ${e.message.substring(0, 40)}`); } 
     finally { await browser.close(); }
     return matches;
 }
