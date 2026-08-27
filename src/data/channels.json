@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T23:08:20.439Z",
+  "updatedAt": "2026-08-27T23:18:10.544Z",
   "channels": [
     {
       "id": "live-ae327aa46c",
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787875561-0-0-24c0e0fa69c64c7a1c23cc037c599652",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787876161-0-0-4bfdaa6d498e6af1b0435d5a1ab93958",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV VIP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=80a6552e7c0c2bdc95c196f7cf8f0682&txTime=6a911775",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=60b23e4185dc57455e5cf1f219c7623f&txTime=6a911991",
       "category": "Sports"
     },
     {
@@ -22,7 +22,23 @@
       "title": "BLV VOI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787875621-0-0-3f148dd1a158d84861747cf8ce92fea6",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787876221-0-0-1024f80aefd350f982a111308655fae7",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b925deffb2",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d546998ce",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
@@ -47,22 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=8cd52b3217da03e887b20135ee11c546&txTime=6a9114e1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b925deffb2",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4d546998ce",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
