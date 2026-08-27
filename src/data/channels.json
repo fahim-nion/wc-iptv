@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-27T23:48:41.071Z",
+  "updatedAt": "2026-08-27T23:57:54.562Z",
   "channels": [
     {
       "id": "live-ae327aa46c",
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787877961-0-0-3e7affd83cd84dc12c1646fce9980cf6",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787878561-0-0-75e928ddb71dece0ef476202da3c1292",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV VIP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=e382996ae9d1ed329ae89cd8613f9ba2&txTime=6a9120d5",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=58c66e9ca1158ce7bc8393d5d6a93877&txTime=6a9122b5",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV VOI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787877961-0-0-b8bfc8bef8a5ae304800539df4daebc1",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787878621-0-0-1a7ee11fb918aaba108ea6292e7bdcce",
       "category": "Sports"
     },
     {
