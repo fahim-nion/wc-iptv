@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-08-27T18:43:17.728Z",
+  "updatedAt": "2026-08-27T18:53:13.474Z",
   "channels": [
-    {
-      "id": "live-7c404349f7",
-      "title": "LOKA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1787859541-0-0-8d3c20b4d882dbf22c72f20a1041a5b4",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07d8945b82",
-      "title": "LÃO LÂM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1787859661-0-0-b7554477aa76314bb079055d70555d1e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-53f7ca6329",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787859601-0-0-7e4a6f05df435a11f47f5203c6ec4e27",
-      "category": "Sports"
-    },
     {
       "id": "live-2514d0a41a",
       "title": "BLV GIÀ LÀNG",
