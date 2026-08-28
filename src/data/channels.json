@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-28T18:29:46.940Z",
+  "updatedAt": "2026-08-28T18:39:12.486Z",
   "channels": [
+    {
+      "id": "live-3de2d639d3",
+      "title": "ĐỖ TÚ TÀI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1787945761-0-0-549abb16e8038f8f36bceb931ee68388",
+      "category": "Sports"
+    },
+    {
+      "id": "live-135383a43a",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787945821-0-0-b8a824554934f694fa07164d5d35db74",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c9a0aa0bef",
+      "title": "KENCHU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787945881-0-0-9afac7dbcc27fcfd50b32cd33aa6f585",
+      "category": "Sports"
+    },
     {
       "id": "live-167f8cfb1a",
       "title": "BLV LONG",
