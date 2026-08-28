@@ -1,44 +1,28 @@
 {
-  "updatedAt": "2026-08-28T19:19:31.171Z",
+  "updatedAt": "2026-08-28T18:51:31.727Z",
   "channels": [
     {
-      "id": "live-06ac8c93a6",
-      "title": "GRAP",
+      "id": "live-3de2d639d3",
+      "title": "ĐỖ TÚ TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=f29d96651cd674f7fe62d5df69d313af&txTime=6a92330d",
+      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1787946541-0-0-b78a095f77b75809910ef70d65874f9e",
       "category": "Sports"
     },
     {
-      "id": "live-8cdcd3e675",
-      "title": "TUẤN CÙI",
+      "id": "live-135383a43a",
+      "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787948221-0-0-ee64c0dd63a1b087e17155b809c2462f",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787946541-0-0-21db165b4135b87bda54511763d32787",
       "category": "Sports"
     },
     {
-      "id": "live-f4559b358e",
-      "title": "BLV MESSI",
+      "id": "live-c9a0aa0bef",
+      "title": "KENCHU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787948221-0-0-3891a5631e49f5752df161235f0dcbc0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2834a3e13f",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cee66b24b5",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787946541-0-0-a87dd42e976381d1a2ec979d6f88bfab",
       "category": "Sports"
     },
     {
@@ -50,46 +34,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-ce08c36a99",
-      "title": "A BỆU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=01b4197d09a6310a346f13276c1c23b2&txTime=6a922e21",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bb27fae326",
-      "title": "BLV BÉO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3de2d639d3",
-      "title": "ĐỖ TÚ TÀI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1787946421-0-0-b8ba55579edd59cb4ba7daf8013ff538",
-      "category": "Sports"
-    },
-    {
-      "id": "live-135383a43a",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787946421-0-0-6154cb4584c35fa64ee1cbc2938d6bb0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c9a0aa0bef",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787946481-0-0-2e7696ae12193f831c108e40e7ec1683",
-      "category": "Sports"
-    },
-    {
       "id": "live-9f6be48013",
       "title": "BLV 247",
       "status": "live",
@@ -98,123 +42,27 @@
       "category": "Sports"
     },
     {
-      "id": "live-167f8cfb1a",
-      "title": "BLV LONG",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=f827fa8803a25a0c083984bf5db83dfb&txTime=6a922791",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8a5c7a3ea2",
-      "title": "BLV NOVA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-619108_lhd.m3u8?auth_key=1787944621-0-0-f6f09ca5fe1475440f81121f4b6dc424",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8bec841e42",
-      "title": "BLV A WIN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787944681-0-0-5e89490cf8a5207ff57f5d8f56e3916f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71a97e3386",
-      "title": "BLV KHÔNG ĐỘ",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-836125e2c0",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-52372ed00e",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=da62eb95163234d520968d66feb65655&txTime=6a9222a5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f64f5c28e3",
-      "title": "BÒ TƯƠI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a47a85a920",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-587c3e6670",
-      "title": "BLV FIREMAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1787939161-0-0-6964bdedab41a6f1489a5286535d8a92",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b9ca327062",
-      "title": "BLV ROBBEN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1787939221-0-0-38ff3054f84d2017ee2d64644bcae645",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9b17afafd9",
-      "title": "BLV ALEX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1787939281-0-0-a08a599491d7a144326524f2ab89f04f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-37169f3e97",
-      "title": "BLV PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787938021-0-0-05d158bc29db71c4c36b258c4534d26f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8d34138dcc",
+      "id": "live-3ccaf33d32",
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787938081-0-0-ce20871d046520cd3804e8bfbd56f0e5",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787866801-0-0-884e2adae28764b36a58074c61c29bce",
       "category": "Sports"
     },
     {
-      "id": "live-a951242664",
-      "title": "BLV A TÚ",
+      "id": "live-524487d6b9",
+      "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787938081-0-0-7b2ad94c29a58a2792f9af6b26c4340a",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787866801-0-0-c28e2022698dfc206526944799ed5786",
       "category": "Sports"
     },
     {
-      "id": "live-4366f9715a",
-      "title": "HẢI THANH",
+      "id": "live-c617050c08",
+      "title": "BLV PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787937421-0-0-8194f6705b69a2972f52ff4d27ebd0fa",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787866861-0-0-d146bc0afcffff0c79fcbeaf563f5523",
       "category": "Sports"
     }
   ]
