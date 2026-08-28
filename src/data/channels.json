@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T23:07:24.863Z",
+  "updatedAt": "2026-08-28T23:18:20.852Z",
   "channels": [
     {
       "id": "live-5adb7c271c",
       "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=c9f8caac183270b6e4399c4f17602dbd&txTime=6a926805",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=549b847bd4274232caf4c9ce689a8587&txTime=6a926ad5",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV VOI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787961901-0-0-c25a2fb831207e2ae534a86491a7972c",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787962501-0-0-5aeaca845dd541cd61f4f9d57c683b5b",
       "category": "Sports"
     },
     {
