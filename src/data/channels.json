@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T23:31:38.554Z",
+  "updatedAt": "2026-08-28T23:51:02.605Z",
   "channels": [
     {
       "id": "live-5d537d63b1",
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787963401-0-0-ce492c2e05239960a313995559f5abb1",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787964481-0-0-42e7a1bdc93f0018373de5f5e1ea83aa",
       "category": "Sports"
     },
     {
@@ -14,15 +14,7 @@
       "title": "CHAN ĐÊ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787963401-0-0-506600efde1f64f6b29ba77ff5335c92",
-      "category": "Sports"
-    },
-    {
-      "id": "live-73fa8280b4",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787964541-0-0-1593deb028d62026fdd36a4d1a8d465b",
       "category": "Sports"
     },
     {
@@ -39,6 +31,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-73fa8280b4",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     },
     {
@@ -79,14 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=cb6ae4cdd426dd1fa0241e2beaa8cce2&txTime=6a925c89",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9d7749ba32",
-      "title": "CƠM NẾP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1787958841-0-0-e5f496897b2c993af1062ab0ef97cce1",
       "category": "Sports"
     }
   ]
