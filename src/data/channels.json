@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-28T17:49:03.692Z",
+  "updatedAt": "2026-08-28T18:00:16.687Z",
   "channels": [
+    {
+      "id": "live-8bec841e42",
+      "title": "BLV A WIN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787943361-0-0-cb89028e21aabad4f352d096da1394e3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-52372ed00e",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=44edb034db21406443df7fa3f4be7c91&txTime=6a92204d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f64f5c28e3",
+      "title": "BÒ TƯƠI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787943421-0-0-57b42157e8ef21b278b40dd12081ca3b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9f6be48013",
+      "title": "BLV 247",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71a97e3386",
+      "title": "BLV KHÔNG ĐỘ",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-836125e2c0",
+      "title": "BLV PEPSI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-ac762ede67",
       "title": "BLV RYO",
@@ -23,22 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=2bea5d09a5431fdd78fbbbd8f568afa5&txTime=6a921df5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-836125e2c0",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6870150f29",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
@@ -98,35 +130,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-ed3c355f5c",
-      "title": "RỒNG ĐẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1787937421-0-0-714f33abbb6002e5b6e4425509035bad",
-      "category": "Sports"
-    },
-    {
       "id": "live-4366f9715a",
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787937421-0-0-8194f6705b69a2972f52ff4d27ebd0fa",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d147b8fda1",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787937481-0-0-1c7854f860e9576eaf85c8ded0a8e6c5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce9ab873e4",
-      "title": "BOSS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-620504_lhd.m3u8?txSecret=f4baf2d041be013cafd60738735c918f&txTime=6a920211",
       "category": "Sports"
     }
   ]
