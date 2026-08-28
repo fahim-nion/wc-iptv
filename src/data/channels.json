@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T17:39:50.733Z",
+  "updatedAt": "2026-08-28T17:49:03.692Z",
   "channels": [
     {
       "id": "live-ac762ede67",
       "title": "BLV RYO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7a0cd0fea87d51e7978906b4e7a95819&txTime=6a921b9d",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=84642ebc29609487180e7a75bf16e9c0&txTime=6a921df5",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787942161-0-0-b537cdfdab003bcaecf7bf902a93a025",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787942761-0-0-6e0e600da7258b60564ac5780c589f84",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "XUÂN SON",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=d6c3fd0d5b543c1d8e3bc4a7f796453f&txTime=6a921b9d",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=2bea5d09a5431fdd78fbbbd8f568afa5&txTime=6a921df5",
       "category": "Sports"
     },
     {
@@ -119,22 +119,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787937481-0-0-1c7854f860e9576eaf85c8ded0a8e6c5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-169a136999",
-      "title": "BLV WUKONG",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1787935621-0-0-a8c5adeab94a6f5835f6e59739a73d41",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce70ad76a3",
-      "title": "BLV A WIN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787935681-0-0-19286267a0e2e531c2f697716d790bf7",
       "category": "Sports"
     },
     {
