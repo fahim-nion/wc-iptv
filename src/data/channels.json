@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-28T19:01:07.041Z",
+  "updatedAt": "2026-08-28T19:13:03.128Z",
   "channels": [
+    {
+      "id": "live-06ac8c93a6",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=23195a48ad3a5cd073b303ae1ef07357&txTime=6a92316a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8cdcd3e675",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787947861-0-0-1f731ce328962fa8b61abb9b08410600",
+      "category": "Sports"
+    },
     {
       "id": "live-f4559b358e",
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787947081-0-0-92224227b985a592a3ec20c65a21665f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce08c36a99",
-      "title": "A BỆU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=03850572bcd026fe94a8ada731b33d25&txTime=6a922ed5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bb27fae326",
-      "title": "BLV BÉO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787947861-0-0-0351981775d64489834c61afb9f933db",
       "category": "Sports"
     },
     {
@@ -47,6 +47,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ce08c36a99",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=03850572bcd026fe94a8ada731b33d25&txTime=6a922ed5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb27fae326",
+      "title": "BLV BÉO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
       "category": "Sports"
     },
     {
