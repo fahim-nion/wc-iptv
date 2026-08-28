@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-28T22:41:17.357Z",
+  "updatedAt": "2026-08-28T22:50:45.066Z",
   "channels": [
+    {
+      "id": "live-f6d2ce54c8",
+      "title": "BLV VOI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787960881-0-0-a31dc6389076a7e9ae2573f401e779f6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4aaac0b073",
+      "title": "BLV LONG",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=1a55ceb1fe31e740d0a2de6d71379b50&txTime=6a926481",
+      "category": "Sports"
+    },
     {
       "id": "live-73fa8280b4",
       "title": "BLV MOUNTAIN DEW",
@@ -15,14 +31,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=0e200e6488fd63282415ee1554bd9531&txTime=6a92600d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f6d2ce54c8",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787959741-0-0-b3dd9ce540892ab4353b98f0d2177c85",
       "category": "Sports"
     },
     {
