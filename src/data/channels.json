@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-28T16:30:03.948Z",
+  "updatedAt": "2026-08-28T16:39:43.905Z",
   "channels": [
     {
-      "id": "live-37169f3e97",
-      "title": "BLV PEWPEW",
+      "id": "live-587c3e6670",
+      "title": "BLV FIREMAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787938021-0-0-05d158bc29db71c4c36b258c4534d26f",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1787938621-0-0-0322607cc2e48304fa8735538a4f0f0f",
       "category": "Sports"
     },
     {
-      "id": "live-8d34138dcc",
-      "title": "A PÁO",
+      "id": "live-b9ca327062",
+      "title": "BLV ROBBEN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787938081-0-0-ce20871d046520cd3804e8bfbd56f0e5",
+      "streamUrl": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1787938621-0-0-1446128bd0b438abdd8d13e834809404",
       "category": "Sports"
     },
     {
-      "id": "live-a951242664",
-      "title": "BLV A TÚ",
+      "id": "live-9b17afafd9",
+      "title": "BLV ALEX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787938081-0-0-7b2ad94c29a58a2792f9af6b26c4340a",
+      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1787938681-0-0-ef29b7e145a7ba91b63ac7a390e22278",
       "category": "Sports"
     },
     {
@@ -47,6 +47,30 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37169f3e97",
+      "title": "BLV PEWPEW",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787938021-0-0-05d158bc29db71c4c36b258c4534d26f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8d34138dcc",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787938081-0-0-ce20871d046520cd3804e8bfbd56f0e5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a951242664",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787938081-0-0-7b2ad94c29a58a2792f9af6b26c4340a",
       "category": "Sports"
     },
     {
