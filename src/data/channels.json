@@ -1,60 +1,12 @@
 {
-  "updatedAt": "2026-08-28T21:10:54.316Z",
+  "updatedAt": "2026-08-28T21:40:22.448Z",
   "channels": [
     {
-      "id": "live-59dec99565",
-      "title": "BLV ANH TÀI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=5387b926b10c26665467886412bebce2&txTime=6a924cd5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9bacd17e2b",
-      "title": "VINFAST",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787954821-0-0-86d3f0ae338049b82dccd4960ca96d4d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4d525b339c",
-      "title": "CACAO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787954881-0-0-f456ecfde2fdf81a676d6e81555a3739",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1aec784a5d",
-      "title": "BLV BÍ ĐAO",
+      "id": "live-73fa8280b4",
+      "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8f6636ae7b",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-06ac8c93a6",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=d920002bae8f465b6036d2e7b70eae9a&txTime=6a923295",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8cdcd3e675",
-      "title": "TUẤN CÙI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787948221-0-0-ee64c0dd63a1b087e17155b809c2462f",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     }
   ]
