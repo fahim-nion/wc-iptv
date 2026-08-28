@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-28T00:47:53.630Z",
+  "updatedAt": "2026-08-28T00:58:18.528Z",
   "channels": [
+    {
+      "id": "live-a2ded47809",
+      "title": "BLV RAMBO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=633e55cb74c94fb4369d7628432cc861&txTime=6a913101",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b88ca26588",
+      "title": "HÀ DUY KIÊN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=4b094f1861c2e0106d5f3b6ebe8ed565&txTime=6a913147",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37d17a2bf8",
+      "title": "BLV CỦ CẢI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1787882101-0-0-56a5fbb20745d69f81b87006bdf5e217",
+      "category": "Sports"
+    },
     {
       "id": "live-fa10bc2676",
       "title": "LOGAN",
