@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T20:11:19.080Z",
+  "updatedAt": "2026-08-28T20:20:42.503Z",
   "channels": [
     {
       "id": "live-59dec99565",
       "title": "BLV ANH TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=84c27b39c8ab0dde23b240dbf7d84b1e&txTime=6a923ec5",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=8eb01191e63eddb468498cb684b1f28e&txTime=6a924159",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787951221-0-0-60855480d4a4af9a877d2d2384fa7e7e",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787951881-0-0-271e880aa8a8e0f6aed6965e1e9fd8fa",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "CACAO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787951341-0-0-8d3c84a7a0675b4218dcbdc1a102eb0c",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787951881-0-0-74b1816b36c83f144dd1966de4961d3e",
       "category": "Sports"
     },
     {
