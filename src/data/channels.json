@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-28T18:51:31.727Z",
+  "updatedAt": "2026-08-28T19:01:07.041Z",
   "channels": [
+    {
+      "id": "live-f4559b358e",
+      "title": "BLV MESSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787947081-0-0-92224227b985a592a3ec20c65a21665f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ce08c36a99",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=03850572bcd026fe94a8ada731b33d25&txTime=6a922ed5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb27fae326",
+      "title": "BLV BÉO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2834a3e13f",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cee66b24b5",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5e39a8b24e",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-3de2d639d3",
       "title": "ĐỖ TÚ TÀI",
@@ -26,14 +74,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-5e39a8b24e",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-9f6be48013",
       "title": "BLV 247",
       "status": "live",
@@ -47,14 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787866801-0-0-884e2adae28764b36a58074c61c29bce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-524487d6b9",
-      "title": "BLV MESSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787866801-0-0-c28e2022698dfc206526944799ed5786",
       "category": "Sports"
     },
     {
