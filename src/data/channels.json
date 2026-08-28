@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-27T23:57:54.562Z",
+  "updatedAt": "2026-08-28T00:09:01.055Z",
   "channels": [
+    {
+      "id": "live-fa10bc2676",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=bdc4ffdbe15e1123ef19bdea49387539&txTime=6a912549",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3289d7506d",
+      "title": "BLV FOX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787879221-0-0-1b3746794c35bdf64273d522fc2c09a1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-757b8686ab",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=554a31ce66d4cd020c35633a59d2763a&txTime=6a912585",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d546998ce",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c66052d2c6",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5801675093",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-ae327aa46c",
       "title": "BLV LION",
@@ -23,30 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787878621-0-0-1a7ee11fb918aaba108ea6292e7bdcce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b925deffb2",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4d546998ce",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c66052d2c6",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     },
     {
@@ -79,22 +103,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787874361-0-0-5570f08cc23907797328de299f06dd75",
-      "category": "Sports"
-    },
-    {
-      "id": "live-00eb9467fd",
-      "title": "BLV FOX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787874361-0-0-02b94367e891fca270302634cba28747",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8601ac2e7c",
-      "title": "CURRY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787874421-0-0-8ac5a1d76e572c26b44272fbe31aa972",
       "category": "Sports"
     }
   ]
