@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-28T15:40:16.508Z",
+  "updatedAt": "2026-08-28T15:49:48.287Z",
   "channels": [
     {
-      "id": "live-591dababc2",
-      "title": "THOMAS",
+      "id": "live-169a136999",
+      "title": "BLV WUKONG",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=62a36da445c19e240a59a9f3cc9c425f&txTime=6a91ff7d",
+      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1787935621-0-0-a8c5adeab94a6f5835f6e59739a73d41",
       "category": "Sports"
     },
     {
-      "id": "live-a43dcc90a5",
-      "title": "CR BƯỞI",
+      "id": "live-ce70ad76a3",
+      "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=f5d770b38d0969242e9fea1d825a7059&txTime=6a91ff7d",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787935681-0-0-19286267a0e2e531c2f697716d790bf7",
       "category": "Sports"
     },
     {
-      "id": "live-b9315ebd15",
-      "title": "ZIDANE",
+      "id": "live-ce9ab873e4",
+      "title": "BOSS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=47f998c833846390258135b6ba199510&txTime=6a91ffb9",
+      "streamUrl": "https://pull.niur.live/live/stream-620504_lhd.m3u8?txSecret=f4baf2d041be013cafd60738735c918f&txTime=6a920211",
       "category": "Sports"
     },
     {
@@ -47,6 +47,30 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-591dababc2",
+      "title": "THOMAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=62a36da445c19e240a59a9f3cc9c425f&txTime=6a91ff7d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a43dcc90a5",
+      "title": "CR BƯỞI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=f5d770b38d0969242e9fea1d825a7059&txTime=6a91ff7d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b9315ebd15",
+      "title": "ZIDANE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=47f998c833846390258135b6ba199510&txTime=6a91ffb9",
       "category": "Sports"
     }
   ]
