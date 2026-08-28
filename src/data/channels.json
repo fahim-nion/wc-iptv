@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T02:29:16.753Z",
+  "updatedAt": "2026-08-28T02:39:11.339Z",
   "channels": [
     {
       "id": "live-fc9e82db63",
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787887501-0-0-e476f500e77164496057c184226ff533",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787888221-0-0-8e4e96cdb4bb64644ab298d7fc873cc3",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV CÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1787887621-0-0-fd289b280c06e24220bc973204cc8703",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1787888221-0-0-0f6ef9d23e96ec4494e5f2e4a6bf548c",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BÁ PHÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912121_lhd.m3u8?auth_key=1787887561-0-0-7875f56a395e9eb9c63fca80228495a4",
+      "streamUrl": "https://pull.niues.live/live/stream-9912121_lhd.m3u8?auth_key=1787888221-0-0-a22df552250ceac2954ec6eadf9d0e35",
       "category": "Sports"
     },
     {
@@ -34,11 +34,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-5801675093",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-b849c6ad25",
+      "title": "BLV GIÀ LÀNG",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-35689eb6c8",
+      "title": "BLV SODA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
       "category": "Sports"
     },
     {
@@ -95,14 +103,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1787882101-0-0-56a5fbb20745d69f81b87006bdf5e217",
-      "category": "Sports"
-    },
-    {
-      "id": "live-757b8686ab",
-      "title": "BLV RÔSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=9bf52f7c51389a83d620deba3b8ec583&txTime=6a912ea9",
       "category": "Sports"
     },
     {
