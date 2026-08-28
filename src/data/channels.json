@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-28T16:49:41.386Z",
+  "updatedAt": "2026-08-28T17:00:08.212Z",
   "channels": [
+    {
+      "id": "live-ac762ede67",
+      "title": "BLV RYO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=783032eaf6de18c0837cce5a28586013&txTime=6a921201",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c66fdc674c",
+      "title": "BLV LUCAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787939821-0-0-2d6a66d5aa8ba26219b90adacc5f4e1a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4aa70823b7",
+      "title": "XUÂN SON",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=a6912d6315774ab50e5fceb4925f810e&txTime=6a921279",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6870150f29",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a47a85a920",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-587c3e6670",
       "title": "BLV FIREMAN",
@@ -23,30 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1787939281-0-0-a08a599491d7a144326524f2ab89f04f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5003b67e0d",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6870150f29",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a47a85a920",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
@@ -135,14 +151,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=f5d770b38d0969242e9fea1d825a7059&txTime=6a91ff7d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b9315ebd15",
-      "title": "ZIDANE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=47f998c833846390258135b6ba199510&txTime=6a91ffb9",
       "category": "Sports"
     }
   ]
