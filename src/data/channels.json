@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-28T18:59:44.481Z",
+  "updatedAt": "2026-08-28T19:10:02.907Z",
   "channels": [
+    {
+      "id": "live-06ac8c93a6",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=a1691051973bec9b0861f555235d598a&txTime=6a9230b6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8cdcd3e675",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787947621-0-0-fe3bf04fce8be3376fca500b6b95734e",
+      "category": "Sports"
+    },
     {
       "id": "live-f4559b358e",
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787946901-0-0-0f2b409abb56248a0d5f412e3f476e61",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce08c36a99",
-      "title": "A BỆU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=01b4197d09a6310a346f13276c1c23b2&txTime=6a922e21",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bb27fae326",
-      "title": "BLV BÉO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787947561-0-0-c6ed10c0d942b8385ddb16803af3250d",
       "category": "Sports"
     },
     {
@@ -47,6 +47,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ce08c36a99",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=01b4197d09a6310a346f13276c1c23b2&txTime=6a922e21",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb27fae326",
+      "title": "BLV BÉO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
       "category": "Sports"
     },
     {
@@ -135,22 +151,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c66fdc674c",
-      "title": "BLV LUCAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787942761-0-0-6e0e600da7258b60564ac5780c589f84",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4aa70823b7",
-      "title": "XUÂN SON",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=2bea5d09a5431fdd78fbbbd8f568afa5&txTime=6a921df5",
       "category": "Sports"
     },
     {
