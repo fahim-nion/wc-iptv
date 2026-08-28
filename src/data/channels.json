@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T18:39:12.486Z",
+  "updatedAt": "2026-08-28T18:49:49.415Z",
   "channels": [
     {
       "id": "live-3de2d639d3",
       "title": "ĐỖ TÚ TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1787945761-0-0-549abb16e8038f8f36bceb931ee68388",
+      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1787946421-0-0-b8ba55579edd59cb4ba7daf8013ff538",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787945821-0-0-b8a824554934f694fa07164d5d35db74",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787946421-0-0-6154cb4584c35fa64ee1cbc2938d6bb0",
       "category": "Sports"
     },
     {
@@ -22,15 +22,7 @@
       "title": "KENCHU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787945881-0-0-9afac7dbcc27fcfd50b32cd33aa6f585",
-      "category": "Sports"
-    },
-    {
-      "id": "live-167f8cfb1a",
-      "title": "BLV LONG",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=f827fa8803a25a0c083984bf5db83dfb&txTime=6a922791",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787946481-0-0-2e7696ae12193f831c108e40e7ec1683",
       "category": "Sports"
     },
     {
@@ -47,6 +39,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-167f8cfb1a",
+      "title": "BLV LONG",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=f827fa8803a25a0c083984bf5db83dfb&txTime=6a922791",
       "category": "Sports"
     },
     {
