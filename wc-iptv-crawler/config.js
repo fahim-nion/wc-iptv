@@ -18,11 +18,17 @@ export default {
             homepage: "https://xoilaczznnz.tv/",
             mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
         },
-        // THIS WAS MISSING:
         fanzone: {
             enabled: true,
             priority: 4,
             homepage: "https://fanzone-omega.vercel.app/",
+            mirrors: []
+        },
+        // ADDED CAMEL1
+        camel1: {
+            enabled: true,
+            priority: 5,
+            homepage: "https://www.camel1.tv/",
             mirrors: []
         }
     },

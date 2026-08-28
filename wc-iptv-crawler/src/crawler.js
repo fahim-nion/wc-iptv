@@ -1,8 +1,8 @@
 import fs from 'fs';
-import { discoverSocolive, discoverColaTV, discoverXoilac, discoverFanzone } from './discovery/matchDiscovery.js';
+import { discoverSocolive, discoverColaTV, discoverXoilac, discoverFanzone, discoverCamel1 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
-import { validateStream } from './validation/validateStream.js'; // Added for persistence check
+import { validateStream } from './validation/validateStream.js'; 
 import chalk from 'chalk';
 import crypto from 'crypto';
 
@@ -22,17 +22,19 @@ async function runCycle() {
         }
     } catch (e) { console.log("No existing data found."); }
 
-    // 2. Discovery
+    // 2. Discovery (Including Camel1)
     const soco = await discoverSocolive().catch(() => []);
     const cola = await discoverColaTV().catch(() => []);
     const xoi = await discoverXoilac().catch(() => []);
     const fan = await discoverFanzone().catch(() => []);
+    const cam = await discoverCamel1().catch(() => []);
     
-    const allMatches = [...soco, ...cola, ...xoi, ...fan];
+    const allMatches = [...soco, ...cola, ...xoi, ...fan, ...cam];
     const newResults = [];
     const seenUrls = new Set();
 
-    const queue = [...soco.slice(0,3), ...cola.slice(0,3), ...xoi.slice(0,3), ...fan.slice(0,3)];
+    // queue 3 from each for variety
+    const queue = [...soco.slice(0,3), ...cola.slice(0,3), ...xoi.slice(0,3), ...fan.slice(0,3), ...cam.slice(0,3)];
 
     // 3. Extraction of New Matches
     for (const match of queue) {
@@ -55,13 +57,11 @@ async function runCycle() {
         } catch (e) { }
     }
 
-    // 4. PERSISTENCE LOGIC: Check if old matches are still "playing"
+    // 4. PERSISTENCE LOGIC
     console.log(chalk.blue("\n[Persistence] Verifying previous matches..."));
     for (const old of existingChannels) {
-        // If we already found this match in the new crawl, skip
         if (newResults.find(n => n.title === old.title)) continue;
 
-        // Verify if the old stream link is still alive
         const check = await validateStream(old.streamUrl);
         if (check.isValid) {
             console.log(chalk.cyan(`   ↻ Preserving active match: ${old.title}`));

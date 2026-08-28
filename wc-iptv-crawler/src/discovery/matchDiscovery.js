@@ -24,7 +24,6 @@ async function performDiscovery(sourceKey, selector) {
 
     console.log(`\n🔍 [${sourceKey.toUpperCase()}] Scanning...`);
     
-    // Headless: true for mobile/background speed, false for laptop debugging
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true, 
@@ -70,3 +69,4 @@ export const discoverSocolive = () => performDiscovery('socolive', 'a[href*="/tr
 export const discoverColaTV = () => performDiscovery('colatv', 'a[href*="/truc-tiep/"]');
 export const discoverXoilac = () => performDiscovery('xoilac', 'a[href*="/truc-tiep/"]');
 export const discoverFanzone = () => performDiscovery('fanzone', 'a[href*="/match/"], a[href*="/live/"]');
+export const discoverCamel1 = () => performDiscovery('camel1', 'a[href*="/truc-tiep/"]');
