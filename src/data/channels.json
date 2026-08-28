@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T01:08:52.182Z",
+  "updatedAt": "2026-08-28T01:18:14.577Z",
   "channels": [
     {
       "id": "live-800e6041d7",
       "title": "BLV TAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=2042eb21f77f801aed01a95939ba38f0&txTime=6a91331d",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=4fdb9de184e6d3579e487a4bcabc2030&txTime=6a913575",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787882761-0-0-df1f0d433e03b5c8ddfd099e27ae1643",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787883421-0-0-fbc8d50d6a33bf4862c3beba8a317843",
       "category": "Sports"
     },
     {
@@ -22,23 +22,15 @@
       "title": "BLV ZOWIE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787882821-0-0-ee2f0e2578a61c75bbf762e0fcfdc7ea",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787883421-0-0-172b6f0dc2a2e6f28c74827a6dac8db2",
       "category": "Sports"
     },
     {
-      "id": "live-4d546998ce",
+      "id": "live-2a5365bc77",
       "title": "BLV SPRITE",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c66052d2c6",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     },
     {
@@ -47,6 +39,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c66052d2c6",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     },
     {
@@ -98,27 +98,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-951b79bfa1",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=58c66e9ca1158ce7bc8393d5d6a93877&txTime=6a9122b5",
-      "category": "Sports"
-    },
-    {
       "id": "live-f12fcc7fd8",
       "title": "CHAN ĐÊ",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787874961-0-0-283f5100f7ec523699b0954b3e835bee",
-      "category": "Sports"
-    },
-    {
-      "id": "live-09993ef233",
-      "title": "BLV KAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=419b181f9f45f4a952f064f898e339a3&txTime=6a9114e1",
       "category": "Sports"
     },
     {
