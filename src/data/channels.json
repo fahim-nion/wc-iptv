@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T18:00:16.687Z",
+  "updatedAt": "2026-08-28T18:08:46.817Z",
   "channels": [
     {
       "id": "live-8bec841e42",
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787943361-0-0-cb89028e21aabad4f352d096da1394e3",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787943961-0-0-52f2a9ac828a612321720796a8fdd1b1",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV VIP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=44edb034db21406443df7fa3f4be7c91&txTime=6a92204d",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=da62eb95163234d520968d66feb65655&txTime=6a9222a5",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BÒ TƯƠI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787943421-0-0-57b42157e8ef21b278b40dd12081ca3b",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
       "category": "Sports"
     },
     {
