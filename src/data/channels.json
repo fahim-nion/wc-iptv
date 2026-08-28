@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T20:20:42.503Z",
+  "updatedAt": "2026-08-28T20:30:45.072Z",
   "channels": [
     {
       "id": "live-59dec99565",
       "title": "BLV ANH TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=8eb01191e63eddb468498cb684b1f28e&txTime=6a924159",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=e43ad1c4e3c1e4d144ce05e8674d1447&txTime=6a924375",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787951881-0-0-271e880aa8a8e0f6aed6965e1e9fd8fa",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787952481-0-0-0875096c98c8a8fd3bf85b05f1a5edc4",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "CACAO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787951881-0-0-74b1816b36c83f144dd1966de4961d3e",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787952481-0-0-59452e78bcf553e14d3ed71592c20bf1",
       "category": "Sports"
     },
     {
@@ -39,14 +39,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5e39a8b24e",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
@@ -119,14 +111,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787866801-0-0-884e2adae28764b36a58074c61c29bce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c617050c08",
-      "title": "BLV PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787866861-0-0-d146bc0afcffff0c79fcbeaf563f5523",
       "category": "Sports"
     }
   ]
