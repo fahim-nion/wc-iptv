@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-28T00:58:18.528Z",
+  "updatedAt": "2026-08-28T01:08:52.182Z",
   "channels": [
+    {
+      "id": "live-800e6041d7",
+      "title": "BLV TAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=2042eb21f77f801aed01a95939ba38f0&txTime=6a91331d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a3a6d83a35",
+      "title": "BLV LION",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787882761-0-0-df1f0d433e03b5c8ddfd099e27ae1643",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8198f573a6",
+      "title": "BLV ZOWIE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787882821-0-0-ee2f0e2578a61c75bbf762e0fcfdc7ea",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d546998ce",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c66052d2c6",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5801675093",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-a2ded47809",
       "title": "BLV RAMBO",
@@ -50,51 +98,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-4d546998ce",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c66052d2c6",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5801675093",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ae327aa46c",
-      "title": "BLV LION",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787878561-0-0-75e928ddb71dece0ef476202da3c1292",
-      "category": "Sports"
-    },
-    {
       "id": "live-951b79bfa1",
       "title": "BLV VIP",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=58c66e9ca1158ce7bc8393d5d6a93877&txTime=6a9122b5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8bc4445edb",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787878621-0-0-1a7ee11fb918aaba108ea6292e7bdcce",
       "category": "Sports"
     },
     {
