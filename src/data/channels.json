@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T15:59:01.083Z",
+  "updatedAt": "2026-08-28T16:09:12.877Z",
   "channels": [
     {
       "id": "live-ed3c355f5c",
       "title": "RỒNG ĐẤT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1787936221-0-0-5a5d9b127e1bc98507e124e6511e229b",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1787936821-0-0-22d5a1202fc9886558f890d1c452fee0",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787936221-0-0-1ba1edcc06ccbc952767a06639855cde",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787936821-0-0-b8d7b5966364428a6691087b3fa181aa",
       "category": "Sports"
     },
     {
@@ -22,15 +22,7 @@
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787936281-0-0-ef229609845633e38df53261195380d1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9d115bcc92",
-      "title": "BLV SODA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787936821-0-0-335ed7d363d9b995d5996f7ca1367e92",
       "category": "Sports"
     },
     {
