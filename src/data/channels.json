@@ -1,28 +1,20 @@
 {
-  "updatedAt": "2026-08-28T18:08:46.817Z",
+  "updatedAt": "2026-08-28T18:19:41.908Z",
   "channels": [
+    {
+      "id": "live-8a5c7a3ea2",
+      "title": "BLV NOVA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-619108_lhd.m3u8?auth_key=1787944621-0-0-f6f09ca5fe1475440f81121f4b6dc424",
+      "category": "Sports"
+    },
     {
       "id": "live-8bec841e42",
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787943961-0-0-52f2a9ac828a612321720796a8fdd1b1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-52372ed00e",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=da62eb95163234d520968d66feb65655&txTime=6a9222a5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f64f5c28e3",
-      "title": "BÒ TƯƠI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787944681-0-0-5e89490cf8a5207ff57f5d8f56e3916f",
       "category": "Sports"
     },
     {
@@ -47,6 +39,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-52372ed00e",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=da62eb95163234d520968d66feb65655&txTime=6a9222a5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f64f5c28e3",
+      "title": "BÒ TƯƠI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
       "category": "Sports"
     },
     {
