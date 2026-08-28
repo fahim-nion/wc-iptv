@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-28T21:50:50.125Z",
+  "updatedAt": "2026-08-28T22:04:01.246Z",
   "channels": [
+    {
+      "id": "live-a77eafe2d3",
+      "title": "BLV FOX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787958061-0-0-14660dc2c4c149745634d5a81a2c8822",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c5d4809bca",
+      "title": "BLV CHIVAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=fcad3714d654d7a7543bb7bb07d4bd72&txTime=6a9259b9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9d7749ba32",
+      "title": "CƠM NẾP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1787958121-0-0-c0fa7d287fb74b2d6112add2108d8369",
+      "category": "Sports"
+    },
     {
       "id": "live-73fa8280b4",
       "title": "BLV MOUNTAIN DEW",
