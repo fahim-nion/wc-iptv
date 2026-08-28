@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-28T18:49:49.415Z",
+  "updatedAt": "2026-08-28T18:59:44.481Z",
   "channels": [
+    {
+      "id": "live-f4559b358e",
+      "title": "BLV MESSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787946901-0-0-0f2b409abb56248a0d5f412e3f476e61",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ce08c36a99",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912137_lhd.m3u8?txSecret=01b4197d09a6310a346f13276c1c23b2&txTime=6a922e21",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb27fae326",
+      "title": "BLV BÉO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cfb88a63f53d69e80e1b0a7233e8c567&txTime=6a922e99",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2834a3e13f",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cee66b24b5",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5e39a8b24e",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-3de2d639d3",
       "title": "ĐỖ TÚ TÀI",
@@ -23,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1787946481-0-0-2e7696ae12193f831c108e40e7ec1683",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5e39a8b24e",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
@@ -95,14 +135,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1787944021-0-0-ce5e0a280dfd342af93706833ab9cfe3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ac762ede67",
-      "title": "BLV RYO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=84642ebc29609487180e7a75bf16e9c0&txTime=6a921df5",
       "category": "Sports"
     },
     {
