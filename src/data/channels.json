@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-28T22:30:55.260Z",
+  "updatedAt": "2026-08-28T22:41:17.357Z",
   "channels": [
+    {
+      "id": "live-73fa8280b4",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-5adb7c271c",
       "title": "HÀ DUY KIÊN",
@@ -39,14 +47,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1787958841-0-0-e5f496897b2c993af1062ab0ef97cce1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-73fa8280b4",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     }
   ]
