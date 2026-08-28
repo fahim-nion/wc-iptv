@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T16:39:43.905Z",
+  "updatedAt": "2026-08-28T16:49:41.386Z",
   "channels": [
     {
       "id": "live-587c3e6670",
       "title": "BLV FIREMAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1787938621-0-0-0322607cc2e48304fa8735538a4f0f0f",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1787939161-0-0-6964bdedab41a6f1489a5286535d8a92",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV ROBBEN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1787938621-0-0-1446128bd0b438abdd8d13e834809404",
+      "streamUrl": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1787939221-0-0-38ff3054f84d2017ee2d64644bcae645",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV ALEX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1787938681-0-0-ef29b7e145a7ba91b63ac7a390e22278",
+      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1787939281-0-0-a08a599491d7a144326524f2ab89f04f",
       "category": "Sports"
     },
     {
