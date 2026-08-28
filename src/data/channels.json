@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T03:19:24.207Z",
+  "updatedAt": "2026-08-28T03:28:48.764Z",
   "channels": [
     {
       "id": "live-fc9e82db63",
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787890561-0-0-4792c6920cb7980f67eca753ed669b63",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787891221-0-0-57ffe6de079dc2ab998f36d649cddb19",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV CÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1787890621-0-0-035d7ff15345668e32deec6e05728f31",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1787891221-0-0-ac78322758668c89e2d1a82eacf52928",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BÁ PHÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912121_lhd.m3u8?auth_key=1787890621-0-0-12ccb853a8e7eaf01faed62e5006d6c7",
+      "streamUrl": "https://pull.niues.live/live/stream-9912121_lhd.m3u8?auth_key=1787891221-0-0-c2687094afc2aa5aef80de046e35e11e",
       "category": "Sports"
     },
     {
