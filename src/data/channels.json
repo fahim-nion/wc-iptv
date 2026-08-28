@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-08-28T16:19:40.203Z",
+  "updatedAt": "2026-08-28T16:30:03.948Z",
   "channels": [
+    {
+      "id": "live-37169f3e97",
+      "title": "BLV PEWPEW",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1787938021-0-0-05d158bc29db71c4c36b258c4534d26f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8d34138dcc",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1787938081-0-0-ce20871d046520cd3804e8bfbd56f0e5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a951242664",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1787938081-0-0-7b2ad94c29a58a2792f9af6b26c4340a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5003b67e0d",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6870150f29",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a47a85a920",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-ed3c355f5c",
       "title": "RỒNG ĐẤT",
@@ -23,30 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787937481-0-0-1c7854f860e9576eaf85c8ded0a8e6c5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3d63165a14",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5003b67e0d",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6870150f29",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
