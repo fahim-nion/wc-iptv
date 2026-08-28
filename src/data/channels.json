@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T00:09:01.055Z",
+  "updatedAt": "2026-08-28T00:18:13.177Z",
   "channels": [
     {
       "id": "live-fa10bc2676",
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=bdc4ffdbe15e1123ef19bdea49387539&txTime=6a912549",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=9b15fab902ee141b3f5803b6670c255f&txTime=6a9127a1",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV FOX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787879221-0-0-1b3746794c35bdf64273d522fc2c09a1",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787879821-0-0-ba3a7d89a4f3fe105bc6f7a27feece02",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV RÔSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=554a31ce66d4cd020c35633a59d2763a&txTime=6a912585",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=322f74eb9fdba9da2c00f00c0faba1cd&txTime=6a9127dd",
       "category": "Sports"
     },
     {
