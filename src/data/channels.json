@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-28T19:18:44.837Z",
+  "updatedAt": "2026-08-28T19:29:42.172Z",
   "channels": [
+    {
+      "id": "live-59dec99565",
+      "title": "BLV ANH TÀI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=129c5e971fdac567d7522908ba02eca4&txTime=6a923565",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9bacd17e2b",
+      "title": "VINFAST",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1787948881-0-0-8dd624e3e28933ec868ec2d7eaa96608",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d525b339c",
+      "title": "CACAO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1787948881-0-0-130c7972c7e2b4ef089323f8f1ba1b13",
+      "category": "Sports"
+    },
     {
       "id": "live-06ac8c93a6",
       "title": "GRAP",
