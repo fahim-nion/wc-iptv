@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T19:13:03.128Z",
+  "updatedAt": "2026-08-28T19:18:44.837Z",
   "channels": [
     {
       "id": "live-06ac8c93a6",
       "title": "GRAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=23195a48ad3a5cd073b303ae1ef07357&txTime=6a92316a",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=d920002bae8f465b6036d2e7b70eae9a&txTime=6a923295",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787947861-0-0-1f731ce328962fa8b61abb9b08410600",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1787948221-0-0-ee64c0dd63a1b087e17155b809c2462f",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787947861-0-0-0351981775d64489834c61afb9f933db",
+      "streamUrl": "https://pull.niues.live/live/stream-494201_lhd.m3u8?auth_key=1787948161-0-0-32b2ef31afef5c02c0a306d4b3e18ba4",
       "category": "Sports"
     },
     {
