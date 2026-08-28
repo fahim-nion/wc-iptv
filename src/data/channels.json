@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T16:09:12.877Z",
+  "updatedAt": "2026-08-28T16:19:40.203Z",
   "channels": [
     {
       "id": "live-ed3c355f5c",
       "title": "RỒNG ĐẤT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1787936821-0-0-22d5a1202fc9886558f890d1c452fee0",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1787937421-0-0-714f33abbb6002e5b6e4425509035bad",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787936821-0-0-b8d7b5966364428a6691087b3fa181aa",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1787937421-0-0-8194f6705b69a2972f52ff4d27ebd0fa",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787936821-0-0-335ed7d363d9b995d5996f7ca1367e92",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1787937481-0-0-1c7854f860e9576eaf85c8ded0a8e6c5",
       "category": "Sports"
     },
     {
@@ -39,6 +39,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6870150f29",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
