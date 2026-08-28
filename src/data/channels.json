@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-28T17:20:00.705Z",
+  "updatedAt": "2026-08-28T17:29:45.497Z",
   "channels": [
     {
       "id": "live-ac762ede67",
       "title": "BLV RYO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=aa516f458d11046de1a9243d3512f42c&txTime=6a9216ed",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=945c627f7b3ec5561f559a7d3ca4f229&txTime=6a921945",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787941081-0-0-e01d9b17f93221f534763d82e96f4c39",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1787941621-0-0-181d96064f0f50d9719490faa29a4d63",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "XUÂN SON",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=a9379afbfe7a3e609d02d1d911342bec&txTime=6a921729",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=6525f2987861d364763004b2bc63ba9d&txTime=6a921981",
       "category": "Sports"
     },
     {
