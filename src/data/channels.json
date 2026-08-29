@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T20:34:04.665Z",
+  "updatedAt": "2026-08-29T20:44:10.666Z",
   "channels": [
     {
       "id": "live-efda447824",
       "title": "GRAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=d6d21599370d5c376277fe58d41a00f6&txTime=6a9395e5",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=12bc2410118f28c1c7e7c87583b0b037&txTime=6a939801",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=ef641aaeaee82f4bf9103ef42ea9cf99&txTime=6a9395e5",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=f23a7eb02a28a073fab002dcb664c7ad&txTime=6a93983d",
       "category": "Sports"
     },
     {
@@ -46,15 +46,15 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=0e9ff4c72cc892abce0c530d0ac23c72&wsABSTime=1788078813",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=295994571ec1fd16cb9c1a2d2847c390&wsABSTime=1788079412",
       "category": "Sports"
     },
     {
-      "id": "live-3df4b5911f",
+      "id": "live-5e37eaf2ce",
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel87.flv?wsSecret=7eecd251640e8ac8b2a387865461cb5b&wsABSTime=1788078831",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel88.flv?wsSecret=4796dac64474eb3f591d629b904d25b1&wsABSTime=1788079429",
       "category": "Sports"
     },
     {
@@ -71,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788037861-0-0-a8d29b5ab01ae6c720bc84da08d6d5ea",
-      "category": "Sports"
-    },
-    {
-      "id": "live-228fa9d6d9",
-      "title": "BLV REDBULL",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/49572724.m3u8",
       "category": "Sports"
     }
   ]
