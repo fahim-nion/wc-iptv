@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-08-29T01:16:20.827Z",
+  "updatedAt": "2026-08-29T01:39:27.493Z",
   "channels": [
     {
       "id": "live-1148e99fdc",
       "title": "BLV ENZO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787969581-0-0-06c48b6f31ab12b757d38c87c52b904e",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787970961-0-0-5fe6168aee65c011670d2b52ebb39994",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0503d9dc3",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=baee472c5a39b00184a92891aa21e676&txTime=6a928c1d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-10e95dd58b",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-70d85d7c6c",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
       "category": "Sports"
     },
     {
@@ -15,14 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d674565a364a8fc9be54604abd1cd481&txTime=6a9286b9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e0503d9dc3",
-      "title": "LOGAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=45057f0f29a3e3090c8b0438437bbfa4&txTime=6a9286b9",
       "category": "Sports"
     },
     {
@@ -39,22 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787968081-0-0-dd87d2de65f3bc1b17d88fe8a23111ce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-10e95dd58b",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e508d14187",
-      "title": "BLV COZY",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
       "category": "Sports"
     },
     {
@@ -79,14 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1787966161-0-0-a546a0d773520f1ff1e126d76abd942b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c03be7b938",
-      "title": "CHAN ĐÊ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787964541-0-0-1593deb028d62026fdd36a4d1a8d465b",
       "category": "Sports"
     },
     {
