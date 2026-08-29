@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T02:21:15.029Z",
+  "updatedAt": "2026-08-29T02:51:22.239Z",
   "channels": [
     {
       "id": "live-821f612198",
       "title": "NEKO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787973481-0-0-356bb54a833bff63548a54d2b9fc98d7",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787975341-0-0-ba7d11668e26322cd033d93f2b49ef71",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=cd18c16850653c35abf77f1ed1a5216e&txTime=6a9295b9",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=f54da045b6e1e46597293770cffde1ed&txTime=6a929cfd",
       "category": "Sports"
     },
     {
@@ -23,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787973541-0-0-d38666782668d13b017db6603adfd55f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-10e95dd58b",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
@@ -63,22 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d674565a364a8fc9be54604abd1cd481&txTime=6a9286b9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1802831669",
-      "title": "BLV YONE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787968081-0-0-c376b828603fff2ca85869d7d4bfdfd3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-82a55923ef",
-      "title": "BLV FOX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787968081-0-0-dd87d2de65f3bc1b17d88fe8a23111ce",
       "category": "Sports"
     },
     {
