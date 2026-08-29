@@ -1,28 +1,20 @@
 {
-  "updatedAt": "2026-08-29T20:12:17.648Z",
+  "updatedAt": "2026-08-29T20:24:09.676Z",
   "channels": [
+    {
+      "id": "live-efda447824",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8422951bf8738e862ba6cca6e2024365&txTime=6a93938d",
+      "category": "Sports"
+    },
     {
       "id": "live-15df14eac2",
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=7e98e1befefbcc03675b3eb86b89d0f9&txTime=6a939135",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fb6b314c0a",
-      "title": "BLV GIÓ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=84a3fa1aa4833ae5254f92ecc0076be3&txTime=6a9390f9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d48ad3be54",
-      "title": "NGƯỜI CÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788037861-0-0-a8d29b5ab01ae6c720bc84da08d6d5ea",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=7182dc4886c42829af093f9ed467e165&txTime=6a93938d",
       "category": "Sports"
     },
     {
@@ -47,6 +39,38 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6eaf5ab00a",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=0fc6a2c78dbbb9f6e805656c4eb91ed9&wsABSTime=1788078221",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3df4b5911f",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel87.flv?wsSecret=a47ff24be411295a4650c905df19162d&wsABSTime=1788078237",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fb6b314c0a",
+      "title": "BLV GIÓ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=84a3fa1aa4833ae5254f92ecc0076be3&txTime=6a9390f9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d48ad3be54",
+      "title": "NGƯỜI CÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788037861-0-0-a8d29b5ab01ae6c720bc84da08d6d5ea",
       "category": "Sports"
     },
     {
