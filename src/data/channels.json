@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T00:29:30.534Z",
+  "updatedAt": "2026-08-29T00:51:18.799Z",
   "channels": [
     {
       "id": "live-1802831669",
       "title": "BLV YONE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787966821-0-0-4734ade14bae99f9c190e80f20d5b29f",
+      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787968081-0-0-c376b828603fff2ca85869d7d4bfdfd3",
       "category": "Sports"
     },
     {
@@ -14,7 +14,15 @@
       "title": "BLV FOX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787966881-0-0-5740bdd0ec8a4ca58c5d4dfa4f568c7e",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787968081-0-0-dd87d2de65f3bc1b17d88fe8a23111ce",
+      "category": "Sports"
+    },
+    {
+      "id": "live-10e95dd58b",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
@@ -63,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787962501-0-0-5aeaca845dd541cd61f4f9d57c683b5b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4aaac0b073",
-      "title": "BLV LONG",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=1a55ceb1fe31e740d0a2de6d71379b50&txTime=6a926481",
       "category": "Sports"
     }
   ]
