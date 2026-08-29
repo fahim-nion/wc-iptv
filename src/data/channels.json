@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T19:44:51.514Z",
+  "updatedAt": "2026-08-29T19:53:05.016Z",
   "channels": [
     {
       "id": "live-15df14eac2",
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=a75d4572faf4217a005adabad12f9f6a&txTime=6a9389f1",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=85a217bfec84b781a5aa782ea1b34173&txTime=6a938c49",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV GIÓ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=9da8fc4c9b5f6b5aaf009eaf27de32bb&txTime=6a938a2d",
+      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=e966dbc5411847252ca4caae20be8663&txTime=6a938c85",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788036121-0-0-20a747e48b99d02d0eb5e0879b0f2fe8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788036721-0-0-3838a0348cfb7ee4b349458b8a89e138",
       "category": "Sports"
     },
     {
@@ -47,22 +47,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6eaf5ab00a",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=f1f688938034e1090b91de266d1a3a9d&wsABSTime=1788075816",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3df4b5911f",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel87.flv?wsSecret=fca2bdcfc3e23b9b37f84a699dcb2782&wsABSTime=1788075834",
       "category": "Sports"
     },
     {
