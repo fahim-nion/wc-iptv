@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-29T02:51:22.239Z",
+  "updatedAt": "2026-08-29T03:08:47.861Z",
   "channels": [
+    {
+      "id": "live-4229638bcb",
+      "title": "BLV TAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=4879641b7dd0885cac902d803930908d&txTime=6a92a0bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-593e1b7550",
+      "title": "ZIDANE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=42dbf54d95818380e6cf689e3ed779ea&txTime=6a92a135",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a0dfffe4d2",
+      "title": "BLV ZOWIE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787976421-0-0-62e80be192455153a3df30d3bd36faf4",
+      "category": "Sports"
+    },
     {
       "id": "live-821f612198",
       "title": "NEKO",
@@ -26,14 +50,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-70d85d7c6c",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-c73733f1ff",
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
@@ -55,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d674565a364a8fc9be54604abd1cd481&txTime=6a9286b9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f6d2ce54c8",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1787962501-0-0-5aeaca845dd541cd61f4f9d57c683b5b",
       "category": "Sports"
     }
   ]
