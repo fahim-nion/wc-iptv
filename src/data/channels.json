@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T21:23:37.762Z",
+  "updatedAt": "2026-08-29T21:32:44.177Z",
   "channels": [
     {
       "id": "live-5e46332d19",
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788042061-0-0-29751a5c939c2793309e023aa73666d9",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788042601-0-0-6cbde86f23e7a964e99897819468d0aa",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788042121-0-0-af91497264ab241623232db7c49dde06",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788042601-0-0-aac6f371dc9bf77e93eb331daa242c36",
       "category": "Sports"
     },
     {
@@ -34,35 +34,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-d668b79196",
-      "title": "BLV 247",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-f602ff0561",
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fb6b314c0a",
-      "title": "BLV GIÓ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=84a3fa1aa4833ae5254f92ecc0076be3&txTime=6a9390f9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d48ad3be54",
-      "title": "NGƯỜI CÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788037861-0-0-a8d29b5ab01ae6c720bc84da08d6d5ea",
       "category": "Sports"
     }
   ]
