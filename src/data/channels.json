@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-29T00:18:26.794Z",
+  "updatedAt": "2026-08-29T00:29:30.534Z",
   "channels": [
     {
-      "id": "live-9ed8495be6",
-      "title": "BLV CHIVAS",
+      "id": "live-1802831669",
+      "title": "BLV YONE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=d0f6a47d3d9c5362a658d8fe8139b610&txTime=6a9278e5",
+      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1787966821-0-0-4734ade14bae99f9c190e80f20d5b29f",
       "category": "Sports"
     },
     {
-      "id": "live-9af6cd5657",
-      "title": "BÚN ĐẬU",
+      "id": "live-82a55923ef",
+      "title": "BLV FOX",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1787966161-0-0-a546a0d773520f1ff1e126d76abd942b",
+      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787966881-0-0-5740bdd0ec8a4ca58c5d4dfa4f568c7e",
       "category": "Sports"
     },
     {
@@ -34,11 +34,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-10e95dd58b",
-      "title": "BLV SPRITE",
+      "id": "live-9ed8495be6",
+      "title": "BLV CHIVAS",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=d0f6a47d3d9c5362a658d8fe8139b610&txTime=6a9278e5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9af6cd5657",
+      "title": "BÚN ĐẬU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1787966161-0-0-a546a0d773520f1ff1e126d76abd942b",
       "category": "Sports"
     },
     {
@@ -47,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787964541-0-0-1593deb028d62026fdd36a4d1a8d465b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5adb7c271c",
-      "title": "HÀ DUY KIÊN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=549b847bd4274232caf4c9ce689a8587&txTime=6a926ad5",
       "category": "Sports"
     },
     {
@@ -71,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=1a55ceb1fe31e740d0a2de6d71379b50&txTime=6a926481",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a77eafe2d3",
-      "title": "BLV FOX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787958781-0-0-8f80d802f49a3f8b4d1340382a394c3f",
       "category": "Sports"
     }
   ]
