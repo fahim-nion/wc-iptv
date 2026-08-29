@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-29T00:51:18.799Z",
+  "updatedAt": "2026-08-29T01:16:20.827Z",
   "channels": [
+    {
+      "id": "live-1148e99fdc",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787969581-0-0-06c48b6f31ab12b757d38c87c52b904e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d29d685792",
+      "title": "BLV RAMBO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d674565a364a8fc9be54604abd1cd481&txTime=6a9286b9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0503d9dc3",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=45057f0f29a3e3090c8b0438437bbfa4&txTime=6a9286b9",
+      "category": "Sports"
+    },
     {
       "id": "live-1802831669",
       "title": "BLV YONE",
