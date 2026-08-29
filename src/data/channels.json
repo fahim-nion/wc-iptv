@@ -1,12 +1,28 @@
 {
-  "updatedAt": "2026-08-29T05:10:57.461Z",
+  "updatedAt": "2026-08-29T05:24:55.612Z",
   "channels": [
     {
       "id": "live-1584bbc1a3",
       "title": "BLV RÔSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=8efc045e515a779d072950793acea2a7&txTime=6a92bd55",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=96db708464efd1f877bc9f4db1d35b15&txTime=6a92c09d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-228fa9d6d9",
+      "title": "BLV REDBULL",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/49572724.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6796408436",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     },
     {
@@ -23,22 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1787983621-0-0-b972dfce56f6b81beec1bcc8d40c8045",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6796408436",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-228fa9d6d9",
-      "title": "BLV REDBULL",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/49572724.m3u8",
       "category": "Sports"
     },
     {
