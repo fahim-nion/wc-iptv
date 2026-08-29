@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-29T21:14:08.266Z",
+  "updatedAt": "2026-08-29T21:23:37.762Z",
   "channels": [
+    {
+      "id": "live-5e46332d19",
+      "title": "BLV A WIN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788042061-0-0-29751a5c939c2793309e023aa73666d9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7a3f9bf647",
+      "title": "VINFAST",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788042121-0-0-af91497264ab241623232db7c49dde06",
+      "category": "Sports"
+    },
     {
       "id": "live-efda447824",
       "title": "GRAP",
@@ -27,14 +43,6 @@
     },
     {
       "id": "live-f602ff0561",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a90d8bae26",
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
