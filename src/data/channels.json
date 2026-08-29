@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T20:53:39.185Z",
+  "updatedAt": "2026-08-29T21:04:24.195Z",
   "channels": [
     {
       "id": "live-efda447824",
       "title": "GRAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=1b2d244d7eac46c827232cacb9cfbe26&txTime=6a939a95",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=4a8c89932255f798f2ba5cb49454dbd7&txTime=6a939ced",
       "category": "Sports"
     },
     {
@@ -14,15 +14,7 @@
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=f03fc13aae5246624f879a55160a96f1&txTime=6a939ad1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5e37eaf2ce",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel88.flv?wsSecret=4d7da54bf262ccaa9d97d595a6c9e052&wsABSTime=1788079974",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5ff054ac54bf6b0b3ed2ba5b079ac96d&txTime=6a939d29",
       "category": "Sports"
     },
     {
@@ -31,6 +23,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f602ff0561",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a90d8bae26",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     },
     {
