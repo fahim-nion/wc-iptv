@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T21:04:24.195Z",
+  "updatedAt": "2026-08-29T21:14:08.266Z",
   "channels": [
     {
       "id": "live-efda447824",
       "title": "GRAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=4a8c89932255f798f2ba5cb49454dbd7&txTime=6a939ced",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=635cdfa00e79409476a3c084687a5a0a&txTime=6a939f45",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5ff054ac54bf6b0b3ed2ba5b079ac96d&txTime=6a939d29",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=79f309198ee708f99d6df9481c0749b0&txTime=6a939f81",
       "category": "Sports"
     },
     {
