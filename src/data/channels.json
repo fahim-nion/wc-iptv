@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T01:55:34.090Z",
+  "updatedAt": "2026-08-29T02:21:15.029Z",
   "channels": [
     {
       "id": "live-821f612198",
       "title": "NEKO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787971981-0-0-128b0dff4307da2fee36103b231df1d5",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787973481-0-0-356bb54a833bff63548a54d2b9fc98d7",
       "category": "Sports"
     },
     {
@@ -14,15 +14,15 @@
       "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=37625c3e5080f25c11833758ae131aee&txTime=6a928fdd",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=cd18c16850653c35abf77f1ed1a5216e&txTime=6a9295b9",
       "category": "Sports"
     },
     {
-      "id": "live-e0503d9dc3",
-      "title": "LOGAN",
+      "id": "live-1148e99fdc",
+      "title": "BLV ENZO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=baee472c5a39b00184a92891aa21e676&txTime=6a928c1d",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787973541-0-0-d38666782668d13b017db6603adfd55f",
       "category": "Sports"
     },
     {
@@ -39,6 +39,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c73733f1ff",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0503d9dc3",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=baee472c5a39b00184a92891aa21e676&txTime=6a928c1d",
       "category": "Sports"
     },
     {
@@ -63,22 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787968081-0-0-dd87d2de65f3bc1b17d88fe8a23111ce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ed8495be6",
-      "title": "BLV CHIVAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=d0f6a47d3d9c5362a658d8fe8139b610&txTime=6a9278e5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9af6cd5657",
-      "title": "BÚN ĐẬU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1787966161-0-0-a546a0d773520f1ff1e126d76abd942b",
       "category": "Sports"
     },
     {
