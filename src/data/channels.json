@@ -1,12 +1,20 @@
 {
-  "updatedAt": "2026-08-29T01:39:27.493Z",
+  "updatedAt": "2026-08-29T01:55:34.090Z",
   "channels": [
     {
-      "id": "live-1148e99fdc",
-      "title": "BLV ENZO",
+      "id": "live-821f612198",
+      "title": "NEKO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787970961-0-0-5fe6168aee65c011670d2b52ebb39994",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787971981-0-0-128b0dff4307da2fee36103b231df1d5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9778488b34",
+      "title": "HÀ DUY KIÊN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=37625c3e5080f25c11833758ae131aee&txTime=6a928fdd",
       "category": "Sports"
     },
     {
@@ -55,14 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787968081-0-0-dd87d2de65f3bc1b17d88fe8a23111ce",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dfb5a74df1",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     },
     {
