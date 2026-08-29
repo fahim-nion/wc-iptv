@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-28T23:51:02.605Z",
+  "updatedAt": "2026-08-29T00:01:48.006Z",
   "channels": [
     {
-      "id": "live-5d537d63b1",
-      "title": "BLV LION",
+      "id": "live-9ed8495be6",
+      "title": "BLV CHIVAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1787964481-0-0-42e7a1bdc93f0018373de5f5e1ea83aa",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=30ec49524c493e2a4c049fa50b8350ad&txTime=6a9274e9",
       "category": "Sports"
     },
     {
-      "id": "live-c03be7b938",
-      "title": "CHAN ĐÊ",
+      "id": "live-9af6cd5657",
+      "title": "BÚN ĐẬU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787964541-0-0-1593deb028d62026fdd36a4d1a8d465b",
+      "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1787965141-0-0-00798682a1c1b722bc5b2a71ee0b1178",
       "category": "Sports"
     },
     {
@@ -34,11 +34,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-73fa8280b4",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-10e95dd58b",
+      "title": "BLV SPRITE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c03be7b938",
+      "title": "CHAN ĐÊ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1787964541-0-0-1593deb028d62026fdd36a4d1a8d465b",
       "category": "Sports"
     },
     {
@@ -71,14 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620003_lhd.m3u8?auth_key=1787958781-0-0-8f80d802f49a3f8b4d1340382a394c3f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c5d4809bca",
-      "title": "BLV CHIVAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=cb6ae4cdd426dd1fa0241e2beaa8cce2&txTime=6a925c89",
       "category": "Sports"
     }
   ]
