@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T21:32:44.177Z",
+  "updatedAt": "2026-08-29T21:44:21.447Z",
   "channels": [
     {
       "id": "live-5e46332d19",
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788042601-0-0-6cbde86f23e7a964e99897819468d0aa",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788043201-0-0-03b484cc911a9a37f9006d01a9bcf34d",
       "category": "Sports"
     },
     {
@@ -14,23 +14,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788042601-0-0-aac6f371dc9bf77e93eb331daa242c36",
-      "category": "Sports"
-    },
-    {
-      "id": "live-efda447824",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=635cdfa00e79409476a3c084687a5a0a&txTime=6a939f45",
-      "category": "Sports"
-    },
-    {
-      "id": "live-15df14eac2",
-      "title": "BLV BÉO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=79f309198ee708f99d6df9481c0749b0&txTime=6a939f81",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788043261-0-0-fe7ae75b52115067701c6b08922e2459",
       "category": "Sports"
     },
     {
@@ -39,6 +23,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a90d8bae26",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-efda447824",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=635cdfa00e79409476a3c084687a5a0a&txTime=6a939f45",
       "category": "Sports"
     }
   ]
