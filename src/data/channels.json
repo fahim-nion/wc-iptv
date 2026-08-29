@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T03:30:33.620Z",
+  "updatedAt": "2026-08-29T03:48:45.038Z",
   "channels": [
     {
       "id": "live-4229638bcb",
       "title": "BLV TAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=96c24e8e73c7a011588c095b05a91090&txTime=6a92a5e5",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=19c4a71ef04f16c4dd0589759af2b65a&txTime=6a92aa95",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "ZIDANE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=8c03c12b43f6d55e74ae9d5d5b2a17c3&txTime=6a92a621",
+      "streamUrl": "https://pull.niur.live/live/stream-9912060_lhd.m3u8?txSecret=a08b222987a8612be740cb9e3565f79b&txTime=6a92aa95",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV ZOWIE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787977681-0-0-73cc8f0edcdbdec2f408bd490a8dc1f0",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1787978821-0-0-f9175799d86213830f29fccf1c87e4cc",
       "category": "Sports"
     },
     {
