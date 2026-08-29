@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T20:24:09.676Z",
+  "updatedAt": "2026-08-29T20:34:04.665Z",
   "channels": [
     {
       "id": "live-efda447824",
       "title": "GRAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8422951bf8738e862ba6cca6e2024365&txTime=6a93938d",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=d6d21599370d5c376277fe58d41a00f6&txTime=6a9395e5",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV BÉO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=7182dc4886c42829af093f9ed467e165&txTime=6a93938d",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=ef641aaeaee82f4bf9103ef42ea9cf99&txTime=6a9395e5",
       "category": "Sports"
     },
     {
@@ -46,7 +46,7 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=0fc6a2c78dbbb9f6e805656c4eb91ed9&wsABSTime=1788078221",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=0e9ff4c72cc892abce0c530d0ac23c72&wsABSTime=1788078813",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel87.flv?wsSecret=a47ff24be411295a4650c905df19162d&wsABSTime=1788078237",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel87.flv?wsSecret=7eecd251640e8ac8b2a387865461cb5b&wsABSTime=1788078831",
       "category": "Sports"
     },
     {
