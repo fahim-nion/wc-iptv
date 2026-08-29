@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-29T04:13:35.254Z",
+  "updatedAt": "2026-08-29T04:23:03.236Z",
   "channels": [
-    {
-      "id": "live-8712085c2e",
-      "title": "T REX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-619672_lhd.m3u8?txSecret=e9a9a40a6c41f379d500a731a8ad7641&txTime=6a92afbd",
-      "category": "Sports"
-    },
     {
       "id": "live-7a668bc0cd",
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787980141-0-0-4dd41ae879366f0b7e8f42adbd491325",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787980801-0-0-4e1bdcdecbe5c7894288afd131ee956f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8712085c2e",
+      "title": "T REX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-619672_lhd.m3u8?txSecret=da2301201ff220c3c63d6a505c489553&txTime=6a92b251",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787980201-0-0-42d5aef149b50ee8df87cbd5df0f30c1",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787980801-0-0-2efe7a9089a1d84241ffecff353c909c",
       "category": "Sports"
     },
     {
