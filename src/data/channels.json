@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-29T03:48:45.038Z",
+  "updatedAt": "2026-08-29T04:13:35.254Z",
   "channels": [
+    {
+      "id": "live-8712085c2e",
+      "title": "T REX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-619672_lhd.m3u8?txSecret=e9a9a40a6c41f379d500a731a8ad7641&txTime=6a92afbd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7a668bc0cd",
+      "title": "BLV A WIN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1787980141-0-0-4dd41ae879366f0b7e8f42adbd491325",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4670638261",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1787980201-0-0-42d5aef149b50ee8df87cbd5df0f30c1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5fb4b9fb91",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6796408436",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-4229638bcb",
       "title": "BLV TAP",
@@ -26,67 +66,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-5fb4b9fb91",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c73733f1ff",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9e929c0d1f",
-      "title": "BLV 247",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-821f612198",
-      "title": "NEKO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1787975341-0-0-ba7d11668e26322cd033d93f2b49ef71",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9778488b34",
-      "title": "HÀ DUY KIÊN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=f54da045b6e1e46597293770cffde1ed&txTime=6a929cfd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1148e99fdc",
-      "title": "BLV ENZO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1787973541-0-0-d38666782668d13b017db6603adfd55f",
-      "category": "Sports"
-    },
-    {
       "id": "live-e0503d9dc3",
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=baee472c5a39b00184a92891aa21e676&txTime=6a928c1d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d29d685792",
-      "title": "BLV RAMBO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d674565a364a8fc9be54604abd1cd481&txTime=6a9286b9",
       "category": "Sports"
     }
   ]
