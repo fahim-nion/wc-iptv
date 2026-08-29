@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-29T21:54:16.610Z",
+  "updatedAt": "2026-08-29T22:03:25.106Z",
   "channels": [
     {
       "id": "live-41c12a0d07",
       "title": "BLV RAMBO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=d4e610b4e51d2201898901043c5232b2&txTime=6a93a8a5",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=140fae13bcea9b5f6e6d9abea7d13506&txTime=6a93aafd",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=d66ba97e6d541b02d95c502ac3a06069&txTime=6a93a8e1",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=2995a8f041d21672c0ce685b55c36a29&txTime=6a93ab39",
       "category": "Sports"
     },
     {
@@ -22,19 +22,11 @@
       "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788043861-0-0-0affec190800c5a41773f8bbe088ab3a",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788044461-0-0-30bc173dd1e07bf60d2eef99131a320d",
       "category": "Sports"
     },
     {
       "id": "live-f602ff0561",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a90d8bae26",
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
