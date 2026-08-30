@@ -1,20 +1,52 @@
 {
-  "updatedAt": "2026-08-29T22:03:25.106Z",
+  "updatedAt": "2026-08-30T16:12:42.892Z",
   "channels": [
     {
-      "id": "live-41c12a0d07",
-      "title": "BLV RAMBO",
+      "id": "live-40bff9f668",
+      "title": "BLV REVIVE",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=140fae13bcea9b5f6e6d9abea7d13506&txTime=6a93aafd",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-0e1adc5725",
-      "title": "HÀ DUY KIÊN",
+      "id": "live-125f5976fb",
+      "title": "BLV 7UP",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=2995a8f041d21672c0ce685b55c36a29&txTime=6a93ab39",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-23c850e3a6",
+      "title": "BLV 247",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-648586194a",
+      "title": "HÔM NAY, 22:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://xoilac.m3u8delivery.com/ajax/chanel/type/8/link/channel6/off-tvc?is_off_add=false",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d1d6053106",
+      "title": "HÔM NAY, 22:15",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://xoilac.m3u8delivery.com/ajax/chanel/type/8/link/channel19/off-tvc?is_off_add=false",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d2ca132774",
+      "title": "HÔM NAY, 22:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel1.flv?wsSecret=e702e3c91025b80912478ef8b14bcedc&wsABSTime=1788149535",
       "category": "Sports"
     },
     {
@@ -23,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788044461-0-0-30bc173dd1e07bf60d2eef99131a320d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f602ff0561",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7a3f9bf647",
-      "title": "VINFAST",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788043261-0-0-fe7ae75b52115067701c6b08922e2459",
-      "category": "Sports"
-    },
-    {
-      "id": "live-efda447824",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=635cdfa00e79409476a3c084687a5a0a&txTime=6a939f45",
       "category": "Sports"
     }
   ]
