@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T19:10:43.870Z",
+  "updatedAt": "2026-08-31T19:20:38.149Z",
   "channels": [
     {
       "id": "live-f60f104e33",
@@ -7,6 +7,22 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788206821-0-0-d76fb8b822aa7c7bb15444b16166b0bb",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e31ae558aa",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=20c0615053fda5f1abdb756dd165fabf&txTime=6a96269d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5f3b3e9497",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788207481-0-0-e9055495c463d5c10446c329a2ed65d4",
       "category": "Sports"
     },
     {
