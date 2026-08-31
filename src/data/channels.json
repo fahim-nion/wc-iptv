@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:41:06.230Z",
+  "updatedAt": "2026-08-31T20:49:48.989Z",
   "channels": [
     {
       "id": "live-883b65295f",
@@ -87,14 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1747c2c7375edca5c811ea62fec8b6b0&txTime=6a962319",
-      "category": "Sports"
-    },
-    {
-      "id": "live-230404cf22",
-      "title": "BLV ALEX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1788205141-0-0-f90cae24f1499e034ad07a782f620799",
       "category": "Sports"
     },
     {
