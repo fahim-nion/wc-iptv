@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-31T18:20:42.689Z",
+  "updatedAt": "2026-08-31T18:29:00.488Z",
   "channels": [
+    {
+      "id": "live-748c4dd9a1",
+      "title": "CACAO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1788204181-0-0-b344e4e25ec013a47b63a6cbe44db8d3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e21c98c33a",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1788204481-0-0-f1f892279e4bcc3b6e4858b2911c03f3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-09a79fe6e2",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=dd11bd39c69fbf7bea484795d68f4923&txTime=6a961b5d",
+      "category": "Sports"
+    },
     {
       "id": "live-c9edf2c964",
       "title": "SEVEN",
