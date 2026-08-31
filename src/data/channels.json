@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T21:00:56.946Z",
+  "updatedAt": "2026-08-31T21:11:11.813Z",
   "channels": [
     {
       "id": "live-883b65295f",
@@ -26,19 +26,27 @@
       "category": "Sports"
     },
     {
-      "id": "live-54821cafb9",
-      "title": "BLV REVIVE",
+      "id": "live-a43c9f51bd",
+      "title": "BLV 7UP",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-a6e96336c0",
-      "title": "BLV SODA",
+      "id": "live-e9c9f9db88",
+      "title": "BLV STING",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
+      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-07bb07a2ba",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
       "category": "Sports"
     },
     {
@@ -50,14 +58,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-e31ae558aa",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=20c0615053fda5f1abdb756dd165fabf&txTime=6a96269d",
-      "category": "Sports"
-    },
-    {
       "id": "live-5f3b3e9497",
       "title": "TUẤN CÙI",
       "status": "live",
@@ -66,35 +66,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-a6f24c96ad",
-      "title": "BLV FIREMAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788205801-0-0-4e07873d12fadd8a869ef03d095ae36f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1a7bb3e9dd",
-      "title": "CR BƯỞI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1747c2c7375edca5c811ea62fec8b6b0&txTime=6a962319",
-      "category": "Sports"
-    },
-    {
       "id": "live-1757f60673",
       "title": "A BỆU",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=a2fd663514ffd5bce26284d3e33cf82b&txTime=6a9610d1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-275ac42475",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
       "category": "Sports"
     }
   ]
