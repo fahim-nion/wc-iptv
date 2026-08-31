@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-31T19:20:38.149Z",
+  "updatedAt": "2026-08-31T19:30:40.804Z",
   "channels": [
     {
-      "id": "live-f60f104e33",
-      "title": "BLV A WIN",
+      "id": "live-883b65295f",
+      "title": "CHÍ PHÈO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788206821-0-0-d76fb8b822aa7c7bb15444b16166b0bb",
+      "streamUrl": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1788207481-0-0-47c2feff4b7e73c0546968b5c7add00a",
       "category": "Sports"
     },
     {
-      "id": "live-e31ae558aa",
-      "title": "GRAP",
+      "id": "live-d96748127c",
+      "title": "LOKA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=20c0615053fda5f1abdb756dd165fabf&txTime=6a96269d",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788207661-0-0-43fc5a6cffa935f9574c8c81fddb16ea",
       "category": "Sports"
     },
     {
-      "id": "live-5f3b3e9497",
-      "title": "TUẤN CÙI",
+      "id": "live-9fa24186f1",
+      "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788207481-0-0-e9055495c463d5c10446c329a2ed65d4",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1788207601-0-0-900941edb405e86caae11a67350dfe89",
       "category": "Sports"
     },
     {
@@ -47,6 +47,30 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f60f104e33",
+      "title": "BLV A WIN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788206821-0-0-d76fb8b822aa7c7bb15444b16166b0bb",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e31ae558aa",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=20c0615053fda5f1abdb756dd165fabf&txTime=6a96269d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5f3b3e9497",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788207481-0-0-e9055495c463d5c10446c329a2ed65d4",
       "category": "Sports"
     },
     {
