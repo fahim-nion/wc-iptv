@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:31:00.018Z",
+  "updatedAt": "2026-08-31T20:41:06.230Z",
   "channels": [
     {
       "id": "live-883b65295f",
@@ -90,35 +90,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-42888400c1",
-      "title": "ĐỖ TÚ TÀI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1788205081-0-0-1a442e91c748e2f0ee06586d086599b4",
-      "category": "Sports"
-    },
-    {
       "id": "live-230404cf22",
       "title": "BLV ALEX",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1788205141-0-0-f90cae24f1499e034ad07a782f620799",
-      "category": "Sports"
-    },
-    {
-      "id": "live-748c4dd9a1",
-      "title": "CACAO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1788204181-0-0-b344e4e25ec013a47b63a6cbe44db8d3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e21c98c33a",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1788204481-0-0-f1f892279e4bcc3b6e4858b2911c03f3",
       "category": "Sports"
     },
     {
