@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-30T17:13:27.805Z",
+  "updatedAt": "2026-08-31T18:01:54.524Z",
   "channels": [
+    {
+      "id": "live-c9edf2c964",
+      "title": "SEVEN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=68907bf9064cc7dbbe5bf0f878a92a2f&txTime=6a960c21",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1757f60673",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=a2fd663514ffd5bce26284d3e33cf82b&txTime=6a9610d1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4fb0db7874",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-275ac42475",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-db37b091f5",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-38c9b757b9",
       "title": "NEKO",
@@ -10,43 +50,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-64e9accf32",
-      "title": "COCA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1788113341-0-0-cbdb8a4b62ec33cc38e0dd9d0cefd1e1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-40bff9f668",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-125f5976fb",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-23c850e3a6",
       "title": "BLV 247",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d2ca132774",
-      "title": "HÔM NAY, 22:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel1.flv?wsSecret=a2c0d2a778d533f6b64d62eedc70a769&wsABSTime=1788151512",
       "category": "Sports"
     },
     {
