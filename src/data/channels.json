@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-31T21:11:11.813Z",
+  "updatedAt": "2026-08-31T21:23:45.375Z",
   "channels": [
     {
       "id": "live-883b65295f",
       "title": "CHÍ PHÈO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1788207481-0-0-47c2feff4b7e73c0546968b5c7add00a",
+      "streamUrl": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1788214681-0-0-433d516b280dbc3fa5b0d96c9eb4e3ba",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1788207601-0-0-900941edb405e86caae11a67350dfe89",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1788214801-0-0-0b2e0d2598d4d32558efb823407e2750",
       "category": "Sports"
     },
     {
@@ -39,30 +39,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07bb07a2ba",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f60f104e33",
-      "title": "BLV A WIN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1788206821-0-0-d76fb8b822aa7c7bb15444b16166b0bb",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5f3b3e9497",
-      "title": "TUẤN CÙI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788207481-0-0-e9055495c463d5c10446c329a2ed65d4",
       "category": "Sports"
     },
     {
