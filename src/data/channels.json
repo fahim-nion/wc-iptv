@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T18:11:02.961Z",
+  "updatedAt": "2026-08-31T18:20:42.689Z",
   "channels": [
     {
       "id": "live-c9edf2c964",
@@ -7,6 +7,14 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=68907bf9064cc7dbbe5bf0f878a92a2f&txTime=6a960c21",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9eb5d8f3e4",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788203461-0-0-d37142b2d76fc9bf174c7e8925e4e892",
       "category": "Sports"
     },
     {
