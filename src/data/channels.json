@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T19:30:40.804Z",
+  "updatedAt": "2026-08-31T19:40:53.769Z",
   "channels": [
     {
       "id": "live-883b65295f",
@@ -106,14 +106,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-db37b091f5",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-748c4dd9a1",
       "title": "CACAO",
       "status": "live",
@@ -135,22 +127,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=dd11bd39c69fbf7bea484795d68f4923&txTime=6a961b5d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c9edf2c964",
-      "title": "SEVEN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=68907bf9064cc7dbbe5bf0f878a92a2f&txTime=6a960c21",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9eb5d8f3e4",
-      "title": "A PÁO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788203461-0-0-d37142b2d76fc9bf174c7e8925e4e892",
       "category": "Sports"
     },
     {
