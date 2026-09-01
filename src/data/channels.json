@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-01T15:08:17.248Z",
+  "updatedAt": "2026-09-01T15:23:29.681Z",
   "channels": [
+    {
+      "id": "live-efcdcee9e3",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1788278761-0-0-dade41c0127af75b7162f51033c1cb94",
+      "category": "Sports"
+    },
     {
       "id": "live-7d927b542d",
       "title": "BLV RÔSI",
@@ -18,14 +26,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-71d77ed39b",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-6e13337c78",
       "title": "BLV POCARI",
       "status": "live",
@@ -39,6 +39,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2afebb8c58",
+      "title": "BLV SODA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71d77ed39b",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
