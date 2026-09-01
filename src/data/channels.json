@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:55:06.116Z",
+  "updatedAt": "2026-09-01T15:08:17.248Z",
   "channels": [
     {
       "id": "live-7d927b542d",
@@ -18,14 +18,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-aa63bf3681",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-71d77ed39b",
       "title": "BLV BÍ ĐAO",
       "status": "live",
@@ -39,6 +31,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d17720d782",
+      "title": "BLV AQUA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
       "category": "Sports"
     },
     {
