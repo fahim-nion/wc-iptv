@@ -1,16 +1,24 @@
 {
-  "updatedAt": "2026-09-01T01:56:55.512Z",
+  "updatedAt": "2026-09-01T12:05:33.724Z",
   "channels": [
     {
-      "id": "live-61542f1ec0",
-      "title": "BLV KAN",
+      "id": "live-4f4e66a738",
+      "title": "QUỐC KHÁNH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=1981621e5e018047de8b777206154ea4&txTime=6a968499",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=e601d56bfc37794afce9e0c412fe0157&txTime=6a970f59",
       "category": "Sports"
     },
     {
-      "id": "live-0cb1aad7b6",
+      "id": "live-bc4ff6dc31",
+      "title": "BLV CÒ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1788267781-0-0-5132fa0baebdabc7ffaf8b777904b81d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a8f9564e62",
       "title": "BLV BÍ ĐAO",
       "status": "live",
       "source": "colatv",
@@ -18,19 +26,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-0b7c3b7653",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-94ef2d27e3",
+      "title": "BLV COZY",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-e36d0d7b22",
-      "title": "BLV AQUA",
+      "id": "live-18d513b898",
+      "title": "BLV FANTA",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
       "category": "Sports"
     }
   ]
