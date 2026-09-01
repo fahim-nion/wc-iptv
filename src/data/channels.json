@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-01T14:34:35.516Z",
+  "updatedAt": "2026-09-01T14:44:15.754Z",
   "channels": [
+    {
+      "id": "live-15cc5bb88a",
+      "title": "RỒNG ĐẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788276001-0-0-ddcc941d553a2db7e7b571df0b48db1f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-885f00ee3e",
+      "title": "XUÂN TÓC ĐỎ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=4cac76a7f46f4fc18132d79bca8baf11&txTime=6a973371",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71f970872b",
+      "title": "SEVEN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=2394765f64183ef79e417aaf62785610&txTime=6a973371",
+      "category": "Sports"
+    },
     {
       "id": "live-a6c7b92411",
       "title": "BLV RYO",
