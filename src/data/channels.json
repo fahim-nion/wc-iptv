@@ -1,48 +1,24 @@
 {
-  "updatedAt": "2026-08-31T21:34:21.471Z",
+  "updatedAt": "2026-09-01T01:56:55.512Z",
   "channels": [
     {
-      "id": "live-883b65295f",
-      "title": "CHÍ PHÈO",
+      "id": "live-61542f1ec0",
+      "title": "BLV KAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1788214681-0-0-433d516b280dbc3fa5b0d96c9eb4e3ba",
+      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=1981621e5e018047de8b777206154ea4&txTime=6a968499",
       "category": "Sports"
     },
     {
-      "id": "live-d96748127c",
-      "title": "LOKA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788214861-0-0-44ac5c599749bfed36fb6da5e51d6ba2",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9fa24186f1",
-      "title": "BLV MESSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1788214801-0-0-0b2e0d2598d4d32558efb823407e2750",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a43c9f51bd",
-      "title": "BLV 7UP",
+      "id": "live-0cb1aad7b6",
+      "title": "BLV BÍ ĐAO",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-e9c9f9db88",
-      "title": "BLV STING",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-409e803027",
+      "id": "live-0b7c3b7653",
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
@@ -50,11 +26,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-1757f60673",
-      "title": "A BỆU",
+      "id": "live-e36d0d7b22",
+      "title": "BLV AQUA",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=a2fd663514ffd5bce26284d3e33cf82b&txTime=6a9610d1",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
       "category": "Sports"
     }
   ]
