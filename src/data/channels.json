@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-01T14:44:15.754Z",
+  "updatedAt": "2026-09-01T14:55:06.116Z",
   "channels": [
+    {
+      "id": "live-7d927b542d",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=068884fd631a535cfa87a5d869b56c5b&txTime=6a973af1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c775d13433",
+      "title": "CÔNG CHẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=0244f80b98965687b5982c8ab2ea714e&txTime=6a973b2d",
+      "category": "Sports"
+    },
+    {
+      "id": "live-aa63bf3681",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71d77ed39b",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6e13337c78",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-15cc5bb88a",
       "title": "RỒNG ĐẤT",
@@ -47,30 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1788274381-0-0-06df91511e3f31ebdb2489b06cec6fd0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aa63bf3681",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71d77ed39b",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6e13337c78",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
       "category": "Sports"
     }
   ]
