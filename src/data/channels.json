@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-09-01T15:23:29.681Z",
+  "updatedAt": "2026-09-01T16:06:29.024Z",
   "channels": [
+    {
+      "id": "live-77e3ba8b30",
+      "title": "CHÍ PHÈO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788282181-0-0-19ce90ae3587743535a145793714f4bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-91e3be0cf1",
+      "title": "LOKA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788282181-0-0-19ce90ae3587743535a145793714f4bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8ee125587c",
+      "title": "BLV ALEX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1788282181-0-0-6f90e492e60a85b7488cf72f6054d0fb",
+      "category": "Sports"
+    },
+    {
+      "id": "live-456ea9f480",
+      "title": "BLV FANTA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6e13337c78",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d17720d782",
+      "title": "BLV AQUA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-efcdcee9e3",
       "title": "BLV ENZO",
@@ -26,75 +74,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-6e13337c78",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d17720d782",
-      "title": "BLV AQUA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-2afebb8c58",
       "title": "BLV SODA",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71d77ed39b",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-15cc5bb88a",
-      "title": "RỒNG ĐẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788276001-0-0-ddcc941d553a2db7e7b571df0b48db1f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-885f00ee3e",
-      "title": "XUÂN TÓC ĐỎ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=4cac76a7f46f4fc18132d79bca8baf11&txTime=6a973371",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71f970872b",
-      "title": "SEVEN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=2394765f64183ef79e417aaf62785610&txTime=6a973371",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a6c7b92411",
-      "title": "BLV RYO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=73c249d70e02b1483231a71ffa5fa3db&txTime=6a972ca5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a48ca559c3",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=6c6a228128e710dee069655849c8ce2b&txTime=6a973191",
       "category": "Sports"
     },
     {
