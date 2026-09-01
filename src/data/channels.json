@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:03:29.109Z",
+  "updatedAt": "2026-09-01T14:14:49.924Z",
   "channels": [
     {
       "id": "live-a6c7b92411",
@@ -7,6 +7,14 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=73c249d70e02b1483231a71ffa5fa3db&txTime=6a972ca5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a48ca559c3",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=6c6a228128e710dee069655849c8ce2b&txTime=6a973191",
       "category": "Sports"
     },
     {
