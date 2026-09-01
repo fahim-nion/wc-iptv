@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-01T16:24:06.841Z",
+  "updatedAt": "2026-09-01T16:43:53.938Z",
   "channels": [
+    {
+      "id": "live-aee2ad19d0",
+      "title": "BÁ PHÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1788284221-0-0-3376d0d0b9384479c370fd28a163b7b5",
+      "category": "Sports"
+    },
     {
       "id": "live-a35f261dd5",
       "title": "BLV WUKONG",
