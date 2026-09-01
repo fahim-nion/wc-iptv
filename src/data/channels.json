@@ -1,12 +1,44 @@
 {
-  "updatedAt": "2026-09-01T16:06:29.024Z",
+  "updatedAt": "2026-09-01T16:24:06.841Z",
   "channels": [
+    {
+      "id": "live-a35f261dd5",
+      "title": "BLV WUKONG",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1788283201-0-0-a22116dd9605fd123f2fa7ab5390f4b9",
+      "category": "Sports"
+    },
     {
       "id": "live-77e3ba8b30",
       "title": "CHÍ PHÈO",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788282181-0-0-19ce90ae3587743535a145793714f4bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-456ea9f480",
+      "title": "BLV FANTA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2afebb8c58",
+      "title": "BLV SODA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f8ae1eb718",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
       "category": "Sports"
     },
     {
@@ -23,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1788282181-0-0-6f90e492e60a85b7488cf72f6054d0fb",
-      "category": "Sports"
-    },
-    {
-      "id": "live-456ea9f480",
-      "title": "BLV FANTA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6e13337c78",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d17720d782",
-      "title": "BLV AQUA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
       "category": "Sports"
     },
     {
@@ -71,22 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=0244f80b98965687b5982c8ab2ea714e&txTime=6a973b2d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2afebb8c58",
-      "title": "BLV SODA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c8b8c7edd5",
-      "title": "NEKO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1788274381-0-0-06df91511e3f31ebdb2489b06cec6fd0",
       "category": "Sports"
     }
   ]
