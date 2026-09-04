@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T21:10:41.392Z",
+  "updatedAt": "2026-09-04T21:19:17.603Z",
   "channels": [
     {
       "id": "live-43b7cb1e2d",
@@ -10,35 +10,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-c66e3570ed",
-      "title": "A PÁO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788558901-0-0-2bdad6b02131b3a60d2e9a7366ec3574",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8947dfeb0e",
-      "title": "BLV REVIVE",
+      "id": "live-958d285fc1",
+      "title": "BLV SAMURAI",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7d195b0fa2",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ad7a4d6cf",
-      "title": "BLV STING",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
       "category": "Sports"
     }
   ]
