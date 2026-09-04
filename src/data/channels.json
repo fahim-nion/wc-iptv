@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-04T21:05:49.485Z",
+  "updatedAt": "2026-09-04T21:12:44.829Z",
   "channels": [
     {
       "id": "live-43b7cb1e2d",
       "title": "BLV ANH TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=b154e033b7b3b39bb600108476718b52&txTime=6a9b6acc",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=9ea37d3f99ab9f4c67b03e4199c7b6ba&txTime=6a9b86dd",
       "category": "Sports"
     },
     {
-      "id": "live-c66e3570ed",
-      "title": "A PÁO",
+      "id": "live-958d285fc1",
+      "title": "BLV SAMURAI",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788558901-0-0-2bdad6b02131b3a60d2e9a7366ec3574",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
       "category": "Sports"
     },
     {
@@ -23,22 +23,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7d195b0fa2",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ad7a4d6cf",
-      "title": "BLV STING",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
       "category": "Sports"
     }
   ]
