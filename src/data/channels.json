@@ -1,20 +1,52 @@
 {
-  "updatedAt": "2026-09-04T21:19:17.603Z",
+  "updatedAt": "2026-09-04T23:14:07.390Z",
   "channels": [
     {
-      "id": "live-43b7cb1e2d",
-      "title": "BLV ANH TÀI",
+      "id": "live-db4520306f",
+      "title": "BLV CHIVAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=9ea37d3f99ab9f4c67b03e4199c7b6ba&txTime=6a9b86dd",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=901c95e3b3c5b7712020b04f2d03c70a&txTime=6a9b9961",
       "category": "Sports"
     },
     {
-      "id": "live-958d285fc1",
-      "title": "BLV SAMURAI",
+      "id": "live-95c0b6b510",
+      "title": "BLV A TINH",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=af26a578bd9f618849ce411a4f552765&txTime=6a9ba465",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d83d587b7c",
+      "title": "CHAN ĐÊ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1788564301-0-0-92cdb18a8853d0366254fb05e34f515a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c71a080ebd",
+      "title": "BLV FANTA",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b4d916af78",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b204f2c6c6",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     }
   ]
