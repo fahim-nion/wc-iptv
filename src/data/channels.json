@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-04T20:57:51.361Z",
+  "updatedAt": "2026-09-04T21:10:41.392Z",
   "channels": [
     {
       "id": "live-43b7cb1e2d",
       "title": "BLV ANH TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=b154e033b7b3b39bb600108476718b52&txTime=6a9b6acc",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=9ea37d3f99ab9f4c67b03e4199c7b6ba&txTime=6a9b86dd",
       "category": "Sports"
     },
     {
@@ -14,47 +14,31 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788551701-0-0-0b0e084250323ece8e2902c54e91da1f",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1788558901-0-0-2bdad6b02131b3a60d2e9a7366ec3574",
       "category": "Sports"
     },
     {
-      "id": "live-20e1d07be4",
-      "title": "BLV LUCAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1788552122-0-0-7522ba11d670eb563947e1e62f18d234",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c6f12eb232",
-      "title": "BLV 7UP",
+      "id": "live-8947dfeb0e",
+      "title": "BLV REVIVE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-77e3ba8b30",
-      "title": "CHÍ PHÈO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788282181-0-0-19ce90ae3587743535a145793714f4bd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2afebb8c58",
-      "title": "BLV SODA",
+      "id": "live-7d195b0fa2",
+      "title": "BLV C2",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966.m3u8",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-91e3be0cf1",
-      "title": "LOKA",
+      "id": "live-9ad7a4d6cf",
+      "title": "BLV STING",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1788282181-0-0-19ce90ae3587743535a145793714f4bd",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
       "category": "Sports"
     }
   ]
