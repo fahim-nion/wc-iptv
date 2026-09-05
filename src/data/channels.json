@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T08:44:11.531Z",
+  "updatedAt": "2026-09-05T08:54:07.543Z",
   "channels": [
     {
       "id": "live-95817cf77b",
@@ -18,11 +18,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-f93a4cfcd8",
-      "title": "A MÂN",
+      "id": "live-563be9b783",
+      "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1788600061-0-0-2b987bac0902c32ce0541dc6c5af02ea",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1788601921-0-0-deb4d4e9eac398f01189a5cde84a1049",
       "category": "Sports"
     },
     {
@@ -47,6 +47,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/82054853.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f93a4cfcd8",
+      "title": "A MÂN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1788600061-0-0-2b987bac0902c32ce0541dc6c5af02ea",
       "category": "Sports"
     },
     {
