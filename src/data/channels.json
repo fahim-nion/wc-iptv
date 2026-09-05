@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T03:04:07.203Z",
+  "updatedAt": "2026-09-05T03:14:45.406Z",
   "channels": [
     {
       "id": "live-c44b688e7c",
@@ -23,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=9faa0f79290196c10abfbdcd3114b79d&txTime=6a9bd831",
-      "category": "Sports"
-    },
-    {
-      "id": "live-80bd511f19",
-      "title": "BLV FANTA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
       "category": "Sports"
     },
     {
@@ -63,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=861fd323fe6e6d1d07570326cb850597&txTime=6a9bcc79",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0902a9db3e",
-      "title": "BLV KAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=42e25a9a9f613c490d72a9918ea365cb&txTime=6a9bbbd5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d3a5f9e27e",
-      "title": "BLV YONE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1788573061-0-0-6f606012043aab6f6ffed08fd17ec35b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1f176dc65c",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1788573121-0-0-d0b9c4969d3d23bba66f8de73653fb04",
       "category": "Sports"
     },
     {
