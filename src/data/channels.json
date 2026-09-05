@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-05T03:43:19.607Z",
+  "updatedAt": "2026-09-05T03:54:16.515Z",
   "channels": [
+    {
+      "id": "live-49a3cd0594",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=1bc64561139c51d3d7cef67b75be6bd0&txTime=6a9be605",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dbb566cf68",
+      "title": "HÀ DUY KIÊN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=2738c45e3bcf8d50c6be1d4c4aeba5d6&txTime=6a9be605",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9f0e7479bb",
+      "title": "TRÀ ĐÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1788583921-0-0-e1d4c6f462c2ecaed82cac84b8350f41",
+      "category": "Sports"
+    },
+    {
+      "id": "live-31cc4ec4e6",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-c44b688e7c",
       "title": "BLV CỦ CẢI",
@@ -23,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=9faa0f79290196c10abfbdcd3114b79d&txTime=6a9bd831",
-      "category": "Sports"
-    },
-    {
-      "id": "live-31cc4ec4e6",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
