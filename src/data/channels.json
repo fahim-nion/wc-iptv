@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-05T05:12:47.211Z",
+  "updatedAt": "2026-09-05T05:23:15.100Z",
   "channels": [
+    {
+      "id": "live-4a39e4acfd",
+      "title": "BLV RAMBO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=144c388f4b2e1e33026e80f646c647fe&txTime=6a9bfb42",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37c64823a8",
+      "title": "BLV PEWPEW",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1788589261-0-0-4fd1cb8f8cc5dba22729632022466dfc",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7cb143155d",
+      "title": "BLV RYO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=355747e3e78c355bb93f58bc2522e60c&txTime=6a9bfb59",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66acf6afaf",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-6292abef45",
       "title": "BLV BÉO",
@@ -23,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1788587521-0-0-1eaab90bee400823d96223f89cd84b91",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66acf6afaf",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
       "category": "Sports"
     },
     {
