@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-09-05T05:04:05.520Z",
+  "updatedAt": "2026-09-05T05:12:47.211Z",
   "channels": [
-    {
-      "id": "live-03aa5bd413",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=4bb13e8839a2a2d1e232b75e3444111f&txTime=6a9bf3d9",
-      "category": "Sports"
-    },
     {
       "id": "live-6292abef45",
       "title": "BLV BÉO",
@@ -18,19 +10,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-03aa5bd413",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=4bb13e8839a2a2d1e232b75e3444111f&txTime=6a9bf3d9",
+      "category": "Sports"
+    },
+    {
       "id": "live-01121ac98e",
       "title": "BÚN ĐẬU",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1788587521-0-0-1eaab90bee400823d96223f89cd84b91",
-      "category": "Sports"
-    },
-    {
-      "id": "live-31cc4ec4e6",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
@@ -63,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1788583921-0-0-e1d4c6f462c2ecaed82cac84b8350f41",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c44b688e7c",
-      "title": "BLV CỦ CẢI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1788580261-0-0-3cc5c697666f9320064150aebd38cd27",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cc7fa233c8",
-      "title": "TẠ BIÊN GIỚI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1788580261-0-0-af932c4db95b5ac20ce170aa8de0fc6a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2fccf2378c",
-      "title": "THOMAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=9faa0f79290196c10abfbdcd3114b79d&txTime=6a9bd831",
       "category": "Sports"
     }
   ]
