@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-05T06:42:23.289Z",
+  "updatedAt": "2026-09-05T06:53:28.682Z",
   "channels": [
+    {
+      "id": "live-64a717aec4",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=c0aca40ec492231508b80cf70a1dca12&txTime=6a9c1035",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be0c3d4a6b",
+      "title": "BLV ALEX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1788594721-0-0-94f7180f8e46e055ed7ce0dc5f191b66",
+      "category": "Sports"
+    },
+    {
+      "id": "live-030de7cdc9",
+      "title": "BLV XO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=1731e4bd55efe8c45990457e4c6ddce9&txTime=6a9c1071",
+      "category": "Sports"
+    },
     {
       "id": "live-6b453d95a9",
       "title": "BLV FIREMAN",
