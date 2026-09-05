@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T05:54:39.081Z",
+  "updatedAt": "2026-09-05T06:04:19.400Z",
   "channels": [
     {
       "id": "live-6b453d95a9",
@@ -26,7 +26,7 @@
       "category": "Sports"
     },
     {
-      "id": "live-66acf6afaf",
+      "id": "live-adb08dcce6",
       "title": "BLV MONSTER",
       "status": "live",
       "source": "colatv",
@@ -55,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=159ca4749959a289dbcadde4edd5a292&txTime=6a9bfedd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6292abef45",
-      "title": "BLV BÉO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=eb89c832007d5e53c909ddac9505e324&txTime=6a9bf415",
-      "category": "Sports"
-    },
-    {
-      "id": "live-03aa5bd413",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=4bb13e8839a2a2d1e232b75e3444111f&txTime=6a9bf3d9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-49a3cd0594",
-      "title": "BLV RÔSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=1bc64561139c51d3d7cef67b75be6bd0&txTime=6a9be605",
       "category": "Sports"
     }
   ]
