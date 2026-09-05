@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-05T06:34:12.361Z",
+  "updatedAt": "2026-09-05T06:42:23.289Z",
   "channels": [
     {
       "id": "live-6b453d95a9",
       "title": "BLV FIREMAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788591001-0-0-c4777efed918bf89477b926ac5d1c49f",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788594001-0-0-15e8c522d67041f4aaa564899fe6b4bb",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=c8308cb9449e8ad91458257ab61a69af&txTime=6a9c01e9",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788594061-0-0-27b4e3fe28372e5a2f9e25ac7bbcdae9",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV COCA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788591061-0-0-cfd01fcdb38f87b4b5956c1a250fd614",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1788594121-0-0-1bd8bde7231b8e032cd17ea75f673a6b",
       "category": "Sports"
     },
     {
