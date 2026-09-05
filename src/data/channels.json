@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T07:43:19.080Z",
+  "updatedAt": "2026-09-05T07:53:51.129Z",
   "channels": [
     {
       "id": "live-64a717aec4",
@@ -26,14 +26,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-adb08dcce6",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-6b453d95a9",
       "title": "BLV FIREMAN",
       "status": "live",
@@ -55,22 +47,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1788594121-0-0-1bd8bde7231b8e032cd17ea75f673a6b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4a39e4acfd",
-      "title": "BLV RAMBO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=3ece3849dbfe7194951d2e1f7bbd2fc9&txTime=6a9bffcd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-37c64823a8",
-      "title": "BLV PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1788590041-0-0-560a469af997b859308a8a234c943ed6",
       "category": "Sports"
     }
   ]
