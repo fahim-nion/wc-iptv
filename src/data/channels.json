@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-05T02:42:05.443Z",
+  "updatedAt": "2026-09-05T02:53:17.335Z",
   "channels": [
+    {
+      "id": "live-c44b688e7c",
+      "title": "BLV CỦ CẢI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1788580261-0-0-3cc5c697666f9320064150aebd38cd27",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cc7fa233c8",
+      "title": "TẠ BIÊN GIỚI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1788580261-0-0-af932c4db95b5ac20ce170aa8de0fc6a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2fccf2378c",
+      "title": "THOMAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=9faa0f79290196c10abfbdcd3114b79d&txTime=6a9bd831",
+      "category": "Sports"
+    },
+    {
+      "id": "live-80bd511f19",
+      "title": "BLV FANTA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-31cc4ec4e6",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-ff09726e8b",
       "title": "BLV LION",
@@ -23,22 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=861fd323fe6e6d1d07570326cb850597&txTime=6a9bcc79",
-      "category": "Sports"
-    },
-    {
-      "id": "live-80bd511f19",
-      "title": "BLV FANTA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-31cc4ec4e6",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
