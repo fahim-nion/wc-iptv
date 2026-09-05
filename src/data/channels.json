@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-09-05T08:12:54.697Z",
+  "updatedAt": "2026-09-05T08:24:16.624Z",
   "channels": [
+    {
+      "id": "live-f93a4cfcd8",
+      "title": "A MÂN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1788600061-0-0-2b987bac0902c32ce0541dc6c5af02ea",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d1f1413ad4",
+      "title": "PEANUT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1788600121-0-0-8053bc5c538e7a2b77098b7ee770943e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5a43c6b6d5",
+      "title": "LÃO LÂM",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1788600121-0-0-64873d33f72d2e847a1b259128b5b94f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9a991d0422",
+      "title": "BLV AQUA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-720da8e08f",
+      "title": "BLV STING",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-64a717aec4",
       "title": "BLV PIRLO",
@@ -23,22 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=1731e4bd55efe8c45990457e4c6ddce9&txTime=6a9c1071",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9a991d0422",
-      "title": "BLV AQUA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/18812304.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-720da8e08f",
-      "title": "BLV STING",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124.m3u8",
       "category": "Sports"
     }
   ]
