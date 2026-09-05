@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-05T00:14:02.025Z",
+  "updatedAt": "2026-09-05T00:24:15.366Z",
   "channels": [
     {
-      "id": "live-088899e7e9",
-      "title": "BLV A TÚ",
+      "id": "live-09fc82d726",
+      "title": "CHAN ĐÊ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788567661-0-0-7a5ec0ba9e279cbb76414f8064b0172f",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1788571261-0-0-3f022ceaffc0f5c616be2350f26992ba",
       "category": "Sports"
     },
     {
-      "id": "live-67759c89f8",
-      "title": "BLV XO",
+      "id": "live-b2fa9ee8d2",
+      "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=672efec6641610e55cd61b212c6b1e21&txTime=6a9ba6bd",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=166caca2a2023238403ffd49ab33903a&txTime=6a9bb509",
       "category": "Sports"
     },
     {
-      "id": "live-4ef15231d8",
-      "title": "BLV HEHE",
+      "id": "live-1bb337deda",
+      "title": "BLV CÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1788567661-0-0-c70165516ee32ed4aea94f0889a98ac0",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1788571321-0-0-b07d6f8bf3fab5f76096adb5b1f357b0",
       "category": "Sports"
     },
     {
@@ -50,6 +50,30 @@
       "category": "Sports"
     },
     {
+      "id": "live-088899e7e9",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788567661-0-0-7a5ec0ba9e279cbb76414f8064b0172f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-67759c89f8",
+      "title": "BLV XO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=672efec6641610e55cd61b212c6b1e21&txTime=6a9ba6bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4ef15231d8",
+      "title": "BLV HEHE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1788567661-0-0-c70165516ee32ed4aea94f0889a98ac0",
+      "category": "Sports"
+    },
+    {
       "id": "live-db4520306f",
       "title": "BLV CHIVAS",
       "status": "live",
@@ -63,14 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=af26a578bd9f618849ce411a4f552765&txTime=6a9ba465",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d83d587b7c",
-      "title": "CHAN ĐÊ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1788564301-0-0-92cdb18a8853d0366254fb05e34f515a",
       "category": "Sports"
     }
   ]
