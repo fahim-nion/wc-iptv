@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-05T05:44:17.543Z",
+  "updatedAt": "2026-09-05T05:54:39.081Z",
   "channels": [
+    {
+      "id": "live-6b453d95a9",
+      "title": "BLV FIREMAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788591001-0-0-c4777efed918bf89477b926ac5d1c49f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-510fec825a",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=c8308cb9449e8ad91458257ab61a69af&txTime=6a9c01e9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ac2d5bc1a2",
+      "title": "BLV COCA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1788591061-0-0-cfd01fcdb38f87b4b5956c1a250fd614",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66acf6afaf",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-4a39e4acfd",
       "title": "BLV RAMBO",
@@ -26,14 +58,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-66acf6afaf",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-6292abef45",
       "title": "BLV BÉO",
       "status": "live",
@@ -50,35 +74,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-01121ac98e",
-      "title": "BÚN ĐẬU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1788587521-0-0-1eaab90bee400823d96223f89cd84b91",
-      "category": "Sports"
-    },
-    {
       "id": "live-49a3cd0594",
       "title": "BLV RÔSI",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=1bc64561139c51d3d7cef67b75be6bd0&txTime=6a9be605",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dbb566cf68",
-      "title": "HÀ DUY KIÊN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=2738c45e3bcf8d50c6be1d4c4aeba5d6&txTime=6a9be605",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9f0e7479bb",
-      "title": "TRÀ ĐÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1788583921-0-0-e1d4c6f462c2ecaed82cac84b8350f41",
       "category": "Sports"
     }
   ]
