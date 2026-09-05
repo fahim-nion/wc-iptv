@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T01:32:52.680Z",
+  "updatedAt": "2026-09-05T01:43:39.691Z",
   "channels": [
     {
       "id": "live-0902a9db3e",
@@ -23,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1788573121-0-0-d0b9c4969d3d23bba66f8de73653fb04",
-      "category": "Sports"
-    },
-    {
-      "id": "live-078e72c305",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
@@ -63,22 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1788571321-0-0-b07d6f8bf3fab5f76096adb5b1f357b0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-67759c89f8",
-      "title": "BLV XO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=672efec6641610e55cd61b212c6b1e21&txTime=6a9ba6bd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4ef15231d8",
-      "title": "BLV HEHE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1788567661-0-0-c70165516ee32ed4aea94f0889a98ac0",
       "category": "Sports"
     }
   ]
