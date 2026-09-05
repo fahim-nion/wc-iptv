@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:34:14.285Z",
+  "updatedAt": "2026-09-05T00:44:01.595Z",
   "channels": [
     {
       "id": "live-09fc82d726",
@@ -34,19 +34,19 @@
       "category": "Sports"
     },
     {
-      "id": "live-c71a080ebd",
-      "title": "BLV FANTA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-b4d916af78",
       "title": "BLV BÍ ĐAO",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-80bd511f19",
+      "title": "BLV FANTA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
       "category": "Sports"
     },
     {
