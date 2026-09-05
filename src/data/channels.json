@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-05T05:23:15.100Z",
+  "updatedAt": "2026-09-05T05:34:17.153Z",
   "channels": [
     {
       "id": "live-4a39e4acfd",
       "title": "BLV RAMBO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=144c388f4b2e1e33026e80f646c647fe&txTime=6a9bfb42",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=6c55366756184afb33ec9e607dc4c648&txTime=6a9bfd75",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1788589261-0-0-4fd1cb8f8cc5dba22729632022466dfc",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1788589861-0-0-37ff1d3d9ba3d1f34c1409192300a60a",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV RYO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=355747e3e78c355bb93f58bc2522e60c&txTime=6a9bfb59",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=e67b23f70153c6f56ae76fe21c07b115&txTime=6a9bfdb1",
       "category": "Sports"
     },
     {
