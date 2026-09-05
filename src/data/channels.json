@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T04:04:18.397Z",
+  "updatedAt": "2026-09-05T04:14:23.776Z",
   "channels": [
     {
       "id": "live-49a3cd0594",
@@ -55,30 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=9faa0f79290196c10abfbdcd3114b79d&txTime=6a9bd831",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ff09726e8b",
-      "title": "BLV LION",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1788577261-0-0-547ad45e07ef507d17339aab4bd89479",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cf66c35f74",
-      "title": "A BỆU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1788577261-0-0-547ad45e07ef507d17339aab4bd89479",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2164c71fbc",
-      "title": "BLV CHIVAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=861fd323fe6e6d1d07570326cb850597&txTime=6a9bcc79",
       "category": "Sports"
     }
   ]
