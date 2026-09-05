@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-05T00:44:01.595Z",
+  "updatedAt": "2026-09-05T00:54:00.358Z",
   "channels": [
     {
-      "id": "live-09fc82d726",
-      "title": "CHAN ĐÊ",
+      "id": "live-0902a9db3e",
+      "title": "BLV KAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1788571261-0-0-3f022ceaffc0f5c616be2350f26992ba",
+      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=42e25a9a9f613c490d72a9918ea365cb&txTime=6a9bbbd5",
       "category": "Sports"
     },
     {
-      "id": "live-b2fa9ee8d2",
-      "title": "HÀ DUY KIÊN",
+      "id": "live-d3a5f9e27e",
+      "title": "BLV YONE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=166caca2a2023238403ffd49ab33903a&txTime=6a9bb509",
+      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1788573061-0-0-6f606012043aab6f6ffed08fd17ec35b",
       "category": "Sports"
     },
     {
-      "id": "live-1bb337deda",
-      "title": "BLV CÁO",
+      "id": "live-1f176dc65c",
+      "title": "KENCHU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1788571321-0-0-b07d6f8bf3fab5f76096adb5b1f357b0",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1788573121-0-0-d0b9c4969d3d23bba66f8de73653fb04",
       "category": "Sports"
     },
     {
@@ -47,6 +47,30 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-09fc82d726",
+      "title": "CHAN ĐÊ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1788571261-0-0-3f022ceaffc0f5c616be2350f26992ba",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b2fa9ee8d2",
+      "title": "HÀ DUY KIÊN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=166caca2a2023238403ffd49ab33903a&txTime=6a9bb509",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1bb337deda",
+      "title": "BLV CÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1788571321-0-0-b07d6f8bf3fab5f76096adb5b1f357b0",
       "category": "Sports"
     },
     {
