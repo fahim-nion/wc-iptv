@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T01:03:55.761Z",
+  "updatedAt": "2026-09-05T01:14:14.367Z",
   "channels": [
     {
       "id": "live-0902a9db3e",
@@ -31,14 +31,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b4d916af78",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
