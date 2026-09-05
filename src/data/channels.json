@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:52:26.131Z",
+  "updatedAt": "2026-09-05T00:04:16.370Z",
   "channels": [
     {
       "id": "live-088899e7e9",
@@ -26,6 +26,14 @@
       "category": "Sports"
     },
     {
+      "id": "live-078e72c305",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
       "id": "live-c71a080ebd",
       "title": "BLV FANTA",
       "status": "live",
@@ -39,14 +47,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b204f2c6c6",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
       "category": "Sports"
     },
     {
