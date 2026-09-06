@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:22:46.378Z",
+  "updatedAt": "2026-09-06T18:34:31.618Z",
   "channels": [
     {
       "id": "live-cf966f736f",
@@ -34,14 +34,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-43a0e4d73c",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-70ae6bb36c",
       "title": "BLV FANTA",
       "status": "live",
@@ -54,7 +46,15 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=d65d8af8a90068bbdc3d58fe208b680a&wsABSTime=1788761523",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=e2b7aa05cebc1c15f37bf03211d3b3d6&wsABSTime=1788762800",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66e0029f27",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=75cf675ecae735ddcd0bde40a34b707c&wsABSTime=1788762822",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=a1d20cf547438008506b1f247e57a73a&wsABSTime=1788761563",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=744c3bee22ca7fefe9ecec5ae9cd21d9&wsABSTime=1788762841",
       "category": "Sports"
     },
     {
@@ -95,14 +95,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788716702-0-0-05e349363a2e6762236f69608475c463",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f8cbd85d7f",
-      "title": "VINFAST",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788716762-0-0-6689ae3611cc2ff8d253f9fc38be6549",
       "category": "Sports"
     },
     {
