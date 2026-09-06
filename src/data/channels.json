@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-06T19:23:24.610Z",
+  "updatedAt": "2026-09-06T19:32:55.663Z",
   "channels": [
+    {
+      "id": "live-fa76bb963f",
+      "title": "NEKO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1788726602-0-0-fcba72adfe192603a38206e2fab6e823",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8bd5e42ea3",
+      "title": "SEVEN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=79ee366df0448d001c0d73b9835264db&txTime=6a9e13d6",
+      "category": "Sports"
+    },
     {
       "id": "live-3a11612603",
       "title": "KENCHU",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1788724202-0-0-8304f08fe510118b45e60037a9382035",
-      "category": "Sports"
-    },
-    {
-      "id": "live-625fe6ce9c",
-      "title": "RỒNG ĐẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788724862-0-0-09a46bce3f47cb3388e13d6102426cd0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-48c2824e49",
-      "title": "BÒ TƯƠI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788724862-0-0-d52154b57f58e53e00365dd72d70c936",
       "category": "Sports"
     },
     {
@@ -50,19 +50,27 @@
       "category": "Sports"
     },
     {
+      "id": "live-625fe6ce9c",
+      "title": "RỒNG ĐẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788724862-0-0-09a46bce3f47cb3388e13d6102426cd0",
+      "category": "Sports"
+    },
+    {
+      "id": "live-48c2824e49",
+      "title": "BÒ TƯƠI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788724862-0-0-d52154b57f58e53e00365dd72d70c936",
+      "category": "Sports"
+    },
+    {
       "id": "live-521e6e6691",
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=8a202407624e671cfcde31e9ef86d4d9&wsABSTime=1788765755",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66e0029f27",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=cc3de0de04937b5a387012140ed210ac&wsABSTime=1788765772",
       "category": "Sports"
     },
     {
