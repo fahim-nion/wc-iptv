@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:22:36.116Z",
+  "updatedAt": "2026-09-06T17:34:25.777Z",
   "channels": [
     {
       "id": "live-cf966f736f",
@@ -31,22 +31,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b85edb980f",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5d169c7b90",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
