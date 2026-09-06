@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:53:36.828Z",
+  "updatedAt": "2026-09-06T18:03:46.871Z",
   "channels": [
     {
       "id": "live-cf966f736f",
@@ -23,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1788717242-0-0-05e370ffa9880847d5b636229d1c9716",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e0860e75d0",
-      "title": "BLV HỔ VẰN",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
       "category": "Sports"
     },
     {
