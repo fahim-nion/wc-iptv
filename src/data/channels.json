@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-06T17:03:55.599Z",
+  "updatedAt": "2026-09-06T17:13:59.304Z",
   "channels": [
+    {
+      "id": "live-cf966f736f",
+      "title": "BLV RYO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7c40fac124483f4e6a976640f8f37958&txTime=6a9df1c6",
+      "category": "Sports"
+    },
     {
       "id": "live-7063776c45",
       "title": "BLV BẢY",
@@ -15,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1788717242-0-0-05e370ffa9880847d5b636229d1c9716",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9c90b277dd",
-      "title": "BLV ENZO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1788717362-0-0-f9d12b487db0971d9607fd08f33d553c",
       "category": "Sports"
     },
     {
@@ -47,6 +47,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9c90b277dd",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1788717362-0-0-f9d12b487db0971d9607fd08f33d553c",
       "category": "Sports"
     },
     {
