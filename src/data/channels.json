@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:42:36.843Z",
+  "updatedAt": "2026-09-06T18:52:45.028Z",
   "channels": [
     {
       "id": "live-fa414225a9",
@@ -23,6 +23,30 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1788723662-0-0-efd864b53a3773f7fd2df086756d14e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-521e6e6691",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=68cc611847c4d47e00b8d6c081ffe066&wsABSTime=1788763918",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66e0029f27",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=d0c7042839afec67032c42b8c5b39484&wsABSTime=1788763934",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3dda018b0d",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=738ab743eb5f296704a76dcd446050f9&wsABSTime=1788763952",
       "category": "Sports"
     },
     {
@@ -87,22 +111,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-521e6e6691",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=e2b7aa05cebc1c15f37bf03211d3b3d6&wsABSTime=1788762800",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3dda018b0d",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=744c3bee22ca7fefe9ecec5ae9cd21d9&wsABSTime=1788762841",
       "category": "Sports"
     },
     {
