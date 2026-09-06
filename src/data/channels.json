@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:32:55.663Z",
+  "updatedAt": "2026-09-06T19:43:26.345Z",
   "channels": [
     {
       "id": "live-fa76bb963f",
@@ -50,6 +50,30 @@
       "category": "Sports"
     },
     {
+      "id": "live-521e6e6691",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=b82e14b0b4cb0f15ad0402c679cbca04&wsABSTime=1788766957",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66e0029f27",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=59c90f0e293bfc6b6896d8edac7c0269&wsABSTime=1788766972",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3dda018b0d",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=2120b66631628df7b5e9c3e43c51ca83&wsABSTime=1788766990",
+      "category": "Sports"
+    },
+    {
       "id": "live-625fe6ce9c",
       "title": "RỒNG ĐẤT",
       "status": "live",
@@ -63,22 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788724862-0-0-d52154b57f58e53e00365dd72d70c936",
-      "category": "Sports"
-    },
-    {
-      "id": "live-521e6e6691",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=8a202407624e671cfcde31e9ef86d4d9&wsABSTime=1788765755",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3dda018b0d",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=4abe29c738a679409a76cdebbb5e2bfe&wsABSTime=1788765790",
       "category": "Sports"
     },
     {
