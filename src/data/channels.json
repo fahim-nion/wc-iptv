@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:23:27.576Z",
+  "updatedAt": "2026-09-06T20:32:38.585Z",
   "channels": [
     {
       "id": "live-fa76bb963f",
@@ -26,6 +26,30 @@
       "category": "Sports"
     },
     {
+      "id": "live-521e6e6691",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=fde6f444582c4afb8f647c7e9a911ae3&wsABSTime=1788769909",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66e0029f27",
+      "title": "HÔM NAY, 01:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=ad0967e5ad7ebca43fb5c5dfbb718e8d&wsABSTime=1788769926",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3dda018b0d",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=7de50086d2592da01ce3e562aed47566&wsABSTime=1788769943",
+      "category": "Sports"
+    },
+    {
       "id": "live-085865d171",
       "title": "BLV C2",
       "status": "live",
@@ -47,30 +71,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-521e6e6691",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=4010ac7afd82a2732d61061b64369e86&wsABSTime=1788769355",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66e0029f27",
-      "title": "HÔM NAY, 01:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=2a5a1746fcca4a5bfb0b08a0a05ce4ce&wsABSTime=1788769375",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3dda018b0d",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=4826100f985bacecb45b4ee6a63ff661&wsABSTime=1788769393",
       "category": "Sports"
     },
     {
