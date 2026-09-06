@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:02:31.056Z",
+  "updatedAt": "2026-09-06T21:13:15.103Z",
   "channels": [
     {
       "id": "live-a5e5444fa0",
@@ -26,11 +26,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-3dda018b0d",
-      "title": "HÔM NAY, 02:00",
+      "id": "live-5b17912bdc",
+      "title": "HÔM NAY, 04:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=81aa52a4a603b41baec6bbe8861d765d&wsABSTime=1788771706",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel63.flv?wsSecret=57460f9f5356f4b536f7bd439bf49782&wsABSTime=1788772345",
       "category": "Sports"
     },
     {
@@ -39,46 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=79ee366df0448d001c0d73b9835264db&txTime=6a9e13d6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3a11612603",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1788731401-0-0-5634e0381927b3f7888b6d7b18623433",
-      "category": "Sports"
-    },
-    {
-      "id": "live-625fe6ce9c",
-      "title": "RỒNG ĐẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788724862-0-0-09a46bce3f47cb3388e13d6102426cd0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-48c2824e49",
-      "title": "BÒ TƯƠI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788724862-0-0-d52154b57f58e53e00365dd72d70c936",
-      "category": "Sports"
-    },
-    {
-      "id": "live-26e366a243",
-      "title": "BLV KHÔNG ĐỘ",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-172a1c6974",
-      "title": "BLV ROBBEN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788716702-0-0-05e349363a2e6762236f69608475c463",
       "category": "Sports"
     },
     {
