@@ -1,20 +1,36 @@
 {
-  "updatedAt": "2026-09-05T09:02:33.063Z",
+  "updatedAt": "2026-09-06T16:52:39.581Z",
   "channels": [
     {
-      "id": "live-95817cf77b",
-      "title": "BLV GIÓ",
+      "id": "live-e39eb9adac",
+      "title": "BÒ TƯƠI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=1335739d82f6a71b36cc053bcea115b9&txTime=6a9c29fd",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788715202-0-0-19dd08e92f2403aef63acb2c466862db",
       "category": "Sports"
     },
     {
-      "id": "live-9facf20fbc",
-      "title": "BLV BÉO",
+      "id": "live-172a1c6974",
+      "title": "BLV ROBBEN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=82b4a0ef164d839a6a8337ef5f53813c&txTime=6a9c2a39",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1788716702-0-0-05e349363a2e6762236f69608475c463",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f8cbd85d7f",
+      "title": "VINFAST",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788716762-0-0-6689ae3611cc2ff8d253f9fc38be6549",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ec6aadc805",
+      "title": "HÔM NAY, 22:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001788713531-0-0-fc95315a13576e31e8ceb6592a5f6a79",
       "category": "Sports"
     }
   ]
