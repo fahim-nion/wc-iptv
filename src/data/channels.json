@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:04:00.741Z",
+  "updatedAt": "2026-09-06T19:13:33.319Z",
   "channels": [
     {
       "id": "live-3a11612603",
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=ba73b5e275f87fa861f75f67f3846fe7&wsABSTime=1788764566",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel64.flv?wsSecret=96d72278dde2b8fba9bc138d473b41b7&wsABSTime=1788765157",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "HÔM NAY, 01:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=7f6ea7fe65252e87e67fe5cbcd13be90&wsABSTime=1788764584",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel66.flv?wsSecret=43d31470dee4ad22861e2fbcdf3839c0&wsABSTime=1788765174",
       "category": "Sports"
     },
     {
@@ -70,7 +70,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=ca033af86d0dd370a4adb30221dc9906&wsABSTime=1788764601",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel67.flv?wsSecret=b96559a41b5f42ccdc06a9a241e3518f&wsABSTime=1788765190",
       "category": "Sports"
     },
     {
@@ -95,14 +95,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1788723662-0-0-efd864b53a3773f7fd2df086756d14e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cf966f736f",
-      "title": "BLV RYO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7c40fac124483f4e6a976640f8f37958&txTime=6a9df1c6",
       "category": "Sports"
     },
     {
