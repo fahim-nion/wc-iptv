@@ -4,6 +4,7 @@ import { parseM3U } from './utils/m3uParser';
 import { mapJsonToChannels } from './utils/channelMapper';
 import Player from './components/Player';
 import channelData from './data/channels.json'; // Dynamic Data Source
+import { PERMANENT_CHANNELS } from './config/permanentChannels'; // Import permanent channels
 import { Search, Trophy, Star, Globe, Upload, Menu, X, ChevronRight, Info } from 'lucide-react';
 
 export default function App() {
@@ -11,11 +12,22 @@ export default function App() {
   const [leftOpen, setLeftOpen] = useState(true);
   const [rightOpen, setRightOpen] = useState(true);
   const [onlineCount] = useState(Math.floor(Math.random() * 100) + 313);
+  const [allChannels, setAllChannels] = useState([]);
+
+  // Function to combine channels with permanent ones
+  const combineWithPermanent = (channelList) => {
+    // Filter out any permanent channels that might already exist in the crawled data
+    // to avoid duplicates (using URL as unique identifier)
+    const nonPermanentChannels = channelList.filter(ch => !ch.isPermanent);
+    return [...nonPermanentChannels, ...PERMANENT_CHANNELS];
+  };
 
   useEffect(() => {
-    // Load data from JSON instead of hardcoded string
+    // Load data from JSON and combine with permanent channels
     const initialChannels = mapJsonToChannels(channelData.channels);
-    setChannels(initialChannels);
+    const combinedChannels = combineWithPermanent(initialChannels);
+    setAllChannels(combinedChannels);
+    setChannels(combinedChannels);
 
     if (window.innerWidth < 768) {
       setLeftOpen(false);
@@ -23,28 +35,37 @@ export default function App() {
     }
   }, [setChannels]);
 
+  // Handle M3U file import - preserves permanent channels
   const handleFile = (e) => {
     const reader = new FileReader();
     reader.onload = (res) => {
-      setChannels(parseM3U(res.target.result));
+      const parsedChannels = parseM3U(res.target.result);
+      const combinedWithPermanent = combineWithPermanent(parsedChannels);
+      setAllChannels(combinedWithPermanent);
+      setChannels(combinedWithPermanent);
       setCategory('All');
     };
     reader.readAsText(e.target.files[0]);
   };
 
   const autoSwitch = () => {
-    if (channels.length === 0) return;
-    const currentIndex = channels.findIndex(c => c.url === currentChannel?.url);
-    const nextIndex = (currentIndex + 1) % channels.length;
-    setCurrentChannel(channels[nextIndex]);
+    if (allChannels.length === 0) return;
+    const currentIndex = allChannels.findIndex(c => c.url === currentChannel?.url);
+    const nextIndex = (currentIndex + 1) % allChannels.length;
+    setCurrentChannel(allChannels[nextIndex]);
   };
 
-  const filtered = channels.filter(c => 
-    (c.name || '').toLowerCase().includes(searchQuery.toLowerCase()) && 
-    (selectedCategory === 'All' || c.group === selectedCategory || (selectedCategory === 'Favorites' && favorites.includes(c.url)))
-  );
+  // Filter channels for display - maintains permanent channels in search results
+  const filtered = allChannels.filter(c => {
+    const matchesSearch = (c.name || '').toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesCategory = selectedCategory === 'All' || 
+                           c.group === selectedCategory || 
+                           (selectedCategory === 'Favorites' && favorites.includes(c.url));
+    return matchesSearch && matchesCategory;
+  });
 
-  const categories = ['All', 'Favorites', ...new Set(channels.map(c => c.group || 'General'))];
+  // Extract categories from all channels including permanent ones
+  const categories = ['All', 'Favorites', ...new Set(allChannels.map(c => c.group || 'General'))];
 
   const DevCard = () => (
     <div className="rounded-2xl bg-gradient-to-br from-amber-500/10 to-transparent border border-amber-500/20 p-5 shrink-0 shadow-2xl">
@@ -81,7 +102,21 @@ export default function App() {
           <div className="p-4 space-y-1">
             <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mb-4 px-2 italic text-center border-b border-white/5 pb-2">Category Filter</p>
             <div className="space-y-1">
-              {categories.map(cat => (<button key={cat} onClick={() => setCategory(cat)} className={`w-full text-left px-4 py-2.5 rounded-xl text-[11px] font-black transition-all whitespace-nowrap ${selectedCategory === cat ? 'bg-amber-500 text-black shadow-lg' : 'text-slate-400 hover:bg-white/5'}`}>{cat}</button>))}
+              {categories.map(cat => (
+                <button 
+                  key={cat} 
+                  onClick={() => setCategory(cat)} 
+                  className={`w-full text-left px-4 py-2.5 rounded-xl text-[11px] font-black transition-all whitespace-nowrap ${selectedCategory === cat ? 'bg-amber-500 text-black shadow-lg' : 'text-slate-400 hover:bg-white/5'}`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+            {/* Permanent channels indicator - doesn't affect crawler */}
+            <div className="mt-4 p-2 bg-amber-500/5 border border-amber-500/10 rounded-lg">
+              <p className="text-[8px] text-amber-500/70 uppercase tracking-wider text-center font-black">
+                ⚡ {PERMANENT_CHANNELS.length} Permanent Channels
+              </p>
             </div>
           </div>
 
@@ -89,8 +124,13 @@ export default function App() {
              <p className="text-[10px] font-black text-amber-500 uppercase tracking-[0.2em] mb-4 px-2 italic">Quick Select</p>
              <div className="space-y-1 pb-4">
                {filtered.slice(0, 50).map(c => (
-                 <button key={c.url} onClick={() => setCurrentChannel(c)} className={`w-full text-left px-4 py-2 rounded-lg text-[10px] font-bold truncate transition-all ${currentChannel?.url === c.url ? 'text-amber-500 bg-amber-500/10' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}>
+                 <button 
+                   key={c.url} 
+                   onClick={() => setCurrentChannel(c)} 
+                   className={`w-full text-left px-4 py-2 rounded-lg text-[10px] font-bold truncate transition-all ${currentChannel?.url === c.url ? 'text-amber-500 bg-amber-500/10' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+                 >
                    {c.status === 'live' && <span className="inline-block w-1.5 h-1.5 rounded-full bg-red-600 mr-2 animate-pulse"></span>}
+                   {c.isPermanent && <span className="text-amber-500 mr-1">⭐</span>}
                    {c.name}
                  </button>
                ))}
@@ -102,7 +142,7 @@ export default function App() {
 
         <main className="flex-1 flex flex-col min-w-0 bg-[#060B15] overflow-y-auto scrollbar-hide p-4 md:p-8">
           <div className="max-w-4xl mx-auto w-full relative">
-            {channels.length === 0 && (
+            {allChannels.length === 0 && (
               <div className="mb-6 p-6 rounded-[2rem] bg-blue-500/10 border border-blue-500/20 flex items-start gap-4">
                 <Info size={24} className="text-blue-400 shrink-0" />
                 <p className="text-sm text-blue-100 font-bold leading-relaxed uppercase tracking-tighter">No channels found. Use the crawler or import an M3U file above.</p>
@@ -115,10 +155,18 @@ export default function App() {
               <div className="mt-8 border-b border-white/5 pb-8 px-2">
                 <div className="flex justify-between items-start">
                    <div>
-                      <h2 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase italic">{currentChannel.name}</h2>
+                      <div className="flex items-center gap-2">
+                        <h2 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase italic">{currentChannel.name}</h2>
+                        {currentChannel.isPermanent && (
+                          <span className="text-amber-500 text-xl" title="Permanent Channel">⭐</span>
+                        )}
+                      </div>
                       <div className="flex items-center gap-4 mt-2">
                         <p className="text-amber-500 font-black uppercase tracking-[0.4em] text-[11px]">{currentChannel.group}</p>
                         {currentChannel.status === 'live' && <div className="bg-red-600/10 text-red-500 text-[10px] font-black px-2 py-0.5 rounded border border-red-500/20 uppercase tracking-widest">Live</div>}
+                        {currentChannel.isPermanent && (
+                          <div className="bg-amber-500/10 text-amber-500 text-[10px] font-black px-2 py-0.5 rounded border border-amber-500/20 uppercase tracking-widest">Permanent</div>
+                        )}
                       </div>
                    </div>
                    {currentChannel.source && (
@@ -135,23 +183,44 @@ export default function App() {
 
         <aside className={`${rightOpen ? 'w-full md:w-96 border-l fixed md:relative z-50 h-[calc(100vh-64px)]' : 'w-0'} transition-all duration-500 border-white/5 bg-[#0B1220] flex flex-col shrink-0 overflow-hidden right-0`}>
           <div className="p-4 border-b border-white/5 flex items-center justify-between shrink-0 bg-[#0B1220]/80 backdrop-blur-md">
-            <div className="relative flex-1 group"><Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" size={16} /><input type="text" placeholder="Search Broadcasts..." className="w-full bg-[#060B15] border border-white/10 rounded-xl py-3 pl-10 pr-4 text-xs font-bold focus:outline-none focus:ring-1 focus:ring-amber-500" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} /></div>
+            <div className="relative flex-1 group">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" size={16} />
+              <input 
+                type="text" 
+                placeholder="Search Broadcasts..." 
+                className="w-full bg-[#060B15] border border-white/10 rounded-xl py-3 pl-10 pr-4 text-xs font-bold focus:outline-none focus:ring-1 focus:ring-amber-500" 
+                value={searchQuery} 
+                onChange={(e) => setSearchQuery(e.target.value)} 
+              />
+            </div>
             <button onClick={() => setRightOpen(false)} className="md:hidden ml-2 p-2 bg-white/5 rounded-lg text-slate-400"><X size={20}/></button>
           </div>
           <div className="flex-1 overflow-y-auto p-4 space-y-3 scrollbar-hide pb-24">
              {filtered.map(channel => (
-               <div key={channel.url} onClick={() => { setCurrentChannel(channel); if(window.innerWidth < 768) setRightOpen(false); }} className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-[0_0_20px_rgba(251,191,36,0.1)]' : 'bg-white/5 border-transparent hover:border-white/5'}`}>
+               <div 
+                 key={channel.url} 
+                 onClick={() => { setCurrentChannel(channel); if(window.innerWidth < 768) setRightOpen(false); }} 
+                 className={`group p-3 rounded-2xl border flex items-center gap-4 cursor-pointer transition-all ${currentChannel?.url === channel.url ? 'bg-amber-500/10 border-amber-500 shadow-[0_0_20px_rgba(251,191,36,0.1)]' : 'bg-white/5 border-transparent hover:border-white/5'}`}
+               >
                  <div className={`w-14 h-14 rounded-xl flex items-center justify-center overflow-hidden shrink-0 transition-transform group-hover:scale-105 ${currentChannel?.url === channel.url ? 'bg-amber-500 shadow-lg shadow-amber-500/20' : 'bg-black'}`}>
                    {channel.logo ? <img src={channel.logo} className="w-full h-full object-contain p-1.5" alt="" /> : <Globe size={24} className={currentChannel?.url === channel.url ? 'text-black' : 'text-slate-600'} />}
                  </div>
                  <div className="flex-1 min-w-0">
-                    <h4 className={`text-[11px] font-black truncate uppercase tracking-tight ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4>
+                    <div className="flex items-center gap-1">
+                      <h4 className={`text-[11px] font-black truncate uppercase tracking-tight ${currentChannel?.url === channel.url ? 'text-amber-500' : 'text-white'}`}>{channel.name}</h4>
+                      {channel.isPermanent && <Star size={12} className="text-amber-500 fill-amber-500 shrink-0" />}
+                    </div>
                     <div className="flex items-center gap-2 mt-0.5">
                        <p className="text-[9px] text-slate-500 uppercase font-black truncate opacity-60">{channel.group}</p>
                        {channel.status === 'live' && <span className="w-1 h-1 rounded-full bg-red-600"></span>}
                     </div>
                  </div>
-                 <button onClick={(e) => { e.stopPropagation(); toggleFavorite(channel.url); }} className={`${favorites.includes(channel.url) ? 'text-amber-500' : 'text-slate-700'} hover:scale-125 transition-transform`}><Star size={20} fill={favorites.includes(channel.url) ? "currentColor" : "none"} /></button>
+                 <button 
+                   onClick={(e) => { e.stopPropagation(); toggleFavorite(channel.url); }} 
+                   className={`${favorites.includes(channel.url) ? 'text-amber-500' : 'text-slate-700'} hover:scale-125 transition-transform`}
+                 >
+                   <Star size={20} fill={favorites.includes(channel.url) ? "currentColor" : "none"} />
+                 </button>
                </div>
              ))}
           </div>
