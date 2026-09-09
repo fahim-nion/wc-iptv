@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T19:53:33.941Z",
+  "updatedAt": "2026-09-09T20:03:43.636Z",
   "channels": [
     {
       "id": "live-14b32c756b",
@@ -14,7 +14,7 @@
       "title": "BÒ TƯƠI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=c590bc98852645c8768037ee2dd107d5&txTime=6aa20c52",
+      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=186e79a980e07e0af6a938f6f66b7f21&txTime=6aa20aae",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788983581-0-0-831eee81ae5b6d7a88d49970e116e8c7",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788984177-0-0-b5a58ef11d424ca4cda58dac34eb3802",
       "category": "Sports"
     },
     {
@@ -106,35 +106,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-4d9a57f27a",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fca31aa6518419fca2c379263424b1ad&txTime=6aa1f0ad",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fa1a76ce07",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788979862-0-0-95d486ab9c46e66a77361e3cf007b194",
-      "category": "Sports"
-    },
-    {
       "id": "live-310003cf11",
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980042-0-0-a048983c7e3f4af3812dc246a78ba2f8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ed8b57c00",
-      "title": "BLV FANTA",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
       "category": "Sports"
     },
     {
