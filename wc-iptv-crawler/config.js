@@ -10,13 +10,13 @@ export default {
             enabled: true, 
             priority: 2, 
             homepage: "https://cola-affcup2026.tv/",
-            mirrors: ["https://cola.live/", "https://colalive.tv/"]
+            mirrors: ["https://cola77.live/", "https://colalive.tv/"]
         },
         xoilac: { 
             enabled: true, 
             priority: 3, 
             homepage: "https://xoilaczznnz.tv/",
-            mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
+            mirrors: ["https://xoilac.live/", "https://xoilaczbl.tv/"]
         },
         fanzone: {
             enabled: true,
