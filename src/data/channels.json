@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T19:13:44.150Z",
+  "updatedAt": "2026-09-09T19:23:48.018Z",
   "channels": [
     {
       "id": "live-a9a5945372",
       "title": "BLV XO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=f3520470bba09c2f39b47187ec287525&txTime=6aa2018a",
+      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=65b79ac175ee45ec9e778da294f6920a&txTime=6aa200d6",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788981193-0-0-e69853a12e7bf41e33bbe18d7827d305",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788981797-0-0-b3f34e16b2886aca3250258d6ad010da",
       "category": "Sports"
     },
     {
