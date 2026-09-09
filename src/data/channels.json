@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T17:23:57.784Z",
+  "updatedAt": "2026-09-09T17:33:19.433Z",
   "channels": [
     {
       "id": "live-dd01dcde10",
@@ -14,7 +14,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1788977522-0-0-dd02fc80ca3313e66056c1109a781dc0",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1788978662-0-0-2fa2b40dd51f211825735439354e3971",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788974586-0-0-ff526ea13b8337806ff4aebcc2151308",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788975172-0-0-ca5245ba21c76b5c43f1dfae2719c11c",
       "category": "Sports"
     },
     {
