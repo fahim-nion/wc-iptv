@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-09T17:54:43.757Z",
+  "updatedAt": "2026-09-09T18:04:09.590Z",
   "channels": [
+    {
+      "id": "live-4d9a57f27a",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=90acf6c177fd109a267e392f229204cd&txTime=6aa1f2c6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fa1a76ce07",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788980462-0-0-17bd24ac309b6e8ccf6683bd07f4c07a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-310003cf11",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980522-0-0-48621cb5851cd5875d4cfa9fd4b623a1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2a8e6f445d",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5d52b631d2",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9ed8b57c00",
+      "title": "BLV FANTA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c1c39d6d26",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788977018-0-0-96965a47e2554268eef3c51cc88daee2",
+      "category": "Sports"
+    },
     {
       "id": "live-dd01dcde10",
       "title": "SAO LA",
@@ -26,35 +82,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-2a8e6f445d",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5d52b631d2",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-e7f4ff2e3c",
       "title": "BLV REVIVE",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c1c39d6d26",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788976437-0-0-f9b101f418b6f4e42fbbf3db050ffff7",
       "category": "Sports"
     },
     {
