@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T19:43:34.422Z",
+  "updatedAt": "2026-09-09T19:53:33.941Z",
   "channels": [
     {
       "id": "live-14b32c756b",
       "title": "RỒNG ĐẤT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788986402-0-0-3eeb7d704a6f33c0fdb1f8d3b009e6bd",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788987062-0-0-a7dedda44d058db744f8d8b5f1112131",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BÒ TƯƠI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=186e79a980e07e0af6a938f6f66b7f21&txTime=6aa20aae",
+      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=c590bc98852645c8768037ee2dd107d5&txTime=6aa20c52",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788984842-0-0-432dfd33bb8dbccb2f61cc139804d968",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788984302-0-0-0c24269e3ebf826d99356c2dff89e622",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788982984-0-0-d381c3e704abf111ca001fb6a54434c0",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788983581-0-0-831eee81ae5b6d7a88d49970e116e8c7",
       "category": "Sports"
     },
     {
