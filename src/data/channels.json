@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-09T19:33:39.695Z",
+  "updatedAt": "2026-09-09T19:43:34.422Z",
   "channels": [
+    {
+      "id": "live-14b32c756b",
+      "title": "RỒNG ĐẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1788986402-0-0-3eeb7d704a6f33c0fdb1f8d3b009e6bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d63283112b",
+      "title": "BÒ TƯƠI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=186e79a980e07e0af6a938f6f66b7f21&txTime=6aa20aae",
+      "category": "Sports"
+    },
     {
       "id": "live-b3decd6d9e",
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788984842-0-0-432dfd33bb8dbccb2f61cc139804d968",
-      "category": "Sports"
-    },
-    {
-      "id": "live-32b2743792",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=478ebf702466d6644007c08b9ed3d612&txTime=6aa20202",
-      "category": "Sports"
-    },
-    {
-      "id": "live-05d748d09e",
-      "title": "TUẤN CÙI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788985862-0-0-5c513cd3fc7b7bc3bb61cab3024e55fa",
       "category": "Sports"
     },
     {
@@ -42,11 +42,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-f5d4abbed6",
-      "title": "BLV SAMURAI",
+      "id": "live-08cfc01f12",
+      "title": "BLV COZY",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
       "category": "Sports"
     },
     {
@@ -54,7 +54,31 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788982388-0-0-afcd50ad41808381476372cc678b965c",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788982984-0-0-d381c3e704abf111ca001fb6a54434c0",
+      "category": "Sports"
+    },
+    {
+      "id": "live-32b2743792",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=478ebf702466d6644007c08b9ed3d612&txTime=6aa20202",
+      "category": "Sports"
+    },
+    {
+      "id": "live-05d748d09e",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788985862-0-0-5c513cd3fc7b7bc3bb61cab3024e55fa",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f5d4abbed6",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
       "category": "Sports"
     },
     {
