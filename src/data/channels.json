@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T18:43:51.212Z",
+  "updatedAt": "2026-09-09T18:53:56.921Z",
   "channels": [
     {
       "id": "live-4d9a57f27a",
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=185279dd60d74c9db406b66ae6b3b301&txTime=6aa1f0e6",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fca31aa6518419fca2c379263424b1ad&txTime=6aa1f0ad",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV A TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788981242-0-0-31419e0ff103e08f5f3e59bbe18cf11c",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788979862-0-0-95d486ab9c46e66a77361e3cf007b194",
       "category": "Sports"
     },
     {
@@ -26,11 +26,35 @@
       "category": "Sports"
     },
     {
-      "id": "live-2a8e6f445d",
+      "id": "live-4556051b3d",
       "title": "BLV C2",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-424cb0f128",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf1d36a5cc",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c1c39d6d26",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788980002-0-0-3c87ba8ee4d01b93732e4b821cd41711",
       "category": "Sports"
     },
     {
@@ -39,14 +63,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/16226575.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c1c39d6d26",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788979391-0-0-6ffeea0b9e3c09922baedfc7eb89ea0a",
       "category": "Sports"
     },
     {
