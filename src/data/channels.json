@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T17:44:02.545Z",
+  "updatedAt": "2026-09-09T17:54:43.757Z",
   "channels": [
     {
       "id": "live-dd01dcde10",
       "title": "SAO LA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=70411679b40d691db4e9ca941a467964&txTime=6aa1e7c2",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=da832fc8467287745e29a290e09e7120&txTime=6aa1ed9e",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1788977522-0-0-e091582d912399635d8648a930821ca3",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=15c5ca8986cfe1a4a9049db63d6973d0&txTime=6aa1f122",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788975808-0-0-3441e1e6cce2c639d623efe79df96089",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788976437-0-0-f9b101f418b6f4e42fbbf3db050ffff7",
       "category": "Sports"
     },
     {
