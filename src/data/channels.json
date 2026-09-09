@@ -1,28 +1,12 @@
 {
-  "updatedAt": "2026-09-09T18:53:56.921Z",
+  "updatedAt": "2026-09-09T19:03:51.836Z",
   "channels": [
     {
-      "id": "live-4d9a57f27a",
-      "title": "BLV PIRLO",
+      "id": "live-05d748d09e",
+      "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fca31aa6518419fca2c379263424b1ad&txTime=6aa1f0ad",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fa1a76ce07",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788979862-0-0-95d486ab9c46e66a77361e3cf007b194",
-      "category": "Sports"
-    },
-    {
-      "id": "live-310003cf11",
-      "title": "CURRY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980042-0-0-a048983c7e3f4af3812dc246a78ba2f8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788984118-0-0-932682bfae30c5f42a8e6498fd7e02f8",
       "category": "Sports"
     },
     {
@@ -54,7 +38,31 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788980002-0-0-3c87ba8ee4d01b93732e4b821cd41711",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788980600-0-0-bb4a8c4cf25cb948bd98e8656f5fbc19",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d9a57f27a",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fca31aa6518419fca2c379263424b1ad&txTime=6aa1f0ad",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fa1a76ce07",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788979862-0-0-95d486ab9c46e66a77361e3cf007b194",
+      "category": "Sports"
+    },
+    {
+      "id": "live-310003cf11",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980042-0-0-a048983c7e3f4af3812dc246a78ba2f8",
       "category": "Sports"
     },
     {
