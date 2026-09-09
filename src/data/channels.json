@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:03:43.636Z",
+  "updatedAt": "2026-09-09T20:13:32.915Z",
   "channels": [
     {
       "id": "live-14b32c756b",
@@ -22,7 +22,7 @@
       "title": "VINFAST",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788984302-0-0-0c24269e3ebf826d99356c2dff89e622",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1788984842-0-0-432dfd33bb8dbccb2f61cc139804d968",
       "category": "Sports"
     },
     {
@@ -54,7 +54,15 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788984177-0-0-b5a58ef11d424ca4cda58dac34eb3802",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788984766-0-0-a21fb15916f907f222bcda352b31e1d0",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a2322bfa9e",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001788984799-0-0-2ae8923afe72866d33fddcbce7bb46db",
       "category": "Sports"
     },
     {
@@ -103,14 +111,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=43421589bbea35043fb495dac574d534&txTime=6aa203a6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-310003cf11",
-      "title": "CURRY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980042-0-0-a048983c7e3f4af3812dc246a78ba2f8",
       "category": "Sports"
     },
     {
