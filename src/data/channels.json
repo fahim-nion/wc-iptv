@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-09T18:23:40.293Z",
+  "updatedAt": "2026-09-09T18:33:39.171Z",
   "channels": [
     {
       "id": "live-4d9a57f27a",
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=185279dd60d74c9db406b66ae6b3b301&txTime=6aa1f0e6",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=90acf6c177fd109a267e392f229204cd&txTime=6aa1f2c6",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788981062-0-0-840e4d5ae718b8804cf875240243db95",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1788980522-0-0-48621cb5851cd5875d4cfa9fd4b623a1",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788978189-0-0-d7e301eacc43207b370d1a25f7e52a30",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788978789-0-0-74b8b3aba9bf41829f05fd31c4937bd8",
       "category": "Sports"
     },
     {
