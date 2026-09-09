@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:13:43.041Z",
+  "updatedAt": "2026-09-09T18:23:40.293Z",
   "channels": [
     {
       "id": "live-4d9a57f27a",
@@ -14,7 +14,7 @@
       "title": "BLV A TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788980462-0-0-17bd24ac309b6e8ccf6683bd07f4c07a",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1788981242-0-0-31419e0ff103e08f5f3e59bbe18cf11c",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788977591-0-0-3b5364f26371b3f8622aa2acf6049cb4",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788978189-0-0-d7e301eacc43207b370d1a25f7e52a30",
       "category": "Sports"
     },
     {
