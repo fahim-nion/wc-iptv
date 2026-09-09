@@ -1,12 +1,28 @@
 {
-  "updatedAt": "2026-09-09T19:03:51.836Z",
+  "updatedAt": "2026-09-09T19:13:44.150Z",
   "channels": [
     {
-      "id": "live-05d748d09e",
-      "title": "TUẤN CÙI",
+      "id": "live-a9a5945372",
+      "title": "BLV XO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788984118-0-0-932682bfae30c5f42a8e6498fd7e02f8",
+      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=f3520470bba09c2f39b47187ec287525&txTime=6aa2018a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-00c93b8ba5",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1788984422-0-0-4895f7fe7ec9bc56e040f40b2b7a66bf",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f670143ee4",
+      "title": "THOMAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=43421589bbea35043fb495dac574d534&txTime=6aa203a6",
       "category": "Sports"
     },
     {
@@ -26,7 +42,7 @@
       "category": "Sports"
     },
     {
-      "id": "live-cf1d36a5cc",
+      "id": "live-f5d4abbed6",
       "title": "BLV SAMURAI",
       "status": "live",
       "source": "colatv",
@@ -38,7 +54,15 @@
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788980600-0-0-bb4a8c4cf25cb948bd98e8656f5fbc19",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001788981193-0-0-e69853a12e7bf41e33bbe18d7827d305",
+      "category": "Sports"
+    },
+    {
+      "id": "live-05d748d09e",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1788984118-0-0-932682bfae30c5f42a8e6498fd7e02f8",
       "category": "Sports"
     },
     {
