@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-12T18:23:55.489Z",
+  "updatedAt": "2026-09-12T18:33:37.269Z",
   "channels": [
+    {
+      "id": "live-a089514703",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e05f00587b",
+      "title": "BLV 247",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-029f8a177e",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-b158106709",
       "title": "BLV C2",
