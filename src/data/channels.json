@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-12T18:33:37.269Z",
+  "updatedAt": "2026-09-12T18:43:22.693Z",
   "channels": [
+    {
+      "id": "live-9fe7aadcce",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6fa8c92521",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dca51d0543",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-a089514703",
       "title": "BLV GIÀ LÀNG",
@@ -23,30 +47,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b158106709",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5bc5508c10",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-31404b604f",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     }
   ]
