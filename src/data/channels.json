@@ -1,52 +1,28 @@
 {
-  "updatedAt": "2026-09-10T00:08:09.768Z",
+  "updatedAt": "2026-09-12T17:14:15.647Z",
   "channels": [
     {
-      "id": "live-7ebc7c8556",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789002302-0-0-998afa3bff9fdb39ce3078e505d9c5d3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-736bacfb6c",
-      "title": "BLV A TINH",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=ca09bdeac3012e4f73ef7178b10ee4d2&txTime=6aa2488e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-88eeaef2e5",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789002362-0-0-278b07ddc00d15361337e963b551803e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d7998d8d94",
-      "title": "BLV MONSTER",
+      "id": "live-b158106709",
+      "title": "BLV C2",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087.m3u8",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-70c4d1d455",
-      "title": "BLV SAMURAI",
+      "id": "live-5bc5508c10",
+      "title": "BLV 7UP",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-39b7b76901",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-31404b604f",
+      "title": "BLV REVIVE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     }
   ]
