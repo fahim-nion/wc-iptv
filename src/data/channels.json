@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-12T20:53:27.242Z",
+  "updatedAt": "2026-09-12T21:04:06.199Z",
   "channels": [
     {
-      "id": "live-54434b4f58",
-      "title": "BLV COZY",
+      "id": "live-bc57860eff",
+      "title": "BLV BÍ ĐAO",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87379114.m3u8",
+      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-a024e58b69",
-      "title": "BLV WARRIOR",
+      "id": "live-cf88cd5b10",
+      "title": "BLV KHÔNG ĐỘ",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
+      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-9fe7aadcce",
-      "title": "BLV C2",
+      "id": "live-580160b3bb",
+      "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     },
     {
@@ -31,22 +31,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789246358-0-0-754bdbcbbbbc07f3c3adc36d433f12ec",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6fa8c92521",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dca51d0543",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     }
   ]
