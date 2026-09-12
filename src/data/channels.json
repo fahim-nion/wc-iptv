@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:54:45.497Z",
+  "updatedAt": "2026-09-12T19:04:01.946Z",
   "channels": [
     {
       "id": "live-9fe7aadcce",
@@ -31,14 +31,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e05f00587b",
-      "title": "BLV 247",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/90865415.m3u8",
       "category": "Sports"
     },
     {
