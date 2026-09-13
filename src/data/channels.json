@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-13T15:36:09.754Z",
+  "updatedAt": "2026-09-13T15:46:41.482Z",
   "channels": [
     {
-      "id": "live-0cafa91d6e",
-      "title": "LOKA",
+      "id": "live-5c2e13a5dd",
+      "title": "BLV ZOWIE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316402-0-0-038b9bece5ee7fd1e4bc543cad10fcbb",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789314182-0-0-2cbdefa99f63893790c3e64c813d910a",
       "category": "Sports"
     },
     {
-      "id": "live-8c4d4fe5a5",
-      "title": "CÔNG CHẤT",
+      "id": "live-0cbd929246",
+      "title": "BLV TOMIA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=333c4f589df9d9116a7e69c52bfdc644&txTime=6aa713fa",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789316402-0-0-ed89267f8b11933a9909c3ecb57f6b4a",
       "category": "Sports"
     },
     {
-      "id": "live-f9dfc28c91",
-      "title": "BLV A TÚ",
+      "id": "live-df7809f224",
+      "title": "TẠ BIÊN GIỚI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789316402-0-0-242b4c7f302d1a4ec0731b40ea3a3e4f",
+      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789316282-0-0-b4c2c659ab36ee592d4d52506982bdcb",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 21:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=25b71fcdff7940dc53796d38f7a78b8e&wsABSTime=1789356921",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=46ab52ff1d2f66237111fcb99a656531&wsABSTime=1789357554",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=5113a401180bf4e479941f070b073af9&wsABSTime=1789356938",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=52e934d38f94dfd30e53d0156e825491&wsABSTime=1789357571",
       "category": "Sports"
     },
     {
@@ -70,7 +70,31 @@
       "title": "HÔM NAY, 22:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789313755-0-0-3758b2e66a49f60a7e8cb6c166c3ec20",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789314386-0-0-3d94c269db0d71feb37e9eafe37612d4",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0cafa91d6e",
+      "title": "LOKA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316402-0-0-038b9bece5ee7fd1e4bc543cad10fcbb",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8c4d4fe5a5",
+      "title": "CÔNG CHẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=333c4f589df9d9116a7e69c52bfdc644&txTime=6aa713fa",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f9dfc28c91",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789316402-0-0-242b4c7f302d1a4ec0731b40ea3a3e4f",
       "category": "Sports"
     },
     {
