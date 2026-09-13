@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:59:25.009Z",
+  "updatedAt": "2026-09-13T20:16:21.375Z",
   "channels": [
     {
       "id": "live-878ce30c8d",
@@ -55,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320782-0-0-5af957986ca93586743d64d65ae142e9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e5e727f177",
-      "title": "BLV A WIN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1789318442-0-0-a9cbd5dcda6c19f4e887c2ed04b5c074",
       "category": "Sports"
     },
     {
