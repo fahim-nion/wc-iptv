@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-09-13T15:57:12.198Z",
+  "updatedAt": "2026-09-13T16:07:19.887Z",
   "channels": [
-    {
-      "id": "live-e5e727f177",
-      "title": "BLV A WIN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1789318442-0-0-a9cbd5dcda6c19f4e887c2ed04b5c074",
-      "category": "Sports"
-    },
     {
       "id": "live-2cf9c6a742",
       "title": "KENCHU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789318442-0-0-6a3649208fc638fd4f73068805aba6d3",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789318923-0-0-e297f9f2fcb2b4a748a7ce761c5418ad",
       "category": "Sports"
     },
     {
@@ -54,7 +46,7 @@
       "title": "HÔM NAY, 21:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=561258024f780ee5c639ff6df9377e9b&wsABSTime=1789358181",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=2744af32b017179f1d22828749748e33&wsABSTime=1789358792",
       "category": "Sports"
     },
     {
@@ -62,7 +54,7 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=3c38e2a9f380d37882072cbcae6023bc&wsABSTime=1789358198",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=a2d9aae8a3df4031e4888802c424ea7e&wsABSTime=1789358809",
       "category": "Sports"
     },
     {
@@ -70,7 +62,15 @@
       "title": "HÔM NAY, 22:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789315015-0-0-9bb947564000cd77b29b54ea4c95998c",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789315624-0-0-baf4d8415af39b326662c991ae2fee04",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e5e727f177",
+      "title": "BLV A WIN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1789318442-0-0-a9cbd5dcda6c19f4e887c2ed04b5c074",
       "category": "Sports"
     },
     {
