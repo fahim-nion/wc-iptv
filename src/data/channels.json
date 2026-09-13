@@ -1,12 +1,28 @@
 {
-  "updatedAt": "2026-09-13T23:42:11.105Z",
+  "updatedAt": "2026-09-13T23:57:36.972Z",
   "channels": [
     {
       "id": "live-25416fc277",
       "title": "CƠM NẾP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1789344422-0-0-08fd8a432422ccd671d895b71c48296d",
+      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1789347242-0-0-c9b8b0e3bca1406f4a61638b3dcaa3c1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2aac109d83",
+      "title": "BLV VOI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789347242-0-0-455b1fe181d42b2025f7acbf4adc224e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-303579d8b6",
+      "title": "BLV LUCAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789347302-0-0-53b8b234a88f51c50f19c2e7271828ad",
       "category": "Sports"
     },
     {
