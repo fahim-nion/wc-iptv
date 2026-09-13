@@ -1,28 +1,12 @@
 {
-  "updatedAt": "2026-09-13T15:16:23.821Z",
+  "updatedAt": "2026-09-13T15:26:15.325Z",
   "channels": [
     {
-      "id": "live-a87c96f256",
-      "title": "BLV RYO",
+      "id": "live-0cafa91d6e",
+      "title": "LOKA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1789315922-0-0-8ba81c2ba0955b671ee0b2acb092d455",
-      "category": "Sports"
-    },
-    {
-      "id": "live-097708d147",
-      "title": "VINFAST",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1789315862-0-0-fcb87594ead366323baea622162493cc",
-      "category": "Sports"
-    },
-    {
-      "id": "live-01fd124ff6",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8ea6bf8a07f7d8ced9787ae240c5bd2a&txTime=6aa7121a",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316582-0-0-46d6206321eb5aee4f721a414af77590",
       "category": "Sports"
     },
     {
@@ -54,7 +38,7 @@
       "title": "HÔM NAY, 21:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=99ed7881e3fba220b259f7539f8951bf&wsABSTime=1789355749",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=9792282b16bb5eb9a1ad362811f9d87c&wsABSTime=1789356341",
       "category": "Sports"
     },
     {
@@ -62,7 +46,31 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=db5baae6f900c8bab02bf27088486a8e&wsABSTime=1789355767",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=9c346a9f117f1a38650be3dc0cd901fd&wsABSTime=1789356358",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a87c96f256",
+      "title": "BLV RYO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1789315922-0-0-8ba81c2ba0955b671ee0b2acb092d455",
+      "category": "Sports"
+    },
+    {
+      "id": "live-097708d147",
+      "title": "VINFAST",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1789315862-0-0-fcb87594ead366323baea622162493cc",
+      "category": "Sports"
+    },
+    {
+      "id": "live-01fd124ff6",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8ea6bf8a07f7d8ced9787ae240c5bd2a&txTime=6aa7121a",
       "category": "Sports"
     },
     {
