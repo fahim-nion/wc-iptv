@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:47:57.464Z",
+  "updatedAt": "2026-09-13T19:15:10.348Z",
   "channels": [
     {
       "id": "live-878ce30c8d",
@@ -39,30 +39,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1004211a40",
-      "title": "BLV BẢY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1789325282-0-0-70282a2c276b66dce6eb17295b724663",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4d6c54ad45",
-      "title": "A PÁO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789323602-0-0-60ed7639b6751c9f8fb568cca5fe7a15",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aec7588201",
-      "title": "BLV LUCAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789325342-0-0-1eca3ffd844b1ff0513205848a7ce8a1",
       "category": "Sports"
     },
     {
