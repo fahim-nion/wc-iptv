@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:33:35.221Z",
+  "updatedAt": "2026-09-13T19:59:25.009Z",
   "channels": [
     {
       "id": "live-878ce30c8d",
@@ -31,14 +31,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-203d20935c",
-      "title": "BLV PEPSI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
       "category": "Sports"
     },
     {
