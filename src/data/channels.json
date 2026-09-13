@@ -1,12 +1,28 @@
 {
-  "updatedAt": "2026-09-13T15:26:15.325Z",
+  "updatedAt": "2026-09-13T15:36:09.754Z",
   "channels": [
     {
       "id": "live-0cafa91d6e",
       "title": "LOKA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316582-0-0-46d6206321eb5aee4f721a414af77590",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316402-0-0-038b9bece5ee7fd1e4bc543cad10fcbb",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8c4d4fe5a5",
+      "title": "CÔNG CHẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=333c4f589df9d9116a7e69c52bfdc644&txTime=6aa713fa",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f9dfc28c91",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789316402-0-0-242b4c7f302d1a4ec0731b40ea3a3e4f",
       "category": "Sports"
     },
     {
@@ -38,7 +54,7 @@
       "title": "HÔM NAY, 21:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=9792282b16bb5eb9a1ad362811f9d87c&wsABSTime=1789356341",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=25b71fcdff7940dc53796d38f7a78b8e&wsABSTime=1789356921",
       "category": "Sports"
     },
     {
@@ -46,7 +62,15 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=9c346a9f117f1a38650be3dc0cd901fd&wsABSTime=1789356358",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=5113a401180bf4e479941f070b073af9&wsABSTime=1789356938",
+      "category": "Sports"
+    },
+    {
+      "id": "live-14a1a59b86",
+      "title": "HÔM NAY, 22:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789313755-0-0-3758b2e66a49f60a7e8cb6c166c3ec20",
       "category": "Sports"
     },
     {
