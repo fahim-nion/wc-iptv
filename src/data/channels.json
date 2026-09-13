@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-09-13T15:03:18.298Z",
+  "updatedAt": "2026-09-13T15:16:23.821Z",
   "channels": [
+    {
+      "id": "live-a87c96f256",
+      "title": "BLV RYO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1789315922-0-0-8ba81c2ba0955b671ee0b2acb092d455",
+      "category": "Sports"
+    },
+    {
+      "id": "live-097708d147",
+      "title": "VINFAST",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1789315862-0-0-fcb87594ead366323baea622162493cc",
+      "category": "Sports"
+    },
+    {
+      "id": "live-01fd124ff6",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8ea6bf8a07f7d8ced9787ae240c5bd2a&txTime=6aa7121a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2478ca3797",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e3c820be3b",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f11d7218fd",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1b2b5d55d8",
+      "title": "HÔM NAY, 21:15",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=99ed7881e3fba220b259f7539f8951bf&wsABSTime=1789355749",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1897cbf480",
+      "title": "HÔM NAY, 22:15",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=db5baae6f900c8bab02bf27088486a8e&wsABSTime=1789355767",
+      "category": "Sports"
+    },
     {
       "id": "live-0231af3df7",
       "title": "NEKO",
@@ -39,38 +103,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-49327447b2",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1b2b5d55d8",
-      "title": "HÔM NAY, 21:15",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=de91b07cef4b719625e5ceaac6712f80&wsABSTime=1789354981",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bb06f8192a",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-770b2c0fbb",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
