@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-09-13T21:51:18.270Z",
+  "updatedAt": "2026-09-13T22:12:47.475Z",
   "channels": [
-    {
-      "id": "live-7036df9c8c",
-      "title": "BLV HỔ VẰN",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-eb819c41c1",
       "title": "BLV MOUNTAIN DEW",
@@ -26,11 +18,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-86a34dc65e",
+      "title": "BLV SPRITE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75748097.m3u8",
+      "category": "Sports"
+    },
+    {
       "id": "live-15e67a7095",
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789336232-0-0-d2c618b25f8a66f25094cb5d9e4af773",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789337515-0-0-dde968ca274d0079c91d4effb22be915",
       "category": "Sports"
     },
     {
@@ -38,7 +38,7 @@
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789336249-0-0-6eb2ad2e796ce33ab59af23fc7398737",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789337530-0-0-adef5f1c6453f282959aaf35a3822b61",
       "category": "Sports"
     },
     {
