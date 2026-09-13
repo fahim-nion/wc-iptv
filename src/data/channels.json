@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-09-13T22:12:47.475Z",
+  "updatedAt": "2026-09-13T23:02:58.254Z",
   "channels": [
-    {
-      "id": "live-eb819c41c1",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-27d1b6785b",
       "title": "BLV BÍ ĐAO",
@@ -26,19 +18,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-1585d293b4",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "category": "Sports"
+    },
+    {
       "id": "live-15e67a7095",
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789337515-0-0-dde968ca274d0079c91d4effb22be915",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5671d935db",
-      "title": "HÔM NAY, 23:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789337530-0-0-adef5f1c6453f282959aaf35a3822b61",
       "category": "Sports"
     },
     {
