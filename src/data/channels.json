@@ -1,28 +1,20 @@
 {
-  "updatedAt": "2026-09-13T20:32:41.395Z",
+  "updatedAt": "2026-09-13T20:45:07.605Z",
   "channels": [
     {
-      "id": "live-878ce30c8d",
-      "title": "BLV C2",
+      "id": "live-bfd8075f02",
+      "title": "BLV WARRIOR",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "streamUrl": "https://live05.meung.app/live/97885009.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-6123ce98f7",
-      "title": "BLV 7UP",
+      "id": "live-15e67a7095",
+      "title": "HÔM NAY, 23:30",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-30018fde16",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789332268-0-0-f43bb1d64769062da2ca6236119f723f",
       "category": "Sports"
     },
     {
@@ -47,14 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789320242-0-0-deacac562d92811894ad2f9cc655669f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-92567125a3",
-      "title": "BLV ENZO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320782-0-0-5af957986ca93586743d64d65ae142e9",
       "category": "Sports"
     },
     {
