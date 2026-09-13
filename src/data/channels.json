@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-13T16:49:46.347Z",
+  "updatedAt": "2026-09-13T16:58:56.566Z",
   "channels": [
+    {
+      "id": "live-1004211a40",
+      "title": "BLV BẢY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789321922-0-0-f3194eb126568d6f1048feb09be8968e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d6c54ad45",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789322222-0-0-1b886df2db132e76d7233fa5350ffda5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1897cbf480",
+      "title": "HÔM NAY, 22:15",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=1dda1a95bff29c9d0c41dda87b188a41&wsABSTime=1789361885",
+      "category": "Sports"
+    },
+    {
+      "id": "live-14a1a59b86",
+      "title": "HÔM NAY, 22:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318702-0-0-d52ce45b00115a792d6ae3b7478f1226",
+      "category": "Sports"
+    },
     {
       "id": "live-e349e4a20c",
       "title": "RỒNG ĐẤT",
@@ -31,22 +63,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1897cbf480",
-      "title": "HÔM NAY, 22:15",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=95333e4cbe3f37582b6f85210a7e509e&wsABSTime=1789361335",
-      "category": "Sports"
-    },
-    {
-      "id": "live-14a1a59b86",
-      "title": "HÔM NAY, 22:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318152-0-0-b937602119c4b0f48614eed8d962bcc8",
       "category": "Sports"
     },
     {
