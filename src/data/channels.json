@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-13T17:51:02.100Z",
+  "updatedAt": "2026-09-13T18:11:08.553Z",
   "channels": [
+    {
+      "id": "live-62d2b2fda8",
+      "title": "BLV HỔ VẰN",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-65968e3bf3",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-203d20935c",
+      "title": "BLV PEPSI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/59444581.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-1004211a40",
       "title": "BLV BẢY",
@@ -23,30 +47,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789325342-0-0-1eca3ffd844b1ff0513205848a7ce8a1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-40f17c8e88",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-62d2b2fda8",
-      "title": "BLV HỔ VẰN",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-65968e3bf3",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     },
     {
@@ -103,14 +103,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789318442-0-0-6a3649208fc638fd4f73068805aba6d3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-73d8151dc8",
-      "title": "BLV XO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=14bee7d3789b06ac50afa0044cbb40c6&txTime=6aa71bb7",
       "category": "Sports"
     },
     {
