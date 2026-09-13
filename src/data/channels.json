@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:20:28.168Z",
+  "updatedAt": "2026-09-13T23:42:11.105Z",
   "channels": [
     {
       "id": "live-25416fc277",
@@ -7,14 +7,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1789344422-0-0-08fd8a432422ccd671d895b71c48296d",
-      "category": "Sports"
-    },
-    {
-      "id": "live-27d1b6785b",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
       "category": "Sports"
     },
     {
