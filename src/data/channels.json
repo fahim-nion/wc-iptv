@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-09-13T21:19:11.267Z",
+  "updatedAt": "2026-09-13T21:34:12.619Z",
   "channels": [
-    {
-      "id": "live-f81c53d31e",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-7036df9c8c",
       "title": "BLV HỔ VẰN",
@@ -30,7 +22,7 @@
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789334301-0-0-55f6c99f7c39ff5131774680d1eb704e",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789335195-0-0-218ba8718e83a3c6c9c557754c3e4dc4",
       "category": "Sports"
     },
     {
@@ -38,7 +30,7 @@
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789334318-0-0-e4dfe19abe3848592fe3b1d74f417e4a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789335212-0-0-6793b5f30339282888f01350edf686c0",
       "category": "Sports"
     },
     {
@@ -47,14 +39,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318702-0-0-d52ce45b00115a792d6ae3b7478f1226",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e349e4a20c",
-      "title": "RỒNG ĐẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789320242-0-0-deacac562d92811894ad2f9cc655669f",
       "category": "Sports"
     },
     {
