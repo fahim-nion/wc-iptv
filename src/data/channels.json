@@ -1,28 +1,52 @@
 {
-  "updatedAt": "2026-09-12T21:04:06.199Z",
+  "updatedAt": "2026-09-13T14:50:59.900Z",
   "channels": [
     {
-      "id": "live-bc57860eff",
-      "title": "BLV BÍ ĐAO",
+      "id": "live-0231af3df7",
+      "title": "NEKO",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1789314002-0-0-843658b99d05eb86bed6abb53e46beca",
       "category": "Sports"
     },
     {
-      "id": "live-cf88cd5b10",
-      "title": "BLV KHÔNG ĐỘ",
+      "id": "live-ce19f5f0c6",
+      "title": "SEVEN",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/41943555.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=a254e47ed0ea29c5d90611c09238cfdb&txTime=6aa70c03",
       "category": "Sports"
     },
     {
-      "id": "live-580160b3bb",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-8c3cf3c325",
+      "title": "QUỐC KHÁNH",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=1bf0e8926eb2e25fc9db84ac173b7f38&txTime=6aa701b2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb06f8192a",
+      "title": "BLV C2",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-770b2c0fbb",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e218060383",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
