@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:29:25.322Z",
+  "updatedAt": "2026-09-13T18:47:57.464Z",
   "channels": [
     {
       "id": "live-878ce30c8d",
@@ -23,14 +23,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-62d2b2fda8",
-      "title": "BLV HỔ VẰN",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
       "category": "Sports"
     },
     {
@@ -87,14 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789320242-0-0-deacac562d92811894ad2f9cc655669f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ea72ad818a",
-      "title": "BOSS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789320003-0-0-f07629ad104b5e1bd836a9984bdb93ad",
       "category": "Sports"
     },
     {
