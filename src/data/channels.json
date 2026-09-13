@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-13T18:11:08.553Z",
+  "updatedAt": "2026-09-13T18:29:25.322Z",
   "channels": [
+    {
+      "id": "live-878ce30c8d",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6123ce98f7",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-30018fde16",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-62d2b2fda8",
       "title": "BLV HỔ VẰN",
@@ -47,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789325342-0-0-1eca3ffd844b1ff0513205848a7ce8a1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2478ca3797",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
       "category": "Sports"
     },
     {
