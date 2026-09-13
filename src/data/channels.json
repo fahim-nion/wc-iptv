@@ -1,28 +1,12 @@
 {
-  "updatedAt": "2026-09-13T16:39:19.766Z",
+  "updatedAt": "2026-09-13T16:49:46.347Z",
   "channels": [
-    {
-      "id": "live-ea72ad818a",
-      "title": "BOSS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789320003-0-0-f07629ad104b5e1bd836a9984bdb93ad",
-      "category": "Sports"
-    },
     {
       "id": "live-e349e4a20c",
       "title": "RỒNG ĐẤT",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789320242-0-0-deacac562d92811894ad2f9cc655669f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-92567125a3",
-      "title": "BLV ENZO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320782-0-0-5af957986ca93586743d64d65ae142e9",
       "category": "Sports"
     },
     {
@@ -54,7 +38,7 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=f3af0abef88af0e61ea24be767e015d9&wsABSTime=1789360692",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=95333e4cbe3f37582b6f85210a7e509e&wsABSTime=1789361335",
       "category": "Sports"
     },
     {
@@ -62,7 +46,23 @@
       "title": "HÔM NAY, 22:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789317509-0-0-5fa11cd30a00f4f3f311cc1ff7b399ee",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318152-0-0-b937602119c4b0f48614eed8d962bcc8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ea72ad818a",
+      "title": "BOSS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789320003-0-0-f07629ad104b5e1bd836a9984bdb93ad",
+      "category": "Sports"
+    },
+    {
+      "id": "live-92567125a3",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320782-0-0-5af957986ca93586743d64d65ae142e9",
       "category": "Sports"
     },
     {
@@ -159,14 +159,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=8ea6bf8a07f7d8ced9787ae240c5bd2a&txTime=6aa7121a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0231af3df7",
-      "title": "NEKO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1789313882-0-0-03ab416bc56e6158cf54857232468e86",
       "category": "Sports"
     },
     {
