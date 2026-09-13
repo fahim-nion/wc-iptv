@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-13T17:23:10.021Z",
+  "updatedAt": "2026-09-13T17:40:15.389Z",
   "channels": [
     {
       "id": "live-1004211a40",
       "title": "BLV BẢY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1789323602-0-0-fec9ac026100b7b456f1e8cbf23ccaf2",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789321922-0-0-f3194eb126568d6f1048feb09be8968e",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789323602-0-0-60ed7639b6751c9f8fb568cca5fe7a15",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789322222-0-0-1b886df2db132e76d7233fa5350ffda5",
       "category": "Sports"
     },
     {
@@ -22,7 +22,31 @@
       "title": "BLV LUCAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789323662-0-0-d5e390bd936c1baee5c2b5f942c9170d",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789311652-0-0-0d0fe3991810fefaa8e6a1c1782e0cf9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-40f17c8e88",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-62d2b2fda8",
+      "title": "BLV HỔ VẰN",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07428422.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-65968e3bf3",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
       "category": "Sports"
     },
     {
@@ -31,22 +55,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/08552895.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e3c820be3b",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f11d7218fd",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309.m3u8",
       "category": "Sports"
     },
     {
@@ -103,62 +111,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=14bee7d3789b06ac50afa0044cbb40c6&txTime=6aa71bb7",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5c2e13a5dd",
-      "title": "BLV ZOWIE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789314182-0-0-2cbdefa99f63893790c3e64c813d910a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0cbd929246",
-      "title": "BLV TOMIA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789316402-0-0-ed89267f8b11933a9909c3ecb57f6b4a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-df7809f224",
-      "title": "TẠ BIÊN GIỚI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789316282-0-0-b4c2c659ab36ee592d4d52506982bdcb",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0cafa91d6e",
-      "title": "LOKA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1789316402-0-0-038b9bece5ee7fd1e4bc543cad10fcbb",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8c4d4fe5a5",
-      "title": "CÔNG CHẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=333c4f589df9d9116a7e69c52bfdc644&txTime=6aa713fa",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f9dfc28c91",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789316402-0-0-242b4c7f302d1a4ec0731b40ea3a3e4f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e218060383",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711.m3u8",
       "category": "Sports"
     },
     {
