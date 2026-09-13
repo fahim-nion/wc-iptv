@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-13T16:27:16.643Z",
+  "updatedAt": "2026-09-13T16:39:19.766Z",
   "channels": [
     {
       "id": "live-ea72ad818a",
       "title": "BOSS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789320182-0-0-0f44f311d6ec2c5ab293c5fb5a08df89",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789320003-0-0-f07629ad104b5e1bd836a9984bdb93ad",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV ENZO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320242-0-0-76d13b05d41741f435f7a61de65b6691",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789320782-0-0-5af957986ca93586743d64d65ae142e9",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "HÔM NAY, 22:15",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=2d926a4d956e84c80010af4e00791f2a&wsABSTime=1789359963",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel13.flv?wsSecret=f3af0abef88af0e61ea24be767e015d9&wsABSTime=1789360692",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "HÔM NAY, 22:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789316781-0-0-7780945cc8f19c4e21fcdecab6a8aaf9",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789317509-0-0-5fa11cd30a00f4f3f311cc1ff7b399ee",
       "category": "Sports"
     },
     {
@@ -87,14 +87,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=14bee7d3789b06ac50afa0044cbb40c6&txTime=6aa71bb7",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1b2b5d55d8",
-      "title": "HÔM NAY, 21:15",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.flv?wsSecret=c67b002f26c006eebcdc5cfb7060d774&wsABSTime=1789359368",
       "category": "Sports"
     },
     {
@@ -175,14 +167,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1789313882-0-0-03ab416bc56e6158cf54857232468e86",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce19f5f0c6",
-      "title": "SEVEN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912126_lhd.m3u8?txSecret=7e325a842881cafbf8c0c628fc70d96f&txTime=6aa70c7a",
       "category": "Sports"
     },
     {
