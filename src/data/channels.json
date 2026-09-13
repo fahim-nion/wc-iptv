@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:59:51.129Z",
+  "updatedAt": "2026-09-13T21:19:11.267Z",
   "channels": [
     {
       "id": "live-f81c53d31e",
@@ -18,11 +18,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-eb819c41c1",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "category": "Sports"
+    },
+    {
       "id": "live-15e67a7095",
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789333156-0-0-8154f589691dbb912a63dd32ef5ffb55",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789334301-0-0-55f6c99f7c39ff5131774680d1eb704e",
       "category": "Sports"
     },
     {
@@ -30,15 +38,7 @@
       "title": "HÔM NAY, 23:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789333173-0-0-df3238daa9c47e6e791895e57762e40a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-65968e3bf3",
-      "title": "BLV MOUNTAIN DEW",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578.m3u8",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789334318-0-0-e4dfe19abe3848592fe3b1d74f417e4a",
       "category": "Sports"
     },
     {
@@ -55,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789320242-0-0-deacac562d92811894ad2f9cc655669f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2cf9c6a742",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789318442-0-0-6a3649208fc638fd4f73068805aba6d3",
       "category": "Sports"
     },
     {
