@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-15T22:55:22.283Z",
+  "updatedAt": "2026-09-15T23:11:11.129Z",
   "channels": [
     {
       "id": "live-1812ac84d4",
       "title": "PEANUT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789516389-0-0-e795de7c5a64ced2880aceaabe5f6b58",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789517296-0-0-33a43c8c99eafd447a4cb5b6cb14d889",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV VOI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789516402-0-0-169aa751d12dba4ef8d2a300bb593bca",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789517310-0-0-bc96cb5b48c55a669d0d62e9b1269987",
       "category": "Sports"
     },
     {
