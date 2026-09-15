@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-15T21:25:47.538Z",
+  "updatedAt": "2026-09-15T21:36:00.653Z",
   "channels": [
+    {
+      "id": "live-d9118cf0a6",
+      "title": "BLV MOUNTAIN DEW",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f71906a687",
+      "title": "HÔM NAY, 23:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789508089-0-0-77ec657fc86f5d5cdd785b280222c538",
+      "category": "Sports"
+    },
+    {
+      "id": "live-86580f6684",
+      "title": "HÔM NAY, 23:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789508105-0-0-637e82561fc95fa3bff8ba4e919f4bc2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-852af09934",
+      "title": "NGÀY MAI, 00:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789508121-0-0-a80c62bd02a5f3d041d201fa994936dd",
+      "category": "Sports"
+    },
     {
       "id": "live-93de889a1a",
       "title": "BLV FIREMAN",
@@ -10,51 +42,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-ccd79b2572",
-      "title": "SAO LA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=500c50cf02b9fe577dab3c39ff0436f0&txTime=6aaa0bb6",
-      "category": "Sports"
-    },
-    {
       "id": "live-404cbdf289",
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789511031-0-0-cbe1e520eec070322f73cb25f5f9283b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bb6ecfeba4",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-36a772814f",
-      "title": "BLV COZY",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87379114_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f71906a687",
-      "title": "HÔM NAY, 23:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789507517-0-0-650b072fe6a1d2d7e92e44b45f796aa9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-86580f6684",
-      "title": "HÔM NAY, 23:45",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789507535-0-0-5ff0872c7d5fd15266d86c3a7c267e09",
       "category": "Sports"
     },
     {
