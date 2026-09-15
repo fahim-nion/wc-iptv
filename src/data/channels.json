@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-09-15T23:27:00.040Z",
+  "updatedAt": "2026-09-15T23:40:36.058Z",
   "channels": [
-    {
-      "id": "live-1812ac84d4",
-      "title": "PEANUT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789518295-0-0-8fde39b6b0ef53a39b9b0e80064de990",
-      "category": "Sports"
-    },
-    {
-      "id": "live-83a0d5937d",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789518309-0-0-6c5d6c61043299cffdd5ed0eb097efe2",
-      "category": "Sports"
-    },
     {
       "id": "live-d9118cf0a6",
       "title": "BLV MOUNTAIN DEW",
@@ -39,6 +23,22 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1812ac84d4",
+      "title": "PEANUT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789518295-0-0-8fde39b6b0ef53a39b9b0e80064de990",
+      "category": "Sports"
+    },
+    {
+      "id": "live-83a0d5937d",
+      "title": "BLV VOI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789518309-0-0-6c5d6c61043299cffdd5ed0eb097efe2",
       "category": "Sports"
     },
     {
