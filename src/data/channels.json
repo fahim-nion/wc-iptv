@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-15T20:46:08.463Z",
+  "updatedAt": "2026-09-15T20:56:40.956Z",
   "channels": [
     {
       "id": "live-93de889a1a",
       "title": "BLV FIREMAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789508608-0-0-8b48a787179b1c56b1f0ce0e29c8c286",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789509224-0-0-e9c4e995b645ed8ba19fed6dc18e0570",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "SAO LA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=46b1e703ef8bdebc2f14d9e807a7419b&txTime=6aaa0263",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=8bfd2c0f4c8f443053f11f6139fcdca5&txTime=6aaa04c8",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789508643-0-0-ae27bf282dfc99609d3bdf07c40884b6",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789509257-0-0-99f4fe436e9be28d245c17e6a2d43827",
       "category": "Sports"
     },
     {
@@ -34,27 +34,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-4edcda6981",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e5d628fd46",
-      "title": "BLV 247",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/90865415_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-a3557efc83",
       "title": "HÔM NAY, 02:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=d0f30f184bb27ded3ea28090b464c9fa&wsABSTime=1789548334",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=035683e758d5480caaee3b4e086ac3de&wsABSTime=1789548954",
       "category": "Sports"
     },
     {
