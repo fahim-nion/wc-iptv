@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-15T21:15:30.189Z",
+  "updatedAt": "2026-09-15T21:25:47.538Z",
   "channels": [
+    {
+      "id": "live-93de889a1a",
+      "title": "BLV FIREMAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789510998-0-0-ac8b0a70346a924fdf7dccd9e2ce0a69",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ccd79b2572",
+      "title": "SAO LA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=500c50cf02b9fe577dab3c39ff0436f0&txTime=6aaa0bb6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-404cbdf289",
+      "title": "BLV MESSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789511031-0-0-cbe1e520eec070322f73cb25f5f9283b",
+      "category": "Sports"
+    },
     {
       "id": "live-bb6ecfeba4",
       "title": "BLV REVIVE",
@@ -22,7 +46,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789506897-0-0-bb11ee868a0522ddef8cc4a624065a4f",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789507517-0-0-650b072fe6a1d2d7e92e44b45f796aa9",
       "category": "Sports"
     },
     {
@@ -30,31 +54,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789506913-0-0-b32a5e8c51a1cf0e6cae43c792f73455",
-      "category": "Sports"
-    },
-    {
-      "id": "live-93de889a1a",
-      "title": "BLV FIREMAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789509224-0-0-e9c4e995b645ed8ba19fed6dc18e0570",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ccd79b2572",
-      "title": "SAO LA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=8bfd2c0f4c8f443053f11f6139fcdca5&txTime=6aaa04c8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-404cbdf289",
-      "title": "BLV MESSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789509257-0-0-99f4fe436e9be28d245c17e6a2d43827",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789507535-0-0-5ff0872c7d5fd15266d86c3a7c267e09",
       "category": "Sports"
     },
     {
