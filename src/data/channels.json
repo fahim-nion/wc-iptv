@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-15T22:25:00.828Z",
+  "updatedAt": "2026-09-15T22:39:24.816Z",
   "channels": [
     {
       "id": "live-83a0d5937d",
       "title": "BLV VOI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789514522-0-0-e4b990ca605de4ee9fe4ea72ab3c0ba1",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789515330-0-0-c6c5f54702a7167d698efcd7f29d58fa",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV A TINH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=51181e8fe66119cfc222faa6af74c9ff&txTime=6aaa197a",
+      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=22ebb4e3271a70da6a15b3ec2da3e6dc&txTime=6aaa1caa",
       "category": "Sports"
     },
     {
@@ -38,7 +38,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511053-0-0-3e5627e04f1651a12040d33fd420102f",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511912-0-0-46f9d6647578b41953582306be790a0b",
       "category": "Sports"
     },
     {
@@ -46,7 +46,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511070-0-0-49145e1142c99cdcc5e4193aaea6a441",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511934-0-0-c89345418ba785331b1ef910677fac53",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "NGÀY MAI, 00:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511087-0-0-22f28a802d38cb572f65b65e92bc120a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511951-0-0-2b6f66c19b87d253400b39079b68beac",
       "category": "Sports"
     },
     {
