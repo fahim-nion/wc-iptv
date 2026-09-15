@@ -1,36 +1,60 @@
 {
-  "updatedAt": "2026-09-14T00:17:55.161Z",
+  "updatedAt": "2026-09-15T20:16:33.043Z",
   "channels": [
     {
-      "id": "live-25416fc277",
-      "title": "CƠM NẾP",
+      "id": "live-93de889a1a",
+      "title": "BLV FIREMAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1789348502-0-0-208492b80b426dd3c7abf72d7460b56e",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789506826-0-0-66ef34e6aabd7ae3d03f6fe3629a9551",
       "category": "Sports"
     },
     {
-      "id": "live-2aac109d83",
-      "title": "BLV VOI",
+      "id": "live-ccd79b2572",
+      "title": "SAO LA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789348502-0-0-ff52aeb4cae4f62181369705dd9f00e5",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=bfc8fa2045badbb8ec99a7eecb2f4444&txTime=6aa9fb6a",
       "category": "Sports"
     },
     {
-      "id": "live-303579d8b6",
-      "title": "BLV LUCAS",
+      "id": "live-404cbdf289",
+      "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1789347302-0-0-53b8b234a88f51c50f19c2e7271828ad",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789506858-0-0-cfff96c0d5e17e8f2a529cd93533b801",
       "category": "Sports"
     },
     {
-      "id": "live-1585d293b4",
-      "title": "BLV POCARI",
+      "id": "live-aa3b332bca",
+      "title": "BLV 7UP",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577.m3u8",
+      "streamUrl": "https://live05.meung.app/live/78905744_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4edcda6981",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e5d628fd46",
+      "title": "BLV 247",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/90865415_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a3557efc83",
+      "title": "HÔM NAY, 02:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=ee0fd802f280203b5cec3be1154a1383&wsABSTime=1789546539",
       "category": "Sports"
     },
     {
@@ -47,14 +71,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318702-0-0-d52ce45b00115a792d6ae3b7478f1226",
-      "category": "Sports"
-    },
-    {
-      "id": "live-75f2604d3e",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789246358-0-0-754bdbcbbbbc07f3c3adc36d433f12ec",
       "category": "Sports"
     }
   ]
