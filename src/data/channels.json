@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-15T22:05:30.106Z",
+  "updatedAt": "2026-09-15T22:25:00.828Z",
   "channels": [
+    {
+      "id": "live-83a0d5937d",
+      "title": "BLV VOI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789514522-0-0-e4b990ca605de4ee9fe4ea72ab3c0ba1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9d15f1509e",
+      "title": "BLV A TINH",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=51181e8fe66119cfc222faa6af74c9ff&txTime=6aaa197a",
+      "category": "Sports"
+    },
     {
       "id": "live-d9118cf0a6",
       "title": "BLV MOUNTAIN DEW",
@@ -22,7 +38,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789509882-0-0-fe3ee0d7f063ab647e31f8b2ed09d61b",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511053-0-0-3e5627e04f1651a12040d33fd420102f",
       "category": "Sports"
     },
     {
@@ -30,7 +46,7 @@
       "title": "HÔM NAY, 23:45",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789509900-0-0-05b031642340bd5e6398f49349a411fd",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511070-0-0-49145e1142c99cdcc5e4193aaea6a441",
       "category": "Sports"
     },
     {
@@ -38,7 +54,7 @@
       "title": "NGÀY MAI, 00:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789509917-0-0-166233572e7d4ecbedfdafae2968b383",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511087-0-0-22f28a802d38cb572f65b65e92bc120a",
       "category": "Sports"
     },
     {
