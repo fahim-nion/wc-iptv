@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-15T20:56:40.956Z",
+  "updatedAt": "2026-09-15T21:05:54.370Z",
   "channels": [
+    {
+      "id": "live-bb6ecfeba4",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-36a772814f",
+      "title": "BLV COZY",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87379114_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f71906a687",
+      "title": "HÔM NAY, 23:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789506308-0-0-ec9f2a3547c63421acad8a58706b596a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-86580f6684",
+      "title": "HÔM NAY, 23:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789506325-0-0-4fd50527efb3e2478060ebc4371fad57",
+      "category": "Sports"
+    },
     {
       "id": "live-93de889a1a",
       "title": "BLV FIREMAN",
@@ -23,22 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789509257-0-0-99f4fe436e9be28d245c17e6a2d43827",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aa3b332bca",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a3557efc83",
-      "title": "HÔM NAY, 02:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=035683e758d5480caaee3b4e086ac3de&wsABSTime=1789548954",
       "category": "Sports"
     },
     {
