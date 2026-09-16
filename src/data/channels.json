@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-09-16T00:18:00.963Z",
+  "updatedAt": "2026-09-16T00:33:37.660Z",
   "channels": [
+    {
+      "id": "live-55d35cdadb",
+      "title": "BLV RAMBO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=88fc9ce19c29d6c86eba89dadf5d8897&txTime=6aaa37a6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-41f42e8645",
+      "title": "CR BƯỞI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=726995464ead24a89c5a7feefd3c1ca6&txTime=6aaa37b5",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0ee6416afd",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789522292-0-0-e99cf38a272048671a93c35fa75cc7b6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1a1c233e56",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4fc626b61c",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71d787539d",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/99121525_tsc.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-06d98ea24c",
       "title": "BLV COCA",
@@ -23,30 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789521347-0-0-f488006f3b1d05caf780ecf6b63c0ad3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1a1c233e56",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4fc626b61c",
-      "title": "BLV SAMURAI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07808742_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-83a0d5937d",
-      "title": "BLV VOI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789518309-0-0-6c5d6c61043299cffdd5ed0eb097efe2",
       "category": "Sports"
     },
     {
