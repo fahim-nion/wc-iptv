@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-16T00:33:37.660Z",
+  "updatedAt": "2026-09-16T00:45:57.024Z",
   "channels": [
     {
       "id": "live-55d35cdadb",
       "title": "BLV RAMBO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=88fc9ce19c29d6c86eba89dadf5d8897&txTime=6aaa37a6",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=70bb4cab6377be5323cb8d00a92b5c95&txTime=6aaa3a96",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "CR BƯỞI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=726995464ead24a89c5a7feefd3c1ca6&txTime=6aaa37b5",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1b77939b67308be474b51e0cf5f73877&txTime=6aaa3aa6",
       "category": "Sports"
     },
     {
@@ -22,15 +22,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789522292-0-0-e99cf38a272048671a93c35fa75cc7b6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1a1c233e56",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789523045-0-0-d11273add931c0ab58305e1dccaa5fa5",
       "category": "Sports"
     },
     {
@@ -39,6 +31,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/07808742_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1a1c233e56",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
       "category": "Sports"
     },
     {
