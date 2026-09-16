@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-16T05:33:33.625Z",
+  "updatedAt": "2026-09-16T05:47:02.820Z",
   "channels": [
     {
       "id": "live-dfd1b3c18e",
       "title": "BLV CUỘI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789540257-0-0-c5f1df83466eaf0f37a8fea7a5d32770",
+      "streamUrl": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789541068-0-0-b1ad879f015089d6cba2586984063d49",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=f4a09c987902661b5660d2861d2c7707&txTime=6aaa7e00",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=493b8a47f6d1bf4e1fb43906d5532325&txTime=6aaa812a",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "ZIDANE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789540287-0-0-8d83e92eac4c1cc0ea55945724b2a0b5",
+      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789541096-0-0-3e2d8746034d660b22c7374869593c9b",
       "category": "Sports"
     },
     {
