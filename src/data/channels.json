@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-16T00:59:41.314Z",
+  "updatedAt": "2026-09-16T01:09:46.269Z",
   "channels": [
     {
       "id": "live-9d8d834d48",
       "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789523829-0-0-d59e1dd48a481892c9e86c0b9d744a52",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789524420-0-0-05846270aa1badf06b2f10ea57d21535",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV TAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=aa43c48bc816733f74f67c1e58864de5&txTime=6aaa3dd5",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=f522632f8855999331ece07a1a5b8b16&txTime=6aaa4026",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789523861-0-0-facb0c1db1c89589032eb034248f362d",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789524455-0-0-e6fd967c2b503a5d16a1f831c390dd45",
       "category": "Sports"
     },
     {
@@ -79,22 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1789521298-0-0-69b6187a8e431c9337f6fbf2577bbbea",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2604afc36a",
-      "title": "BLV RÔSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=5d3f49386b56a54e8563a05ac24c034e&txTime=6aaa33fb",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1812ac84d4",
-      "title": "PEANUT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789521347-0-0-f488006f3b1d05caf780ecf6b63c0ad3",
       "category": "Sports"
     },
     {
