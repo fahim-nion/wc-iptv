@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T04:30:38.678Z",
+  "updatedAt": "2026-09-16T04:47:23.487Z",
   "channels": [
     {
       "id": "live-f694c6a0ec",
@@ -7,6 +7,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ffd96cfad6",
+      "title": "BLV HỔ VẰN",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07428422_tsc.m3u8",
       "category": "Sports"
     },
     {
