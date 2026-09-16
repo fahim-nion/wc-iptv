@@ -1,12 +1,20 @@
 {
-  "updatedAt": "2026-09-16T00:08:11.156Z",
+  "updatedAt": "2026-09-16T00:18:00.963Z",
   "channels": [
     {
       "id": "live-06d98ea24c",
       "title": "BLV COCA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1789520696-0-0-c54af0ff6030a5fcde454bdba7cf2331",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1789521298-0-0-69b6187a8e431c9337f6fbf2577bbbea",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2604afc36a",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=5d3f49386b56a54e8563a05ac24c034e&txTime=6aaa33fb",
       "category": "Sports"
     },
     {
@@ -14,7 +22,7 @@
       "title": "PEANUT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789520751-0-0-432624edbdf99ca51dff5da7eb2857e8",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789521347-0-0-f488006f3b1d05caf780ecf6b63c0ad3",
       "category": "Sports"
     },
     {
