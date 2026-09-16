@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-15T23:51:55.405Z",
+  "updatedAt": "2026-09-16T00:08:11.156Z",
   "channels": [
     {
-      "id": "live-d9118cf0a6",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-06d98ea24c",
+      "title": "BLV COCA",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1789520696-0-0-c54af0ff6030a5fcde454bdba7cf2331",
       "category": "Sports"
     },
     {
-      "id": "live-3ff50c7870",
-      "title": "BLV POCARI",
+      "id": "live-1812ac84d4",
+      "title": "PEANUT",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577_tsc.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789520751-0-0-432624edbdf99ca51dff5da7eb2857e8",
       "category": "Sports"
     },
     {
@@ -26,11 +26,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-1812ac84d4",
-      "title": "PEANUT",
+      "id": "live-4fc626b61c",
+      "title": "BLV SAMURAI",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789518295-0-0-8fde39b6b0ef53a39b9b0e80064de990",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07808742_tsc.m3u8",
       "category": "Sports"
     },
     {
