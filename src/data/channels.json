@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-16T00:45:57.024Z",
+  "updatedAt": "2026-09-16T00:59:41.314Z",
   "channels": [
     {
-      "id": "live-55d35cdadb",
-      "title": "BLV RAMBO",
+      "id": "live-9d8d834d48",
+      "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=70bb4cab6377be5323cb8d00a92b5c95&txTime=6aaa3a96",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789523829-0-0-d59e1dd48a481892c9e86c0b9d744a52",
       "category": "Sports"
     },
     {
-      "id": "live-41f42e8645",
-      "title": "CR BƯỞI",
+      "id": "live-7ff9199ab4",
+      "title": "BLV TAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1b77939b67308be474b51e0cf5f73877&txTime=6aaa3aa6",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=aa43c48bc816733f74f67c1e58864de5&txTime=6aaa3dd5",
       "category": "Sports"
     },
     {
-      "id": "live-0ee6416afd",
-      "title": "A PÁO",
+      "id": "live-dae3715af7",
+      "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789523045-0-0-d11273add931c0ab58305e1dccaa5fa5",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789523861-0-0-facb0c1db1c89589032eb034248f362d",
       "category": "Sports"
     },
     {
@@ -47,6 +47,30 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-55d35cdadb",
+      "title": "BLV RAMBO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=70bb4cab6377be5323cb8d00a92b5c95&txTime=6aaa3a96",
+      "category": "Sports"
+    },
+    {
+      "id": "live-41f42e8645",
+      "title": "CR BƯỞI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1b77939b67308be474b51e0cf5f73877&txTime=6aaa3aa6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0ee6416afd",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789523045-0-0-d11273add931c0ab58305e1dccaa5fa5",
       "category": "Sports"
     },
     {
