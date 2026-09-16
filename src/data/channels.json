@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-16T03:27:18.573Z",
+  "updatedAt": "2026-09-16T03:44:35.781Z",
   "channels": [
+    {
+      "id": "live-f694c6a0ec",
+      "title": "BLV ROCKSTAR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "category": "Sports"
+    },
     {
       "id": "live-f71906a687",
       "title": "HÔM NAY, 23:45",
