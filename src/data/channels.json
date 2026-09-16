@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-09-16T01:31:41.527Z",
+  "updatedAt": "2026-09-16T01:41:21.249Z",
   "channels": [
     {
       "id": "live-9d8d834d48",
       "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789525741-0-0-b872766f659348bd0661163a924d0450",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7ff9199ab4",
-      "title": "BLV TAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=80100093ca24d7f66c9704e615e04184&txTime=6aaa4550",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789526331-0-0-8ffd99384108b7795997a060f706844e",
       "category": "Sports"
     },
     {
@@ -22,7 +14,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789525778-0-0-1911db07d93817394bea455505f5c484",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789526365-0-0-d5dc59ab071653867b65b8269f83070c",
       "category": "Sports"
     },
     {
@@ -47,6 +39,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7ff9199ab4",
+      "title": "BLV TAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=80100093ca24d7f66c9704e615e04184&txTime=6aaa4550",
       "category": "Sports"
     },
     {
