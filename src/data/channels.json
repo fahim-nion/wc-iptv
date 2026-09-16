@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-16T02:04:32.461Z",
+  "updatedAt": "2026-09-16T02:20:10.660Z",
   "channels": [
     {
       "id": "live-9d8d834d48",
       "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789527711-0-0-52874f41a01aaafb6bdbe3acb6bfd997",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789528658-0-0-30de4d07af572b4d89d7f5cfad980619",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV TAP",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=6a3815ccbd99d44f8a9569d9dcd696c6&txTime=6aaa4cff",
+      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=2f52c5fed98219ce015d34b0597b079e&txTime=6aaa50b3",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "LÃO LÂM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789527742-0-0-4b0555e20009089ba545ee0fe3692358",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789528691-0-0-a179ab896b2589964b468ad78987654b",
       "category": "Sports"
     },
     {
@@ -39,6 +39,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/99121525_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a9361f6e2f",
+      "title": "BLV POCARI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/19919577_tsc.m3u8",
       "category": "Sports"
     },
     {
@@ -63,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789523045-0-0-d11273add931c0ab58305e1dccaa5fa5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-06d98ea24c",
-      "title": "BLV COCA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1789521298-0-0-69b6187a8e431c9337f6fbf2577bbbea",
       "category": "Sports"
     },
     {
