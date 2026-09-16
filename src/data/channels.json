@@ -1,12 +1,28 @@
 {
-  "updatedAt": "2026-09-16T05:03:32.594Z",
+  "updatedAt": "2026-09-16T05:19:17.275Z",
   "channels": [
     {
-      "id": "live-f694c6a0ec",
-      "title": "BLV ROCKSTAR",
+      "id": "live-dfd1b3c18e",
+      "title": "BLV CUỘI",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789539396-0-0-220e318099f60f531db4239ec67c6780",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a391d6b554",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=a32a010d8705459085300f39674c0d62&txTime=6aaa7ab1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-072f457065",
+      "title": "ZIDANE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789539441-0-0-f5726234f7d3440371f03107bf1414fe",
       "category": "Sports"
     },
     {
@@ -15,6 +31,14 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/07428422_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f694c6a0ec",
+      "title": "BLV ROCKSTAR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
       "category": "Sports"
     },
     {
