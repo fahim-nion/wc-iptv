@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-09-16T02:51:52.097Z",
+  "updatedAt": "2026-09-16T03:08:01.050Z",
   "channels": [
-    {
-      "id": "live-9d8d834d48",
-      "title": "NGƯỜI CÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789530538-0-0-c3466a3eae4e9a003389ffaa331c9663",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7ff9199ab4",
-      "title": "BLV TAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=86084ad2ef9bc2628dd6173b3cff14ae&txTime=6aaa5809",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dae3715af7",
-      "title": "LÃO LÂM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789530568-0-0-03d1baacc5941d8927d3b8de45e30cee",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71d787539d",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/99121525_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a9361f6e2f",
-      "title": "BLV POCARI",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/19919577_tsc.m3u8",
-      "category": "Sports"
-    },
     {
       "id": "live-f71906a687",
       "title": "HÔM NAY, 23:45",
