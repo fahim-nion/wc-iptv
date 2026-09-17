@@ -1,44 +1,28 @@
 {
-  "updatedAt": "2026-09-16T05:47:02.820Z",
+  "updatedAt": "2026-09-17T04:31:49.212Z",
   "channels": [
     {
-      "id": "live-dfd1b3c18e",
-      "title": "BLV CUỘI",
+      "id": "live-41ba621738",
+      "title": "XUÂN TÓC ĐỎ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789541068-0-0-b1ad879f015089d6cba2586984063d49",
+      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=8749f5d5cc523cb7dfdcdc841c068d42&txTime=6aabc11a",
       "category": "Sports"
     },
     {
-      "id": "live-a391d6b554",
-      "title": "LOGAN",
+      "id": "live-f8b6131da8",
+      "title": "BLV PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=493b8a47f6d1bf4e1fb43906d5532325&txTime=6aaa812a",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789623004-0-0-f0a3638326e9f3edc7382c4eea29ac26",
       "category": "Sports"
     },
     {
-      "id": "live-072f457065",
-      "title": "ZIDANE",
+      "id": "live-58c0d45b5c",
+      "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789541096-0-0-3e2d8746034d660b22c7374869593c9b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ffd96cfad6",
-      "title": "BLV HỔ VẰN",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/07428422_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f694c6a0ec",
-      "title": "BLV ROCKSTAR",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789623019-0-0-237a9cac458f570d21334dca6462595d",
       "category": "Sports"
     },
     {
