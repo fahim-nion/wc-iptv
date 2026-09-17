@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T06:33:29.410Z",
+  "updatedAt": "2026-09-17T06:50:02.516Z",
   "channels": [
     {
       "id": "live-afbebc0548",
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=0297d071fc7010dbb72544846fd7d5cc&txTime=6aabdc5a",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=7538501f64855c1f0443d09c1d6f2273&txTime=6aabe19e",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV PIRLO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=414f11f9c1decc71007089e3cc924ea9&txTime=6aabdd0e",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=e11c82064018c6e482f0736c332989fa&txTime=6aabe1ad",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV A TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789630142-0-0-4bc5355b21fbe574d90c857fffb3864e",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789631339-0-0-16a9eb55f1dc08a46368c9f59bb0f51b",
       "category": "Sports"
     },
     {
