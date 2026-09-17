@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-17T04:51:16.111Z",
+  "updatedAt": "2026-09-17T05:02:04.099Z",
   "channels": [
+    {
+      "id": "live-6145d21e65",
+      "title": "LOGAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=27b098a69d48f6e7ef95ba1e2d2816c4&txTime=6aabc841",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5b1c4a0a4",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=d1e329a0ff1d415f6748475d10bdc8b7&txTime=6aabc851",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b1e41df471",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789624849-0-0-e89affcd8df75665ee6ece341b0dba8a",
+      "category": "Sports"
+    },
     {
       "id": "live-41ba621738",
       "title": "XUÂN TÓC ĐỎ",
