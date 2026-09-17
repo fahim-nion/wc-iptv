@@ -1,12 +1,20 @@
 {
-  "updatedAt": "2026-09-17T05:36:39.780Z",
+  "updatedAt": "2026-09-17T05:56:14.536Z",
   "channels": [
     {
       "id": "live-6145d21e65",
       "title": "LOGAN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=e94243787b92e8a83714de2984892b62&txTime=6aabd06e",
+      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=a4d1a2cc36e352d5a397ca6c72ef13a5&txTime=6aabd4f7",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b1e41df471",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789628108-0-0-f867ca57a6f763dcdeb3f5dc594e7542",
       "category": "Sports"
     },
     {
@@ -15,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=b46f328751ae73252adb05e1f16a78e5&txTime=6aabd07c",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b1e41df471",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1789626938-0-0-525d812f7c442060ff4c2fbde1aebe75",
       "category": "Sports"
     },
     {
