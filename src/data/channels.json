@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T04:41:16.689Z",
+  "updatedAt": "2026-09-17T04:51:16.111Z",
   "channels": [
     {
       "id": "live-41ba621738",
       "title": "XUÂN TÓC ĐỎ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=61c85243483239d6eaa5c2c51ffe49ad&txTime=6aabc36e",
+      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=d8a3c1cbb85cf5bffe0a77dc90168cd2&txTime=6aabc5c5",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789623597-0-0-59325562e0c995cca01e1a5e055f4c09",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789624197-0-0-c54a9a5d4916d218f746cfa794d663a4",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789623613-0-0-05d9ca7c35fdda736b278c49abed102a",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789624212-0-0-a5dd98c045f83f46d2115e1a4846b200",
       "category": "Sports"
     },
     {
