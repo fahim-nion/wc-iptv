@@ -1,12 +1,20 @@
 {
-  "updatedAt": "2026-09-18T16:58:01.863Z",
+  "updatedAt": "2026-09-18T17:07:25.833Z",
   "channels": [
     {
       "id": "live-d3bebd2594",
       "title": "KENCHU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789754130-0-0-740b414f9d250de78c9ee0381c2c30c0",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789754723-0-0-734266613ec9c671ab49373e7652ff1b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-843d128e38",
+      "title": "BLV ANH TÀI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=43fd6e8cba48aed07d40eb7c55d94550&txTime=6aadc3ca",
       "category": "Sports"
     },
     {
@@ -14,7 +22,7 @@
       "title": "BLV CHIVAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=ea09d05f7b8a02664edfcd088ba66a5d&txTime=6aadc1a2",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=ef9825b0242b153ed2a86396536d1c14&txTime=6aadc3df",
       "category": "Sports"
     },
     {
