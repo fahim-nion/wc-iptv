@@ -1,20 +1,28 @@
 {
-  "updatedAt": "2026-09-17T06:50:02.516Z",
+  "updatedAt": "2026-09-18T16:47:34.834Z",
   "channels": [
     {
-      "id": "live-afbebc0548",
-      "title": "LOGAN",
+      "id": "live-c18f02204a",
+      "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=7538501f64855c1f0443d09c1d6f2273&txTime=6aabe19e",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789753590-0-0-a47d83a9640e4e4b6efab5cf27051793",
       "category": "Sports"
     },
     {
-      "id": "live-1e4885e496",
-      "title": "BLV PIRLO",
+      "id": "live-714c20c583",
+      "title": "THẠCH TÚ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=e11c82064018c6e482f0736c332989fa&txTime=6aabe1ad",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=5904ca503a3168b45bdd3348c8775e55&txTime=6aadbf5e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ebbf45cb14",
+      "title": "BLV CỦ CẢI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1789753637-0-0-fee02764d3c2a796917eeee3f4b2882e",
       "category": "Sports"
     },
     {
