@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-18T17:16:55.090Z",
+  "updatedAt": "2026-09-19T10:58:31.085Z",
   "channels": [
+    {
+      "id": "live-0604b07fda",
+      "title": "BOSS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789818963-0-0-4c40b79a73150392d7b9dbc2d26f63d6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f119857219",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=9df1839d9ff1f98008c8daaa43225568&txTime=6aaebea3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e3f1536ef1",
+      "title": "XUÂN TÓC ĐỎ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=726d9dd5d4acfabf612e68e361928e54&txTime=6aaebedf",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b9ae52f24",
+      "title": "HÔM NAY, 18:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789815459-0-0-b1c0be922640500d264a632204296881",
+      "category": "Sports"
+    },
     {
       "id": "live-d3bebd2594",
       "title": "KENCHU",
@@ -10,35 +42,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-843d128e38",
-      "title": "BLV ANH TÀI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-406865_lhd.m3u8?txSecret=3570e3b92d8f5d418c53740cb45b3f4f&txTime=6aadc613",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2687a460e6",
-      "title": "BLV CHIVAS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=47167fe0425259cba98af3e481ab55a1&txTime=6aadc623",
-      "category": "Sports"
-    },
-    {
       "id": "live-c18f02204a",
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789753590-0-0-a47d83a9640e4e4b6efab5cf27051793",
-      "category": "Sports"
-    },
-    {
-      "id": "live-714c20c583",
-      "title": "THẠCH TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=5904ca503a3168b45bdd3348c8775e55&txTime=6aadbf5e",
       "category": "Sports"
     },
     {
