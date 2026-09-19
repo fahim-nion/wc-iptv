@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:55:53.645Z",
+  "updatedAt": "2026-09-19T12:05:58.351Z",
   "channels": [
     {
       "id": "live-4f6b56ad95",
@@ -22,7 +22,7 @@
       "title": "A PÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789822383-0-0-001ad0020dee7f06b91d71a3317e3ca9",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789822983-0-0-953650a3e951bee12110c4224b280cab",
       "category": "Sports"
     },
     {
@@ -30,7 +30,7 @@
       "title": "HÔM NAY, 18:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789818903-0-0-18500327e23dd133b0f4749bb965ebc2",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789819508-0-0-e0443b2bb9c7ac93fd206ffeb443bc49",
       "category": "Sports"
     },
     {
