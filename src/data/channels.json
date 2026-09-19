@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T14:22:28.860Z",
+  "updatedAt": "2026-09-19T14:38:01.570Z",
   "channels": [
     {
       "id": "live-9a0b9ae53d",
@@ -22,7 +22,7 @@
       "title": "ZIDANE",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789831263-0-0-b6201bd7242f35b8c4375175d86bf3d0",
+      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789831383-0-0-2c947f834e0ee47996ddbeb3b4cbe9a5",
       "category": "Sports"
     },
     {
