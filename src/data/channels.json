@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-19T12:51:13.291Z",
+  "updatedAt": "2026-09-19T13:08:43.090Z",
   "channels": [
+    {
+      "id": "live-2478e9d2e5",
+      "title": "HÔM NAY, 18:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789823264-0-0-fbeaec162930701e5636f2ebbab6ed3e",
+      "category": "Sports"
+    },
     {
       "id": "live-4f6b56ad95",
       "title": "CACAO",
@@ -15,14 +23,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789823043-0-0-f04c92500a3c7186eee59ff0eb2e3abf",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0b9ae52f24",
-      "title": "HÔM NAY, 18:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789820303-0-0-1afcc50f91830826fb478ee51cb51284",
       "category": "Sports"
     },
     {
@@ -63,14 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789820043-0-0-4cf1c4c7895e3a9b0e0b0003b2f797e4",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f119857219",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=9df1839d9ff1f98008c8daaa43225568&txTime=6aaebea3",
       "category": "Sports"
     },
     {
