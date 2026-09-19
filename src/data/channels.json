@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-19T11:16:04.062Z",
+  "updatedAt": "2026-09-19T11:26:13.107Z",
   "channels": [
+    {
+      "id": "live-e47fc7af37",
+      "title": "BLV ĐỐM",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789820583-0-0-98b8dc18f1c6c658191ef09e6de77d41",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b90eeb62d1",
+      "title": "BLV TOMIA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1789820643-0-0-dd5c0cf9bbee013bd6dc379304cab3ad",
+      "category": "Sports"
+    },
+    {
+      "id": "live-34e7595dc5",
+      "title": "TẠ BIÊN GIỚI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789820643-0-0-c7c376efb3672067f51f6a38169f9b09",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b9ae52f24",
+      "title": "HÔM NAY, 18:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789817120-0-0-8c0bd4e61b7c42048a7199446793e14a",
+      "category": "Sports"
+    },
     {
       "id": "live-0604b07fda",
       "title": "BOSS",
@@ -23,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=726d9dd5d4acfabf612e68e361928e54&txTime=6aaebedf",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0b9ae52f24",
-      "title": "HÔM NAY, 18:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789816505-0-0-1d932d4d7e2e39e28d242f40162a47a9",
       "category": "Sports"
     },
     {
