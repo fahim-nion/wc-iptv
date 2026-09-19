@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-19T15:41:19.135Z",
+  "updatedAt": "2026-09-19T15:51:30.183Z",
   "channels": [
     {
       "id": "live-da0a5dbfc5",
       "title": "HÔM NAY, 21:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789832447-0-0-3bde88456600245cfaa0e01b2246b25e",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789833060-0-0-cad2a52b9f55ab49c0e6552d60da9d70",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HÔM NAY, 21:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=c12f0bdaed93c33f36db336830502969&wsABSTime=1789875663",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=16d78bf2c6b21a10cad9f4256bd9a842&wsABSTime=1789876275",
       "category": "Sports"
     },
     {
