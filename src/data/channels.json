@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T13:52:22.586Z",
+  "updatedAt": "2026-09-19T14:11:11.344Z",
   "channels": [
     {
       "id": "live-2478e9d2e5",
@@ -7,30 +7,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789824770-0-0-dd56e39dee960ceee56bf1eee20f6bb8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4f6b56ad95",
-      "title": "CACAO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789823043-0-0-410519ace5dccc48bac5a45e274e9fb1",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d1e923af47",
-      "title": "BLV PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789823043-0-0-f04c92500a3c7186eee59ff0eb2e3abf",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f86101de71",
-      "title": "A PÁO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789822983-0-0-953650a3e951bee12110c4224b280cab",
       "category": "Sports"
     },
     {
