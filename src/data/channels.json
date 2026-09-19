@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:21:18.795Z",
+  "updatedAt": "2026-09-19T15:31:40.510Z",
   "channels": [
     {
       "id": "live-9a0b9ae53d",
@@ -55,22 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789820643-0-0-c7c376efb3672067f51f6a38169f9b09",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0604b07fda",
-      "title": "BOSS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789820043-0-0-4cf1c4c7895e3a9b0e0b0003b2f797e4",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e3f1536ef1",
-      "title": "XUÂN TÓC ĐỎ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=726d9dd5d4acfabf612e68e361928e54&txTime=6aaebedf",
       "category": "Sports"
     },
     {
