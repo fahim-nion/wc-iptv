@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-19T14:11:11.344Z",
+  "updatedAt": "2026-09-19T14:22:28.860Z",
   "channels": [
+    {
+      "id": "live-9a0b9ae53d",
+      "title": "KENCHU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789831203-0-0-ca3d967db1242c7f64eed5c0c33bfcc4",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bbf1b3708a",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=7218f501475a5a0462772e8d7d679b35&txTime=6aaeee73",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7cb8206479",
+      "title": "ZIDANE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789831263-0-0-b6201bd7242f35b8c4375175d86bf3d0",
+      "category": "Sports"
+    },
     {
       "id": "live-2478e9d2e5",
       "title": "HÔM NAY, 18:30",
@@ -47,14 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=726d9dd5d4acfabf612e68e361928e54&txTime=6aaebedf",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d3bebd2594",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789755317-0-0-f0b38cefe23aa580cfe99dcb80ba849b",
       "category": "Sports"
     },
     {
