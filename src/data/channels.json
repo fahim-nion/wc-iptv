@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-09-19T15:51:30.183Z",
+  "updatedAt": "2026-09-19T16:01:22.205Z",
   "channels": [
     {
       "id": "live-da0a5dbfc5",
       "title": "HÔM NAY, 21:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789833060-0-0-cad2a52b9f55ab49c0e6552d60da9d70",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0ad8443c05",
-      "title": "HÔM NAY, 21:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=16d78bf2c6b21a10cad9f4256bd9a842&wsABSTime=1789876275",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789833646-0-0-8b8b60be069f11d6c1241e80b74c0692",
       "category": "Sports"
     },
     {
@@ -34,35 +26,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-7cb8206479",
-      "title": "ZIDANE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1789831383-0-0-2c947f834e0ee47996ddbeb3b4cbe9a5",
-      "category": "Sports"
-    },
-    {
       "id": "live-2478e9d2e5",
       "title": "HÔM NAY, 18:30",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789824770-0-0-dd56e39dee960ceee56bf1eee20f6bb8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e47fc7af37",
-      "title": "BLV ĐỐM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789820643-0-0-c23ff0f0d0a665fa6aec9b90a3f0ab9c",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b90eeb62d1",
-      "title": "BLV TOMIA",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1789820643-0-0-dd5c0cf9bbee013bd6dc379304cab3ad",
       "category": "Sports"
     },
     {
