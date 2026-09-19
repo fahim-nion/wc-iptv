@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T16:01:22.205Z",
+  "updatedAt": "2026-09-19T16:14:07.997Z",
   "channels": [
     {
       "id": "live-da0a5dbfc5",
@@ -7,22 +7,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789833646-0-0-8b8b60be069f11d6c1241e80b74c0692",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9a0b9ae53d",
-      "title": "KENCHU",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1789831203-0-0-ca3d967db1242c7f64eed5c0c33bfcc4",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bbf1b3708a",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=7218f501475a5a0462772e8d7d679b35&txTime=6aaeee73",
       "category": "Sports"
     },
     {
