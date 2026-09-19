@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-19T15:31:40.510Z",
+  "updatedAt": "2026-09-19T15:41:19.135Z",
   "channels": [
+    {
+      "id": "live-da0a5dbfc5",
+      "title": "HÔM NAY, 21:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789832447-0-0-3bde88456600245cfaa0e01b2246b25e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0ad8443c05",
+      "title": "HÔM NAY, 21:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=c12f0bdaed93c33f36db336830502969&wsABSTime=1789875663",
+      "category": "Sports"
+    },
     {
       "id": "live-9a0b9ae53d",
       "title": "KENCHU",
