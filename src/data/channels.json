@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-19T12:05:58.351Z",
+  "updatedAt": "2026-09-19T12:19:12.664Z",
   "channels": [
     {
       "id": "live-4f6b56ad95",
       "title": "CACAO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789822383-0-0-4959b23e807330aae4b4010ff00fea04",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789823043-0-0-410519ace5dccc48bac5a45e274e9fb1",
       "category": "Sports"
     },
     {
@@ -14,7 +14,15 @@
       "title": "BLV PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789822383-0-0-76e776887c041fe98e4c51b4aa0ccede",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789823043-0-0-f04c92500a3c7186eee59ff0eb2e3abf",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b9ae52f24",
+      "title": "HÔM NAY, 18:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789820303-0-0-1afcc50f91830826fb478ee51cb51284",
       "category": "Sports"
     },
     {
@@ -23,14 +31,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789822983-0-0-953650a3e951bee12110c4224b280cab",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0b9ae52f24",
-      "title": "HÔM NAY, 18:30",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789819508-0-0-e0443b2bb9c7ac93fd206ffeb443bc49",
       "category": "Sports"
     },
     {
