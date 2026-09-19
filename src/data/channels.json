@@ -1,60 +1,52 @@
 {
-  "updatedAt": "2026-09-20T15:16:36.786Z",
+  "updatedAt": "2026-09-19T20:15:24.310Z",
   "channels": [
     {
-      "id": "live-5190e5edee",
-      "title": "CURRY",
+      "id": "live-bba37ebc07",
+      "title": "RỒNG ĐẤT",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789920723-0-0-db872a4af948af34b2a06a50ca6fc041",
+      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789847883-0-0-ec80cb8c6e6fe8cab09997c7b709efda",
       "category": "Sports"
     },
     {
-      "id": "live-94a0f640da",
-      "title": "HẢI THANH",
+      "id": "live-4172b1cd65",
+      "title": "PEWPEW",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789920423-0-0-3280b10e267f794957b58fc86952a1a2",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789851543-0-0-98cfb35eda3db7b6609004d77daea01f",
       "category": "Sports"
     },
     {
-      "id": "live-5ed36f8cf2",
-      "title": "BLV FIREMAN",
+      "id": "live-c30b0b703b",
+      "title": "MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789919043-0-0-89f7b9747452d3bf7ee8313e9fb2b8d5",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789852263-0-0-f63361152dff0adb2c4a46746a0614cd",
       "category": "Sports"
     },
     {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
+      "id": "live-142451fb47",
+      "title": "BLV 7UP",
       "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789916210-0-0-7812e8a614e0174cb3518701b6f00a85",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/78905744_tsc.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-1ea7749a90",
-      "title": "A PÁO",
+      "id": "live-1aa7d4f5c0",
+      "title": "BLV REVIVE",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789914003-0-0-4fbb8d04eeaf2679eb9b8d81b482e665",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-be9a8f1515",
-      "title": "BOSS",
+      "id": "live-a50afcc855",
+      "title": "BLV C2",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789914003-0-0-ec6780fa86f36d10b6e4d227db4c50ff",
-      "category": "Sports"
-    },
-    {
-      "id": "live-749480972f",
-      "title": "A MÂN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1789912084-0-0-0953f98a2862dc188e8275bf59ac74b7",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
       "category": "Sports"
     },
     {
