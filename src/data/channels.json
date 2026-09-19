@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-19T11:26:13.107Z",
+  "updatedAt": "2026-09-19T11:35:54.655Z",
   "channels": [
     {
       "id": "live-e47fc7af37",
       "title": "BLV ĐỐM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789820583-0-0-98b8dc18f1c6c658191ef09e6de77d41",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789820643-0-0-c23ff0f0d0a665fa6aec9b90a3f0ab9c",
       "category": "Sports"
     },
     {
@@ -30,7 +30,7 @@
       "title": "HÔM NAY, 18:30",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789817120-0-0-8c0bd4e61b7c42048a7199446793e14a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789817703-0-0-f9ea0a4a08a79701d135550d5446ad78",
       "category": "Sports"
     },
     {
