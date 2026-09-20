@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T07:52:04.957Z",
+  "updatedAt": "2026-09-20T08:07:51.792Z",
   "channels": [
+    {
+      "id": "live-4436525445",
+      "title": "NGƯỜI CÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789895163-0-0-f93fbf40bbc8ee10226e6578327aa4f6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f45872269a",
+      "title": "BLV PEWPEW",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789895163-0-0-d3395ffa73f2d22956b27ba0f5700ae3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-247b26bcb4",
+      "title": "LÃO LÂM",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789895163-0-0-710d8e65e6ef2a0995a464134f656d81",
+      "category": "Sports"
+    },
     {
       "id": "live-802348eb87",
       "title": "BLV RÔSI",
