@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T02:35:47.704Z",
+  "updatedAt": "2026-09-20T02:50:11.713Z",
   "channels": [
+    {
+      "id": "live-52e89f37fd",
+      "title": "LÃO LÂM",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789875483-0-0-adaccf858c4c3855985130af6ede27f6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c68c6f66d3",
+      "title": "RICKHANTER",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=e47d4c264bfea094388f23641db5e2c0&txTime=6aaf9b6b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-873b65eba2",
+      "title": "BLV CỦ CẢI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1789875483-0-0-363916bfec4b9344fffe458e920d454c",
+      "category": "Sports"
+    },
     {
       "id": "live-da0a5dbfc5",
       "title": "HÔM NAY, 21:00",
