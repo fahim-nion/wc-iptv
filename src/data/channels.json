@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T07:37:36.748Z",
+  "updatedAt": "2026-09-20T07:52:04.957Z",
   "channels": [
     {
       "id": "live-802348eb87",
       "title": "BLV RÔSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=af03ce51bc55948d1f7076ca637647e3&txTime=6aafe107",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=21a25689f1c986ea26b7d24c26a5a4b8&txTime=6aafdf63",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HÀ DUY KIÊN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=cf7803788c477deff9511ede38341fcc&txTime=6aafe107",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=bdd65e9e6eb4f30cebd6cb33d1c41089&txTime=6aafdf63",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789893303-0-0-4214082e3f2b3e6e7d1e3aba35e2b736",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789892883-0-0-0abca7d838e51f2669d5c2cb1a1eb4af",
       "category": "Sports"
     },
     {
