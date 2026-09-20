@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T07:09:44.744Z",
+  "updatedAt": "2026-09-20T07:22:39.485Z",
   "channels": [
     {
       "id": "live-68d04fe8b1",
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789890723-0-0-2a3912f71daf695652b8e0a7d898f333",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789892043-0-0-a75a811ccfa2ebd3acfcabce921778ae",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "CACAO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789854809-0-0-0fc36790de57cb217d3391ea23ca8c47",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789892223-0-0-907eee06cb3ad568909121579045b518",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "ĐỖ TÚ TÀI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1789835270-0-0-2fdbc2ac946925fa347bf8a10af968e4",
+      "streamUrl": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1789892463-0-0-04e7035215717cc57d881944cf6503b1",
       "category": "Sports"
     },
     {
