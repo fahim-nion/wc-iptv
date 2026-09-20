@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T12:14:03.478Z",
+  "updatedAt": "2026-09-20T12:39:19.602Z",
   "channels": [
+    {
+      "id": "live-600d1516ba",
+      "title": "TRÀ ĐÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1789910823-0-0-5150fd2eafbf958479a06713091d488f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7009b81429",
+      "title": "BLV VIP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=80bfe7eaeeb5c165e13b881c634ed94e&txTime=6ab02577",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789907909-0-0-18a783606d3e205103ab5d20e5a85404",
+      "category": "Sports"
+    },
     {
       "id": "live-2749c2d423",
       "title": "BÒ TƯƠI",
@@ -15,14 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789908723-0-0-425edf09a72b862819deb7ee1821418e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789906401-0-0-50c06b8e45792b6c45ae190e3c3179ad",
       "category": "Sports"
     },
     {
@@ -50,27 +66,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-017cfe676a",
-      "title": "THẠCH TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=a79c7f24c6763a0520bfc8be499ec582&txTime=6ab00a83",
-      "category": "Sports"
-    },
-    {
       "id": "live-32670f84b1",
       "title": "RICKHANTER",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=1263041f4d9ad50bde8f5e795223ad43&txTime=6ab0082b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e47f7fb7fa",
-      "title": "CÔNG CHẤT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=13c2b57de0bcefb000303a4d16989117&txTime=6ab0055b",
       "category": "Sports"
     },
     {
