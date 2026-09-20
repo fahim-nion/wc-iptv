@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-20T10:17:15.038Z",
+  "updatedAt": "2026-09-20T10:35:54.378Z",
   "channels": [
+    {
+      "id": "live-017cfe676a",
+      "title": "THẠCH TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=a79c7f24c6763a0520bfc8be499ec582&txTime=6ab00a83",
+      "category": "Sports"
+    },
+    {
+      "id": "live-32670f84b1",
+      "title": "RICKHANTER",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=1263041f4d9ad50bde8f5e795223ad43&txTime=6ab0082b",
+      "category": "Sports"
+    },
     {
       "id": "live-e47f7fb7fa",
       "title": "CÔNG CHẤT",
@@ -47,30 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789902303-0-0-32fe3e4eb2d9d0e6b26aac1e8fe78e62",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d53c717e4c",
-      "title": "GRAP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=721216b850642717589819c6f53f7f89&txTime=6aafecc0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8d306e3b3a",
-      "title": "BLV RAMBO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=47a2715454de12cb547a7fdf00515458&txTime=6aafecc0",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f32fc051f5",
-      "title": "PEANUT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789896304-0-0-17eaf9ed04b27d3dbc675e75b10f48bc",
       "category": "Sports"
     },
     {
