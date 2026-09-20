@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T12:39:19.602Z",
+  "updatedAt": "2026-09-20T12:55:48.430Z",
   "channels": [
+    {
+      "id": "live-749480972f",
+      "title": "A MÂN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1789912084-0-0-0953f98a2862dc188e8275bf59ac74b7",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4fdc47f9dc",
+      "title": "RICKHANTER",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=3f2ae013f4463ad0cb303fb6a4410ec1&txTime=6ab025ef",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789908908-0-0-d0768aa83a2957834c35a602dd23aa34",
+      "category": "Sports"
+    },
     {
       "id": "live-600d1516ba",
       "title": "TRÀ ĐÁ",
@@ -15,14 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=80bfe7eaeeb5c165e13b881c634ed94e&txTime=6ab02577",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789907909-0-0-18a783606d3e205103ab5d20e5a85404",
       "category": "Sports"
     },
     {
@@ -50,27 +66,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-ac447137b9",
-      "title": "BLV KAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=4886b3a6f9b50ab191bbd817fe8c7fff&txTime=6ab0114f",
-      "category": "Sports"
-    },
-    {
       "id": "live-bf955b0bbd",
       "title": "BLV YONE",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1789905003-0-0-a2e84ff82c4d7582f8e0dc137ad54929",
-      "category": "Sports"
-    },
-    {
-      "id": "live-32670f84b1",
-      "title": "RICKHANTER",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=1263041f4d9ad50bde8f5e795223ad43&txTime=6ab0082b",
       "category": "Sports"
     },
     {
