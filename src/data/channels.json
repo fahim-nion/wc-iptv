@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T14:38:57.529Z",
+  "updatedAt": "2026-09-20T14:58:01.613Z",
   "channels": [
     {
       "id": "live-5190e5edee",
@@ -18,19 +18,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-5ed36f8cf2",
+      "title": "BLV FIREMAN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1789919043-0-0-89f7b9747452d3bf7ee8313e9fb2b8d5",
+      "category": "Sports"
+    },
+    {
       "id": "live-8fe4239948",
       "title": "HÔM NAY, 20:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789915077-0-0-e6797062fa647edc065e72cf7df2e7ec",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07a1aee804",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001789915109-0-0-cf42138976af6efe0b42228ea859645a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789916210-0-0-7812e8a614e0174cb3518701b6f00a85",
       "category": "Sports"
     },
     {
@@ -55,14 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1789912084-0-0-0953f98a2862dc188e8275bf59ac74b7",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4fdc47f9dc",
-      "title": "RICKHANTER",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=3f2ae013f4463ad0cb303fb6a4410ec1&txTime=6ab025ef",
       "category": "Sports"
     },
     {
