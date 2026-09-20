@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-20T14:04:32.029Z",
+  "updatedAt": "2026-09-20T14:22:28.004Z",
   "channels": [
+    {
+      "id": "live-60ee470a08",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789909967-0-0-33f583492e0b2c013b5ae69fda230c9f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7bb0c2a863",
+      "title": "HẢI THANH",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789897945-0-0-e4d9b0d1ee5ab06f357d1dbb0c773746",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789914087-0-0-301deb9a69c7a15adc65793ff48fd3f2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-07a1aee804",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001789914119-0-0-eb54c8dbacc8020fce6ee945cba7d200",
+      "category": "Sports"
+    },
     {
       "id": "live-1ea7749a90",
       "title": "A PÁO",
@@ -15,14 +47,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789914003-0-0-ec6780fa86f36d10b6e4d227db4c50ff",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789913025-0-0-f61c25627f3de26e8cbc3f4a20edac2d",
       "category": "Sports"
     },
     {
@@ -55,30 +79,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=80bfe7eaeeb5c165e13b881c634ed94e&txTime=6ab02577",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2749c2d423",
-      "title": "BÒ TƯƠI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=0873dd92b231a36dfece43d3ba22d46a&txTime=6ab01dbc",
-      "category": "Sports"
-    },
-    {
-      "id": "live-832f9d4eb6",
-      "title": "CACAO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789908723-0-0-425edf09a72b862819deb7ee1821418e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8ba71ac237",
-      "title": "PEANUT",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789908723-0-0-a61c033dfa1bbd576dd8c2296e7cb9a9",
       "category": "Sports"
     },
     {
