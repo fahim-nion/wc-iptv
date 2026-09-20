@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T13:11:22.088Z",
+  "updatedAt": "2026-09-20T13:30:42.571Z",
   "channels": [
+    {
+      "id": "live-1ea7749a90",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789914003-0-0-4fbb8d04eeaf2679eb9b8d81b482e665",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be9a8f1515",
+      "title": "BOSS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1789914003-0-0-ec6780fa86f36d10b6e4d227db4c50ff",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789911010-0-0-fa2a5f0f6d373286ae93f469575c6816",
+      "category": "Sports"
+    },
     {
       "id": "live-749480972f",
       "title": "A MÂN",
@@ -15,14 +39,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=3f2ae013f4463ad0cb303fb6a4410ec1&txTime=6ab025ef",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789909852-0-0-54a11695a83573a400a5b475bf3b8fd6",
       "category": "Sports"
     },
     {
