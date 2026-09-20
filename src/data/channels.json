@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T06:54:16.912Z",
+  "updatedAt": "2026-09-20T07:09:44.744Z",
   "channels": [
     {
       "id": "live-68d04fe8b1",
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789871984-0-0-35eca084017cf3625adda7e568bf80a8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789890723-0-0-2a3912f71daf695652b8e0a7d898f333",
       "category": "Sports"
     },
     {
@@ -31,14 +31,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789884003-0-0-2629d2b71f0e405e9c6f31c7fd2b2d6c",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4138b673d5",
-      "title": "BLV WUKONG",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1789883823-0-0-be94ab88798559ace177b87615db2016",
       "category": "Sports"
     },
     {
