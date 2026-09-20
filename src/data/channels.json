@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T14:58:01.613Z",
+  "updatedAt": "2026-09-20T15:16:36.786Z",
   "channels": [
     {
       "id": "live-5190e5edee",
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789909967-0-0-33f583492e0b2c013b5ae69fda230c9f",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789920723-0-0-db872a4af948af34b2a06a50ca6fc041",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "HẢI THANH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789897945-0-0-e4d9b0d1ee5ab06f357d1dbb0c773746",
+      "streamUrl": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1789920423-0-0-3280b10e267f794957b58fc86952a1a2",
       "category": "Sports"
     },
     {
