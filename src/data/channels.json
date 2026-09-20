@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T07:22:39.485Z",
+  "updatedAt": "2026-09-20T07:37:36.748Z",
   "channels": [
+    {
+      "id": "live-802348eb87",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=af03ce51bc55948d1f7076ca637647e3&txTime=6aafe107",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1cc2445051",
+      "title": "HÀ DUY KIÊN",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=cf7803788c477deff9511ede38341fcc&txTime=6aafe107",
+      "category": "Sports"
+    },
+    {
+      "id": "live-34eee02d25",
+      "title": "BLV LION",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1789893303-0-0-4214082e3f2b3e6e7d1e3aba35e2b736",
+      "category": "Sports"
+    },
     {
       "id": "live-68d04fe8b1",
       "title": "HẢI THANH",
