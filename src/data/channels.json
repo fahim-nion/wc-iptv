@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T10:06:53.641Z",
+  "updatedAt": "2026-09-20T10:17:15.038Z",
   "channels": [
+    {
+      "id": "live-e47f7fb7fa",
+      "title": "CÔNG CHẤT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=13c2b57de0bcefb000303a4d16989117&txTime=6ab0055b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c645459ada",
+      "title": "BLV ALEX",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1789902603-0-0-2b5cfcb5dd8dbd9aacda77d287aa05d9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd580307c7",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789902603-0-0-e43333b76b9e840c297a0a4c316a2dec",
+      "category": "Sports"
+    },
     {
       "id": "live-2b63c5c15f",
       "title": "BLV RÔSI",
