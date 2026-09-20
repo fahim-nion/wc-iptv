@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-09-20T11:36:35.060Z",
+  "updatedAt": "2026-09-20T11:55:54.670Z",
   "channels": [
+    {
+      "id": "live-2749c2d423",
+      "title": "BÒ TƯƠI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-620797_lhd.m3u8?txSecret=0873dd92b231a36dfece43d3ba22d46a&txTime=6ab01dbc",
+      "category": "Sports"
+    },
+    {
+      "id": "live-832f9d4eb6",
+      "title": "CACAO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1789908723-0-0-425edf09a72b862819deb7ee1821418e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8ba71ac237",
+      "title": "PEANUT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789908723-0-0-a61c033dfa1bbd576dd8c2296e7cb9a9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789905338-0-0-c8e4952a9e2362107207490125b73e2f",
+      "category": "Sports"
+    },
     {
       "id": "live-ac447137b9",
       "title": "BLV KAN",
