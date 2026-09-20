@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T05:38:22.198Z",
+  "updatedAt": "2026-09-20T05:58:52.072Z",
   "channels": [
     {
       "id": "live-0832ce4861",
       "title": "BLV CÁO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1789883763-0-0-7c0ad6b61848f3774f16854f4bdaa100",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1789887423-0-0-7e32a62643f45d5c99202b8bafd505a4",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "BLV ENZO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789883823-0-0-9ca3f3b518e1a3517dbe49b4212b21ee",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789887423-0-0-d83d0d7dd974f3b5278737299bea904c",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "BLV WUKONG",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1789883823-0-0-be94ab88798559ace177b87615db2016",
+      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1789887423-0-0-3069d6821c6c6840fe29f4420438e983",
       "category": "Sports"
     },
     {
