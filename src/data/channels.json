@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-09-20T08:07:51.792Z",
+  "updatedAt": "2026-09-20T08:28:26.339Z",
   "channels": [
+    {
+      "id": "live-d53c717e4c",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=721216b850642717589819c6f53f7f89&txTime=6aafecc0",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f32fc051f5",
+      "title": "PEANUT",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789896304-0-0-17eaf9ed04b27d3dbc675e75b10f48bc",
+      "category": "Sports"
+    },
     {
       "id": "live-4436525445",
       "title": "NGƯỜI CÁ",
