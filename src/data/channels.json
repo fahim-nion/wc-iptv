@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T09:51:33.453Z",
+  "updatedAt": "2026-09-20T10:06:53.641Z",
   "channels": [
+    {
+      "id": "live-2b63c5c15f",
+      "title": "BLV RÔSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=40203da043f608a3d577537775d56178&txTime=6ab0042f",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bdaf71ba2c",
+      "title": "BLV BẢY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1789902303-0-0-357870318a2bce335d612e24dfc721bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c8dcc55852",
+      "title": "A PÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789902303-0-0-32fe3e4eb2d9d0e6b26aac1e8fe78e62",
+      "category": "Sports"
+    },
     {
       "id": "live-d53c717e4c",
       "title": "GRAP",
@@ -31,38 +55,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789895163-0-0-f93fbf40bbc8ee10226e6578327aa4f6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f45872269a",
-      "title": "BLV PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789895163-0-0-d3395ffa73f2d22956b27ba0f5700ae3",
-      "category": "Sports"
-    },
-    {
-      "id": "live-247b26bcb4",
-      "title": "LÃO LÂM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789895163-0-0-710d8e65e6ef2a0995a464134f656d81",
-      "category": "Sports"
-    },
-    {
-      "id": "live-802348eb87",
-      "title": "BLV RÔSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=21a25689f1c986ea26b7d24c26a5a4b8&txTime=6aafdf63",
-      "category": "Sports"
-    },
-    {
-      "id": "live-75c53d0279",
-      "title": "BLV ENZO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789884003-0-0-2629d2b71f0e405e9c6f31c7fd2b2d6c",
       "category": "Sports"
     },
     {
