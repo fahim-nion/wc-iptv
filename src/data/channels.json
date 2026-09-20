@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:55:48.430Z",
+  "updatedAt": "2026-09-20T13:11:22.088Z",
   "channels": [
     {
       "id": "live-749480972f",
@@ -22,7 +22,7 @@
       "title": "HÔM NAY, 20:00",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789908908-0-0-d0768aa83a2957834c35a602dd23aa34",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789909852-0-0-54a11695a83573a400a5b475bf3b8fd6",
       "category": "Sports"
     },
     {
@@ -63,14 +63,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789908723-0-0-a61c033dfa1bbd576dd8c2296e7cb9a9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bf955b0bbd",
-      "title": "BLV YONE",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1789905003-0-0-a2e84ff82c4d7582f8e0dc137ad54929",
       "category": "Sports"
     },
     {
