@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-20T10:35:54.378Z",
+  "updatedAt": "2026-09-20T11:00:42.503Z",
   "channels": [
+    {
+      "id": "live-bf955b0bbd",
+      "title": "BLV YONE",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1789905003-0-0-a2e84ff82c4d7582f8e0dc137ad54929",
+      "category": "Sports"
+    },
     {
       "id": "live-017cfe676a",
       "title": "THẠCH TÚ",
