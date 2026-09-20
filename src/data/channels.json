@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T04:08:00.951Z",
+  "updatedAt": "2026-09-20T04:20:20.919Z",
   "channels": [
     {
       "id": "live-7796b3690f",
       "title": "BLV ĐỐM",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789875903-0-0-035e6b8f587a5b9bac646ec1c8f94335",
+      "streamUrl": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1789877763-0-0-b5b579d4a41845be034c01a6414ab39f",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "QUỐC KHÁNH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=6820dfe913292d3af7ae1e915de9b2ca&txTime=6aaf46f7",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=ae0b0991baf1da3c6a371f2edcceb48b&txTime=6aafa453",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "TẠ BIÊN GIỚI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789875903-0-0-028e76e2a0116ed09c24b905d5318dcc",
+      "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789877763-0-0-296ee4ae68379de288ed46079954ddb5",
       "category": "Sports"
     },
     {
