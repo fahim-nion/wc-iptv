@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-20T04:42:37.575Z",
+  "updatedAt": "2026-09-20T04:59:21.865Z",
   "channels": [
+    {
+      "id": "live-0832ce4861",
+      "title": "BLV CÁO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1789883763-0-0-7c0ad6b61848f3774f16854f4bdaa100",
+      "category": "Sports"
+    },
+    {
+      "id": "live-75c53d0279",
+      "title": "BLV ENZO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1789883823-0-0-9ca3f3b518e1a3517dbe49b4212b21ee",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4138b673d5",
+      "title": "BLV WUKONG",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1789883823-0-0-be94ab88798559ace177b87615db2016",
+      "category": "Sports"
+    },
     {
       "id": "live-7796b3690f",
       "title": "BLV ĐỐM",
@@ -23,14 +47,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789877763-0-0-296ee4ae68379de288ed46079954ddb5",
-      "category": "Sports"
-    },
-    {
-      "id": "live-52e89f37fd",
-      "title": "LÃO LÂM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1789875483-0-0-adaccf858c4c3855985130af6ede27f6",
       "category": "Sports"
     },
     {
