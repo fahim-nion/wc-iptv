@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:55:54.670Z",
+  "updatedAt": "2026-09-20T12:14:03.478Z",
   "channels": [
     {
       "id": "live-2749c2d423",
@@ -18,19 +18,19 @@
       "category": "Sports"
     },
     {
+      "id": "live-8fe4239948",
+      "title": "HÔM NAY, 20:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789906401-0-0-50c06b8e45792b6c45ae190e3c3179ad",
+      "category": "Sports"
+    },
+    {
       "id": "live-8ba71ac237",
       "title": "PEANUT",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1789908723-0-0-a61c033dfa1bbd576dd8c2296e7cb9a9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8fe4239948",
-      "title": "HÔM NAY, 20:00",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789905338-0-0-c8e4952a9e2362107207490125b73e2f",
       "category": "Sports"
     },
     {
@@ -71,54 +71,6 @@
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=13c2b57de0bcefb000303a4d16989117&txTime=6ab0055b",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c645459ada",
-      "title": "BLV ALEX",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1789902603-0-0-2b5cfcb5dd8dbd9aacda77d287aa05d9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cd580307c7",
-      "title": "CURRY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1789902603-0-0-e43333b76b9e840c297a0a4c316a2dec",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2b63c5c15f",
-      "title": "BLV RÔSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=40203da043f608a3d577537775d56178&txTime=6ab0042f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bdaf71ba2c",
-      "title": "BLV BẢY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1789902303-0-0-357870318a2bce335d612e24dfc721bd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c8dcc55852",
-      "title": "A PÁO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1789902303-0-0-32fe3e4eb2d9d0e6b26aac1e8fe78e62",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4436525445",
-      "title": "NGƯỜI CÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1789895163-0-0-f93fbf40bbc8ee10226e6578327aa4f6",
       "category": "Sports"
     },
     {
