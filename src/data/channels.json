@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T13:23:57.093Z",
+  "updatedAt": "2026-09-21T13:52:41.989Z",
   "channels": [
     {
       "id": "live-386b973eda",
@@ -26,6 +26,22 @@
       "category": "Sports"
     },
     {
+      "id": "live-30aec7604f",
+      "title": "PHÁT TRỰC TIẾP BOTSWANA U20 VS MALAWI U20 VÀO LÚC 19:00, NGÀY 21/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=3afd3c5e7b5325e0ef0d058d949d34bc&wsABSTime=1790041887",
+      "category": "Sports"
+    },
+    {
+      "id": "live-225a169d28",
+      "title": "PHÁT TRỰC TIẾP BOLTON WANDERERS U21 VS QPR U21 VÀO LÚC 19:00, NGÀY 21/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=2069d21b5207e3a3ba886e36804fece8&wsABSTime=1790041900",
+      "category": "Sports"
+    },
+    {
       "id": "live-7b820a13d0",
       "title": "PHÁT TRỰC TIẾP BEIJING GUOAN U20 VS SHENZHEN PENG U21\t VÀO LÚC 18:30, NGÀY 21/09/2026",
       "status": "live",
@@ -39,14 +55,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=e214d7113bcfdcf8d22aedda36d05979&wsABSTime=1790040225",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a1844cfe6d",
-      "title": "PHÁT TRỰC TIẾP PAKHTAKOR II VS SHURTAN GUZOR  VÀO LÚC 18:00, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel11.flv?wsSecret=40431b8cad5989ee02174b901792bdee&wsABSTime=1790039312",
       "category": "Sports"
     },
     {
