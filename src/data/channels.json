@@ -1,60 +1,44 @@
 {
-  "updatedAt": "2026-09-19T20:49:58.487Z",
+  "updatedAt": "2026-09-21T13:09:40.910Z",
   "channels": [
     {
-      "id": "live-9f4ae4e94d",
-      "title": "RỒNG ĐẤT",
+      "id": "live-386b973eda",
+      "title": "BLV MOUNTAIN DEW",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912123_lhd.m3u8?auth_key=1789847883-0-0-ec80cb8c6e6fe8cab09997c7b709efda",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-ad5ecee65c",
-      "title": "BLV PEWPEW",
+      "id": "live-5ab8573ce1",
+      "title": "BLV PEPSI",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789851543-0-0-98cfb35eda3db7b6609004d77daea01f",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-142451fb47",
+      "id": "live-901d49327e",
       "title": "BLV 7UP",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/78905744_tsc.m3u8",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-1aa7d4f5c0",
-      "title": "BLV REVIVE",
+      "id": "live-a1844cfe6d",
+      "title": "PHÁT TRỰC TIẾP PAKHTAKOR II VS SHURTAN GUZOR  VÀO LÚC 18:00, NGÀY 21/09/2026",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel11.flv?wsSecret=40431b8cad5989ee02174b901792bdee&wsABSTime=1790039312",
       "category": "Sports"
     },
     {
-      "id": "live-a50afcc855",
-      "title": "BLV C2",
+      "id": "live-8833879adb",
+      "title": "PHÁT TRỰC TIẾP FC LOCHIN VS RESPUBLIKA FA VÀO LÚC 18:00, NGÀY 21/09/2026",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4172b1cd65",
-      "title": "PEWPEW",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1789851543-0-0-98cfb35eda3db7b6609004d77daea01f",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c30b0b703b",
-      "title": "MESSI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1789852263-0-0-f63361152dff0adb2c4a46746a0614cd",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel12.flv?wsSecret=c52646b424cf0bbd1ed9ce0fee1abdf8&wsABSTime=1790039325",
       "category": "Sports"
     },
     {
