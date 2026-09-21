@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T14:01:47.098Z",
+  "updatedAt": "2026-09-21T14:14:46.725Z",
   "channels": [
     {
       "id": "live-5ab8573ce1",
@@ -10,19 +10,43 @@
       "category": "Sports"
     },
     {
-      "id": "live-30aec7604f",
-      "title": "PHÁT TRỰC TIẾP BOTSWANA U20 VS MALAWI U20 VÀO LÚC 19:00, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=7b26bd641489ab6e36036a66d5049ead&wsABSTime=1790042425",
-      "category": "Sports"
-    },
-    {
       "id": "live-901d49327e",
       "title": "BLV 7UP",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-010beddfb4",
+      "title": "BLV ROCKSTAR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7e0fea90b1",
+      "title": "PHÁT TRỰC TIẾP SKALA 1911 STRYI VS FC VILKHIVTSI VÀO LÚC 19:30, NGÀY 21/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=3fa0c27d2131da5211986a73c507d6a4&wsABSTime=1790043200",
+      "category": "Sports"
+    },
+    {
+      "id": "live-27e1ab3b87",
+      "title": "PHÁT TRỰC TIẾP AL-HUDOD VS AL SHATRAH SC VÀO LÚC 19:45, NGÀY 21/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel21.flv?wsSecret=2a7f854dc04fb37682ab350007021f63&wsABSTime=1790043213",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2eff0483d1",
+      "title": "PHÁT TRỰC TIẾP PARAGUAY U19 VS URUGUAY U19 VÀO LÚC 20:00, NGÀY 21/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=2922eb893b9de27d8764b70c6cc71bd3&wsABSTime=1790043225",
       "category": "Sports"
     },
     {
