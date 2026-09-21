@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-21T14:14:46.725Z",
+  "updatedAt": "2026-09-21T19:13:39.460Z",
   "channels": [
+    {
+      "id": "live-a2cfb15a06",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1790021403-0-0-db30157c33a4cfbfc3a3138de8a3364e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8d4e1e0881",
+      "title": "XUÂN TÓC ĐỎ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=da8a14adb676332e9562d49827af57a3&txTime=6ab1c2e7",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f5c73dd966",
+      "title": "BLV BẢY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1790016663-0-0-c346eced08fe2154d111ec286bdbb811",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8deeb07db4",
+      "title": "BLV STING",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14707124_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e729173179",
+      "title": "BLV MONSTER",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a32b18c3c1",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d1e064bc1e",
+      "title": "PHÁT TRỰC TIẾP ARGENTINA U19 VS VENEZUELA U19 VÀO LÚC 01:00, NGÀY 22/09/2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=7af8a73fe8c9dc7fbdb3652423bee457&wsABSTime=1790061132",
+      "category": "Sports"
+    },
     {
       "id": "live-5ab8573ce1",
       "title": "BLV PEPSI",
@@ -34,43 +90,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-27e1ab3b87",
-      "title": "PHÁT TRỰC TIẾP AL-HUDOD VS AL SHATRAH SC VÀO LÚC 19:45, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel21.flv?wsSecret=2a7f854dc04fb37682ab350007021f63&wsABSTime=1790043213",
-      "category": "Sports"
-    },
-    {
       "id": "live-2eff0483d1",
       "title": "PHÁT TRỰC TIẾP PARAGUAY U19 VS URUGUAY U19 VÀO LÚC 20:00, NGÀY 21/09/2026",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=2922eb893b9de27d8764b70c6cc71bd3&wsABSTime=1790043225",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7b820a13d0",
-      "title": "PHÁT TRỰC TIẾP BEIJING GUOAN U20 VS SHENZHEN PENG U21\t VÀO LÚC 18:30, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel14.flv?wsSecret=99e8015bf196874d8836047c3b5f2bd1&wsABSTime=1790040212",
-      "category": "Sports"
-    },
-    {
-      "id": "live-411f7e083b",
-      "title": "PHÁT TRỰC TIẾP ANDRANIK VS LERNAYIN ARTSAKH VÀO LÚC 18:30, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel16.flv?wsSecret=e214d7113bcfdcf8d22aedda36d05979&wsABSTime=1790040225",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8833879adb",
-      "title": "PHÁT TRỰC TIẾP FC LOCHIN VS RESPUBLIKA FA VÀO LÚC 18:00, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel12.flv?wsSecret=c52646b424cf0bbd1ed9ce0fee1abdf8&wsABSTime=1790039325",
       "category": "Sports"
     },
     {
