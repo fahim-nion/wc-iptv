@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-09-23T21:45:40.180Z",
+  "updatedAt": "2026-09-23T22:19:34.609Z",
   "channels": [
-    {
-      "id": "live-229a13236d",
-      "title": "CURRY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790202123-0-0-14b6dcfeb77fc2858493e7cceb52b65a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-17cd2c53bf",
-      "title": "TUẤN CÙI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790200443-0-0-eb9ec7ba01d8e38e2f07415109b07f16",
-      "category": "Sports"
-    },
     {
       "id": "live-19eb22bb35",
       "title": "BLV MOUNTAIN DEW",
@@ -42,6 +26,54 @@
       "category": "Sports"
     },
     {
+      "id": "live-a3129de390",
+      "title": "CURICO UNIDO VS D. CONCEPCION",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001790201899-0-0-4cccf84f6a1baa27ebf0158b3e623ffd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-99979248b4",
+      "title": "UNION COCLE (R) VS CD BOCAS JUNIOR",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=ff4e5882b1c26b391349342814b1972b&wsABSTime=1790245116",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8ce42a7186",
+      "title": "UNAM PUMAS U21 VS CLUB AMERICA U21",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel27.flv?wsSecret=5dbd2cf4e98af5d731d3b01ad1b8dd69&wsABSTime=1790245130",
+      "category": "Sports"
+    },
+    {
+      "id": "live-964ce4ca18",
+      "title": "CURICO UNIDO VS D CONCEPCION",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZDbh6PtsxnsPUB.m3u8?txSecret=110810942cacaf37091d3140684270b2&txTime=6AB45181&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-05a145137b",
+      "title": "ATLETICO VEGA REAL VS JARABACOA FC",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCtUkbm6JDV.m3u8?txSecret=cca17586afff4c4ea27cf4b72785ad40&txTime=6AB45182&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a8aaaa07c0",
+      "title": "MOCA FC VS DELFINES DEL ESTE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCmtJzKcYko.m3u8?txSecret=080ed36fde456ac2a0f48a46bda173dc&txTime=6AB45182&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
       "id": "live-4ff5d94bf1",
       "title": "BAHAMAS VS SAINT MARTIN",
       "status": "live",
@@ -58,27 +90,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-80d365c00f",
-      "title": "LANUS (R) VS BANFIELD (R)",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=6fe606655b1c10c1f0d3f6af396c6fae&wsABSTime=1790243085",
-      "category": "Sports"
-    },
-    {
       "id": "live-a32b18c3c1",
       "title": "BLV SAMURAI",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d1e064bc1e",
-      "title": "PHÁT TRỰC TIẾP ARGENTINA U19 VS VENEZUELA U19 VÀO LÚC 01:00, NGÀY 22/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel15.flv?wsSecret=7af8a73fe8c9dc7fbdb3652423bee457&wsABSTime=1790061132",
       "category": "Sports"
     },
     {
