@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import { validateStream } from '../validation/validateStream.js';
+import { getCamel1Stream } from './camelStreamResolver.js';
 import fs from 'fs';
 
 puppeteer.use(stealth());
@@ -13,10 +14,20 @@ const getChromePath = () => {
 const CHROME_PATH = getChromePath();
 
 export async function captureNetworkStream(targetUrl, label = "Source") {
+    // 0. Fast-path resolver for Camel1 matches
+    if (label.toUpperCase().includes('CAMEL') || targetUrl.includes('camel1.tv')) {
+        const matchId = targetUrl.match(/\/([a-zA-Z0-9]{10,})\/?$/)?.[1];
+        if (matchId) {
+            const camelStream = await getCamel1Stream(matchId);
+            if (camelStream && camelStream.url) {
+                return camelStream;
+            }
+        }
+    }
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--autoplay-policy=no-user-gesture-required']
     });
 
     const page = await browser.newPage();
