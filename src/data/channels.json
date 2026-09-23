@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T20:57:28.310Z",
+  "updatedAt": "2026-09-23T21:25:25.374Z",
   "channels": [
     {
       "id": "live-229a13236d",
@@ -14,7 +14,7 @@
       "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790200443-0-0-eb9ec7ba01d8e38e2f07415109b07f16",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790202123-0-0-eabf19dab4c3469284150267aeacee34",
       "category": "Sports"
     },
     {
@@ -42,19 +42,27 @@
       "category": "Sports"
     },
     {
-      "id": "live-6a3fc1d62c",
-      "title": "SPORTIVO SAN LORENZO VS 14 DE MAYO CAPIIBARY",
+      "id": "live-4ff5d94bf1",
+      "title": "BAHAMAS VS SAINT MARTIN",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel7.flv?wsSecret=84df02e6bf95d008afc63bbddc395843&wsABSTime=1790240135",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001790198629-0-0-c76884a0282f4537a6addd8bc5252d48",
       "category": "Sports"
     },
     {
-      "id": "live-d8c5557e30",
-      "title": "SANT ANDREU VS REAL MADRID CASTILLA",
+      "id": "live-eb797320a9",
+      "title": "AD TARMA VS CIENCIANO",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel8.flv?wsSecret=df66f866524bf3b0a2007d6af24072be&wsABSTime=1790240148",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001790198643-0-0-4ce3cf187133e39bc0c9cd1e1225d00a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-80d365c00f",
+      "title": "LANUS (R) VS BANFIELD (R)",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=55d81832f1248b398e94068f738852af&wsABSTime=1790241856",
       "category": "Sports"
     },
     {
