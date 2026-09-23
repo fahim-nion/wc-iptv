@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-23T21:25:25.374Z",
+  "updatedAt": "2026-09-23T21:45:40.180Z",
   "channels": [
     {
       "id": "live-229a13236d",
       "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790200383-0-0-cd151562f8ea1059ea6e8d0a388afdff",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790202123-0-0-14b6dcfeb77fc2858493e7cceb52b65a",
       "category": "Sports"
     },
     {
@@ -14,7 +14,7 @@
       "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790202123-0-0-eabf19dab4c3469284150267aeacee34",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790200443-0-0-eb9ec7ba01d8e38e2f07415109b07f16",
       "category": "Sports"
     },
     {
@@ -46,7 +46,7 @@
       "title": "BAHAMAS VS SAINT MARTIN",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001790198629-0-0-c76884a0282f4537a6addd8bc5252d48",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001790199856-0-0-758c15ddfd100c1bff740fe6178e4c57",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "AD TARMA VS CIENCIANO",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001790198643-0-0-4ce3cf187133e39bc0c9cd1e1225d00a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001790199871-0-0-8d1bc18d9a6e8e1dc6c2648655c53e7a",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "LANUS (R) VS BANFIELD (R)",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=55d81832f1248b398e94068f738852af&wsABSTime=1790241856",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel9.flv?wsSecret=6fe606655b1c10c1f0d3f6af396c6fae&wsABSTime=1790243085",
       "category": "Sports"
     },
     {
