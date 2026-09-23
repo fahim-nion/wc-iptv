@@ -1,44 +1,60 @@
 {
-  "updatedAt": "2026-09-21T19:13:39.460Z",
+  "updatedAt": "2026-09-23T20:57:28.310Z",
   "channels": [
     {
-      "id": "live-a2cfb15a06",
-      "title": "BLV A TÚ",
+      "id": "live-229a13236d",
+      "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1790021403-0-0-db30157c33a4cfbfc3a3138de8a3364e",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790200383-0-0-cd151562f8ea1059ea6e8d0a388afdff",
       "category": "Sports"
     },
     {
-      "id": "live-8d4e1e0881",
-      "title": "XUÂN TÓC ĐỎ",
+      "id": "live-17cd2c53bf",
+      "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=da8a14adb676332e9562d49827af57a3&txTime=6ab1c2e7",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1790200443-0-0-eb9ec7ba01d8e38e2f07415109b07f16",
       "category": "Sports"
     },
     {
-      "id": "live-f5c73dd966",
-      "title": "BLV BẢY",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1790016663-0-0-c346eced08fe2154d111ec286bdbb811",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8deeb07db4",
-      "title": "BLV STING",
+      "id": "live-19eb22bb35",
+      "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14707124_tsc.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-e729173179",
-      "title": "BLV MONSTER",
+      "id": "live-ff7db98e0e",
+      "title": "BLV SPRITE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-488ad4b7eb",
+      "title": "BLV 7UP",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6a3fc1d62c",
+      "title": "SPORTIVO SAN LORENZO VS 14 DE MAYO CAPIIBARY",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel7.flv?wsSecret=84df02e6bf95d008afc63bbddc395843&wsABSTime=1790240135",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d8c5557e30",
+      "title": "SANT ANDREU VS REAL MADRID CASTILLA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel8.flv?wsSecret=df66f866524bf3b0a2007d6af24072be&wsABSTime=1790240148",
       "category": "Sports"
     },
     {
@@ -66,35 +82,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-901d49327e",
-      "title": "BLV 7UP",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-010beddfb4",
       "title": "BLV ROCKSTAR",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7e0fea90b1",
-      "title": "PHÁT TRỰC TIẾP SKALA 1911 STRYI VS FC VILKHIVTSI VÀO LÚC 19:30, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=3fa0c27d2131da5211986a73c507d6a4&wsABSTime=1790043200",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2eff0483d1",
-      "title": "PHÁT TRỰC TIẾP PARAGUAY U19 VS URUGUAY U19 VÀO LÚC 20:00, NGÀY 21/09/2026",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=2922eb893b9de27d8764b70c6cc71bd3&wsABSTime=1790043225",
       "category": "Sports"
     },
     {
