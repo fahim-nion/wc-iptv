@@ -15,7 +15,7 @@ export default {
         xoilac: { 
             enabled: true, 
             priority: 3, 
-            homepage: "https://xoilaczznnz.tv/",
+            homepage: "https://xoilaczzq.cc/",
             mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
         },
         // ADDED FANZONE

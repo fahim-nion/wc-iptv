@@ -28,30 +28,50 @@ export default function Player({ channel, onStall }) {
     setHasError(false);
 
     const url = channel.url.toLowerCase();
+    const isFLV = url.includes('.flv');
     const isTS = url.includes('.ts') || url.includes('mpegts');
-    setStreamType(isTS ? 'MPEG-TS' : 'HLS');
+    setStreamType(isFLV ? 'HTTP-FLV' : (isTS ? 'MPEG-TS' : 'HLS'));
 
     // 1. Progress Bar Logic (Slower for 10s buffer)
     const progressInterval = setInterval(() => {
       setLoadingProgress(prev => (prev < 95 ? prev + Math.random() * 5 : prev));
     }, 500);
 
-    // 2. INCREASED WATCHDOG: Wait 12 seconds for initial loading before error
+    // 2. INCREASED WATCHDOG: Wait 15 seconds for initial loading before error
     const watchdog = setTimeout(() => {
       if (videoRef.current && videoRef.current.readyState < 3) {
         setHasError(true);
         setIsLoading(false);
       }
-    }, 12000);
+    }, 15000);
 
-    if (isTS && mpegts.getFeatureList().mseLivePlayback) {
-      const tsPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url, hasVideo: true }, {
-        enableWorker: true, enableStashBuffer: true, stashInitialSize: 1024 * 1024 * 6, lazyLoad: false
+    if ((isFLV || isTS) && mpegts.isSupported()) {
+      const player = mpegts.createPlayer({
+        type: isFLV ? 'flv' : 'mse',
+        isLive: true,
+        url: channel.url,
+        hasVideo: true,
+        hasAudio: true,
+        cors: true
+      }, {
+        enableWorker: true,
+        enableStashBuffer: true,
+        stashInitialSize: 1024 * 1024 * 4,
+        lazyLoad: false,
+        liveBufferLatencyChasing: true,
+        autoCleanupSourceBuffer: true
       });
-      tsPlayer.attachMediaElement(videoRef.current);
-      tsPlayer.load();
-      tsPlayer.play().then(() => finishLoading()).catch(() => {});
-      engineRef.current = tsPlayer;
+      player.attachMediaElement(videoRef.current);
+      player.load();
+      player.play().then(() => finishLoading()).catch((err) => {
+        console.warn('Playback play() warning:', err);
+        finishLoading();
+      });
+      player.on(mpegts.Events.ERROR, (errorType, errorDetail, errorInfo) => {
+        console.error('mpegts error:', errorType, errorDetail, errorInfo);
+        setHasError(true);
+      });
+      engineRef.current = player;
     } else if (Hls.isSupported()) {
       const hls = new Hls({ 
         enableWorker: true, 
@@ -62,7 +82,7 @@ export default function Player({ channel, onStall }) {
       hls.loadSource(channel.url);
       hls.attachMedia(videoRef.current);
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        videoRef.current.play().then(() => finishLoading()).catch(() => {});
+        videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
       });
       hls.on(Hls.Events.ERROR, (e, data) => { if(data.fatal) setHasError(true); });
       engineRef.current = hls;
@@ -79,16 +99,24 @@ export default function Player({ channel, onStall }) {
     const v = videoRef.current;
     const handleWaiting = () => {
       clearTimeout(stallTimer.current);
-      // Wait 10 seconds of "Waiting/Buffering" state before switching channel
+      // Wait 15 seconds of "Waiting/Buffering" state before switching channel
       stallTimer.current = setTimeout(() => {
         if (v.paused || v.readyState < 3) onStall();
       }, 15000); 
     };
 
-    const handlePlaying = () => clearTimeout(stallTimer.current);
+    const handlePlaying = () => {
+      clearTimeout(stallTimer.current);
+      finishLoading();
+    };
+
+    const handleCanPlay = () => {
+      finishLoading();
+    };
 
     v.addEventListener('waiting', handleWaiting);
     v.addEventListener('playing', handlePlaying);
+    v.addEventListener('canplay', handleCanPlay);
     v.addEventListener('play', () => setIsPlaying(true));
     v.addEventListener('pause', () => setIsPlaying(false));
 
@@ -98,6 +126,9 @@ export default function Player({ channel, onStall }) {
       clearInterval(progressInterval);
       v.removeEventListener('waiting', handleWaiting);
       v.removeEventListener('playing', handlePlaying);
+      v.removeEventListener('canplay', handleCanPlay);
+      v.removeEventListener('play', () => setIsPlaying(true));
+      v.removeEventListener('pause', () => setIsPlaying(false));
       if (engineRef.current) engineRef.current.destroy();
     };
   }, [channel]);
