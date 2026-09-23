@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:19:34.609Z",
+  "updatedAt": "2026-09-23T22:42:39.112Z",
   "channels": [
     {
       "id": "live-19eb22bb35",
@@ -30,7 +30,7 @@
       "title": "CURICO UNIDO VS D. CONCEPCION",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001790201899-0-0-4cccf84f6a1baa27ebf0158b3e623ffd",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001790203308-0-0-e86f5e1e8cd87753253b35b8fccd8185",
       "category": "Sports"
     },
     {
@@ -38,7 +38,7 @@
       "title": "UNION COCLE (R) VS CD BOCAS JUNIOR",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=ff4e5882b1c26b391349342814b1972b&wsABSTime=1790245116",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=14887566a23160d0d5e1a6737c00e871&wsABSTime=1790246526",
       "category": "Sports"
     },
     {
@@ -46,7 +46,7 @@
       "title": "UNAM PUMAS U21 VS CLUB AMERICA U21",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel27.flv?wsSecret=5dbd2cf4e98af5d731d3b01ad1b8dd69&wsABSTime=1790245130",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel27.flv?wsSecret=16495c0974994f0a4977c1db59af41e9&wsABSTime=1790246542",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "CURICO UNIDO VS D CONCEPCION",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZDbh6PtsxnsPUB.m3u8?txSecret=110810942cacaf37091d3140684270b2&txTime=6AB45181&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZDbh6PtsxnsPUB.m3u8?txSecret=c76571737e290223c324cd5497d7d2bd&txTime=6AB45708&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "ATLETICO VEGA REAL VS JARABACOA FC",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCtUkbm6JDV.m3u8?txSecret=cca17586afff4c4ea27cf4b72785ad40&txTime=6AB45182&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCtUkbm6JDV.m3u8?txSecret=8de9bdb8fe6a9256e9f5b70b1af14469&txTime=6AB45708&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -70,7 +70,7 @@
       "title": "MOCA FC VS DELFINES DEL ESTE",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCmtJzKcYko.m3u8?txSecret=080ed36fde456ac2a0f48a46bda173dc&txTime=6AB45182&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhuCmtJzKcYko.m3u8?txSecret=7c65f0c33356dc00c12f5806969a0c49&txTime=6AB45709&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
