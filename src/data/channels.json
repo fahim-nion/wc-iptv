@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-26T20:15:43.195Z",
+  "updatedAt": "2026-09-26T20:32:23.675Z",
   "channels": [
     {
-      "id": "live-8d1a9dba03",
-      "title": "BLV MESSI",
+      "id": "live-9e24926cbc",
+      "title": "BOSS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1790457123-0-0-273bc21c4eb31ccc2755d17e6f7f25b2",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1790458203-0-0-c126b3ab2b47ac4686dfa8169168e7f7",
       "category": "Sports"
     },
     {
-      "id": "live-9400157328",
-      "title": "A BỆU",
+      "id": "live-27b32b4be1",
+      "title": "NEKO",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1790457123-0-0-87db9133de203ca4e32931af0a484a15",
+      "streamUrl": "https://pull.niues.live/live/stream-625920_lhd.m3u8?auth_key=1790458203-0-0-8162df50bccd799da664df7c004a1bd4",
       "category": "Sports"
     },
     {
-      "id": "live-0f438fc9b8",
-      "title": "CURRY",
+      "id": "live-1f52305d6b",
+      "title": "LION",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790457124-0-0-b45bb80e19b78b11effc9fe12b89b30a",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1790458203-0-0-5d58c4eea22c3b94df8d5bdfa8e1cafb",
       "category": "Sports"
     },
     {
@@ -50,11 +50,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-6011d58b62",
-      "title": "SLOVAKIA VS MOLDOVA",
+      "id": "live-2fbcf0390c",
+      "title": "BẮC MACEDONIA VS THỤY SĨ",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790453672-0-0-356733606fbdc400cc6db621b6311233",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790454701-0-0-e6177052dfcc5c82597e3dde6c796f78",
       "category": "Sports"
     },
     {
@@ -62,15 +62,15 @@
       "title": "CH SÉC VS CROATIA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001790453684-0-0-de514ff97caa40997fc3a4e53a698843",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001790454713-0-0-a82cf925df4ecf8268faf556e50a15ca",
       "category": "Sports"
     },
     {
-      "id": "live-2fbcf0390c",
-      "title": "BẮC MACEDONIA VS THỤY SĨ",
+      "id": "live-6011d58b62",
+      "title": "SLOVAKIA VS MOLDOVA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790453696-0-0-85b799f2b7bdc356181699f21671c63d",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790454726-0-0-2eafd42bdcbb6e10754c937cbcb15425",
       "category": "Sports"
     },
     {
@@ -78,7 +78,7 @@
       "title": "NORTH MACEDONIA VS SWITZERLAND",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_1l4rjnh9nol1m7v.m3u8?txSecret=a35c6a6c01af0beb4365a4ccbdb477b6&txTime=6AB828F7&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_1l4rjnh9nol1m7v.m3u8?txSecret=43204612f5ae49eb9993f3e584768294&txTime=6AB82CFD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -86,7 +86,7 @@
       "title": "CZECHIA VS CROATIA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4jwq2ghngy9vm0v.m3u8?txSecret=cfab9c40481407ba7a1662dcafe03465&txTime=6AB828F8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4jwq2ghngy9vm0v_md.m3u8?txSecret=0d58ef76700574838cc5485ecc7f14ea&txTime=6AB82CFD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -94,7 +94,31 @@
       "title": "ENGLAND VS SPAIN",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_n54qllhn4g1vqvy_md.m3u8?txSecret=7dcad9fc999c896307338a6bbee625d1&txTime=6AB828F8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_n54qllhn4g1vqvy_md.m3u8?txSecret=237421a904662c2b8f9c9a703a877bac&txTime=6AB82CFD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8d1a9dba03",
+      "title": "BLV MESSI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1790457123-0-0-273bc21c4eb31ccc2755d17e6f7f25b2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9400157328",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1790457123-0-0-87db9133de203ca4e32931af0a484a15",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0f438fc9b8",
+      "title": "CURRY",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790457124-0-0-b45bb80e19b78b11effc9fe12b89b30a",
       "category": "Sports"
     },
     {
