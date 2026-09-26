@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-09-26T20:54:14.451Z",
+  "updatedAt": "2026-09-26T21:05:40.359Z",
   "channels": [
+    {
+      "id": "live-115fa0db87",
+      "title": "BLV VOI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1790460063-0-0-ddb40c2d9a56a3af358f2705f9f389e4",
+      "category": "Sports"
+    },
     {
       "id": "live-485e19950e",
       "title": "BOSS",
@@ -18,14 +26,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-1d3f1f21e2",
-      "title": "BLV LION",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1790458203-0-0-5d58c4eea22c3b94df8d5bdfa8e1cafb",
-      "category": "Sports"
-    },
-    {
       "id": "live-6406383252",
       "title": "BLV BÍ ĐAO",
       "status": "live",
@@ -34,11 +34,59 @@
       "category": "Sports"
     },
     {
-      "id": "live-d0828d3091",
-      "title": "BLV SODA",
+      "id": "live-478cbb3123",
+      "title": "ALL BOYS VS C.A COLON",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/02456966_tsc.m3u8",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=3cc3e3581d68630f3c592f912d4fbf33&wsABSTime=1790499785",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7cfc9c8365",
+      "title": "ESTUDIANTES LP VS CA ROSARIO CENTRAL",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel38.flv?wsSecret=98502b3ea7b6b992530c4e6fbcbd8bd0&wsABSTime=1790499803",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bffd15bac4",
+      "title": "OPERARIO PR VS CEARA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel35.flv?wsSecret=5cca48c3950f74b016fd5de8b172221c&wsABSTime=1790499821",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1dfb9980b2",
+      "title": "RUBIO NU VS CLUB SPORTIVO 2 DE MAYO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip4yMZr8zcA2wFd.m3u8?txSecret=61b56f2978152091b358875a6abc40aa&txTime=6AB83464&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-69b63dd5bf",
+      "title": "ALL BOYS VS COLON DE SANTA FE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYqji8CEngHUAyqh.m3u8?txSecret=5abcfa108841cd770c4566a331fd29e7&txTime=6AB83465&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be30b87016",
+      "title": "FLORESTA CE VS SANTA CRUZ PE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxipaN2tdhkyL1Ck7.m3u8?txSecret=d1dab4e8ebca025d06198b80e2c3a7f9&txTime=6AB83465&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1d3f1f21e2",
+      "title": "BLV LION",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1790458203-0-0-5d58c4eea22c3b94df8d5bdfa8e1cafb",
       "category": "Sports"
     },
     {
@@ -63,14 +111,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001790455746-0-0-65cd5ea61a0a4f762d5204e96da0352e",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1dfb9980b2",
-      "title": "RUBIO NU VS CLUB SPORTIVO 2 DE MAYO",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip4yMZr8zcA2wFd.m3u8?txSecret=3ec9f5dd32b9f0103ec0ac1f606e5f6f&txTime=6AB83107&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -106,35 +146,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-fc8dcc26a0",
-      "title": "QUILMES VS CA GÜEMES [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tfzm1gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfhTN0EzM0UzXyAjM/playlist.m3u8?wsSecret=841ee629f45cfac87938eb86dd4e3683&wsABSTime=6ABD59A5&wsSession=8a78951edb25834e4db538a3-179045528423341&wsIPSercert=877a5b5eaa246e0d72d8b393d93b4d01&wsBindIP=2&wsserid=1168240832907300550",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a6934e96ea",
-      "title": "CLUB CIUDAD DE BOLIVAR VS CHACO FOR EVER [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5431468_1.m3u8?txSecret=804d8d6a43e12ea3c01521aabdc0afcd&txTime=6ABD5BB7",
-      "category": "Sports"
-    },
-    {
       "id": "live-8057ccd28d",
       "title": "CLUB CIUDAD DE BOLIVAR VS CHACO FOR EVER [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji7NBoNh8dGDc.m3u8?txSecret=77a81cd388f26c0f418d162dfb3fa77f&txTime=6ABD15E9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dcc12ee34c",
-      "title": "CLUB CIUDAD DE BOLIVAR VS CHACO FOR EVER [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tfzm1gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfhjN0EzM0UzXyAjM/playlist.m3u8?wsSecret=38f725c736a7a926702316c71bf45389&wsABSTime=6ABD59A5&wsSession=d93f1653005da63c1d22c725-179045528397796&wsIPSercert=877a5b5eaa246e0d72d8b393d93b4d01&wsBindIP=2&wsserid=1168240832916737938",
       "category": "Sports"
     },
     {
@@ -154,30 +170,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-1422b94519",
-      "title": "ALL BOYS VS COLON DE SANTA FE [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tfzm1gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRzN0EzM0UzXyAjM/playlist.m3u8?wsSecret=ac9f13c28742ea0a57192e8cf1f27559&wsABSTime=6ABD59A5&wsSession=dcdfcfd523542d773a16f8ea-179045528308699&wsIPSercert=877a5b5eaa246e0d72d8b393d93b4d01&wsBindIP=2&wsserid=1168240832919883738",
-      "category": "Sports"
-    },
-    {
-      "id": "live-030c02d4e5",
-      "title": "MONTSERRAT VS BRITISH VIRGIN ISLANDS [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5787092_1.m3u8?txSecret=cf24473e4bc6f299fa1ac9e4526ae078&txTime=6ABD5B7B",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ae80ceb680",
-      "title": "MONTSERRAT VS BRITISH VIRGIN ISLANDS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjZALirsHfbq6JBQ.m3u8?txSecret=a39e68470f0d6b9d02c1b57f8fe82937&txTime=6ABD15E9",
-      "category": "Sports"
-    },
-    {
       "id": "live-4e2b1bc134",
       "title": "FRENCH SAINT MARTIN VS US VIRGIN ISLANDS [SERVER 3 - HD]",
       "status": "live",
@@ -191,30 +183,6 @@
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjZALiXW97rfvzoG.m3u8?txSecret=140ea83292f76ab44448cfc1f2bebd74&txTime=6ABD15E9",
-      "category": "Sports"
-    },
-    {
-      "id": "live-efbbf97067",
-      "title": "CZECHIA VS CROATIA [SERVER 5 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5551151_2.m3u8?txSecret=4ac3b30248f5aa03432f55c0cae8b41d&txTime=6ABD5833",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dd21a6de0f",
-      "title": "NORTH MACEDONIA VS SWITZERLAND [SERVER 4 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5551153_2.m3u8?txSecret=f5e56a8a2089ba84841fe3d3b517515a&txTime=6ABD5832",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3c722183ae",
-      "title": "ENGLAND VS SPAIN [SERVER 7 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5551155_2.m3u8?txSecret=4f026a7caad8a6561ac44a52050677f1&txTime=6ABD55DB",
       "category": "Sports"
     },
     {
@@ -263,30 +231,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790454726-0-0-2eafd42bdcbb6e10754c937cbcb15425",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ff7db98e0e",
-      "title": "BLV SPRITE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fb729de7f1",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6011d58b62",
-      "title": "SLOVAKIA VS MOLDOVA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790449333-0-0-f070f4836cb3c4577e10db7209a22657",
       "category": "Sports"
     },
     {
