@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-26T19:03:13.612Z",
+  "updatedAt": "2026-09-26T20:15:43.195Z",
   "channels": [
     {
-      "id": "live-b0ba8881b2",
-      "title": "BLV A WIN",
+      "id": "live-8d1a9dba03",
+      "title": "BLV MESSI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1790452803-0-0-4cbd4d3014e164650de4b2ac0a100e22",
+      "streamUrl": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1790457123-0-0-273bc21c4eb31ccc2755d17e6f7f25b2",
       "category": "Sports"
     },
     {
-      "id": "live-2e340995a0",
-      "title": "BLV A TÚ",
+      "id": "live-9400157328",
+      "title": "A BỆU",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1790452803-0-0-64b8884fac0877892ea5ec6b85938946",
+      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1790457123-0-0-87db9133de203ca4e32931af0a484a15",
       "category": "Sports"
     },
     {
-      "id": "live-256bea9868",
-      "title": "GRAP",
+      "id": "live-0f438fc9b8",
+      "title": "CURRY",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=db7a87f369fe355cb485ce0b44139154&txTime=6ab86a93",
+      "streamUrl": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1790457124-0-0-b45bb80e19b78b11effc9fe12b89b30a",
       "category": "Sports"
     },
     {
@@ -54,7 +54,7 @@
       "title": "SLOVAKIA VS MOLDOVA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790449333-0-0-f070f4836cb3c4577e10db7209a22657",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790453672-0-0-356733606fbdc400cc6db621b6311233",
       "category": "Sports"
     },
     {
@@ -62,7 +62,7 @@
       "title": "CH SÉC VS CROATIA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001790449354-0-0-833d15e82d5bdfa06b5dd55d1ba229c2",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001790453684-0-0-de514ff97caa40997fc3a4e53a698843",
       "category": "Sports"
     },
     {
@@ -70,7 +70,7 @@
       "title": "BẮC MACEDONIA VS THỤY SĨ",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790449371-0-0-6a257d0f4abac82afbdd3279343eb7b2",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790453696-0-0-85b799f2b7bdc356181699f21671c63d",
       "category": "Sports"
     },
     {
@@ -78,7 +78,7 @@
       "title": "NORTH MACEDONIA VS SWITZERLAND",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_1l4rjnh9nol1m7v.m3u8?txSecret=ea1f463d91597d2a19de2a744e82c22a&txTime=6AB81816&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_1l4rjnh9nol1m7v.m3u8?txSecret=a35c6a6c01af0beb4365a4ccbdb477b6&txTime=6AB828F7&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -86,7 +86,7 @@
       "title": "CZECHIA VS CROATIA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4jwq2ghngy9vm0v.m3u8?txSecret=85e8ac0d2b3c720f9bfd6b157ae67bf1&txTime=6AB81817&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4jwq2ghngy9vm0v.m3u8?txSecret=cfab9c40481407ba7a1662dcafe03465&txTime=6AB828F8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -94,7 +94,127 @@
       "title": "ENGLAND VS SPAIN",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_n54qllhn4g1vqvy_md.m3u8?txSecret=49d564470be75279f44291a6ebd6c97a&txTime=6AB81817&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_n54qllhn4g1vqvy_md.m3u8?txSecret=7dcad9fc999c896307338a6bbee625d1&txTime=6AB828F8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-593e97f562",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fb729de7f1",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6011d58b62",
+      "title": "SLOVAKIA VS MOLDOVA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790449333-0-0-f070f4836cb3c4577e10db7209a22657",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8ce42a7186",
+      "title": "UNAM PUMAS U21 VS CLUB AMERICA U21",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790449371-0-0-6a257d0f4abac82afbdd3279343eb7b2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4ff5d94bf1",
+      "title": "BAHAMAS VS SAINT MARTIN",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001790199856-0-0-758c15ddfd100c1bff740fe6178e4c57",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eb797320a9",
+      "title": "AD TARMA VS CIENCIANO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001790199871-0-0-8d1bc18d9a6e8e1dc6c2648655c53e7a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a32b18c3c1",
+      "title": "BLV SAMURAI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5ab8573ce1",
+      "title": "BLV PEPSI",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-010beddfb4",
+      "title": "BLV ROCKSTAR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-da0a5dbfc5",
+      "title": "HÔM NAY, 21:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789833646-0-0-8b8b60be069f11d6c1241e80b74c0692",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2478e9d2e5",
+      "title": "HÔM NAY, 18:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789824770-0-0-dd56e39dee960ceee56bf1eee20f6bb8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f71906a687",
+      "title": "HÔM NAY, 23:45",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511912-0-0-46f9d6647578b41953582306be790a0b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-852af09934",
+      "title": "NGÀY MAI, 00:00",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789511951-0-0-2b6f66c19b87d253400b39079b68beac",
+      "category": "Sports"
+    },
+    {
+      "id": "live-15e67a7095",
+      "title": "HÔM NAY, 23:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789337515-0-0-dde968ca274d0079c91d4effb22be915",
+      "category": "Sports"
+    },
+    {
+      "id": "live-14a1a59b86",
+      "title": "HÔM NAY, 22:30",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789318702-0-0-d52ce45b00115a792d6ae3b7478f1226",
       "category": "Sports"
     }
   ]
