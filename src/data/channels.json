@@ -1,12 +1,100 @@
 {
-  "updatedAt": "2026-09-24T18:58:08.413Z",
+  "updatedAt": "2026-09-26T19:03:13.612Z",
   "channels": [
     {
-      "id": "live-f52f5dddd8",
-      "title": "CƠM NẾP",
+      "id": "live-b0ba8881b2",
+      "title": "BLV A WIN",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1790279823-0-0-2d3c77d3b08131d443803b9963645dd0",
+      "streamUrl": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1790452803-0-0-4cbd4d3014e164650de4b2ac0a100e22",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2e340995a0",
+      "title": "BLV A TÚ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1790452803-0-0-64b8884fac0877892ea5ec6b85938946",
+      "category": "Sports"
+    },
+    {
+      "id": "live-256bea9868",
+      "title": "GRAP",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-622093_lhd.m3u8?txSecret=db7a87f369fe355cb485ce0b44139154&txTime=6ab86a93",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c0da34b9f9",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-593e97f562",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fb729de7f1",
+      "title": "BLV GIÀ LÀNG",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14830711_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6011d58b62",
+      "title": "SLOVAKIA VS MOLDOVA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001790449333-0-0-f070f4836cb3c4577e10db7209a22657",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f315fc99e9",
+      "title": "CH SÉC VS CROATIA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001790449354-0-0-833d15e82d5bdfa06b5dd55d1ba229c2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2fbcf0390c",
+      "title": "BẮC MACEDONIA VS THỤY SĨ",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001790449371-0-0-6a257d0f4abac82afbdd3279343eb7b2",
+      "category": "Sports"
+    },
+    {
+      "id": "live-04e4136aa3",
+      "title": "NORTH MACEDONIA VS SWITZERLAND",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_1l4rjnh9nol1m7v.m3u8?txSecret=ea1f463d91597d2a19de2a744e82c22a&txTime=6AB81816&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5321833fa1",
+      "title": "CZECHIA VS CROATIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4jwq2ghngy9vm0v.m3u8?txSecret=85e8ac0d2b3c720f9bfd6b157ae67bf1&txTime=6AB81817&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cac83324ea",
+      "title": "ENGLAND VS SPAIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_n54qllhn4g1vqvy_md.m3u8?txSecret=49d564470be75279f44291a6ebd6c97a&txTime=6AB81817&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     }
   ]
