@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-09-27T19:03:28.836Z",
+  "updatedAt": "2026-09-27T19:11:49.192Z",
   "channels": [
-    {
-      "id": "live-79b08ea18b",
-      "title": "TRÀ ĐÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1790539144-0-0-e99a628ca3caf81c82b8153e8f809336",
-      "category": "Sports"
-    },
     {
       "id": "live-1ddbc9b9ad",
       "title": "BOSS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1790539144-0-0-3cddf1cade55d1dda701bac3b996fe94",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1790539744-0-0-d5fe1910f3364f929fb4afdd9c351732",
       "category": "Sports"
     },
     {
@@ -54,7 +46,7 @@
       "title": "NA UY VS BỒ ĐÀO NHA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001790535696-0-0-0c633320024325e6a633d7b55dd169bd",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001790536257-0-0-52d8e18c5dce0b8427d7880fd0564f14",
       "category": "Sports"
     },
     {
@@ -62,7 +54,7 @@
       "title": "ĐỨC VS HY LẠP",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001790535715-0-0-f8b7f4756c5c424bcfebed46b7a3bca1",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001790536274-0-0-49f395c49c1fda1c34522029a204be5b",
       "category": "Sports"
     },
     {
@@ -70,7 +62,7 @@
       "title": "ISRAEL VS IRELAND",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790535732-0-0-9b8b93d2f9a8cca317522227b5d17a6b",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790536292-0-0-642658abbd263c2db514a13403d3a1ee",
       "category": "Sports"
     },
     {
@@ -78,7 +70,7 @@
       "title": "NORWAY VS PORTUGAL",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4wyrn4h6ypllq86_md.m3u8?txSecret=e41fd538492300b08727c1f97804f45f&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4wyrn4h6ypllq86_md.m3u8?txSecret=140a389447f74456801fa886528ead88&txTime=6AB96B9D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -86,7 +78,7 @@
       "title": "GERMANY VS GREECE",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_dn1m1ghl9y07moe_md.m3u8?txSecret=4b0fd364e2e0691555af439c637afddf&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_dn1m1ghl9y07moe_md.m3u8?txSecret=b675a7fe31bd9f2115abc8fa27efc220&txTime=6AB96B9D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -94,7 +86,15 @@
       "title": "ISRAEL VS IRELAND",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVBH28W73JyRbV_md.m3u8?txSecret=e9749b62683fc48c0e99f8b308bfce4c&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVBH28W73JyRbV_md.m3u8?txSecret=40de15fdda6d36fa8e1bdb9fe3b94b1e&txTime=6AB96B9E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-79b08ea18b",
+      "title": "TRÀ ĐÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1790539144-0-0-e99a628ca3caf81c82b8153e8f809336",
       "category": "Sports"
     },
     {
