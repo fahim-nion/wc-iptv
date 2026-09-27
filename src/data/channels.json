@@ -1,28 +1,100 @@
 {
-  "updatedAt": "2026-09-27T16:32:11.098Z",
+  "updatedAt": "2026-09-27T19:03:28.836Z",
   "channels": [
     {
-      "id": "live-f422dde654",
-      "title": "WUKONG",
+      "id": "live-79b08ea18b",
+      "title": "TRÀ ĐÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1790530204-0-0-e3615b770a704d6923e7aef0ca40fdc8",
+      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1790539144-0-0-e99a628ca3caf81c82b8153e8f809336",
       "category": "Sports"
     },
     {
-      "id": "live-25f656cd9d",
-      "title": "BLV 247",
+      "id": "live-1ddbc9b9ad",
+      "title": "BOSS",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/90865415_tsc.m3u8",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1790539144-0-0-3cddf1cade55d1dda701bac3b996fe94",
       "category": "Sports"
     },
     {
-      "id": "live-4b8f616228",
-      "title": "BLV ROCKSTAR",
+      "id": "live-39c1c74ac9",
+      "title": "A BỆU",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1790538784-0-0-ad64dfc29b61c2b487ec5092595e21ba",
+      "category": "Sports"
+    },
+    {
+      "id": "live-59cfd6ee4f",
+      "title": "BLV C2",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0e4081bb98",
+      "title": "BLV STING",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/14707124_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2f81dd0ca5",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9933f16791",
+      "title": "NA UY VS BỒ ĐÀO NHA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001790535696-0-0-0c633320024325e6a633d7b55dd169bd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dab763b5ee",
+      "title": "ĐỨC VS HY LẠP",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001790535715-0-0-f8b7f4756c5c424bcfebed46b7a3bca1",
+      "category": "Sports"
+    },
+    {
+      "id": "live-89fc3d7bfd",
+      "title": "ISRAEL VS IRELAND",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790535732-0-0-9b8b93d2f9a8cca317522227b5d17a6b",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cb3654bfb7",
+      "title": "NORWAY VS PORTUGAL",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4wyrn4h6ypllq86_md.m3u8?txSecret=e41fd538492300b08727c1f97804f45f&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4dd73a8414",
+      "title": "GERMANY VS GREECE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_dn1m1ghl9y07moe_md.m3u8?txSecret=4b0fd364e2e0691555af439c637afddf&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dd90a469c5",
+      "title": "ISRAEL VS IRELAND",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVBH28W73JyRbV_md.m3u8?txSecret=e9749b62683fc48c0e99f8b308bfce4c&txTime=6AB9696E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -50,67 +122,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-5632667b1a",
-      "title": "SERBIA VS NETHERLANDS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_318q66hx8ygnqo9_md.m3u8?txSecret=ac53d2aef94abc030bd1bad251c5602a&txTime=6AB94631&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-da01e1a0a9",
-      "title": "DENMARK VS WALES",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_965mkyhk8donr1g_md.m3u8?txSecret=2ef862e8f50999ecb4bae5f34d921d46&txTime=6AB94632&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d781825414",
-      "title": "AUSTRIA VS KOSOVO",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_y39mp1h6dg49moj.m3u8?txSecret=352129ee5d95f4bc81e04182946edf09&txTime=6AB94633&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a19df63fe7",
-      "title": "BLV PIRLO",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=4818fe65eff81b7240770ad23006a6f0&txTime=6ab99658",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2bd9cc86d8",
-      "title": "BLV A TÚ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1790529544-0-0-875a2616da5e6c37678dbbdcf0e5dd3d",
-      "category": "Sports"
-    },
-    {
       "id": "live-012b8fc31a",
       "title": "XUÂN SON",
       "status": "live",
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=24af36c361c34546e035b12c4dd05890&txTime=6ab99658",
-      "category": "Sports"
-    },
-    {
-      "id": "live-834439510d",
-      "title": "BLV GIÀ LÀNG",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/14830711_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e30522ab11",
-      "title": "BLV COZY",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87379114_tsc.m3u8",
       "category": "Sports"
     }
   ]
