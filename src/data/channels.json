@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-27T16:22:15.387Z",
+  "updatedAt": "2026-09-27T16:32:11.098Z",
   "channels": [
+    {
+      "id": "live-f422dde654",
+      "title": "WUKONG",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1790530204-0-0-e3615b770a704d6923e7aef0ca40fdc8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-25f656cd9d",
+      "title": "BLV 247",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/90865415_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4b8f616228",
+      "title": "BLV ROCKSTAR",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-911b45d872",
+      "title": "ĐAN MẠCH VS XỨ WALES",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001790526680-0-0-13753860f85baba88c8175edc19a2c5e",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8ac235064b",
+      "title": "SERBIA VS HÀ LAN",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001790526696-0-0-66b9677ca110ea9e4f6143ca3fb9d93a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a798bfa9ee",
+      "title": "ÁO VS KOSOVO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790526713-0-0-7998bbca9b2a1fa66d24ac0e4c491115",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5632667b1a",
+      "title": "SERBIA VS NETHERLANDS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_318q66hx8ygnqo9_md.m3u8?txSecret=ac53d2aef94abc030bd1bad251c5602a&txTime=6AB94631&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-da01e1a0a9",
+      "title": "DENMARK VS WALES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_965mkyhk8donr1g_md.m3u8?txSecret=2ef862e8f50999ecb4bae5f34d921d46&txTime=6AB94632&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d781825414",
+      "title": "AUSTRIA VS KOSOVO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568345_y39mp1h6dg49moj.m3u8?txSecret=352129ee5d95f4bc81e04182946edf09&txTime=6AB94633&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
     {
       "id": "live-a19df63fe7",
       "title": "BLV PIRLO",
