@@ -24,6 +24,43 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             }
         }
     }
+
+    // 0b. Fast-path resolver for LiveLive24 and direct HLS/FLV streams
+    if (
+        label.toUpperCase().includes('LIVELIVE') ||
+        targetUrl.includes('livelive24.com') ||
+        targetUrl.includes('dlhd.html') ||
+        targetUrl.includes('cqsycw.com') ||
+        targetUrl.includes('100ycdn.com') ||
+        targetUrl.includes('yiom1.com') ||
+        (targetUrl.includes('.m3u8') && !targetUrl.includes('camel1.tv'))
+    ) {
+        let streamUrl = targetUrl;
+        if (targetUrl.includes('dlhd.html?url=')) {
+            const b64 = targetUrl.split('dlhd.html?url=')[1].split('&')[0];
+            try {
+                streamUrl = Buffer.from(b64, 'base64').toString();
+            } catch (e) {}
+        }
+        if (streamUrl.includes('pullws-ac.yiom1.com')) {
+            try {
+                const r = await fetch(streamUrl, {
+                    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+                    signal: AbortSignal.timeout(5000)
+                }).catch(() => null);
+                if (r && r.status === 200) {
+                    const text = await r.text();
+                    const cdnMatch = text.match(/https?:\/\/[^\s\r\n]+\.100ycdn\.com[^\s\r\n]+/);
+                    if (cdnMatch) streamUrl = cdnMatch[0];
+                }
+            } catch (e) {}
+        }
+        const val = await validateStream(streamUrl);
+        if (val.isValid) {
+            return { url: streamUrl, type: 'HLS' };
+        }
+        return null;
+    }
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true,

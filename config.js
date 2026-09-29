@@ -18,11 +18,17 @@ export default {
             homepage: "https://xoilaczzq.cc/",
             mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
         },
-        // ADDED FANZONE
-        fanzone: {
+        livelive24: {
             enabled: true,
             priority: 4,
-            homepage: "https://fanzone-omega.vercel.app/"
+            homepage: "https://livelive24.com/",
+            mirrors: []
+        },
+        camel1: {
+            enabled: true,
+            priority: 5,
+            homepage: "https://www.camel1.tv/",
+            mirrors: []
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

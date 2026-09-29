@@ -23,8 +23,13 @@ export async function getCamel1Stream(matchId) {
         const streams = json?.detail?.streams || [];
         if (!streams.length) return null;
 
-        const rawStream = streams[0];
-        const rawUrl = rawStream.streamUrlM3u8 || rawStream.streamUrl;
+        // Choose preferred stream: prefer hd-en, then sd-, then official broadcast (isCustom: 0), then first
+        const rawStream = streams.find(s => (s.streamUrl || '').includes('hd-en-') || (s.streamUrlM3u8 || '').includes('hd-en-'))
+            || streams.find(s => (s.streamUrl || '').includes('sd-') || (s.streamUrlM3u8 || '').includes('sd-'))
+            || streams.find(s => s.isCustom === 0)
+            || streams[0];
+
+        let rawUrl = (rawStream.streamUrlM3u8 || rawStream.streamUrl || '').replace(/^http:\/\//i, 'https://');
         if (!rawUrl) return null;
 
         const streamNameMatch = rawUrl.match(/\/live\/([^/?]+)\.m3u8/);
@@ -43,7 +48,7 @@ export async function getCamel1Stream(matchId) {
         if (!decryptedSecret) return null;
 
         // Base authenticated stream URL (master manifest)
-        const fullStreamUrl = `${rawUrl}?txSecret=${decryptedSecret}&txTime=${tokenData.txTime}&lat=9000`;
+        let fullStreamUrl = `${rawUrl}?txSecret=${decryptedSecret}&txTime=${tokenData.txTime}&lat=9000`.replace(/^http:\/\//i, 'https://');
 
         // Fetch master playlist to get the signed variant URL containing auth token
         const masterRes = await fetch(fullStreamUrl, {
@@ -58,7 +63,7 @@ export async function getCamel1Stream(matchId) {
             const variantMatch = body.match(/https?:\/\/[^\s\r\n]+\.m3u8[^\s\r\n]*/);
             if (variantMatch) {
                 return {
-                    url: variantMatch[0],
+                    url: variantMatch[0].replace(/^http:\/\//i, 'https://'),
                     type: 'HLS'
                 };
             }

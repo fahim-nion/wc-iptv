@@ -27,7 +27,12 @@ export default function Player({ channel, onStall }) {
     setLoadingProgress(0);
     setHasError(false);
 
-    const url = channel.url.toLowerCase();
+    let streamUrl = channel.url;
+    if (typeof window !== 'undefined' && window.location.protocol === 'https:' && streamUrl.startsWith('http://')) {
+      streamUrl = streamUrl.replace(/^http:\/\//i, 'https://');
+    }
+
+    const url = streamUrl.toLowerCase();
     const isFLV = url.includes('.flv');
     const isTS = url.includes('.ts') || url.includes('mpegts');
     setStreamType(isFLV ? 'HTTP-FLV' : (isTS ? 'MPEG-TS' : 'HLS'));
@@ -49,7 +54,7 @@ export default function Player({ channel, onStall }) {
       const player = mpegts.createPlayer({
         type: isFLV ? 'flv' : 'mse',
         isLive: true,
-        url: channel.url,
+        url: streamUrl,
         hasVideo: true,
         hasAudio: true,
         cors: true
@@ -64,8 +69,12 @@ export default function Player({ channel, onStall }) {
       player.attachMediaElement(videoRef.current);
       player.load();
       player.play().then(() => finishLoading()).catch((err) => {
-        console.warn('Playback play() warning:', err);
-        finishLoading();
+        console.warn('Playback play() warning, retrying muted:', err);
+        if (videoRef.current) {
+          videoRef.current.muted = true;
+          setIsMuted(true);
+          videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+        }
       });
       player.on(mpegts.Events.ERROR, (errorType, errorDetail, errorInfo) => {
         console.error('mpegts error:', errorType, errorDetail, errorInfo);
@@ -77,15 +86,61 @@ export default function Player({ channel, onStall }) {
         enableWorker: true, 
         maxBufferSize: 200 * 1024 * 1024,
         manifestLoadingTimeOut: 15000, // Wait 15s for manifest
-        fragLoadingTimeOut: 15000     // Wait 15s for video chunks
+        fragLoadingTimeOut: 15000,     // Wait 15s for video chunks
+        enableSoftwareAES: true
       });
-      hls.loadSource(channel.url);
+      hls.loadSource(streamUrl);
       hls.attachMedia(videoRef.current);
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+        const playPromise = videoRef.current?.play();
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => finishLoading())
+            .catch(() => {
+              // Desktop browsers require muted autoplay on first interaction
+              if (videoRef.current) {
+                videoRef.current.muted = true;
+                setIsMuted(true);
+                videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+              }
+            });
+        }
       });
-      hls.on(Hls.Events.ERROR, (e, data) => { if(data.fatal) setHasError(true); });
+      hls.on(Hls.Events.ERROR, (e, data) => {
+        if (data.fatal) {
+          switch (data.type) {
+            case Hls.ErrorTypes.NETWORK_ERROR:
+              console.warn('Hls network error, recovering...', data);
+              hls.startLoad();
+              break;
+            case Hls.ErrorTypes.MEDIA_ERROR:
+              console.warn('Hls media error, recovering...', data);
+              hls.recoverMediaError();
+              break;
+            default:
+              console.error('Hls unrecoverable error:', data);
+              setHasError(true);
+              hls.destroy();
+              break;
+          }
+        }
+      });
       engineRef.current = hls;
+    } else if (videoRef.current.canPlayType('application/vnd.apple.mpegurl')) {
+      // Native HLS for Safari / iOS
+      videoRef.current.src = streamUrl;
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => finishLoading())
+          .catch(() => {
+            if (videoRef.current) {
+              videoRef.current.muted = true;
+              setIsMuted(true);
+              videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+            }
+          });
+      }
     }
 
     function finishLoading() {

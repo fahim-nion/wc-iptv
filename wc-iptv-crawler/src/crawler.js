@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { discoverSocolive, discoverColaTV, discoverXoilac, discoverFanzone, discoverCamel1 } from './discovery/matchDiscovery.js';
+import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
 import { validateStream } from './validation/validateStream.js'; 
@@ -22,19 +22,25 @@ async function runCycle() {
         }
     } catch (e) { console.log("No existing data found."); }
 
-    // 2. Discovery (Including Camel1)
+    // 2. Discovery (Including Camel1 and LiveLive24)
     const soco = await discoverSocolive().catch(() => []);
     const cola = await discoverColaTV().catch(() => []);
     const xoi = await discoverXoilac().catch(() => []);
-    const fan = await discoverFanzone().catch(() => []);
+    const live24 = await discoverLiveLive24().catch(() => []);
     const cam = await discoverCamel1().catch(() => []);
     
-    const allMatches = [...soco, ...cola, ...xoi, ...fan, ...cam];
+    const allMatches = [...soco, ...cola, ...xoi, ...live24, ...cam];
     const newResults = [];
     const seenUrls = new Set();
 
-    // queue 3 from each for variety
-    const queue = [...soco.slice(0,3), ...cola.slice(0,3), ...xoi.slice(0,3), ...fan.slice(0,3), ...cam.slice(0,3)];
+    // Queue: Top matches from soco/cola/xoi/cam, and all servers from livelive24 TopHD
+    const queue = [
+        ...soco.slice(0, 3), 
+        ...cola.slice(0, 3), 
+        ...xoi.slice(0, 3), 
+        ...cam.slice(0, 5), 
+        ...live24
+    ];
 
     // 3. Extraction of New Matches
     for (const match of queue) {
@@ -46,7 +52,7 @@ async function runCycle() {
                 const finalTitle = match.title.toUpperCase();
                 console.log(chalk.green(`   ✔ Captured: ${finalTitle}`));
                 newResults.push({
-                    id: `live-${crypto.createHash('md5').update(match.url).digest('hex').substring(0, 10)}`,
+                    id: `live-${crypto.createHash('md5').update(match.url + (match.title || '')).digest('hex').substring(0, 10)}`,
                     title: finalTitle,
                     status: "live",
                     source: match.source,

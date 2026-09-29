@@ -18,10 +18,10 @@ export default {
             homepage: "https://xoilaczznnz.tv/",
             mirrors: ["https://xoilaczzb.cc/", "https://xoilaczbl.tv/"]
         },
-        fanzone: {
+        livelive24: {
             enabled: true,
             priority: 4,
-            homepage: "https://fanzone-omega.vercel.app/",
+            homepage: "https://livelive24.com/",
             mirrors: []
         },
         // ADDED CAMEL1

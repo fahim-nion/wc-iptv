@@ -288,97 +288,116 @@ export async function discoverXoilac() {
 }
 
 export const discoverSocolive = () => performDiscovery('socolive', 'a[href*="/truc-tiep/"]');
-export const discoverFanzone = () => performDiscovery('fanzone', 'a[href*="/match/"], a[href*="/live/"]');
+
+export async function discoverLiveLive24() {
+    const source = config.sources.livelive24;
+    if (!source || !source.enabled) return [];
+
+    console.log(`\n🔍 [LIVELIVE24] Scanning TopHD matches...`);
+    const endpoint = "https://livelive24.com/test/processed_matches_prioritized.json";
+    const matches = [];
+
+    try {
+        const res = await fetch(endpoint, {
+            headers: { 
+                'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' 
+            },
+            signal: AbortSignal.timeout(10000)
+        });
+        if (!res.ok) {
+            console.log(`[LIVELIVE24] HTTP Error: ${res.status}`);
+            return [];
+        }
+        const data = await res.json();
+        if (!Array.isArray(data)) return [];
+
+        for (const match of data) {
+            if (!match.has_stream || !Array.isArray(match.streams) || match.streams.length === 0) continue;
+
+            const baseName = (match.name || 'UNKNOWN MATCH').trim().toUpperCase();
+
+            match.streams.forEach((stream, index) => {
+                if (!stream.url) return;
+                const quality = (stream.quality || '').trim().toUpperCase();
+                const serverLabel = quality ? `[SERVER ${index + 1} - ${quality}]` : `[SERVER ${index + 1}]`;
+                const title = `${baseName} ${serverLabel}`;
+
+                matches.push({
+                    source: 'livelive24',
+                    title: title,
+                    url: stream.url,
+                    quality: stream.quality,
+                    serverIndex: index + 1
+                });
+            });
+        }
+        console.log(`[LIVELIVE24] Discovered ${matches.length} server streams across ${data.length} matches.`);
+    } catch (e) {
+        console.error(`[LIVELIVE24 Discovery Error]: ${e.message}`);
+    }
+
+    return matches;
+}
+
 export async function discoverCamel1() {
     const source = config.sources.camel1;
     if (!source || !source.enabled) return [];
 
-    console.log(`\n🔍 [CAMEL1] Scanning...`);
-
-    const browser = await puppeteer.launch({
-        executablePath: CHROME_PATH || undefined,
-        headless: true,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage'
-        ]
-    });
-
-    const page = await browser.newPage();
+    console.log(`\n🔍 [CAMEL1] Scanning matches...`);
     const urls = [source.homepage, ...(source.mirrors || [])];
     const matches = [];
+    const seen = new Set();
 
-    try {
-        for (const url of urls) {
-            try {
-                await page.goto(url, { waitUntil: 'load', timeout: 30000 });
-                await new Promise(r => setTimeout(r, 5000));
+    for (const baseUrl of urls) {
+        try {
+            const res = await fetch(baseUrl, {
+                headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+                signal: AbortSignal.timeout(10000)
+            });
+            if (!res.ok) continue;
+            const html = await res.text();
+            
+            const regex = /href=["'](\/football\/match-([^"'\/]+?)(?:\/live|\/animation)?\/([a-zA-Z0-9]+))["']/g;
+            let m;
+            const liveMatches = [];
+            const otherMatches = [];
 
-                const links = await page.$$eval('a[href*="/football/match-"]', anchors => {
-                    return anchors.map(a => {
-                        const href = a.href;
-                        const match = href.match(/\/football\/match-(.+?)(?:\/live|\/animation)?\/([^/]+)\/?$/);
-                        if (!match) return null;
+            while ((m = regex.exec(html)) !== null) {
+                const path = m[1];
+                const slug = m[2];
+                const matchId = m[3];
+                if (seen.has(matchId)) continue;
+                seen.add(matchId);
 
-                        const slug = match[1];
-                        const matchId = match[2];
+                const title = slug
+                    .replace(/-vs-/gi, ' VS ')
+                    .replace(/-/g, ' ')
+                    .replace(/\b\w/g, c => c.toUpperCase());
 
-                        let title = a.innerText.trim().replace(/\s+/g, ' ');
-                        if (!title || title.length <= 3) {
-                            title = slug
-                                .replace(/-vs-/gi, ' VS ')
-                                .replace(/-/g, ' ')
-                                .replace(/\b\w/g, c => c.toUpperCase());
-                        }
+                const origin = new URL(baseUrl).origin;
+                const isLive = path.includes('/live/');
+                const matchObj = {
+                    source: 'camel1',
+                    title: title.toUpperCase(),
+                    url: `${origin}/football/match-${slug}/live/${matchId}`,
+                    matchId
+                };
 
-                        // Always route to /live/ page for stream capture
-                        const isLive = href.includes('/live/');
-                        const liveUrl = `${new URL(href).origin}/football/match-${slug}/live/${matchId}`;
-
-                        return {
-                            title,
-                            url: liveUrl,
-                            matchId,
-                            isLive
-                        };
-                    }).filter(Boolean);
-                });
-
-                const seen = new Set();
-                const liveList = [];
-                const upcomingList = [];
-
-                for (const item of links) {
-                    if (seen.has(item.matchId)) continue;
-                    seen.add(item.matchId);
-                    const matchObj = {
-                        source: 'camel1',
-                        title: item.title.toUpperCase(),
-                        url: item.url,
-                        matchId: item.matchId
-                    };
-                    if (item.isLive) {
-                        liveList.push(matchObj);
-                    } else {
-                        upcomingList.push(matchObj);
-                    }
+                if (isLive) {
+                    liveMatches.push(matchObj);
+                } else {
+                    otherMatches.push(matchObj);
                 }
-
-                matches.push(...liveList, ...upcomingList);
-
-                if (matches.length > 0) {
-                    console.log(`[CAMEL1] Found ${matches.length} matches from ${url}`);
-                    break;
-                }
-            } catch (err) {
-                console.log(`[CAMEL1] Warning: ${url} error (${err.message})`);
             }
+
+            matches.push(...liveMatches, ...otherMatches);
+            if (matches.length > 0) {
+                console.log(`[CAMEL1] Discovered ${matches.length} matches (${liveMatches.length} live).`);
+                return matches;
+            }
+        } catch (e) {
+            console.log(`[CAMEL1] Quick scan notice: ${e.message}`);
         }
-    } catch (e) {
-        console.error(`[CAMEL1 Error]: ${e.message}`);
-    } finally {
-        await browser.close();
     }
 
     return matches;
