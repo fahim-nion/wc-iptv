@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-27T19:11:49.192Z",
+  "updatedAt": "2026-09-29T19:19:09.337Z",
   "channels": [
+    {
+      "id": "live-540b5a837b",
+      "title": "LUCAS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1790712124-0-0-a6433632b3818502feb88e55a1512752",
+      "category": "Sports"
+    },
+    {
+      "id": "live-69de98f6fe",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b85ea64cf5",
+      "title": "BLV AQUA",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/18812304_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6347ec0766",
+      "title": "BLV REVIVE",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1ba247320e",
+      "title": "TÂY BAN NHA VS CROATIA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001790709499-0-0-a781984d2fccacd08d74e4936cad5f36",
+      "category": "Sports"
+    },
+    {
+      "id": "live-87fa70343f",
+      "title": "BULGARIA VS ESTONIA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001790709514-0-0-1c6dcc57cf5cf8f580cf4238171c85b3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a4407d8446",
+      "title": "SCOTLAND VS THỤY SĨ",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-12.flv?auth_key=3000001790709529-0-0-ce6a41163dedf4d7a86b716242e839ef",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dbaaa3daf8",
+      "title": "SCOTLAND VS SWITZERLAND",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385002_dn1m1ghl9ygymoe.m3u8?txSecret=dc39e1282c0139f5e5cf58f787997d73&txTime=6ABC1051&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-24d597b3b5",
+      "title": "CZECHIA VS ENGLAND",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_k82rekhg2pjdrep_md.m3u8?txSecret=152f731f0fead4921f25dade3ef78ea5&txTime=6ABC1052&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dea7889c53",
+      "title": "SPAIN VS CROATIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_y39mp1h6dgeemoj_md.m3u8?txSecret=69c6703321117313d9900fd431bed3f0&txTime=6ABC1052&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
     {
       "id": "live-1ddbc9b9ad",
       "title": "BOSS",
@@ -18,27 +98,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-59cfd6ee4f",
-      "title": "BLV C2",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
       "id": "live-0e4081bb98",
       "title": "BLV STING",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.meung.app/live/14707124_tsc.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2f81dd0ca5",
-      "title": "BLV REVIVE",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
       "category": "Sports"
     },
     {
@@ -63,30 +127,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790536292-0-0-642658abbd263c2db514a13403d3a1ee",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cb3654bfb7",
-      "title": "NORWAY VS PORTUGAL",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12385001_4wyrn4h6ypllq86_md.m3u8?txSecret=140a389447f74456801fa886528ead88&txTime=6AB96B9D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4dd73a8414",
-      "title": "GERMANY VS GREECE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_dn1m1ghl9y07moe_md.m3u8?txSecret=b675a7fe31bd9f2115abc8fa27efc220&txTime=6AB96B9D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dd90a469c5",
-      "title": "ISRAEL VS IRELAND",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVBH28W73JyRbV_md.m3u8?txSecret=40de15fdda6d36fa8e1bdb9fe3b94b1e&txTime=6AB96B9E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -119,14 +159,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001790526713-0-0-7998bbca9b2a1fa66d24ac0e4c491115",
-      "category": "Sports"
-    },
-    {
-      "id": "live-012b8fc31a",
-      "title": "XUÂN SON",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=24af36c361c34546e035b12c4dd05890&txTime=6ab99658",
       "category": "Sports"
     }
   ]
