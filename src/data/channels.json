@@ -1,12 +1,100 @@
 {
-  "updatedAt": "2026-09-29T20:44:44.467Z",
+  "updatedAt": "2026-10-06T19:16:49.624Z",
   "channels": [
     {
-      "id": "live-e93ccc7b0c",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-f2e88e1dd5",
+      "title": "NGƯỜI CÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1791317672-0-0-deccd7eedb94d18a8d91a77619e9e572",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e27bdc3cc1",
+      "title": "CR BƯỞI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=51f25a01e1ef72b3df204ddfd2ae1a6e&txTime=6ac59d04",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d3500bcac8",
+      "title": "BLV PIRLO",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=bb3b2f75dfa8adc5a0c6efcec707b13d&txTime=6ac59d1a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-48a1b56284",
+      "title": "BLV REVIVE",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
+      "streamUrl": "https://live05.meung.app/live/33982309_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b7f1c51072",
+      "title": "BLV C2",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/08552895_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0e1d74f98",
+      "title": "BLV HỔ VẰN",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/07428422_tsc.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b6cb616a43",
+      "title": "CROATIA VS TÂY BAN NHA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791314156-0-0-99def724131263ee26c817aeb1a430e3",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b186716118",
+      "title": "ANH VS CH SÉC",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791314167-0-0-d122202e5ca47a500dde2200dc7e92c9",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4baf73922c",
+      "title": "BELARUS VS PHẦN LAN",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-20.flv?auth_key=3000001791314179-0-0-8dbd392abb9ad0439deaa25fc8a1dd18",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fbb65d282d",
+      "title": "ENGLAND VS CZECHIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12551407_4wyrn4h6yp38q86_md.m3u8?txSecret=8ba631c7e9b293b49837d4412188c8f3&txTime=6AC54A39&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-44a0749560",
+      "title": "CROATIA VS SPAIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12551406_dn1m1ghl9yjvmoe_md.m3u8?txSecret=4b4e3df1fa401259717e1a5cea851272&txTime=6AC54A3A&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-705922e390",
+      "title": "SCOTLAND VS SLOVENIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "http://liveplay1.camel4.live/live/27551_12568363_jw2r09hk5yzxrz8.m3u8?txSecret=dcb433a520985dd994b7e810539801e5&txTime=6AC54A3A&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -31,30 +119,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001790714455-0-0-a468b529364ca4aed11d7ff1b088b2d8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dbaaa3daf8",
-      "title": "SCOTLAND VS SWITZERLAND",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVC1WYwV38sCn3.m3u8?txSecret=9d7bfe89946895ce55ff69bc583e9fc2&txTime=6ABC238D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-24d597b3b5",
-      "title": "CZECHIA VS ENGLAND",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVC1fx2et7kUpP_md.m3u8?txSecret=3e32b8e1870a45323799fe7040ddaadc&txTime=6ABC238D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dea7889c53",
-      "title": "SPAIN VS CROATIA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwcqVC1fzE8kbaPyH_md.m3u8?txSecret=0cf1ed486412f23fbffccc54d3c2375b&txTime=6ABC238E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
