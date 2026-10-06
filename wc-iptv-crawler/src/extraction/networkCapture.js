@@ -112,7 +112,11 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
 
         // 4. INTERACTION (Wakes up player logic)
         await page.mouse.click(640, 360).catch(() => {});
-        await new Promise(r => setTimeout(r, 10000)); 
+        if (candidates.length === 0) {
+            await new Promise(r => setTimeout(r, 3500)); 
+        } else {
+            await new Promise(r => setTimeout(r, 1000));
+        } 
 
         if (candidates.length > 0) {
             // Deduplicate

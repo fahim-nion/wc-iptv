@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-export async function validateStream(url, referer = "") {
+export async function validateStream(url, referer = "", timeoutMs = 5000) {
     if (!url) return { isValid: false, error: "No URL" };
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
     try {
         const urlObj = new URL(url);

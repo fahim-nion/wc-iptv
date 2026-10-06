@@ -21,8 +21,13 @@ export async function pushToGitHub() {
         console.log(chalk.yellow("[GitHub] Updates found. Committing..."));
         
         execSync('git add src/data/channels.json', { cwd: REPO_ROOT });
-        execSync('git commit -m "chore: auto-update live matches"', { cwd: REPO_ROOT });
-        execSync('git push', { cwd: REPO_ROOT });
+        try {
+            execSync('git push', { cwd: REPO_ROOT });
+        } catch (pushErr) {
+            console.log(chalk.yellow("[GitHub] Push rejected, reconciling with origin/main..."));
+            execSync('git pull --no-rebase -X ours origin main --no-edit', { cwd: REPO_ROOT });
+            execSync('git push', { cwd: REPO_ROOT });
+        }
 
         console.log(chalk.green.bold("[GitHub] 🚀 Pushed successfully! Site is updating."));
     } catch (error) {
