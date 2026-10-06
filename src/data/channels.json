@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-06T22:36:52.546Z",
+  "updatedAt": "2026-10-06T22:46:10.295Z",
   "channels": [
     {
       "id": "live-97a5606816",
       "title": "ST. VINCENT&GRENADINES VS SINT MAARTEN [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tfzw3gr3uomttgr31hp3tfa3dqmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfJzNxcDO3UzXyAjM/playlist.m3u8?wsSecret=f620c366daae7d9cc3925be49e9056a5&wsABSTime=6ACAA53F&wsSession=e27a59ec2958e61c83a25407-179132547619396&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446950356247",
+      "streamUrl": "https://tfzw1gr3uomttgr31hcjo8rzdkqbpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfJzNxcDO3UzXyAjM/playlist.m3u8?wsSecret=f620c366daae7d9cc3925be49e9056a5&wsABSTime=6ACAA53F&wsSession=adef70ccc35cfd08a32b54aa-179132607196064&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168286469438462452",
       "category": "Sports"
     },
     {
@@ -26,11 +26,51 @@
       "category": "Sports"
     },
     {
+      "id": "live-74af727fac",
+      "title": "OLIMPIA ASUNCION VS FC NACIONAL ASUNCION",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip4yMa38PxZAX27.m3u8?txSecret=c588c231839a3e72780c151f7d98d5eb&txTime=6AC578AA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-262620f84c",
+      "title": "REAL POTOSI VS SAN ANTONIO BULO BULO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKXeKCC6sKH4DHy.m3u8?txSecret=92e7842f89ab2796b20c0e96ad409bf2&txTime=6AC578AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-91a688ea97",
+      "title": "SPORT CLUB DO RECIFE VS SAO BERNARDO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVNfQy8nrTYGHoqR.m3u8?txSecret=e5f8ff0dcfa9879b5cacd76c00a7de29&txTime=6AC578AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3c4fca7aa0",
+      "title": "SAINT VINCENT AND THE GRENADINES VS SINT MAARTEN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZALiXaY5bdaWEK.m3u8?txSecret=483912857a7ca4fb3f3d21c5514b1740&txTime=6AC578AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1a558d7ac2",
+      "title": "ARGENTINA VS BENIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJtc9LPwm8WX2UX.m3u8?txSecret=258683b021b912b4beeafc0d743e9e72&txTime=6AC578AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
       "id": "live-5ed649a06c",
       "title": "BLV CHIVAS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=3a22e4fb8be0cfaf9efbfb02d2b05275&txTime=6ac5c999",
+      "streamUrl": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=a20f6d290838441efacefeae548db388&txTime=6ac5cbe5",
       "category": "Sports"
     },
     {
@@ -38,7 +78,7 @@
       "title": "BLV A TINH",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=524e25077f3ca4f1fbc4f2afaed90afd&txTime=6ac5c9b8",
+      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=725074ab8392a0980d7e5eaceca1421c&txTime=6ac5cbf4",
       "category": "Sports"
     },
     {
@@ -46,7 +86,7 @@
       "title": "TRÀ ĐÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1791329163-0-0-7faec70ca38ddd9b896c7c4d7ce2a0ae",
+      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1791329715-0-0-c969afc48cddc98ce5a46a9ab61ce5dc",
       "category": "Sports"
     },
     {
@@ -62,7 +102,7 @@
       "title": "BLV MOUNTAIN DEW",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
       "category": "Sports"
     },
     {
@@ -70,7 +110,7 @@
       "title": "BLV PEPSI",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "streamUrl": "https://live05.meung.app/live/59444581_tsc.m3u8",
       "category": "Sports"
     },
     {
@@ -78,15 +118,7 @@
       "title": "ARGENTINA VS BENIN",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791325626-0-0-5c19a9cc6f82a8e275112bbbc8826c4c",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a2d00cd97e",
-      "title": "UNIVERSIDAD SAN MARTIN VS ALIANZA HUÁNUCO",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel1.flv?wsSecret=4ee64a4fd56937ad74ceb576d1dceb6a&wsABSTime=1791368841",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791326180-0-0-d555a1b5affa0bcbeb436f1d9776a112",
       "category": "Sports"
     },
     {
@@ -94,7 +126,15 @@
       "title": "ST. VINCENT GRENADINES VS SINT MAARTEN",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791325656-0-0-5401348b5b64fb53e48cb31357c86b02",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791326195-0-0-92628198fb238388611638010826747a",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6538addb0c",
+      "title": "REAL POTOSI VS S. ANTONIO BULO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=28536f1602f6d9faad70f9d32d2f3dd5&wsABSTime=1791369411",
       "category": "Sports"
     },
     {
