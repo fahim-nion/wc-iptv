@@ -24,7 +24,7 @@ async function runCycle() {
     isCycleRunning = true;
     try {
         console.log(chalk.bold("\n" + "=".repeat(50)));
-        console.log(chalk.bold("       WORLD CUP IPTV - PERSISTENT CRAWL      "));
+        console.log(chalk.bold("       FUSSBALLTV - PERSISTENT CRAWL      "));
         console.log(chalk.bold("=".repeat(50)));
 
         // 1. Load Existing Channels for Persistence
