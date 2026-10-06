@@ -6,7 +6,13 @@ import { validateStream } from './validation/validateStream.js';
 import chalk from 'chalk';
 import crypto from 'crypto';
 
-const CHANNELS_PATH = '../src/data/channels.json';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const REPO_ROOT = path.resolve(__dirname, '../../');
+const CHANNELS_PATH = path.resolve(REPO_ROOT, 'src/data/channels.json');
 
 async function runCycle() {
     console.log(chalk.bold("\n" + "=".repeat(50)));
@@ -23,23 +29,23 @@ async function runCycle() {
     } catch (e) { console.log("No existing data found."); }
 
     // 2. Discovery (Including Camel1 and LiveLive24)
+    const live24 = await discoverLiveLive24().catch(() => []);
+    const cam = await discoverCamel1().catch(() => []);
     const soco = await discoverSocolive().catch(() => []);
     const cola = await discoverColaTV().catch(() => []);
     const xoi = await discoverXoilac().catch(() => []);
-    const live24 = await discoverLiveLive24().catch(() => []);
-    const cam = await discoverCamel1().catch(() => []);
     
-    const allMatches = [...soco, ...cola, ...xoi, ...live24, ...cam];
+    const allMatches = [...live24, ...cam, ...soco, ...cola, ...xoi];
     const newResults = [];
     const seenUrls = new Set();
 
-    // Queue: Top matches from soco/cola/xoi/cam, and all servers from livelive24 TopHD
+    // Queue: All servers from LiveLive24 TopHD, top Camel1 matches, then Socolive/ColaTV/Xoilac
     const queue = [
+        ...live24,
+        ...cam.slice(0, 5),
         ...soco.slice(0, 3), 
         ...cola.slice(0, 3), 
-        ...xoi.slice(0, 3), 
-        ...cam.slice(0, 5), 
-        ...live24
+        ...xoi.slice(0, 3)
     ];
 
     // 3. Extraction of New Matches
@@ -81,7 +87,8 @@ async function runCycle() {
             updatedAt: new Date().toISOString(),
             channels: newResults
         };
-        if (!fs.existsSync('../src/data')) fs.mkdirSync('../src/data', { recursive: true });
+        const dataDir = path.dirname(CHANNELS_PATH);
+        if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
         fs.writeFileSync(CHANNELS_PATH, JSON.stringify(output, null, 2));
         console.log(chalk.green.bold(`\n✅ Final List: ${newResults.length} active channels.`));
         await pushToGitHub();
