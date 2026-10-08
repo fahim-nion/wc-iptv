@@ -1,140 +1,124 @@
 {
-  "updatedAt": "2026-10-06T23:23:10.480Z",
+  "updatedAt": "2026-10-08T19:56:50.853Z",
   "channels": [
     {
-      "id": "live-2080de063f",
-      "title": "ARGENTINA VS BENIN [SERVER 1 - SD]",
+      "id": "live-118d1df1cc",
+      "title": "SCOTLAND U23(W) VS GERMANY U23(W) [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MxjJtc9LPwm8WXMMG.m3u8?txSecret=82aa154041cdfc06a38749e3f4fd1bf8&txTime=6ACABF3B",
+      "streamUrl": "https://tfzy3gwh1hcjigezdncb3fa5d1mmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfFTNyUzN4UzXyAjM/playlist.m3u8?wsSecret=c23faa9a45fc5a703b97e485e1710057&wsABSTime=6ACD1EC2&wsSession=20b2ba4a342e08daf9ad134d-179148926382784&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168262304208899748",
       "category": "Sports"
     },
     {
-      "id": "live-ceae6b420c",
-      "title": "ARGENTINA VS BENIN [SERVER 2 - HD]",
+      "id": "live-af6d8fe70d",
+      "title": "SCOTLAND U23(W) VS GERMANY U23(W) [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJtc9LPwm8WXMMG.m3u8?txSecret=427f161e399ef73ae85701bdf5c6fc4b&txTime=6ACA572D",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjK7k1CXy9BHAYUe.m3u8?txSecret=97b24fa0e04ba79f304e1da54cb14bb4&txTime=6ACD0D2F",
       "category": "Sports"
     },
     {
-      "id": "live-7729bec664",
-      "title": "ARGENTINA VS BENIN [SERVER 3 - HD]",
+      "id": "live-3b3d81f7bf",
+      "title": "SHAMROCK ROVERS VS DROGHEDA UNITED [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5842823_1.m3u8?txSecret=2e73297d8f285db3d2c0f61751e5e6f7&txTime=6ACABD92",
+      "streamUrl": "https://tfzy3gwh1hcjigezdncb3fa5d1mmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdTN5QDN1UzXyAjM/playlist.m3u8?wsSecret=f47162092e2063324534b725f4994f56&wsABSTime=6ACD2DFC&wsSession=20b2ba4a342e08daf9ad134d-179148926849708&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168262304208899748",
       "category": "Sports"
     },
     {
-      "id": "live-8ec140ec0d",
-      "title": "ANTIGUA AND BARBUDA VS ARUBA [SERVER 1 - SD]",
+      "id": "live-ed11db32c9",
+      "title": "SHAMROCK ROVERS VS DROGHEDA UNITED [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tfzw3gwh1hcjigezdncb3fa5d1mmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfNzNxcDO3UzXyAjM/playlist.m3u8?wsSecret=0d8eafffa0b7c964188441b5510355d3&wsABSTime=6ACABE8B&wsSession=20b2ba4a342e08daf9ad134d-179132889097715&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168262304208899748",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ZvkTpRbLLH7dx.m3u8?txSecret=7fa1798ba26693650535a225fe97b2e5&txTime=6ACD0F4A",
       "category": "Sports"
     },
     {
-      "id": "live-f8b8f3a426",
-      "title": "ANTIGUA AND BARBUDA VS ARUBA [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5787173_1.m3u8?txSecret=6bd58ae95a41a58cea0ac546ce32cc20&txTime=6ACAC332",
-      "category": "Sports"
-    },
-    {
-      "id": "live-59191f0722",
-      "title": "ANTIGUA AND BARBUDA VS ARUBA [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjZALiX3mMQv1zxW.m3u8?txSecret=5d66f3534b45268999f91661401d3d17&txTime=6ACA572D",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1a558d7ac2",
-      "title": "ARGENTINA VS BENIN",
+      "id": "live-25c56df19a",
+      "title": "MOQUEGUA VS CIENCIANO",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MxjJtc9LPwm8WX2UX_md.m3u8?txSecret=a45f8de3792f2fbd41eac52f7666b0d5&txTime=6AC583AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpxeJphiS5PuZzP.m3u8?txSecret=58b8f41091235bda4ff81ea3c9ad4048&txTime=6AC7F624&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-74af727fac",
-      "title": "OLIMPIA ASUNCION VS FC NACIONAL ASUNCION",
+      "id": "live-487acac11a",
+      "title": "SARMIENTO JUNIN RESERVES VS VELEZ SARSFIELD RESERVES",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip4yMa38PxZAX27.m3u8?txSecret=528e93eae206ae4ce13c9273fb5576ae&txTime=6AC583AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJiq8Fj3LJH2qzF.m3u8?txSecret=eac8beffa7677dd0a194dfb48150985a&txTime=6AC7F625&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-262620f84c",
-      "title": "REAL POTOSI VS SAN ANTONIO BULO BULO",
+      "id": "live-1e918dd775",
+      "title": "BELGRANO RESERVES VS SAN MARTIN DE SAN JUAN RESERVES",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKXeKCC6sKH4DHy.m3u8?txSecret=2340835ab839337c59b22e80d5805bd7&txTime=6AC583AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJiq8R1Y4XpSNZu.m3u8?txSecret=87609b3827e21ffbaebf92d5e6b6ca3f&txTime=6AC7F626&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-91a688ea97",
-      "title": "SPORT CLUB DO RECIFE VS SAO BERNARDO",
+      "id": "live-fe154e22b4",
+      "title": "ATLETICO TUCUMAN RESERVES VS CA TALLERES DE CORDOBA RESERVES",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVNfQy8nrTYGHoqR.m3u8?txSecret=89bd4c3353801c307a534fc123adb6c6&txTime=6AC583AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJiq8R3jYQJGHio.m3u8?txSecret=55b0377b3e09a84a85d837db50163564&txTime=6AC7F626&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-81ba249c90",
-      "title": "ANTIGUA AND BARBUDA VS ARUBA",
+      "id": "live-b9112db5d4",
+      "title": "GODOY CRUZ RESERVES VS BARRACAS CENTRAL RESERVES",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZALiX3mMQv1g5m.m3u8?txSecret=d4d6d4d87548d07718125083b8db7c12&txTime=6AC583AD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJiq8FeeNZKP1gT.m3u8?txSecret=e37a9e380b58ed25f0073183368e08d9&txTime=6AC7F626&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-59f9b00684",
-      "title": "TRÀ ĐÁ",
+      "id": "live-1c0f750cd0",
+      "title": "BLV MONSTER",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1791332500-0-0-2a5474b6d2519290116211e658dba4ff",
+      "source": "colatv",
+      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-94ecc29211",
-      "title": "BLV VIP",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=bb39832483bad015f2e13139416f5713&txTime=6ac5d6ed",
-      "category": "Sports"
-    },
-    {
-      "id": "live-247faa6b61",
-      "title": "CHAN ĐÊ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1791332534-0-0-3632bd60807c765d304e5e8283beba67",
-      "category": "Sports"
-    },
-    {
-      "id": "live-70b7b1778c",
+      "id": "live-e8a4b14a51",
       "title": "BLV PEPSI",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581_tsc.m3u8",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-ec83d45d6f",
-      "title": "BLV MOUNTAIN DEW",
+      "id": "live-193cf4e145",
+      "title": "BLV BÍ ĐAO",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/87547578_tsc.m3u8",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
       "category": "Sports"
     },
     {
-      "id": "live-ffd1b5cf51",
-      "title": "BLV ROCKSTAR",
+      "id": "live-354a3053b9",
+      "title": "MOQUEGUA VS CIENCIANO",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/82054853_tsc.m3u8",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001791489376-0-0-0dd7c44538362186d53e2b5b1132c367",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f9241a760c",
+      "title": "ATLETICO MINEIRO U20 VS ATHLETIC CLUB MG U20",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel8.flv?wsSecret=29309de11891e2a15a7ad274b909f63e&wsABSTime=1791532586",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be5dd2a513",
+      "title": "ATLETICO TUCUMAN (R) VS TALLERES CORDOBA (R)",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel10.flv?wsSecret=768831cedec9fba2f6af74c54da5e9d2&wsABSTime=1791532595",
       "category": "Sports"
     },
     {
@@ -159,14 +143,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=5b1e74ee68a4793a9988ff28368bfe2a&wsABSTime=1791372179",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a1a25cb487",
-      "title": "BLV A TINH",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912139_lhd.m3u8?txSecret=725074ab8392a0980d7e5eaceca1421c&txTime=6ac5cbf4",
       "category": "Sports"
     },
     {
