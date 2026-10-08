@@ -1,44 +1,12 @@
 {
-  "updatedAt": "2026-10-08T20:51:58.321Z",
+  "updatedAt": "2026-10-08T21:25:22.216Z",
   "channels": [
-    {
-      "id": "live-3b3d81f7bf",
-      "title": "SHAMROCK ROVERS VS DROGHEDA UNITED [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tfzy1gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdTN5QDN1UzXyAjM/playlist.m3u8?wsSecret=f47162092e2063324534b725f4994f56&wsABSTime=6ACD2DFC&wsSession=d93f1653005da63c1d22c725-179149260010094&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168240832916737938",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ed11db32c9",
-      "title": "SHAMROCK ROVERS VS DROGHEDA UNITED [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ZvkTpRbLLH7dx.m3u8?txSecret=7fa1798ba26693650535a225fe97b2e5&txTime=6ACD0F4A",
-      "category": "Sports"
-    },
-    {
-      "id": "live-29406edfce",
-      "title": "FAR RABAT VS WIDAD TÉMARA",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=2y32x9wUxo2jRLP4Nhcx2fAYKGA&exp=1791494409",
-      "category": "Sports"
-    },
-    {
-      "id": "live-660deba07a",
-      "title": "CR KHEMIS ZEMAMRA VS HASSANIA AGADIR",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/tama.m3u8?token=RjFhnEa1EAfLHF4lIGnwCMBvkw8&exp=1791494416",
-      "category": "Sports"
-    },
     {
       "id": "live-463ed96538",
       "title": "MAGHREB FÈS VS RAJA CASABLANCA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=9BZ5jDSDPQjATSqawoYf78WbPk0&exp=1791494423",
+      "streamUrl": "https://a11.kora-plus.li/live/riadia.m3u8?token=54t7L7-5_wBlB6OPVLQ1siAkMYE&exp=1791496452",
       "category": "Sports"
     },
     {
@@ -46,7 +14,7 @@
       "title": "ATLETICO GRAU VS LOS CHANKAS",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpxeKVtPJ1U9AbR.m3u8?txSecret=8de8b857bd85bce78636fd022776f568&txTime=6AC8033E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpxeKVtPJ1U9AbR.m3u8?txSecret=638983f635aff566623db5335521b9ff&txTime=6AC80B2A&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -54,7 +22,7 @@
       "title": "INDEPENDIENTE YUMBO VS TIGRES ZIPAQUIRA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeNpFTU4b1H.m3u8?txSecret=c1ba88ec4aa037467a00e56e8a0091f0&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeNpFTU4b1H.m3u8?txSecret=7735ffcba957e853d12679dadfcb93d7&txTime=6AC80B2B&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -62,15 +30,7 @@
       "title": "ATLETICO FC VS REAL CARTAGENA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeR1jKwtWAB.m3u8?txSecret=bc242869dc5381926714a4d7d92e9dbb&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "category": "Sports"
-    },
-    {
-      "id": "live-867df47d8c",
-      "title": "SHAMROCK ROVERS VS DROGHEDA UNITED",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ZvkTpRbLLGnmD.m3u8?txSecret=01c40eb2ad9acea5bcbd3f1f6cc78ef1&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeR1jKwtWAB.m3u8?txSecret=b0ac512ce1667ae4fb5c86b0f3a34e10&txTime=6AC80B2C&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -78,39 +38,39 @@
       "title": "PORTMORE UNITED VS WATERHOUSE FC",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZ73VejDpzzXcWb.m3u8?txSecret=4e15fa33d93e81117162fae7e6debf19&txTime=6AC80340&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZ73VejDpzzXcWb.m3u8?txSecret=168cbe6dbd8c1210ce6af5d638750469&txTime=6AC80B2C&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-7f4afe92cf",
+      "id": "live-b30ff82463",
+      "title": "MAGHREB FEZ VS RAJA CLUB ATHLETIC",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip1oZ4hYMhDMkSj.m3u8?txSecret=1bd735c73e3453dbd5076ea3356a6934&txTime=6AC80B2C&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3f8470fd4e",
       "title": "BOSS",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1791496250-0-0-64d55e17de30ce15af306ee8f2ca27ab",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1791498264-0-0-1c73134c01513e6e7c32a65e97eb0314",
       "category": "Sports"
     },
     {
-      "id": "live-c1bf0297fd",
+      "id": "live-099d131f0b",
       "title": "XUÂN SON",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=f130d1b25501a2220985fae4cbaef61d&txTime=6ac85690",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=5576a6a8d51ee73d886d3eb2bc4ffaba&txTime=6ac85e71",
       "category": "Sports"
     },
     {
-      "id": "live-a5c61b52cd",
+      "id": "live-53b62efb9e",
       "title": "TUẤN CÙI",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1791496277-0-0-47fc2e666b6f5b69e4191c0e2a3042b4",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1c0f750cd0",
-      "title": "BLV MONSTER",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/75915087_tsc.m3u8",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1791498280-0-0-5c6becaae31eba10037b2252aff13bd7",
       "category": "Sports"
     },
     {
@@ -130,6 +90,46 @@
       "category": "Sports"
     },
     {
+      "id": "live-8e062b35b7",
+      "title": "CR FLAMENGO (Y) VS VASCO U20",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=8e5a20066d6a8e2c8ce6005d0b1165f8&wsABSTime=1791537896",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5051bddb35",
+      "title": "BENTIN TACNA HEROICA VS CARLOS MANNUCCI",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=4255480e47a020562bceee5646717618&wsABSTime=1791537902",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2dbc04c7de",
+      "title": "MAGHREB FEZ VS RAJA CASABLANCA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=8e10154147845b8ef3b8ed7ab6ab129b&wsABSTime=1791537907",
+      "category": "Sports"
+    },
+    {
+      "id": "live-29406edfce",
+      "title": "FAR RABAT VS WIDAD TÉMARA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=2y32x9wUxo2jRLP4Nhcx2fAYKGA&exp=1791494409",
+      "category": "Sports"
+    },
+    {
+      "id": "live-660deba07a",
+      "title": "CR KHEMIS ZEMAMRA VS HASSANIA AGADIR",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a11.kora-plus.li/live/tama.m3u8?token=RjFhnEa1EAfLHF4lIGnwCMBvkw8&exp=1791494416",
+      "category": "Sports"
+    },
+    {
       "id": "live-b5417549b1",
       "title": "SHAMROCK ROVERS VS DROGHEDA UTD",
       "status": "live",
@@ -138,27 +138,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-3b90c29050",
-      "title": "ALWAYS READY VS NACIONAL POTOSI",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=27b3a9efd688e7a671705efc51dd8207&wsABSTime=1791535907",
-      "category": "Sports"
-    },
-    {
       "id": "live-eee7d6128b",
       "title": "ATLETICO FUTBOL CLUB VS SAN ANTONIO(ECU)",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=cdfa3be7a73254abf79165b53206d6c0&wsABSTime=1791535913",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b30ff82463",
-      "title": "MAGHREB FEZ VS RAJA CLUB ATHLETIC",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip1oZ4hYMhDMkSj.m3u8?txSecret=4697276ae92379911683910089cd35fa&txTime=6AC7FB60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -199,14 +183,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=5d26cfff11775fb66f6fda881b247f5d&wsABSTime=1791372170",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a8f454ff90",
-      "title": "OLIMPIA ASUNCION VS FC NACIONAL ASUNCION",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=5b1e74ee68a4793a9988ff28368bfe2a&wsABSTime=1791372179",
       "category": "Sports"
     },
     {
