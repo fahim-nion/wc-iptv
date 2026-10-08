@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import config from '../../config.js';
 import fs from 'fs';
+import { execSync } from 'child_process';
 
 puppeteer.use(stealth());
 
@@ -398,6 +399,108 @@ export async function discoverCamel1() {
         } catch (e) {
             console.log(`[CAMEL1] Quick scan notice: ${e.message}`);
         }
+    }
+
+    return matches;
+}
+
+// --- HESGOAL (hesgoalltv.net) DISCOVERY ---
+async function safeFetchText(url, headers = {}) {
+    try {
+        const res = await fetch(url, { headers, signal: AbortSignal.timeout(8000) });
+        if (res.ok) return await res.text();
+    } catch (e) {}
+    try {
+        const headerArgs = Object.entries(headers).map(([k, v]) => `-H "${k}: ${v}"`).join(' ');
+        return execSync(`curl -sL ${headerArgs} "${url}"`, { timeout: 10000, maxBuffer: 10 * 1024 * 1024 }).toString();
+    } catch (e) {
+        return null;
+    }
+}
+
+export async function discoverHesGoal() {
+    const source = config.sources.hesgoal;
+    if (!source || !source.enabled) return [];
+
+    console.log(`\n🔍 [HESGOAL] Scanning matches from hesgoalltv.net...`);
+    const matches = [];
+
+    try {
+        const homepageUrl = source.homepage || "https://hesgoalltv.net/";
+        const html = await safeFetchText(homepageUrl, {
+            'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        });
+
+        if (!html) {
+            console.log(`[HESGOAL] Could not load homepage`);
+            return [];
+        }
+
+        const scriptMatch = html.match(/<script>([\s\S]*?kfDecode[\s\S]*?)<\/script>/);
+        if (!scriptMatch) {
+            console.log(`[HESGOAL] kfDecode decoder script not found on homepage`);
+            return [];
+        }
+
+        const decoderFunc = new Function('window', `${scriptMatch[1]}; return window.kfDecode;`);
+        const kfDecode = decoderFunc(globalThis);
+
+        if (typeof kfDecode !== 'function') {
+            console.log(`[HESGOAL] Failed to initialize kfDecode function`);
+            return [];
+        }
+
+        const apiUrl = source.api || "https://cdn.kora-api.org/api/v1/matches?lang=en";
+        const encData = await safeFetchText(apiUrl, {
+            'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Referer': homepageUrl,
+            'Accept': 'application/json'
+        });
+
+        if (!encData) {
+            console.log(`[HESGOAL] Failed to fetch encrypted matches API`);
+            return [];
+        }
+
+        const data = await kfDecode(encData);
+        const rawMatches = Array.isArray(data) ? data : (data?.matches || []);
+        const liveDomain = data.en_live_domain || data.live_domain || "goalakor.space";
+
+        const liveMatches = [];
+        const otherMatches = [];
+
+        for (const m of rawMatches) {
+            if (parseInt(m.status) === 2) continue; // Finished
+            if (Number(m.active) === 0 || Number(m.has_channels) === 0) continue;
+
+            const home = m.home?.name || "";
+            const away = m.away?.name || "";
+            if (!home || !away) continue;
+
+            const title = `${home} VS ${away}`.toUpperCase();
+            const matchUrl = `https://${liveDomain}/kora.html?m=${m.id}`;
+            const isLive = parseInt(m.status) === 1 || parseInt(m.status) === 3;
+
+            const item = {
+                source: 'hesgoal',
+                title,
+                url: matchUrl,
+                matchId: m.id,
+                liveDomain,
+                isLive
+            };
+
+            if (isLive) {
+                liveMatches.push(item);
+            } else {
+                otherMatches.push(item);
+            }
+        }
+
+        matches.push(...liveMatches, ...otherMatches);
+        console.log(`[HESGOAL] Discovered ${matches.length} matches (${liveMatches.length} live).`);
+    } catch (e) {
+        console.error(`[HESGOAL Discovery Error]: ${e.message}`);
     }
 
     return matches;

@@ -29,6 +29,13 @@ export default {
             priority: 5,
             homepage: "https://www.camel1.tv/",
             mirrors: []
+        },
+        hesgoal: {
+            enabled: true,
+            priority: 6,
+            homepage: "https://hesgoalltv.net/",
+            api: "https://cdn.kora-api.org/api/v1/matches?lang=en",
+            mirrors: []
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

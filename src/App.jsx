@@ -120,6 +120,7 @@ export default function App() {
 
       let matchesSource = true;
       if (sourceFilter === 'LIVELIVE24') matchesSource = (c.source || '').toLowerCase().includes('livelive24');
+      else if (sourceFilter === 'HESGOAL') matchesSource = (c.source || '').toLowerCase().includes('hesgoal');
       else if (sourceFilter === 'CAMEL1') matchesSource = (c.source || '').toLowerCase().includes('camel1');
       else if (sourceFilter === 'PERMANENT') matchesSource = !!c.isPermanent;
 
@@ -248,20 +249,30 @@ export default function App() {
               <p className="text-[10px] font-black text-amber-400 uppercase tracking-widest mb-2 flex items-center gap-1.5">
                 <SlidersHorizontal size={12} /> Sources
               </p>
-              <div className="grid grid-cols-2 gap-1.5">
+              <div className="grid grid-cols-3 gap-1.5">
                 <button
                   onClick={() => setSourceFilter(sourceFilter === 'LIVELIVE24' ? 'ALL' : 'LIVELIVE24')}
-                  className={`px-2.5 py-2 rounded-xl text-[10px] font-black uppercase transition-all flex items-center gap-1.5 justify-center border ${
+                  className={`px-2 py-2 rounded-xl text-[10px] font-black uppercase transition-all flex items-center gap-1 justify-center border ${
                     sourceFilter === 'LIVELIVE24' 
                       ? 'bg-amber-500 text-black border-amber-400 shadow-md shadow-amber-500/20' 
                       : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
                   }`}
                 >
-                  <Flame size={12} /> LiveLive24
+                  <Flame size={12} /> Live24
+                </button>
+                <button
+                  onClick={() => setSourceFilter(sourceFilter === 'HESGOAL' ? 'ALL' : 'HESGOAL')}
+                  className={`px-2 py-2 rounded-xl text-[10px] font-black uppercase transition-all flex items-center gap-1 justify-center border ${
+                    sourceFilter === 'HESGOAL' 
+                      ? 'bg-amber-500 text-black border-amber-400 shadow-md shadow-amber-500/20' 
+                      : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
+                  }`}
+                >
+                  <Globe size={12} /> HesGoal
                 </button>
                 <button
                   onClick={() => setSourceFilter(sourceFilter === 'CAMEL1' ? 'ALL' : 'CAMEL1')}
-                  className={`px-2.5 py-2 rounded-xl text-[10px] font-black uppercase transition-all flex items-center gap-1.5 justify-center border ${
+                  className={`px-2 py-2 rounded-xl text-[10px] font-black uppercase transition-all flex items-center gap-1 justify-center border ${
                     sourceFilter === 'CAMEL1' 
                       ? 'bg-amber-500 text-black border-amber-400 shadow-md shadow-amber-500/20' 
                       : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'

@@ -61,6 +61,48 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         }
         return null;
     }
+
+    // 0c. Fast resolver for HesGoal (kora.html / goalakor.space)
+    if (
+        label.toUpperCase().includes('HESGOAL') ||
+        targetUrl.includes('kora.html') ||
+        targetUrl.includes('goalakor.space') ||
+        targetUrl.includes('hesgoalltv.net')
+    ) {
+        const browser = await puppeteer.launch({ 
+            executablePath: CHROME_PATH || undefined,
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+        });
+        const page = await browser.newPage();
+        let streamUrl = null;
+
+        try {
+            page.on('response', (res) => {
+                const u = res.url();
+                if (u.includes('.m3u8') && !streamUrl) {
+                    streamUrl = u;
+                }
+            });
+
+            await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
+            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
+            await page.waitForResponse(res => res.url().includes('.m3u8'), { timeout: 8000 }).catch(() => {});
+            
+            if (streamUrl) {
+                const val = await validateStream(streamUrl, targetUrl);
+                if (val.isValid) {
+                    return { url: streamUrl, type: 'HLS' };
+                }
+            }
+        } catch (e) {
+            console.log(`   ✘ [${label}] Extraction failed: ${e.message}`);
+        } finally {
+            await browser.close();
+        }
+        return null;
+    }
+
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true,

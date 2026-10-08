@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1 } from './discovery/matchDiscovery.js';
+import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1, discoverHesGoal } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
 import { validateStream } from './validation/validateStream.js'; 
@@ -36,8 +36,9 @@ async function runCycle() {
             }
         } catch (e) { console.log("No existing data found."); }
 
-        // 2. Discovery (Including Camel1 and LiveLive24)
+        // 2. Discovery (Including Camel1, LiveLive24, and HesGoal)
         const live24 = await discoverLiveLive24().catch(() => []);
+        const hesgoal = await discoverHesGoal().catch(() => []);
         const cam = await discoverCamel1().catch(() => []);
         const soco = await discoverSocolive().catch(() => []);
         const cola = await discoverColaTV().catch(() => []);
@@ -46,9 +47,10 @@ async function runCycle() {
         const newResults = [];
         const seenUrls = new Set();
 
-        // Queue: All servers from LiveLive24 TopHD, top Camel1 matches, then Socolive/ColaTV/Xoilac
+        // Queue: All servers from LiveLive24, HesGoal matches, top Camel1 matches, then Socolive/ColaTV/Xoilac
         const queue = [
             ...live24,
+            ...hesgoal,
             ...cam.slice(0, 5),
             ...soco.slice(0, 3), 
             ...cola.slice(0, 3), 
