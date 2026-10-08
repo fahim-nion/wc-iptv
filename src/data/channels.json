@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-08T20:19:15.248Z",
+  "updatedAt": "2026-10-08T20:51:58.321Z",
   "channels": [
     {
       "id": "live-3b3d81f7bf",
       "title": "SHAMROCK ROVERS VS DROGHEDA UNITED [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tfzy3gr3uomttgr31hp3tfa3dqmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdTN5QDN1UzXyAjM/playlist.m3u8?wsSecret=f47162092e2063324534b725f4994f56&wsABSTime=6ACD2DFC&wsSession=e27a59ec2958e61c83a25407-179149059056110&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446950356247",
+      "streamUrl": "https://tfzy1gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdTN5QDN1UzXyAjM/playlist.m3u8?wsSecret=f47162092e2063324534b725f4994f56&wsABSTime=6ACD2DFC&wsSession=d93f1653005da63c1d22c725-179149260010094&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168240832916737938",
       "category": "Sports"
     },
     {
@@ -22,7 +22,7 @@
       "title": "FAR RABAT VS WIDAD TÉMARA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/riadia.m3u8?token=O6xOLDRDCKQpsGlUrnRjk6pGPxA&exp=1791492398",
+      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=2y32x9wUxo2jRLP4Nhcx2fAYKGA&exp=1791494409",
       "category": "Sports"
     },
     {
@@ -30,7 +30,7 @@
       "title": "CR KHEMIS ZEMAMRA VS HASSANIA AGADIR",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/tama.m3u8?token=dDRlm454h34HHemgeyBjWgc8EzQ&exp=1791492404",
+      "streamUrl": "https://a11.kora-plus.li/live/tama.m3u8?token=RjFhnEa1EAfLHF4lIGnwCMBvkw8&exp=1791494416",
       "category": "Sports"
     },
     {
@@ -38,7 +38,31 @@
       "title": "MAGHREB FÈS VS RAJA CASABLANCA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/riadia.m3u8?token=Brfe7cUfzVamdcrSB8j2CdjJD2o&exp=1791492409",
+      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=9BZ5jDSDPQjATSqawoYf78WbPk0&exp=1791494423",
+      "category": "Sports"
+    },
+    {
+      "id": "live-556679668f",
+      "title": "ATLETICO GRAU VS LOS CHANKAS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpxeKVtPJ1U9AbR.m3u8?txSecret=8de8b857bd85bce78636fd022776f568&txTime=6AC8033E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf6589c3bc",
+      "title": "INDEPENDIENTE YUMBO VS TIGRES ZIPAQUIRA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeNpFTU4b1H.m3u8?txSecret=c1ba88ec4aa037467a00e56e8a0091f0&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-127ea52ce8",
+      "title": "ATLETICO FC VS REAL CARTAGENA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarUroeR1jKwtWAB.m3u8?txSecret=bc242869dc5381926714a4d7d92e9dbb&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -46,15 +70,39 @@
       "title": "SHAMROCK ROVERS VS DROGHEDA UNITED",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ZvkTpRbLLGnmD.m3u8?txSecret=79bc87cd9e9324c93eb221561b04a396&txTime=6AC7FB5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ZvkTpRbLLGnmD.m3u8?txSecret=01c40eb2ad9acea5bcbd3f1f6cc78ef1&txTime=6AC8033F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
-      "id": "live-b30ff82463",
-      "title": "MAGHREB FEZ VS RAJA CLUB ATHLETIC",
+      "id": "live-00fdd876ba",
+      "title": "PORTMORE UNITED VS WATERHOUSE FC",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip1oZ4hYMhDMkSj.m3u8?txSecret=4697276ae92379911683910089cd35fa&txTime=6AC7FB60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZ73VejDpzzXcWb.m3u8?txSecret=4e15fa33d93e81117162fae7e6debf19&txTime=6AC80340&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7f4afe92cf",
+      "title": "BOSS",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1791496250-0-0-64d55e17de30ce15af306ee8f2ca27ab",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c1bf0297fd",
+      "title": "XUÂN SON",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=f130d1b25501a2220985fae4cbaef61d&txTime=6ac85690",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5c61b52cd",
+      "title": "TUẤN CÙI",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1791496277-0-0-47fc2e666b6f5b69e4191c0e2a3042b4",
       "category": "Sports"
     },
     {
@@ -70,7 +118,7 @@
       "title": "BLV PEPSI",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "streamUrl": "https://live05.meung.app/live/59444581_tsc.m3u8",
       "category": "Sports"
     },
     {
@@ -79,6 +127,38 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b5417549b1",
+      "title": "SHAMROCK ROVERS VS DROGHEDA UTD",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001791492701-0-0-b41a750cd750f283aeefc72b9f792939",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3b90c29050",
+      "title": "ALWAYS READY VS NACIONAL POTOSI",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=27b3a9efd688e7a671705efc51dd8207&wsABSTime=1791535907",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eee7d6128b",
+      "title": "ATLETICO FUTBOL CLUB VS SAN ANTONIO(ECU)",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=cdfa3be7a73254abf79165b53206d6c0&wsABSTime=1791535913",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b30ff82463",
+      "title": "MAGHREB FEZ VS RAJA CLUB ATHLETIC",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxip1oZ4hYMhDMkSj.m3u8?txSecret=4697276ae92379911683910089cd35fa&txTime=6AC7FB60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "category": "Sports"
     },
     {
@@ -103,38 +183,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel10.flv?wsSecret=768831cedec9fba2f6af74c54da5e9d2&wsABSTime=1791532595",
-      "category": "Sports"
-    },
-    {
-      "id": "live-193cf4e145",
-      "title": "BLV BÍ ĐAO",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b5417549b1",
-      "title": "SHAMROCK ROVERS VS DROGHEDA UTD",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001791490733-0-0-b15c44adb9f1889047d863a3d9e49aa8",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3b90c29050",
-      "title": "ALWAYS READY VS NACIONAL POTOSI",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=f582cad07b8123cdf6d5c3eadbeb962d&wsABSTime=1791533938",
-      "category": "Sports"
-    },
-    {
-      "id": "live-eee7d6128b",
-      "title": "ATLETICO FUTBOL CLUB VS SAN ANTONIO(ECU)",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=ca31809c4669810ea8b41a1051e0e708&wsABSTime=1791533943",
       "category": "Sports"
     },
     {
