@@ -70,7 +70,39 @@
       "title": "BLV PEPSI",
       "status": "live",
       "source": "colatv",
-      "streamUrl": "https://live05.meung.app/live/59444581_tsc.m3u8",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-193cf4e145",
+      "title": "BLV BÍ ĐAO",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "category": "Sports"
+    },
+    {
+      "id": "live-354a3053b9",
+      "title": "MOQUEGUA VS CIENCIANO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001791489376-0-0-0dd7c44538362186d53e2b5b1132c367",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f9241a760c",
+      "title": "ATLETICO MINEIRO U20 VS ATHLETIC CLUB MG U20",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel8.flv?wsSecret=29309de11891e2a15a7ad274b909f63e&wsABSTime=1791532586",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be5dd2a513",
+      "title": "ATLETICO TUCUMAN (R) VS TALLERES CORDOBA (R)",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel10.flv?wsSecret=768831cedec9fba2f6af74c54da5e9d2&wsABSTime=1791532595",
       "category": "Sports"
     },
     {
@@ -110,7 +142,23 @@
       "title": "ARGENTINA VS BENIN",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791326180-0-0-d555a1b5affa0bcbeb436f1d9776a112",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791328962-0-0-f800a29ee7ce6b28a104d775039d78cd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6538addb0c",
+      "title": "REAL POTOSI VS S. ANTONIO BULO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=5d26cfff11775fb66f6fda881b247f5d&wsABSTime=1791372170",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a8f454ff90",
+      "title": "OLIMPIA ASUNCION VS FC NACIONAL ASUNCION",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=5b1e74ee68a4793a9988ff28368bfe2a&wsABSTime=1791372179",
       "category": "Sports"
     },
     {
@@ -119,14 +167,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791326195-0-0-92628198fb238388611638010826747a",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6538addb0c",
-      "title": "REAL POTOSI VS S. ANTONIO BULO",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=28536f1602f6d9faad70f9d32d2f3dd5&wsABSTime=1791369411",
       "category": "Sports"
     },
     {
