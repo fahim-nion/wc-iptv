@@ -11,16 +11,34 @@ export default async (req, context) => {
     return new Response("Invalid URL", { status: 400 });
   }
 
+  if (req.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+        "Access-Control-Allow-Headers": "*"
+      }
+    });
+  }
+
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 20000);
 
   try {
+    const fetchHeaders = {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Range": req.headers.get("range") || ""
+    };
+
+    if (targetUrl.includes("kora-plus.li") || targetUrl.includes("goalakor")) {
+      fetchHeaders["Referer"] = "https://goalakor.space/";
+      fetchHeaders["Origin"] = "https://goalakor.space";
+    }
+
     const response = await fetch(targetUrl, {
       signal: controller.signal,
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Range": req.headers.get("range") || ""
-      }
+      headers: fetchHeaders
     });
 
     clearTimeout(timeoutId);
@@ -31,19 +49,24 @@ export default async (req, context) => {
     // 1. If it's a playlist, rewrite all segment URLs to go back through this proxy
     if (isPlaylist) {
       let text = await response.text();
-      const baseUrl = new URL(req.url).origin + "/.netlify/functions/stream";
+      const baseUrl = new URL(req.url).origin + (new URL(req.url).pathname.includes("/api/stream") ? "/api/stream" : "/.netlify/functions/stream");
 
-      const rewrittenPlaylist = text.split("\n").map(line => {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed.startsWith("#")) return line;
-        
-        // Resolve relative URLs to absolute before proxying
+      const rewriteUri = (uri) => {
         try {
-          const absoluteUrl = new URL(trimmed, targetUrl).href;
+          const absoluteUrl = new URL(uri, targetUrl).href;
           return `${baseUrl}?url=${encodeURIComponent(absoluteUrl)}`;
         } catch (e) {
-          return line;
+          return uri;
         }
+      };
+
+      const rewrittenPlaylist = text.split(/\r?\n/).map(line => {
+        const trimmed = line.trim();
+        if (!trimmed) return line;
+        if (trimmed.startsWith("#")) {
+          return line.replace(/URI="([^"]+)"/g, (match, uri) => `URI="${rewriteUri(uri)}"`);
+        }
+        return rewriteUri(trimmed);
       }).join("\n");
 
       return new Response(rewrittenPlaylist, {

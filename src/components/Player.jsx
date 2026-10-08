@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
+import { getStreamUrl } from '../services/streamProxy';
 import { 
   Play, 
   Pause, 
@@ -117,14 +118,16 @@ export default function Player({
     setErrorMessage('');
 
     // Protocol upgrade (HTTP -> HTTPS when site is HTTPS)
-    let streamUrl = channel.url || '';
-    if (typeof window !== 'undefined' && window.location.protocol === 'https:' && streamUrl.startsWith('http://')) {
-      streamUrl = streamUrl.replace(/^http:\/\//i, 'https://');
+    let rawUrl = channel.url || '';
+    if (typeof window !== 'undefined' && window.location.protocol === 'https:' && rawUrl.startsWith('http://')) {
+      rawUrl = rawUrl.replace(/^http:\/\//i, 'https://');
     }
+    const streamUrl = getStreamUrl(rawUrl);
 
-    const urlLower = streamUrl.toLowerCase();
-    const isFLV = urlLower.includes('.flv');
-    const isTS = urlLower.includes('.ts') || urlLower.includes('mpegts');
+    const rawLower = rawUrl.toLowerCase();
+    const isHLS = rawLower.includes('.m3u8');
+    const isFLV = !isHLS && rawLower.includes('.flv');
+    const isTS = !isHLS && (rawLower.includes('.ts') || rawLower.includes('mpegts'));
     setStreamType(isFLV ? 'HTTP-FLV' : (isTS ? 'MPEG-TS' : 'HLS'));
 
     // Progress Bar simulation

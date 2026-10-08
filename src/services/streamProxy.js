@@ -1,12 +1,24 @@
 const PROXY = import.meta.env.VITE_PROXY_URL;
 
 export function getStreamUrl(url) {
-  if (!PROXY || PROXY.length === 0) {
-    return url;
+  if (!url) return '';
+
+  if (PROXY && PROXY.length > 0) {
+    if (url.startsWith(PROXY)) return url;
+    return `${PROXY}?url=${encodeURIComponent(url)}`;
   }
   
-  // Ensure we don't double-proxy
-  if (url.startsWith(PROXY)) return url;
+  // Auto-route streams that restrict CORS (HesGoal / kora-plus.li) through the built-in proxy
+  const isCorsRestricted = 
+    url.includes('kora-plus.li') || 
+    url.includes('goalakor.space') || 
+    url.includes('kora-api') ||
+    url.includes('robotiva.online');
 
-  return `${PROXY}?url=${encodeURIComponent(url)}`;
+  if (isCorsRestricted) {
+    if (url.includes('/api/stream?url=')) return url;
+    return `/api/stream?url=${encodeURIComponent(url)}`;
+  }
+
+  return url;
 }
