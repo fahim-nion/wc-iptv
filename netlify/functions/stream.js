@@ -31,7 +31,13 @@ export default async (req, context) => {
       "Range": req.headers.get("range") || ""
     };
 
-    if (targetUrl.includes("kora-plus.li") || targetUrl.includes("goalakor")) {
+    const needsReferer = 
+      targetUrl.includes("kora-plus.li") || 
+      targetUrl.includes("goalakor") || 
+      targetUrl.includes("edgestream") ||
+      targetUrl.includes("robotiva");
+
+    if (needsReferer) {
       fetchHeaders["Referer"] = "https://goalakor.space/";
       fetchHeaders["Origin"] = "https://goalakor.space";
     }

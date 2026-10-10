@@ -121,8 +121,9 @@ export default function Player({
     let rawUrl = channel.url || '';
     if (typeof window !== 'undefined' && window.location.protocol === 'https:' && rawUrl.startsWith('http://')) {
       rawUrl = rawUrl.replace(/^http:\/\//i, 'https://');
+      channel = { ...channel, url: rawUrl }; // update channel url for the proxy check
     }
-    const streamUrl = getStreamUrl(rawUrl);
+    const streamUrl = getStreamUrl(channel);
 
     const rawLower = rawUrl.toLowerCase();
     const isHLS = rawLower.includes('.m3u8');

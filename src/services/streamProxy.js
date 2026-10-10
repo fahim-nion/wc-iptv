@@ -1,6 +1,9 @@
 const PROXY = import.meta.env.VITE_PROXY_URL;
 
-export function getStreamUrl(url) {
+export function getStreamUrl(channelOrUrl) {
+  const url = typeof channelOrUrl === 'string' ? channelOrUrl : (channelOrUrl?.url || '');
+  const source = typeof channelOrUrl === 'string' ? '' : (channelOrUrl?.source || '');
+
   if (!url) return '';
 
   if (PROXY && PROXY.length > 0) {
@@ -8,9 +11,11 @@ export function getStreamUrl(url) {
     return `${PROXY}?url=${encodeURIComponent(url)}`;
   }
   
-  // Auto-route streams that restrict CORS (HesGoal / kora-plus.li) through the built-in proxy
+  // Auto-route streams that restrict CORS (HesGoal / kora-plus.li / edgestream) through the built-in proxy
   const isCorsRestricted = 
+    source.toLowerCase().includes('hesgoal') ||
     url.includes('kora-plus.li') || 
+    url.includes('edgestream') || 
     url.includes('goalakor.space') || 
     url.includes('kora-api') ||
     url.includes('robotiva.online');
