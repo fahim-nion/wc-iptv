@@ -31,15 +31,32 @@ export default async (req, context) => {
       "Range": req.headers.get("range") || ""
     };
 
+    const isXyzStream = 
+      targetUrl.includes("fancy-shark151.workers.dev") || 
+      targetUrl.includes("tokenized.b-cdn.net") || 
+      targetUrl.includes("xyzstreams.space");
+
     const needsReferer = 
       targetUrl.includes("kora-plus.li") || 
       targetUrl.includes("goalakor") || 
       targetUrl.includes("edgestream") ||
-      targetUrl.includes("robotiva");
+      targetUrl.includes("robotiva") ||
+      targetUrl.includes("indianservers.st") ||
+      isXyzStream;
 
     if (needsReferer) {
-      fetchHeaders["Referer"] = "https://goalakor.space/";
-      fetchHeaders["Origin"] = "https://goalakor.space";
+      if (isXyzStream) {
+        fetchHeaders["Referer"] = "https://xyzstreams.st/";
+        fetchHeaders["Origin"] = "https://xyzstreams.st";
+        const token = urlParams.get("token") || new URL(targetUrl).searchParams.get("token");
+        if (token) fetchHeaders["x-token"] = token;
+      } else if (targetUrl.includes("indianservers.st")) {
+        fetchHeaders["Referer"] = "https://taifood-blog.asia/";
+        fetchHeaders["Origin"] = "https://taifood-blog.asia";
+      } else {
+        fetchHeaders["Referer"] = "https://goalakor.space/";
+        fetchHeaders["Origin"] = "https://goalakor.space";
+      }
     }
 
     const response = await fetch(targetUrl, {

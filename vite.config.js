@@ -29,15 +29,32 @@ function streamProxyPlugin() {
       };
       if (req.headers.range) headers['Range'] = req.headers.range;
 
+      const isXyzStream = 
+        targetUrl.includes('fancy-shark151.workers.dev') || 
+        targetUrl.includes('tokenized.b-cdn.net') || 
+        targetUrl.includes('xyzstreams.space');
+
       const needsReferer = 
         targetUrl.includes('kora-plus.li') || 
         targetUrl.includes('goalakor') || 
         targetUrl.includes('edgestream') ||
-        targetUrl.includes('robotiva');
+        targetUrl.includes('robotiva') ||
+        targetUrl.includes('indianservers.st') ||
+        isXyzStream;
       
       if (needsReferer) {
-        headers['Referer'] = 'https://goalakor.space/';
-        headers['Origin'] = 'https://goalakor.space';
+        if (isXyzStream) {
+          headers['Referer'] = 'https://xyzstreams.st/';
+          headers['Origin'] = 'https://xyzstreams.st';
+          const token = parsedUrl.searchParams.get('token');
+          if (token) headers['x-token'] = token;
+        } else if (targetUrl.includes('indianservers.st')) {
+          headers['Referer'] = 'https://taifood-blog.asia/';
+          headers['Origin'] = 'https://taifood-blog.asia';
+        } else {
+          headers['Referer'] = 'https://goalakor.space/';
+          headers['Origin'] = 'https://goalakor.space';
+        }
       }
 
       const response = await fetch(targetUrl, { headers });

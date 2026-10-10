@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1, discoverHesGoal } from './discovery/matchDiscovery.js';
+import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1, discoverHesGoal, discoverXyzStreams, discoverPpv } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
 import { validateStream } from './validation/validateStream.js'; 
@@ -43,6 +43,8 @@ async function runCycle() {
         const soco = await discoverSocolive().catch(() => []);
         const cola = await discoverColaTV().catch(() => []);
         const xoi = await discoverXoilac().catch(() => []);
+        const xyz = await discoverXyzStreams().catch(() => []);
+        const ppv = await discoverPpv().catch(() => []);
         
         const newResults = [];
         const seenUrls = new Set();
@@ -51,6 +53,8 @@ async function runCycle() {
         const queue = [
             ...live24,
             ...hesgoal,
+            ...xyz,
+            ...ppv,
             ...cam.slice(0, 5),
             ...soco.slice(0, 3), 
             ...cola.slice(0, 3), 
@@ -62,7 +66,12 @@ async function runCycle() {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
             try {
-                const stream = await captureNetworkStream(match.url, match.source.toUpperCase());
+                let stream = null;
+                if (match.source === 'ppv') {
+                    stream = { url: match.url, type: 'IFRAME' };
+                } else {
+                    stream = await captureNetworkStream(match.url, match.source.toUpperCase());
+                }
                 if (stream && stream.url) {
                     const finalTitle = match.title.toUpperCase();
                     console.log(chalk.green(`   ✔ Captured: ${finalTitle}`));
@@ -72,6 +81,7 @@ async function runCycle() {
                         status: "live",
                         source: match.source,
                         streamUrl: stream.url,
+                        type: stream.type,
                         category: "Sports"
                     });
                 }

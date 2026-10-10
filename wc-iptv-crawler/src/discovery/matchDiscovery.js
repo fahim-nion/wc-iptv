@@ -505,3 +505,100 @@ export async function discoverHesGoal() {
 
     return matches;
 }
+export async function discoverXyzStreams() {
+    console.log(`\n🔍 [XYZSTREAMS] Scanning matches from xyzstreams.st...`);
+    const matches = [];
+    try {
+        const res = await fetch("https://xyzstreams.st", {
+            headers: { "User-Agent": "Mozilla/5.0" }
+        });
+        const text = await res.text();
+        const eventDataMatch = text.match(/const EVENTS_DATA\s*=\s*(\[.*?\]);/s);
+        if (eventDataMatch) {
+            let events = [];
+            try {
+                events = JSON.parse(eventDataMatch[1]);
+            } catch (e) {}
+            
+            for (const ev of events) {
+                const category = (ev.category || '').toLowerCase();
+                if ((category.includes('football') || category.includes('soccer')) && ev.title && ev.href) {
+                    const matchUrl = `https://xyzstreams.st/${ev.href}`;
+                    matches.push({
+                        title: ev.title.trim().toUpperCase(),
+                        url: matchUrl,
+                        source: 'xyzstreams'
+                    });
+                }
+            }
+        }
+    } catch (e) {
+        console.log(`   ✘ [XYZSTREAMS] Discovery failed: ${e.message}`);
+    }
+    console.log(`[XYZSTREAMS] Discovered ${matches.length} matches.`);
+    return matches;
+}
+
+export async function discoverStreamcorner() {
+    console.log(`\n🔍 [STREAMCORNER] Scanning matches from streamcorner.st...`);
+    const matches = [];
+    const CHROME_PATH = getChromePath();
+    const browser = await puppeteer.launch({
+        headless: "new",
+        executablePath: CHROME_PATH,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    });
+    
+    try {
+        const page = await browser.newPage();
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+        
+        await page.goto("https://streamcorner.st", { waitUntil: 'networkidle2', timeout: 30000 });
+        
+        // CF protection might take a moment
+        await new Promise(r => setTimeout(r, 5000));
+
+        const content = await page.content();
+        
+        // Dump some HTML for me to see what's there
+        fs.writeFileSync('/tmp/streamcorner.html', content);
+
+        // TODO: extraction logic for streamcorner
+    } catch (e) {
+        console.log(`   ✘ [STREAMCORNER] Discovery failed: ${e.message}`);
+    } finally {
+        await browser.close();
+    }
+    
+    console.log(`[STREAMCORNER] Discovered ${matches.length} matches.`);
+    return matches;
+}
+
+export async function discoverPpv() {
+    console.log(`\n🔍 [PPV] Scanning matches from ppv.st...`);
+    const matches = [];
+    try {
+        const res = await fetch("https://api.ppv.st/api/streams");
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        const data = await res.json();
+        
+        if (data && data.streams) {
+            const footballCat = data.streams.find(c => c.category === "Football");
+            if (footballCat && footballCat.streams) {
+                for (const stream of footballCat.streams) {
+                    if (stream.iframe) {
+                        matches.push({
+                            title: stream.name.toUpperCase(),
+                            url: stream.iframe,
+                            source: 'ppv'
+                        });
+                    }
+                }
+            }
+        }
+    } catch (e) {
+        console.log(`   ✘ [PPV] Discovery failed: ${e.message}`);
+    }
+    console.log(`[PPV] Discovered ${matches.length} matches.`);
+    return matches;
+}

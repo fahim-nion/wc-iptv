@@ -136,6 +136,14 @@ export default function Player({
       setLoadingProgress(prev => (prev < 90 ? prev + Math.random() * 8 : prev));
     }, 400);
 
+    if (channel.type === 'IFRAME') {
+      clearInterval(progressInterval);
+      setLoadingProgress(100);
+      setIsLoading(false);
+      setIsPlaying(true);
+      return;
+    }
+
     // Watchdog timer (15 seconds before timeout)
     const watchdog = setTimeout(() => {
       if (videoRef.current && videoRef.current.readyState < 3) {
@@ -387,17 +395,26 @@ export default function Player({
         {/* Ambient Backlight Glow */}
         <div className="absolute -inset-1 bg-gradient-to-r from-amber-500/10 via-emerald-500/10 to-blue-500/10 blur-xl opacity-50 pointer-events-none" />
 
-        {/* Video Element */}
-        <video 
-          ref={videoRef} 
-          className={`w-full h-full ${fitMode === 'cover' ? 'object-cover' : 'object-contain'} relative z-0 transition-all duration-300`} 
-          playsInline 
-          onClick={() => {
-            if (!videoRef.current) return;
-            if (videoRef.current.paused) videoRef.current.play();
-            else videoRef.current.pause();
-          }} 
-        />
+        {channel?.type === 'IFRAME' ? (
+          <iframe 
+            src={channel.url}
+            className={`w-full h-full relative z-0 bg-black`}
+            allowFullScreen
+            allow="autoplay; fullscreen"
+            sandbox="allow-scripts allow-same-origin allow-presentation"
+          />
+        ) : (
+          <video 
+            ref={videoRef} 
+            className={`w-full h-full ${fitMode === 'cover' ? 'object-cover' : 'object-contain'} relative z-0 transition-all duration-300`} 
+            playsInline 
+            onClick={() => {
+              if (!videoRef.current) return;
+              if (videoRef.current.paused) videoRef.current.play();
+              else videoRef.current.pause();
+            }} 
+          />
+        )}
 
         {/* Modern Loading State (Glowing Radar) */}
         {isLoading && !hasError && (

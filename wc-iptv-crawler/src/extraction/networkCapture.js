@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
 import { validateStream } from '../validation/validateStream.js';
 import { getCamel1Stream } from './camelStreamResolver.js';
+import { getXyzStream } from './xyzStreamResolver.js';
 import fs from 'fs';
 
 puppeteer.use(stealth());
@@ -22,6 +23,13 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             if (camelStream && camelStream.url) {
                 return camelStream;
             }
+        }
+    }
+
+    if (label.toUpperCase().includes('XYZSTREAMS') || targetUrl.includes('xyzstreams.st')) {
+        const xyzStream = await getXyzStream(targetUrl);
+        if (xyzStream && xyzStream.url) {
+            return xyzStream;
         }
     }
 
