@@ -1,39 +1,12 @@
 {
-  "updatedAt": "2026-10-13T15:23:49.011Z",
+  "updatedAt": "2026-10-13T15:43:17.132Z",
   "channels": [
     {
-      "id": "live-315a121235",
-      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdjNwkjN4UzXyAjM/playlist.m3u8?wsSecret=098c0436f46331db84401a4000e6a707&wsABSTime=6AD38D3E&wsSession=568e6903693bcb2c962a3976-179190480240265&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-26b2504284",
-      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869067_1.m3u8?txSecret=08f250c2fb01e6bfe088bb3e0d842e97&txTime=6AD38DAA",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-282434b532",
-      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 3 - HD]",
+      "id": "live-8bc79943bb",
+      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CpZixy3uVp.m3u8?txSecret=fd513858f579475af8d204ad8698efe1&txTime=6AD38CC0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1090931b25",
-      "title": "SERBIA(W) VS FINLAND(W) [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfZjNwkjN4UzXyAjM/playlist.m3u8?wsSecret=8b16d326a91ea349ea2f512978f424c5&wsABSTime=6AD38D3D&wsSession=568e6903693bcb2c962a3976-179190480849859&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
       "type": "HLS",
       "category": "Sports"
     },
@@ -56,17 +29,8 @@
       "category": "Sports"
     },
     {
-      "id": "live-44dfc44f25",
-      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869065_1.m3u8?txSecret=ad83182729b55ce07e0b34b32976612d&txTime=6AD38D6E",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f895fbf399",
-      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 3 - HD]",
+      "id": "live-fb9b991209",
+      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CnNF6VDzLv.m3u8?txSecret=6326020b8b2e8c4d5146a0d9e12b9359&txTime=6AD38CC0",
@@ -79,15 +43,6 @@
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxipaNkMyZ17Cwafg.m3u8?txSecret=0a78dbd533e83dd519dabf5b0486e087&txTime=6AD390F8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9c821f03e6",
-      "title": "VILLARREAL U19 VS NAPOLI YOUTH [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfBTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=7d25f4877134a78dff819067b8da7c43&wsABSTime=6AD37F2D&wsSession=568e6903693bcb2c962a3976-179190481854066&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
       "type": "HLS",
       "category": "Sports"
     },
@@ -119,20 +74,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-5b0e884d6e",
-      "title": "EAST BENGAL FC VS AL SHORTA [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pullws-ac.yiom1.com/sport/gMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=08a996837dd98e4c44ec2c5e1ac66ef5&wsABSTime=6AD37BA9",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-6fecad61e6",
       "title": "EAST BENGAL FC VS AL SHORTA [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=44d5fa970d6c41c31f293b67a5e1f768&wsABSTime=6AD3795E&wsSession=568e6903693bcb2c962a3976-179190482592682&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
+      "streamUrl": "https://tg031gr3uomttgr31hcjo8rzdkqbpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=44d5fa970d6c41c31f293b67a5e1f768&wsABSTime=6AD3795E&wsSession=a2a21f52e623bb6d6b0b9287-179190594298970&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168286469458385516",
       "type": "HLS",
       "category": "Sports"
     },
@@ -168,7 +114,7 @@
       "title": "AL SADD VS AL-HILAL SAUDI FC",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/b2.m3u8?token=dw_fM4_OBLSIsP6sfHINAWxdGVs&exp=1791908443",
+      "streamUrl": "https://a11.kora-plus.li/live/b2.m3u8?token=79XXFoMYLOU6hIOyNmcf9e26ngU&exp=1791909563",
       "type": "HLS",
       "category": "Sports"
     },
@@ -177,7 +123,7 @@
       "title": "LENS VS SPORTING CP",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/tnt2.m3u8?token=dCATheH71rLFU8JJtllNuv47tyc&exp=1791908451",
+      "streamUrl": "https://a15.kora-plus.li/live/tnt2.m3u8?token=8K-uF3TczDp_uPHlVCY6HJwVGZY&exp=1791909575",
       "type": "HLS",
       "category": "Sports"
     },
@@ -186,7 +132,7 @@
       "title": "SABAH FA VS SLAVIA PRAHA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/tnt4.m3u8?token=uqpOD2Rxa6kO2FmKnKMA6LazSWo&exp=1791908466",
+      "streamUrl": "https://a13.kora-plus.li/live/tnt4.m3u8?token=sRJ9eSaSko5FzMCr7pir6xeZlzA&exp=1791909588",
       "type": "HLS",
       "category": "Sports"
     },
@@ -195,7 +141,7 @@
       "title": "RENAISSANCE BERKANE VS CR KHEMIS ZEMAMRA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/riadia.m3u8?token=49ZhFePP3vECNxSDTYyVtWvWmR8&exp=1791908483",
+      "streamUrl": "https://a14.kora-plus.li/live/riadia.m3u8?token=ZaNH2J5UnIpgu88ZfpTVg9Sm4LE&exp=1791909609",
       "type": "HLS",
       "category": "Sports"
     },
@@ -204,7 +150,7 @@
       "title": "AL-ITTIHAD FC VS SHABAB AL AHLI DUBAI",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/b2.m3u8?token=WzbMfd6Xw7zhPCwQYPsbHq7SNfI&exp=1791908499",
+      "streamUrl": "https://a15.kora-plus.li/live/b2.m3u8?token=z5WBLlvQ3Q55V07qy12_FlwetFE&exp=1791909621",
       "type": "HLS",
       "category": "Sports"
     },
@@ -213,7 +159,7 @@
       "title": "FUS RABAT VS RAJA CASABLANCA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/riadia.m3u8?token=up73clWwCCV3VsouGJsvs2fBZkI&exp=1791908514",
+      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=713Bz57BVNM21ce7C3M4pUGuL78&exp=1791909641",
       "type": "HLS",
       "category": "Sports"
     },
@@ -222,7 +168,7 @@
       "title": "LENS VS. SPORTING CP",
       "status": "live",
       "source": "ppv",
-      "streamUrl": "https://vishnu.indianservers.st/secure/hcmRmAGfziKjYtFyuarycROkxfkqlknM/1791899100/1791926100/tnt2/index.m3u8",
+      "streamUrl": "https://shiva.indianservers.st/secure/PSTfhHuSogcukwZGCJjAzXpgNOWWRBgt/1791899100/1791926100/tnt2/index.m3u8",
       "type": "HLS",
       "category": "Sports"
     },
@@ -231,7 +177,16 @@
       "title": "SABAH FK VS. SLAVIA PRAGUE",
       "status": "live",
       "source": "ppv",
-      "streamUrl": "https://shiva.indianservers.st/secure/lAOQZqxJxzbHJwSOwxtwVggJerHKAwBl/1791899100/1791926100/tnt4/index.m3u8",
+      "streamUrl": "https://vishnu.indianservers.st/secure/yERzRYFYfyQxYWfUTWqnwGblSCXEjvVi/1791899100/1791926100/tnt4/index.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2e02e1b1bd",
+      "title": "WREXHAM VS. WEST BROMWICH ALBION",
+      "status": "live",
+      "source": "ppv",
+      "streamUrl": "https://netanyahu.indianservers.st/secure/uFjZkmrxmOTWbScDTpBcSEHLugLgjniL/1791906300/1791933300/eng_wxm/index.m3u8",
       "type": "HLS",
       "category": "Sports"
     },
@@ -240,7 +195,7 @@
       "title": "EAST BENGAL FC VS AL SHORTA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=71da8420c3bb3afc6f8e3145d9716054&txTime=6ACE4DEE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=d6e470ab851710c624d385b80e437347&txTime=6ACE525E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -249,7 +204,7 @@
       "title": "PARNU JK VAPRUS VS NOMME JK KALJU",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jtfJWzHRVR.m3u8?txSecret=70d115d0ec606923b18d00c164041659&txTime=6ACE4DEF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jtfJWzHRVR.m3u8?txSecret=551926bdff7bb782a8aede12ad794672&txTime=6ACE5276&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -258,7 +213,7 @@
       "title": "HARJU JK LAAGRI VS FC NOMME UNITED",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jvrnPU7LeK.m3u8?txSecret=0cf7c8008839c73551b66194aaf2d4b8&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jvrnPU7LeK.m3u8?txSecret=31cb7656cf4306e9daebb922416fe250&txTime=6ACE5277&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -267,43 +222,34 @@
       "title": "BANK EL AHLY VS TALA EA EL GAISH",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=9048edf1810273061929fd22890b8a95&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=c918e8641a4fd11c83d60ccfd45ba1c7&txTime=6ACE5277&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-43480d7780",
-      "title": "ABOU QIR FERTILIZERS SC VS ASYUT PETROLEUM",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=d4ae14ab89fcba3518ffdb3e4aea3268&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-effc451942",
+      "id": "live-b465a85066",
       "title": "BLV COCA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1791908586-0-0-cd3d02562d4c25d3daad39816e1f753f",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1791909729-0-0-9eb2c17765cfdabb31dda6524d63122f",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-660cf217c0",
+      "id": "live-90aa4d50e5",
       "title": "BLV CÒ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1791908588-0-0-73eb0a521524dff3985c0cb7653414c0",
+      "streamUrl": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1791909737-0-0-b613636c0efca095b7492e8a776af217",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-5768a502a3",
+      "id": "live-772261220f",
       "title": "NGƯỜI CÁ",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1791908590-0-0-1e374c8b498db2b2eff1c487dafd4e1c",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1791909744-0-0-2180c35438f4dde636d55b9db747d031",
       "type": "HLS",
       "category": "Sports"
     },
@@ -326,20 +272,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-0529f9f233",
-      "title": "BLV COZY",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.zhwpg.app/live/87379114_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-966677e6c2",
       "title": "SABAH FK VS SK SLAVIA PRAHA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791905003-0-0-d129e4ccca49a167e51a82641b3783a6",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791906169-0-0-cc9215a1c4a8b251430664d0afb7554d",
       "type": "FLV",
       "category": "Sports"
     },
@@ -348,7 +285,7 @@
       "title": "RC LENS VS SPORTING CP",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791905006-0-0-f4a8493b0012b60ab5a4bb43448538e2",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791906176-0-0-6ce5eaec0583e91c27e972e212ccabf4",
       "type": "FLV",
       "category": "Sports"
     },
@@ -357,8 +294,62 @@
       "title": "ARSENAL VS LOSC LILLE",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791905008-0-0-a006e871ec6683f938c4ddd7312bf4a2",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791906184-0-0-2a4be681b576e250dd045f6c62a4c652",
       "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-282434b532",
+      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CpZixy3uVp.m3u8?txSecret=fd513858f579475af8d204ad8698efe1&txTime=6AD38CC0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-44dfc44f25",
+      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869065_1.m3u8?txSecret=ad83182729b55ce07e0b34b32976612d&txTime=6AD38D6E",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f895fbf399",
+      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CnNF6VDzLv.m3u8?txSecret=6326020b8b2e8c4d5146a0d9e12b9359&txTime=6AD38CC0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5b0e884d6e",
+      "title": "EAST BENGAL FC VS AL SHORTA [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pullws-ac.yiom1.com/sport/gMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=08a996837dd98e4c44ec2c5e1ac66ef5&wsABSTime=6AD37BA9",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-43480d7780",
+      "title": "ABOU QIR FERTILIZERS SC VS ASYUT PETROLEUM",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=d4ae14ab89fcba3518ffdb3e4aea3268&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0529f9f233",
+      "title": "BLV COZY",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.zhwpg.app/live/87379114_tsc.m3u8",
+      "type": "HLS",
       "category": "Sports"
     },
     {
