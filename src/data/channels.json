@@ -1,12 +1,93 @@
 {
-  "updatedAt": "2026-10-13T14:37:48.935Z",
+  "updatedAt": "2026-10-13T15:23:49.011Z",
   "channels": [
+    {
+      "id": "live-315a121235",
+      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfdjNwkjN4UzXyAjM/playlist.m3u8?wsSecret=098c0436f46331db84401a4000e6a707&wsABSTime=6AD38D3E&wsSession=568e6903693bcb2c962a3976-179190480240265&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-26b2504284",
+      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869067_1.m3u8?txSecret=08f250c2fb01e6bfe088bb3e0d842e97&txTime=6AD38DAA",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-282434b532",
+      "title": "UKRAINE(W) VS SLOVAKIA(W) [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CpZixy3uVp.m3u8?txSecret=fd513858f579475af8d204ad8698efe1&txTime=6AD38CC0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1090931b25",
+      "title": "SERBIA(W) VS FINLAND(W) [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfZjNwkjN4UzXyAjM/playlist.m3u8?wsSecret=8b16d326a91ea349ea2f512978f424c5&wsABSTime=6AD38D3D&wsSession=568e6903693bcb2c962a3976-179190480849859&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fd7a22f98e",
+      "title": "SERBIA(W) VS FINLAND(W) [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869066_1.m3u8?txSecret=e85e73b0c4ff67e44bff7fc95316339a&txTime=6AD38DAB",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b50ce2d16a",
+      "title": "SERBIA(W) VS FINLAND(W) [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7N9Fw4zHMEN.m3u8?txSecret=cc2d09c2f738251260141023bea73e6c&txTime=6AD38CC0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-44dfc44f25",
+      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5869065_1.m3u8?txSecret=ad83182729b55ce07e0b34b32976612d&txTime=6AD38D6E",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f895fbf399",
+      "title": "SLOVENIA(W) VS TURKIYE (W) [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxjJit7CnNF6VDzLv.m3u8?txSecret=6326020b8b2e8c4d5146a0d9e12b9359&txTime=6AD38CC0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-283586c6a2",
+      "title": "ATLETICO DE MADRID U19 VS MANCHESTER UNITED U19 [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxipaNkMyZ17Cwafg.m3u8?txSecret=0a78dbd533e83dd519dabf5b0486e087&txTime=6AD390F8",
+      "type": "HLS",
+      "category": "Sports"
+    },
     {
       "id": "live-9c821f03e6",
       "title": "VILLARREAL U19 VS NAPOLI YOUTH [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tg031gr3uomttgr31hcjo8rzdkqbpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfBTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=7d25f4877134a78dff819067b8da7c43&wsABSTime=6AD37F2D&wsSession=5b13854b40400bdc21a84d25-179190212073657&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168286486550692714",
+      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfBTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=7d25f4877134a78dff819067b8da7c43&wsABSTime=6AD37F2D&wsSession=568e6903693bcb2c962a3976-179190481854066&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
       "type": "HLS",
       "category": "Sports"
     },
@@ -38,6 +119,24 @@
       "category": "Sports"
     },
     {
+      "id": "live-5b0e884d6e",
+      "title": "EAST BENGAL FC VS AL SHORTA [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pullws-ac.yiom1.com/sport/gMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=08a996837dd98e4c44ec2c5e1ac66ef5&wsABSTime=6AD37BA9",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6fecad61e6",
+      "title": "EAST BENGAL FC VS AL SHORTA [SERVER 3 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://tg033gr3uomttgr31hp3tfahdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=44d5fa970d6c41c31f293b67a5e1f768&wsABSTime=6AD3795E&wsSession=568e6903693bcb2c962a3976-179190482592682&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168201446955599295",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
       "id": "live-ec2a59fd06",
       "title": "EAST BENGAL FC VS AL SHORTA [SERVER 4 - SD]",
       "status": "live",
@@ -65,12 +164,66 @@
       "category": "Sports"
     },
     {
+      "id": "live-a7e37bb171",
+      "title": "AL SADD VS AL-HILAL SAUDI FC",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a11.kora-plus.li/live/b2.m3u8?token=dw_fM4_OBLSIsP6sfHINAWxdGVs&exp=1791908443",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-adda6f88cb",
+      "title": "LENS VS SPORTING CP",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a11.kora-plus.li/live/tnt2.m3u8?token=dCATheH71rLFU8JJtllNuv47tyc&exp=1791908451",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ec8009f4e5",
+      "title": "SABAH FA VS SLAVIA PRAHA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a16.kora-plus.li/live/tnt4.m3u8?token=uqpOD2Rxa6kO2FmKnKMA6LazSWo&exp=1791908466",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b8e8435ae1",
+      "title": "RENAISSANCE BERKANE VS CR KHEMIS ZEMAMRA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/riadia.m3u8?token=49ZhFePP3vECNxSDTYyVtWvWmR8&exp=1791908483",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-89b003954f",
+      "title": "AL-ITTIHAD FC VS SHABAB AL AHLI DUBAI",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a13.kora-plus.li/live/b2.m3u8?token=WzbMfd6Xw7zhPCwQYPsbHq7SNfI&exp=1791908499",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f6010a10b9",
+      "title": "FUS RABAT VS RAJA CASABLANCA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a13.kora-plus.li/live/riadia.m3u8?token=up73clWwCCV3VsouGJsvs2fBZkI&exp=1791908514",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
       "id": "live-307d0ac372",
       "title": "LENS VS. SPORTING CP",
       "status": "live",
       "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/rcl-scp",
-      "type": "IFRAME",
+      "streamUrl": "https://vishnu.indianservers.st/secure/hcmRmAGfziKjYtFyuarycROkxfkqlknM/1791899100/1791926100/tnt2/index.m3u8",
+      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -78,1421 +231,8 @@
       "title": "SABAH FK VS. SLAVIA PRAGUE",
       "status": "live",
       "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/sab-slp",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2e02e1b1bd",
-      "title": "WREXHAM VS. WEST BROMWICH ALBION",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/efl-championship/2026-10-13/wxm-wba",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d103afd16a",
-      "title": "ARSENAL VS. LILLE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/ars-lill",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aa6eb696ed",
-      "title": "ATLÉTICO MADRID VS. MANCHESTER UNITED",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/atm-mun",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e69ca42eb6",
-      "title": "GALATASARAY VS. BARCELONA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/gal-bar",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ec24ae45d5",
-      "title": "INTER MILAN VS. CLUB BRUGGE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/int-bru",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-01a425bf30",
-      "title": "RB LEIPZIG VS. PSV EINDHOVEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/rbl-psv",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7f25ec4a24",
-      "title": "VIKING FK VS. BAYERN MUNICH",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/vik-bay",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bbfe1d4255",
-      "title": "VILLARREAL VS. NAPOLI",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-13/vil-nap",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-213fa5569e",
-      "title": "FEYENOORD ROTTERDAM VS. COMO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/fey-como",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-453c1a160e",
-      "title": "LASK LINZ VS. LIVERPOOL",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/las-liv",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c67046a427",
-      "title": "AS ROMA VS. REAL MADRID",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/roma-rma",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9749d5492f",
-      "title": "ASTON VILLA VS. FENERBAHCE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/avl-fen",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-700bd1b8a9",
-      "title": "BODO/GLIMT VS. BORUSSIA DORTMUND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/bodo-dor",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-be5e7a5f3f",
-      "title": "MANCHESTER CITY VS. PARIS SAINT-GERMAIN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/mci-psg",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-db2fffebce",
-      "title": "REAL BETIS VS. FC PORTO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/bet-fcp",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fe43cdafa3",
-      "title": "SHAKHTAR DONETSK VS. AEK ATHENS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/shk-aek",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-88e03d21fd",
-      "title": "SLOVAN BRATISLAVA VS. VFB STUTTGART",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-10-14/slb-vfb",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dc1795e0dd",
-      "title": "CF MONTRÉAL VS. ATLANTA UNITED FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/mtl-atl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d7c3fc60d6",
-      "title": "COLUMBUS CREW VS. CHARLOTTE FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/clb-clt",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bfa7daa839",
-      "title": "D.C. UNITED VS. RED BULL NEW YORK",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/dc-rbny",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-53034302fe",
-      "title": "FC CINCINNATI VS. NEW ENGLAND REVOLUTION",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/cin-ne",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f82470db37",
-      "title": "INTER MIAMI CF VS. NEW YORK CITY FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/mia-nyc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-00563e0bd8",
-      "title": "TORONTO FC VS. ORLANDO CITY SC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/tor-orl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d0d6491990",
-      "title": "CHICAGO FIRE FC VS. PHILADELPHIA UNION",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/chi-phi",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c01b6a2b95",
-      "title": "FC DALLAS VS. SEATTLE SOUNDERS FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/dal-sea",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d9a7a76b63",
-      "title": "NASHVILLE SC VS. SPORTING KANSAS CITY",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/nsh-skc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-188b171696",
-      "title": "ST. LOUIS CITY SC VS. VANCOUVER WHITECAPS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/stl-van",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4b32a9664b",
-      "title": "COLORADO RAPIDS VS. MINNESOTA UNITED FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/col-min",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0efbaa7e59",
-      "title": "REAL SALT LAKE VS. SAN JOSE EARTHQUAKES",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/rsl-sj",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0ca1ccfae4",
-      "title": "LA GALAXY VS. PORTLAND TIMBERS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/la-por",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e70ca5f939",
-      "title": "LAFC VS. AUSTIN FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/lafc-atx",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4aecd3a18a",
-      "title": "SAN DIEGO FC VS. HOUSTON DYNAMO FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-14/sd-hou",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7eac3e5733",
-      "title": "AZ ALKMAAR VS. HAPOEL BE'ER",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/az-hbe",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66db228e36",
-      "title": "LECH POZNAN VS. BAYER LEVERKUSEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/lech-b04",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-18fa438e29",
-      "title": "LYON VS. CRYSTAL PALACE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/lyon-cry",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2f3495438f",
-      "title": "NK CELJE VS. OMONIA NICOSIA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/nkc-omon",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dafc53d236",
-      "title": "RB SALZBURG VS. AC MILAN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/slz-mil",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d8249ffeb5",
-      "title": "SPARTA PRAGUE VS. LILLESTROM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/spp-lsk",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ceb4d7b786",
-      "title": "TORREENSE VS. SUNDERLAND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/tor-sun",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e80cc6f5ce",
-      "title": "UNION ST.-GILLOISE VS. REAL SOCIEDAD",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/usg-rso",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b42a992259",
-      "title": "CSKA SOFIA VS. AS MONACO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/cska-mon",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-39238b75d5",
-      "title": "CSU CRAIOVA VS. GETAFE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/ucra-get",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-62b4a0a539",
-      "title": "EGNATIA VS. FC MIDTJYLLAND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/egn-mid",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1669a16aaa",
-      "title": "FC LUGANO VS. RED STAR BELGRADE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/lug-rsb",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f4c48a8002",
-      "title": "HAJDUK SPLIT VS. AJAX AMSTERDAM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/haj-aja",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-705143b9b2",
-      "title": "KAA GENT VS. AGF",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/gent-agf",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bcb87b3eee",
-      "title": "KUPS KUOPIO VS. TRABZONSPOR",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/kups-trab",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4c25a2dba4",
-      "title": "MJÄLLBY AIF VS. INTER D'ESCALDES",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/mja-ide",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1a4f76d37d",
-      "title": "PANATHINAIKOS VS. BORAC BANJA LUKA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/pao-bbl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c49b31d49f",
-      "title": "RIGA FC VS. KAIRAT ALMATY",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/rig-kai",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-77fcde5e5d",
-      "title": "AFC BOURNEMOUTH VS. SK STURM GRAZ",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/bou-stg",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-027062dc85",
-      "title": "BENFICA VS. CELTIC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/slb-cel",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-281712de24",
-      "title": "CELTA VIGO VS. JUVENTUS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/cel-juv",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b0c2dad17c",
-      "title": "DINAMO ZAGREB VS. ANDERLECHT",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/dzg-and",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-749d28d44e",
-      "title": "FERENCVAROS VS. VIKTORIA PLZEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/fer-plz",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bc7f9b7e95",
-      "title": "JAGIELLONIA BIALYSTOK VS. ARARAT-ARMENIA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/jag-ara",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-59038b117b",
-      "title": "MARSEILLE VS. OLYMPIACOS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/olm-oly",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-014b402dfa",
-      "title": "NEC NIJMEGEN VS. LEVSKI SOFIA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/nec-lev",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0019927515",
-      "title": "STADE RENNAIS VS. OFI CRETE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/ren-ofi",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1b8f5964ea",
-      "title": "TSG HOFFENHEIM VS. BESIKTAS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-10-15/tsg-bes",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-769f70fbe8",
-      "title": "ATALANTA VS. PAFOS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/ata-paf",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ff67eafbb6",
-      "title": "BRIGHTON & HOVE ALBION VS. KAUNO ZALGIRIS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/bha-zal",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-52471d8627",
-      "title": "F.C. KØBENHAVN VS. BRAGA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/kbh-scb",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ae5245c414",
-      "title": "FC TWENTE VS. FC THUN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/twe-thun",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-00396b8ca0",
-      "title": "HEART OF MIDLOTHIAN VS. FC NORDSJÆLLAND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/hom-fcn",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-943af47ef3",
-      "title": "SC FREIBURG VS. JABLONEC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/scf-jabl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d618afe356",
-      "title": "SINT-TRUIDENSE VS. IBERIA 1999",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/stvv-ibe",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-954fa14d84",
-      "title": "SK BRANN VS. LINCOLN RED IMPS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-10-15/skbr-lri",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-87b2b2fe7e",
-      "title": "IF BROMMAPOJKARNA VS. DJURGÅRDEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-16/bro-dju",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6d07a0fca1",
-      "title": "HEERENVEEN VS. EXCELSIOR",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-16/hee-exc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4b82cc7088",
-      "title": "EINTRACHT FRANKFURT VS. FC COLOGNE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-16/sge-koe",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-749fe7865e",
-      "title": "FROSINONE VS. SASSUOLO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-16/fro-sas",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9e46e46598",
-      "title": "LE MANS VS. TOULOUSE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-16/mns-tou",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-433bb47554",
-      "title": "DEPORTIVO VS. LEVANTE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-16/dep-lev",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3bd038c0ce",
-      "title": "NECAXA VS. ATLAS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-16/ncx-ats",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3503a5de77",
-      "title": "ATLANTE VS. PUMAS UNAM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-16/atl-unam",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-377709cce5",
-      "title": "TIJUANA VS. PUEBLA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-16/tij-pue",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b69f86357b",
-      "title": "EVERTON VS. CHELSEA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-17/eve-che",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cebfb64113",
-      "title": "ESPANYOL VS. ATLÉTICO MADRID",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-17/esp-atm",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6d78933d4a",
-      "title": "VENEZIA VS. NAPOLI",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-17/ven-nap",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d5ae83c1fe",
-      "title": "1. FC UNION BERLIN VS. BORUSSIA DORTMUND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/fcu-dor",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5e48d9d371",
-      "title": "HAMBURG SV VS. VFB STUTTGART",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/hsv-vfb",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c59903ca10",
-      "title": "SCHALKE 04 VS. MAINZ",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/s04-m05",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e0480d976a",
-      "title": "SV ELVERSBERG VS. FC AUGSBURG",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/elv-fca",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-19fc45f552",
-      "title": "WERDER BREMEN VS. SC PADERBORN 07",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/svw-scp",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-46f791f2a4",
-      "title": "BRENTFORD VS. LIVERPOOL",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-17/bre-liv",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a9aa6c6b3c",
-      "title": "FULHAM VS. HULL CITY",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-17/ful-hul",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-50e1b04419",
-      "title": "MANCHESTER CITY VS. IPSWICH TOWN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-17/mci-ips",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1594c9d1e2",
-      "title": "VILLARREAL VS. ELCHE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-17/vil-elc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bccad2c8c2",
-      "title": "ADO DEN HAAG VS. PSV EINDHOVEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-17/ado-psv",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c9a23cc61c",
-      "title": "STRASBOURG VS. PARIS SAINT-GERMAIN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-17/str-psg",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5c06ff76bf",
-      "title": "AIK VS. IFK GÖTEBORG",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-17/aik-got",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2e38f7d2bd",
-      "title": "BOLOGNA VS. INTER MILAN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-17/bol-int",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-24d6c4301f",
-      "title": "REAL BETIS VS. BARCELONA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-17/bet-bar",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-55f3ec0d30",
-      "title": "BAYERN MUNICH VS. RB LEIPZIG",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-17/bay-rbl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f2201026d9",
-      "title": "NEWCASTLE UNITED VS. ASTON VILLA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-17/new-avl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e08af8e8ca",
-      "title": "TELSTAR VS. FEYENOORD ROTTERDAM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-17/tel-fey",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2ce9d79c13",
-      "title": "PHILADELPHIA UNION VS. CHARLOTTE FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/phi-clt",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-24cfd32e30",
-      "title": "AS ROMA VS. GENOA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-17/roma-gen",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e53555830c",
-      "title": "LILLE VS. BREST",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-17/lill-bre",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6d6c0a7057",
-      "title": "TROYES VS. LENS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-17/try-rcl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d626745bfb",
-      "title": "VALENCIA VS. ATHLETIC CLUB",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-17/val-ath",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3e347ef728",
-      "title": "SPARTA ROTTERDAM VS. WILLEM II",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-17/spa-wil",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d7d8afef0c",
-      "title": "MINNESOTA UNITED FC VS. ST. LOUIS CITY SC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/min-stl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dc35438657",
-      "title": "SANTOS VS. QUERÉTARO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-17/san-qro",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7e0f218bbb",
-      "title": "GUADALAJARA VS. TIGRES UANL",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-17/gdl-uanl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8c171b1975",
-      "title": "ATLANTA UNITED FC VS. INTER MIAMI CF",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/atl-mia",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-046d2c71af",
-      "title": "NEW ENGLAND REVOLUTION VS. CHICAGO FIRE FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/ne-chi",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-85223e343b",
-      "title": "NEW YORK CITY FC VS. LAFC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/nyc-lafc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4cbf5666a2",
-      "title": "ORLANDO CITY SC VS. D.C. UNITED",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/orl-dc",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-64c3ba4e4b",
-      "title": "RED BULL NEW YORK VS. TORONTO FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/rbny-tor",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ed4a75d40",
-      "title": "AUSTIN FC VS. VANCOUVER WHITECAPS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/atx-van",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8664b6137d",
-      "title": "HOUSTON DYNAMO FC VS. FC DALLAS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/hou-dal",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0cfb95ad4b",
-      "title": "SPORTING KANSAS CITY VS. REAL SALT LAKE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/skc-rsl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-30f7d4c821",
-      "title": "LEÓN VS. AMÉRICA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-17/leo-ame",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-140b077152",
-      "title": "TOLUCA VS. ATLÉTICO DE SAN LUIS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-17/tol-asl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7f51c60566",
-      "title": "LA GALAXY VS. SAN DIEGO FC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/la-sd",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6ba78fee6d",
-      "title": "PORTLAND TIMBERS VS. COLORADO RAPIDS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/por-col",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5f28cc19df",
-      "title": "SAN JOSE EARTHQUAKES VS. NASHVILLE SC",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/sj-nsh",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-114528f256",
-      "title": "SEATTLE SOUNDERS FC VS. CF MONTRÉAL",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/sea-mtl",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e11ea10376",
-      "title": "CRUZ AZUL VS. FC JUÁREZ",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-17/caz-jua",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a875044163",
-      "title": "PEC ZWOLLE VS. GO AHEAD EAGLES",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-18/pec-gae",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-29d018d268",
-      "title": "UDINESE VS. LECCE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-18/udi-lec",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3b0f0e4290",
-      "title": "OSASUNA VS. RACING SANTANDER",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-18/osa-rac",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c777b1128e",
-      "title": "IK SIRIUS VS. IF ELFSBORG",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-18/sir-elf",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-057180569c",
-      "title": "VÄSTERÅS SK VS. MJÄLLBY AIF",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-18/vas-mja",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-206003b465",
-      "title": "SC CAMBUUR VS. AZ ALKMAAR",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-18/cam-az",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1c449ead11",
-      "title": "AFC BOURNEMOUTH VS. SUNDERLAND",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-18/bou-sun",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-969390cf3e",
-      "title": "BRIGHTON & HOVE ALBION VS. CRYSTAL PALACE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-18/bha-cry",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7bb0c8b1de",
-      "title": "LEEDS UNITED VS. MANCHESTER UNITED",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-18/lee-mun",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0c89b8d804",
-      "title": "FIORENTINA VS. COMO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-18/fio-como",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f5b213d672",
-      "title": "ANGERS VS. MARSEILLE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-18/ang-olm",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cb544fa9a3",
-      "title": "BAYER LEVERKUSEN VS. SC FREIBURG",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-18/b04-scf",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f7a11d8a40",
-      "title": "CELTA VIGO VS. ALAVÉS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-18/cel-ala",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2cae6bfd16",
-      "title": "HALMSTADS BK VS. HAMMARBY IF",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-18/hbk-ham",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fc8e0b5cbe",
-      "title": "MALMÖ FF VS. BK HÄCKEN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-18/mal-bkh",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4288e78dea",
-      "title": "ÖRGRYTE IS VS. GAIS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-18/org-gais",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0e73a24cdc",
-      "title": "FC GRONINGEN VS. AJAX AMSTERDAM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-18/gro-aja",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71801f54ec",
-      "title": "LE HAVRE AC VS. AJ AUXERRE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-18/hac-aux",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-15e777dfa6",
-      "title": "LORIENT VS. AS MONACO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-18/lor-mon",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-87edbc3b45",
-      "title": "PARIS FC VS. STADE RENNAIS",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-18/par-ren",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fbd4ed174d",
-      "title": "BORUSSIA MÖNCHENGLADBACH VS. TSG HOFFENHEIM",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-10-18/bmg-tsg",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b71e999a21",
-      "title": "NOTTINGHAM FOREST VS. ARSENAL",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-18/nfo-ars",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7c84e484d9",
-      "title": "AC MILAN VS. ATALANTA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-18/mil-ata",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3bfe847e61",
-      "title": "MÁLAGA VS. REAL SOCIEDAD",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-18/mcf-rso",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-59ac351d47",
-      "title": "FC TWENTE VS. FC UTRECHT",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-18/twe-utr",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-64ffa61f04",
-      "title": "NEC NIJMEGEN VS. FORTUNA SITTARD",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-18/nec-for",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9751d6774d",
-      "title": "JUVENTUS VS. LAZIO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-18/juv-laz",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b2e13a8981",
-      "title": "LYON VS. NICE",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-10-18/lyon-nice",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4b2d9fe4f5",
-      "title": "REAL MADRID VS. SEVILLA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-18/rma-sev",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-127a3671e4",
-      "title": "FC CINCINNATI VS. COLUMBUS CREW",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-18/cin-clb",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5f72c24d33",
-      "title": "MONTERREY VS. PACHUCA",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-10-18/mty-pac",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9dfdb5f97b",
-      "title": "MONZA VS. CAGLIARI",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-19/mon-cag",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a8b181072b",
-      "title": "DEGERFORS IF VS. KALMAR FF",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-10-19/deg-kff",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-88fe2174de",
-      "title": "PARMA VS. TORINO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-19/par-tor",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6c89567730",
-      "title": "GETAFE VS. RAYO VALLECANO",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-10-19/get-ray",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a0690acef2",
-      "title": "TOTTENHAM HOTSPUR VS. COVENTRY CITY",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-10-19/tot-cov",
-      "type": "IFRAME",
+      "streamUrl": "https://shiva.indianservers.st/secure/lAOQZqxJxzbHJwSOwxtwVggJerHKAwBl/1791899100/1791926100/tnt4/index.m3u8",
+      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -1500,7 +240,25 @@
       "title": "EAST BENGAL FC VS AL SHORTA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=9a81554c8e40b3355de6c1deebe60c51&txTime=6ACE42E8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=71da8420c3bb3afc6f8e3145d9716054&txTime=6ACE4DEE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-61d0c130f1",
+      "title": "PARNU JK VAPRUS VS NOMME JK KALJU",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jtfJWzHRVR.m3u8?txSecret=70d115d0ec606923b18d00c164041659&txTime=6ACE4DEF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd5b0caf90",
+      "title": "HARJU JK LAAGRI VS FC NOMME UNITED",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVcw58jvrnPU7LeK.m3u8?txSecret=0cf7c8008839c73551b66194aaf2d4b8&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1509,7 +267,7 @@
       "title": "BANK EL AHLY VS TALA EA EL GAISH",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=177e5fe8687ff6f1e07ae5bc9f218a0c&txTime=6ACE42E9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=9048edf1810273061929fd22890b8a95&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1518,25 +276,7 @@
       "title": "ABOU QIR FERTILIZERS SC VS ASYUT PETROLEUM",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=4f467f23a520873bf987e3720b60505b&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-437c9bf44c",
-      "title": "A S D GIUGLIANO CALCIO 1928 VS INTER MILAN U23",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZupVJWCHrNNL4o.m3u8?txSecret=aa6ee07c3533bd8502bbf57c51d2a98c&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07c53c28fe",
-      "title": "JUVENTUS U23 VS LUMEZZANE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy6x1jMd2bTnAK.m3u8?txSecret=7ee1f41684ccb28f5743721ca1d6f2a6&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=d4ae14ab89fcba3518ffdb3e4aea3268&txTime=6ACE4DF0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1545,7 +285,25 @@
       "title": "BLV COCA",
       "status": "live",
       "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1791905751-0-0-24755c85e69c38f85612b09275420f6a",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1791908586-0-0-cd3d02562d4c25d3daad39816e1f753f",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-660cf217c0",
+      "title": "BLV CÒ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1791908588-0-0-73eb0a521524dff3985c0cb7653414c0",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5768a502a3",
+      "title": "NGƯỜI CÁ",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1791908590-0-0-1e374c8b498db2b2eff1c487dafd4e1c",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1568,12 +326,12 @@
       "category": "Sports"
     },
     {
-      "id": "live-9250a0d46c",
-      "title": "RC LENS VS SPORTING CP",
+      "id": "live-0529f9f233",
+      "title": "BLV COZY",
       "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791902239-0-0-d804af7dbf8fb4bef824d69559c5b88d",
-      "type": "FLV",
+      "source": "colatv",
+      "streamUrl": "https://live05.zhwpg.app/live/87379114_tsc.m3u8",
+      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -1581,7 +339,16 @@
       "title": "SABAH FK VS SK SLAVIA PRAHA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791902245-0-0-0ddc5b4b15f0603f4ef4821fb4b7afbf",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791905003-0-0-d129e4ccca49a167e51a82641b3783a6",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9250a0d46c",
+      "title": "RC LENS VS SPORTING CP",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791905006-0-0-f4a8493b0012b60ab5a4bb43448538e2",
       "type": "FLV",
       "category": "Sports"
     },
@@ -1590,16 +357,16 @@
       "title": "ARSENAL VS LOSC LILLE",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791902251-0-0-a1bb04ae2b5f7e024057e4106c743f67",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791905008-0-0-a006e871ec6683f938c4ddd7312bf4a2",
       "type": "FLV",
       "category": "Sports"
     },
     {
-      "id": "live-0529f9f233",
-      "title": "BLV COZY",
+      "id": "live-07c53c28fe",
+      "title": "JUVENTUS U23 VS LUMEZZANE",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.zhwpg.app/live/87379114_tsc.m3u8",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy6x1jMd2bTnAK.m3u8?txSecret=7ee1f41684ccb28f5743721ca1d6f2a6&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1618,15 +385,6 @@
       "status": "live",
       "source": "hesgoal",
       "streamUrl": "https://a16.kora-plus.li/live/thman1.m3u8?token=oKTlYq6MWwLGWQCSs4GxABh_1Kc&exp=1791664601",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1020d491d3",
-      "title": "NGƯỜI CÁ",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1791656616-0-0-430364fe2285169bc12db50efde424ad",
       "type": "HLS",
       "category": "Sports"
     },
