@@ -33,8 +33,8 @@ async function performDiscovery(sourceKey, selector) {
     try {
         for (const url of urls) {
             try {
-                await page.goto(url, { waitUntil: 'load', timeout: 30000 });
-                await new Promise(r => setTimeout(r, 7000));
+                await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 15000 });
+                await new Promise(r => setTimeout(r, 4000));
                 const links = await page.$$eval(selector, (anchors) => {
                     return anchors.map(a => ({ url: a.href, text: a.innerText.trim() }));
                 });
@@ -585,7 +585,14 @@ export async function discoverPpv() {
         if (data && data.streams) {
             const footballCat = data.streams.find(c => c.category === "Football");
             if (footballCat && footballCat.streams) {
-                for (const stream of footballCat.streams) {
+                const now = Math.floor(Date.now() / 1000);
+                const sorted = [...footballCat.streams].sort((a, b) => {
+                    const diffA = Math.abs((a.starts_at || now) - now);
+                    const diffB = Math.abs((b.starts_at || now) - now);
+                    return diffA - diffB;
+                });
+
+                for (const stream of sorted) {
                     if (stream.iframe) {
                         matches.push({
                             title: stream.name.toUpperCase(),

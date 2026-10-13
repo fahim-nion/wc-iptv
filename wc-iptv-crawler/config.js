@@ -3,8 +3,8 @@ export default {
         socolive: { 
             enabled: true, 
             priority: 1, 
-            homepage: "https://socolive-football.pro/",
-            mirrors: ["https://beardstyles.website/", "https://socoliveee.co/","https://socolivetv.dance/","https://socolivef.co/","https://socoliveu.tv/"]
+            homepage: "https://socolive84.tv/",
+            mirrors: ["https://socolive66.co/", "https://athleticbilbao.football/","https://socolive1.nl/","https://socolive-tv.mom/","https://sutbongtv.com/"]
         },
         colatv: { 
             enabled: true, 

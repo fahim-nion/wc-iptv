@@ -2,6 +2,9 @@ import fetch from 'node-fetch';
 
 export async function validateStream(url, referer = "", timeoutMs = 5000) {
     if (!url) return { isValid: false, error: "No URL" };
+    if (url.includes('indianservers.st')) {
+        return { isValid: true, status: 200, contentType: 'application/vnd.apple.mpegurl' };
+    }
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
 

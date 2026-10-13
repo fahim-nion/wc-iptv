@@ -54,7 +54,7 @@ async function runCycle() {
             ...live24,
             ...hesgoal,
             ...xyz,
-            ...ppv,
+            ...ppv.slice(0, 5),
             ...cam.slice(0, 5),
             ...soco.slice(0, 3), 
             ...cola.slice(0, 3), 
@@ -66,12 +66,7 @@ async function runCycle() {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
             try {
-                let stream = null;
-                if (match.source === 'ppv') {
-                    stream = { url: match.url, type: 'IFRAME' };
-                } else {
-                    stream = await captureNetworkStream(match.url, match.source.toUpperCase());
-                }
+                const stream = await captureNetworkStream(match.url, match.source.toUpperCase());
                 if (stream && stream.url) {
                     const finalTitle = match.title.toUpperCase();
                     console.log(chalk.green(`   ✔ Captured: ${finalTitle}`));
