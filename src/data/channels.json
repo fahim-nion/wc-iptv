@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-13T14:23:52.127Z",
+  "updatedAt": "2026-10-13T14:37:48.935Z",
   "channels": [
     {
       "id": "live-9c821f03e6",
       "title": "VILLARREAL U19 VS NAPOLI YOUTH [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://tg033gwh1hcjigezdncb3fa5d1mmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfBTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=7d25f4877134a78dff819067b8da7c43&wsABSTime=6AD37F2D&wsSession=20b2ba4a342e08daf9ad134d-179190119427752&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168262304208899748",
+      "streamUrl": "https://tg031gr3uomttgr31hcjo8rzdkqbpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfBTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=7d25f4877134a78dff819067b8da7c43&wsABSTime=6AD37F2D&wsSession=5b13854b40400bdc21a84d25-179190212073657&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168286486550692714",
       "type": "HLS",
       "category": "Sports"
     },
@@ -29,65 +29,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-ffa5cabd11",
-      "title": "INTER MILAN U19 VS CLUB BRUGGE U19 [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg031gradgmttgy41hqbifaaugcjpqb4sa5dzqcssna3qxfws65jtf3ts65e.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRTO5MjN3UzXyAjM/playlist.m3u8?wsSecret=16e9a4c50285936ada9203dd96ed660f&wsABSTime=6AD37374&wsSession=8a78951edb25834e4db538a3-179190120039574&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168240832907300550",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-53981333d7",
-      "title": "CONG AN HA NOI FC VS KASHIMA ANTLERS [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TDDGxo2vkqCmt.m3u8?txSecret=a006e676dc66e56c16b515f52bf5d5b5&txTime=6AD349F5",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ccbe952051",
-      "title": "CONG AN HA NOI FC VS KASHIMA ANTLERS [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TDDGxo2vkqCmt.m3u8?txSecret=0699e7b542cf602774300bbd42b4f7bb&txTime=6AD349F5",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-61f77b993e",
-      "title": "BURIRAM UNITED VS BEIJING GUOAN [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCT7eDxUBV6Nr.m3u8?txSecret=2a237848e39ff34a3d24d520c4dc1487&txTime=6AD34AA9",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-24e0caca90",
-      "title": "BURIRAM UNITED VS BEIJING GUOAN [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCT7eDxUBV6Nr.m3u8?txSecret=e1b23b14d0eeff9b544fc1bc54b335a1&txTime=6AD34AA9",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-5e094f63db",
       "title": "EAST BENGAL FC VS AL SHORTA [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TBj8nBPLZz8qc.m3u8?txSecret=6ccf7bf7200b036a508b14b1ab62fb1c&txTime=6AD34AA9",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6fecad61e6",
-      "title": "EAST BENGAL FC VS AL SHORTA [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg033gwh1hcjigezdncb3fa5d1mmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfRDN0EDM3UzXyAjM/playlist.m3u8?wsSecret=44d5fa970d6c41c31f293b67a5e1f768&wsABSTime=6AD3795E&wsSession=20b2ba4a342e08daf9ad134d-179190122850426&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168262304208899748",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1554,7 +1500,7 @@
       "title": "EAST BENGAL FC VS AL SHORTA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=f261cbea163d11e1a43d6cec09756999&txTime=6ACE3F5E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBj8nBPLZyoxs.m3u8?txSecret=9a81554c8e40b3355de6c1deebe60c51&txTime=6ACE42E8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1563,7 +1509,7 @@
       "title": "BANK EL AHLY VS TALA EA EL GAISH",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=e8ac201df83f4e88849f45cc7170d099&txTime=6ACE3F5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NhWu63VHJ7.m3u8?txSecret=177e5fe8687ff6f1e07ae5bc9f218a0c&txTime=6ACE42E9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1572,7 +1518,7 @@
       "title": "ABOU QIR FERTILIZERS SC VS ASYUT PETROLEUM",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=6db97262c87f52bff77362260b2b376c&txTime=6ACE3F5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiKay2NjiNxXKCT1.m3u8?txSecret=4f467f23a520873bf987e3720b60505b&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1581,7 +1527,7 @@
       "title": "A S D GIUGLIANO CALCIO 1928 VS INTER MILAN U23",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZupVJWCHrNNL4o.m3u8?txSecret=8b06666410e3a41129c62d83c29726d4&txTime=6ACE3F5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZupVJWCHrNNL4o.m3u8?txSecret=aa6ee07c3533bd8502bbf57c51d2a98c&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1590,7 +1536,16 @@
       "title": "JUVENTUS U23 VS LUMEZZANE",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy6x1jMd2bTnAK.m3u8?txSecret=aa4ed3cf16decd9768149e79f5d1de97&txTime=6ACE3F5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy6x1jMd2bTnAK.m3u8?txSecret=7ee1f41684ccb28f5743721ca1d6f2a6&txTime=6ACE42EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-effc451942",
+      "title": "BLV COCA",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1791905751-0-0-24755c85e69c38f85612b09275420f6a",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1613,83 +1568,38 @@
       "category": "Sports"
     },
     {
+      "id": "live-9250a0d46c",
+      "title": "RC LENS VS SPORTING CP",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791902239-0-0-d804af7dbf8fb4bef824d69559c5b88d",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-966677e6c2",
+      "title": "SABAH FK VS SK SLAVIA PRAHA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791902245-0-0-0ddc5b4b15f0603f4ef4821fb4b7afbf",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3b93e83952",
+      "title": "ARSENAL VS LOSC LILLE",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791902251-0-0-a1bb04ae2b5f7e024057e4106c743f67",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
       "id": "live-0529f9f233",
       "title": "BLV COZY",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.zhwpg.app/live/87379114_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-47de23256c",
-      "title": "RC LENS VS SPORTING CP",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001791901360-0-0-51fbe97362451bc4cf5c6832f47aad0e",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bf4a3965ee",
-      "title": "SABAH FK VS SK SLAVIA PRAHA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001791901365-0-0-2ab83ea37f0a706ed5b9a1920db2ff46",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-176afc99bb",
-      "title": "ARSENAL VS LOSC LILLE",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791901371-0-0-c6d1439703685d2ddaf09e3cb27d75f6",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8f43c1d6df",
-      "title": "FERROCARRIL MIDLAND VS ATLETICO RAFAELA [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6hRJoLLUkJS.m3u8?txSecret=cda5c2d44f30ef5114ccd021a607b16c&txTime=6ACF51FB",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0d3ce76d41",
-      "title": "QUILMES VS AGROPECUARIO DE CARLOS CASARES [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6gtY59cuv9t.m3u8?txSecret=05edfcce610a2606474c214956e2efe9&txTime=6ACF51FB",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-546f625d52",
-      "title": "ALMAGRO VS CHACARITA JUNIORS [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://tg003gr4uqmtt8y41hcjzgezdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfJjN4MDN1UzXyAjM/playlist.m3u8?wsSecret=d4c22599710a84f36b972c5ac79ad0c1&wsABSTime=6ACFC8CF&wsSession=d1b188f8dcb4caf1c0a59874-179166095874804&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168309218210984056",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4517e85aea",
-      "title": "ALMAGRO VS CHACARITA JUNIORS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji7XrGudUHxLE.m3u8?txSecret=8664d16c7be5cad67e70f32ee6a7be1e&txTime=6ACF5147",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-622d2ec92c",
-      "title": "COLEGIALES VS TRISTAN SUAREZ [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6hJiMitzzqk.m3u8?txSecret=474d314303708cc4f3fad421354fcde1&txTime=6ACF5094",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1786,14 +1696,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=4255480e47a020562bceee5646717618&wsABSTime=1791537902",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2dbc04c7de",
-      "title": "MAGHREB FEZ VS RAJA CASABLANCA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=8e10154147845b8ef3b8ed7ab6ab129b&wsABSTime=1791537907",
       "category": "Sports"
     },
     {
