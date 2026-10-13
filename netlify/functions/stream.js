@@ -1,6 +1,6 @@
 // netlify/functions/stream.js
 export const config = {
-  path: "/.netlify/functions/stream"
+  path: ["/api/stream", "/.netlify/functions/stream"]
 };
 
 export default async (req, context) => {
@@ -37,7 +37,7 @@ export default async (req, context) => {
       targetUrl.includes("xyzstreams.space");
 
     const needsReferer = 
-      targetUrl.includes("kora-plus.li") || 
+      targetUrl.includes("kora-plus") || 
       targetUrl.includes("goalakor") || 
       targetUrl.includes("edgestream") ||
       targetUrl.includes("robotiva") ||
@@ -72,12 +72,16 @@ export default async (req, context) => {
     // 1. If it's a playlist, rewrite all segment URLs to go back through this proxy
     if (isPlaylist) {
       let text = await response.text();
-      const baseUrl = new URL(req.url).origin + (new URL(req.url).pathname.includes("/api/stream") ? "/api/stream" : "/.netlify/functions/stream");
+      const baseUrl = "/api/stream";
 
       const rewriteUri = (uri) => {
         try {
-          const absoluteUrl = new URL(uri, targetUrl).href;
-          return `${baseUrl}?url=${encodeURIComponent(absoluteUrl)}`;
+          const absoluteUrl = new URL(uri, targetUrl);
+          // If child/variant URL doesn't have search parameters, inherit authentication token from targetUrl
+          if (!absoluteUrl.search && new URL(targetUrl).search) {
+            absoluteUrl.search = new URL(targetUrl).search;
+          }
+          return `${baseUrl}?url=${encodeURIComponent(absoluteUrl.href)}`;
         } catch (e) {
           return uri;
         }
@@ -94,22 +98,23 @@ export default async (req, context) => {
 
       return new Response(rewrittenPlaylist, {
         headers: {
-          "Content-Type": contentType,
+          "Content-Type": contentType || "application/vnd.apple.mpegurl",
           "Access-Control-Allow-Origin": "*",
           "Cache-Control": "no-cache"
         }
       });
     }
 
-    // 2. If it's a media segment (.ts, .mp4, etc), stream the binary data
+    // 2. If it's a media segment (.ts, .mp4, etc), buffer and return binary data
+    const arrayBuffer = await response.arrayBuffer();
     const headers = new Headers();
     headers.set("Access-Control-Allow-Origin", "*");
     if (response.headers.get("content-type")) headers.set("Content-Type", response.headers.get("content-type"));
-    if (response.headers.get("content-length")) headers.set("Content-Length", response.headers.get("content-length"));
+    headers.set("Content-Length", arrayBuffer.byteLength.toString());
     if (response.headers.get("accept-ranges")) headers.set("Accept-Ranges", response.headers.get("accept-ranges"));
     if (response.headers.get("content-range")) headers.set("Content-Range", response.headers.get("content-range"));
 
-    return new Response(response.body, {
+    return new Response(arrayBuffer, {
       status: response.status,
       headers
     });

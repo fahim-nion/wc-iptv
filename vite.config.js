@@ -35,7 +35,7 @@ function streamProxyPlugin() {
         targetUrl.includes('xyzstreams.space');
 
       const needsReferer = 
-        targetUrl.includes('kora-plus.li') || 
+        targetUrl.includes('kora-plus') || 
         targetUrl.includes('goalakor') || 
         targetUrl.includes('edgestream') ||
         targetUrl.includes('robotiva') ||
@@ -72,8 +72,11 @@ function streamProxyPlugin() {
 
         const rewriteUri = (uri) => {
           try {
-            const abs = new URL(uri, targetUrl).href;
-            return `${baseUrl}?url=${encodeURIComponent(abs)}`;
+            const abs = new URL(uri, targetUrl);
+            if (!abs.search && new URL(targetUrl).search) {
+              abs.search = new URL(targetUrl).search;
+            }
+            return `${baseUrl}?url=${encodeURIComponent(abs.href)}`;
           } catch (e) {
             return uri;
           }

@@ -136,7 +136,9 @@ export default function Player({
       setLoadingProgress(prev => (prev < 90 ? prev + Math.random() * 8 : prev));
     }, 400);
 
-    if (channel.type === 'IFRAME') {
+    const isIframe = channel.type === 'IFRAME' || rawUrl.includes('/embed/');
+    if (isIframe) {
+      setStreamType('IFRAME');
       clearInterval(progressInterval);
       setLoadingProgress(100);
       setIsLoading(false);
@@ -395,13 +397,13 @@ export default function Player({
         {/* Ambient Backlight Glow */}
         <div className="absolute -inset-1 bg-gradient-to-r from-amber-500/10 via-emerald-500/10 to-blue-500/10 blur-xl opacity-50 pointer-events-none" />
 
-        {channel?.type === 'IFRAME' ? (
+        {channel?.type === 'IFRAME' || channel?.url?.includes('/embed/') ? (
           <iframe 
             src={channel.url}
-            className={`w-full h-full relative z-0 bg-black`}
+            className={`w-full h-full relative z-0 bg-black border-0`}
             allowFullScreen
-            allow="autoplay; fullscreen"
-            sandbox="allow-scripts allow-same-origin allow-presentation"
+            allow="autoplay; fullscreen; encrypted-media"
+            sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"
           />
         ) : (
           <video 

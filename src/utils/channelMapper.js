@@ -7,6 +7,7 @@ export const mapJsonToChannels = (jsonChannels) => {
     logo: ch.logo || null,
     group: ch.category || 'General',
     url: ch.streamUrl,
+    type: ch.type || (ch.streamUrl?.includes('/embed/') ? 'IFRAME' : 'HLS'),
     status: ch.status || 'live', // Default to live if not specified
     source: ch.source || 'internal',
     startTime: ch.startTime || null

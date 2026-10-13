@@ -25,7 +25,8 @@ async function performDiscovery(sourceKey, selector) {
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true, 
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] 
+        ignoreHTTPSErrors: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list'] 
     });
     const page = await browser.newPage();
     const matches = [];
@@ -62,7 +63,8 @@ export async function discoverColaTV() {
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true, 
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] 
+        ignoreHTTPSErrors: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list'] 
     });
     
     const page = await browser.newPage();
@@ -135,10 +137,13 @@ export async function discoverXoilac() {
     const browser = await puppeteer.launch({
         executablePath: CHROME_PATH || undefined,
         headless: true,
+        ignoreHTTPSErrors: true,
         args: [
             '--no-sandbox',
             '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage'
+            '--disable-dev-shm-usage',
+            '--ignore-certificate-errors',
+            '--ignore-certificate-errors-spki-list'
         ]
     });
 

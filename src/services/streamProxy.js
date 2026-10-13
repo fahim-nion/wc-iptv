@@ -11,23 +11,23 @@ export function getStreamUrl(channelOrUrl) {
     return `${PROXY}?url=${encodeURIComponent(url)}`;
   }
   
-  // Auto-route streams that restrict CORS (HesGoal / kora-plus.li / edgestream / xyzstreams) through the built-in proxy
+  // Auto-route streams that restrict CORS (HesGoal / kora-plus / edgestream / xyzstreams) through the built-in proxy
   const isCorsRestricted = 
     source.toLowerCase().includes('hesgoal') ||
     source.toLowerCase().includes('xyzstreams') ||
     url.includes('fancy-shark151.workers.dev') ||
     url.includes('tokenized.b-cdn.net') ||
     url.includes('xyzstreams.space') ||
-    url.includes('kora-plus.li') || 
+    url.includes('kora-plus') || 
     url.includes('edgestream') || 
-    url.includes('goalakor.space') || 
+    url.includes('goalakor') || 
     url.includes('kora-api') ||
-    url.includes('robotiva.online') ||
+    url.includes('robotiva') ||
     url.includes('indianservers.st') ||
     source.toLowerCase().includes('ppv');
 
   if (isCorsRestricted) {
-    if (url.includes('/api/stream?url=')) return url;
+    if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;
     return `/api/stream?url=${encodeURIComponent(url)}`;
   }
 

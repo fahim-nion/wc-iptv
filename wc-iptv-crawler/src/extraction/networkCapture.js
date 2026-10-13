@@ -81,7 +81,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+            ignoreHTTPSErrors: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list']
         });
         const page = await browser.newPage();
         let streamUrl = null;
@@ -121,7 +122,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+            ignoreHTTPSErrors: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list']
         });
         const page = await browser.newPage();
         let streamUrl = null;
@@ -154,8 +156,9 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
     }
 
     // Socolive mirror fallback URLs if primary domain fails
-    const urlsToAttempt = [targetUrl];
-    if (label.toUpperCase().includes('SOCOLIVE') || targetUrl.includes('socolive') || targetUrl.includes('athleticbilbao')) {
+    const urlsToAttempt = [];
+    const isIpHost = targetUrl.includes('159.195.92.182') || /https?:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/.test(targetUrl);
+    if (label.toUpperCase().includes('SOCOLIVE') || targetUrl.includes('socolive') || targetUrl.includes('athleticbilbao') || isIpHost) {
         const socoMirrors = (config.sources?.socolive?.mirrors || []).concat([config.sources?.socolive?.homepage || '']);
         for (const mirror of socoMirrors) {
             if (!mirror) continue;
@@ -168,15 +171,30 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             } catch (e) {}
         }
     }
+    if (isIpHost) {
+        urlsToAttempt.push(targetUrl);
+    } else {
+        urlsToAttempt.unshift(targetUrl);
+    }
 
-    for (const currentUrl of urlsToAttempt.slice(0, 2)) {
+    for (const currentUrl of urlsToAttempt.slice(0, 3)) {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--autoplay-policy=no-user-gesture-required']
+            ignoreHTTPSErrors: true,
+            args: [
+                '--no-sandbox', 
+                '--disable-setuid-sandbox', 
+                '--disable-dev-shm-usage', 
+                '--disable-gpu', 
+                '--ignore-certificate-errors',
+                '--ignore-certificate-errors-spki-list',
+                '--autoplay-policy=no-user-gesture-required'
+            ]
         });
 
         const page = await browser.newPage();
+        await page.setBypassCSP(true).catch(() => {});
         const candidates = [];
 
         try {

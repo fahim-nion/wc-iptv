@@ -66,7 +66,14 @@ async function runCycle() {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
             try {
-                const stream = await captureNetworkStream(match.url, match.source.toUpperCase());
+                let stream = null;
+                if (match.source === 'ppv') {
+                    // PPV embeds bind tokens to viewer IP; serving as IFRAME allows browser to authenticate directly
+                    stream = { url: match.url, type: 'IFRAME' };
+                } else {
+                    stream = await captureNetworkStream(match.url, match.source.toUpperCase());
+                }
+
                 if (stream && stream.url) {
                     const finalTitle = match.title.toUpperCase();
                     console.log(chalk.green(`   ✔ Captured: ${finalTitle}`));
