@@ -1649,65 +1649,47 @@
       "category": "Sports"
     },
     {
-      "id": "live-587850df86",
-      "title": "INTER VS PARMA",
+      "id": "live-8f43c1d6df",
+      "title": "FERROCARRIL MIDLAND VS ATLETICO RAFAELA [SERVER 1 - HD]",
       "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/daznit.m3u8?token=6bJXlgWoDVBDbN43yhNMGFODM4g&exp=1791654555",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6hRJoLLUkJS.m3u8?txSecret=cda5c2d44f30ef5114ccd021a607b16c&txTime=6ACF51FB",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-9f93091966",
-      "title": "RIZESPOR VS FENERBAHÇE",
+      "id": "live-0d3ce76d41",
+      "title": "QUILMES VS AGROPECUARIO DE CARLOS CASARES [SERVER 2 - HD]",
       "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/alwan5.m3u8?token=lVo5P9bB7yafYcQ4XLTFp79I1A0&exp=1791654571",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6gtY59cuv9t.m3u8?txSecret=05edfcce610a2606474c214956e2efe9&txTime=6ACF51FB",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-0b67007b04",
-      "title": "MANCHESTER UNITED VS TOTTENHAM",
+      "id": "live-546f625d52",
+      "title": "ALMAGRO VS CHACARITA JUNIORS [SERVER 1 - SD]",
       "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/main.m3u8?token=aWdyQcjdtQ-E16b08P4tiASgI28&exp=1791654587",
+      "source": "livelive24",
+      "streamUrl": "https://tg003gr4uqmtt8y41hcjzgezdrmmoqisga75ufiosgmu3pfzs4cjqcpzs4.100ycdn.com/pullws-ac.yiom1.com/sport/QMfJjN4MDN1UzXyAjM/playlist.m3u8?wsSecret=d4c22599710a84f36b972c5ac79ad0c1&wsABSTime=6ACFC8CF&wsSession=d1b188f8dcb4caf1c0a59874-179166095874804&wsIPSercert=fe6b76ee19bc0cc279b80f4b35edd774&wsBindIP=2&wsserid=1168309218210984056",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-c73a3bef8d",
-      "title": "BARCELONA VS GETAFE",
+      "id": "live-4517e85aea",
+      "title": "ALMAGRO VS CHACARITA JUNIORS [SERVER 2 - HD]",
       "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/dep.m3u8?token=jOi4SmW28Y633sI53Wf0rCKfi6g&exp=1791654603",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji7XrGudUHxLE.m3u8?txSecret=8664d16c7be5cad67e70f32ee6a7be1e&txTime=6ACF5147",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-2cc18c8bbe",
-      "title": "RB LEIPZIG VS EINTRACHT FRANKFURT",
+      "id": "live-622d2ec92c",
+      "title": "COLEGIALES VS TRISTAN SUAREZ [SERVER 2 - HD]",
       "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a13.kora-plus.li/live/bundes1.m3u8?token=P_A71FHLY9RKnEOthyzQ27zQ794&exp=1791654619",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-729a402be5",
-      "title": "AEK ATHENS FC VS OFI",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/mag1.m3u8?token=8l21XgsHVEEJd2H8GWIwvBkxNKE&exp=1791654636",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1513e1aa46",
-      "title": "FEYENOORD VS AZ ALKMAAR",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/espn1.m3u8?token=SJPk2IzrfSLb926KYnDSSnUZhbA&exp=1791654652",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqji6hJiMitzzqk.m3u8?txSecret=474d314303708cc4f3fad421354fcde1&txTime=6ACF5094",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1716,7 +1698,7 @@
       "title": "MARITIMO VS FC PORTO",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/tv1.m3u8?token=9F0LsEqEtYIRuKWv0dxHyT67tO4&exp=1791654669",
+      "streamUrl": "https://a13.kora-plus.li/live/tv1.m3u8?token=F9MQd5gwyPP42MXFwCV7agu8rLE&exp=1791664582",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1725,7 +1707,7 @@
       "title": "AL-HILAL SAUDI FC VS AL-ITTIHAD FC",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/thman1.m3u8?token=ZEUk7Gb5VdX5uHY0hbPsWugSwiM&exp=1791654685",
+      "streamUrl": "https://a16.kora-plus.li/live/thman1.m3u8?token=oKTlYq6MWwLGWQCSs4GxABh_1Kc&exp=1791664601",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1783,14 +1765,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-3f8470fd4e",
-      "title": "BOSS",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1791498264-0-0-1c73134c01513e6e7c32a65e97eb0314",
-      "category": "Sports"
-    },
-    {
       "id": "live-53b62efb9e",
       "title": "TUẤN CÙI",
       "status": "live",
@@ -1807,14 +1781,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-8e062b35b7",
-      "title": "CR FLAMENGO (Y) VS VASCO U20",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=8e5a20066d6a8e2c8ce6005d0b1165f8&wsABSTime=1791537896",
-      "category": "Sports"
-    },
-    {
       "id": "live-5051bddb35",
       "title": "BENTIN TACNA HEROICA VS CARLOS MANNUCCI",
       "status": "live",
@@ -1828,14 +1794,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=8e10154147845b8ef3b8ed7ab6ab129b&wsABSTime=1791537907",
-      "category": "Sports"
-    },
-    {
-      "id": "live-29406edfce",
-      "title": "FAR RABAT VS WIDAD TÉMARA",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=2y32x9wUxo2jRLP4Nhcx2fAYKGA&exp=1791494409",
       "category": "Sports"
     },
     {
@@ -1868,14 +1826,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791328962-0-0-f800a29ee7ce6b28a104d775039d78cd",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6538addb0c",
-      "title": "REAL POTOSI VS S. ANTONIO BULO",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=5d26cfff11775fb66f6fda881b247f5d&wsABSTime=1791372170",
       "category": "Sports"
     },
     {
