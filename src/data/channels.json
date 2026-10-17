@@ -546,7 +546,7 @@
       "title": "RENAISSANCE BERKANE VS CR KHEMIS ZEMAMRA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/riadia.m3u8?token=RL4WMuh4W2t02yhvvzgY7TV7qYs&exp=1791921668",
+      "streamUrl": "https://a14.kora-plus.li/live/riadia.m3u8?token=nLpKela3vkMHd7boj8wlak0dwUo&exp=1791924983",
       "type": "HLS",
       "category": "Sports"
     },
@@ -555,7 +555,7 @@
       "title": "AL-ITTIHAD FC VS SHABAB AL AHLI DUBAI",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/b2.m3u8?token=5XdlYHxWOvDapEdp6zbU4nc6bmw&exp=1791921678",
+      "streamUrl": "https://a11.kora-plus.li/live/b2.m3u8?token=Y5CnagCpwZitWCaAVXvZsu5q-Wo&exp=1791924996",
       "type": "HLS",
       "category": "Sports"
     },
@@ -564,17 +564,71 @@
       "title": "GALATASARAY VS BARCELONA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/tnt2.m3u8?token=kkrlDB1rCuwhIHynP4snWstrdIg&exp=1791921686",
+      "streamUrl": "https://a16.kora-plus.li/livecenter/636-1.m3u8?token=buuOFb9SNMufa5KmmGXTIOpZ_aE&exp=1791925010",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-94851283e6",
-      "title": "ATLETICO MADRID VS MANCHESTER UNITED",
+      "id": "live-025203383d",
+      "title": "VILLARREAL VS NAPOLI",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/b1eng.m3u8?token=OJD4DsPRpHyLg_jakzBSzJEmweY&exp=1791921695",
+      "streamUrl": "https://a11.kora-plus.li/livecenter/630-1.m3u8?token=0hxyb17Ozt0LdRbRKEDh8yDcN8A&exp=1791925059",
       "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-081454f40c",
+      "title": "INTER VS CLUB BRUGGE KV",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a13.kora-plus.li/livecenter/633-1.m3u8?token=-TJtBkomNQvolBpnmptME6iqY4g&exp=1791925079",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-845ae62dc3",
+      "title": "STOKE CITY VS MIDDLESBROUGH",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a11.kora-plus.li/live/main.m3u8?token=z124EHDPjek3BKNvg9E1-YZRE_U&exp=1791925087",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-59565366a1",
+      "title": "FUS RABAT VS RAJA CASABLANCA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/riadia.m3u8?token=dXtk726ae_Qwb9QsnaTnXvTD--Q&exp=1791925097",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3b93e83952",
+      "title": "ARSENAL VS LOSC LILLE",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791921662-0-0-59ba1f06d1e9c4fb197aaf1ce08d4472",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c760cfe708",
+      "title": "VIKING VS BAYERN MUNICH",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001791921668-0-0-40283bf8c9a43a9a0a8bf2d195e12738",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-77af89dc1b",
+      "title": "ATLETICO MADRID VS MANCHESTER UNITED",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791921675-0-0-5c7b5cc058af574491df16f195acbe32",
+      "type": "FLV",
       "category": "Sports"
     },
     {
@@ -749,15 +803,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-3b93e83952",
-      "title": "ARSENAL VS LOSC LILLE",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791917677-0-0-fde6c4821d6e073cc8ea0cb4b3dda2be",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-2a40da6e02",
       "title": "NỮ BA LAN VS NỮ BỈ",
       "status": "live",
@@ -830,15 +875,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-82806edc80",
-      "title": "INTER MILAN VS PARMA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001791653039-0-0-03caa9fae19a90646193ae82504e85a7",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-5616ed3674",
       "title": "BARCELONA VS GETAFE",
       "status": "live",
@@ -862,14 +898,6 @@
       "status": "live",
       "source": "hesgoal",
       "streamUrl": "https://a11.kora-plus.li/live/riadia.m3u8?token=54t7L7-5_wBlB6OPVLQ1siAkMYE&exp=1791496452",
-      "category": "Sports"
-    },
-    {
-      "id": "live-53b62efb9e",
-      "title": "TUẤN CÙI",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1791498280-0-0-5c6becaae31eba10037b2252aff13bd7",
       "category": "Sports"
     },
     {
