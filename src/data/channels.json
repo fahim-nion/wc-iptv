@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T17:09:03.637Z",
+  "updatedAt": "2026-10-17T17:24:01.584Z",
   "channels": [
     {
       "id": "live-483f36345d",
       "title": "STRASBOURG VS PARIS SAINT GERMAIN",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/bus.m3u8?token=5XGO_7vt_ygcLOJ_pkZiVDq-qVw&exp=1792260191",
+      "streamUrl": "https://a16.kora-plus.li/live/bus.m3u8?token=uLYqWFlJgqKX_5nRqf6aQz0LrBw&exp=1792261038",
       "type": "HLS",
       "category": "Sports"
     },
@@ -15,7 +15,7 @@
       "title": "BOLOGNA VS INTER",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/daznit.m3u8?token=d6Mq8ZlPpc5tg9lqX9plGd5CUm0&exp=1792260208",
+      "streamUrl": "https://a12.kora-plus.li/live/daznit.m3u8?token=HptJqQ3VwwOw9l30kjoxg5Llf3w&exp=1792261055",
       "type": "HLS",
       "category": "Sports"
     },
@@ -24,7 +24,7 @@
       "title": "CODM MEKNÈS VS UTS RABAT",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/riadia.m3u8?token=_0zikUhmv4cNtu_EAzv8F2VRn6g&exp=1792260225",
+      "streamUrl": "https://a12.kora-plus.li/live/riadia.m3u8?token=MJSHVxdegEFEwRHxAtg2DapodFc&exp=1792261072",
       "type": "HLS",
       "category": "Sports"
     },
@@ -33,7 +33,7 @@
       "title": "FENERBAHÇE VS ALANYASPOR",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/b1tr.m3u8?token=rPgvoCTN-6KeTTqCJL7LS43Trf4&exp=1792260242",
+      "streamUrl": "https://a13.kora-plus.li/live/b1tr.m3u8?token=Ccb7z1YoG8fuW7PiJhEFFuL5GnE&exp=1792261089",
       "type": "HLS",
       "category": "Sports"
     },
@@ -42,7 +42,7 @@
       "title": "REAL BETIS VS BARCELONA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/prem2.m3u8?token=BIe_tdk5wdnL6YPjz4KIAkAEX-M&exp=1792260259",
+      "streamUrl": "https://a11.kora-plus.li/live/prem2.m3u8?token=xhoWqlJUIiuG5bjkN0J0wMq8B1Q&exp=1792261107",
       "type": "HLS",
       "category": "Sports"
     },
@@ -51,7 +51,7 @@
       "title": "NEWCASTLE VS ASTON VILLA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a16.kora-plus.li/live/main.m3u8?token=hL7Aopdu4HH-VaC1s2LBnE6fB08&exp=1792260276",
+      "streamUrl": "https://a16.kora-plus.li/live/main.m3u8?token=SSpWksC2SxBMkobPfk7MDKEwgyY&exp=1792261123",
       "type": "HLS",
       "category": "Sports"
     },
@@ -60,7 +60,7 @@
       "title": "BAYERN MÜNCHEN VS RB LEIPZIG",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/usa.m3u8?token=rPJbDtlou-7fXSsJU6SIMPxBP3Q&exp=1792260293",
+      "streamUrl": "https://a11.kora-plus.li/live/usa.m3u8?token=ebYO9u9W9GpwnJdHZ3hsnKGjl6Q&exp=1792261140",
       "type": "HLS",
       "category": "Sports"
     },
@@ -69,7 +69,7 @@
       "title": "TELSTAR VS FEYENOORD",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/espn1.m3u8?token=66ItzpY38mQtKut7r1dApX6c-uU&exp=1792260311",
+      "streamUrl": "https://a12.kora-plus.li/live/espn1.m3u8?token=8Hspz1gbNO0QKcmivPLGlUYdIAI&exp=1792261157",
       "type": "HLS",
       "category": "Sports"
     },
@@ -78,7 +78,7 @@
       "title": "AS ROMA VS GENOA",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/calcio.m3u8?token=nrHhwYFut5Ehrge0uyEg1J5HMto&exp=1792260328",
+      "streamUrl": "https://a16.kora-plus.li/live/calcio.m3u8?token=VjzFpQJrIQzSF0BwxSQBvZvf0Tc&exp=1792261175",
       "type": "HLS",
       "category": "Sports"
     },
@@ -87,7 +87,7 @@
       "title": "LILLE VS STADE BRESTOIS 29",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/bus.m3u8?token=4BFbgA0ZlwbszPmToAl7Jd5l2Ow&exp=1792260345",
+      "streamUrl": "https://a11.kora-plus.li/live/bus.m3u8?token=FCUAFgMWOCcC6oQhnMq2OOK3A5M&exp=1792261191",
       "type": "HLS",
       "category": "Sports"
     },
@@ -96,7 +96,7 @@
       "title": "VALENCIA VS ATHLETIC CLUB",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/dep.m3u8?token=1DZ_AidMrHdLtIy8QhDACgl8zyg&exp=1792260381",
+      "streamUrl": "https://a12.kora-plus.li/live/dep.m3u8?token=yT2pwHTPBSZFTY66binmJREkelE&exp=1792261228",
       "type": "HLS",
       "category": "Sports"
     },
@@ -105,7 +105,16 @@
       "title": "DUNDEE VS RANGERS",
       "status": "live",
       "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/skyf.m3u8?token=snKe9H-eK_A958upCyf5pnbj49U&exp=1792260398",
+      "streamUrl": "https://a14.kora-plus.li/live/skyf.m3u8?token=DcPoed-C5QJzC1ZgYtXNqJVrGJc&exp=1792261244",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-00e0342b45",
+      "title": "DIFAA EL JADIDA VS MOGHREB TETOUAN",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/riadia.m3u8?token=TPt6diQGuIO_2eblqkzjn_frmW0&exp=1792261262",
       "type": "HLS",
       "category": "Sports"
     },
@@ -116,6 +125,15 @@
       "source": "xyzstreams",
       "streamUrl": "https://hls.fancy-shark151.workers.dev/usa/index.m3u8?token=db27d034b1e0fb559c55529346cdba7e&server=1",
       "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e08af8e8ca",
+      "title": "TELSTAR VS. FEYENOORD ROTTERDAM",
+      "status": "live",
+      "source": "ppv",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-17/tel-fey",
+      "type": "IFRAME",
       "category": "Sports"
     },
     {
@@ -146,20 +164,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-e08af8e8ca",
-      "title": "TELSTAR VS. FEYENOORD ROTTERDAM",
+      "id": "live-2ce9d79c13",
+      "title": "PHILADELPHIA UNION VS. CHARLOTTE FC",
       "status": "live",
       "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-10-17/tel-fey",
-      "type": "IFRAME",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2e38f7d2bd",
-      "title": "BOLOGNA VS. INTER MILAN",
-      "status": "live",
-      "source": "ppv",
-      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-10-17/bol-int",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-10-17/phi-clt",
       "type": "IFRAME",
       "category": "Sports"
     },
@@ -168,7 +177,7 @@
       "title": "NEWCASTLE UNITED VS ASTON VILLA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdqQiJUL7moeiA3H.m3u8?txSecret=5823041944c16acf90c2433241c67417&txTime=6AD3AC5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdqQiJUL7moeiA3H.m3u8?txSecret=d154a2d0f340f44cbaee6ae1a88b072f&txTime=6AD3AFBC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -177,16 +186,7 @@
       "title": "REAL BETIS VS FC BARCELONA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaGxUMvz4MhB7CT.m3u8?txSecret=0598450c9796f3a6e381225a8d2e7773&txTime=6AD3AC5F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-10ea79dc83",
-      "title": "RC STRASBOURG ALSACE VS PARIS SAINT GERMAIN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYdDUZK96fyq.m3u8?txSecret=2faae8e7ceb361ae56d1a2f986230c64&txTime=6AD3AC60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaGxUMvz4MhB7CT.m3u8?txSecret=b534007c2fb6a3f161e0eb2b3b07f05e&txTime=6AD3AFBD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -195,7 +195,7 @@
       "title": "FENERBAHCE VS ALANYASPOR",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHS9Yim1A4pmd.m3u8?txSecret=f2ec3f522706052cc89caafc8c05bc3c&txTime=6AD3AC60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHS9Yim1A4pmd.m3u8?txSecret=31ec5a062aed8b45e8e6e1d02a2e7d00&txTime=6AD3AFBD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -204,34 +204,16 @@
       "title": "FC BAYERN MUNICH VS RB LEIPZIG",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaDgkUBpoxcXQST.m3u8?txSecret=5dc022f6bdd17fe2a10d9de7ecea92f0&txTime=6AD3AC60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaDgkUBpoxcXQST.m3u8?txSecret=c88942cfeec8d8aced3996298b3323b5&txTime=6AD3AFBE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-c5acf9e8ce",
-      "title": "THẠCH TÚ",
+      "id": "live-ba0f317afb",
+      "title": "NEOM SC VS AL ETTIFAQ",
       "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=e2adf6e143b681b9a6b22242d3eb6b1b&txTime=6ad3ffa4",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a023d3d306",
-      "title": "LOGAN",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1792260443-0-0-255275a1d1897a8b198d5ddcd9724a08",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b57c541cf2",
-      "title": "LÃO LÂM",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1792260451-0-0-bef39779aca6a5a756f09c696e0d9fd9",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarmCjejod41h6G7.m3u8?txSecret=9ec8ac9fe6312ae7d43dee1c43674a8f&txTime=6AD3AFBE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -263,20 +245,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-b5d1b0e99d",
-      "title": "STRASBOURG VS PSG",
+      "id": "live-47079ecc65",
+      "title": "NEWCASTLE UNITED VS ASTON VILLA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001792256878-0-0-f9bf327feb941f573959bfb0814b8212",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a8573c2f03",
-      "title": "BAYERN MUNICH VS RB LEIPZIG",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001792256885-0-0-d78c9a72e487cd69686d3e1925bb5fc0",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001792257815-0-0-3fb7399e41c2f7af07548364fc4a8b61",
       "type": "FLV",
       "category": "Sports"
     },
@@ -285,7 +258,34 @@
       "title": "REAL BETIS VS BARCELONA",
       "status": "live",
       "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001792256891-0-0-698b36cec6f4c3328748bf12c1aead5a",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001792257821-0-0-4cb2e67501c393c095cb9cfb1fe6f52d",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a8573c2f03",
+      "title": "BAYERN MUNICH VS RB LEIPZIG",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001792257827-0-0-8713c88b2d692572a0cb1b36e0bce655",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-10ea79dc83",
+      "title": "RC STRASBOURG ALSACE VS PARIS SAINT GERMAIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYdDUZK96fyq.m3u8?txSecret=2faae8e7ceb361ae56d1a2f986230c64&txTime=6AD3AC60&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b5d1b0e99d",
+      "title": "STRASBOURG VS PSG",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001792256878-0-0-f9bf327feb941f573959bfb0814b8212",
       "type": "FLV",
       "category": "Sports"
     },
