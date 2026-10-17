@@ -3,6 +3,7 @@ import stealth from 'puppeteer-extra-plugin-stealth';
 import config from '../../config.js';
 import fs from 'fs';
 import { execSync } from 'child_process';
+import { normalizeMatchTitle } from '../utils/titleNormalizer.js';
 
 puppeteer.use(stealth());
 
@@ -18,10 +19,47 @@ const getChromePath = () => {
 };
 const CHROME_PATH = getChromePath();
 
-// --- Keep your existing performDiscovery for the other sources ---
+function extractMatchFromUrlAndText(url, rawText) {
+    let matchTitle = '';
+    const slugMatch = url.match(/\/truc-tiep\/([^/?#]+)/);
+    if (slugMatch) {
+        let slug = slugMatch[1]
+            .replace(/-luc-.*$/i, '')
+            .replace(/-\d{1,2}-\d{1,2}-\d{4}.*$/i, '')
+            .replace(/-\d{4}-\d{2}-\d{2}.*$/i, '')
+            .replace(/-[a-z0-9]{15,}$/i, '')
+            .replace(/^(cau-lac-bo-bong-da|clb|fc)-/i, '')
+            .replace(/-vs-(cau-lac-bo-bong-da|clb|fc)-/i, '-vs-')
+            .replace(/-balompie/i, '');
+        const parts = slug.split('-vs-');
+        if (parts.length === 2) {
+            const t1 = parts[0].replace(/-/g, ' ').trim().toUpperCase();
+            const t2 = parts[1].replace(/-/g, ' ').trim().toUpperCase();
+            matchTitle = `${t1} VS ${t2}`;
+        }
+    }
+
+    let commentator = (rawText || '')
+        .split('\n')[0]
+        .replace(/LINK TRỰC TIẾP |TRỰC TIẾP |HOT|LIVE|LIVE NOW|VÀO LÚC.*/gi, '')
+        .replace(/^[0-9]{2}:[0-9]{2}/g, '')
+        .trim();
+
+    if (commentator.includes(' VS ') || commentator.length > 25) {
+        if (!matchTitle) matchTitle = commentator;
+        commentator = '';
+    }
+
+    if (!matchTitle) matchTitle = commentator || 'UNKNOWN MATCH';
+    matchTitle = normalizeMatchTitle(matchTitle);
+
+    return { matchTitle, commentator: commentator.toUpperCase() };
+}
+
+// --- Enhanced performDiscovery for Socolive and other sources ---
 async function performDiscovery(sourceKey, selector) {
     const source = config.sources[sourceKey];
-    if (!source) return [];
+    if (!source || !source.enabled) return [];
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true, 
@@ -39,14 +77,30 @@ async function performDiscovery(sourceKey, selector) {
                 const links = await page.$$eval(selector, (anchors) => {
                     return anchors.map(a => ({ url: a.href, text: a.innerText.trim() }));
                 });
-                const seen = new Set();
+                
+                const groups = new Map();
+                const seenUrls = new Set();
                 for (const link of links) {
-                    if (seen.has(link.url) || link.url.includes('/link/')) continue;
-                    let cleanTitle = link.text.split('\n')[0].replace(/LINK TRỰC TIẾP |TRỰC TIẾP |VÀO LÚC.*/gi, '').trim();
-                    if (cleanTitle.length > 3 && !cleanTitle.includes('KẾT THÚC')) {
-                        seen.add(link.url);
-                        matches.push({ source: sourceKey, title: cleanTitle.toUpperCase(), url: link.url });
-                    }
+                    if (seenUrls.has(link.url) || link.url.includes('/link/')) continue;
+                    seenUrls.add(link.url);
+                    const { matchTitle, commentator } = extractMatchFromUrlAndText(link.url, link.text);
+                    if (!matchTitle || matchTitle.length <= 3 || matchTitle.includes('KẾT THÚC')) continue;
+
+                    if (!groups.has(matchTitle)) groups.set(matchTitle, []);
+                    groups.get(matchTitle).push({ url: link.url, commentator });
+                }
+
+                for (const [baseTitle, list] of groups.entries()) {
+                    list.forEach((entry, idx) => {
+                        const serverNum = idx + 1;
+                        const tag = entry.commentator ? `[SERVER ${serverNum} - ${entry.commentator}]` : `[SERVER ${serverNum}]`;
+                        matches.push({
+                            source: sourceKey,
+                            title: `${baseTitle} ${tag}`,
+                            url: entry.url,
+                            serverIndex: serverNum
+                        });
+                    });
                 }
                 if (matches.length > 0) break;
             } catch (e) { }
@@ -58,6 +112,7 @@ async function performDiscovery(sourceKey, selector) {
 // --- DEBUGGED COLATV DISCOVERY ---
 export async function discoverColaTV() {
     const source = config.sources.colatv;
+    if (!source || !source.enabled) return [];
     console.log(`\n🔍 [COLATV] Running Deep Scan for Hot Matches...`);
     
     const browser = await puppeteer.launch({ 
@@ -75,23 +130,19 @@ export async function discoverColaTV() {
         
         // 1. Scroll slightly to trigger lazy-loading matches
         await page.evaluate(() => window.scrollBy(0, 800));
-        await new Promise(r => setTimeout(r, 8000));
+        await new Promise(r => setTimeout(r, 6000));
 
         // 2. Specialized selector for ColaTV match blocks
         const data = await page.evaluate(() => {
-            // Find all containers that likely hold match info
             const items = document.querySelectorAll('a[href*="/truc-tiep/"]');
             return Array.from(items).map(a => {
-                // Look for team names in spans or specific classes (ColaTV common structure)
                 const teamElements = a.querySelectorAll('.name, .team-name, span');
                 let extractedTitle = "";
-                
                 if (teamElements.length >= 2) {
                     extractedTitle = teamElements[0].innerText.trim() + " VS " + teamElements[1].innerText.trim();
                 } else {
                     extractedTitle = a.innerText.trim();
                 }
-
                 return {
                     url: a.href,
                     rawText: extractedTitle
@@ -99,26 +150,30 @@ export async function discoverColaTV() {
             });
         });
 
-        const seen = new Set();
+        const groups = new Map();
+        const seenUrls = new Set();
         for (const item of data) {
-            if (seen.has(item.url) || item.url.includes('/link/')) continue;
+            if (seenUrls.has(item.url) || item.url.includes('/link/')) continue;
+            seenUrls.add(item.url);
 
-            // Strict cleaning for ColaTV
-            let clean = item.rawText
-                .split('\n')[0]
-                .replace(/^[0-9]{2}:[0-9]{2}/g, '') // Remove times like 21:00
-                .replace(/TRỰC TIẾP|HOT|LIVE|LIVE NOW/gi, '')
-                .replace(/-/g, ' VS ')
-                .trim();
+            const { matchTitle, commentator } = extractMatchFromUrlAndText(item.url, item.rawText);
+            if (!matchTitle || matchTitle.length <= 3 || matchTitle.includes('KẾT THÚC')) continue;
 
-            if (clean.length > 5 && !clean.includes('KẾT THÚC')) {
-                seen.add(item.url);
+            if (!groups.has(matchTitle)) groups.set(matchTitle, []);
+            groups.get(matchTitle).push({ url: item.url, commentator });
+        }
+
+        for (const [baseTitle, list] of groups.entries()) {
+            list.forEach((entry, idx) => {
+                const serverNum = idx + 1;
+                const tag = entry.commentator ? `[SERVER ${serverNum} - ${entry.commentator}]` : `[SERVER ${serverNum}]`;
                 matches.push({
                     source: 'colatv',
-                    title: clean.toUpperCase(),
-                    url: item.url
+                    title: `${baseTitle} ${tag}`,
+                    url: entry.url,
+                    serverIndex: serverNum
                 });
-            }
+            });
         }
     } catch (e) {
         console.error(`[Cola Debug Error]: ${e.message}`);
@@ -324,6 +379,23 @@ export async function discoverLiveLive24() {
 
             match.streams.forEach((stream, index) => {
                 if (!stream.url) return;
+                let resolvedUrl = stream.url;
+                if (resolvedUrl.includes('?url=') || resolvedUrl.includes('&url=')) {
+                    const rawParam = resolvedUrl.split(/[?&]url=/)[1]?.split('&')[0];
+                    if (rawParam) {
+                        try {
+                            const decodedParam = decodeURIComponent(rawParam);
+                            if (decodedParam.startsWith('http')) {
+                                resolvedUrl = decodedParam;
+                            } else {
+                                const b64 = Buffer.from(decodedParam, 'base64').toString('utf-8');
+                                if (b64.startsWith('http')) {
+                                    resolvedUrl = b64;
+                                }
+                            }
+                        } catch (e) {}
+                    }
+                }
                 const quality = (stream.quality || '').trim().toUpperCase();
                 const serverLabel = quality ? `[SERVER ${index + 1} - ${quality}]` : `[SERVER ${index + 1}]`;
                 const title = `${baseName} ${serverLabel}`;
@@ -331,7 +403,7 @@ export async function discoverLiveLive24() {
                 matches.push({
                     source: 'livelive24',
                     title: title,
-                    url: stream.url,
+                    url: resolvedUrl,
                     quality: stream.quality,
                     serverIndex: index + 1
                 });
@@ -614,3 +686,114 @@ export async function discoverPpv() {
     console.log(`[PPV] Discovered ${matches.length} matches.`);
     return matches;
 }
+
+export async function discoverAuraSports() {
+    const source = config.sources.aurasports;
+    if (!source || !source.enabled) return [];
+    console.log(`\n🔍 [AURASPORTS] Fetching live sports schedule...`);
+    const matches = [];
+    try {
+        const res = await fetch("https://aurasports.xyz/api/schedule", {
+            headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+            signal: AbortSignal.timeout(10000)
+        });
+        if (!res.ok) return [];
+        const data = await res.json();
+        const soccerKeywords = ['soccer', 'football', 'premier', 'laliga', 'serie', 'bundesliga', 'ligue', 'champions', 'europa', 'cup', 'mls'];
+        
+        for (const cat of data) {
+            const catName = (cat.category_name || '').toLowerCase();
+            const isSoccerCat = soccerKeywords.some(k => catName.includes(k));
+            if (!Array.isArray(cat.schedule)) continue;
+
+            for (const item of cat.schedule) {
+                const leagueName = (item.league_name || '').toLowerCase();
+                const isSoccer = isSoccerCat || soccerKeywords.some(k => leagueName.includes(k));
+                if (!isSoccer) continue;
+
+                const streamTarget = item.watchUrl || item.iframeUrl;
+                if (!streamTarget) continue;
+
+                let title = (item.title || '').trim();
+                title = title.replace(/\s+at\s+/i, ' VS ');
+                if (!title.includes(' VS ') && item.teams) {
+                    const t1 = item.teams.away?.name || item.teams.team1 || '';
+                    const t2 = item.teams.home?.name || item.teams.team2 || '';
+                    if (t1 && t2) title = `${t1} VS ${t2}`;
+                }
+                if (!title) continue;
+
+                const finalTitle = normalizeMatchTitle(title);
+                matches.push({
+                    source: 'aurasports',
+                    title: finalTitle,
+                    url: streamTarget,
+                    isLive: item.status === 'live'
+                });
+            }
+        }
+        console.log(`[AURASPORTS] Discovered ${matches.length} football matches.`);
+    } catch (e) {
+        console.error(`[AURASPORTS Discovery Error]: ${e.message}`);
+    }
+    return matches;
+}
+
+export async function discoverFalconStreams() {
+    const source = config.sources.falconstreams;
+    if (!source || !source.enabled) return [];
+    console.log(`\n🔍 [FALCONSTREAMS] Scanning live football matches...`);
+    const matches = [];
+    try {
+        const res = await fetch("https://falconstreams.st/home1", {
+            headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+            signal: AbortSignal.timeout(12000)
+        });
+        if (!res.ok) return [];
+        const html = await res.text();
+        
+        const pushRegex = /self\.__next_f\.push\(\[1,"(.*)"\]\)/g;
+        let fullStr = "";
+        let m;
+        while ((m = pushRegex.exec(html)) !== null) {
+            try {
+                fullStr += JSON.parse(`"${m[1]}"`);
+            } catch(e) {
+                fullStr += m[1].replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+            }
+        }
+
+        const eventRegex = /\{"_id":"([a-f0-9]+)".*?"category":"([^"]*)".*?"details":\{"text1":"([^"]*)","text2":"([^"]*)","text3":"([^"]*)".*?\}.*?"directStreams":(\[.*?\])/g;
+        let em;
+        while ((em = eventRegex.exec(fullStr)) !== null) {
+            const [_, id, category, sport, t1, t2, rawStreams] = em;
+            const isFootball = sport.toLowerCase().includes('soccer') || sport.toLowerCase().includes('football') || category.toLowerCase().includes('league') || category.toLowerCase().includes('cup');
+            if (!isFootball) continue;
+
+            let streams = [];
+            try {
+                streams = JSON.parse(rawStreams);
+            } catch(e) {}
+            if (!Array.isArray(streams) || streams.length === 0) continue;
+
+            const baseTitle = `${t1.trim()} VS ${t2.trim()}`;
+            const cleanTitle = normalizeMatchTitle(baseTitle);
+
+            // Add top streams as servers
+            streams.slice(0, 2).forEach((s, sIdx) => {
+                if (!s.link) return;
+                const serverTag = `[SERVER ${sIdx + 1}${s.streamer ? ' - ' + s.streamer.toUpperCase() : ''}]`;
+                matches.push({
+                    source: 'falconstreams',
+                    title: `${cleanTitle} ${serverTag}`,
+                    url: s.link
+                });
+            });
+        }
+        console.log(`[FALCONSTREAMS] Discovered ${matches.length} football server streams.`);
+    } catch (e) {
+        console.error(`[FALCONSTREAMS Discovery Error]: ${e.message}`);
+    }
+    return matches;
+}
+

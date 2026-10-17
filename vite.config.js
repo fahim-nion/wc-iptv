@@ -34,36 +34,47 @@ function streamProxyPlugin() {
         targetUrl.includes('tokenized.b-cdn.net') || 
         targetUrl.includes('xyzstreams.space');
 
-      const needsReferer = 
-        targetUrl.includes('kora-plus') || 
-        targetUrl.includes('goalakor') || 
-        targetUrl.includes('edgestream') ||
-        targetUrl.includes('robotiva') ||
-        targetUrl.includes('indianservers.st') ||
-        isXyzStream;
-      
-      if (needsReferer) {
-        if (isXyzStream) {
-          headers['Referer'] = 'https://xyzstreams.st/';
-          headers['Origin'] = 'https://xyzstreams.st';
-          const token = parsedUrl.searchParams.get('token');
-          if (token) headers['x-token'] = token;
-        } else if (targetUrl.includes('indianservers.st')) {
-          headers['Referer'] = 'https://taifood-blog.asia/';
-          headers['Origin'] = 'https://taifood-blog.asia';
-        } else {
-          headers['Referer'] = 'https://goalakor.space/';
-          headers['Origin'] = 'https://goalakor.space';
-        }
+      if (isXyzStream) {
+        headers['Referer'] = 'https://xyzstreams.st/';
+        headers['Origin'] = 'https://xyzstreams.st';
+        const token = parsedUrl.searchParams.get('token');
+        if (token) headers['x-token'] = token;
+      } else if (targetUrl.includes('camel4.live') || targetUrl.includes('camel1.tv')) {
+        headers['Referer'] = 'https://www.camel1.tv/';
+        headers['Origin'] = 'https://www.camel1.tv';
+      } else if (targetUrl.includes('edgestream') || targetUrl.includes('streame.center') || targetUrl.includes('cyberbingo')) {
+        headers['Referer'] = 'https://streame.center/';
+        headers['Origin'] = 'https://streame.center';
+      } else if (targetUrl.includes('kora-plus') || targetUrl.includes('goalakor') || targetUrl.includes('goalikor') || targetUrl.includes('kora-api')) {
+        headers['Referer'] = 'https://goalakor.space/';
+        headers['Origin'] = 'https://goalakor.space';
+      } else if (targetUrl.includes('indianservers.st')) {
+        headers['Referer'] = 'https://taifood-blog.asia/';
+        headers['Origin'] = 'https://taifood-blog.asia';
       }
 
-      const response = await fetch(targetUrl, { headers });
+      const response = await fetch(targetUrl, { headers, redirect: 'manual' });
 
       res.setHeader('Access-Control-Allow-Origin', '*');
       res.setHeader('Access-Control-Allow-Headers', '*');
       res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
 
+      if (response.status >= 300 && response.status < 400) {
+        res.statusCode = 410;
+        return res.end('Stream Expired');
+      }
+
+      if (!response.ok && response.status !== 206) {
+        res.statusCode = response.status;
+        return res.end('Upstream Error');
+      }
+
       const contentType = response.headers.get('content-type') || '';
+      if (contentType.includes('text/html')) {
+        res.statusCode = 502;
+        return res.end('Invalid Stream Format');
+      }
+
       const isPlaylist = contentType.includes('mpegurl') || targetUrl.includes('.m3u8');
 
       if (isPlaylist) {

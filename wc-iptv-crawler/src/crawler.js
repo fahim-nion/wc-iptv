@@ -1,8 +1,19 @@
 import fs from 'fs';
-import { discoverSocolive, discoverColaTV, discoverXoilac, discoverLiveLive24, discoverCamel1, discoverHesGoal, discoverXyzStreams, discoverPpv } from './discovery/matchDiscovery.js';
+import { 
+    discoverSocolive, 
+    discoverColaTV, 
+    discoverXoilac, 
+    discoverLiveLive24, 
+    discoverCamel1, 
+    discoverHesGoal, 
+    discoverXyzStreams,
+    discoverAuraSports,
+    discoverFalconStreams
+} from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
 import { validateStream } from './validation/validateStream.js'; 
+import { normalizePreservedChannel, normalizeMatchTitle } from './utils/titleNormalizer.js';
 import chalk from 'chalk';
 import crypto from 'crypto';
 
@@ -27,38 +38,44 @@ async function runCycle() {
         console.log(chalk.bold("       FUSSBALLTV - PERSISTENT CRAWL      "));
         console.log(chalk.bold("=".repeat(50)));
 
-        // 1. Load Existing Channels for Persistence
+        // 1. Load Existing Channels for Persistence (clean up skipped sources like PPV)
         let existingChannels = [];
         try {
             if (fs.existsSync(CHANNELS_PATH)) {
                 const fileData = JSON.parse(fs.readFileSync(CHANNELS_PATH, 'utf-8'));
-                existingChannels = fileData.channels || [];
+                existingChannels = (fileData.channels || []).filter(c => 
+                    c.source !== 'ppv' && 
+                    !c.streamUrl?.includes('indianservers.st') && 
+                    !c.streamUrl?.includes('taifood-blog.asia')
+                );
             }
         } catch (e) { console.log("No existing data found."); }
 
-        // 2. Discovery (Including Camel1, LiveLive24, and HesGoal)
+        // 2. Discovery
         const live24 = await discoverLiveLive24().catch(() => []);
         const hesgoal = await discoverHesGoal().catch(() => []);
+        const aura = await discoverAuraSports().catch(() => []);
+        const falcon = await discoverFalconStreams().catch(() => []);
         const cam = await discoverCamel1().catch(() => []);
         const soco = await discoverSocolive().catch(() => []);
         const cola = await discoverColaTV().catch(() => []);
         const xoi = await discoverXoilac().catch(() => []);
         const xyz = await discoverXyzStreams().catch(() => []);
-        const ppv = await discoverPpv().catch(() => []);
         
         const newResults = [];
         const seenUrls = new Set();
 
-        // Queue: All servers from LiveLive24, HesGoal matches, top Camel1 matches, then Socolive/ColaTV/Xoilac
+        // Queue: High quality reliable servers first, then secondary aggregators
         const queue = [
             ...live24,
             ...hesgoal,
+            ...aura,
+            ...falcon.slice(0, 10),
             ...xyz,
-            ...ppv.slice(0, 5),
             ...cam.slice(0, 5),
-            ...soco.slice(0, 3), 
-            ...cola.slice(0, 3), 
-            ...xoi.slice(0, 3)
+            ...soco.slice(0, 6), 
+            ...cola.slice(0, 6), 
+            ...xoi.slice(0, 4)
         ];
 
         // 3. Extraction of New Matches
@@ -66,16 +83,10 @@ async function runCycle() {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
             try {
-                let stream = null;
-                if (match.source === 'ppv') {
-                    // PPV embeds bind tokens to viewer IP; serving as IFRAME allows browser to authenticate directly
-                    stream = { url: match.url, type: 'IFRAME' };
-                } else {
-                    stream = await captureNetworkStream(match.url, match.source.toUpperCase());
-                }
+                const stream = await captureNetworkStream(match.url, match.source.toUpperCase());
 
                 if (stream && stream.url) {
-                    const finalTitle = match.title.toUpperCase();
+                    const finalTitle = normalizeMatchTitle(match.title);
                     console.log(chalk.green(`   ✔ Captured: ${finalTitle}`));
                     newResults.push({
                         id: `live-${crypto.createHash('md5').update(match.url + (match.title || '')).digest('hex').substring(0, 10)}`,
@@ -83,7 +94,7 @@ async function runCycle() {
                         status: "live",
                         source: match.source,
                         streamUrl: stream.url,
-                        type: stream.type,
+                        type: stream.type || 'HLS',
                         category: "Sports"
                     });
                 }
@@ -102,7 +113,13 @@ async function runCycle() {
             }));
             for (const res of results) {
                 if (res.isValid) {
-                    console.log(chalk.cyan(`   ↻ Preserving active match: ${res.old.title}`));
+                    const normalizedTitle = normalizePreservedChannel(res.old);
+                    if (normalizedTitle && normalizedTitle !== res.old.title) {
+                        console.log(chalk.cyan(`   ↻ Preserving active match: ${res.old.title} -> ${normalizedTitle}`));
+                        res.old.title = normalizedTitle;
+                    } else {
+                        console.log(chalk.cyan(`   ↻ Preserving active match: ${res.old.title}`));
+                    }
                     newResults.push(res.old);
                 }
             }

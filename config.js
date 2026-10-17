@@ -36,6 +36,17 @@ export default {
             homepage: "https://hesgoalltv.net/",
             api: "https://cdn.kora-api.org/api/v1/matches?lang=en",
             mirrors: []
+        },
+        aurasports: {
+            enabled: true,
+            priority: 7,
+            homepage: "https://aurasports.xyz",
+            api: "https://aurasports.xyz/api/schedule"
+        },
+        falconstreams: {
+            enabled: true,
+            priority: 8,
+            homepage: "https://falconstreams.st/home1"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

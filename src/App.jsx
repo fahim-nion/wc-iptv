@@ -95,9 +95,22 @@ export default function App() {
     setCurrentChannel(allChannels[nextIndex]);
   };
 
-  // Helper to extract base match title (ignoring [SERVER X - HD])
+  // Helper to extract base match title (ignoring [SERVER X - HD] / [SERVER X - BLV]) and normalizing team names
   const getBaseMatchTitle = (title = '') => {
-    return title.replace(/\[SERVER\s*\d+[^\]]*\]/gi, '').trim().toUpperCase();
+    if (!title) return '';
+    let base = title.replace(/\[SERVER\s*[^\]]*\]/gi, '').trim().toUpperCase();
+    base = base
+      .replace(/\bNEWCASTLE UNITED\b/g, 'NEWCASTLE')
+      .replace(/\bFC BARCELONA\b/g, 'BARCELONA')
+      .replace(/\bREAL BETIS BALOMPIE\b/g, 'REAL BETIS')
+      .replace(/\bFC BAYERN MUNICH\b|\bBAYERN MUNCHEN\b/g, 'BAYERN MUNICH')
+      .replace(/\bINTER MILAN\b|\bINTERNAZIONALE\b/g, 'INTER')
+      .replace(/\bPARIS SAINT-GERMAIN\b|\bPARIS SG\b|\bPSG\b/g, 'PARIS SAINT GERMAIN')
+      .replace(/\bMANCHESTER UNITED\b/g, 'MAN UTD')
+      .replace(/\bMANCHESTER CITY\b/g, 'MAN CITY')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return base;
   };
 
   // Find all sibling servers for current match

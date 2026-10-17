@@ -36,37 +36,47 @@ export default async (req, context) => {
       targetUrl.includes("tokenized.b-cdn.net") || 
       targetUrl.includes("xyzstreams.space");
 
-    const needsReferer = 
-      targetUrl.includes("kora-plus") || 
-      targetUrl.includes("goalakor") || 
-      targetUrl.includes("edgestream") ||
-      targetUrl.includes("robotiva") ||
-      targetUrl.includes("indianservers.st") ||
-      isXyzStream;
-
-    if (needsReferer) {
-      if (isXyzStream) {
-        fetchHeaders["Referer"] = "https://xyzstreams.st/";
-        fetchHeaders["Origin"] = "https://xyzstreams.st";
-        const token = urlParams.get("token") || new URL(targetUrl).searchParams.get("token");
-        if (token) fetchHeaders["x-token"] = token;
-      } else if (targetUrl.includes("indianservers.st")) {
-        fetchHeaders["Referer"] = "https://taifood-blog.asia/";
-        fetchHeaders["Origin"] = "https://taifood-blog.asia";
-      } else {
-        fetchHeaders["Referer"] = "https://goalakor.space/";
-        fetchHeaders["Origin"] = "https://goalakor.space";
-      }
+    if (isXyzStream) {
+      fetchHeaders["Referer"] = "https://xyzstreams.st/";
+      fetchHeaders["Origin"] = "https://xyzstreams.st";
+      const token = urlParams.get("token") || new URL(targetUrl).searchParams.get("token");
+      if (token) fetchHeaders["x-token"] = token;
+    } else if (targetUrl.includes("camel4.live") || targetUrl.includes("camel1.tv")) {
+      fetchHeaders["Referer"] = "https://www.camel1.tv/";
+      fetchHeaders["Origin"] = "https://www.camel1.tv";
+    } else if (targetUrl.includes("edgestream") || targetUrl.includes("streame.center") || targetUrl.includes("cyberbingo")) {
+      fetchHeaders["Referer"] = "https://streame.center/";
+      fetchHeaders["Origin"] = "https://streame.center";
+    } else if (targetUrl.includes("kora-plus") || targetUrl.includes("goalakor") || targetUrl.includes("goalikor") || targetUrl.includes("kora-api")) {
+      fetchHeaders["Referer"] = "https://goalakor.space/";
+      fetchHeaders["Origin"] = "https://goalakor.space";
+    } else if (targetUrl.includes("indianservers.st")) {
+      fetchHeaders["Referer"] = "https://taifood-blog.asia/";
+      fetchHeaders["Origin"] = "https://taifood-blog.asia";
     }
 
     const response = await fetch(targetUrl, {
       signal: controller.signal,
-      headers: fetchHeaders
+      headers: fetchHeaders,
+      redirect: "manual"
     });
 
     clearTimeout(timeoutId);
 
+    // If upstream returns 3xx (e.g. kora-plus redirect to google.com), stream is expired
+    if (response.status >= 300 && response.status < 400) {
+      return new Response("Stream Expired", { status: 410 });
+    }
+
+    if (!response.ok && response.status !== 206) {
+      return new Response("Upstream Error", { status: response.status });
+    }
+
     const contentType = response.headers.get("content-type") || "";
+    if (contentType.includes("text/html")) {
+      return new Response("Invalid Stream Format", { status: 502 });
+    }
+
     const isPlaylist = contentType.includes("mpegurl") || contentType.includes("mpegURL") || targetUrl.includes(".m3u8");
 
     // 1. If it's a playlist, rewrite all segment URLs to go back through this proxy

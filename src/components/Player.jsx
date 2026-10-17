@@ -648,10 +648,9 @@ export default function Player({
           <div className="flex flex-wrap gap-1.5 flex-1">
             {relatedServers.map((s, idx) => {
               const isActive = s.url === channel.url;
-              // Extract quality or server number from title
-              const serverMatch = s.name?.match(/\[SERVER\s*(\d+)(?:\s*-\s*([A-Za-z0-9]+))?\]/i);
+              const serverMatch = s.name?.match(/\[SERVER\s*(\d+)(?:\s*-\s*([^\]]+))?\]/i);
               const label = serverMatch 
-                ? `Server ${serverMatch[1]} ${serverMatch[2] ? `(${serverMatch[2]})` : ''}` 
+                ? `${s.source ? s.source.toUpperCase() : 'Server'} ${serverMatch[1]}${serverMatch[2] ? ` (${serverMatch[2].trim()})` : ''}` 
                 : (s.source ? `${s.source.toUpperCase()} #${idx + 1}` : `Server ${idx + 1}`);
 
               return (

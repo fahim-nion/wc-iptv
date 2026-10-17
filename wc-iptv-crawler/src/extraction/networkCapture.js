@@ -34,10 +34,28 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         }
     }
 
+    // 0a. Fast-path resolver for AuraSports and streame.center / edgestream
+    if (
+        label.toUpperCase().includes('AURA') ||
+        label.toUpperCase().includes('FALCON') ||
+        targetUrl.includes('cyberbingo') ||
+        targetUrl.includes('aurasports') ||
+        targetUrl.includes('streame.center') ||
+        targetUrl.includes('edgestream')
+    ) {
+        const auraStream = await resolveAuraOrStreameCenter(targetUrl);
+        if (auraStream && auraStream.url) {
+            const val = await validateStream(auraStream.url);
+            if (val.isValid) return auraStream;
+        }
+    }
+
     // 0b. Fast-path resolver for LiveLive24 and direct HLS/FLV streams
     if (
         label.toUpperCase().includes('LIVELIVE') ||
         targetUrl.includes('livelive24.com') ||
+        targetUrl.includes('hesgoal.llc') ||
+        targetUrl.includes('hls.html') ||
         targetUrl.includes('dlhd.html') ||
         targetUrl.includes('cqsycw.com') ||
         targetUrl.includes('100ycdn.com') ||
@@ -45,11 +63,21 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         (targetUrl.includes('.m3u8') && !targetUrl.includes('camel1.tv'))
     ) {
         let streamUrl = targetUrl;
-        if (targetUrl.includes('dlhd.html?url=')) {
-            const b64 = targetUrl.split('dlhd.html?url=')[1].split('&')[0];
-            try {
-                streamUrl = Buffer.from(b64, 'base64').toString();
-            } catch (e) {}
+        if (targetUrl.includes('?url=') || targetUrl.includes('&url=')) {
+            const rawParam = targetUrl.split(/[?&]url=/)[1]?.split('&')[0];
+            if (rawParam) {
+                try {
+                    const decodedParam = decodeURIComponent(rawParam);
+                    if (decodedParam.startsWith('http')) {
+                        streamUrl = decodedParam;
+                    } else {
+                        const b64 = Buffer.from(decodedParam, 'base64').toString('utf-8');
+                        if (b64.startsWith('http')) {
+                            streamUrl = b64;
+                        }
+                    }
+                } catch (e) {}
+            }
         }
         if (streamUrl.includes('pullws-ac.yiom1.com')) {
             try {
@@ -274,5 +302,41 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             await browser.close();
         }
     }
+    return null;
+}
+
+export async function resolveAuraOrStreameCenter(targetUrl) {
+    try {
+        let currentUrl = targetUrl;
+        for (let level = 0; level < 4; level++) {
+            if (currentUrl.includes('edgestream') && currentUrl.includes('.m3u8')) {
+                return { url: currentUrl, type: 'HLS' };
+            }
+            const res = await fetch(currentUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                    'Referer': currentUrl.includes('streame.center') ? 'https://streame.center/' : 'https://aurasports.xyz/'
+                },
+                signal: AbortSignal.timeout(6000)
+            });
+            if (!res.ok) break;
+            const text = await res.text();
+            const streamMatch = text.match(/const\s+streamUrl\s*=\s*["']([^"']+\.m3u8[^"']*)["']/i) || 
+                                text.match(/["'](https?:\/\/[^"']*edgestream[^"']*\.m3u8[^"']*)["']/i);
+            if (streamMatch) {
+                const finalStream = streamMatch[1].replace(/\\u0026/g, '&');
+                return { url: finalStream, type: 'HLS' };
+            }
+            const iframeMatch = text.match(/<iframe[^>]+src=["']([^"']+)["']/i);
+            if (iframeMatch) {
+                let next = iframeMatch[1];
+                if (next.startsWith('//')) next = 'https:' + next;
+                else if (next.startsWith('/')) next = new URL(next, currentUrl).href;
+                currentUrl = next;
+            } else {
+                break;
+            }
+        }
+    } catch (e) {}
     return null;
 }
