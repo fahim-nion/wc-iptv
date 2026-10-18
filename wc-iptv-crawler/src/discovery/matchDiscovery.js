@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import puppeteer from '../utils/puppeteerLoader.js';
 import config from '../../config.js';
 import fs from 'fs';
 import { execSync } from 'child_process';

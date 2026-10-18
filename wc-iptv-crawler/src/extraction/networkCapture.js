@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import puppeteer from '../utils/puppeteerLoader.js';
 import { validateStream } from '../validation/validateStream.js';
 import { getCamel1Stream } from './camelStreamResolver.js';
 import { getXyzStream } from './xyzStreamResolver.js';
