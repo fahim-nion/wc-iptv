@@ -20,6 +20,35 @@ import crypto from 'crypto';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+// Bulletproof unhandled rejection & uncaught exception handling for headless browser sessions
+process.on('unhandledRejection', (reason) => {
+    const msg = reason?.message || String(reason);
+    if (
+        msg.includes('Session closed') || 
+        msg.includes('TargetCloseError') || 
+        msg.includes('Protocol error') || 
+        msg.includes('Requesting main frame') ||
+        msg.includes('Target closed')
+    ) {
+        return;
+    }
+    console.error(chalk.yellow(`[Unhandled Rejection]: ${msg}`));
+});
+
+process.on('uncaughtException', (err) => {
+    const msg = err?.message || String(err);
+    if (
+        msg.includes('Session closed') || 
+        msg.includes('TargetCloseError') || 
+        msg.includes('Protocol error') || 
+        msg.includes('Requesting main frame') ||
+        msg.includes('Target closed')
+    ) {
+        return;
+    }
+    console.error(chalk.red(`[Uncaught Exception]: ${msg}`));
+});
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '../../');

@@ -1,11 +1,8 @@
-import puppeteer from 'puppeteer-extra';
-import stealth from 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer';
 import config from '../../config.js';
 import fs from 'fs';
 import { execSync } from 'child_process';
 import { normalizeMatchTitle } from '../utils/titleNormalizer.js';
-
-puppeteer.use(stealth());
 
 const getChromePath = () => {
     const paths = [
@@ -64,9 +61,19 @@ async function performDiscovery(sourceKey, selector) {
         executablePath: CHROME_PATH || undefined,
         headless: true, 
         ignoreHTTPSErrors: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list'] 
+        args: [
+            '--no-sandbox', 
+            '--disable-setuid-sandbox', 
+            '--disable-dev-shm-usage', 
+            '--disable-gpu',
+            '--disable-blink-features=AutomationControlled',
+            '--block-new-web-contents',
+            '--ignore-certificate-errors', 
+            '--ignore-certificate-errors-spki-list'
+        ] 
     });
     const page = await browser.newPage();
+    await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
     const matches = [];
     const urls = [source.homepage, ...(source.mirrors || [])];
     try {
@@ -119,10 +126,20 @@ export async function discoverColaTV() {
         executablePath: CHROME_PATH || undefined,
         headless: true, 
         ignoreHTTPSErrors: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list'] 
+        args: [
+            '--no-sandbox', 
+            '--disable-setuid-sandbox', 
+            '--disable-dev-shm-usage', 
+            '--disable-gpu',
+            '--disable-blink-features=AutomationControlled',
+            '--block-new-web-contents',
+            '--ignore-certificate-errors', 
+            '--ignore-certificate-errors-spki-list'
+        ] 
     });
     
     const page = await browser.newPage();
+    await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
     const matches = [];
     
     try {
@@ -197,12 +214,16 @@ export async function discoverXoilac() {
             '--no-sandbox',
             '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--disable-blink-features=AutomationControlled',
+            '--block-new-web-contents',
             '--ignore-certificate-errors',
             '--ignore-certificate-errors-spki-list'
         ]
     });
 
     const page = await browser.newPage();
+    await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
     const matches = [];
     const urls = [source.homepage, ...(source.mirrors || [])];
 

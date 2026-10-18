@@ -1,12 +1,9 @@
-import puppeteer from 'puppeteer-extra';
-import stealth from 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer';
 import { validateStream } from '../validation/validateStream.js';
 import { getCamel1Stream } from './camelStreamResolver.js';
 import { getXyzStream } from './xyzStreamResolver.js';
 import config from '../../config.js';
 import fs from 'fs';
-
-puppeteer.use(stealth());
 
 const getChromePath = () => {
     const paths = ['/usr/bin/google-chrome-stable', '/usr/bin/chromium', '/data/data/com.termux/files/usr/bin/chromium-browser'];
@@ -32,6 +29,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         if (xyzStream && xyzStream.url) {
             return xyzStream;
         }
+        return null;
     }
 
     // 0a. Fast-path resolver for AuraSports and streame.center / edgestream
@@ -108,11 +106,21 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
     ) {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
-            headless: true,
+            headless: true, 
             ignoreHTTPSErrors: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list']
+            args: [
+                '--no-sandbox', 
+                '--disable-setuid-sandbox', 
+                '--disable-dev-shm-usage', 
+                '--disable-gpu', 
+                '--disable-blink-features=AutomationControlled',
+                '--block-new-web-contents',
+                '--ignore-certificate-errors', 
+                '--ignore-certificate-errors-spki-list'
+            ]
         });
         const page = await browser.newPage();
+        await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
         let streamUrl = null;
 
         try {
@@ -215,6 +223,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                 '--disable-setuid-sandbox', 
                 '--disable-dev-shm-usage', 
                 '--disable-gpu', 
+                '--disable-blink-features=AutomationControlled',
+                '--block-new-web-contents',
                 '--ignore-certificate-errors',
                 '--ignore-certificate-errors-spki-list',
                 '--autoplay-policy=no-user-gesture-required'
@@ -222,6 +232,13 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         });
 
         const page = await browser.newPage();
+        await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
+        browser.on('targetcreated', async (t) => {
+            if (t.type() === 'page') {
+                const p = await t.page().catch(() => null);
+                if (p && p !== page) await p.close().catch(() => null);
+            }
+        });
         await page.setBypassCSP(true).catch(() => {});
         const candidates = [];
 
