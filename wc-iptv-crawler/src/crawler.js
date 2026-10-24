@@ -9,7 +9,8 @@ import {
     discoverXyzStreams,
     discoverAuraSports,
     discoverFalconStreams,
-    discoverStreamcorner
+    discoverStreamcorner,
+    discoverFutbolX
 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
@@ -82,6 +83,7 @@ async function runCycle() {
         } catch (e) { console.log("No existing data found."); }
 
         // 2. Discovery
+        const futbolx = await discoverFutbolX().catch(() => []);
         const live24 = await discoverLiveLive24().catch(() => []);
         const hesgoal = await discoverHesGoal().catch(() => []);
         const aura = await discoverAuraSports().catch(() => []);
@@ -98,6 +100,7 @@ async function runCycle() {
 
         // Queue: High quality reliable servers first, then secondary aggregators
         const queue = [
+            ...futbolx,
             ...live24,
             ...hesgoal,
             ...aura,

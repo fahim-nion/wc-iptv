@@ -37,6 +37,13 @@ export default {
             api: "https://cdn.kora-api.org/api/v1/matches?lang=en",
             mirrors: []
         },
+        futbolx: {
+            enabled: true,
+            priority: 4,
+            homepage: "https://www.futbol-x.xyz/",
+            api: "https://www.futbol-x.xyz/api/football.json",
+            tokenApi: "https://www.futbol-x.xyz/api/token.js"
+        },
         aurasports: {
             enabled: true,
             priority: 7,

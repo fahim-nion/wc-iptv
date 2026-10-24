@@ -1,15 +1,10 @@
-import puppeteer from '../utils/puppeteerLoader.js';
+import puppeteer, { getChromePath } from '../utils/puppeteerLoader.js';
 import { validateStream } from '../validation/validateStream.js';
 import { getCamel1Stream } from './camelStreamResolver.js';
 import { getXyzStream } from './xyzStreamResolver.js';
 import config from '../../config.js';
 import fs from 'fs';
 
-const getChromePath = () => {
-    const paths = ['/usr/bin/google-chrome-stable', '/usr/bin/chromium', '/data/data/com.termux/files/usr/bin/chromium-browser'];
-    for (const p of paths) { if (fs.existsSync(p)) return p; }
-    return null;
-};
 const CHROME_PATH = getChromePath();
 
 export async function captureNetworkStream(targetUrl, label = "Source") {
@@ -149,6 +144,29 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         return null;
     }
 
+    // 0c. Fast resolver for FutbolX (ryzn.pro)
+    if (label.toUpperCase().includes('FUTBOLX') || targetUrl.includes('futbol-x') || targetUrl.includes('futbolx') || targetUrl.includes('ryzn.pro')) {
+        if (targetUrl.includes('token=') && targetUrl.includes('.m3u8')) {
+            return { url: targetUrl, type: 'HLS' };
+        }
+        try {
+            const parsed = new URL(targetUrl);
+            const tokenUrl = `https://www.futbol-x.xyz/api/token.js?path=${encodeURIComponent(parsed.pathname)}&sourceHost=${parsed.hostname}&expires=900`;
+            const tokenRes = await fetch(tokenUrl, {
+                headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
+            });
+            if (tokenRes.ok) {
+                const tokenData = await tokenRes.json();
+                if (tokenData.success && tokenData.url) {
+                    return { url: tokenData.url, type: 'HLS' };
+                }
+            }
+        } catch (e) {
+            console.log(`   ✘ [FUTBOLX] Token resolution failed: ${e.message}`);
+        }
+        return { url: targetUrl, type: 'HLS' };
+    }
+
     // 0d. Fast resolver for StreamCorner
     if (label.toUpperCase().includes('STREAMCORNER') || targetUrl.includes('streamcorner')) {
         const browser = await puppeteer.launch({ 
@@ -205,8 +223,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             // Check for player iframe
             const iframeSrc = await page.evaluate(() => {
                 const iframes = Array.from(document.querySelectorAll('iframe'))
-                    .map(i => i.src)
-                    .filter(s => s && !s.includes('chat') && !s.includes('ad') && (s.includes('pandecocogaming') || s.includes('embed') || s.includes('player') || s.startsWith('http')));
+                    .map(i => i.src || i.getAttribute('src') || i.getAttribute('data-src'))
+                    .filter(s => s && s.startsWith('http') && !s.includes('chat') && !s.includes('ad'));
                 return iframes[0] || null;
             });
 

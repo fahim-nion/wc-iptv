@@ -1,19 +1,9 @@
-import puppeteer from '../utils/puppeteerLoader.js';
+import puppeteer, { getChromePath } from '../utils/puppeteerLoader.js';
 import config from '../../config.js';
 import fs from 'fs';
 import { execSync } from 'child_process';
 import { normalizeMatchTitle } from '../utils/titleNormalizer.js';
 
-const getChromePath = () => {
-    const paths = [
-        '/usr/bin/google-chrome-stable',
-        '/usr/bin/chromium',
-        '/data/data/com.termux/files/usr/bin/chromium-browser',
-        '/data/data/com.termux/files/usr/bin/chromium'
-    ];
-    for (const p of paths) { if (fs.existsSync(p)) return p; }
-    return null; 
-};
 const CHROME_PATH = getChromePath();
 
 function extractMatchFromUrlAndText(url, rawText) {
@@ -648,6 +638,65 @@ export async function discoverXyzStreams() {
     return matches;
 }
 
+export async function discoverFutbolX() {
+    const source = config.sources?.futbolx;
+    if (!source || !source.enabled) return [];
+    console.log(`\n🔍 [FUTBOLX] Scanning live streams from futbol-x.xyz...`);
+    const matches = [];
+    const categories = ['football', 'basketball'];
+
+    for (const cat of categories) {
+        try {
+            const endpoint = `https://www.futbol-x.xyz/api/${cat}.json`;
+            const res = await fetch(endpoint, {
+                headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+                signal: AbortSignal.timeout(10000)
+            });
+            if (!res.ok) continue;
+            const data = await res.json();
+
+            for (const group of data.streams || []) {
+                for (const match of group.streams || []) {
+                    const streamsList = match.streams || [];
+                    for (let i = 0; i < streamsList.length; i++) {
+                        const s = streamsList[i];
+                        if (!s.url || !s.url.startsWith('http')) continue;
+
+                        let playableUrl = s.url;
+                        try {
+                            const parsed = new URL(s.url);
+                            const tokenEndpoint = `https://www.futbol-x.xyz/api/token.js?path=${encodeURIComponent(parsed.pathname)}&sourceHost=${parsed.hostname}&expires=900`;
+                            const tokenRes = await fetch(tokenEndpoint, {
+                                headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+                                signal: AbortSignal.timeout(6000)
+                            });
+                            if (tokenRes.ok) {
+                                const tokenData = await tokenRes.json();
+                                if (tokenData.success && tokenData.url) {
+                                    playableUrl = tokenData.url;
+                                }
+                            }
+                        } catch (e) {}
+
+                        const baseTitle = normalizeMatchTitle(match.name);
+                        const serverSuffix = streamsList.length > 1 ? ` [SERVER ${i + 1} - HD]` : ` [SERVER 1 - HD]`;
+                        matches.push({
+                            title: `${baseTitle}${serverSuffix}`,
+                            url: playableUrl,
+                            source: 'futbolx'
+                        });
+                    }
+                }
+            }
+        } catch (e) {
+            console.log(`   ✘ [FUTBOLX] Discovery failed for ${cat}: ${e.message}`);
+        }
+    }
+
+    console.log(`[FUTBOLX] Discovered ${matches.length} matches.`);
+    return matches;
+}
+
 export async function discoverStreamcorner() {
     const source = config.sources?.streamcorner;
     if (!source || !source.enabled) return [];
@@ -685,14 +734,22 @@ export async function discoverStreamcorner() {
         await page.goto(source.homepage || 'https://streamcorner.st/', { waitUntil: 'domcontentloaded', timeout: 35000 });
         await new Promise(r => setTimeout(r, 4000));
 
-        // Filter for soccer/football if category button exists
+        // Click ALL or LIVE button to reveal cards
         await page.evaluate(() => {
             const buttons = Array.from(document.querySelectorAll('button, a'));
             const soccerBtn = buttons.find(b => {
                 const txt = b.innerText.trim().toUpperCase();
                 return txt === 'SOCCER' || txt === 'FOOTBALL';
             });
-            if (soccerBtn) soccerBtn.click();
+            if (soccerBtn) {
+                soccerBtn.click();
+            } else {
+                const liveBtn = buttons.find(b => {
+                    const txt = b.innerText.trim().toUpperCase();
+                    return txt === 'LIVE' || txt === 'ALL' || txt === 'TODAY';
+                });
+                if (liveBtn) liveBtn.click();
+            }
         }).catch(() => {});
 
         await new Promise(r => setTimeout(r, 2000));
@@ -723,13 +780,14 @@ export async function discoverStreamcorner() {
                 if (vsPart) {
                     title = vsPart;
                 } else if (parts.length >= 2) {
-                    title = parts.find(p => p.length > 5 && !p.match(/^[0-9:]+$/) && !['LIVE', 'SOCCER', 'FOOTBALL', 'HD'].includes(p.toUpperCase())) || title;
+                    title = parts.find(p => p.length > 5 && !p.match(/^[0-9:\/]+$/) && !['LIVE', 'SOCCER', 'FOOTBALL', 'HD'].includes(p.toUpperCase())) || title;
                 }
             }
 
             title = title
-                .replace(/^[0-9]{1,2}:[0-9]{2}(\s*\|\s*)?/g, '')
-                .replace(/\b(LIVE|SOCCER|FOOTBALL|HD)\b/gi, '')
+                .replace(/^[0-9\/:,\sAMP]+(\s*\|\s*)?/g, '')
+                .replace(/\b(LIVE|SOCCER|FOOTBALL|HD|NCAA|MLB|NFL)\b/gi, '')
+                .replace(/\bat\b/gi, 'VS')
                 .replace(/[|•·-]/g, ' ')
                 .replace(/\s+/g, ' ')
                 .trim()
