@@ -65,6 +65,11 @@ export default {
             enabled: false,
             priority: 11,
             homepage: "https://tap4sport.st/?sport=Football"
+        },
+        xyzstreams: {
+            enabled: true,
+            priority: 12,
+            homepage: "https://xyzstreams.st"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

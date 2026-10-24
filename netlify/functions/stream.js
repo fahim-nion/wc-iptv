@@ -32,6 +32,11 @@ export default async (req, context) => {
     };
 
     const isXyzStream = 
+      targetUrl.includes("duckdns.org") ||
+      targetUrl.includes("kozow.com") ||
+      targetUrl.includes("iximiuz.com") ||
+      targetUrl.includes("xyzstreams") ||
+      targetUrl.includes("workers.dev") ||
       targetUrl.includes("fancy-shark151.workers.dev") || 
       targetUrl.includes("tokenized.b-cdn.net") || 
       targetUrl.includes("xyzstreams.space");

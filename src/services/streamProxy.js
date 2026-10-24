@@ -20,6 +20,11 @@ export function getStreamUrl(channelOrUrl) {
     source.toLowerCase().includes('falconstreams') ||
     url.includes('camel4.live') ||
     url.includes('camel1.tv') ||
+    url.includes('duckdns.org') ||
+    url.includes('kozow.com') ||
+    url.includes('iximiuz.com') ||
+    url.includes('xyzstreams') ||
+    url.includes('workers.dev') ||
     url.includes('fancy-shark151.workers.dev') ||
     url.includes('tokenized.b-cdn.net') ||
     url.includes('xyzstreams.space') ||

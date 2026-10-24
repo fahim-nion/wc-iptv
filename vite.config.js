@@ -30,6 +30,11 @@ function streamProxyPlugin() {
       if (req.headers.range) headers['Range'] = req.headers.range;
 
       const isXyzStream = 
+        targetUrl.includes('duckdns.org') ||
+        targetUrl.includes('kozow.com') ||
+        targetUrl.includes('iximiuz.com') ||
+        targetUrl.includes('xyzstreams') ||
+        targetUrl.includes('workers.dev') ||
         targetUrl.includes('fancy-shark151.workers.dev') || 
         targetUrl.includes('tokenized.b-cdn.net') || 
         targetUrl.includes('xyzstreams.space');
@@ -37,7 +42,7 @@ function streamProxyPlugin() {
       if (isXyzStream) {
         headers['Referer'] = 'https://xyzstreams.st/';
         headers['Origin'] = 'https://xyzstreams.st';
-        const token = parsedUrl.searchParams.get('token');
+        const token = parsedUrl.searchParams.get('token') || new URL(targetUrl).searchParams.get('token');
         if (token) headers['x-token'] = token;
       } else if (targetUrl.includes('camel4.live') || targetUrl.includes('camel1.tv')) {
         headers['Referer'] = 'https://www.camel1.tv/';

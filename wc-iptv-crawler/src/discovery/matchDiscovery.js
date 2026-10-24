@@ -605,29 +605,62 @@ export async function discoverHesGoal() {
     return matches;
 }
 export async function discoverXyzStreams() {
+    const source = config.sources?.xyzstreams;
+    if (source && source.enabled === false) return [];
+
     console.log(`\n🔍 [XYZSTREAMS] Scanning matches from xyzstreams.st...`);
     const matches = [];
     try {
-        const res = await fetch("https://xyzstreams.st", {
-            headers: { "User-Agent": "Mozilla/5.0" }
+        const homepage = source?.homepage || "https://xyzstreams.st";
+        const res = await fetch(homepage, {
+            headers: { 
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 
+            },
+            signal: AbortSignal.timeout(10000)
         });
+        if (!res.ok) {
+            console.log(`   ✘ [XYZSTREAMS] Discovery failed: HTTP ${res.status}`);
+            return [];
+        }
         const text = await res.text();
-        const eventDataMatch = text.match(/const EVENTS_DATA\s*=\s*(\[.*?\]);/s);
-        if (eventDataMatch) {
-            let events = [];
-            try {
-                events = JSON.parse(eventDataMatch[1]);
-            } catch (e) {}
-            
-            for (const ev of events) {
-                const category = (ev.category || '').toLowerCase();
-                if ((category.includes('football') || category.includes('soccer')) && ev.title && ev.href) {
-                    const matchUrl = `https://xyzstreams.st/${ev.href}`;
-                    matches.push({
-                        title: ev.title.trim().toUpperCase(),
-                        url: matchUrl,
-                        source: 'xyzstreams'
-                    });
+        const marker = "const EVENTS_DATA = ";
+        const idx = text.indexOf(marker);
+        if (idx !== -1) {
+            const startBracket = text.indexOf("[", idx);
+            let depth = 0;
+            let endBracket = -1;
+            for (let i = startBracket; i < text.length; i++) {
+                if (text[i] === "[") depth++;
+                else if (text[i] === "]") {
+                    depth--;
+                    if (depth === 0) {
+                        endBracket = i;
+                        break;
+                    }
+                }
+            }
+            if (startBracket !== -1 && endBracket !== -1) {
+                const jsonStr = text.slice(startBracket, endBracket + 1);
+                let events = [];
+                try {
+                    events = JSON.parse(jsonStr);
+                } catch (e) {
+                    console.log(`[XYZSTREAMS] JSON parse notice: ${e.message}`);
+                }
+                
+                for (const ev of events) {
+                    const category = (ev.category || '').toLowerCase();
+                    const isSoccer = category.includes('soccer') || (category.includes('football') && !category.includes('american'));
+                    if (isSoccer && ev.title && ev.href) {
+                        const href = ev.href.startsWith('http') 
+                            ? ev.href 
+                            : `https://xyzstreams.st/${ev.href.replace(/^\//, '')}`;
+                        matches.push({
+                            title: ev.title.trim().toUpperCase(),
+                            url: href,
+                            source: 'xyzstreams'
+                        });
+                    }
                 }
             }
         }

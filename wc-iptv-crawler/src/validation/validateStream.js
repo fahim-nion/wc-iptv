@@ -19,6 +19,9 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
         } else if (urlObj.hostname.includes('edgestream') || urlObj.hostname.includes('streame.center')) {
             reqReferer = 'https://streame.center/';
             reqOrigin = 'https://streame.center';
+        } else if (urlObj.hostname.includes('duckdns.org') || urlObj.hostname.includes('kozow.com') || urlObj.hostname.includes('iximiuz.com') || urlObj.hostname.includes('xyzstream') || urlObj.hostname.includes('workers.dev')) {
+            reqReferer = 'https://xyzstreams.st/';
+            reqOrigin = 'https://xyzstreams.st';
         } else if (referer) {
             reqReferer = referer;
             try { reqOrigin = new URL(referer).origin; } catch(e) {}
@@ -33,6 +36,11 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
         };
         if (reqReferer) headers['Referer'] = reqReferer;
         if (reqOrigin) headers['Origin'] = reqOrigin;
+
+        const token = urlObj.searchParams.get('token');
+        if (token && (urlObj.hostname.includes('duckdns.org') || urlObj.hostname.includes('kozow.com') || urlObj.hostname.includes('iximiuz.com') || urlObj.hostname.includes('xyzstream') || urlObj.hostname.includes('workers.dev'))) {
+            headers['x-token'] = token;
+        }
 
         const response = await fetch(url, { 
             signal: controller.signal,
