@@ -470,6 +470,312 @@
       "category": "Sports"
     },
     {
+      "id": "live-833aa21c85",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1792614714-0-0-8d53761f65c9f5b84adc826bf87be399",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-571f0ef914",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 2 - A BỆU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1792614721-0-0-465cecb31fb16245f29f02bb35165dee",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-83cd05cd39",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 3 - QUỐC KHÁNH]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=a6f0815715272cfa384d6b181ac65e0b&txTime=6ad96798",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e2af872b57",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 4 - BÒ TƯƠI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1792614735-0-0-ca6750eea2e265fc1bf2b800895936d6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1a5a1b412e",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 5 - THOMAS]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=b9b5c9f44fb7e10d98b6638c9ee8ade3&txTime=6ad967a6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-24537f898e",
+      "title": "REAL MADRID VS RB LEIPZIG [SERVER 6 - SAO LA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=a5eaff8c12cd3edf22241af57c5dfd58&txTime=6ad967af",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7982d8bbff",
+      "title": "BAYERN MNCHEN VS ARSENAL [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-94f326dc66",
+      "title": "BAYERN MNCHEN VS ARSENAL [SERVER 2 - BLV C2]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-92e09923a2",
+      "title": "BAYERN MNCHEN VS ARSENAL [SERVER 3 - BLV REVIVE]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/33982309_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-01d6a275f5",
+      "title": "BAYERN MNCHEN VS ARSENAL [SERVER 4 - BLV MONSTER]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/75915087_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d3cdf8fbd4",
+      "title": "REAL MADRID CF VS RB LEIPZIG [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/07428422_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c3862b4a28",
+      "title": "REAL MADRID CF VS RB LEIPZIG [SERVER 2 - BLV GIÀ LÀNG]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/14830711_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b36a66a556",
+      "title": "AL NASSR VS NEOM SC [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1792526581-0-0-b61d41fbf9303bd5e3bc7b31b87b0bc2",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-78b0a67b9e",
+      "title": "AL NASSR VS NEOM SC [SERVER 2 - LÃO LÂM]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1792526589-0-0-cd000362df9e0e8d976b598c6c33a0b7",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3c8063c053",
+      "title": "AL NASSR VS NEOM SC [SERVER 3 - BLV LUCAS]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1792526597-0-0-0579c77786be22fc1db3b04db388d5ca",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4a394780c5",
+      "title": "AL NASSR VS NEOM SC [SERVER 5 - BÒ TƯƠI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1792526613-0-0-d5a0b19c2cf18724d04f964699ae903b",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ec93705251",
+      "title": "PARIS SAINT GERMAIN VS BARCELONA [SERVER 2 - BLV C2]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0f9bd54deb",
+      "title": "PARIS SAINT GERMAIN VS BARCELONA [SERVER 3 - BLV REVIVE]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/33982309_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a0e6d5f144",
+      "title": "MANCHESTER CITY VS AEK ATHENS FC [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/07428422_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ffdf7159bf",
+      "title": "MANCHESTER CITY VS AEK ATHENS FC [SERVER 2 - BLV HỔ VẰN]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/07428422_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f08eeb8a1d",
+      "title": "MANCHESTER CITY VS AEK ATHENS FC [SERVER 3 - BLV GIÀ LÀNG]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/14830711_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4aedab2bc4",
+      "title": "LIVERPOOL VS VILLARREAL",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001792523129-0-0-4001bf187bc6100dbdd13d3bc163dd55",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0d90425d47",
+      "title": "VFB STUTTGART VS ATLETICO MADRID",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001792523136-0-0-eee994641c272fc91e80e04f35452bf2",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d335018b8c",
+      "title": "PSG VS BARCELONA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001792523143-0-0-4951701fb0dea628007d697e43891bb4",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-78a28b292c",
+      "title": "MANCHESTER CITY VS AEK ATHENS",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001792523150-0-0-06af21ee7e91513258982bdedc592fff",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c9785a370b",
+      "title": "LIVERPOOL VS VILLARREAL [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/02456966_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-53ca01e46c",
+      "title": "SSC NAPOLI VS BODO GLIMT [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/16226575_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b0301d3495",
+      "title": "VFB STUTTGART VS ATLETICO MADRID [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.qioetj.app/live/75915087_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8b14963836",
+      "title": "TALAEA EL GAISH VS PYRAMIDS FC",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001792522585-0-0-c8dfdb44aa384975a4ee65728271dd42",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f6b9fcd8aa",
+      "title": "JUVENTUS VS LAZIO [SERVER 5 - LOKA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1792356949-0-0-ce29d34dfda912b657f2e54a493e7ce8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-129d948e4e",
+      "title": "JUVENTUS FC VS SS LAZIO [SERVER 2 - BLV HỔ VẰN]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.zhwpg.app/live/07428422_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ba789f21f2",
+      "title": "JUVENTUS VS LAZIO",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001792353405-0-0-3f19e2ecc00a00bb9b0b68a83dfb59a9",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6eecc9bc69",
+      "title": "REAL MADRID VS SEVILLA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001792353419-0-0-9f5849412865b9639bcaf4e08421acdd",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-622e0fe2ed",
+      "title": "BALTIKA KALININGRAD VS FK ROSTOV",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-22.flv?auth_key=3000001792353426-0-0-1f69aa6d26e5fc104039bfaf3d29d375",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
       "id": "live-6ae2fc3486",
       "title": "ROMA VS GENOA [SERVER 1]",
       "status": "live",
