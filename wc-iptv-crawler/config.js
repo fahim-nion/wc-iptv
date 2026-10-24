@@ -62,7 +62,7 @@ export default {
             mirrors: []
         },
         tap4sport: {
-            enabled: false, // Protected by Cloudflare Turnstile Managed Challenge
+            enabled: false,
             priority: 11,
             homepage: "https://tap4sport.st/?sport=Football"
         }
