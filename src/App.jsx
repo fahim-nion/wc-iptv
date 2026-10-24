@@ -95,21 +95,34 @@ export default function App() {
     setCurrentChannel(allChannels[nextIndex]);
   };
 
-  // Helper to extract base match title (ignoring [SERVER X - HD] / [SERVER X - BLV]) and normalizing team names
+  // Helper to extract base match title (ignoring server tags, club affixes) and normalizing team names
   const getBaseMatchTitle = (title = '') => {
     if (!title) return '';
-    let base = title.replace(/\[SERVER\s*[^\]]*\]/gi, '').trim().toUpperCase();
-    base = base
-      .replace(/\bNEWCASTLE UNITED\b/g, 'NEWCASTLE')
-      .replace(/\bFC BARCELONA\b/g, 'BARCELONA')
-      .replace(/\bREAL BETIS BALOMPIE\b/g, 'REAL BETIS')
-      .replace(/\bFC BAYERN MUNICH\b|\bBAYERN MUNCHEN\b/g, 'BAYERN MUNICH')
-      .replace(/\bINTER MILAN\b|\bINTERNAZIONALE\b/g, 'INTER')
-      .replace(/\bPARIS SAINT-GERMAIN\b|\bPARIS SG\b|\bPSG\b/g, 'PARIS SAINT GERMAIN')
-      .replace(/\bMANCHESTER UNITED\b/g, 'MAN UTD')
-      .replace(/\bMANCHESTER CITY\b/g, 'MAN CITY')
+    let base = title
+      .replace(/\[SERVER\s*[^\]]*\]/gi, '')
+      .replace(/\[(HD|SD|FHD|720P|1080P)\]/gi, '')
+      .replace(/[-_]/g, ' ')
+      .replace(/\b(FOOTBALL CLUB|CAU LAC BO BONG DA|CAU LAC BO|CLB|SPORTS CLUB|SPORT CLUB|FC|CF|AC|RC|SC|ESTAC|UD|CD|CA|FK|SK|AS|SSC|RCD)\b/gi, '')
+      .replace(/\bATHLETIC CLUB\b/gi, 'ATHLETIC BILBAO')
+      .replace(/\bFC BARCELONA\b|\bBARCA\b/gi, 'BARCELONA')
+      .replace(/\bREAL BETIS BALOMPIE\b/gi, 'REAL BETIS')
+      .replace(/\bFC BAYERN MUNICH\b|\bBAYERN MUNCHEN\b/gi, 'BAYERN MUNICH')
+      .replace(/\bINTER MILAN\b|\bINTERNAZIONALE\b/gi, 'INTER')
+      .replace(/\bPARIS SAINT-GERMAIN\b|\bPARIS SG\b|\bPSG\b/gi, 'PARIS SAINT GERMAIN')
+      .replace(/\bMANCHESTER UNITED\b/gi, 'MAN UTD')
+      .replace(/\bMANCHESTER CITY\b/gi, 'MAN CITY')
+      .replace(/\bSPORTING LISBON\b/gi, 'SPORTING CP')
+      .replace(/\bNEWCASTLE UNITED\b/gi, 'NEWCASTLE')
       .replace(/\s+/g, ' ')
-      .trim();
+      .trim()
+      .toUpperCase();
+
+    if (base.includes(' VS ')) {
+      const parts = base.split(' VS ').map(p => p.trim());
+      if (parts.length === 2) {
+        return parts.sort().join(' VS ');
+      }
+    }
     return base;
   };
 
@@ -117,7 +130,35 @@ export default function App() {
   const relatedServers = useMemo(() => {
     if (!currentChannel?.name) return [];
     const base = getBaseMatchTitle(currentChannel.name);
-    return allChannels.filter(c => getBaseMatchTitle(c.name) === base);
+    
+    // 1. Exact match on normalized base title
+    const exactMatches = allChannels.filter(c => getBaseMatchTitle(c.name) === base);
+    if (exactMatches.length > 1) return exactMatches;
+
+    // 2. Fuzzy team-name overlap matching (handles variations in naming across sources)
+    if (base.includes(' VS ')) {
+      const [currT1, currT2] = base.split(' VS ').map(t => t.trim());
+      const c1Words = currT1.split(' ').filter(w => w.length > 2);
+      const c2Words = currT2.split(' ').filter(w => w.length > 2);
+
+      const fuzzyMatches = allChannels.filter(c => {
+        const cBase = getBaseMatchTitle(c.name);
+        if (cBase === base) return true;
+        if (!cBase.includes(' VS ')) return false;
+        const [t1, t2] = cBase.split(' VS ').map(t => t.trim());
+
+        const matchDirect = 
+          c1Words.some(w => t1.includes(w)) && c2Words.some(w => t2.includes(w));
+        const matchReverse = 
+          c1Words.some(w => t2.includes(w)) && c2Words.some(w => t1.includes(w));
+
+        return matchDirect || matchReverse;
+      });
+
+      if (fuzzyMatches.length > 0) return fuzzyMatches;
+    }
+
+    return exactMatches;
   }, [currentChannel, allChannels]);
 
   // Filter channels based on search, category, and source

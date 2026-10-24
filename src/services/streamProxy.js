@@ -30,9 +30,7 @@ export function getStreamUrl(channelOrUrl) {
     url.includes('goalakor') || 
     url.includes('goalikor') ||
     url.includes('kora-api') ||
-    url.includes('robotiva') ||
-    url.includes('indianservers.st') ||
-    source.toLowerCase().includes('ppv');
+    url.includes('robotiva');
 
   if (isCorsRestricted) {
     if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;

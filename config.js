@@ -47,6 +47,17 @@ export default {
             enabled: true,
             priority: 8,
             homepage: "https://falconstreams.st/home1"
+        },
+        streamcorner: {
+            enabled: true,
+            priority: 9,
+            homepage: "https://streamcorner.st/",
+            mirrors: []
+        },
+        tap4sport: {
+            enabled: false, // Protected by Cloudflare Turnstile Managed Challenge
+            priority: 10,
+            homepage: "https://tap4sport.st/?sport=Football"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

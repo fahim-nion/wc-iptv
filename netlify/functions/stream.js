@@ -50,9 +50,6 @@ export default async (req, context) => {
     } else if (targetUrl.includes("kora-plus") || targetUrl.includes("goalakor") || targetUrl.includes("goalikor") || targetUrl.includes("kora-api")) {
       fetchHeaders["Referer"] = "https://goalakor.space/";
       fetchHeaders["Origin"] = "https://goalakor.space";
-    } else if (targetUrl.includes("indianservers.st")) {
-      fetchHeaders["Referer"] = "https://taifood-blog.asia/";
-      fetchHeaders["Origin"] = "https://taifood-blog.asia";
     }
 
     const response = await fetch(targetUrl, {

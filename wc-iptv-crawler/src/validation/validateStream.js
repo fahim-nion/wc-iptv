@@ -2,9 +2,6 @@ import fetch from 'node-fetch';
 
 export async function validateStream(url, referer = "", timeoutMs = 5000) {
     if (!url) return { isValid: false, error: "No URL" };
-    if (url.includes('indianservers.st') || url.includes('taifood-blog.asia')) {
-        return { isValid: false, error: "PPV skipped" };
-    }
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -46,6 +43,11 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
         // 3xx redirects (e.g. kora-plus redirecting to google.com) indicate expired/invalid tokens
         if (response.status >= 300 && response.status < 400) {
             return { isValid: false, status: response.status, error: "Redirected (expired stream)" };
+        }
+
+        // Support IFRAME stream players (StreamCorner / embeds)
+        if (url.includes('pandecocogaming') || url.includes('/embed/') || url.includes('/stream/')) {
+            return { isValid: response.status === 200, status: response.status, contentType };
         }
 
         const contentType = (response.headers.get('content-type') || '').toLowerCase();

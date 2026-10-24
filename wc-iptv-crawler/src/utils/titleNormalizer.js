@@ -79,6 +79,19 @@ export function normalizeMatchTitle(rawTitle) {
     title = title.replace(pattern, replacement);
   }
 
+  // Clean redundant club abbreviations and normalize aliases
+  title = title
+    .replace(/[-_]/g, ' ')
+    .replace(/\b(FOOTBALL CLUB|CAU LAC BO BONG DA|CAU LAC BO|CLB|SPORTS CLUB|SPORT CLUB|FC|CF|AC|RC|SC|ESTAC|UD|CD|CA|FK|SK|AS|SSC|RCD)\b/gi, '')
+    .replace(/\bATHLETIC CLUB\b/gi, 'ATHLETIC BILBAO')
+    .replace(/\bFC BARCELONA\b|\bBARCA\b/gi, 'BARCELONA')
+    .replace(/\bBAYERN MUNCHEN\b/gi, 'BAYERN MUNICH')
+    .replace(/\bINTER MILAN\b|\bINTERNAZIONALE\b/gi, 'INTER')
+    .replace(/\bPARIS SG\b|\bPSG\b/gi, 'PARIS SAINT GERMAIN')
+    .replace(/\bMANCHESTER UNITED\b/gi, 'MAN UTD')
+    .replace(/\bMANCHESTER CITY\b/gi, 'MAN CITY')
+    .replace(/\bSPORTING LISBON\b/gi, 'SPORTING CP');
+
   // Clean redundant whitespace
   title = title.replace(/\s+/g, ' ').trim().toUpperCase();
 

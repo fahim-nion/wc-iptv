@@ -142,8 +142,19 @@ export async function discoverColaTV() {
     await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
     const matches = [];
     
+    const domains = [source.homepage, ...(source.mirrors || [])].filter(Boolean);
     try {
-        await page.goto(source.homepage, { waitUntil: 'load', timeout: 30000 });
+        let loaded = false;
+        for (const dom of domains) {
+            try {
+                await page.goto(dom, { waitUntil: 'domcontentloaded', timeout: 25000 });
+                loaded = true;
+                break;
+            } catch (err) {
+                // Try next mirror
+            }
+        }
+        if (!loaded) throw new Error("Could not load ColaTV homepage or mirrors");
         
         // 1. Scroll slightly to trigger lazy-loading matches
         await page.evaluate(() => window.scrollBy(0, 800));
@@ -638,73 +649,107 @@ export async function discoverXyzStreams() {
 }
 
 export async function discoverStreamcorner() {
+    const source = config.sources?.streamcorner;
+    if (!source || !source.enabled) return [];
     console.log(`\n🔍 [STREAMCORNER] Scanning matches from streamcorner.st...`);
     const matches = [];
-    const CHROME_PATH = getChromePath();
+
     const browser = await puppeteer.launch({
-        headless: "new",
-        executablePath: CHROME_PATH,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+        executablePath: CHROME_PATH || undefined,
+        headless: true,
+        ignoreHTTPSErrors: true,
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--disable-blink-features=AutomationControlled',
+            '--block-new-web-contents',
+            '--ignore-certificate-errors',
+            '--ignore-certificate-errors-spki-list'
+        ]
     });
-    
+
     try {
         const page = await browser.newPage();
-        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-        
-        await page.goto("https://streamcorner.st", { waitUntil: 'networkidle2', timeout: 30000 });
-        
-        // CF protection might take a moment
-        await new Promise(r => setTimeout(r, 5000));
+        await page.setRequestInterception(true);
+        page.on('request', req => {
+            const u = req.url();
+            if (u.includes('disable-devtool') || u.includes('popa') || u.includes('rapidadexchange') || u.includes('google-analytics')) {
+                return req.abort();
+            }
+            req.continue();
+        });
 
-        const content = await page.content();
-        
-        // Dump some HTML for me to see what's there
-        fs.writeFileSync('/tmp/streamcorner.html', content);
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36');
+        await page.goto(source.homepage || 'https://streamcorner.st/', { waitUntil: 'domcontentloaded', timeout: 35000 });
+        await new Promise(r => setTimeout(r, 4000));
 
-        // TODO: extraction logic for streamcorner
+        // Filter for soccer/football if category button exists
+        await page.evaluate(() => {
+            const buttons = Array.from(document.querySelectorAll('button, a'));
+            const soccerBtn = buttons.find(b => {
+                const txt = b.innerText.trim().toUpperCase();
+                return txt === 'SOCCER' || txt === 'FOOTBALL';
+            });
+            if (soccerBtn) soccerBtn.click();
+        }).catch(() => {});
+
+        await new Promise(r => setTimeout(r, 2000));
+        await page.evaluate(() => window.scrollBy(0, 1200)).catch(() => {});
+        await new Promise(r => setTimeout(r, 2000));
+
+        const cards = await page.evaluate(() => {
+            return Array.from(document.querySelectorAll('a'))
+                .filter(a => a.href && a.href.includes('/stream/'))
+                .map(a => {
+                    const text = a.innerText.replace(/\n+/g, ' | ').trim();
+                    return {
+                        url: a.href,
+                        text
+                    };
+                });
+        });
+
+        const seenUrls = new Set();
+        for (const card of cards) {
+            if (seenUrls.has(card.url)) continue;
+            seenUrls.add(card.url);
+
+            let title = card.text;
+            if (title.includes(' | ')) {
+                const parts = title.split(' | ');
+                const vsPart = parts.find(p => p.toUpperCase().includes(' VS ') || p.toUpperCase().includes(' AT '));
+                if (vsPart) {
+                    title = vsPart;
+                } else if (parts.length >= 2) {
+                    title = parts.find(p => p.length > 5 && !p.match(/^[0-9:]+$/) && !['LIVE', 'SOCCER', 'FOOTBALL', 'HD'].includes(p.toUpperCase())) || title;
+                }
+            }
+
+            title = title
+                .replace(/^[0-9]{1,2}:[0-9]{2}(\s*\|\s*)?/g, '')
+                .replace(/\b(LIVE|SOCCER|FOOTBALL|HD)\b/gi, '')
+                .replace(/[|•·-]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .toUpperCase();
+
+            if (title && title.length > 3) {
+                matches.push({
+                    title: normalizeMatchTitle(title),
+                    url: card.url,
+                    source: 'streamcorner'
+                });
+            }
+        }
     } catch (e) {
         console.log(`   ✘ [STREAMCORNER] Discovery failed: ${e.message}`);
     } finally {
         await browser.close();
     }
-    
+
     console.log(`[STREAMCORNER] Discovered ${matches.length} matches.`);
-    return matches;
-}
-
-export async function discoverPpv() {
-    console.log(`\n🔍 [PPV] Scanning matches from ppv.st...`);
-    const matches = [];
-    try {
-        const res = await fetch("https://api.ppv.st/api/streams");
-        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-        const data = await res.json();
-        
-        if (data && data.streams) {
-            const footballCat = data.streams.find(c => c.category === "Football");
-            if (footballCat && footballCat.streams) {
-                const now = Math.floor(Date.now() / 1000);
-                const sorted = [...footballCat.streams].sort((a, b) => {
-                    const diffA = Math.abs((a.starts_at || now) - now);
-                    const diffB = Math.abs((b.starts_at || now) - now);
-                    return diffA - diffB;
-                });
-
-                for (const stream of sorted) {
-                    if (stream.iframe) {
-                        matches.push({
-                            title: stream.name.toUpperCase(),
-                            url: stream.iframe,
-                            source: 'ppv'
-                        });
-                    }
-                }
-            }
-        }
-    } catch (e) {
-        console.log(`   ✘ [PPV] Discovery failed: ${e.message}`);
-    }
-    console.log(`[PPV] Discovered ${matches.length} matches.`);
     return matches;
 }
 

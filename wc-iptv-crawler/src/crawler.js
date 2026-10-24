@@ -8,7 +8,8 @@ import {
     discoverHesGoal, 
     discoverXyzStreams,
     discoverAuraSports,
-    discoverFalconStreams
+    discoverFalconStreams,
+    discoverStreamcorner
 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
@@ -85,6 +86,7 @@ async function runCycle() {
         const hesgoal = await discoverHesGoal().catch(() => []);
         const aura = await discoverAuraSports().catch(() => []);
         const falcon = await discoverFalconStreams().catch(() => []);
+        const streamcorner = await discoverStreamcorner().catch(() => []);
         const cam = await discoverCamel1().catch(() => []);
         const soco = await discoverSocolive().catch(() => []);
         const cola = await discoverColaTV().catch(() => []);
@@ -100,10 +102,11 @@ async function runCycle() {
             ...hesgoal,
             ...aura,
             ...falcon.slice(0, 10),
+            ...streamcorner.slice(0, 8),
             ...xyz,
             ...cam.slice(0, 5),
-            ...soco.slice(0, 6), 
-            ...cola.slice(0, 6), 
+            ...soco.slice(0, 10), 
+            ...cola.slice(0, 15), 
             ...xoi.slice(0, 4)
         ];
 

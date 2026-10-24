@@ -149,39 +149,69 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         return null;
     }
 
-    // 0d. Fast resolver for PPV (taifood-blog.asia / indianservers.st)
-    if (
-        label.toUpperCase().includes('PPV') ||
-        targetUrl.includes('taifood-blog.asia') ||
-        targetUrl.includes('ppvservices')
-    ) {
+    // 0d. Fast resolver for StreamCorner
+    if (label.toUpperCase().includes('STREAMCORNER') || targetUrl.includes('streamcorner')) {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
             ignoreHTTPSErrors: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list']
+            args: [
+                '--no-sandbox', 
+                '--disable-setuid-sandbox', 
+                '--disable-dev-shm-usage', 
+                '--disable-gpu', 
+                '--disable-blink-features=AutomationControlled',
+                '--block-new-web-contents',
+                '--ignore-certificate-errors', 
+                '--ignore-certificate-errors-spki-list'
+            ]
         });
         const page = await browser.newPage();
-        let streamUrl = null;
+        let streamResult = null;
 
         try {
+            await page.setRequestInterception(true);
+            page.on('request', req => {
+                const u = req.url();
+                if (u.includes('disable-devtool') || u.includes('popa') || u.includes('rapidadexchange')) {
+                    return req.abort();
+                }
+                req.continue();
+            });
+
             page.on('response', (res) => {
                 const u = res.url();
-                if ((u.includes('.m3u8') || u.includes('indianservers.st')) && u.includes('index.m3u8') && !streamUrl) {
-                    streamUrl = u;
+                if ((u.includes('.m3u8') || u.includes('.flv')) && !streamResult) {
+                    streamResult = { url: u, type: u.includes('.m3u8') ? 'HLS' : 'FLV' };
                 }
             });
 
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
-            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
-            
-            for (let i = 0; i < 20; i++) {
-                if (streamUrl) break;
-                await new Promise(r => setTimeout(r, 500));
+            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+            await new Promise(r => setTimeout(r, 3000));
+
+            // Click PLAY button if present
+            await page.evaluate(() => {
+                const btn = Array.from(document.querySelectorAll('button, a')).find(b => b.innerText.trim().toUpperCase() === 'PLAY');
+                if (btn) btn.click();
+            }).catch(() => {});
+
+            await new Promise(r => setTimeout(r, 4000));
+
+            if (streamResult) {
+                return streamResult;
             }
-            
-            if (streamUrl) {
-                return { url: streamUrl, type: 'HLS' };
+
+            // Check for player iframe
+            const iframeSrc = await page.evaluate(() => {
+                const iframes = Array.from(document.querySelectorAll('iframe'))
+                    .map(i => i.src)
+                    .filter(s => s && !s.includes('chat') && !s.includes('ad') && (s.includes('pandecocogaming') || s.includes('embed') || s.includes('player') || s.startsWith('http')));
+                return iframes[0] || null;
+            });
+
+            if (iframeSrc) {
+                return { url: iframeSrc, type: 'IFRAME' };
             }
         } catch (e) {
             console.log(`   ✘ [${label}] Extraction failed: ${e.message}`);

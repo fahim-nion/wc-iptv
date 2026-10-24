@@ -48,9 +48,6 @@ function streamProxyPlugin() {
       } else if (targetUrl.includes('kora-plus') || targetUrl.includes('goalakor') || targetUrl.includes('goalikor') || targetUrl.includes('kora-api')) {
         headers['Referer'] = 'https://goalakor.space/';
         headers['Origin'] = 'https://goalakor.space';
-      } else if (targetUrl.includes('indianservers.st')) {
-        headers['Referer'] = 'https://taifood-blog.asia/';
-        headers['Origin'] = 'https://taifood-blog.asia';
       }
 
       const response = await fetch(targetUrl, { headers, redirect: 'manual' });
