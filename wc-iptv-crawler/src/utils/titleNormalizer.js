@@ -122,3 +122,32 @@ export function normalizePreservedChannel(channel) {
   return normalizeMatchTitle(title);
 }
 
+function cleanTeamForComparison(t) {
+  return t
+    .replace(/\b(1899|TSG|VFB|BSC|SSV|FSV|SC|SV|AFC|FC|CLUB|UNITED|UTD|CITY)\b/gi, '')
+    .replace(/& HOVE ALBION/gi, '')
+    .replace(/VIGO/gi, '')
+    .replace(/ATHLETIC BILBAO/gi, 'ATHLETIC')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function areMatchesEquivalent(titleA, titleB) {
+  if (!titleA || !titleB) return false;
+  const cleanA = titleA.replace(/\s*\[SERVER\s*[^\]]+\]$/i, '').trim().toUpperCase();
+  const cleanB = titleB.replace(/\s*\[SERVER\s*[^\]]+\]$/i, '').trim().toUpperCase();
+  if (cleanA === cleanB) return true;
+
+  const partsA = cleanA.split(/\s+VS\s+/i);
+  const partsB = cleanB.split(/\s+VS\s+/i);
+  if (partsA.length !== 2 || partsB.length !== 2) return false;
+
+  const [homeA, awayA] = partsA.map(cleanTeamForComparison);
+  const [homeB, awayB] = partsB.map(cleanTeamForComparison);
+
+  const homeMatch = homeA && homeB && (homeA === homeB || homeA.includes(homeB) || homeB.includes(homeA));
+  const awayMatch = awayA && awayB && (awayA === awayB || awayA.includes(awayB) || awayB.includes(awayA));
+
+  return Boolean(homeMatch && awayMatch);
+}
+

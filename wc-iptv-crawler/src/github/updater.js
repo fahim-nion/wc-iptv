@@ -11,7 +11,13 @@ export async function pushToGitHub() {
     try {
         console.log(chalk.blue("[GitHub] Checking for changes..."));
         
-        const status = execSync('git status --porcelain src/data/channels.json', { cwd: REPO_ROOT }).toString();
+        const execOptions = { 
+            cwd: REPO_ROOT, 
+            env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+            stdio: 'pipe'
+        };
+
+        const status = execSync('git status --porcelain src/data/channels.json', execOptions).toString();
         
         if (!status) {
             console.log(chalk.gray("[GitHub] No changes in channels.json. Skipping push."));
@@ -20,14 +26,14 @@ export async function pushToGitHub() {
 
         console.log(chalk.yellow("[GitHub] Updates found. Committing..."));
         
-        execSync('git add src/data/channels.json', { cwd: REPO_ROOT });
-        execSync('git commit -m "chore: auto-update live matches"', { cwd: REPO_ROOT });
+        execSync('git add src/data/channels.json', execOptions);
+        execSync('git commit -m "chore: auto-update live matches"', execOptions);
         try {
-            execSync('git push origin main', { cwd: REPO_ROOT });
+            execSync('git push origin main', execOptions);
         } catch (pushErr) {
             console.log(chalk.yellow("[GitHub] Push rejected, reconciling with origin/main..."));
-            execSync('git pull --rebase -X ours origin main', { cwd: REPO_ROOT });
-            execSync('git push origin main', { cwd: REPO_ROOT });
+            execSync('git pull --rebase -X ours origin main', execOptions);
+            execSync('git push origin main', execOptions);
         }
 
         console.log(chalk.green.bold("[GitHub] 🚀 Pushed successfully! Site is updating."));

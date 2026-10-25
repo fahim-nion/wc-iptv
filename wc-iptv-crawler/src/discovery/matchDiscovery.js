@@ -203,7 +203,7 @@ export async function discoverColaTV() {
 
 export async function discoverXoilac() {
     const source = config.sources.xoilac;
-    if (!source) return [];
+    if (!source || !source.enabled) return [];
 
     console.log(`\n🔍 [XOILAC] Scanning homepage for matches...`);
 
@@ -867,6 +867,7 @@ export async function discoverAuraSports() {
                 const leagueName = (item.league_name || '').toLowerCase();
                 const isSoccer = isSoccerCat || soccerKeywords.some(k => leagueName.includes(k));
                 if (!isSoccer) continue;
+                if (item.status !== 'live') continue;
 
                 const streamTarget = item.watchUrl || item.iframeUrl;
                 if (!streamTarget) continue;
@@ -924,7 +925,11 @@ export async function discoverFalconStreams() {
         let em;
         while ((em = eventRegex.exec(fullStr)) !== null) {
             const [_, id, category, sport, t1, t2, rawStreams] = em;
-            const isFootball = sport.toLowerCase().includes('soccer') || sport.toLowerCase().includes('football') || category.toLowerCase().includes('league') || category.toLowerCase().includes('cup');
+            const catLower = (category || '').toLowerCase();
+            const sportLower = (sport || '').toLowerCase();
+            const isAmerican = sportLower.includes('nfl') || catLower.includes('nfl') || sportLower.includes('american') || catLower.includes('american');
+            if (isAmerican) continue;
+            const isFootball = sportLower.includes('soccer') || sportLower.includes('football') || catLower.includes('league') || catLower.includes('cup');
             if (!isFootball) continue;
 
             let streams = [];

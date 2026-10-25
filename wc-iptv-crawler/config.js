@@ -1,63 +1,69 @@
 export default {
     sources: {
         socolive: { 
-            enabled: true, 
-            priority: 1, 
+            enabled: false, // Expired / GoDaddy parked domain
+            priority: 10, 
             homepage: "https://socolive.live/",
             mirrors: []
         },
         colatv: { 
-            enabled: true, 
-            priority: 2, 
+            enabled: false, // Shut down / website stopped
+            priority: 11, 
             homepage: "https://cola-affcup2026.tv/",
-            mirrors: ["colatv.it.com"]
+            mirrors: []
         },
         xoilac: { 
-            enabled: true, 
-            priority: 3, 
+            enabled: false, // Heavy browser scraping; covered by faster primary sources
+            priority: 12, 
             homepage: "https://xoilac.live/",
-            mirrors: ["https://xoilac.tv/"]
+            mirrors: []
         },
         futbolx: {
             enabled: true,
-            priority: 4,
+            priority: 1,
             homepage: "https://www.futbol-x.xyz/",
             api: "https://www.futbol-x.xyz/api/football.json",
             tokenApi: "https://www.futbol-x.xyz/api/token.js"
         },
         livelive24: {
             enabled: true,
-            priority: 5,
+            priority: 2,
             homepage: "https://livelive24.com/",
+            mirrors: []
+        },
+        xyzstreams: {
+            enabled: true,
+            priority: 3,
+            homepage: "https://xyzstreams.st/",
             mirrors: []
         },
         camel1: {
             enabled: true,
-            priority: 6,
+            priority: 4,
             homepage: "https://www.camel1.tv/",
             mirrors: []
         },
         hesgoal: {
             enabled: true,
-            priority: 7,
+            priority: 5,
             homepage: "https://hesgoalltv.net/",
             api: "https://cdn.kora-api.org/api/v1/matches?lang=en",
             mirrors: []
         },
         aurasports: {
             enabled: true,
-            priority: 8,
+            priority: 6,
             homepage: "https://aurasports.xyz",
             api: "https://aurasports.xyz/api/schedule"
         },
         falconstreams: {
             enabled: true,
-            priority: 9,
+            priority: 7,
             homepage: "https://falconstreams.st/home1"
         },
         streamcorner: {
-            enabled: true,
-            priority: 10,
+            enabled: false,
+            priority: 13,
             homepage: "https://streamcorner.st/",
             mirrors: []
         },

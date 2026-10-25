@@ -15,7 +15,7 @@ import {
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
 import { validateStream } from './validation/validateStream.js'; 
-import { normalizePreservedChannel, normalizeMatchTitle } from './utils/titleNormalizer.js';
+import { normalizePreservedChannel, normalizeMatchTitle, areMatchesEquivalent } from './utils/titleNormalizer.js';
 import chalk from 'chalk';
 import crypto from 'crypto';
 
@@ -98,19 +98,15 @@ async function runCycle() {
         const newResults = [];
         const seenUrls = new Set();
 
-        // Queue: High quality reliable servers first, then secondary aggregators
+        // Queue: Fast direct API sources first, then secondary aggregators
         const queue = [
             ...futbolx,
             ...live24,
-            ...hesgoal.slice(0, 8),
-            ...aura,
-            ...falcon.slice(0, 10),
-            ...streamcorner.slice(0, 6),
             ...xyz,
-            ...cam.slice(0, 5),
-            ...soco.slice(0, 6), 
-            ...cola.slice(0, 8), 
-            ...xoi.slice(0, 4)
+            ...cam.slice(0, 10),
+            ...aura.slice(0, 8),
+            ...falcon.slice(0, 8),
+            ...hesgoal.slice(0, 6)
         ];
 
         // 3. Extraction of New Matches
@@ -120,9 +116,8 @@ async function runCycle() {
 
             // Fast Skip: If this match already has 2+ working servers from primary sources,
             // skip launching slow headless browser sessions for secondary aggregators
-            const baseMatchName = normalizeMatchTitle(match.title).replace(/\s*\[SERVER\s*[^\]]+\]$/i, '').trim();
-            const existingServerCount = newResults.filter(r => r.title.startsWith(baseMatchName)).length;
-            const isHeavyBrowserSource = ['socolive', 'colatv', 'xoilac', 'streamcorner'].includes(match.source.toLowerCase());
+            const isHeavyBrowserSource = ['hesgoal', 'socolive', 'colatv', 'xoilac', 'streamcorner'].includes(match.source.toLowerCase());
+            const existingServerCount = newResults.filter(r => areMatchesEquivalent(r.title, match.title)).length;
 
             if (isHeavyBrowserSource && existingServerCount >= 2) {
                 continue;

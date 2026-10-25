@@ -41,6 +41,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             const val = await validateStream(auraStream.url);
             if (val.isValid) return auraStream;
         }
+        return null;
     }
 
     // 0b. Fast-path resolver for LiveLive24 and direct HLS/FLV streams
@@ -119,6 +120,16 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         let streamUrl = null;
 
         try {
+            await page.setRequestInterception(true).catch(() => {});
+            page.on('request', req => {
+                const rt = req.resourceType();
+                const u = req.url();
+                if (['image', 'stylesheet', 'font', 'media'].includes(rt) || u.includes('histats') || u.includes('hounder') || u.includes('ad-frame')) {
+                    return req.abort().catch(() => {});
+                }
+                req.continue().catch(() => {});
+            });
+
             page.on('response', (res) => {
                 const u = res.url();
                 if (u.includes('.m3u8') && !streamUrl) {
@@ -127,8 +138,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             });
 
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
-            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
-            await page.waitForResponse(res => res.url().includes('.m3u8'), { timeout: 5000 }).catch(() => {});
+            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 6000 });
+            await page.waitForResponse(res => res.url().includes('.m3u8'), { timeout: 3500 }).catch(() => {});
             
             if (streamUrl) {
                 const val = await validateStream(streamUrl, targetUrl);
@@ -373,7 +384,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
 export async function resolveAuraOrStreameCenter(targetUrl) {
     try {
         let currentUrl = targetUrl;
-        for (let level = 0; level < 4; level++) {
+        for (let level = 0; level < 3; level++) {
             if (currentUrl.includes('edgestream') && currentUrl.includes('.m3u8')) {
                 return { url: currentUrl, type: 'HLS' };
             }
@@ -382,7 +393,7 @@ export async function resolveAuraOrStreameCenter(targetUrl) {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                     'Referer': currentUrl.includes('streame.center') ? 'https://streame.center/' : 'https://aurasports.xyz/'
                 },
-                signal: AbortSignal.timeout(6000)
+                signal: AbortSignal.timeout(3000)
             });
             if (!res.ok) break;
             const text = await res.text();
