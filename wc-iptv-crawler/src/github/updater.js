@@ -26,7 +26,7 @@ export async function pushToGitHub() {
             execSync('git push origin main', { cwd: REPO_ROOT });
         } catch (pushErr) {
             console.log(chalk.yellow("[GitHub] Push rejected, reconciling with origin/main..."));
-            execSync('git pull --no-rebase -X ours origin main --no-edit', { cwd: REPO_ROOT });
+            execSync('git pull --rebase -X ours origin main', { cwd: REPO_ROOT });
             execSync('git push origin main', { cwd: REPO_ROOT });
         }
 
