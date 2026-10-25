@@ -3,6 +3,7 @@ import { useStore } from './store/useStore';
 import { parseM3U } from './utils/m3uParser';
 import { mapJsonToChannels } from './utils/channelMapper';
 import Player from './components/Player';
+import AvailableMatches from './components/AvailableMatches';
 import channelData from './data/channels.json';
 import { PERMANENT_CHANNELS } from './config/permanentChannels';
 import { 
@@ -54,6 +55,7 @@ export default function App() {
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
   const [sourceFilter, setSourceFilter] = useState('ALL'); // 'ALL' | 'LIVELIVE24' | 'CAMEL1' | 'PERMANENT'
+  const [permanentSearch, setPermanentSearch] = useState('');
 
   // Combine scraped channels with permanent channels
   const combineWithPermanent = (channelList) => {
@@ -187,6 +189,17 @@ export default function App() {
       return matchesSearch && matchesCategory && matchesSource;
     });
   }, [allChannels, searchQuery, selectedCategory, favorites, sourceFilter]);
+
+  // Filter permanent 24/7 channels for right sidebar
+  const filteredPermanent = useMemo(() => {
+    const q = permanentSearch.toLowerCase().trim();
+    return PERMANENT_CHANNELS.filter(c => {
+      if (!q) return true;
+      return (c.name || '').toLowerCase().includes(q) ||
+             (c.country || '').toLowerCase().includes(q) ||
+             (c.group || '').toLowerCase().includes(q);
+    });
+  }, [permanentSearch]);
 
   // Categories list
   const categories = useMemo(() => {
@@ -388,27 +401,36 @@ export default function App() {
             </div>
           </div>
 
-          {/* Quick Select List in Left Sidebar */}
-          <div className="flex-1 overflow-y-auto px-4 border-t border-white/5 pt-3 scrollbar-hide">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Live Feeds</p>
-            <div className="space-y-1 pb-4">
-              {filtered.slice(0, 40).map((c, idx) => (
-                <button 
-                  key={`${c.url || ''}-${idx}`} 
-                  onClick={() => setCurrentChannel(c)} 
-                  className={`w-full text-left px-3 py-2 rounded-xl text-[11px] font-bold truncate transition-all flex items-center gap-2 ${
-                    currentChannel?.url === c.url 
-                      ? 'text-amber-400 bg-amber-500/10 border border-amber-500/20' 
-                      : 'text-slate-400 hover:text-white hover:bg-white/5 border border-transparent'
-                  }`}
-                >
-                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${
-                    currentChannel?.url === c.url ? 'bg-amber-400 shadow-[0_0_8px_#f59e0b]' : 'bg-red-500 animate-pulse'
-                  }`} />
-                  <span className="truncate">{c.name}</span>
-                </button>
-              ))}
-            </div>
+          {/* Quick Navigation in Left Sidebar (Matches moved to main page) */}
+          <div className="flex-1 overflow-y-auto px-4 border-t border-white/5 pt-3 scrollbar-hide space-y-2">
+            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Quick Navigation</p>
+            
+            <button
+              onClick={() => {
+                const el = document.getElementById('available-matches-section');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="w-full text-left p-2.5 rounded-xl text-xs font-black transition-all flex items-center justify-between bg-white/5 hover:bg-amber-500 hover:text-black text-white border border-white/5 group"
+            >
+              <div className="flex items-center gap-2">
+                <Trophy size={15} className="text-amber-400 group-hover:text-black transition-colors" />
+                <span>Live Match Fixtures</span>
+              </div>
+              <ChevronRight size={14} className="text-slate-400 group-hover:text-black" />
+            </button>
+
+            <button
+              onClick={() => setRightOpen(true)}
+              className="w-full text-left p-2.5 rounded-xl text-xs font-black transition-all flex items-center justify-between bg-white/5 hover:bg-white/10 text-white border border-white/5 group"
+            >
+              <div className="flex items-center gap-2">
+                <Star size={15} className="text-amber-400 fill-amber-400" />
+                <span>Permanent 24/7 Channels</span>
+              </div>
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300 font-bold">
+                {PERMANENT_CHANNELS.length}
+              </span>
+            </button>
           </div>
 
           <div className="p-4 border-t border-white/5 bg-[#0b1220]/50"><DevCard /></div>
@@ -576,69 +598,88 @@ export default function App() {
               </div>
             )}
 
-            {/* Mobile Developer Card (when left sidebar closed) */}
-            {(!leftOpen || window.innerWidth < 768) && (
-              <div className="mt-8 pb-16"><DevCard /></div>
-            )}
+            {/* Live & Available Matches Section (With Crawl Timestamp) */}
+            <AvailableMatches 
+              channels={allChannels}
+              currentChannel={currentChannel}
+              onSelectChannel={setCurrentChannel}
+              updatedAt={channelData.updatedAt}
+            />
+
+            {/* Developer Card (Positioned directly below Available Matches) */}
+            <div className="pt-2 pb-16">
+              <DevCard />
+            </div>
           </div>
         </main>
 
-        {/* Right Sidebar: Broadcast Channels List */}
+        {/* Right Sidebar: Permanent 24/7 Channels List (Only Permanent TV Channels) */}
         <aside className={`${
           rightOpen ? 'w-full md:w-96 border-l fixed md:relative z-40 h-[calc(100vh-64px)]' : 'w-0'
         } transition-all duration-300 border-white/10 bg-[#0b1220]/95 backdrop-blur-2xl flex flex-col shrink-0 overflow-hidden right-0`}>
-          {/* Search Header */}
-          <div className="p-4 border-b border-white/10 flex items-center justify-between shrink-0 bg-[#0b1220]/80 backdrop-blur-md gap-2">
-            <div className="relative flex-1">
-              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
+          {/* Header */}
+          <div className="p-4 border-b border-white/10 flex flex-col gap-3 shrink-0 bg-[#0b1220]/80 backdrop-blur-md">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400">
+                  <Star size={16} fill="currentColor" />
+                </div>
+                <div>
+                  <h3 className="text-xs sm:text-sm font-black text-white uppercase tracking-tight flex items-center gap-1.5">
+                    Permanent TV Channels
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  </h3>
+                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
+                    {PERMANENT_CHANNELS.length} 24/7 Official Feeds
+                  </p>
+                </div>
+              </div>
+
+              <button 
+                onClick={() => setRightOpen(false)} 
+                className="md:hidden p-2 bg-white/5 rounded-xl text-slate-400 hover:text-white"
+              >
+                <X size={18}/>
+              </button>
+            </div>
+
+            {/* Search Permanent Channels */}
+            <div className="relative w-full">
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" size={14} />
               <input 
                 type="text" 
-                placeholder="Search matches, leagues, servers..." 
-                className="w-full bg-[#060b15] border border-white/10 rounded-xl py-2.5 pl-10 pr-8 text-xs font-bold text-white placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-amber-500 focus:border-amber-500 transition-all" 
-                value={searchQuery} 
-                onChange={(e) => setSearchQuery(e.target.value)} 
+                placeholder="Search TV channels, countries (beIN, S Sport, T Sports)..." 
+                className="w-full bg-[#060b15] border border-white/10 rounded-xl py-2 pl-9 pr-8 text-xs font-bold text-white placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-amber-500 transition-all" 
+                value={permanentSearch} 
+                onChange={(e) => setPermanentSearch(e.target.value)} 
               />
-              {searchQuery && (
+              {permanentSearch && (
                 <button 
-                  onClick={() => setSearchQuery('')}
+                  onClick={() => setPermanentSearch('')}
                   className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
                 >
-                  <X size={14} />
+                  <X size={13} />
                 </button>
               )}
             </div>
-
-            <button 
-              onClick={() => setRightOpen(false)} 
-              className="md:hidden p-2 bg-white/5 rounded-xl text-slate-400 hover:text-white"
-            >
-              <X size={18}/>
-            </button>
           </div>
 
-          {/* Channels Cards */}
+          {/* Permanent Channels Cards */}
           <div className="flex-1 overflow-y-auto p-3 md:p-4 space-y-2.5 scrollbar-hide pb-24">
-            {filtered.length === 0 ? (
+            {filteredPermanent.length === 0 ? (
               <div className="p-8 text-center text-slate-500">
-                <Search size={32} className="mx-auto mb-2 opacity-50" />
-                <p className="text-xs font-bold uppercase tracking-wider">No matching broadcasts</p>
-                <p className="text-[10px] mt-1">Try another search or clear the filter</p>
+                <Search size={28} className="mx-auto mb-2 opacity-50" />
+                <p className="text-xs font-bold uppercase tracking-wider">No matching channels</p>
+                <p className="text-[10px] mt-1">Try another channel name or country</p>
               </div>
             ) : (
-              filtered.map((channel, idx) => {
+              filteredPermanent.map((channel, idx) => {
                 const isSelected = currentChannel?.url === channel.url;
                 const isFav = (favorites || []).includes(channel.url);
 
-                // Detect server tag in title
-                const serverMatch = channel.name?.match(/\[SERVER\s*(\d+)(?:\s*-\s*([A-Za-z0-9]+))?\]/i);
-                const displayTitle = serverMatch 
-                  ? channel.name.replace(/\[SERVER\s*\d+[^\]]*\]/gi, '').trim()
-                  : channel.name;
-                const serverBadge = serverMatch ? `SRV ${serverMatch[1]} ${serverMatch[2] || ''}` : null;
-
                 return (
                   <div 
-                    key={`${channel.url || ''}-${idx}`} 
+                    key={channel.id || `${channel.url}-${idx}`} 
                     onClick={() => { 
                       setCurrentChannel(channel); 
                       if (window.innerWidth < 768) setRightOpen(false); 
@@ -654,42 +695,48 @@ export default function App() {
                       <div className="absolute left-0 top-0 bottom-0 w-1 bg-amber-500 shadow-[0_0_10px_#f59e0b]" />
                     )}
 
-                    {/* Logo / Icon */}
-                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 transition-transform group-hover:scale-105 ${
-                      isSelected ? 'bg-amber-500 shadow-md shadow-amber-500/25' : 'bg-[#060b15] border border-white/5'
+                    {/* Real Official Channel Logo */}
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden shrink-0 transition-transform group-hover:scale-105 p-1 ${
+                      isSelected ? 'bg-amber-500/20 border border-amber-500/40 shadow-md shadow-amber-500/20' : 'bg-[#060b15] border border-white/10'
                     }`}>
                       {channel.logo ? (
-                        <img src={channel.logo} className="w-full h-full object-contain p-1" alt="" />
+                        <img 
+                          src={channel.logo} 
+                          className="w-full h-full object-contain" 
+                          alt="" 
+                          onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                        />
                       ) : (
-                        <Globe size={22} className={isSelected ? 'text-black' : 'text-slate-500'} />
+                        <Globe size={20} className={isSelected ? 'text-amber-400' : 'text-slate-500'} />
                       )}
                     </div>
 
-                    {/* Channel Info */}
+                    {/* Channel Info & Real Country Badge */}
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-1.5 flex-wrap">
                         <h4 className={`text-xs font-black truncate uppercase tracking-tight ${
                           isSelected ? 'text-amber-400' : 'text-white'
                         }`}>
-                          {displayTitle}
+                          {channel.name}
                         </h4>
-                        {channel.isPermanent && (
-                          <Star size={11} className="text-amber-400 fill-amber-400 shrink-0" />
-                        )}
+                        <Star size={10} className="text-amber-400 fill-amber-400 shrink-0" />
                       </div>
 
-                      <div className="flex items-center gap-2 mt-1 flex-wrap">
-                        {serverBadge && (
-                          <span className="text-[9px] px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 font-black uppercase">
-                            {serverBadge}
+                      <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                        {/* Real Country Flag & Name */}
+                        {channel.country && (
+                          <span className="inline-flex items-center gap-1 text-[10px] text-slate-300 font-bold bg-white/5 px-2 py-0.5 rounded border border-white/5">
+                            {channel.countryFlag && (
+                              <img src={channel.countryFlag} className="w-3.5 h-2.5 object-cover rounded-xs" alt="" />
+                            )}
+                            <span className="truncate max-w-[95px]">{channel.country}</span>
                           </span>
                         )}
-                        <span className="text-[9px] text-slate-400 uppercase font-black truncate">
-                          {channel.source || channel.group}
+
+                        <span className="text-[9px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 font-black uppercase tracking-wider flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                          24/7 LIVE
                         </span>
-                        {channel.status === 'live' && (
-                          <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                        )}
                       </div>
                     </div>
 
@@ -703,7 +750,7 @@ export default function App() {
                         isFav ? 'text-amber-400' : 'text-slate-600 hover:text-slate-300'
                       }`}
                     >
-                      <Star size={18} fill={isFav ? "currentColor" : "none"} />
+                      <Star size={16} fill={isFav ? "currentColor" : "none"} />
                     </button>
                   </div>
                 );

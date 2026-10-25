@@ -1,33 +1,33 @@
 export default {
     sources: {
         socolive: { 
-            enabled: false, // Expired / GoDaddy parked domain
+            enabled: true, // Expired / GoDaddy parked domain
             priority: 10, 
-            homepage: "https://socolive.live/",
-            mirrors: []
+            homepage: "https://socolivezq.top/",
+            mirrors: ["https://socolivear.tv/","https://socolive55v.top/","https://socolivet.cc/"]
         },
         colatv: { 
-            enabled: false, // Shut down / website stopped
+            enabled: true, // Shut down / website stopped
             priority: 11, 
-            homepage: "https://cola-affcup2026.tv/",
-            mirrors: []
+            homepage: "https://colatv55.live/",
+            mirrors: ["https://colatv.watch/"]
         },
         xoilac: { 
-            enabled: false, // Heavy browser scraping; covered by faster primary sources
+            enabled: true, // Heavy browser scraping; covered by faster primary sources
             priority: 12, 
-            homepage: "https://xoilac.live/",
-            mirrors: []
+            homepage: "https://xoilacz.ca/",
+            mirrors: ["https://xoilaczcr.tv/","https://xoilacvba.tv/","https://xoilaczzzj.cc/"]
         },
         futbolx: {
             enabled: true,
-            priority: 1,
+            priority: 2,
             homepage: "https://www.futbol-x.xyz/",
             api: "https://www.futbol-x.xyz/api/football.json",
             tokenApi: "https://www.futbol-x.xyz/api/token.js"
         },
         livelive24: {
             enabled: true,
-            priority: 2,
+            priority: 1,
             homepage: "https://livelive24.com/",
             mirrors: []
         },

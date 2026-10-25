@@ -567,24 +567,24 @@ export default function Player({
           />
         )}
 
-        {/* Modern Loading State (Glowing Radar) */}
+        {/* Modern Loading State (Glowing Radar - Scaled down for mobile) */}
         {isLoading && !hasError && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060b15]/90 backdrop-blur-md z-20 px-8">
-            <div className="relative flex items-center justify-center mb-6">
-              <div className="w-24 h-24 rounded-full border border-amber-500/20 animate-ping absolute" />
-              <div className="w-20 h-20 rounded-full border-2 border-amber-500/40 border-t-amber-400 animate-spin" />
-              <Radio className="w-8 h-8 text-amber-400 absolute" />
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060b15]/90 backdrop-blur-md z-20 px-4 sm:px-8">
+            <div className="relative flex items-center justify-center mb-2 sm:mb-6 scale-75 sm:scale-100">
+              <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full border border-amber-500/20 animate-ping absolute" />
+              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border-2 border-amber-500/40 border-t-amber-400 animate-spin" />
+              <Radio className="w-5 h-5 sm:w-8 sm:h-8 text-amber-400 absolute" />
             </div>
             
-            <div className="w-full max-w-sm text-center space-y-2">
-              <div className="flex justify-between items-center px-1 text-xs font-black uppercase tracking-wider">
-                <span className="text-amber-400 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+            <div className="w-full max-w-xs sm:max-w-sm text-center space-y-1.5 sm:space-y-2">
+              <div className="flex justify-between items-center px-1 text-[10px] sm:text-xs font-black uppercase tracking-wider">
+                <span className="text-amber-400 flex items-center gap-1 sm:gap-1.5">
+                  <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-amber-400 animate-pulse" />
                   Connecting Stream
                 </span>
                 <span className="text-white font-mono">{Math.round(loadingProgress)}%</span>
               </div>
-              <div className="h-1.5 w-full bg-white/10 rounded-full overflow-hidden p-0.5 border border-white/5">
+              <div className="h-1 sm:h-1.5 w-full bg-white/10 rounded-full overflow-hidden p-0.5 border border-white/5">
                 <div 
                   className="h-full bg-gradient-to-r from-amber-500 to-amber-300 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(245,158,11,0.6)]" 
                   style={{ width: `${loadingProgress}%` }} 
@@ -592,50 +592,50 @@ export default function Player({
               </div>
 
               {/* Buffer Mode Indicator */}
-              <div className="flex items-center justify-center gap-1.5 pt-1">
-                <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1.5 ${
+              <div className="flex items-center justify-center gap-1 pt-0.5 sm:pt-1">
+                <span className={`text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full border flex items-center gap-1 sm:gap-1.5 ${
                   isDelayActive 
                     ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/25' 
                     : 'bg-white/5 text-slate-300 border-white/10'
                 }`}>
                   {isDelayActive ? (
                     <>
-                      <Shield size={11} className="text-emerald-400" />
+                      <Shield size={10} className="text-emerald-400" />
                       Preloading 10s Anti-Lag Buffer
                     </>
                   ) : (
                     <>
-                      <Zap size={11} className="text-amber-400" />
+                      <Zap size={10} className="text-amber-400" />
                       Streaming Real-Time (0s Delay)
                     </>
                   )}
                 </span>
               </div>
 
-              <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest truncate px-4">
+              <p className="text-[10px] sm:text-[11px] font-bold text-slate-400 uppercase tracking-widest truncate px-2 sm:px-4">
                 {channel.name}
               </p>
             </div>
           </div>
         )}
 
-        {/* Modern Error State */}
+        {/* Modern Error State - Scaled down for mobile */}
         {hasError && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/95 backdrop-blur-lg z-30 text-center px-6">
-            <div className="w-16 h-16 rounded-2xl bg-red-500/10 border border-red-500/20 flex items-center justify-center mb-4 text-red-500 shadow-[0_0_30px_rgba(239,68,68,0.2)]">
-              <AlertCircle size={32} />
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/95 backdrop-blur-lg z-30 text-center px-4 sm:px-6">
+            <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-red-500/10 border border-red-500/20 flex items-center justify-center mb-2 sm:mb-4 text-red-500 shadow-[0_0_30px_rgba(239,68,68,0.2)]">
+              <AlertCircle size={20} className="sm:w-8 sm:h-8" />
             </div>
-            <h3 className="text-white font-black text-base uppercase tracking-tight">Stream Signal Interrupted</h3>
-            <p className="text-slate-400 text-xs mt-1.5 max-w-md font-medium">
+            <h3 className="text-white font-black text-xs sm:text-base uppercase tracking-tight">Stream Signal Interrupted</h3>
+            <p className="text-slate-400 text-[10px] sm:text-xs mt-1 sm:mt-1.5 max-w-xs sm:max-w-md font-medium line-clamp-2 sm:line-clamp-none">
               {errorMessage || 'The broadcaster server is temporarily unavailable or refreshing.'}
             </p>
             
-            <div className="flex flex-wrap gap-2.5 mt-6 justify-center">
+            <div className="flex flex-wrap gap-1.5 sm:gap-2.5 mt-3 sm:mt-6 justify-center">
               <button 
                 onClick={handleReload}
-                className="px-4 py-2.5 bg-amber-500 hover:bg-amber-400 text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg shadow-amber-500/20 active:scale-95 flex items-center gap-1.5"
+                className="px-3 py-1.5 sm:px-4 sm:py-2.5 bg-amber-500 hover:bg-amber-400 text-black font-black text-[10px] sm:text-xs uppercase tracking-wider rounded-lg sm:rounded-xl transition-all shadow-lg shadow-amber-500/20 active:scale-95 flex items-center gap-1 sm:gap-1.5"
               >
-                <RotateCw size={14} /> Reconnect
+                <RotateCw size={12} className="sm:w-3.5 sm:h-3.5" /> Reconnect
               </button>
 
               {relatedServers.length > 1 && (
@@ -645,16 +645,16 @@ export default function Player({
                     const nextServer = relatedServers[(currentIndex + 1) % relatedServers.length];
                     if (onSelectServer && nextServer) onSelectServer(nextServer);
                   }}
-                  className="px-4 py-2.5 bg-white/10 hover:bg-white/20 text-white font-black text-xs uppercase tracking-wider rounded-xl transition-all border border-white/10 active:scale-95 flex items-center gap-1.5"
+                  className="px-3 py-1.5 sm:px-4 sm:py-2.5 bg-white/10 hover:bg-white/20 text-white font-black text-[10px] sm:text-xs uppercase tracking-wider rounded-lg sm:rounded-xl transition-all border border-white/10 active:scale-95 flex items-center gap-1 sm:gap-1.5"
                 >
-                  <Server size={14} /> Next Server
+                  <Server size={12} className="sm:w-3.5 sm:h-3.5" /> Next Server
                 </button>
               )}
 
               {onStall && (
                 <button 
                   onClick={onStall}
-                  className="px-4 py-2.5 bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-xs uppercase tracking-wider rounded-xl transition-all border border-white/5 active:scale-95"
+                  className="px-3 py-1.5 sm:px-4 sm:py-2.5 bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-[10px] sm:text-xs uppercase tracking-wider rounded-lg sm:rounded-xl transition-all border border-white/5 active:scale-95"
                 >
                   Next Channel
                 </button>
