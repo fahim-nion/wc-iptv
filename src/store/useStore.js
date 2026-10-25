@@ -9,6 +9,8 @@ export const useStore = create(
       currentChannel: null,
       searchQuery: '',
       selectedCategory: 'All',
+      streamDelayEnabled: true,
+      hasSeenDelayNotice: false,
       setChannels: (channels) => set({ channels }),
       setCurrentChannel: (channel) => set({ currentChannel: channel }),
       toggleFavorite: (url) => set((state) => ({
@@ -18,7 +20,10 @@ export const useStore = create(
       })),
       setSearchQuery: (q) => set({ searchQuery: q }),
       setCategory: (cat) => set({ selectedCategory: cat }),
+      setStreamDelayEnabled: (enabled) => set({ streamDelayEnabled: enabled }),
+      toggleStreamDelay: () => set((state) => ({ streamDelayEnabled: !state.streamDelayEnabled })),
+      dismissDelayNotice: () => set({ hasSeenDelayNotice: true }),
     }),
-    { name: 'worldcup-iptv-v3' }
+    { name: 'worldcup-iptv-v4' }
   )
 );

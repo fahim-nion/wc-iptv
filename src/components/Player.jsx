@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
 import { getStreamUrl } from '../services/streamProxy';
+import { useStore } from '../store/useStore';
 import { 
   Play, 
   Pause, 
@@ -21,7 +22,10 @@ import {
   Minimize,
   Server,
   Layers,
-  Film
+  Film,
+  Shield,
+  Zap,
+  Clock
 } from 'lucide-react';
 
 export default function Player({ 
@@ -30,13 +34,20 @@ export default function Player({
   onNextChannel, 
   onPrevChannel,
   relatedServers = [],
-  onSelectServer 
+  onSelectServer,
+  streamDelayEnabled: propDelayEnabled,
+  onToggleDelay
 }) {
+  const { streamDelayEnabled: storeDelayEnabled, toggleStreamDelay: storeToggleDelay } = useStore();
+  const isDelayActive = propDelayEnabled !== undefined ? propDelayEnabled : storeDelayEnabled;
+  const toggleDelay = onToggleDelay || storeToggleDelay;
+
   const videoRef = useRef(null);
   const containerRef = useRef(null);
   const engineRef = useRef(null);
   const controlsTimer = useRef(null);
   const stallTimer = useRef(null);
+  const toastTimeoutRef = useRef(null);
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
@@ -53,6 +64,42 @@ export default function Player({
   const [fitMode, setFitMode] = useState('contain'); // 'contain' | 'cover'
   const [copied, setCopied] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
+  const [toastMessage, setToastMessage] = useState('');
+
+  const showToast = (msg) => {
+    if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+    setToastMessage(msg);
+    toastTimeoutRef.current = setTimeout(() => setToastMessage(''), 2200);
+  };
+
+  // Dynamic Toggle Delay Handler (10s buffer vs real-time)
+  const handleToggleDelay = useCallback(() => {
+    const nextVal = !isDelayActive;
+    toggleDelay();
+
+    showToast(nextVal ? '🛡️ 10s Anti-Lag Buffer Active' : '⚡ Real-Time Mode (Zero Delay)');
+
+    // Dynamically adjust current player without unmounting
+    if (videoRef.current) {
+      const v = videoRef.current;
+      if (engineRef.current && engineRef.current instanceof Hls) {
+        const hls = engineRef.current;
+        hls.config.liveSyncDuration = nextVal ? 10 : 0;
+        hls.config.lowLatencyMode = !nextVal;
+        hls.config.maxBufferLength = nextVal ? 30 : 10;
+      }
+      if (v.buffered && v.buffered.length > 0) {
+        if (nextVal) {
+          // Switch to 10s buffer: seek back 10s to give buffer cushion
+          v.currentTime = Math.max(0, v.currentTime - 10);
+        } else {
+          // Switch to real-time: jump to live edge
+          const end = v.buffered.end(v.buffered.length - 1);
+          v.currentTime = Math.max(0, end - 0.5);
+        }
+      }
+    }
+  }, [isDelayActive, toggleDelay]);
 
   // Reconnection trigger
   const handleReload = useCallback(() => {
@@ -121,7 +168,7 @@ export default function Player({
     let rawUrl = channel.url || '';
     if (typeof window !== 'undefined' && window.location.protocol === 'https:' && rawUrl.startsWith('http://')) {
       rawUrl = rawUrl.replace(/^http:\/\//i, 'https://');
-      channel = { ...channel, url: rawUrl }; // update channel url for the proxy check
+      channel = { ...channel, url: rawUrl };
     }
     const streamUrl = getStreamUrl(channel);
 
@@ -177,9 +224,9 @@ export default function Player({
       }, {
         enableWorker: true,
         enableStashBuffer: true,
-        stashInitialSize: 1024 * 1024 * 4,
+        stashInitialSize: isDelayActive ? 1024 * 1024 * 6 : 1024 * 1024 * 1.5,
         lazyLoad: false,
-        liveBufferLatencyChasing: true,
+        liveBufferLatencyChasing: !isDelayActive,
         autoCleanupSourceBuffer: true
       });
 
@@ -206,11 +253,16 @@ export default function Player({
     } else if (Hls.isSupported()) {
       const hls = new Hls({ 
         enableWorker: true, 
-        maxBufferSize: 200 * 1024 * 1024,
+        maxBufferSize: isDelayActive ? 60 * 1024 * 1024 : 30 * 1024 * 1024,
+        maxBufferLength: isDelayActive ? 30 : 10,
+        maxMaxBufferLength: isDelayActive ? 60 : 20,
         manifestLoadingTimeOut: 15000,
         fragLoadingTimeOut: 15000,
         enableSoftwareAES: true,
-        lowLatencyMode: true
+        lowLatencyMode: !isDelayActive,
+        liveSyncDuration: isDelayActive ? 10 : 0,
+        liveMaxLatencyDuration: isDelayActive ? 25 : 5,
+        liveSyncDurationCount: isDelayActive ? 4 : 1
       });
 
       hls.loadSource(streamUrl);
@@ -259,7 +311,16 @@ export default function Player({
       const playPromise = videoRef.current.play();
       if (playPromise !== undefined) {
         playPromise
-          .then(() => finishLoading())
+          .then(() => {
+            finishLoading();
+            if (isDelayActive && videoRef.current.seekable && videoRef.current.seekable.length > 0) {
+              const end = videoRef.current.seekable.end(videoRef.current.seekable.length - 1);
+              const start = videoRef.current.seekable.start(0);
+              if (end - start > 12) {
+                videoRef.current.currentTime = Math.max(start, end - 10);
+              }
+            }
+          })
           .catch(() => {
             if (videoRef.current) {
               videoRef.current.muted = true;
@@ -340,6 +401,9 @@ export default function Player({
       } else if (e.key === 'r' || e.key === 'R') {
         e.preventDefault();
         handleReload();
+      } else if (e.key === 'b' || e.key === 'B') {
+        e.preventDefault();
+        handleToggleDelay();
       } else if (e.key === 'ArrowUp') {
         e.preventDefault();
         changeVolume(Math.min(1, volume + 0.1));
@@ -351,7 +415,7 @@ export default function Player({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [volume, isMuted, handleReload]);
+  }, [volume, isMuted, handleReload, handleToggleDelay]);
 
   const changeVolume = (val) => {
     setVolume(val);
@@ -370,6 +434,36 @@ export default function Player({
     if (!nextMuted && volume === 0) {
       changeVolume(0.5);
     }
+  };
+
+  // Helper to parse clean server tags
+  const parseServerLabel = (s, idx) => {
+    const name = s.name || '';
+    const serverMatch = name.match(/\[SERVER\s*(\d+)(?:\s*-\s*([^\]]+))?\]/i);
+    
+    const serverNum = serverMatch ? serverMatch[1] : (idx + 1);
+    const extra = serverMatch ? serverMatch[2]?.trim() : '';
+
+    let quality = null;
+    let commentator = null;
+    if (extra) {
+      if (/\b(HD|SD|FHD|1080P|720P|4K)\b/i.test(extra)) {
+        quality = extra.match(/\b(HD|SD|FHD|1080P|720P|4K)\b/i)[0].toUpperCase();
+      } else {
+        commentator = extra;
+      }
+    }
+
+    let srcName = (s.source || '').toUpperCase()
+      .replace('LIVELIVE24', 'Live24')
+      .replace('FUTBOLX', 'FutbolX')
+      .replace('XYZSTREAMS', 'XYZ')
+      .replace('CAMEL1', 'Camel')
+      .replace('HESGOAL', 'HesGoal')
+      .replace('AURASPORTS', 'Aura')
+      .replace('FALCONSTREAMS', 'Falcon');
+
+    return { serverNum, quality, commentator, srcName };
   };
 
   if (!channel) {
@@ -397,6 +491,14 @@ export default function Player({
         {/* Ambient Backlight Glow */}
         <div className="absolute -inset-1 bg-gradient-to-r from-amber-500/10 via-emerald-500/10 to-blue-500/10 blur-xl opacity-50 pointer-events-none" />
 
+        {/* Floating Toast Notification on Mode Toggle */}
+        {toastMessage && (
+          <div className="absolute top-14 left-1/2 -translate-x-1/2 z-40 bg-black/85 backdrop-blur-md border border-white/20 px-4 py-2 rounded-2xl shadow-2xl flex items-center gap-2 pointer-events-none transition-all">
+            {isDelayActive ? <Shield size={15} className="text-emerald-400" /> : <Zap size={15} className="text-amber-400" />}
+            <span className="text-xs font-black text-white uppercase tracking-wider">{toastMessage}</span>
+          </div>
+        )}
+
         {channel?.type === 'IFRAME' || channel?.url?.includes('/embed/') ? (
           <iframe 
             src={channel.url}
@@ -421,17 +523,17 @@ export default function Player({
         {/* Modern Loading State (Glowing Radar) */}
         {isLoading && !hasError && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#060b15]/90 backdrop-blur-md z-20 px-8">
-            <div className="relative flex items-center justify-center mb-8">
+            <div className="relative flex items-center justify-center mb-6">
               <div className="w-24 h-24 rounded-full border border-amber-500/20 animate-ping absolute" />
               <div className="w-20 h-20 rounded-full border-2 border-amber-500/40 border-t-amber-400 animate-spin" />
               <Radio className="w-8 h-8 text-amber-400 absolute" />
             </div>
             
-            <div className="w-full max-w-sm text-center">
-              <div className="flex justify-between items-center mb-2 px-1 text-xs font-black uppercase tracking-wider">
+            <div className="w-full max-w-sm text-center space-y-2">
+              <div className="flex justify-between items-center px-1 text-xs font-black uppercase tracking-wider">
                 <span className="text-amber-400 flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-                  Connecting Live Stream
+                  Connecting Stream
                 </span>
                 <span className="text-white font-mono">{Math.round(loadingProgress)}%</span>
               </div>
@@ -441,7 +543,29 @@ export default function Player({
                   style={{ width: `${loadingProgress}%` }} 
                 />
               </div>
-              <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mt-3 truncate px-4">
+
+              {/* Buffer Mode Indicator */}
+              <div className="flex items-center justify-center gap-1.5 pt-1">
+                <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1.5 ${
+                  isDelayActive 
+                    ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/25' 
+                    : 'bg-white/5 text-slate-300 border-white/10'
+                }`}>
+                  {isDelayActive ? (
+                    <>
+                      <Shield size={11} className="text-emerald-400" />
+                      Preloading 10s Anti-Lag Buffer
+                    </>
+                  ) : (
+                    <>
+                      <Zap size={11} className="text-amber-400" />
+                      Streaming Real-Time (0s Delay)
+                    </>
+                  )}
+                </span>
+              </div>
+
+              <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest truncate px-4">
                 {channel.name}
               </p>
             </div>
@@ -459,10 +583,10 @@ export default function Player({
               {errorMessage || 'The broadcaster server is temporarily unavailable or refreshing.'}
             </p>
             
-            <div className="flex flex-wrap gap-3 mt-6 justify-center">
+            <div className="flex flex-wrap gap-2.5 mt-6 justify-center">
               <button 
                 onClick={handleReload}
-                className="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg shadow-amber-500/20 active:scale-95 flex items-center gap-2"
+                className="px-4 py-2.5 bg-amber-500 hover:bg-amber-400 text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg shadow-amber-500/20 active:scale-95 flex items-center gap-1.5"
               >
                 <RotateCw size={14} /> Reconnect
               </button>
@@ -474,16 +598,16 @@ export default function Player({
                     const nextServer = relatedServers[(currentIndex + 1) % relatedServers.length];
                     if (onSelectServer && nextServer) onSelectServer(nextServer);
                   }}
-                  className="px-5 py-2.5 bg-white/10 hover:bg-white/20 text-white font-black text-xs uppercase tracking-wider rounded-xl transition-all border border-white/10 active:scale-95 flex items-center gap-2"
+                  className="px-4 py-2.5 bg-white/10 hover:bg-white/20 text-white font-black text-xs uppercase tracking-wider rounded-xl transition-all border border-white/10 active:scale-95 flex items-center gap-1.5"
                 >
-                  <Server size={14} /> Try Server 2
+                  <Server size={14} /> Next Server
                 </button>
               )}
 
               {onStall && (
                 <button 
                   onClick={onStall}
-                  className="px-5 py-2.5 bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-xs uppercase tracking-wider rounded-xl transition-all border border-white/5 active:scale-95"
+                  className="px-4 py-2.5 bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-xs uppercase tracking-wider rounded-xl transition-all border border-white/5 active:scale-95"
                 >
                   Next Channel
                 </button>
@@ -494,35 +618,62 @@ export default function Player({
 
         {/* HUD OVERLAY CONTROLS */}
         <div 
-          className={`absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60 transition-opacity duration-300 z-10 flex flex-col justify-between p-4 md:p-6 ${
+          className={`absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60 transition-opacity duration-300 z-10 flex flex-col justify-between p-3 sm:p-5 md:p-6 ${
             showControls ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
           }`}
         >
           {/* Top Bar Indicators */}
-          <div className="flex items-center justify-between w-full">
-            <div className="flex items-center gap-2 flex-wrap">
+          <div className="flex items-center justify-between w-full gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
               {/* Live Badge */}
-              <div className="bg-red-600/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-black uppercase text-white shadow-lg flex items-center gap-1.5 border border-red-400/40">
-                <span className="w-2 h-2 rounded-full bg-white shadow-[0_0_8px_white] animate-pulse" />
+              <div className="bg-red-600/90 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[10px] font-black uppercase text-white shadow-lg flex items-center gap-1.5 border border-red-400/40">
+                <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white shadow-[0_0_8px_white] animate-pulse" />
                 LIVE
               </div>
 
               {/* Protocol Badge */}
-              <div className="bg-white/10 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-black text-amber-400 border border-white/10 uppercase tracking-wider flex items-center gap-1">
+              <div className="bg-white/10 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-black text-amber-400 border border-white/10 uppercase tracking-wider flex items-center gap-1">
                 <Sparkles size={11} />
                 {streamType}
               </div>
 
+              {/* 10s Anti-Lag Delay Toggle Button */}
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleToggleDelay();
+                }}
+                title={isDelayActive ? "10s Anti-Lag Delay is ON (Preloading buffer). Click for Real-Time." : "Real-Time is ON (0s Delay). Click to add 10s Buffer."}
+                className={`backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider flex items-center gap-1.5 border transition-all active:scale-95 ${
+                  isDelayActive
+                    ? 'bg-emerald-500/25 text-emerald-300 border-emerald-400/40 shadow-[0_0_12px_rgba(16,185,129,0.25)]'
+                    : 'bg-white/10 hover:bg-white/20 text-slate-300 border-white/10'
+                }`}
+              >
+                {isDelayActive ? (
+                  <>
+                    <Shield size={11} className="text-emerald-400" />
+                    <span>10s Buffer</span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  </>
+                ) : (
+                  <>
+                    <Zap size={11} className="text-amber-400" />
+                    <span>0s Delay</span>
+                  </>
+                )}
+              </button>
+
               {/* Source Tag */}
               {channel.source && (
-                <div className="bg-white/10 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-black text-slate-300 border border-white/10 uppercase tracking-widest hidden sm:inline-flex">
+                <div className="bg-white/10 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] font-black text-slate-300 border border-white/10 uppercase tracking-widest hidden md:inline-flex">
                   {channel.source}
                 </div>
               )}
             </div>
 
             {/* Quick Actions (Right Top) */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2">
               {/* Copy Stream Link */}
               <button 
                 onClick={handleCopyUrl}
@@ -549,9 +700,9 @@ export default function Player({
 
           {/* Bottom HUD Bar */}
           <div className="w-full">
-            <div className="bg-[#0b1220]/80 backdrop-blur-2xl p-3 md:p-4 rounded-2xl border border-white/15 shadow-[0_15px_40px_rgba(0,0,0,0.8)] flex items-center justify-between gap-3">
-              {/* Left Controls: Play, Volume, Reload */}
-              <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="bg-[#0b1220]/80 backdrop-blur-2xl p-2.5 sm:p-3 md:p-4 rounded-2xl border border-white/15 shadow-[0_15px_40px_rgba(0,0,0,0.8)] flex items-center justify-between gap-2 sm:gap-3">
+              {/* Left Controls: Play, Volume, Reload, Buffer Toggle */}
+              <div className="flex items-center gap-1.5 sm:gap-2.5 min-w-0">
                 {/* Play / Pause Button */}
                 <button 
                   onClick={(e) => {
@@ -560,18 +711,18 @@ export default function Player({
                     if (videoRef.current.paused) videoRef.current.play();
                     else videoRef.current.pause();
                   }}
-                  className="w-10 h-10 md:w-11 md:h-11 rounded-xl bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center shrink-0 shadow-lg shadow-amber-500/25 active:scale-90 transition-all"
+                  className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-xl bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center shrink-0 shadow-lg shadow-amber-500/25 active:scale-90 transition-all"
                 >
-                  {isPlaying ? <Pause size={20} fill="currentColor" /> : <Play size={20} fill="currentColor" className="ml-0.5" />}
+                  {isPlaying ? <Pause size={18} fill="currentColor" /> : <Play size={18} fill="currentColor" className="ml-0.5" />}
                 </button>
 
                 {/* Volume Button & Slider */}
                 <div 
-                  className="flex items-center gap-2 relative bg-white/5 hover:bg-white/10 p-2 rounded-xl border border-white/5 transition-colors"
+                  className="flex items-center gap-1.5 sm:gap-2 relative bg-white/5 hover:bg-white/10 p-1.5 sm:p-2 rounded-xl border border-white/5 transition-colors"
                   onMouseEnter={() => setShowVolumeBar(true)}
                 >
                   <button onClick={(e) => { e.stopPropagation(); toggleMute(); }} className="text-white hover:text-amber-400 transition-colors">
-                    {isMuted || volume === 0 ? <VolumeX size={18} /> : <Volume2 size={18} />}
+                    {isMuted || volume === 0 ? <VolumeX size={17} /> : <Volume2 size={17} />}
                   </button>
                   {showVolumeBar && (
                     <input 
@@ -581,7 +732,7 @@ export default function Player({
                       step="0.05" 
                       value={isMuted ? 0 : volume} 
                       onChange={(e) => changeVolume(parseFloat(e.target.value))} 
-                      className="w-16 md:w-20 accent-amber-500 h-1 bg-white/20 rounded-lg cursor-pointer transition-all" 
+                      className="w-14 sm:w-16 md:w-20 accent-amber-500 h-1 bg-white/20 rounded-lg cursor-pointer transition-all" 
                     />
                   )}
                 </div>
@@ -590,9 +741,25 @@ export default function Player({
                 <button 
                   onClick={(e) => { e.stopPropagation(); handleReload(); }}
                   title="Reload / Reconnect Stream (Key: R)"
-                  className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/5 transition-all active:rotate-180 duration-300"
+                  className="p-2 sm:p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/5 transition-all active:rotate-180 duration-300"
                 >
-                  <RotateCw size={17} />
+                  <RotateCw size={16} />
+                </button>
+
+                {/* 10s Buffer Toggle Button on HUD */}
+                <button
+                  onClick={(e) => { e.stopPropagation(); handleToggleDelay(); }}
+                  title={isDelayActive ? "10s Anti-Lag Delay is ON. Click to switch to Real-Time." : "Real-time is ON. Click to enable 10s Buffer."}
+                  className={`p-2 sm:p-2.5 rounded-xl border transition-all active:scale-95 flex items-center gap-1.5 ${
+                    isDelayActive 
+                      ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40 shadow-sm shadow-emerald-500/20' 
+                      : 'bg-white/5 hover:bg-white/10 text-slate-400 border-white/5'
+                  }`}
+                >
+                  {isDelayActive ? <Shield size={16} className="text-emerald-400" /> : <Zap size={16} />}
+                  <span className="text-[10px] font-black uppercase tracking-wider hidden lg:inline">
+                    {isDelayActive ? '10s Delay' : 'Real-Time'}
+                  </span>
                 </button>
 
                 {/* Divider */}
@@ -610,17 +777,17 @@ export default function Player({
               </div>
 
               {/* Right Controls: PiP & Fullscreen */}
-              <div className="flex items-center gap-2 shrink-0">
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
                 {/* Picture in Picture */}
                 {document.pictureInPictureEnabled && (
                   <button 
                     onClick={togglePiP}
                     title="Picture in Picture (Key: P)"
-                    className={`p-2.5 rounded-xl border transition-all ${
+                    className={`p-2 sm:p-2.5 rounded-xl border transition-all ${
                       isPiP ? 'bg-amber-500 text-black border-amber-400' : 'bg-white/5 hover:bg-white/10 text-white border-white/5'
                     }`}
                   >
-                    <Tv size={17} />
+                    <Tv size={16} />
                   </button>
                 )}
 
@@ -628,9 +795,9 @@ export default function Player({
                 <button 
                   onClick={toggleFullscreen}
                   title="Fullscreen (Key: F)"
-                  className="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/10 shadow-lg active:scale-95 transition-all"
+                  className="p-2 sm:p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/10 shadow-lg active:scale-95 transition-all"
                 >
-                  {isFullscreen ? <Minimize2 size={18} /> : <Maximize size={18} />}
+                  {isFullscreen ? <Minimize2 size={17} /> : <Maximize size={17} />}
                 </button>
               </div>
             </div>
@@ -638,32 +805,89 @@ export default function Player({
         </div>
       </div>
 
-      {/* Quick Server Switcher Bar (when match has multiple servers) */}
+      {/* Modern, Highly Responsive Server Switcher Bar */}
       {relatedServers && relatedServers.length > 1 && (
-        <div className="bg-[#0b1220]/60 border border-white/10 rounded-2xl p-3 flex flex-wrap items-center gap-2 backdrop-blur-md">
-          <div className="flex items-center gap-1.5 text-xs font-black text-amber-400 uppercase tracking-wider mr-2">
-            <Server size={14} />
-            <span>Servers:</span>
+        <div className="bg-[#0b1220]/80 border border-white/10 rounded-2xl p-2.5 sm:p-3.5 backdrop-blur-xl shadow-xl space-y-2">
+          {/* Header row with server count and 10s buffer toggle */}
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2 min-w-0">
+              <div className="w-6 h-6 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0">
+                <Server size={13} />
+              </div>
+              <span className="text-xs font-black text-white uppercase tracking-wider truncate">
+                Available Servers
+              </span>
+              <span className="text-[10px] font-mono font-bold text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/20">
+                {relatedServers.length}
+              </span>
+            </div>
+
+            {/* Quick 10s Delay Toggle on the server bar */}
+            <button
+              onClick={handleToggleDelay}
+              title={isDelayActive ? "10s Anti-Lag Delay is ON. Click for Real-Time." : "Real-Time is ON. Click to enable 10s Buffer."}
+              className={`text-[10px] sm:text-xs font-bold px-2.5 py-1.5 rounded-xl transition-all border flex items-center gap-1.5 shrink-0 active:scale-95 ${
+                isDelayActive 
+                  ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40 shadow-sm shadow-emerald-500/20' 
+                  : 'bg-white/5 hover:bg-white/10 text-slate-400 border-white/10'
+              }`}
+            >
+              {isDelayActive ? (
+                <>
+                  <Shield size={12} className="text-emerald-400" />
+                  <span className="font-black">10s Buffer</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                </>
+              ) : (
+                <>
+                  <Zap size={12} className="text-amber-400" />
+                  <span>Real-Time (0s)</span>
+                </>
+              )}
+            </button>
           </div>
-          <div className="flex flex-wrap gap-1.5 flex-1">
+
+          {/* Smooth horizontal scroll on mobile, clean flex-wrap on desktop */}
+          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 pt-0.5 sm:flex-wrap scrollbar-hide -mx-1 px-1 touch-pan-x">
             {relatedServers.map((s, idx) => {
               const isActive = s.url === channel.url;
-              const serverMatch = s.name?.match(/\[SERVER\s*(\d+)(?:\s*-\s*([^\]]+))?\]/i);
-              const label = serverMatch 
-                ? `${s.source ? s.source.toUpperCase() : 'Server'} ${serverMatch[1]}${serverMatch[2] ? ` (${serverMatch[2].trim()})` : ''}` 
-                : (s.source ? `${s.source.toUpperCase()} #${idx + 1}` : `Server ${idx + 1}`);
+              const { serverNum, quality, commentator, srcName } = parseServerLabel(s, idx);
 
               return (
                 <button
                   key={s.url || idx}
                   onClick={() => onSelectServer && onSelectServer(s)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
+                  className={`group px-3 py-2 rounded-xl text-xs font-bold transition-all border flex items-center gap-1.5 sm:gap-2 shrink-0 active:scale-95 ${
                     isActive 
-                      ? 'bg-amber-500 text-black border-amber-400 shadow-md shadow-amber-500/20 font-black' 
-                      : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5 hover:border-white/10'
+                      ? 'bg-gradient-to-r from-amber-500 to-amber-400 text-black border-amber-400 shadow-md shadow-amber-500/20 font-black' 
+                      : 'bg-white/5 hover:bg-white/10 text-slate-200 border-white/5 hover:border-white/15'
                   }`}
                 >
-                  {label}
+                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${
+                    isActive ? 'bg-black animate-pulse' : 'bg-slate-500'
+                  }`} />
+                  <span className="whitespace-nowrap">Server {serverNum}</span>
+                  {quality && (
+                    <span className={`text-[9px] px-1.5 py-0.5 rounded font-black uppercase tracking-wider ${
+                      isActive ? 'bg-black/25 text-black' : 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
+                    }`}>
+                      {quality}
+                    </span>
+                  )}
+                  {commentator && (
+                    <span className={`text-[9px] max-w-[80px] truncate ${
+                      isActive ? 'text-black/80 font-bold' : 'text-slate-400'
+                    }`}>
+                      {commentator}
+                    </span>
+                  )}
+                  {srcName && (
+                    <span className={`text-[9px] uppercase tracking-wider hidden xs:inline ${
+                      isActive ? 'text-black/75' : 'text-slate-500'
+                    }`}>
+                      {srcName}
+                    </span>
+                  )}
                 </button>
               );
             })}

@@ -24,7 +24,9 @@ import {
   Server,
   Radio,
   SlidersHorizontal,
-  Share2
+  Share2,
+  Shield,
+  Clock
 } from 'lucide-react';
 
 export default function App() {
@@ -38,7 +40,11 @@ export default function App() {
     favorites, 
     toggleFavorite, 
     selectedCategory, 
-    setCategory 
+    setCategory,
+    streamDelayEnabled,
+    toggleStreamDelay,
+    hasSeenDelayNotice,
+    dismissDelayNotice
   } = useStore();
 
   const [leftOpen, setLeftOpen] = useState(true);
@@ -411,6 +417,60 @@ export default function App() {
         {/* Center Main Stage (Player + Details) */}
         <main className="flex-1 flex flex-col min-w-0 bg-[#060b15] overflow-y-auto scrollbar-hide p-4 md:p-6 lg:p-8">
           <div className="max-w-5xl mx-auto w-full space-y-6">
+            {/* Anti-Lag 10s Buffer User Notification Banner */}
+            {!hasSeenDelayNotice && (
+              <div className="bg-gradient-to-r from-emerald-950/80 via-[#0b1626]/95 to-[#0b1220]/95 border border-emerald-500/30 rounded-2xl p-3.5 sm:p-4 shadow-2xl backdrop-blur-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 animate-in fade-in slide-in-from-top-4 duration-300">
+                <div className="flex items-start sm:items-center gap-3 min-w-0">
+                  <div className="w-9 h-9 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5 sm:mt-0 shadow-lg shadow-emerald-500/10">
+                    <Shield size={18} />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h4 className="text-xs sm:text-sm font-black text-white tracking-tight uppercase">
+                        Anti-Lag 10s Buffer Enabled by Default
+                      </h4>
+                      <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[9px] font-black uppercase tracking-wider">
+                        Active
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-300 font-medium mt-0.5 leading-relaxed">
+                      Streams automatically preload a 10-second buffer for smooth, lag-free viewing. You can toggle between 10s Buffer and Real-Time anytime.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 self-end sm:self-center shrink-0 w-full sm:w-auto justify-end">
+                  <button
+                    onClick={() => toggleStreamDelay()}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all border flex items-center gap-1.5 active:scale-95 ${
+                      streamDelayEnabled
+                        ? 'bg-white/10 hover:bg-white/15 text-white border-white/10'
+                        : 'bg-emerald-500 text-black border-emerald-400 font-black'
+                    }`}
+                  >
+                    {streamDelayEnabled ? (
+                      <>
+                        <Zap size={12} className="text-amber-400" />
+                        <span>Switch to Real-Time</span>
+                      </>
+                    ) : (
+                      <>
+                        <Shield size={12} />
+                        <span>Enable 10s Buffer</span>
+                      </>
+                    )}
+                  </button>
+
+                  <button
+                    onClick={() => dismissDelayNotice()}
+                    className="px-3.5 py-1.5 bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 font-black text-xs uppercase tracking-wider rounded-xl transition-all border border-emerald-500/30 active:scale-95 flex items-center gap-1"
+                  >
+                    <Check size={14} /> Got It
+                  </button>
+                </div>
+              </div>
+            )}
+
             {allChannels.length === 0 && (
               <div className="p-6 rounded-3xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-4">
                 <Info size={24} className="text-blue-400 shrink-0 mt-0.5" />
@@ -428,6 +488,8 @@ export default function App() {
               onStall={autoSwitch}
               relatedServers={relatedServers}
               onSelectServer={setCurrentChannel}
+              streamDelayEnabled={streamDelayEnabled}
+              onToggleDelay={toggleStreamDelay}
             />
             
             {/* Active Match Details & Action Banner */}
@@ -465,7 +527,30 @@ export default function App() {
                   </div>
 
                   {/* Quick Action Buttons */}
-                  <div className="flex items-center gap-2.5 shrink-0">
+                  <div className="flex items-center gap-2.5 shrink-0 flex-wrap">
+                    {/* 10s Buffer Toggle Button */}
+                    <button
+                      onClick={() => toggleStreamDelay()}
+                      title={streamDelayEnabled ? "10s Buffer Delay is ON. Click to switch to Real-Time." : "Real-time is ON (0s Delay). Click to add 10s buffer."}
+                      className={`px-3.5 py-2.5 rounded-xl border text-xs font-bold transition-all flex items-center gap-2 active:scale-95 ${
+                        streamDelayEnabled
+                          ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-black shadow-sm shadow-emerald-500/10'
+                          : 'bg-white/5 hover:bg-white/10 text-slate-400 border-white/10'
+                      }`}
+                    >
+                      {streamDelayEnabled ? (
+                        <>
+                          <Shield size={16} className="text-emerald-400" />
+                          <span>10s Buffer: ON</span>
+                        </>
+                      ) : (
+                        <>
+                          <Zap size={16} className="text-amber-400" />
+                          <span>Buffer: OFF</span>
+                        </>
+                      )}
+                    </button>
+
                     <button
                       onClick={handleCopyCurrent}
                       title="Copy stream URL"
@@ -670,6 +755,10 @@ export default function App() {
               <div className="flex justify-between items-center py-1">
                 <span className="text-slate-400">Reload / Reconnect</span>
                 <kbd className="px-2 py-1 bg-white/10 rounded text-[11px] font-mono font-bold">R</kbd>
+              </div>
+              <div className="flex justify-between items-center py-1">
+                <span className="text-slate-400">10s Buffer / Real-Time</span>
+                <kbd className="px-2 py-1 bg-white/10 rounded text-[11px] font-mono font-bold">B</kbd>
               </div>
               <div className="flex justify-between items-center py-1">
                 <span className="text-slate-400">Volume Adjust</span>
