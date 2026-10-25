@@ -72,10 +72,17 @@ export default {
             priority: 11,
             homepage: "https://tap4sport.st/?sport=Football"
         },
-        xyzstreams: {
+        minutes90: {
             enabled: true,
-            priority: 12,
-            homepage: "https://xyzstreams.st"
+            priority: 4,
+            homepage: "https://www.90minutes.pro/",
+            api: "https://www.90minutes.pro/api/streams"
+        },
+        bintv: {
+            enabled: true,
+            priority: 5,
+            homepage: "https://www.bintv.cc/",
+            api: "https://bintvjson.lovable.app/api/public/bintvjson"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

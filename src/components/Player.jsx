@@ -493,7 +493,9 @@ export default function Player({
       .replace('CAMEL1', 'Camel')
       .replace('HESGOAL', 'HesGoal')
       .replace('AURASPORTS', 'Aura')
-      .replace('FALCONSTREAMS', 'Falcon');
+      .replace('FALCONSTREAMS', 'Falcon')
+      .replace('90MINUTES', '90Min')
+      .replace('BINTV', 'BinTV');
 
     return { serverNum, quality, commentator, srcName };
   };

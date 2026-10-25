@@ -959,3 +959,199 @@ export async function discoverFalconStreams() {
     return matches;
 }
 
+// --- 90MINUTES.PRO RESOLVER (Football Only) ---
+export async function discover90Minutes() {
+    const source = config.sources?.minutes90;
+    if (source && source.enabled === false) return [];
+    console.log(`\n🔍 [90MINUTES] Scanning football matches from 90minutes.pro...`);
+    const matches = [];
+
+    try {
+        const res = await fetch("https://www.90minutes.pro/api/streams", {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://www.90minutes.pro/"
+            },
+            signal: AbortSignal.timeout(10000)
+        });
+        if (!res.ok) {
+            console.log(`   ✘ [90MINUTES] API request failed: HTTP ${res.status}`);
+            return [];
+        }
+        const data = await res.json();
+        if (!data.success || !Array.isArray(data.streams)) return [];
+
+        // Football ONLY filtering
+        const allStreams = [];
+        for (const group of data.streams) {
+            const cat = (group.category || '').toLowerCase();
+            if (cat !== 'football') continue;
+            for (const s of group.streams || []) {
+                allStreams.push(s);
+            }
+        }
+
+        console.log(`   [90MINUTES] Found ${allStreams.length} football matches.`);
+
+        // Extract stream URLs for live matches
+        for (const match of allStreams) {
+            const isLive = match.status === 'live' || match.always_live === 1;
+            if (!isLive) continue;
+
+            const baseTitle = normalizeMatchTitle(match.name);
+            const matchId = match.id || match.uri_name;
+            if (!matchId) continue;
+
+            try {
+                const extRes = await fetch(`https://www.90minutes.pro/papi/extract-url/${encodeURI(matchId)}`, {
+                    headers: {
+                        "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                        "Referer": "https://www.90minutes.pro/"
+                    },
+                    signal: AbortSignal.timeout(6000)
+                });
+                if (!extRes.ok) continue;
+                const extData = await extRes.json();
+
+                if (extData.success && extData.hlsUrl) {
+                    matches.push({
+                        title: `${baseTitle} [SERVER 1 - HD]`,
+                        url: extData.hlsUrl,
+                        source: '90minutes'
+                    });
+                }
+                if (extData.success && extData.sdUrl && extData.sdUrl !== extData.hlsUrl) {
+                    matches.push({
+                        title: `${baseTitle} [SERVER 2 - SD]`,
+                        url: extData.sdUrl,
+                        source: '90minutes'
+                    });
+                }
+            } catch (e) {}
+        }
+    } catch (err) {
+        console.log(`   ✘ [90MINUTES] Error: ${err.message}`);
+    }
+
+    console.log(`[90MINUTES] Discovered ${matches.length} active football streams.`);
+    return matches;
+}
+
+// --- BINTV.CC STREAM RESOLVER & DISCOVERY (Football Only) ---
+export async function resolveBintvStream(streamUrl) {
+    try {
+        let targetUrl = streamUrl;
+        if (streamUrl.includes('id=')) {
+            const u = new URL(streamUrl);
+            const enc = u.searchParams.get('id');
+            if (enc) {
+                targetUrl = Buffer.from(enc, 'base64').toString('utf-8');
+            }
+        }
+
+        if (targetUrl.includes('.m3u8')) return targetUrl;
+
+        const resp = await fetch(targetUrl, {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://bintv-sources.pages.dev/"
+            },
+            signal: AbortSignal.timeout(6000)
+        });
+        if (!resp.ok) return null;
+        const html = await resp.text();
+
+        const scriptMatch = html.match(/var\s+([_a-zA-Z0-9]+)\s*=\s*\[([0-9,\s]+)\],\s*([_a-zA-Z0-9]+)\s*=\s*(\d+),\s*([_a-zA-Z0-9]+)\s*=\s*(\d+)/);
+        if (!scriptMatch) return null;
+
+        const arr = eval("[" + scriptMatch[2] + "]");
+        const xorKey = parseInt(scriptMatch[4]);
+        const offset = parseInt(scriptMatch[6]);
+        let code = "";
+        for (let i = 0; i < arr.length; i++) {
+            code += String.fromCharCode(((arr[i] ^ xorKey) - offset + 256) % 256);
+        }
+
+        const tUrlMatch = code.match(/loadStreamUrl\(["']([^"']+)["']/);
+        if (!tUrlMatch) return null;
+        const tUrl = tUrlMatch[1];
+
+        const tResp = await fetch(tUrl, {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": targetUrl
+            },
+            signal: AbortSignal.timeout(6000)
+        });
+        if (!tResp.ok) return null;
+        const buf = await tResp.arrayBuffer();
+        const b = new Uint8Array(buf);
+        const tk = tUrl.substring(tUrl.lastIndexOf('/') + 1);
+        const s = b[0];
+        let resolved = '';
+        for (let i = 1; i < b.length; i++) {
+            resolved += String.fromCharCode(b[i] ^ tk.charCodeAt((i - 1) % tk.length) ^ ((s + i - 1) & 255));
+        }
+        return resolved;
+    } catch(e) {
+        return null;
+    }
+}
+
+export async function discoverBinTV() {
+    const source = config.sources?.bintv;
+    if (source && source.enabled === false) return [];
+    console.log(`\n🔍 [BINTV] Scanning football matches from bintv.cc...`);
+    const matches = [];
+
+    try {
+        const res = await fetch("https://bintvjson.lovable.app/api/public/bintvjson", {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://www.bintv.cc/"
+            },
+            signal: AbortSignal.timeout(10000)
+        });
+        if (!res.ok) {
+            console.log(`   ✘ [BINTV] API request failed: HTTP ${res.status}`);
+            return [];
+        }
+        const data = await res.json();
+        const liveEvents = data["Live Events"] || [];
+
+        // Football ONLY filtering (Soccer or Football category)
+        const soccerMatches = liveEvents.filter(m => {
+            const cat = (m.category || '').toLowerCase();
+            return cat === 'soccer' || cat === 'football';
+        });
+
+        console.log(`   [BINTV] Found ${soccerMatches.length} live soccer matches.`);
+
+        for (const match of soccerMatches) {
+            const baseTitle = normalizeMatchTitle(match.name);
+            const streams = match.streams || [];
+
+            for (let i = 0; i < streams.length; i++) {
+                const s = streams[i];
+                if (!s.url) continue;
+
+                const resolved = await resolveBintvStream(s.url);
+                if (resolved && resolved.startsWith('http')) {
+                    const srvName = s.name ? ` [${s.name.toUpperCase()}]` : ` [SERVER ${i + 1} - HD]`;
+                    matches.push({
+                        title: `${baseTitle}${srvName}`,
+                        url: resolved,
+                        source: 'bintv'
+                    });
+                }
+            }
+        }
+    } catch (err) {
+        console.log(`   ✘ [BINTV] Error: ${err.message}`);
+    }
+
+    console.log(`[BINTV] Discovered ${matches.length} active football streams.`);
+    return matches;
+}
+
+

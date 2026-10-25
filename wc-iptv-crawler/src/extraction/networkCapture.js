@@ -2,6 +2,7 @@ import puppeteer, { getChromePath } from '../utils/puppeteerLoader.js';
 import { validateStream } from '../validation/validateStream.js';
 import { getCamel1Stream } from './camelStreamResolver.js';
 import { getXyzStream } from './xyzStreamResolver.js';
+import { resolveBintvStream } from '../discovery/matchDiscovery.js';
 import config from '../../config.js';
 import fs from 'fs';
 
@@ -19,6 +20,19 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         }
     }
 
+    // 0a. Fast-path resolver for BinTV
+    if (label.toUpperCase().includes('BINTV') || targetUrl.includes('bintv')) {
+        if (targetUrl.includes('.m3u8')) {
+            const val = await validateStream(targetUrl);
+            if (val.isValid) return { url: targetUrl, type: 'HLS' };
+        }
+        const resolved = await resolveBintvStream(targetUrl);
+        if (resolved) {
+            const val = await validateStream(resolved);
+            if (val.isValid) return { url: resolved, type: 'HLS' };
+        }
+    }
+
     if (label.toUpperCase().includes('XYZSTREAMS') || targetUrl.includes('xyzstreams.st')) {
         const xyzStream = await getXyzStream(targetUrl);
         if (xyzStream && xyzStream.url) {
@@ -27,7 +41,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         return null;
     }
 
-    // 0a. Fast-path resolver for AuraSports and streame.center / edgestream
+    // 0b. Fast-path resolver for AuraSports and streame.center / edgestream
     if (
         label.toUpperCase().includes('AURA') ||
         label.toUpperCase().includes('FALCON') ||
@@ -44,9 +58,14 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         return null;
     }
 
-    // 0b. Fast-path resolver for LiveLive24 and direct HLS/FLV streams
+    // 0c. Fast-path resolver for LiveLive24, 90minutes, and direct HLS/FLV streams
     if (
         label.toUpperCase().includes('LIVELIVE') ||
+        label.toUpperCase().includes('90MINUTES') ||
+        label.toUpperCase().includes('BINTV') ||
+        targetUrl.includes('90minutes.pro') ||
+        targetUrl.includes('damitv.st') ||
+        targetUrl.includes('uzhi.ru') ||
         targetUrl.includes('livelive24.com') ||
         targetUrl.includes('hesgoal.llc') ||
         targetUrl.includes('hls.html') ||

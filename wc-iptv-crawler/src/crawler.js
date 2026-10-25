@@ -10,7 +10,9 @@ import {
     discoverAuraSports,
     discoverFalconStreams,
     discoverStreamcorner,
-    discoverFutbolX
+    discoverFutbolX,
+    discover90Minutes,
+    discoverBinTV
 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
@@ -84,6 +86,8 @@ async function runCycle() {
 
         // 2. Discovery
         const futbolx = await discoverFutbolX().catch(() => []);
+        const m90 = await discover90Minutes().catch(() => []);
+        const bintv = await discoverBinTV().catch(() => []);
         const live24 = await discoverLiveLive24().catch(() => []);
         const hesgoal = await discoverHesGoal().catch(() => []);
         const aura = await discoverAuraSports().catch(() => []);
@@ -101,6 +105,8 @@ async function runCycle() {
         // Queue: Fast direct API sources first, then secondary aggregators
         const queue = [
             ...futbolx,
+            ...m90,
+            ...bintv,
             ...live24,
             ...xyz,
             ...cam.slice(0, 10),
