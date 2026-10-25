@@ -3,20 +3,20 @@ export default {
         socolive: { 
             enabled: true, 
             priority: 1, 
-            homepage: "https://socoliveq.tv/",
-            mirrors: ["https://socolive.live/", "https://socolive1.com/"]
+            homepage: "https://socolive.live/",
+            mirrors: []
         },
         colatv: { 
             enabled: true, 
             priority: 2, 
             homepage: "https://cola-affcup2026.tv/",
-            mirrors: ["https://cafente.com/", "colatv.it.com"]
+            mirrors: ["colatv.it.com"]
         },
         xoilac: { 
             enabled: true, 
             priority: 3, 
-            homepage: "https://xoilaczzq.cc/",
-            mirrors: ["https://xoilac.live/", "https://xoilac.tv/"]
+            homepage: "https://xoilac.live/",
+            mirrors: ["https://xoilac.tv/"]
         },
         futbolx: {
             enabled: true,

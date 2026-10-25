@@ -102,14 +102,14 @@ async function runCycle() {
         const queue = [
             ...futbolx,
             ...live24,
-            ...hesgoal,
+            ...hesgoal.slice(0, 8),
             ...aura,
             ...falcon.slice(0, 10),
-            ...streamcorner.slice(0, 8),
+            ...streamcorner.slice(0, 6),
             ...xyz,
             ...cam.slice(0, 5),
-            ...soco.slice(0, 10), 
-            ...cola.slice(0, 15), 
+            ...soco.slice(0, 6), 
+            ...cola.slice(0, 8), 
             ...xoi.slice(0, 4)
         ];
 
@@ -117,6 +117,17 @@ async function runCycle() {
         for (const match of queue) {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
+
+            // Fast Skip: If this match already has 2+ working servers from primary sources,
+            // skip launching slow headless browser sessions for secondary aggregators
+            const baseMatchName = normalizeMatchTitle(match.title).replace(/\s*\[SERVER\s*[^\]]+\]$/i, '').trim();
+            const existingServerCount = newResults.filter(r => r.title.startsWith(baseMatchName)).length;
+            const isHeavyBrowserSource = ['socolive', 'colatv', 'xoilac', 'streamcorner'].includes(match.source.toLowerCase());
+
+            if (isHeavyBrowserSource && existingServerCount >= 2) {
+                continue;
+            }
+
             try {
                 const stream = await captureNetworkStream(match.url, match.source.toUpperCase());
 
@@ -139,11 +150,11 @@ async function runCycle() {
         // 4. PERSISTENCE LOGIC (Parallel batch validation)
         console.log(chalk.blue("\n[Persistence] Verifying previous matches..."));
         const oldCandidates = existingChannels.filter(old => !newResults.find(n => n.title === old.title));
-        const BATCH_SIZE = 6;
+        const BATCH_SIZE = 15;
         for (let i = 0; i < oldCandidates.length; i += BATCH_SIZE) {
             const batch = oldCandidates.slice(i, i + BATCH_SIZE);
             const results = await Promise.all(batch.map(async (old) => {
-                const check = await validateStream(old.streamUrl, "", 3500);
+                const check = await validateStream(old.streamUrl, "", 2500);
                 return { old, isValid: check.isValid };
             }));
             for (const res of results) {

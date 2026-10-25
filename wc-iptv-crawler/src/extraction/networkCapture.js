@@ -127,8 +127,8 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             });
 
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
-            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
-            await page.waitForResponse(res => res.url().includes('.m3u8'), { timeout: 8000 }).catch(() => {});
+            await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
+            await page.waitForResponse(res => res.url().includes('.m3u8'), { timeout: 5000 }).catch(() => {});
             
             if (streamUrl) {
                 const val = await validateStream(streamUrl, targetUrl);
@@ -261,7 +261,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         urlsToAttempt.unshift(targetUrl);
     }
 
-    for (const currentUrl of urlsToAttempt.slice(0, 3)) {
+    for (const currentUrl of urlsToAttempt.slice(0, 2)) {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
@@ -307,13 +307,13 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             });
 
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
-            await page.goto(currentUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
+            await page.goto(currentUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
             
             // 2. WAIT FOR PLAYER
-            await page.waitForSelector('video, iframe, #player, .video-player, .player-container', { timeout: 8000 }).catch(() => {});
+            await page.waitForSelector('video, iframe, #player, .video-player, .player-container', { timeout: 3500 }).catch(() => {});
 
-            // 3. Polling wait for media streams (up to 7 seconds)
-            for (let i = 0; i < 14; i++) {
+            // 3. Polling wait for media streams (up to 3.5 seconds)
+            for (let i = 0; i < 7; i++) {
                 if (candidates.length > 0) break;
                 await new Promise(r => setTimeout(r, 500));
             }
@@ -337,7 +337,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
             // 5. INTERACTION (Wakes up player logic if needed)
             if (candidates.length === 0) {
                 await page.mouse.click(640, 360).catch(() => {});
-                for (let i = 0; i < 6; i++) {
+                for (let i = 0; i < 3; i++) {
                     if (candidates.length > 0) break;
                     await new Promise(r => setTimeout(r, 500));
                 }

@@ -233,8 +233,8 @@ export async function discoverXoilac() {
             try {
                 console.log(`[XOILAC] Checking: ${url}`);
                 await page.goto(url, {
-                    waitUntil: 'load',
-                    timeout: 30000
+                    waitUntil: 'domcontentloaded',
+                    timeout: 12000
                 });
 
                 // Scroll slightly to ensure lazy-loaded cards are populated
