@@ -260,9 +260,8 @@ export default function Player({
         fragLoadingTimeOut: 15000,
         enableSoftwareAES: true,
         lowLatencyMode: !isDelayActive,
-        liveSyncDuration: isDelayActive ? 10 : 0,
-        liveMaxLatencyDuration: isDelayActive ? 25 : 5,
-        liveSyncDurationCount: isDelayActive ? 4 : 1
+        liveSyncDuration: isDelayActive ? 10 : 1,
+        liveMaxLatencyDuration: isDelayActive ? 25 : 5
       });
 
       hls.loadSource(streamUrl);

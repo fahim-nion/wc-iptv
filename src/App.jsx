@@ -392,9 +392,9 @@ export default function App() {
           <div className="flex-1 overflow-y-auto px-4 border-t border-white/5 pt-3 scrollbar-hide">
             <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Live Feeds</p>
             <div className="space-y-1 pb-4">
-              {filtered.slice(0, 40).map(c => (
+              {filtered.slice(0, 40).map((c, idx) => (
                 <button 
-                  key={c.url} 
+                  key={`${c.url || ''}-${idx}`} 
                   onClick={() => setCurrentChannel(c)} 
                   className={`w-full text-left px-3 py-2 rounded-xl text-[11px] font-bold truncate transition-all flex items-center gap-2 ${
                     currentChannel?.url === c.url 
@@ -625,9 +625,9 @@ export default function App() {
                 <p className="text-[10px] mt-1">Try another search or clear the filter</p>
               </div>
             ) : (
-              filtered.map(channel => {
+              filtered.map((channel, idx) => {
                 const isSelected = currentChannel?.url === channel.url;
-                const isFav = favorites.includes(channel.url);
+                const isFav = (favorites || []).includes(channel.url);
 
                 // Detect server tag in title
                 const serverMatch = channel.name?.match(/\[SERVER\s*(\d+)(?:\s*-\s*([A-Za-z0-9]+))?\]/i);
@@ -638,7 +638,7 @@ export default function App() {
 
                 return (
                   <div 
-                    key={channel.url} 
+                    key={`${channel.url || ''}-${idx}`} 
                     onClick={() => { 
                       setCurrentChannel(channel); 
                       if (window.innerWidth < 768) setRightOpen(false); 
