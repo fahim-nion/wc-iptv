@@ -1,570 +1,552 @@
 {
-  "updatedAt": "2026-10-25T17:23:26.313Z",
+  "updatedAt": "2026-10-25T18:27:03.218Z",
   "channels": [
     {
-      "id": "live-05c259d58b",
+      "id": "live-b2348f0d63",
       "title": "CELTA VIGO VS REAL BETIS [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/cel/index.m3u8?token=f99192087d06985b6b0de31ed64b758d94a21387-a0e3678fb567991146811e803d3908c6-1792949486-1792948286&remote=no_check_ip",
+      "streamUrl": "https://g.futbolx.ryzn.pro/cel/index.m3u8?token=fbb7a193b17efe1d49f36152bc95ef7daa4c1c88-4f9066ed9bdc285172d7baeb51977498-1792953128-1792951928&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-c1a358f9ec",
-      "title": "AJ AUXERRE VS LE MANS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/aux/index.m3u8?token=5cdc1ec26924d4f793832ca05d2d34fd645922f5-ab1d55410c898c60ef944d9cf66caf6b-1792949487-1792948287&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e63195ebc2",
+      "id": "live-de21a54391",
       "title": "ANGERS VS LORIENT [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/ang/index.m3u8?token=4e76bdee121a54deaf9f0841da2601c7d35fb6d3-15e80f26eb3e32f7ad9283c5212e7622-1792949487-1792948287&remote=no_check_ip",
+      "streamUrl": "https://g.futbolx.ryzn.pro/ang/index.m3u8?token=81aea391c2b96bb740d0029c6d67e0ac1a2d438b-48bb11894ee1f0b3503b5707804cb39f-1792953129-1792951929&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-2e34ac7e39",
+      "id": "live-1e07e75cb6",
       "title": "MARSEILLE VS LE HAVRE [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/mar/index.m3u8?token=649aa398067621e637526124a016fa8bf86b15b8-d6073cb7799800802e1ff5286ecd62cf-1792949488-1792948288&remote=no_check_ip",
+      "streamUrl": "https://g.futbolx.ryzn.pro/mar/index.m3u8?token=bf921182e420f33dde30ffba036af5dde9cdf204-27db80b10b804023f6b16f68022d0687-1792953130-1792951930&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-f3d07d14dd",
+      "id": "live-bf99a1ac8a",
       "title": "STADE RENNAIS VS STRASBOURG [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/sta/index.m3u8?token=ecda8d56a36bf8700a1022d8976781428cc4f6ab-2311ab516fc1ba442f5f91237c9d7102-1792949488-1792948288&remote=no_check_ip",
+      "streamUrl": "https://g.futbolx.ryzn.pro/sta/index.m3u8?token=16b4d4f9125f8201e0f1322d4d9245fbec8e4d0b-ec0a1f14c9b22e095778ef81675f3029-1792953130-1792951930&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-5ad0416c4e",
+      "id": "live-385a7d0987",
       "title": "TOULOUSE VS TROYES [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/tou/index.m3u8?token=c032c879f15a246aabe46edff9b260982c4b884d-c7acc43e507f774bd8f537850790eef9-1792949489-1792948289&remote=no_check_ip",
+      "streamUrl": "https://g.futbolx.ryzn.pro/tou/index.m3u8?token=8663728bbb2d20a1792d6d9c9cf69adda59b5134-325f9287b22c4b3641c383f0861142b9-1792953131-1792951931&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-ad8e8fdc27",
+      "id": "live-ae4b26dc7d",
       "title": "FREIBURG VS BAYERN MUNICH [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/bay/index.m3u8?token=f04af07f89ec9674853d7f18744c31c058ef1079-ea0d252ba9522c8e85075186982e1ec8-1792949489-1792948289&remote=no_check_ip",
+      "streamUrl": "https://bt.futbolx.ryzn.pro/bay/index.m3u8?token=1427552971a03ae63cdfefc2e113de61e369c360-6f64c78850e84a5b67ed1f4c7aa28584-1792953132-1792951932&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-da51e22592",
+      "id": "live-c59c4ac1af",
       "title": "SUNDERLAND VS LEEDS UNITED [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/sun/index.m3u8?token=5c1a517bb1799df69a036fd2e114b9f7a6fdf274-841de99eaacaa350338d4521632327dd-1792949490-1792948290&remote=no_check_ip",
+      "streamUrl": "https://bt.futbolx.ryzn.pro/sun/index.m3u8?token=0edb5d882539c6369701e9d2c16a42fe8d0139c1-563c8d6eadb30f1ea9aa5227f22e6271-1792953132-1792951932&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-d9bf2e0eda",
+      "id": "live-71044a2e28",
       "title": "LECCE VS JUVENTUS [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/juv/index.m3u8?token=88734bef638880c00f4f6e20e35190ff2e324048-9bece37d32510615597cb9151f396aa4-1792949490-1792948290&remote=no_check_ip",
+      "streamUrl": "https://bt.futbolx.ryzn.pro/juv/index.m3u8?token=9db5642f5acbab7e79fefa8e26d3a4379650383e-a774dabcddf5e2c1b6afead8a443c8b9-1792953133-1792951933&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-49505c68e8",
-      "title": "AUXERRE VS LE MANS [SERVER 1 - SD]",
+      "id": "live-eb09ec9f34",
+      "title": "AJ AUXERRE VS. LE MANS [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/ligue1/2026-10-25/aux-mns/playlist.m3u8?tk=KhDmCzNB6Y-WrOYVJNBhfg&e=1792995440",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9af26ee1fe",
+      "title": "ANGERS VS. LORIENT [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/ligue1/2026-10-25/ang-lor/playlist.m3u8?tk=KhDmCzNB6Y-WrOYVJNBhfg&e=1792995440",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c471ed9aaf",
+      "title": "MARSEILLE VS. LE HAVRE [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/ligue1/2026-10-25/olm-hac/playlist.m3u8?tk=87PGDRFQV9XtLQAs_81Gwg&e=1792995441",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-23d97e1b9e",
+      "title": "STADE RENNAIS VS. STRASBOURG [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/ligue1/2026-10-25/ren-str/playlist.m3u8?tk=87PGDRFQV9XtLQAs_81Gwg&e=1792995441",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4b83d7a522",
+      "title": "FREIBURG VS. BAYERN MUNICH [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/bundesliga/2026-10-25/scf-bay/playlist.m3u8?tk=87PGDRFQV9XtLQAs_81Gwg&e=1792995441",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c04a03beb7",
+      "title": "SUNDERLAND VS. LEEDS UNITED [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/pl/2026-10-25/sun-lee/playlist.m3u8?tk=aSWsopX1-VlVA0XsQyIcMQ&e=1792995442",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-75b88f4bae",
+      "title": "LECCE VS. JUVENTUS [SERVER 1 - HD]",
+      "status": "live",
+      "source": "90minutes",
+      "streamUrl": "https://messi.damitv.st/live-hls/channel/seriea/2026-10-25/lec-juv/playlist.m3u8?tk=aSWsopX1-VlVA0XsQyIcMQ&e=1792995442",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1991115a38",
+      "title": "REAL MADRID VS BARCELONA [PREMIER SPORTS 1 IE]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/f1a5a028bf0b3452d380576d0c7397e45682f062b80c9447b80e2ebda705e063/1792961249/premiersports1-ie.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be59bd49e1",
+      "title": "LE HAVRE @ MARSEILLE [BEIN SPORTS (USA)]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/30a8aec8c120730995605e67a9552ebd6f8c8d57e3cc250df54055911a641ad0/1792961252/beinsports-usa.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3a2a97f248",
+      "title": "LE MANS @ AJ AUXERRE [BEIN SPORTS CONNECT 4 (USA)]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/20c5163083fd291958e262920f40be34134c41e95b8a17d908e570c15aa2c7d0/1792961254/beinconnect4-usa.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d2f62571e3",
+      "title": "LORIENT @ ANGERS [BEIN SPORTS CONNECT 5 (USA)]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/1f98e3a370f41e5f58b6a1f7e3fb951795da11cd4a584e5d15a5fe6df32ff512/1792961256/beinconnect5-usa.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3a3a1edbff",
+      "title": "STRASBOURG @ STADE RENNAIS [BEIN SPORTS CONNECT 6 (USA)]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/efc7498787f11eb0fc7d4e13f12500c3dec2a3417218dbb52789d7cfc8c49d47/1792961259/beinconnect6-usa.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-87ee4532a9",
+      "title": "LEEDS UNITED @ SUNDERLAND [SKY SPORTS PREMIER LEAGUE]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/bfeb5cc59f820fd3b519d012560635759c5767ff33ffff1979090dcc6d470c99/1792961263/skysportspremierleague-uk.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b94c433012",
+      "title": "LEEDS UNITED @ SUNDERLAND [SKY SPORTS UHD 1]",
+      "status": "live",
+      "source": "bintv",
+      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/b8e188ac22290a0af0720edaf10b586088617959e0c4ea897df261b6586143e7/1792961265/skysportsuhd1-uk.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b775ce2ffb",
+      "title": "SUNDERLAND VS LEEDS UNITED [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYdQTxfYEad4.m3u8?txSecret=6ca646088129546fa7955ab767736350&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5572924_2.m3u8?txSecret=b86ae4d2fd6695e1dad5bc84100b3ed5&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-8f94eed270",
-      "title": "AUXERRE VS LE MANS [SERVER 2 - SD]",
+      "id": "live-c5f162a7d0",
+      "title": "SUNDERLAND VS LEEDS UNITED [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573103_1.m3u8?txSecret=d64053ea6297a58cf910cb8fdc54fa72&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5572924_1.m3u8?txSecret=9ae4b9429fe79ce2e410f6d763159331&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-be6fce0c57",
-      "title": "AUXERRE VS LE MANS [SERVER 3 - HD]",
+      "id": "live-22f8195bdc",
+      "title": "SUNDERLAND VS LEEDS UNITED [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYdQTxfYEad4.m3u8?txSecret=c6729d93357b3e579b8825d00d0f5051&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqQiHUMGaBciLEJ.m3u8?txSecret=41050900d60c886425b6c10c9618ce65&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-3cfb892f36",
-      "title": "AUXERRE VS LE MANS [SERVER 4 - HD]",
+      "id": "live-c6b2efb1ad",
+      "title": "MAN UTD WOMEN VS MAN CITY(W) [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573103_2.m3u8?txSecret=3d567a8a3582fbe9cf084f263bac0975&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5642983_1.m3u8?txSecret=fa3841d9e3eae876439f853b4bdae9f6&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-9b780b3a3c",
-      "title": "MARSEILLE VS HAVRE [SERVER 1 - SD]",
+      "id": "live-1db5c901ba",
+      "title": "MAN UTD WOMEN VS MAN CITY(W) [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYcqVkcLqqKc.m3u8?txSecret=330acccb78d6dff1c24140236a35d63e&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5642983_2.m3u8?txSecret=d306d521e6ccbd5f2cf731a11c1e822e&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-7794191950",
-      "title": "MARSEILLE VS HAVRE [SERVER 2 - SD]",
+      "id": "live-5e994ed504",
+      "title": "MAN UTD WOMEN VS MAN CITY(W) [SERVER 3 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573100_1.m3u8?txSecret=f673a2d4d2719d8eaae28670e0cfc036&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MxiZaLwEuwvP41ADU.m3u8?txSecret=fd20d237721c2ae1b152c1e17e959f84&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-8e055a6def",
-      "title": "MARSEILLE VS HAVRE [SERVER 3 - HD]",
+      "id": "live-ce092b9cce",
+      "title": "ANGERS VS LORIENT [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYcqVkcLqqKc.m3u8?txSecret=1dba0f412cd0de48d08e975cb275b23a&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYdHsX46kqAN.m3u8?txSecret=1cd526044c935d8830672cddebb9bf65&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-d785655245",
-      "title": "MARSEILLE VS HAVRE [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573100_2.m3u8?txSecret=524cb71368d1c76661c85b61a099f615&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8839967e83",
-      "title": "TOULOUSE VS TROYES [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYTZ12NoSJjx.m3u8?txSecret=56f378602ab7a3280da4d83fb124bfe2&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b6037fed1c",
-      "title": "TOULOUSE VS TROYES [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573097_1.m3u8?txSecret=c65e10f24497afa5a551825cf0a04ae6&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6a3f157a41",
-      "title": "TOULOUSE VS TROYES [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYTZ12NoSJjx.m3u8?txSecret=213490900bb2cff38d601fd7683c678f&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2c91229a01",
-      "title": "TOULOUSE VS TROYES [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573097_2.m3u8?txSecret=716db02c8b146697c0d87c04968cf838&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e099a1aae6",
-      "title": "RENNES VS STRASBOURG [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYTSQamMxZHG.m3u8?txSecret=986e25c202402ffb3458e80c9cc9e42b&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e1284d7b0e",
-      "title": "RENNES VS STRASBOURG [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573098_1.m3u8?txSecret=5018c2037bb84cedb8278232b91fe438&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8e528bc31a",
-      "title": "RENNES VS STRASBOURG [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573098_2.m3u8?txSecret=a4bb8b9d21ef585a924cb118781568a4&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9ffde92c17",
+      "id": "live-186295d03a",
       "title": "RENNES VS STRASBOURG [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYTSQamMxZHG.m3u8?txSecret=62b840e7c9657df32aa635b34c6116c0&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYTSQamMxZHG.m3u8?txSecret=1eddf186e3653ccb7c90d5a715d38691&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-e123cf2ab4",
-      "title": "CELTA VS REAL BETIS [SERVER 1 - SD]",
+      "id": "live-0a86547b8b",
+      "title": "TOULOUSE VS TROYES [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MweaGxUXu3SFsTTQz.m3u8?txSecret=10e0a794517e2a531b22afbeb36e62dd&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYTZ12NoSJjx.m3u8?txSecret=0582bf67556c2cf6d4795ea07f6e4f14&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-9cc2de1d3c",
-      "title": "CELTA VS REAL BETIS [SERVER 2 - SD]",
+      "id": "live-ddf42aebe0",
+      "title": "REAL SOCIEDAD VS LEVANTE [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576504_1.m3u8?txSecret=745dccb54e2c99dc71a8f13323aa0bd4&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MweaGxUY8EKUkQxLN.m3u8?txSecret=06678d81e3c7cf04d2ca8e4a1d6f826d&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-74e719667a",
-      "title": "CELTA VS REAL BETIS [SERVER 3 - HD]",
+      "id": "live-df1295b448",
+      "title": "REAL SOCIEDAD VS LEVANTE [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaGxUXu3SFsTTQz.m3u8?txSecret=d6026ed8b8afe2e30648182021dbbca3&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576500_1.m3u8?txSecret=3fc429ea7bc36c5d7199d3cc830f034a&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-b585685628",
+      "id": "live-5b77726e3e",
+      "title": "REAL SOCIEDAD VS LEVANTE [SERVER 3 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576500_2.m3u8?txSecret=1f2ec9a6f20bd102a6b46d6c8969598b&txTime=6AE38D24",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7d53b9e7c7",
+      "title": "REAL SOCIEDAD VS LEVANTE [SERVER 4 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaGxUY8EKUkQxLN.m3u8?txSecret=9f5a3fcb655e236df42c003bbfc62767&txTime=6AE38D24",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6cdceaa5e1",
+      "title": "FREIBURG VS BAYERN MUNICH [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MweaDgjoP8kjLZJF8.m3u8?txSecret=17f00a4f33878b684f31c9948f1f5ddf&txTime=6AE38CE8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4345a264b2",
       "title": "FREIBURG VS BAYERN MUNICH [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5568954_2.m3u8?txSecret=4ff98d63573d63baf50898e11e71d956&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5568954_2.m3u8?txSecret=e6efee60c29e1115274d0a8725edded9&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-2a60979cf8",
+      "id": "live-841ab849e0",
       "title": "FREIBURG VS BAYERN MUNICH [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5568954_1.m3u8?txSecret=8b0bc701f014e881be3f05b6f2cab4c3&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5568954_1.m3u8?txSecret=94d2a5fb54cb5297907ada7c67e5a05a&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-e00d5d6dba",
+      "id": "live-5174306d67",
       "title": "FREIBURG VS BAYERN MUNICH [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaDgjoP8kjLZJF8.m3u8?txSecret=1522cd8c9bc1c3238c34352371ae925b&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaDgjoP8kjLZJF8.m3u8?txSecret=0ad5d05538d6b1b8e9297371e4970485&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-0f647bc08b",
+      "id": "live-37781becf5",
       "title": "LECCE VS JUVENTUS [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mwe5jaVDDmm9ox3ee.m3u8?txSecret=61986ade071c425245fd71b653f0ab4e&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mwe5jaVDDmm9ox3ee.m3u8?txSecret=9eae924ea1692d00d69d701370166cc4&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-abfa7d3223",
+      "id": "live-40315e30c3",
       "title": "LECCE VS JUVENTUS [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579989_2.m3u8?txSecret=47d3ac01d8de9e83e998d61efa497693&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579989_2.m3u8?txSecret=7e3d5706ddbe67a1107e1f44f5b5cbe3&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-d1d9e76b10",
+      "id": "live-4a376bb36f",
       "title": "LECCE VS JUVENTUS [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579989_1.m3u8?txSecret=09830959983af2f75dd1c9658f622f01&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579989_1.m3u8?txSecret=ee5019f00ca988d9f740d40b3a476b43&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-5a89678c8a",
+      "id": "live-032328fe11",
       "title": "LECCE VS JUVENTUS [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaVDDmm9ox3ee.m3u8?txSecret=5c75eb114d673a5bc704723275cb69ef&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaVDDmm9ox3ee.m3u8?txSecret=b6bee4cc318765411dc1e8bb3691b83d&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-0df82a66a9",
-      "title": "MJALLBY AIF VS HAMMARBY [SERVER 1 - HD]",
+      "id": "live-cb1770703a",
+      "title": "UNION SAINT GILLOISE VS CERCLE BRUGGE [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ENkewQ6mVFr1t.m3u8?txSecret=1d0dfd3792483b093b1c8e3b462f1054&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqQkWRnhRL53eai.m3u8?txSecret=d972be4ab3bef2c93a5c27d01cc8e726&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-c3838ae6be",
-      "title": "SPARTA ROTTERDAM VS AFC AJAX [SERVER 1 - HD]",
+      "id": "live-b39ab71ef4",
+      "title": "UNION SAINT GILLOISE VS CERCLE BRUGGE [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwdpr5PZm5PBN62B8.m3u8?txSecret=bcb5ad7f20d585f1224686f7e97be716&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573110_1.m3u8?txSecret=7be56449dde3e65c6d5cee6ad0bf47bd&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-be8866c25e",
-      "title": "SPARTA ROTTERDAM VS AFC AJAX [SERVER 2 - HD]",
+      "id": "live-39b2c76001",
+      "title": "KAA GENT VS ANDERLECHT [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576748_1.m3u8?txSecret=0acd7652c4f21932f44b983634a1e4d3&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqQkWRygpgUBEMC.m3u8?txSecret=7c2b0b54b0cf2870b0740ba82380c03f&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-7478dc40c4",
-      "title": "ESTORIL VS MOREIRENSE [SERVER 1 - HD]",
+      "id": "live-4aaa4d367f",
+      "title": "KAA GENT VS ANDERLECHT [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweLB37NiJ53SuWWr.m3u8?txSecret=ae1b5450dafe58685f73a21f33ce89be&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573107_1.m3u8?txSecret=7b8e9fedb4c1f707e8b64cec53eff168&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-ccbb84364a",
-      "title": "ESTORIL VS MOREIRENSE [SERVER 2 - HD]",
+      "id": "live-790bc351ed",
+      "title": "RFC DE LIEGE VS PATRO EISDEN [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579868_1.m3u8?txSecret=585b01ade3e867a87dd4ffd1ad1c0324&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwea3tHm9yncKCw8a.m3u8?txSecret=d4a10bec066491aef5d14976a751835a&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-0bfd252551",
-      "title": "PORTO B VS UNIAO LEIRIA [SERVER 1 - HD]",
+      "id": "live-5abde8c6ab",
+      "title": "RFC DE LIEGE VS PATRO EISDEN [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweKnKJPADkoGYD6n.m3u8?txSecret=51765190b70d538519007b143cb52d10&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576492_1.m3u8?txSecret=f76d442764020a986ad2d93da7a17e31&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-659968f376",
-      "title": "PORTO B VS UNIAO LEIRIA [SERVER 2 - HD]",
+      "id": "live-ce0a013edb",
+      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579875_1.m3u8?txSecret=ae32be7919c3097311babdd1c2c9fd9a&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweLB37NuHUPr36HL.m3u8?txSecret=57d0ff15a8f7604c7911a24f273d8c58&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-d8a1fa50b1",
-      "title": "GOZTEPE VS CORUM [SERVER 1 - HD]",
+      "id": "live-12e6d50d97",
+      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwb6hHRK3Mgy4c7Jn.m3u8?txSecret=28d9e42c5cad3ceac04093bc05b09e29&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579865_1.m3u8?txSecret=8b59e96222b97f11f3282ce3880670c3&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-58453ccd19",
-      "title": "GOZTEPE VS CORUM [SERVER 2 - HD]",
+      "id": "live-167792e349",
+      "title": "RIO AVE VS FAMALICAO [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579998_1.m3u8?txSecret=2e6be5872f40498cc4c956fcd9e9ec36&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579863_1.m3u8?txSecret=9c8595d06e055aad75b7a5d8a51f83fe&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-fe64089fc0",
-      "title": "VOLOS NPS VS PANATHINAIKOS [SERVER 1 - HD]",
+      "id": "live-f5eb310959",
+      "title": "OFI CRETE VS PAOK SALONIKI [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvoijMpDtNA.m3u8?txSecret=af2658bec740ee528c04c011b06e8b26&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvjKmcra44N.m3u8?txSecret=7c324ed3680338f6a241fc44092686cb&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-b4a9902529",
-      "title": "VOLOS NPS VS PANATHINAIKOS [SERVER 2 - HD]",
+      "id": "live-a4eca283e7",
+      "title": "OFI CRETE VS PAOK SALONIKI [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5587332_1.m3u8?txSecret=8a01a6e432a8b6d4379eb9318ada9078&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5587334_1.m3u8?txSecret=d14c4a5b64f6185e330cef7a10bb4032&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-a745b8cb97",
-      "title": "LILLESTROM VS BRANN [SERVER 1 - HD]",
+      "id": "live-d17d57d9b2",
+      "title": "ARIS THESSALONIKI VS ATROMITOS ATHENS [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6EQymp7bdQJMZY.m3u8?txSecret=1ff0b8857ed41cee85aac9d149a7c02c&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvYLNGTSUHt.m3u8?txSecret=11cf00961a11e89218c2b34bb68c0df3&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-7f2f42e763",
-      "title": "LILLESTROM VS BRANN [SERVER 2 - HD]",
+      "id": "live-ab9c0bf793",
+      "title": "ARIS THESSALONIKI VS ATROMITOS ATHENS [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5152055_1.m3u8?txSecret=5043077821ba00d735ffe4d748194311&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5587337_1.m3u8?txSecret=caf04f74af4f0a8b45af883b85c06564&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-36c045e995",
-      "title": "START IK VS SANDEFJORD [SERVER 1 - HD]",
+      "id": "live-67407b5ee3",
+      "title": "MOLDE VS FREDRIKSTAD [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6EQzHDiV1hPWbG.m3u8?txSecret=203d688c43ce76e8b373954b442c8c10&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ERjbxXXhDckLv.m3u8?txSecret=3b50b4ac7c7cb2a70fdb8e56f798af8c&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-69176a1559",
-      "title": "START IK VS SANDEFJORD [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5152058_1.m3u8?txSecret=51b471e00d55b7a0a01359f26177ff46&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f08b993ba4",
-      "title": "SARPSBORG 08 VS AALESUND [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ERjG91DWJYT82.m3u8?txSecret=b92669efd8dac815dd12ec4b9323f5a7&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e08ddf5215",
-      "title": "SARPSBORG 08 VS AALESUND [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5152049_1.m3u8?txSecret=178428b8571c67023e0b38facc56f654&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c692f57764",
-      "title": "KRISTIANSUND BK VS KFUM OSLO [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ERj6Q8iq1Dvhc.m3u8?txSecret=ab1b79530d13b1096deed4fd26730895&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dea127ca27",
-      "title": "KRISTIANSUND BK VS KFUM OSLO [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5152043_1.m3u8?txSecret=5a05708a5f59b826aaafe5c225af6ae8&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4a7257eb85",
+      "id": "live-5006050444",
       "title": "AARHUS AGF VS VIBORG [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwdpnt65KLLiTt4e2.m3u8?txSecret=b06048e00fe1f3ee2402ed4f56dcd2bc&txTime=6AE37E9C",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwdpnt65KLLiTt4e2.m3u8?txSecret=11adc3e1fc447e043ed06bfd7d4a960b&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-3c0cbc0edf",
+      "id": "live-9c2cd0d99c",
       "title": "AARHUS AGF VS VIBORG [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579963_1.m3u8?txSecret=b49d1972027b787c8cad2a9ca1f8ea71&txTime=6AE37E9C",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579963_1.m3u8?txSecret=9f178ebab68a13699a3ea9514aafb0d3&txTime=6AE38D24",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-23f7cf263f",
+      "id": "live-ff49146876",
       "title": "LEGIA WARSZAWA VS LECH POZNAN [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqMR5GVdnAemTM8.m3u8?txSecret=d8f2fddee188942b93ce009539f26d3b&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqMR5GVdnAemTM8.m3u8?txSecret=9af2fbb332ea72bdd49a93c69f3fbc40&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-fff5ec169c",
-      "title": "VERONA VS PISA [SERVER 1 - HD]",
+      "id": "live-ac504ae4d0",
+      "title": "LEGIA WARSZAWA VS LECH POZNAN [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarbRjaK8kwAzoQa.m3u8?txSecret=cf15cfa6becc002f4edf4f96c55430b0&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-12fb746514",
-      "title": "VERONA VS PISA [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5606780_1.m3u8?txSecret=622f1b1507fb653791b71419630d5515&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3b6db60e96",
-      "title": "ZENIT STPETERSBURG VS DYNAMO MAKHACHKALA [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573140_1.m3u8?txSecret=099bd8fe049a464b8482ea929210e4d7&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6c81dc38bd",
-      "title": "ZENIT STPETERSBURG VS DYNAMO MAKHACHKALA [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaLBGKztFtu3bEW.m3u8?txSecret=7cef66372110bd5795cc9cb07e9eae63&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-dff4daff7e",
-      "title": "SION VS LAUSANNE SPORTS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwdq5AJ9vtxF58JoY.m3u8?txSecret=0e4fa75329da44221adfe83c75b9b2e5&txTime=6AE37E60",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-602080e53d",
-      "title": "SION VS LAUSANNE SPORTS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573131_1.m3u8?txSecret=0ca810e2817bb31fd6544e725b622d9f&txTime=6AE37E60",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576440_1.m3u8?txSecret=aeecaeb751741514988af40d40132f0c&txTime=6AE38CE8",
       "type": "HLS",
       "category": "Sports"
     },
@@ -573,16 +555,7 @@
       "title": "PITTSBURGH STEELERS VS NEW ORLEANS SAINTS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/nfln/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-76bf1750bf",
-      "title": "LIVERPOOL VS BRIGHTON & HOVE ALBION",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/skyepl/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfln/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -614,20 +587,29 @@
       "category": "Sports"
     },
     {
-      "id": "live-e9635b42df",
-      "title": "MIAMI DOLPHINS VS NEW YORK JETS",
+      "id": "live-0c76d47b1b",
+      "title": "CLEVELAND BROWNS VS TENNESSEE TITANS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/nfl4/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://xyzstream.duckdns.org/nfl2/mono.ts.m3u8?token=80eb960726e4e1e38ce2c34b079cf496&server=1",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-e85d9d5071",
-      "title": "TAMPA BAY BUCCANEERS VS CAROLINA PANTHERS",
+      "id": "live-0241d57900",
+      "title": "INDIANAPOLIS COLTS VS MINNESOTA VIKINGS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/nfl5/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
+      "streamUrl": "https://hls.kozow.com/nfl3/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e9635b42df",
+      "title": "MIAMI DOLPHINS VS NEW YORK JETS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://xyzstream.duckdns.org/nfl4/mono.ts.m3u8?token=80eb960726e4e1e38ce2c34b079cf496&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -636,7 +618,25 @@
       "title": "CINCINNATI BENGALS VS BALTIMORE RAVENS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/skynfl/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
+      "streamUrl": "https://hls.kozow.com/nfl6/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7b167fed02",
+      "title": "NEW YORK GIANTS VS HOUSTON TEXANS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://xyzstream.duckdns.org/nfl7/mono.ts.m3u8?token=80eb960726e4e1e38ce2c34b079cf496&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eaaacf3a92",
+      "title": "GREEN BAY PACKERS VS DETROIT LIONS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://hls.kozow.com/skyplus/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -645,7 +645,7 @@
       "title": "LOS ANGELES RAMS VS LAS VEGAS RAIDERS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/nfl6/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/skynfl/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -654,16 +654,7 @@
       "title": "SUNDERLAND VS LEEDS UNITED",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdqQiHUMGaBci1MZ_md.m3u8?txSecret=684f199e54c6abda8171927dbc09a553&txTime=6ADE3BFE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1c1e5e14c2",
-      "title": "STADE RENNAIS VS STRASBOURG ALSACE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYTSQamMxEQX.m3u8?txSecret=c811a7b5ce6e6f419b718ba76acf414a&txTime=6ADE3BFF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdqQiHUMGaBci1MZ_md.m3u8?txSecret=609522fa32c631249483d41fbc5b515a&txTime=6ADE4AD0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -672,7 +663,124 @@
       "title": "MARSEILLE VS HAVRE ATHLETIC BILBAO",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYcqVkcLqWSs.m3u8?txSecret=278e9816112716dee184a8deb1d39eff&txTime=6ADE3BFF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYcqVkcLqWSs.m3u8?txSecret=7e80a6865d29413b99e4396e0f4e6aad&txTime=6ADE4AD1&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9f7d6d87c4",
+      "title": "REAL SOCIEDAD VS LEVANTE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaGxUY8EKUkQdTd.m3u8?txSecret=da63e159bbb8dce58894d171064fd0da&txTime=6ADE4AD1&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fbb253f918",
+      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweLB37NuHUPr2mQb.m3u8?txSecret=69d03708429690dd2dafe0f514eab2d0&txTime=6ADE4AD2&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-53bd392817",
+      "title": "RIO AVE VS FAMALICAO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweLB37Ns5zXNCrFh.m3u8?txSecret=b39f9b667f447f1c32e987db419236a6&txTime=6ADE4AD2&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d550296198",
+      "title": "KAA GENT VS ANDERLECHT",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqQkWRygpgUAuUT_md.m3u8?txSecret=36ff7c202aaed591cd32f60211855123&txTime=6ADE4AD3&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-179c9487be",
+      "title": "MOLDE VS FREDRIKSTAD",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ERjbxXXhDcRUB.m3u8?txSecret=d6c7dcb1e9c30656e503f7331961544c&txTime=6ADE4AD3&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e2cdc1e2d6",
+      "title": "AARHUS AGF VS VIBORG",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpnt65KLLiTsjmH.m3u8?txSecret=2ff79044c7b0606bf189d56409b1533a&txTime=6ADE4AD4&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-aca837e204",
+      "title": "CASTELLON VS SPORTING GIJON",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaARm4XKcj3LEUw.m3u8?txSecret=98e9410a93fbe21a55e7f8db82995877&txTime=6ADE4AD4&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-83958fded7",
+      "title": "UNION LA CALERA VS UNIV CATOLICA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYquV6monBahM815.m3u8?txSecret=5a0c55f0c994c7232729b34cbaa8b105&txTime=6ADE4AD4&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d9154dc685",
+      "title": "AL AHLY VS KITARA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a12.kora-plus.li/live/ahly.m3u8?token=sQJuvjTIDjNH_oC0AcKJxWKrSU8&exp=1792956386",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-68810bf6ec",
+      "title": "VOLOS NFC VS PANATHINAIKOS",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a16.kora-plus.li/live/mag2.m3u8?token=PhcuG88O3Vgfx1lcsjy7CjpvBXE&exp=1792956392",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-49505c68e8",
+      "title": "AUXERRE VS LE MANS [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6MwdpxgYdQTxfYEad4.m3u8?txSecret=6ca646088129546fa7955ab767736350&txTime=6AE37E60",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be6fce0c57",
+      "title": "AUXERRE VS LE MANS [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYdQTxfYEad4.m3u8?txSecret=c6729d93357b3e579b8825d00d0f5051&txTime=6AE37E60",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8e055a6def",
+      "title": "MARSEILLE VS HAVRE [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpxgYcqVkcLqqKc.m3u8?txSecret=1dba0f412cd0de48d08e975cb275b23a&txTime=6AE37E60",
       "type": "HLS",
       "category": "Sports"
     },
@@ -682,33 +790,6 @@
       "status": "live",
       "source": "camel1",
       "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpr5PZm5PBN5hJP.m3u8?txSecret=759f596ba0b87d7d15489fcc5ef13c67&txTime=6ADE3C00&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-25e4b496e4",
-      "title": "TOULOUSE VS TROYES",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYTZ12NoRysD.m3u8?txSecret=d0620e81b45e5bf0b4b92de03a6cbd90&txTime=6ADE3C00&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aea358b0de",
-      "title": "ANGERS SCO VS LORIENT",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYdHsX46kWHd.m3u8?txSecret=3ec90de86b345934b7fe74275f2a2cb1&txTime=6ADE3C01&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-19bfb8f8fd",
-      "title": "AJ AUXERRE VS LE MANS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYdQTxfYEFkK.m3u8?txSecret=fe4dcea0f4e222653ad0ca100fcd27e1&txTime=6ADE3C01&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports"
     },
@@ -740,101 +821,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-f10aa39133",
-      "title": "1899 HOFFENHEIM VS BAYER LEVERKUSEN",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a11.kora-plus.li/live/daznde1.m3u8?token=XF_qksXQyw6c-ksvXPAfkdSVRxs&exp=1792952588",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d9154dc685",
-      "title": "AL AHLY VS KITARA",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/ahly.m3u8?token=oXkBWKSbe4STaeriQW9-mczak30&exp=1792952592",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-68810bf6ec",
-      "title": "VOLOS NFC VS PANATHINAIKOS",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/mag2.m3u8?token=TGyny9fifClYXveu1heBVbxgrhE&exp=1792952597",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-87eb2690df",
-      "title": "SUNDERLAND VS LEEDS UNITED [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5572924_1.m3u8?txSecret=4d5c6c120310bf8ce03903b40ec76684&txTime=6AE3780C",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-475e5328b9",
-      "title": "SUNDERLAND VS LEEDS UNITED [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqQiHUMGaBciLEJ.m3u8?txSecret=7dff0057ce785a5cce0008aaf10ed440&txTime=6AE3780C",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ed4f458ec1",
-      "title": "ANGERS VS LORIENT [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573104_2.m3u8?txSecret=9dcad3f09247004cdf8caa87c175c69d&txTime=6AE3780C",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f6726059b4",
-      "title": "CELTA VS REAL BETIS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaGxUXu3SFsT8YF.m3u8?txSecret=a4b41ecb129ac8e5a68a60cbea798eb5&txTime=6ADE34F4&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-1863f76fe7",
       "title": "CLUB BRUGGE VS SINT TRUIDENSE",
       "status": "live",
       "source": "camel1",
       "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqQkWS45nRRpjnF_md.m3u8?txSecret=847b4f0d88f8822b7c94993c273a173c&txTime=6ADE34F6&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-716f22c144",
-      "title": "BASEL 1893 VS GRASSHOPPER [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5573133_1.m3u8?txSecret=658e13b1a2618c94c33c52467f6449ac&txTime=6AE3771C",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cf72b19bfe",
-      "title": "MAN UTD VS BOURNEMOUTH",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/main.m3u8?token=X_QTRQExvbiE6LoNkZwHTQDL8Rg&exp=1792950559",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d4ea1c5f1d",
-      "title": "SPARTA ROTTERDAM VS AJAX",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/espn3.m3u8?token=0fHFRNvNRu-OPK8l8egIMYlRTSo&exp=1792949927",
       "type": "HLS",
       "category": "Sports"
     },
@@ -911,15 +902,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-ba789f21f2",
-      "title": "JUVENTUS VS LAZIO",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001792353405-0-0-3f19e2ecc00a00bb9b0b68a83dfb59a9",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-6eecc9bc69",
       "title": "REAL MADRID VS SEVILLA",
       "status": "live",
@@ -988,15 +970,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001792259683-0-0-e1af037762c79d7960de1fd6514966a0",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3b93e83952",
-      "title": "ARSENAL VS LOSC LILLE",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791921662-0-0-59ba1f06d1e9c4fb197aaf1ce08d4472",
       "type": "FLV",
       "category": "Sports"
     },
@@ -1144,14 +1117,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001791317932-0-0-a0ad18628183e1693cea3b9f211eee49",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e52a8b2ec5",
-      "title": "ENGLAND VS CZECH REPUBLIC",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001791316728-0-0-5887dbec9f85bf8fda32baff44334e71",
       "category": "Sports"
     }
   ]
