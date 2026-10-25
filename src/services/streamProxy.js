@@ -7,8 +7,9 @@ export function getStreamUrl(channelOrUrl) {
   if (!url) return '';
 
   if (PROXY && PROXY.length > 0) {
-    if (url.startsWith(PROXY)) return url;
-    return `${PROXY}?url=${encodeURIComponent(url)}`;
+    const cleanProxy = PROXY.replace(/\/+$/, '');
+    if (url.startsWith(cleanProxy)) return url;
+    return `${cleanProxy}?url=${encodeURIComponent(url)}`;
   }
   
   // Auto-route streams that restrict CORS (HesGoal / kora-plus / camel / edgestream / xyzstreams / etc) through the built-in proxy
