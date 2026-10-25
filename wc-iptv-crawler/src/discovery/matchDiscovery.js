@@ -47,6 +47,7 @@ function extractMatchFromUrlAndText(url, rawText) {
 async function performDiscovery(sourceKey, selector) {
     const source = config.sources[sourceKey];
     if (!source || !source.enabled) return [];
+    console.log(`\n🔍 [${sourceKey.toUpperCase()}] Scanning matches from ${source.homepage}...`);
     const browser = await puppeteer.launch({ 
         executablePath: CHROME_PATH || undefined,
         headless: true, 
@@ -103,6 +104,7 @@ async function performDiscovery(sourceKey, selector) {
             } catch (e) { }
         }
     } finally { await browser.close(); }
+    console.log(`[${sourceKey.toUpperCase()}] Discovered ${matches.length} matches.`);
     return matches;
 }
 
@@ -198,6 +200,7 @@ export async function discoverColaTV() {
     } finally {
         await browser.close();
     }
+    console.log(`[COLATV] Discovered ${matches.length} matches.`);
     return matches;
 }
 

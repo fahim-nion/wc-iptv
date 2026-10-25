@@ -1,22 +1,22 @@
 export default {
     sources: {
         socolive: { 
-            enabled: true, // Expired / GoDaddy parked domain
-            priority: 10, 
+            enabled: true,
+            priority: 6, 
             homepage: "https://socolivezq.top/",
             mirrors: ["https://socolivear.tv/","https://socolive55v.top/","https://socolivet.cc/"]
         },
         colatv: { 
-            enabled: true, // Shut down / website stopped
-            priority: 11, 
+            enabled: true,
+            priority: 7, 
             homepage: "https://colatv55.live/",
-            mirrors: ["https://colatv.watch/"]
+            mirrors: []
         },
         xoilac: { 
-            enabled: true, // Heavy browser scraping; covered by faster primary sources
-            priority: 12, 
-            homepage: "https://xoilacz.ca/",
-            mirrors: ["https://xoilaczcr.tv/","https://xoilacvba.tv/","https://xoilaczzzj.cc/"]
+            enabled: true,
+            priority: 8, 
+            homepage: "https://xoilaczcr.tv/",
+            mirrors: ["https://xoilacvba.tv/","https://xoilaczzzj.cc/"]
         },
         futbolx: {
             enabled: true,
@@ -62,13 +62,13 @@ export default {
             homepage: "https://falconstreams.st/home1"
         },
         streamcorner: {
-            enabled: false,
+            enabled: true,
             priority: 13,
             homepage: "https://streamcorner.st/",
             mirrors: []
         },
         tap4sport: {
-            enabled: false,
+            enabled: true,
             priority: 11,
             homepage: "https://tap4sport.st/?sport=Football"
         },

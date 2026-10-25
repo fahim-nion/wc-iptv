@@ -109,6 +109,9 @@ async function runCycle() {
             ...bintv,
             ...live24,
             ...xyz,
+            ...cola,
+            ...soco,
+            ...xoi,
             ...cam.slice(0, 10),
             ...aura.slice(0, 8),
             ...falcon.slice(0, 8),
@@ -120,12 +123,12 @@ async function runCycle() {
             if (seenUrls.has(match.url)) continue;
             seenUrls.add(match.url);
 
-            // Fast Skip: If this match already has 2+ working servers from primary sources,
-            // skip launching slow headless browser sessions for secondary aggregators
-            const isHeavyBrowserSource = ['hesgoal', 'socolive', 'colatv', 'xoilac', 'streamcorner'].includes(match.source.toLowerCase());
+            // Fast Skip: If this fixture already has 3+ working servers,
+            // skip launching slow headless sessions for duplicate matches
+            const isHeavyBrowserSource = ['hesgoal', 'streamcorner'].includes(match.source.toLowerCase());
             const existingServerCount = newResults.filter(r => areMatchesEquivalent(r.title, match.title)).length;
 
-            if (isHeavyBrowserSource && existingServerCount >= 2) {
+            if (isHeavyBrowserSource && existingServerCount >= 3) {
                 continue;
             }
 

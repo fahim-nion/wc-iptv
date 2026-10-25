@@ -22,6 +22,15 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
         } else if (urlObj.hostname.includes('duckdns.org') || urlObj.hostname.includes('kozow.com') || urlObj.hostname.includes('iximiuz.com') || urlObj.hostname.includes('xyzstream') || urlObj.hostname.includes('workers.dev')) {
             reqReferer = 'https://xyzstreams.st/';
             reqOrigin = 'https://xyzstreams.st';
+        } else if (urlObj.hostname.includes('jorvakstreamcache') || urlObj.hostname.includes('domainkqt') || urlObj.hostname.includes('xoilac')) {
+            reqReferer = 'https://xlz.domainkqt.cc/';
+            reqOrigin = 'https://xlz.domainkqt.cc';
+        } else if (urlObj.hostname.includes('scstream') || urlObj.hostname.includes('niur.live') || urlObj.hostname.includes('socolive') || urlObj.hostname.includes('vnres')) {
+            reqReferer = 'https://socolivezq.top/';
+            reqOrigin = 'https://socolivezq.top';
+        } else if (urlObj.hostname.includes('yefpwmc') || urlObj.hostname.includes('colatv')) {
+            reqReferer = 'https://colatv55.live/';
+            reqOrigin = 'https://colatv55.live';
         } else if (referer) {
             reqReferer = referer;
             try { reqOrigin = new URL(referer).origin; } catch(e) {}
@@ -53,12 +62,12 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
             return { isValid: false, status: response.status, error: "Redirected (expired stream)" };
         }
 
+        const contentType = (response.headers.get('content-type') || '').toLowerCase();
+
         // Support IFRAME stream players (StreamCorner / embeds)
-        if (url.includes('pandecocogaming') || url.includes('/embed/') || url.includes('/stream/')) {
+        if (url.includes('pandecocogaming') || url.includes('/embed/') || (url.includes('/stream/') && !url.includes('.flv') && !url.includes('.m3u8'))) {
             return { isValid: response.status === 200, status: response.status, contentType };
         }
-
-        const contentType = (response.headers.get('content-type') || '').toLowerCase();
         
         // Reject HTML error/landing pages
         if (contentType.includes('text/html')) {

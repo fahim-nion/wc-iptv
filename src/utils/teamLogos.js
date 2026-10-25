@@ -243,3 +243,4 @@ export function getTeamLogo(teamName) {
 
   return null;
 }
+

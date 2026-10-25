@@ -332,6 +332,21 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                             type: url.includes('.m3u8') ? 'HLS' : 'FLV',
                             priority: isHighPriority ? 1 : 2 
                         });
+                    } else if (url.includes('livingRoom') || url.includes('biz.vnres.co')) {
+                        try {
+                            const json = await res.json();
+                            if (Array.isArray(json)) {
+                                for (const item of json) {
+                                    if (item.stream && (item.stream.includes('.flv') || item.stream.includes('.m3u8'))) {
+                                        candidates.push({
+                                            url: item.stream,
+                                            type: item.stream.includes('.m3u8') ? 'HLS' : 'FLV',
+                                            priority: 1
+                                        });
+                                    }
+                                }
+                            }
+                        } catch (e) {}
                     }
                 } catch (e) {}
             });
