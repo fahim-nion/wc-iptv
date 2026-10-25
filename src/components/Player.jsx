@@ -156,10 +156,36 @@ export default function Player({
     return () => document.removeEventListener('fullscreenchange', handleFsChange);
   }, []);
 
+  // UI Auto-hide controls timer (2.5 seconds of playing / inactivity)
+  const scheduleControlsHide = useCallback((delay = 2500) => {
+    if (controlsTimer.current) clearTimeout(controlsTimer.current);
+    controlsTimer.current = setTimeout(() => {
+      // Only hide controls if the video is actively playing
+      if (videoRef.current && !videoRef.current.paused) {
+        setShowControls(false);
+        setShowVolumeBar(false);
+      }
+    }, delay);
+  }, []);
+
+  // User activity trigger (mouse move, touch, keypress)
+  const handleUserActivity = useCallback(() => {
+    setShowControls(true);
+    scheduleControlsHide(2500);
+  }, [scheduleControlsHide]);
+
+  // Clean up controls timer on unmount
+  useEffect(() => {
+    return () => {
+      if (controlsTimer.current) clearTimeout(controlsTimer.current);
+    };
+  }, []);
+
   // Stream Player Engine Setup
   useEffect(() => {
     if (!channel || !videoRef.current) return;
     setIsLoading(true);
+    setShowControls(true);
     setLoadingProgress(5);
     setHasError(false);
     setErrorMessage('');
@@ -190,6 +216,7 @@ export default function Player({
       setLoadingProgress(100);
       setIsLoading(false);
       setIsPlaying(true);
+      scheduleControlsHide(2500);
       return;
     }
 
@@ -209,6 +236,7 @@ export default function Player({
       setTimeout(() => {
         setIsLoading(false);
         setIsPlaying(true);
+        scheduleControlsHide(2500);
       }, 350);
     };
 
@@ -344,20 +372,32 @@ export default function Player({
     const handlePlaying = () => {
       clearTimeout(stallTimer.current);
       finishLoading();
+      scheduleControlsHide(2500);
     };
 
-    const handleCanPlay = () => finishLoading();
+    const handleCanPlay = () => {
+      finishLoading();
+      scheduleControlsHide(2500);
+    };
 
     v.addEventListener('waiting', handleWaiting);
     v.addEventListener('playing', handlePlaying);
     v.addEventListener('canplay', handleCanPlay);
-    v.addEventListener('play', () => setIsPlaying(true));
-    v.addEventListener('pause', () => setIsPlaying(false));
+    v.addEventListener('play', () => {
+      setIsPlaying(true);
+      scheduleControlsHide(2500);
+    });
+    v.addEventListener('pause', () => {
+      setIsPlaying(false);
+      setShowControls(true);
+      if (controlsTimer.current) clearTimeout(controlsTimer.current);
+    });
 
     return () => {
       clearTimeout(watchdog);
       clearTimeout(stallTimer.current);
       clearInterval(progressInterval);
+      if (controlsTimer.current) clearTimeout(controlsTimer.current);
       v.removeEventListener('waiting', handleWaiting);
       v.removeEventListener('playing', handlePlaying);
       v.removeEventListener('canplay', handleCanPlay);
@@ -365,22 +405,15 @@ export default function Player({
       v.removeEventListener('pause', () => setIsPlaying(false));
       if (engineRef.current) engineRef.current.destroy();
     };
-  }, [channel, reloadKey]);
-
-  // UI Inactivity Auto-hide
-  const handleUserActivity = () => {
-    setShowControls(true);
-    if (controlsTimer.current) clearTimeout(controlsTimer.current);
-    controlsTimer.current = setTimeout(() => {
-      setShowControls(false);
-      setShowVolumeBar(false);
-    }, 3000);
-  };
+  }, [channel, reloadKey, scheduleControlsHide]);
 
   // Keyboard Shortcuts
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (['input', 'textarea'].includes(e.target.tagName.toLowerCase())) return;
+      
+      // Keep controls visible on keyboard interaction then auto-hide
+      handleUserActivity();
       
       if (e.key === ' ' || e.key === 'k' || e.key === 'K') {
         e.preventDefault();
@@ -483,8 +516,18 @@ export default function Player({
       {/* Main Video Viewport */}
       <div 
         ref={containerRef} 
-        className="relative w-full aspect-video bg-black rounded-3xl overflow-hidden shadow-[0_25px_60px_rgba(0,0,0,0.9)] border border-white/10 group select-none"
+        className={`relative w-full aspect-video bg-black rounded-3xl overflow-hidden shadow-[0_25px_60px_rgba(0,0,0,0.9)] border border-white/10 group select-none ${
+          !showControls && isPlaying ? 'cursor-none' : 'cursor-default'
+        }`}
         onMouseMove={handleUserActivity} 
+        onMouseEnter={handleUserActivity}
+        onMouseLeave={() => {
+          if (videoRef.current && !videoRef.current.paused) {
+            scheduleControlsHide(800);
+          }
+        }}
+        onTouchStart={handleUserActivity}
+        onTouchMove={handleUserActivity}
         onClick={handleUserActivity}
       >
         {/* Ambient Backlight Glow */}
@@ -511,10 +554,13 @@ export default function Player({
             ref={videoRef} 
             className={`w-full h-full ${fitMode === 'cover' ? 'object-cover' : 'object-contain'} relative z-0 transition-all duration-300`} 
             playsInline 
-            onClick={() => {
-              if (!videoRef.current) return;
-              if (videoRef.current.paused) videoRef.current.play();
-              else videoRef.current.pause();
+            onClick={(e) => {
+              e.stopPropagation();
+              handleUserActivity();
+            }}
+            onDoubleClick={(e) => {
+              e.stopPropagation();
+              toggleFullscreen(e);
             }} 
           />
         )}
@@ -620,9 +666,16 @@ export default function Player({
           className={`absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60 transition-opacity duration-300 z-10 flex flex-col justify-between p-3 sm:p-5 md:p-6 ${
             showControls ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
           }`}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setShowControls(false);
+              setShowVolumeBar(false);
+              if (controlsTimer.current) clearTimeout(controlsTimer.current);
+            }
+          }}
         >
           {/* Top Bar Indicators */}
-          <div className="flex items-center justify-between w-full gap-2">
+          <div className="flex items-center justify-between w-full gap-2" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
               {/* Live Badge */}
               <div className="bg-red-600/90 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-full text-[10px] font-black uppercase text-white shadow-lg flex items-center gap-1.5 border border-red-400/40">
@@ -697,8 +750,23 @@ export default function Player({
             </div>
           </div>
 
+          {/* Interactive Center Tap Area (Tap anywhere in the empty middle area to immediately dismiss controls) */}
+          <div 
+            className="flex-1 w-full cursor-pointer flex items-center justify-center my-2"
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowControls(false);
+              setShowVolumeBar(false);
+              if (controlsTimer.current) clearTimeout(controlsTimer.current);
+            }}
+            onDoubleClick={(e) => {
+              e.stopPropagation();
+              toggleFullscreen(e);
+            }}
+          />
+
           {/* Bottom HUD Bar */}
-          <div className="w-full">
+          <div className="w-full" onClick={(e) => e.stopPropagation()}>
             <div className="bg-[#0b1220]/80 backdrop-blur-2xl p-2.5 sm:p-3 md:p-4 rounded-2xl border border-white/15 shadow-[0_15px_40px_rgba(0,0,0,0.8)] flex items-center justify-between gap-2 sm:gap-3">
               {/* Left Controls: Play, Volume, Reload, Buffer Toggle */}
               <div className="flex items-center gap-1.5 sm:gap-2.5 min-w-0">
@@ -720,7 +788,7 @@ export default function Player({
                   className="flex items-center gap-1.5 sm:gap-2 relative bg-white/5 hover:bg-white/10 p-1.5 sm:p-2 rounded-xl border border-white/5 transition-colors"
                   onMouseEnter={() => setShowVolumeBar(true)}
                 >
-                  <button onClick={(e) => { e.stopPropagation(); toggleMute(); }} className="text-white hover:text-amber-400 transition-colors">
+                  <button onClick={(e) => { e.stopPropagation(); toggleMute(); handleUserActivity(); }} className="text-white hover:text-amber-400 transition-colors">
                     {isMuted || volume === 0 ? <VolumeX size={17} /> : <Volume2 size={17} />}
                   </button>
                   {showVolumeBar && (
@@ -730,7 +798,10 @@ export default function Player({
                       max="1" 
                       step="0.05" 
                       value={isMuted ? 0 : volume} 
-                      onChange={(e) => changeVolume(parseFloat(e.target.value))} 
+                      onChange={(e) => {
+                        changeVolume(parseFloat(e.target.value));
+                        handleUserActivity();
+                      }} 
                       className="w-14 sm:w-16 md:w-20 accent-amber-500 h-1 bg-white/20 rounded-lg cursor-pointer transition-all" 
                     />
                   )}
