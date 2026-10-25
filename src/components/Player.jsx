@@ -470,23 +470,31 @@ export default function Player({
 
   // Helper to parse clean server tags
   const parseServerLabel = (s, idx) => {
-    const name = s.name || '';
+    const name = s.name || s.title || '';
     const serverMatch = name.match(/\[SERVER\s*(\d+)(?:\s*-\s*([^\]]+))?\]/i);
     
-    const serverNum = serverMatch ? serverMatch[1] : (idx + 1);
-    const extra = serverMatch ? serverMatch[2]?.trim() : '';
+    // Clean sequential server numbering so sibling multi-sources are numbered in order
+    const serverNum = idx + 1;
+    let extra = serverMatch ? serverMatch[2]?.trim() : '';
+    if (!extra) {
+      const tagMatch = name.match(/\[([^\]]+)\]$/);
+      if (tagMatch && !tagMatch[1].toUpperCase().includes('SERVER')) {
+        extra = tagMatch[1].trim();
+      }
+    }
 
     let quality = null;
     let commentator = null;
     if (extra) {
-      if (/\b(HD|SD|FHD|1080P|720P|4K)\b/i.test(extra)) {
-        quality = extra.match(/\b(HD|SD|FHD|1080P|720P|4K)\b/i)[0].toUpperCase();
+      if (/\b(HD|SD|FHD|1080P|720P|4K|UHD)\b/i.test(extra)) {
+        quality = extra.match(/\b(HD|SD|FHD|1080P|720P|4K|UHD)\b/i)[0].toUpperCase();
       } else {
         commentator = extra;
       }
     }
 
-    let srcName = (s.source || '').toUpperCase()
+    let src = (s.source || '').toUpperCase();
+    let srcName = src
       .replace('LIVELIVE24', 'Live24')
       .replace('FUTBOLX', 'FutbolX')
       .replace('XYZSTREAMS', 'XYZ')
@@ -495,7 +503,10 @@ export default function Player({
       .replace('AURASPORTS', 'Aura')
       .replace('FALCONSTREAMS', 'Falcon')
       .replace('90MINUTES', '90Min')
-      .replace('BINTV', 'BinTV');
+      .replace('BINTV', 'BinTV')
+      .replace('COLATV', 'ColaTV')
+      .replace('SOCOLIVE', 'Socolive')
+      .replace('XOILAC', 'Xoilac');
 
     return { serverNum, quality, commentator, srcName };
   };

@@ -62,13 +62,13 @@ export default {
             homepage: "https://falconstreams.st/home1"
         },
         streamcorner: {
-            enabled: true,
+            enabled: false,
             priority: 13,
             homepage: "https://streamcorner.st/",
             mirrors: []
         },
         tap4sport: {
-            enabled: true,
+            enabled: false,
             priority: 11,
             homepage: "https://tap4sport.st/?sport=Football"
         },

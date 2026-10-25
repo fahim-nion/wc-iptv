@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { getTeamLogo } from '../utils/teamLogos';
+import { groupChannelsIntoFixtures } from '../utils/matchMatcher';
 import { 
   Trophy, 
   Flame, 
@@ -44,59 +45,14 @@ export default function AvailableMatches({
     }
   }, [updatedAt]);
 
-  // Group multiple stream links into consolidated unique matches
+  // Group multiple stream links into consolidated unique matches across all crawler sources
   const groupedMatches = useMemo(() => {
-    const map = new Map();
-
-    for (const ch of channels) {
-      if (ch.isPermanent) continue; // Exclude permanent 24/7 channels from match grid
-      const rawTitle = ch.name || ch.title || '';
-      if (!rawTitle) continue;
-
-      // Extract base match title by removing server and quality brackets
-      const baseTitle = rawTitle
-        .replace(/\[SERVER\s*[^\]]*\]/gi, '')
-        .replace(/\[(HD|SD|FHD|720P|1080P)\]/gi, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-      // Normalize key for grouping
-      const key = baseTitle.toUpperCase();
-
-      if (!map.has(key)) {
-        // Parse teams
-        let team1 = baseTitle;
-        let team2 = '';
-        if (baseTitle.includes(' VS ') || baseTitle.includes(' vs ')) {
-          const parts = baseTitle.split(/\s+(?:VS|vs)\s+/i);
-          team1 = parts[0]?.trim() || '';
-          team2 = parts[1]?.trim() || '';
-        } else if (baseTitle.includes(' @ ')) {
-          const parts = baseTitle.split(' @ ');
-          team1 = parts[1]?.trim() || '';
-          team2 = parts[0]?.trim() || '';
-        }
-
-        map.set(key, {
-          id: ch.id || key,
-          baseTitle,
-          team1,
-          team2,
-          team1Logo: getTeamLogo(team1),
-          team2Logo: getTeamLogo(team2),
-          group: ch.group || 'Live Football',
-          servers: [ch],
-          primaryChannel: ch,
-          sources: new Set([ch.source || 'IPTV'])
-        });
-      } else {
-        const item = map.get(key);
-        item.servers.push(ch);
-        if (ch.source) item.sources.add(ch.source);
-      }
-    }
-
-    return Array.from(map.values());
+    const fixtures = groupChannelsIntoFixtures(channels);
+    return fixtures.map(f => ({
+      ...f,
+      team1Logo: getTeamLogo(f.team1),
+      team2Logo: getTeamLogo(f.team2)
+    }));
   }, [channels]);
 
   // Filter matches based on search and source
@@ -266,6 +222,47 @@ export default function AvailableMatches({
                       <span className="text-xs sm:text-sm font-black text-white uppercase tracking-tight truncate group-hover:text-amber-400 transition-colors">
                         {match.team2}
                       </span>
+                    </div>
+                  )}
+
+                  {/* Multi-server direct buttons if more than 1 server */}
+                  {match.servers.length > 1 && (
+                    <div className="flex items-center gap-1.5 flex-wrap pt-1.5">
+                      {match.servers.map((srv, sIdx) => {
+                        const isSrvActive = currentChannel?.url === srv.url;
+                        const srvSource = (srv.source || 'Server')
+                          .replace(/livelive24/i, 'Live24')
+                          .replace(/futbolx/i, 'FutbolX')
+                          .replace(/colatv/i, 'ColaTV')
+                          .replace(/socolive/i, 'Socolive')
+                          .replace(/xoilac/i, 'Xoilac')
+                          .replace(/bintv/i, 'BinTV')
+                          .replace(/90minutes/i, '90Min');
+
+                        return (
+                          <button
+                            key={srv.url || sIdx}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              if (onSelectChannel) {
+                                onSelectChannel(srv);
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                              }
+                            }}
+                            className={`px-2 py-0.5 rounded-lg text-[9px] font-bold transition-all border flex items-center gap-1 active:scale-95 ${
+                              isSrvActive
+                                ? 'bg-amber-500 text-black border-amber-400 font-black shadow-sm'
+                                : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/10 hover:border-white/20'
+                            }`}
+                          >
+                            <span className={`w-1.5 h-1.5 rounded-full ${isSrvActive ? 'bg-black animate-pulse' : 'bg-slate-400'}`} />
+                            <span>Server {sIdx + 1}</span>
+                            <span className={`text-[8px] uppercase tracking-wider ${isSrvActive ? 'text-black/80 font-black' : 'text-slate-500'}`}>
+                              ({srvSource})
+                            </span>
+                          </button>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
