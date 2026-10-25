@@ -8,7 +8,60 @@ import fs from 'fs';
 
 const CHROME_PATH = getChromePath();
 
+let socoLivingRoomCache = null;
+let lastSocoFetch = 0;
+
+export async function resolveSocoliveStream(targetUrl) {
+    const now = Date.now();
+    if (!socoLivingRoomCache || (now - lastSocoFetch) > 45000) {
+        try {
+            const res = await fetch("https://biz.vnres.co/api/live/livingRoom?_socov=b30c264f4a69", {
+                headers: {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    "Referer": "https://socolivezq.top/"
+                },
+                signal: AbortSignal.timeout(4000)
+            });
+            if (res.ok) {
+                socoLivingRoomCache = await res.json();
+                lastSocoFetch = now;
+            }
+        } catch (e) {}
+    }
+
+    const rooms = socoLivingRoomCache || [];
+    const blvMatch = targetUrl.match(/[?&]blv=([0-9]+)/);
+    const blv = blvMatch ? blvMatch[1] : null;
+
+    if (blv) {
+        const found = rooms.find(r => String(r.id) === String(blv) || (r.stream && r.stream.includes(blv)));
+        if (found && found.stream) {
+            return { url: found.stream, type: found.stream.includes('.m3u8') ? 'HLS' : 'FLV' };
+        }
+    }
+
+    if (rooms.length > 0) {
+        // Find stream by match slug hash or index
+        const hash = Math.abs(targetUrl.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0));
+        const picked = rooms[hash % rooms.length];
+        if (picked && picked.stream) {
+            return { url: picked.stream, type: picked.stream.includes('.m3u8') ? 'HLS' : 'FLV' };
+        }
+    }
+    return null;
+}
+
 export async function captureNetworkStream(targetUrl, label = "Source") {
+    // 0e. Fast-path resolver for Socolive
+    if (label.toUpperCase().includes('SOCOLIVE') || targetUrl.includes('socolive')) {
+        const socoFast = await resolveSocoliveStream(targetUrl);
+        if (socoFast && socoFast.url) {
+            const val = await validateStream(socoFast.url);
+            if (val.isValid) return socoFast;
+        }
+        return null;
+    }
+
     // 0. Fast-path resolver for Camel1 matches
     if (label.toUpperCase().includes('CAMEL') || targetUrl.includes('camel1.tv')) {
         const matchId = targetUrl.match(/\/([a-zA-Z0-9]{10,})\/?$/)?.[1];
@@ -291,7 +344,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         urlsToAttempt.unshift(targetUrl);
     }
 
-    for (const currentUrl of urlsToAttempt.slice(0, 2)) {
+    for (const currentUrl of urlsToAttempt.slice(0, 1)) {
         const browser = await puppeteer.launch({ 
             executablePath: CHROME_PATH || undefined,
             headless: true,
@@ -351,8 +404,19 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                 } catch (e) {}
             });
 
+            // Block heavy images, fonts, analytics to prevent navigation timeouts
+            await page.setRequestInterception(true).catch(() => {});
+            page.on('request', req => {
+                const rt = req.resourceType();
+                const u = req.url();
+                if (['image', 'font', 'media'].includes(rt) || u.includes('histats') || u.includes('hounder') || u.includes('google-analytics') || u.includes('ad-frame')) {
+                    return req.abort().catch(() => {});
+                }
+                req.continue().catch(() => {});
+            });
+
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36");
-            await page.goto(currentUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
+            await page.goto(currentUrl, { waitUntil: 'domcontentloaded', timeout: 5000 });
             
             // 2. WAIT FOR PLAYER
             await page.waitForSelector('video, iframe, #player, .video-player, .player-container', { timeout: 3500 }).catch(() => {});
