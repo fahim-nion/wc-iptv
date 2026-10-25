@@ -86,8 +86,11 @@ function streamProxyPlugin() {
         const rewriteUri = (uri) => {
           try {
             const abs = new URL(uri, targetUrl);
-            if (!abs.search && new URL(targetUrl).search) {
-              abs.search = new URL(targetUrl).search;
+            const targetParams = new URL(targetUrl).searchParams;
+            for (const [key, val] of targetParams.entries()) {
+              if (!abs.searchParams.has(key)) {
+                abs.searchParams.set(key, val);
+              }
             }
             return `${baseUrl}?url=${encodeURIComponent(abs.href)}`;
           } catch (e) {

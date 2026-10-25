@@ -89,9 +89,12 @@ export default async (req, context) => {
       const rewriteUri = (uri) => {
         try {
           const absoluteUrl = new URL(uri, targetUrl);
-          // If child/variant URL doesn't have search parameters, inherit authentication token from targetUrl
-          if (!absoluteUrl.search && new URL(targetUrl).search) {
-            absoluteUrl.search = new URL(targetUrl).search;
+          // Inherit missing authentication tokens and parameters from targetUrl
+          const targetParams = new URL(targetUrl).searchParams;
+          for (const [key, val] of targetParams.entries()) {
+            if (!absoluteUrl.searchParams.has(key)) {
+              absoluteUrl.searchParams.set(key, val);
+            }
           }
           return `${baseUrl}?url=${encodeURIComponent(absoluteUrl.href)}`;
         } catch (e) {
