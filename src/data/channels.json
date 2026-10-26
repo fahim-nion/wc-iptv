@@ -1,336 +1,111 @@
 {
-  "updatedAt": "2026-10-25T21:10:24.224Z",
+  "updatedAt": "2026-10-26T17:38:46.202Z",
   "channels": [
     {
-      "id": "live-b330a0a345",
-      "title": "BARCELONA VS REAL MADRID [SERVER 1 - HD]",
-      "status": "live",
-      "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/en/index.m3u8?token=5c24fcf8ed1ffae313b4f602106cc2ef7d0ddb83-ae52190f5e672ebe89d176f69217e559-1792962760-1792961560&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6ebe40a9ce",
-      "title": "BARCELONA VS REAL MADRID [SERVER 2 - HD]",
-      "status": "live",
-      "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/esp/index.m3u8?token=9aca1a9168e863ae321f2f67dc1e2c55ce3c0c92-1403bfe6a6acd0053ba68c8fae0d104a-1792962761-1792961561&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-95abf76abc",
-      "title": "BARCELONA VS REAL MADRID [SERVER 3 - HD]",
-      "status": "live",
-      "source": "futbolx",
-      "streamUrl": "https://bt.futbolx.ryzn.pro/ar/index.m3u8?token=aad59ab732f3022e191ae5fe5a44513bc0a13b06-2a630ea17484097288e0e292c2a162c3-1792962761-1792961561&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-298b3f03b2",
-      "title": "UDINESE VS MILAN [SERVER 1 - HD]",
-      "status": "live",
-      "source": "futbolx",
-      "streamUrl": "https://g.futbolx.ryzn.pro/acm/index.m3u8?token=25ad7ddac956ee0209d6a951cf6ff2e241b7518f-1e988900015ab7695f9f4586f37958d5-1792962761-1792961561&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5ac8c0e6b6",
-      "title": "AZ ALKMAAR VS. TWENTE [SERVER 1 - HD]",
-      "status": "live",
-      "source": "90minutes",
-      "streamUrl": "https://messi.damitv.st/live-hls/channel/eredivisie/2026-10-25/az-twe/playlist.m3u8?tk=MoTpmiLVLG15ZszHoh4hkw&e=1793005067",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-43859de1a2",
-      "title": "UDINESE VS. MILAN [SERVER 1 - HD]",
-      "status": "live",
-      "source": "90minutes",
-      "streamUrl": "https://messi.damitv.st/live-hls/channel/seriea/2026-10-25/udi-mil/playlist.m3u8?tk=MoTpmiLVLG15ZszHoh4hkw&e=1793005067",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fa3e3dd178",
-      "title": "REAL MADRID VS BARCELONA [ABC]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/642426647b5a9ea145887ef57a2082d5e5df52ae306b6d5f551416ff20113bfe/1792970872/abc-usa.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ea401e68e0",
-      "title": "REAL MADRID VS BARCELONA [SPANISH]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/8b461598f9ba9cff401f9555e63aca199c487074695c0706a1ff3e97666fb39b/1792970873/laliga-401882832-2.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-59acb5fe7c",
-      "title": "REAL MADRID VS BARCELONA [PREMIER SPORTS 1 IE]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/b381c39182011a99017418889aa22648bc10d3e7b83242e5f880fe1597ba0225/1792970874/premiersports1-ie.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5d9cb39275",
-      "title": "REAL MADRID @ BARCELONA [ENGLISH]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/ad96a135eb0eb25b822d143ae3f45e949fc6abb92fdfa88d65cdc00683ddf002/1792970875/laliga-401882832.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1e2a9683d8",
-      "title": "REAL MADRID @ BARCELONA [SPANISH]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/e779aca89e8f26cad98d8b4be85ab2bcc153407a86e02deb57dcb6615f1a2f30/1792970876/laliga-401882832-2.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f70bbafac2",
-      "title": "BARCELONA VS REAL MADRID [SERVER 3 - SD]",
+      "id": "live-730fdf7976",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576503_2.m3u8?txSecret=98f14e49f3467631df12592d021f337a&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703019_2.m3u8?txSecret=a0221b3ef4980fba9371b92cc8844f68&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-bdf108a4af",
-      "title": "BARCELONA VS REAL MADRID [SERVER 4 - SD]",
+      "id": "live-f04225eb56",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5576503_1.m3u8?txSecret=0dff09749e6855c17c963f540acc679c&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCU7tTXBaGf8r.m3u8?txSecret=c14950553df917b80bf61bfd11fcd642&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-8432cb2e67",
-      "title": "BARCELONA VS REAL MADRID [SERVER 5 - HD]",
+      "id": "live-c3bd714452",
+      "title": "AL AIN VS TRACTOR [SERVER 1 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweaGxUXySPzq7Hin.m3u8?txSecret=5d626b0ba46ff8fcba032ad58b501544&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCUSupk6Qzi8v.m3u8?txSecret=719fb4f382f253c119cf38e1ec45fe29&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-1382a1bf00",
-      "title": "UDINESE VS MILAN [SERVER 1 - SD]",
+      "id": "live-48c9f86b3f",
+      "title": "AL AIN VS TRACTOR [SERVER 2 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mwe5jaVZ7h35ggBBL.m3u8?txSecret=b9857ac06aad25a7a0886350bb93af94&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703011_1.m3u8?txSecret=eca62f78a92467b765a336817a07c704&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-55e6d7d28c",
-      "title": "UDINESE VS MILAN [SERVER 2 - SD]",
+      "id": "live-e323831110",
+      "title": "AL AIN VS TRACTOR [SERVER 3 - SD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579987_3.m3u8?txSecret=e1b1aac8e73c478b91c81ec14a57e6d8&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703011_2.m3u8?txSecret=41c4123ecedb6b33974233c832bd3032&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-55cce75c65",
-      "title": "UDINESE VS MILAN [SERVER 3 - SD]",
+      "id": "live-4968206ee9",
+      "title": "AL AIN VS TRACTOR [SERVER 4 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579987_1.m3u8?txSecret=fac6b92bd208d05db33db20b58cc9553&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCUSupk6Qzi8v.m3u8?txSecret=b77fedb52f11ec829788a7505a795830&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-d08e90e201",
-      "title": "UDINESE VS MILAN [SERVER 4 - HD]",
+      "id": "live-ab27383720",
+      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaVZ7h35ggBBL.m3u8?txSecret=3a2184e969b719d4ed6ff4d3e4acdebf&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwb6hHRJtZmV9JShC.m3u8?txSecret=8dd71896dd00c26aea33f0c4910796d4&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-186dbb79ae",
-      "title": "UDINESE VS MILAN [SERVER 5 - HD]",
+      "id": "live-039ee8590b",
+      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579987_2.m3u8?txSecret=550534eb2be28741a15fae01e27bcc17&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5580002_1.m3u8?txSecret=b0c8181181b901ddc0aec727f08840c7&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-2507e77042",
-      "title": "SCP VS VISEU [SERVER 2 - HD]",
+      "id": "live-977b4ca745",
+      "title": "CAYKUR RIZESPOR VS TRABZONSPOR [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579862_1.m3u8?txSecret=9d6e4a3de5caebe662fa16f2eb1deefe&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwb6hHRJWaxnM3HAE.m3u8?txSecret=e4811ba51ee17cb96a2c09a1eab90722&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-7bbca66634",
-      "title": "DEPORTIVO CALI(W) VS CLUB OLIMPIA(W) [SERVER 1 - SD]",
+      "id": "live-5f4c2c9ed4",
+      "title": "CAYKUR RIZESPOR VS TRABZONSPOR [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5944196_1.m3u8?txSecret=ec37326a6a061cd0cbe506da153b7d71&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5579996_1.m3u8?txSecret=0f238a3880a9ec77e3cce05483900ca2&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-2222edd48d",
-      "title": "CLUB ATLÉTICO MITRE VS GODOY CRUZ ANTONIO TOMBA [SERVER 1 - HD]",
+      "id": "live-6d82cd7855",
+      "title": "NUEVA CHICAGO VS SAN MARTIN SAN JUAN [SERVER 1 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjirghRY9mu13t.m3u8?txSecret=f0c6f55e5f9ff4e02e7b222c69493992&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBoSaaENprS.m3u8?txSecret=2cbcc0e2645230fe6940322f50d7c706&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
     {
-      "id": "live-42ecdea4c9",
-      "title": "CLUB ATLÉTICO MITRE VS GODOY CRUZ ANTONIO TOMBA [SERVER 2 - HD]",
+      "id": "live-dff0146332",
+      "title": "NUEVA CHICAGO VS SAN MARTIN SAN JUAN [SERVER 2 - HD]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545413_1.m3u8?txSecret=e43f12053cb44b59cab49a896160eec8&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cad105e619",
-      "title": "CENTRAL NORTE SALTA VS CLUB ATLETICO ACASSUSO [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjirgp1ymDNkWa.m3u8?txSecret=4e8b1de7ea7bf2627ae83d74bdc4a619&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e08809af35",
-      "title": "CENTRAL NORTE SALTA VS CLUB ATLETICO ACASSUSO [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545412_1.m3u8?txSecret=1cf701c178036c9d06f493497cfc8094&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f35f8e6b19",
-      "title": "DEPORTIVO MAIPU VS GÜEMES [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjirgKSjSydqWv.m3u8?txSecret=ce221d5ba864dc95151f0a38a7883cd6&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-4e84e7bba8",
-      "title": "DEPORTIVO MAIPU VS GÜEMES [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545407_1.m3u8?txSecret=62c6f826da3c17321b399a0a0fe02f01&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-80b5cfe942",
-      "title": "FERROCARRIL MIDLAND VS GIMNASIA YTIRO [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBqe4SiCk1L.m3u8?txSecret=0f2cf0200f53a10d1bb9a47628074940&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-71b5c49dcd",
-      "title": "FERROCARRIL MIDLAND VS GIMNASIA YTIRO [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545404_1.m3u8?txSecret=2c95b23f84d8ee0d06c4fbfc15f96ea3&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-77b025415a",
-      "title": "GIMNASIA JUJUY VS ATLETICO ATLANTA [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBj3cqGizYe.m3u8?txSecret=da1a9df4028ac49f30f6020d39ecad18&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-72fec291ff",
-      "title": "GIMNASIA JUJUY VS ATLETICO ATLANTA [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545405_1.m3u8?txSecret=fca61fb402cb3dc2d29f55d850784b81&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d6ca3cd481",
-      "title": "PATRONATO PARANA VS AGROPECUARIO DE CARLOS CASARES [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBv32BfraK8.m3u8?txSecret=f7591f6d3bc7c2a3862877094cb23f5d&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-34032381c8",
-      "title": "PATRONATO PARANA VS AGROPECUARIO DE CARLOS CASARES [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545402_1.m3u8?txSecret=4613f59a32863a8a0d03486be8478242&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c1e29ea44a",
-      "title": "RACING DE CORDOBA VS ALL BOYS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBzRyvdWQcv.m3u8?txSecret=01da860c94ddb26188c364883366e0cd&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7e073fef22",
-      "title": "RACING DE CORDOBA VS ALL BOYS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545400_1.m3u8?txSecret=424d79e9eec550cd50a1ad07dc425457&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1546082071",
-      "title": "TEMPERLEY VS CHACARITA JUNIORS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjisBxEW49gVU2.m3u8?txSecret=7acd6bb7b794cd14bab3e5759bb09f97&txTime=6AE3B2E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2b301ae672",
-      "title": "TEMPERLEY VS CHACARITA JUNIORS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545398_1.m3u8?txSecret=28d14e16b8ea43da00bd2b544c3e0c48&txTime=6AE3B2E0",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5545403_1.m3u8?txSecret=150cc40a016367ba851da4f6c063ebb8&txTime=6AE4D419",
       "type": "HLS",
       "category": "Sports"
     },
@@ -339,7 +114,7 @@
       "title": "PITTSBURGH STEELERS VS NEW ORLEANS SAINTS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/nfln/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfln/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -348,7 +123,25 @@
       "title": "CRYSTAL PALACE VS NEWCASTLE UNITED",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/skyplus/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/skyplus/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dd80ea9f11",
+      "title": "HULL CITY VS BRENTFORD",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/skygolf/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-76bf1750bf",
+      "title": "LIVERPOOL VS BRIGHTON & HOVE ALBION",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/skyepl/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -357,7 +150,7 @@
       "title": "MAN UTD VS AFC BOURNEMOUTH",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/skymain2/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/skymain2/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -366,7 +159,16 @@
       "title": "NFL REDZONE",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/skymix/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/REDZONE/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b01ef12f73",
+      "title": "SAN FRANCISCO 49ERS VS ATLANTA FALCONS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nbc/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -375,7 +177,25 @@
       "title": "CLEVELAND BROWNS VS TENNESSEE TITANS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/nfl2/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl2/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0241d57900",
+      "title": "INDIANAPOLIS COLTS VS MINNESOTA VIKINGS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl3/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e9635b42df",
+      "title": "MIAMI DOLPHINS VS NEW YORK JETS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl4/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -384,7 +204,16 @@
       "title": "TAMPA BAY BUCCANEERS VS CAROLINA PANTHERS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://hls.kozow.com/nfl5/mono.ts.m3u8?token=6e1a6871b42bd5b3206f468eda676468&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl5/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dfab5ea3de",
+      "title": "CINCINNATI BENGALS VS BALTIMORE RAVENS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl6/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
       "type": "HLS",
       "category": "Sports"
     },
@@ -393,7 +222,529 @@
       "title": "NEW YORK GIANTS VS HOUSTON TEXANS",
       "status": "live",
       "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/nfl7/mono.ts.m3u8?token=9681e8839ee3fc3c19074d1671b01cc2&server=1",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl7/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c8a71c712c",
+      "title": "DENVER BRONCOS VS ARIZONA CARDINALS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl8/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eaaacf3a92",
+      "title": "GREEN BAY PACKERS VS DETROIT LIONS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl9/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5ef6cb4bb6",
+      "title": "LOS ANGELES RAMS VS LAS VEGAS RAIDERS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl6/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2d1bfe61b6",
+      "title": "BARCELONA VS REAL MADRID",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/abc/mono.ts.m3u8?token=cf151bb6ced0e091f2747e6819f96e6d&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-377bd51068",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-402f50c236",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 2 - BLV C2]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6bc0a823f8",
+      "title": "AL AIN VS TRACTOR [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/78905744_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-65a1b28883",
+      "title": "AL AIN VS TRACTOR [SERVER 2 - BLV 7UP]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/78905744_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-31084bb2dc",
+      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a4b472d68f",
+      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 2 - BLV TEPPY]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-961d8e323d",
+      "title": "RIZESPOR VS TRABZONSPOR [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/75748097_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-15620c45cd",
+      "title": "RIZESPOR VS TRABZONSPOR [SERVER 2 - BLV SPRITE]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/75748097_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3acdeab657",
+      "title": "GROBINA VS RIGA [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/07808742_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cfdb6924fe",
+      "title": "GROBINA VS RIGA [SERVER 2 - BLV SAMURAI]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/07808742_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e9f3dc1a1b",
+      "title": "AL ULA VS AL ORUBAH [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/75915087_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ef5e07cbf2",
+      "title": "AL ULA VS AL ORUBAH [SERVER 2 - BLV MONSTER]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://live05.yefpwmc.app/live/75915087_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b191a00ce4",
+      "title": "AL AIN VS TRACTOR S C [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912129_lhd.flv?txSecret=af301bceca59316b83bfb2b487377c77&txTime=6adfe3d1",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bd19b5e717",
+      "title": "AL AIN VS TRACTOR S C [SERVER 2 - BLV ENZO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-380460_lhd.flv?auth_key=1793039745-0-0-018b77ae384e0e71ead4a7aceb701caf",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-76429398e4",
+      "title": "AL AIN VS TRACTOR S C [SERVER 3 - BLV VOI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912114_lhd.flv?auth_key=1793039745-0-0-9fc2021938f9a16bf83e6e996ff97a83",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fd7036796d",
+      "title": "AL AIN VS TRACTOR S C [SERVER 4 - TRÀ ĐÁ]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-603914_lhd.flv?auth_key=1793039745-0-0-a360a436ad2a281c2c1d787644b8fbda",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cefad23791",
+      "title": "AL AIN VS TRACTOR S C [SERVER 5 - VINFAST]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-617313_lhd.flv?auth_key=1793039745-0-0-5015f239eead4fa342ce1e238846bdd0",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4558cb7e0d",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-133824_lhd.flv?txSecret=0b417feafa2f06ecdd3e79cce7decbb1&txTime=6adfe3d1",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c84fdbc23e",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU [SERVER 2 - BLV LONG]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.flv?txSecret=bba85a923592dea2b21f5bc7f021345b&txTime=6adfe3d1",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37fb65546a",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU [SERVER 3 - XUÂN SON]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-501412_lhd.flv?txSecret=d6ceec3a97f4d9c00ec736ad5993763e&txTime=6adfe3d1",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-401151c3de",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU [SERVER 4 - LOKA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793039745-0-0-47a4156a1fb1016cc1ca84e170a3b0ee",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e373fb0c92",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU [SERVER 5 - CACAO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793039745-0-0-e76b483d340c7139de6f1d5236e80f21",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9de29cf5a5",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793039745-0-0-bbbf3502d4536c2b72c3544e3b436ac0",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7d9be10ddc",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 2 - CR BƯỞI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-387694_lhd.flv?auth_key=1793039745-0-0-0bc0cd513b0343880cad92957f8adb6d",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c05dd25e57",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 3 - BLV BÉO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=a07348f8dcf097cd93e89633ec7f05f7&txTime=6adfe3d1",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-43b8fadc52",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 4 - LÃO LÂM]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-527384_lhd.flv?auth_key=1793039745-0-0-e3a7fc9a1007a577c188bcfaf062e03b",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-631f072f29",
+      "title": "AL AHLI VS AL GHARAFA [SERVER 5 - BLV ALEX]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793039745-0-0-446e9d36d0646fccf885af91c2a33d7e",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-304a25e19f",
+      "title": "LE BOC THAM VS BALLON DOR 2026",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793036157-0-0-09db6fda555bd09f2f6d3f0c4eaaa3d7",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4fa21748b2",
+      "title": "PARIS SAINT GERMAIN VS LYON",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001793036165-0-0-310a702a73dc0c8007d81b92c0fbe96c",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-16b81035b8",
+      "title": "SEVILLA VS OSASUNA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001793036172-0-0-261da8c466b140c706cbc82cf503ed66",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-32fa05f9a7",
+      "title": "AL AIN VS TRACTOR S C",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001793036179-0-0-6278cc802e8220841350f2f09741b4b0",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37f692a87d",
+      "title": "AL AHLI VS AL GHARAFA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001793036187-0-0-7909b25ae9eb1673c21451ec612cbe92",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0a542315c",
+      "title": "BESIKTAS JK VS BASAKSEHIR",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-16.flv?auth_key=3000001793036194-0-0-3e519f6c3907d53ba50ea2ba8f5cd87c",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9f7fb9fc45",
+      "title": "CAYKUR RIZESPOR VS TRABZONSPOR",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001793036201-0-0-9e337af45c1762e2490e5e7dadaebba9",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8a97fd5a94",
+      "title": "GROBINA VS RIGA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001793036210-0-0-57c364abd067dd5544a978f34be16253",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-68bb0eed90",
+      "title": "NEA SALAMIS VS AEP PAPHOS",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel2.flv?wsSecret=73dac97db73715e3241cdbabca0cf357&wsABSTime=1793079416",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c2d4d70afd",
+      "title": "UM ALHASSAM VS AL BUDAIYA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=b67e07580fe9b47a90bddedc0b39bd49&wsABSTime=1793079423",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37ef5ff2f3",
+      "title": "BUSAITEEN VS BURI",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=93ca9ed8a3845c72211b36000a9a94d1&wsABSTime=1793079430",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dd2dcf6adc",
+      "title": "AL SHABBAB VS ISA TOWN",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=cfbe830bfdc8f07d135b543568c4f9ce&wsABSTime=1793079437",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3304950273",
+      "title": "LEVADIA TALLINN U19 VS PARNU JK VAPRUS II",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel21.flv?wsSecret=36ccc19c184cba5484c32d22e6312dc0&wsABSTime=1793079444",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-464a18c8ab",
+      "title": "TRANSINVEST B VS SIAULIAI B",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=d79b0db70e854188ef23d0e65f85bd29&wsABSTime=1793079450",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-70d2c615f8",
+      "title": "SHINNIK YAROSLAVL VS SPARTAK KOSTROMA",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001793036259-0-0-9a0bb21066e0f163d052edd4a92fbe30",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37c812b274",
+      "title": "BESIKTAS JK VS BASAKSEHIR FUTBOL KULUBU",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHRJtZmV9J7pT.m3u8?txSecret=27a75da648a9406220901066a9a62c7f&txTime=6ADF9112&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-af95774ab7",
+      "title": "CAYKUR RIZESPOR VS TRABZONSPOR",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHRJWaxnM2xHV.m3u8?txSecret=ca99fb772a79af6874b76fe4f0dc042a&txTime=6ADF9113&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-12c8820887",
+      "title": "NUEVA CHICAGO VS SAN MARTIN SAN JUAN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYqjisBoSaaENVyh.m3u8?txSecret=80a813d6a836ebe068a0bfe4a7a428b6&txTime=6ADF9113&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-44a0d0a6ed",
+      "title": "AL AIN VS TRACTOR S C",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCUSupk6QzPGB.m3u8?txSecret=caea8050364306fe4075a0ccb21ec6fb&txTime=6ADF9114&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3583047fa4",
+      "title": "AL AHLI VS AL GHARAFA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCU7tTXBaGLG7.m3u8?txSecret=d246d4e82bca95a13f5731be5e87dc94&txTime=6ADF9114&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-db36108d13",
+      "title": "NK ISTRA 1961 VS HAJDUK SPLIT",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdprAYoGFoRofbmq.m3u8?txSecret=cfe61e0f35c845a9c64efce5977144aa&txTime=6ADF9115&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-33d3167faa",
+      "title": "IRAQ U17 VS EGYPT U17",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJn96xBznn1qJLo.m3u8?txSecret=c7b01b87023c73e2de0d42a531b79d71&txTime=6ADF9115&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-387580ce91",
+      "title": "MACCABI HAIFA VS HAPOEL BEER SHEVA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq5CXcMkQCYTNd5.m3u8?txSecret=e0fa2d27dc384bd0125f399cbb6522ae&txTime=6ADF9115&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-93b80ecbf3",
+      "title": "GROBINA VS RIGA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVNc5XoR8zsEFqoM.m3u8?txSecret=a1fa4f6c096b6534565e8e0708009696&txTime=6ADF9116&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1b418b284a",
+      "title": "WARTA POZNAN VS LKS LODZ",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7Ak9KaR1Dk6CP.m3u8?txSecret=4ec4c95a8fbfaadef32dacd162d2b128&txTime=6ADF9116&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2a470e22ba",
+      "title": "AL QADISIYAH VS AL SADD",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a12.kora-plus.li/live/b2.m3u8?token=OvKFzdWv1uG_DsUzOBj1Vhljouo&exp=1793039897",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c0fbd7f213",
+      "title": "GALATASARAY VS FENERBAHÇE",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a16.kora-plus.li/live/b1tr.m3u8?token=OP0zS70KiFBajcncFItMJNvn6wc&exp=1793039903",
       "type": "HLS",
       "category": "Sports"
     },
@@ -407,65 +758,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-b7cc67f131",
-      "title": "BARCELONA VS REAL MADRID [SERVER 2 - BLV REVIVE]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33982309_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-38bb635673",
-      "title": "BARCELONA VS REAL MADRID [SERVER 3 - BLV HỔ VẰN]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/07428422_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-473dc60312",
       "title": "UDINESE CALCIO VS MILAN [SERVER 1]",
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3722e22e6c",
-      "title": "SPORTING VS VISEU [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/49572724_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e2875ec79d",
-      "title": "SPORTING VS VISEU [SERVER 2 - BLV REDBULL]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/49572724_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1daafabdc7",
-      "title": "UTAH JAZZ VS LOS ANGELES LAKERS [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/19919577_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e3419ec09d",
-      "title": "UTAH JAZZ VS LOS ANGELES LAKERS [SERVER 2 - BLV POCARI]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/19919577_tsc.m3u8",
       "type": "HLS",
       "category": "Sports"
     },
@@ -506,155 +803,11 @@
       "category": "Sports"
     },
     {
-      "id": "live-0671ae85b3",
-      "title": "UDINESE VS MILAN [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1792966029-0-0-11886190b90b0617d48e4530aa9d086c",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-385bfae39b",
-      "title": "UDINESE VS MILAN [SERVER 2 - ĐỖ TÚ TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1792966029-0-0-acaf9c2f3e6f2572faf20bbbdbbb0807",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fe8642602e",
-      "title": "UDINESE VS MILAN [SERVER 3 - BLV A WIN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-536185_lhd.flv?auth_key=1792966029-0-0-8d7326ac80165c158a8cc22d2d263138",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-befbd0a4e3",
-      "title": "UDINESE VS MILAN [SERVER 4 - KENCHU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912124_lhd.flv?auth_key=1792966029-0-0-81da26427171e0fee5d34e4fdd25b67f",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d66e7e0a14",
-      "title": "UDINESE VS MILAN [SERVER 5 - BLV XO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912132_lhd.flv?txSecret=fc482b61d2743c4cfa7ad036ddcbdf87&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b342ccf7b9",
-      "title": "UDINESE VS MILAN [SERVER 6 - BLV LONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.flv?txSecret=f86d79bfffc63b48a3d214bf5b1d1013&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66163fdba9",
-      "title": "UDINESE VS MILAN [SERVER 7 - 5 LỬA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-991140_lhd.flv?auth_key=1792966029-0-0-628d6f749fa2e36f99c727e362efa2ec",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aa49273cf4",
-      "title": "PARIS SAINT GERMAIN VS LYON [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912136_lhd.flv?txSecret=f86d79bfffc63b48a3d214bf5b1d1013&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f710feadc7",
-      "title": "BARCELONA VS REAL MADRID [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-610518_lhd.flv?txSecret=7b02e179b696421eb5be15825fe69fc1&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1ff10d22dc",
-      "title": "BARCELONA VS REAL MADRID [SERVER 2 - HẢI THANH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1792966029-0-0-11886190b90b0617d48e4530aa9d086c",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-aa5e1195d7",
-      "title": "BARCELONA VS REAL MADRID [SERVER 3 - THOMAS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-414317_lhd.flv?txSecret=0ca820f7c2405e2991ee31a1984f3ea0&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-af2c9937cb",
-      "title": "BARCELONA VS REAL MADRID [SERVER 4 - CR BƯỞI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.flv?txSecret=d98c8e352cdaf99668649f1af0c590b3&txTime=6adec3dd",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-78c37336a6",
-      "title": "BARCELONA VS REAL MADRID [SERVER 5 - BLV MESSI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912141_lhd.flv?auth_key=1792966029-0-0-70fafd15ce6b556685ad5590aef21565",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f88f3b8e01",
-      "title": "BARCELONA VS REAL MADRID [SERVER 6 - A BỆU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1792966029-0-0-2bde3179a5f1bfb3f5a8cf470c1669bc",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b7f1307e2f",
-      "title": "BARCELONA VS REAL MADRID [SERVER 7 - CURRY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1792966029-0-0-91be243a4f83a7a8809ac79d9ea003ae",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-24c9a51d8b",
       "title": "UDINESE VS MILAN",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-2.flv?auth_key=3000001792962441-0-0-bf8c67f2975925f517995098e966d4a4",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1b5e52ee04",
-      "title": "BARCELONA VS REAL MADRID",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001792962449-0-0-6769ace3182c63c6d15fa7daa440ccc1",
       "type": "FLV",
       "category": "Sports"
     },
@@ -673,69 +826,6 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001792962502-0-0-944b4e61252d5fded362ef8c29e622ab",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-933e5bbcf2",
-      "title": "DEPORTIVO MAIPU VS CLUB ATLETICO GUEMES",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=a3386144df9a2fdaf6fba9ff0566bd4d&wsABSTime=1793005710",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c260a205f9",
-      "title": "FERROCARRIL MIDLAND VS GIMNASIA Y TIRO",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel7.flv?wsSecret=f62ed567840bc3f00c2e8f199f7a318e&wsABSTime=1793005719",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7f582f9603",
-      "title": "INTER TORONTO VS ATLETICO OTTAWA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel26.flv?wsSecret=0112c1fe6af54208e4ec843521acbaba&wsABSTime=1793005728",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a737ae87d2",
-      "title": "HFX WANDERERS VS SUPRA DU QUEBEC",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel27.flv?wsSecret=0fd442ebc65cb1618d4af54301859c6d&wsABSTime=1793005737",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c74c2ce0a3",
-      "title": "CAVALRY VS VANCOUVER",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel28.flv?wsSecret=452725c227406b61fc0ea492563456d7&wsABSTime=1793005746",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-6abde99bec",
-      "title": "NỮ DEPORTIVO CALI VS NỮ CLUB OLIMPIA",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel31.flv?wsSecret=8d47da65128846f75abceda0d30c2de8&wsABSTime=1793005755",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e56c59729d",
-      "title": "PACIFIC VS FORGE",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel30.flv?wsSecret=e1583beefb5e48bf4eb2ffd06715d4df&wsABSTime=1793005764",
       "type": "FLV",
       "category": "Sports"
     },
@@ -767,60 +857,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-2f29f9bb0e",
-      "title": "MAN UTD W VS MAN CITY W",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/skyf.m3u8?token=O5u3opU6S-C0GkVW1NDHEzM5AH0&exp=1792963434",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-3c81a886e7",
-      "title": "REAL MADRID VS BARCELONA [ENGLISH]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/91e78842e12c2b0596017a08d06138a480953267ebc1f8be12481f3fc3efc13b/1792966909/laliga-401882832.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-73ade19086",
-      "title": "UDINESE VS MILAN [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaVZ7h35ggBBL.m3u8?txSecret=1e487fe277adaab760dfb81412c661a4&txTime=6AE3A368",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f9682e26e6",
-      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-536185_lhd.flv?auth_key=1792962063-0-0-f24b2e55d35b42c70c5fd70d0c1a04e0",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f4edf8db35",
-      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA [SERVER 3 - BLV A TINH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1792962063-0-0-a27991eac8dda1d1230d4443da1d5731",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cef479bcec",
-      "title": "AZ ALKMAAR VS TWENTE ENSCHEDE [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1792962063-0-0-064230564c21c96960c9c12ce6ed74d7",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-492a5a2eef",
       "title": "NACIONAL VS SPORTING BRAGA",
       "status": "live",
@@ -839,57 +875,12 @@
       "category": "Sports"
     },
     {
-      "id": "live-4a9327f32d",
-      "title": "TLAXCALA VS CORRECAMINOS DE LA U.A.T.",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel14.flv?wsSecret=96a86bf168a23758ca4aa736f1f1d8f8&wsABSTime=1793001710",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-f8839c4867",
       "title": "NỮ MANCHESTER UTD VS NỮ MAN CITY",
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel17.flv?wsSecret=2b8fd17632389416c21362cba451622d&wsABSTime=1793001739",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-fbb253f918",
-      "title": "NACIONAL DA MADEIRA VS SPORTING BRAGA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweLB37NuHUPr2mQb_md.m3u8?txSecret=0bc3b8d3628dc9bab86ad22cf0f0c44e&txTime=6ADE61BA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-97574fc602",
-      "title": "UNION SAINT GILLOISE VS CERCLE BRUGGE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqQkWRnhRL53Khy_md.m3u8?txSecret=44780916e8f2a8c613a26f1df1002edf&txTime=6ADE6210&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1c29435b3d",
-      "title": "AZ ALKMAAR VS TWENTE ENSCHEDE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpr5PZsfpnoZSm5.m3u8?txSecret=660a86535983ca92937fda8df8d878d9&txTime=6ADE6227&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9442ccbcd7",
-      "title": "MOQUEGUA VS ALIANZA LIMA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpxeLW8crirvjMR.m3u8?txSecret=918fa17ad178c638b1283663c6289b9a&txTime=6ADE622E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -1034,42 +1025,6 @@
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001792957301-0-0-3b463c42d1a15bb8e0b41c432c49e3d9",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9898da8259",
-      "title": "LE HAVRE @ MARSEILLE [BEIN SPORTS (USA)]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/4cecf1900ab0257ec0d1f216d969963d7ca60331d39c47feab9fa915f2f2d4b0/1792962803/beinsports-usa.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a36132caef",
-      "title": "LEEDS UNITED @ SUNDERLAND [SKY SPORTS PREMIER LEAGUE]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://tims-nl-0001.uzhi.ru/main/secure/d7ba644ef015e5bffcb3df015cd5084ea0bb8b5665093c595d13de73c26faae5/1792962813/skysportspremierleague-uk.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e2cdc1e2d6",
-      "title": "AARHUS AGF VS VIBORG",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpnt65KLLiTsjmH.m3u8?txSecret=acd52dd7b6f9e53d4742a1b3276f7a30&txTime=6ADE50DB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1863f76fe7",
-      "title": "CLUB BRUGGE VS SINT TRUIDENSE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqQkWS45nRRpjnF_md.m3u8?txSecret=847b4f0d88f8822b7c94993c273a173c&txTime=6ADE34F6&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
       "category": "Sports"
     },
     {
