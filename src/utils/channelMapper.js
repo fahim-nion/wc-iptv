@@ -10,6 +10,7 @@ export const mapJsonToChannels = (jsonChannels) => {
     type: ch.type || (ch.streamUrl?.includes('/embed/') ? 'IFRAME' : 'HLS'),
     status: ch.status || 'live', // Default to live if not specified
     source: ch.source || 'internal',
-    startTime: ch.startTime || null
+    startTime: ch.startTime || null,
+    crawledAt: ch.crawledAt || null
   }));
 };

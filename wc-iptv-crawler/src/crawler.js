@@ -134,7 +134,8 @@ async function extractStreams(matchQueue) {
                     source: match.source,
                     streamUrl: stream.url,
                     type: stream.type || match.type || 'HLS',
-                    category: "Sports"
+                    category: "Sports",
+                    crawledAt: new Date().toISOString()
                 });
             }
         } catch (e) {}
@@ -168,10 +169,10 @@ export async function crawlSingleSource(sourceDef) {
     console.log(chalk.blue(`\n[Extraction] Resolving playable streams for ${discoveredMatches.length} matches...`));
     const capturedStreams = await extractStreams(discoveredMatches);
 
-    // Merge logic: keep other sources' channels, update this source's channels
+    // Merge logic: keep newly crawled streams at the top (latest first), then existing channels
     const existing = loadExistingChannels();
     const otherSourcesChannels = existing.filter(c => c.source !== sourceDef.id);
-    const finalChannels = [...otherSourcesChannels, ...capturedStreams];
+    const finalChannels = [...capturedStreams, ...otherSourcesChannels];
 
     saveChannels(finalChannels);
     console.log(chalk.green.bold(`\n✅ Saved: Added/updated ${capturedStreams.length} channels from ${sourceDef.name}. Total active: ${finalChannels.length}`));

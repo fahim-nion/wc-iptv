@@ -492,30 +492,36 @@ export default function Player({
   // Helper to parse clean server tags
   const parseServerLabel = (s, idx) => {
     const name = s.name || s.title || '';
-    const serverMatch = name.match(/\[SERVER\s*(\d+)(?:\s*-\s*([^\]]+))?\]/i);
-    
-    // Clean sequential server numbering so sibling multi-sources are numbered in order
     const serverNum = idx + 1;
-    let extra = serverMatch ? serverMatch[2]?.trim() : '';
-    if (!extra) {
-      const tagMatch = name.match(/\[([^\]]+)\]$/);
-      if (tagMatch && !tagMatch[1].toUpperCase().includes('SERVER')) {
-        extra = tagMatch[1].trim();
-      }
-    }
-
+    
     let quality = null;
     let commentator = null;
-    if (extra) {
-      if (/\b(HD|SD|FHD|1080P|720P|4K|UHD)\b/i.test(extra)) {
-        quality = extra.match(/\b(HD|SD|FHD|1080P|720P|4K|UHD)\b/i)[0].toUpperCase();
+
+    // Check quality tag
+    const qMatch = name.match(/\b(FHD|1080P|720P|4K|UHD|HD|SD)\b/i);
+    if (qMatch) quality = qMatch[1].toUpperCase();
+
+    // Check bracketed info e.g. [SERVER 2 - TRÀ ĐÁ], [HD | PARAMOUNT+], [Live24]
+    const bracketMatches = [...name.matchAll(/\[([^\]]+)\]/g)];
+    for (const b of bracketMatches) {
+      const inner = b[1].trim();
+      if (/^SERVER\s*\d+$/i.test(inner)) continue;
+      
+      if (inner.includes('-')) {
+        const parts = inner.split('-');
+        const val = parts.slice(1).join('-').trim();
+        if (val && !commentator) commentator = val;
       } else {
-        commentator = extra;
+        const cleaned = inner.replace(/\b(FHD|1080P|720P|4K|UHD|HD|SD)\s*\|?\s*/gi, '').trim();
+        if (cleaned && !commentator && !cleaned.toUpperCase().startsWith('SERVER')) {
+          commentator = cleaned;
+        }
       }
     }
 
     let src = (s.source || '').toUpperCase();
     let srcName = src
+      .replace('PPVSTREAMS', 'PPV')
       .replace('LIVELIVE24', 'Live24')
       .replace('FUTBOLX', 'FutbolX')
       .replace('XYZSTREAMS', 'XYZ')

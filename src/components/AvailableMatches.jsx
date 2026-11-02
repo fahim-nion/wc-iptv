@@ -5,7 +5,6 @@ import {
   Trophy, 
   Flame, 
   Clock, 
-  Server, 
   Search, 
   Play, 
   CheckCircle2, 
@@ -48,6 +47,17 @@ export default function AvailableMatches({
   // Group multiple stream links into consolidated unique matches across all crawler sources
   const groupedMatches = useMemo(() => {
     const fixtures = groupChannelsIntoFixtures(channels);
+
+    // Sort newly crawled matches as latest (newest first)
+    fixtures.sort((a, b) => {
+      if (a.crawledAt && b.crawledAt) {
+        return new Date(b.crawledAt).getTime() - new Date(a.crawledAt).getTime();
+      }
+      if (a.crawledAt) return -1;
+      if (b.crawledAt) return 1;
+      return a.firstSeenIndex - b.firstSeenIndex;
+    });
+
     return fixtures.map(f => ({
       ...f,
       team1Logo: getTeamLogo(f.team1),
@@ -224,59 +234,18 @@ export default function AvailableMatches({
                       </span>
                     </div>
                   )}
-
-                  {/* Multi-server direct buttons if more than 1 server */}
-                  {match.servers.length > 1 && (
-                    <div className="flex items-center gap-1.5 flex-wrap pt-1.5">
-                      {match.servers.map((srv, sIdx) => {
-                        const isSrvActive = currentChannel?.url === srv.url;
-                        const srvSource = (srv.source || 'Server')
-                          .replace(/livelive24/i, 'Live24')
-                          .replace(/futbolx/i, 'FutbolX')
-                          .replace(/colatv/i, 'ColaTV')
-                          .replace(/socolive/i, 'Socolive')
-                          .replace(/xoilac/i, 'Xoilac')
-                          .replace(/bintv/i, 'BinTV')
-                          .replace(/90minutes/i, '90Min');
-
-                        return (
-                          <button
-                            key={srv.url || sIdx}
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              if (onSelectChannel) {
-                                onSelectChannel(srv);
-                                window.scrollTo({ top: 0, behavior: 'smooth' });
-                              }
-                            }}
-                            className={`px-2 py-0.5 rounded-lg text-[9px] font-bold transition-all border flex items-center gap-1 active:scale-95 ${
-                              isSrvActive
-                                ? 'bg-amber-500 text-black border-amber-400 font-black shadow-sm'
-                                : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/10 hover:border-white/20'
-                            }`}
-                          >
-                            <span className={`w-1.5 h-1.5 rounded-full ${isSrvActive ? 'bg-black animate-pulse' : 'bg-slate-400'}`} />
-                            <span>Server {sIdx + 1}</span>
-                            <span className={`text-[8px] uppercase tracking-wider ${isSrvActive ? 'text-black/80 font-black' : 'text-slate-500'}`}>
-                              ({srvSource})
-                            </span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  )}
                 </div>
 
                 {/* Footer Badges & Watch Action */}
                 <div className="flex items-center justify-between gap-2 pt-3 mt-2 border-t border-white/5">
                   <div className="flex items-center gap-1.5 flex-wrap">
-                    {/* Server Count Pill */}
-                    <span className="px-2 py-0.5 rounded-md bg-white/5 border border-white/10 text-[9px] font-black uppercase text-amber-400 flex items-center gap-1">
-                      <Server size={10} />
-                      {match.servers.length} {match.servers.length === 1 ? 'Server' : 'Servers'}
+                    {/* Live Badge */}
+                    <span className="px-2 py-0.5 rounded-md bg-red-500/15 text-red-400 border border-red-500/25 text-[9px] font-black uppercase flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                      LIVE
                     </span>
 
-                    {/* Quality badge if any */}
+                    {/* Quality badge */}
                     <span className="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 text-[9px] font-black uppercase">
                       HD
                     </span>
