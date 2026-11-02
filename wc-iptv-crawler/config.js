@@ -89,6 +89,13 @@ export default {
             priority: 2,
             homepage: "https://ppv.st",
             api: "https://api.ppv.st/api/streams"
+        },
+        mahsunsports: {
+            enabled: true,
+            priority: 1,
+            homepage: "https://mahsunsports.xyz/",
+            tvScript: "https://mahsunsports.xyz/script4.js",
+            eventHtml: "https://mahsunsports.xyz/event.html"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },

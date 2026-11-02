@@ -53,6 +53,9 @@ function streamProxyPlugin() {
       } else if (targetUrl.includes('kora-plus') || targetUrl.includes('goalakor') || targetUrl.includes('goalikor') || targetUrl.includes('kora-api')) {
         headers['Referer'] = 'https://goalakor.space/';
         headers['Origin'] = 'https://goalakor.space';
+      } else if (targetUrl.includes('evrenesoglu') || targetUrl.includes('mahsunsports')) {
+        headers['Referer'] = 'https://mahsunsports.xyz/';
+        headers['Origin'] = 'https://mahsunsports.xyz';
       }
 
       const response = await fetch(targetUrl, { headers, redirect: 'manual' });
@@ -86,6 +89,9 @@ function streamProxyPlugin() {
         const rewriteUri = (uri) => {
           try {
             const abs = new URL(uri, targetUrl);
+            if (abs.hostname.includes('tiktokcdn.com')) {
+              return abs.href;
+            }
             const targetParams = new URL(targetUrl).searchParams;
             for (const [key, val] of targetParams.entries()) {
               if (!abs.searchParams.has(key)) {

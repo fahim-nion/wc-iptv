@@ -51,7 +51,9 @@ export function getStreamUrl(channelOrUrl) {
     url.includes('kora-api') ||
     url.includes('robotiva') ||
     url.includes('uzhi.ru') ||
-    url.includes('sytes.net');
+    url.includes('sytes.net') ||
+    url.includes('evrenesoglu') ||
+    url.includes('mahsunsports');
 
   if (isCorsRestricted) {
     if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;

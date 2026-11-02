@@ -55,6 +55,9 @@ export default async (req, context) => {
     } else if (targetUrl.includes("kora-plus") || targetUrl.includes("goalakor") || targetUrl.includes("goalikor") || targetUrl.includes("kora-api")) {
       fetchHeaders["Referer"] = "https://goalakor.space/";
       fetchHeaders["Origin"] = "https://goalakor.space";
+    } else if (targetUrl.includes("evrenesoglu") || targetUrl.includes("mahsunsports")) {
+      fetchHeaders["Referer"] = "https://mahsunsports.xyz/";
+      fetchHeaders["Origin"] = "https://mahsunsports.xyz";
     }
 
     const response = await fetch(targetUrl, {
@@ -89,7 +92,9 @@ export default async (req, context) => {
       const rewriteUri = (uri) => {
         try {
           const absoluteUrl = new URL(uri, targetUrl);
-          // Inherit missing authentication tokens and parameters from targetUrl
+          if (absoluteUrl.hostname.includes("tiktokcdn.com")) {
+            return absoluteUrl.href;
+          }
           const targetParams = new URL(targetUrl).searchParams;
           for (const [key, val] of targetParams.entries()) {
             if (!absoluteUrl.searchParams.has(key)) {
