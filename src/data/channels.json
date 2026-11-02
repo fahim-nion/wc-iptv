@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:29:47.308Z",
+  "updatedAt": "2026-11-02T19:30:01.297Z",
   "channels": [
     {
       "id": "live-62e469a170",
@@ -1537,6 +1537,2724 @@
       "source": "livelive24",
       "streamUrl": "https://pulltx.cqsycw.com/live/202_5546566_1.m3u8?txSecret=40c6307b60497b7b41d28ce1909e7354&txTime=6AEE2A40",
       "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3d99f80f6a",
+      "title": "SASSUOLO VS. FIORENTINA SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-02/sas-fio",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1601c263d1",
+      "title": "SASSUOLO VS. FIORENTINA SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-02/sas-fio_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5e1200797",
+      "title": "GAIS VS. AIK SERVER 1 [HD | TV4 FOTBOLL]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-02/gais-aik",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cdf568da0d",
+      "title": "GAIS VS. AIK SERVER 2 [SD | TV4 FOTBOLL]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-02/gais-aik_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b1994aad27",
+      "title": "MJÄLLBY AIF VS. KALMAR FF SERVER 1 [HD | TV4 SPORT LIVE 1]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-02/mja-kff",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-751f334728",
+      "title": "MJÄLLBY AIF VS. KALMAR FF SERVER 2 [SD | TV4 SPORT LIVE 1]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-02/mja-kff_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6f25d1d477",
+      "title": "ATALANTA VS. PARMA SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-02/ata-par",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-21d28083c4",
+      "title": "ATALANTA VS. PARMA SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-02/ata-par_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d523b2e94d",
+      "title": "LORIENT VS. BREST SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-02/lor-bre",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4e66626111",
+      "title": "LORIENT VS. BREST SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-02/lor-bre_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e864594673",
+      "title": "DEPORTIVO VS. OSASUNA SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-02/dep-osa",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ddcc4b7424",
+      "title": "DEPORTIVO VS. OSASUNA SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-02/dep-osa_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e5506dd925",
+      "title": "NEWCASTLE UNITED VS. EVERTON SERVER 1 [HD | SKY SPORTS PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-02/new-eve",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c0b1067ba5",
+      "title": "NEWCASTLE UNITED VS. EVERTON SERVER 2 [SD | SKY SPORTS PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-02/new-eve_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b6229a30d",
+      "title": "GALATASARAY VS. VFB STUTTGART SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/gal-vfb",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ce06a58cfe",
+      "title": "GALATASARAY VS. VFB STUTTGART SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/gal-vfb_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-082259020a",
+      "title": "SHAKHTAR DONETSK VS. SPORTING CP SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/shk-scp",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-dd539541ed",
+      "title": "SHAKHTAR DONETSK VS. SPORTING CP SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/shk-scp_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-930077a287",
+      "title": "IK SIRIUS VS. HALMSTADS BK SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-03/sir-hbk",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-173c1e45b3",
+      "title": "IK SIRIUS VS. HALMSTADS BK SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-03/sir-hbk_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7e6d84cc2b",
+      "title": "ATLÉTICO MADRID VS. BAYERN MUNICH SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/atm-bay",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d16cbbf3d8",
+      "title": "ATLÉTICO MADRID VS. BAYERN MUNICH SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/atm-bay_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d5942c10e8",
+      "title": "BARCELONA VS. ASTON VILLA SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bar-avl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6b38fb7733",
+      "title": "BARCELONA VS. ASTON VILLA SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bar-avl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-668ad1ea99",
+      "title": "BODO/GLIMT VS. LILLE SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bodo-lill",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a2ac2d3de7",
+      "title": "BODO/GLIMT VS. LILLE SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bodo-lill_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ee78ffe6d7",
+      "title": "FEYENOORD ROTTERDAM VS. INTER SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/fey-int",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b0b12efad2",
+      "title": "FEYENOORD ROTTERDAM VS. INTER SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/fey-int_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3664ad5fc1",
+      "title": "LASK LINZ VS. SLOVAN BRATISLAVA SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/las-slb",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b1e6967c93",
+      "title": "LASK LINZ VS. SLOVAN BRATISLAVA SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/las-slb_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-43f68b277b",
+      "title": "MAN UTD VS. ROMA SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/mun-roma",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5e2060751",
+      "title": "MAN UTD VS. ROMA SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/mun-roma_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7d531ece00",
+      "title": "VILLARREAL VS. PARIS SAINT GERMAIN SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/vil-psg",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-83c585a27f",
+      "title": "VILLARREAL VS. PARIS SAINT GERMAIN SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/vil-psg_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0a256565f4",
+      "title": "STADE RENNAIS VS. OLYMPIACOS SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-04/ren-oly",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8d903b0da7",
+      "title": "STADE RENNAIS VS. OLYMPIACOS SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-04/ren-oly_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ee0363a1d7",
+      "title": "AEK ATHENS VS. REAL MADRID SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ef28e361b4",
+      "title": "AEK ATHENS VS. REAL MADRID SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9011b797e2",
+      "title": "FENERBAHCE VS. LIVERPOOL SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c108df4bb4",
+      "title": "FENERBAHCE VS. LIVERPOOL SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-687dd4379a",
+      "title": "BORUSSIA DORTMUND VS. REAL BETIS SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/dor-bet",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-075b2f98e0",
+      "title": "BORUSSIA DORTMUND VS. REAL BETIS SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/dor-bet_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2eb241a06d",
+      "title": "PORTO VS. NAPOLI SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fcp-nap",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-156a414cd6",
+      "title": "PORTO VS. NAPOLI SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fcp-nap_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9b813c2ef6",
+      "title": "LENS VS. COMO SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rcl-como",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-30e0465d3c",
+      "title": "LENS VS. COMO SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rcl-como_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-42a1765e02",
+      "title": "PSV EINDHOVEN VS. CLUB BRUGGE SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/psv-bru",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ed40ce08a6",
+      "title": "PSV EINDHOVEN VS. CLUB BRUGGE SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/psv-bru_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0779850061",
+      "title": "RB LEIPZIG VS. MAN CITY SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rbl-mci",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-79b8670baf",
+      "title": "RB LEIPZIG VS. MAN CITY SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rbl-mci_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-89d220703c",
+      "title": "SLAVIA PRAGUE VS. ARSENAL SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/slp-ars",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-406975d5bc",
+      "title": "SLAVIA PRAGUE VS. ARSENAL SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/slp-ars_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cdd22b2563",
+      "title": "VIKING VS. SABAH SERVER 1 [HD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/vfk-sab",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f9aea3a377",
+      "title": "VIKING VS. SABAH SERVER 2 [SD | CHAMPIONS LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/vfk-sab_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a290516181",
+      "title": "MILAN VS. FERENCVAROS SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/mil-fer",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-151054cea2",
+      "title": "MILAN VS. FERENCVAROS SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/mil-fer_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-acccf29470",
+      "title": "ANDERLECHT VS. RB SALZBURG SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/and-slz",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e2c1362bba",
+      "title": "ANDERLECHT VS. RB SALZBURG SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/and-slz_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-135df35130",
+      "title": "CRYSTAL PALACE VS. TSG HOFFENHEIM SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cry-tsg",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d557e91158",
+      "title": "CRYSTAL PALACE VS. TSG HOFFENHEIM SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cry-tsg_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0c205721b",
+      "title": "LEVSKI SOFIA VS. JAGIELLONIA BIALYSTOK SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lev-jag",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7295f5284b",
+      "title": "LEVSKI SOFIA VS. JAGIELLONIA BIALYSTOK SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lev-jag_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b46d2895ff",
+      "title": "LILLESTROM VS. VIKTORIA PLZEN SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lsk-plz",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-68c9d445e5",
+      "title": "LILLESTROM VS. VIKTORIA PLZEN SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lsk-plz_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ab69d695fd",
+      "title": "NEC NIJMEGEN VS. OMONIA NICOSIA SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/nec-omon",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ef17416efe",
+      "title": "NEC NIJMEGEN VS. OMONIA NICOSIA SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/nec-omon_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3cc3da006f",
+      "title": "REAL SOCIEDAD VS. LYON SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/rso-lyon",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-14b07949f5",
+      "title": "REAL SOCIEDAD VS. LYON SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/rso-lyon_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f2e4018502",
+      "title": "SPARTA PRAGUE VS. AFC BOURNEMOUTH SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/spp-bou",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d5dca5e578",
+      "title": "SPARTA PRAGUE VS. AFC BOURNEMOUTH SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/spp-bou_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4b954c8733",
+      "title": "AGF VS. BRAGA SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/agf-scb",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-537f900dfc",
+      "title": "AGF VS. BRAGA SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/agf-scb_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d57e052c79",
+      "title": "ATALANTA VS. KAIRAT ALMATY SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ata-kai",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9744fe8639",
+      "title": "ATALANTA VS. KAIRAT ALMATY SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ata-kai_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-92c9fffa3c",
+      "title": "MIDTJYLLAND VS. AJAX AMSTERDAM SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mid-aja",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8627e77d4d",
+      "title": "MIDTJYLLAND VS. AJAX AMSTERDAM SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mid-aja_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-09d6a681c5",
+      "title": "THUN VS. HEART OF MIDLOTHIAN SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/thun-hom",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6c2c34b3f7",
+      "title": "THUN VS. HEART OF MIDLOTHIAN SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/thun-hom_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2d7e8dbff4",
+      "title": "KUPS KUOPIO VS. KAA GENT SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kups-gent",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-59b4ab0685",
+      "title": "KUPS KUOPIO VS. KAA GENT SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kups-gent_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cc6732f61a",
+      "title": "LINCOLN RED IMPS VS. HAJDUK SPLIT SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lri-haj",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9be510ee7b",
+      "title": "LINCOLN RED IMPS VS. HAJDUK SPLIT SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lri-haj_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-184faa3a92",
+      "title": "MJÄLLBY AIF VS. BORAC BANJA LUKA SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mja-bbl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d563e48293",
+      "title": "MJÄLLBY AIF VS. BORAC BANJA LUKA SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mja-bbl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-df01fbcfbf",
+      "title": "RED STAR BELGRADE VS. INTER D'ESCALDES SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rsb-ide",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-54b104a1dc",
+      "title": "RED STAR BELGRADE VS. INTER D'ESCALDES SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rsb-ide_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-931b147cfb",
+      "title": "TRABZONSPOR VS. FREIBURG SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/trab-scf",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-12f1849aef",
+      "title": "TRABZONSPOR VS. FREIBURG SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/trab-scf_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c3d2b87772",
+      "title": "AZ ALKMAAR VS. JUVENTUS SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/az-juv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1854a06db8",
+      "title": "AZ ALKMAAR VS. JUVENTUS SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/az-juv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-308daecb5d",
+      "title": "BAYER LEVERKUSEN VS. MARSEILLE SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/b04-olm",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-02894cef8b",
+      "title": "BAYER LEVERKUSEN VS. MARSEILLE SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/b04-olm_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-54c929c35d",
+      "title": "BENFICA VS. LECH POZNAN SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/slb-lech",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9773384206",
+      "title": "BENFICA VS. LECH POZNAN SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/slb-lech_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2fab040df0",
+      "title": "CELTA VIGO VS. UNION ST. GILLOISE SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-usg",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-38a3d2562b",
+      "title": "CELTA VIGO VS. UNION ST. GILLOISE SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-usg_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0fd36b0dcd",
+      "title": "CELTIC VS. BESIKTAS SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-bes",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf73fa5d84",
+      "title": "CELTIC VS. BESIKTAS SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-bes_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5b57d1f726",
+      "title": "HAPOEL BE'ER VS. OFI CRETE SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/hbe-ofi",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2c3d3d9d38",
+      "title": "HAPOEL BE'ER VS. OFI CRETE SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/hbe-ofi_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3db97c3a56",
+      "title": "STURM GRAZ VS. NK CELJE SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/stg-nkc",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fe5076a3d2",
+      "title": "STURM GRAZ VS. NK CELJE SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/stg-nkc_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-81a79f7e75",
+      "title": "SUNDERLAND VS. DINAMO ZAGREB SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/sun-dzg",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8b7036cd01",
+      "title": "SUNDERLAND VS. DINAMO ZAGREB SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/sun-dzg_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f2fd54e3ec",
+      "title": "TORREENSE VS. ARARAT ARMENIA SERVER 1 [HD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/tor-ara",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a8ad29eb73",
+      "title": "TORREENSE VS. ARARAT ARMENIA SERVER 2 [SD | EUROPA LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/tor-ara_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0cfe7b6e81",
+      "title": "MONACO VS. NORDSJÆLLAND SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mon-fcn",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-46243174f7",
+      "title": "MONACO VS. NORDSJÆLLAND SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mon-fcn_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-52e37c2b20",
+      "title": "CSU CRAIOVA VS. EGNATIA SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ucra-egn",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5fbba4ad9f",
+      "title": "CSU CRAIOVA VS. EGNATIA SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ucra-egn_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-767e24be28",
+      "title": "F.C. KØBENHAVN VS. IBERIA 1999 SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kbh-ibe",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5a2c4288c3",
+      "title": "F.C. KØBENHAVN VS. IBERIA 1999 SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kbh-ibe_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-92d35ba51e",
+      "title": "LUGANO VS. KAUNO ZALGIRIS SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lug-zal",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7fbfff48e5",
+      "title": "LUGANO VS. KAUNO ZALGIRIS SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lug-zal_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8f0345ca08",
+      "title": "TWENTE VS. PAFOS SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/twe-paf",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e411dfbf8f",
+      "title": "TWENTE VS. PAFOS SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/twe-paf_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-348b262ce8",
+      "title": "GETAFE VS. BRIGHTON & HOVE ALBION SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/get-bha",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d28a149b0e",
+      "title": "GETAFE VS. BRIGHTON & HOVE ALBION SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/get-bha_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d90b416d01",
+      "title": "PANATHINAIKOS VS. CSKA SOFIA SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/pao-cska",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a01068aba7",
+      "title": "PANATHINAIKOS VS. CSKA SOFIA SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/pao-cska_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5ce8e971ff",
+      "title": "RIGA VS. JABLONEC SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rig-jabl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c2669e0d94",
+      "title": "RIGA VS. JABLONEC SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rig-jabl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-12276045d4",
+      "title": "SINT TRUIDENSE VS. BRANN SERVER 1 [HD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/stvv-skbr",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bda54e6931",
+      "title": "SINT TRUIDENSE VS. BRANN SERVER 2 [SD | CONFERENCE LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/stvv-skbr_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f0a922cab5",
+      "title": "HAMMARBY IF VS. IF ELFSBORG SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-06/ham-elf",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-84e5ef72e4",
+      "title": "HAMMARBY IF VS. IF ELFSBORG SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-06/ham-elf_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-caabfa0efa",
+      "title": "WILLEM II VS. PEC ZWOLLE SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-06/wil-pec",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e7422b4208",
+      "title": "WILLEM II VS. PEC ZWOLLE SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-06/wil-pec_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f27185a226",
+      "title": "HAMBURG SV VS. BORUSSIA MÖNCHENGLADBACH SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-06/hsv-bmg",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4915ac3b9d",
+      "title": "HAMBURG SV VS. BORUSSIA MÖNCHENGLADBACH SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-06/hsv-bmg_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-46d117ca7d",
+      "title": "VENEZIA VS. UDINESE SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-06/ven-udi",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-00a5149b63",
+      "title": "VENEZIA VS. UDINESE SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-06/ven-udi_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-83c8f6eeb2",
+      "title": "TOULOUSE VS. STRASBOURG SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-06/tou-str",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-15663763e0",
+      "title": "TOULOUSE VS. STRASBOURG SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-06/tou-str_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d725d211ae",
+      "title": "SEVILLA VS. ALAVÉS SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-06/sev-ala",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0f4d8df567",
+      "title": "SEVILLA VS. ALAVÉS SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-06/sev-ala_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f431a534c8",
+      "title": "EVERTON VS. COVENTRY CITY SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-06/eve-cov",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1c08c355e5",
+      "title": "EVERTON VS. COVENTRY CITY SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-06/eve-cov_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4294328803",
+      "title": "ATLÉTICO DE SAN LUIS VS. JUÁREZ SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/asl-jua",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8a8e2096cf",
+      "title": "ATLÉTICO DE SAN LUIS VS. JUÁREZ SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/asl-jua_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c3713166bd",
+      "title": "NECAXA VS. TIJUANA SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/ncx-tij",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1255127d17",
+      "title": "NECAXA VS. TIJUANA SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/ncx-tij_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ab42d8909c",
+      "title": "ATLANTE VS. SANTOS SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/atl-san",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-30f3a8e619",
+      "title": "ATLANTE VS. SANTOS SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/atl-san_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a48f25b750",
+      "title": "LEEDS UNITED VS. TOTTENHAM HOTSPUR SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/lee-tot",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ca5dd6a9a8",
+      "title": "LEEDS UNITED VS. TOTTENHAM HOTSPUR SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/lee-tot_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb82aa962a",
+      "title": "MÁLAGA VS. RACING SANTANDER SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/mcf-rac",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-689c957ea9",
+      "title": "MÁLAGA VS. RACING SANTANDER SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/mcf-rac_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-def02fbe86",
+      "title": "CAGLIARI VS. FROSINONE SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/cag-fro",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3a95df333c",
+      "title": "CAGLIARI VS. FROSINONE SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/cag-fro_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a4404c5622",
+      "title": "TORINO VS. LECCE SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/tor-lec",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5d6c513022",
+      "title": "TORINO VS. LECCE SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/tor-lec_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6e9a221dd7",
+      "title": "BORUSSIA DORTMUND VS. SV ELVERSBERG SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/dor-elv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4edb64f34e",
+      "title": "BORUSSIA DORTMUND VS. SV ELVERSBERG SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/dor-elv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eaabf8eeb3",
+      "title": "MAINZ VS. BAYERN MUNICH SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/m05-bay",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d2cde5b4a5",
+      "title": "MAINZ VS. BAYERN MUNICH SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/m05-bay_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-74d2e2d95f",
+      "title": "RB LEIPZIG VS. AUGSBURG SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/rbl-fca",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-23db53d053",
+      "title": "RB LEIPZIG VS. AUGSBURG SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/rbl-fca_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf1573e9e7",
+      "title": "PADERBORN 07 VS. EINTRACHT FRANKFURT SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/scp-sge",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-de92609ff4",
+      "title": "PADERBORN 07 VS. EINTRACHT FRANKFURT SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/scp-sge_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d92e50f00a",
+      "title": "ARSENAL VS. HULL CITY SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ars-hul",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eeec89d04d",
+      "title": "ARSENAL VS. HULL CITY SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ars-hul_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-aaba07b015",
+      "title": "FULHAM VS. NEWCASTLE UNITED SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ful-new",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8efc2a12b1",
+      "title": "FULHAM VS. NEWCASTLE UNITED SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ful-new_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a309275f9c",
+      "title": "ESPANYOL VS. DEPORTIVO SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/esp-dep",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-48943808c8",
+      "title": "ESPANYOL VS. DEPORTIVO SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/esp-dep_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a5a07e96d9",
+      "title": "FORTUNA SITTARD VS. TELSTAR SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/for-tel",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-84abcbb2d7",
+      "title": "FORTUNA SITTARD VS. TELSTAR SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/for-tel_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-00d0572372",
+      "title": "AJ AUXERRE VS. PARIS SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/aux-par",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-70145d5864",
+      "title": "AJ AUXERRE VS. PARIS SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/aux-par_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-826e481327",
+      "title": "DEGERFORS IF VS. GAIS SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/deg-gais",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-88378975ae",
+      "title": "DEGERFORS IF VS. GAIS SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/deg-gais_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8f84c7c697",
+      "title": "ÖRGRYTE IS VS. VÄSTERÅS SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/org-vas",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3f19f8664b",
+      "title": "ÖRGRYTE IS VS. VÄSTERÅS SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/org-vas_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-affbe9880c",
+      "title": "PARMA VS. BOLOGNA SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/par-bol",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5f1714c89d",
+      "title": "PARMA VS. BOLOGNA SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/par-bol_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0cf7e4e54e",
+      "title": "OSASUNA VS. ATHLETIC BILBAO SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/osa-ath",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-61ca7d0747",
+      "title": "OSASUNA VS. ATHLETIC BILBAO SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/osa-ath_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e3ef16384f",
+      "title": "VFB STUTTGART VS. WERDER BREMEN SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/vfb-svw",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-105ffe0208",
+      "title": "VFB STUTTGART VS. WERDER BREMEN SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/vfb-svw_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f368bab454",
+      "title": "NOTTINGHAM FOREST VS. MAN CITY SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/nfo-mci",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0c94a4d1cd",
+      "title": "NOTTINGHAM FOREST VS. MAN CITY SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/nfo-mci_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-47a38990d6",
+      "title": "ADO DEN HAAG VS. SPARTA ROTTERDAM SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/ado-spa",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-822d26179f",
+      "title": "ADO DEN HAAG VS. SPARTA ROTTERDAM SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/ado-spa_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf9c7eec33",
+      "title": "ROMA VS. SASSUOLO SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/roma-sas",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-29746935e3",
+      "title": "ROMA VS. SASSUOLO SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/roma-sas_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4142694b9c",
+      "title": "PARIS SAINT GERMAIN VS. TROYES SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/psg-try",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0efdd96dbb",
+      "title": "PARIS SAINT GERMAIN VS. TROYES SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/psg-try_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6dd73343a8",
+      "title": "VALENCIA VS. REAL MADRID SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/val-rma",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-aa76111c0c",
+      "title": "VALENCIA VS. REAL MADRID SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/val-rma_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3a3024a527",
+      "title": "EXCELSIOR VS. GO AHEAD EAGLES SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/exc-gae",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ca6c6bec8f",
+      "title": "EXCELSIOR VS. GO AHEAD EAGLES SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/exc-gae_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0c6bcd92d4",
+      "title": "MONTRÉAL VS. VANCOUVER WHITECAPS SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mtl-van",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d398e5a721",
+      "title": "MONTRÉAL VS. VANCOUVER WHITECAPS SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mtl-van_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-616db971b0",
+      "title": "CHICAGO FIRE VS. COLUMBUS CREW SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/chi-clb",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-79c1fc5d32",
+      "title": "CHICAGO FIRE VS. COLUMBUS CREW SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/chi-clb_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0bb09db8d6",
+      "title": "D.C. UNITED VS. NEW YORK CITY SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dc-nyc",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bfa8b04329",
+      "title": "D.C. UNITED VS. NEW YORK CITY SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dc-nyc_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5237b8faed",
+      "title": "CINCINNATI VS. NASHVILLE SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/cin-nsh",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1528b315c6",
+      "title": "CINCINNATI VS. NASHVILLE SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/cin-nsh_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-93ba73a26b",
+      "title": "INTER MIAMI VS. CHARLOTTE SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mia-clt",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-33cb48cfa9",
+      "title": "INTER MIAMI VS. CHARLOTTE SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mia-clt_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-71921285e9",
+      "title": "ORLANDO CITY VS. NEW ENGLAND REVOLUTION SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/orl-ne",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7f623e3b30",
+      "title": "ORLANDO CITY VS. NEW ENGLAND REVOLUTION SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/orl-ne_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2b907fcd6e",
+      "title": "PHILADELPHIA UNION VS. TORONTO SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/phi-tor",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e55a492062",
+      "title": "PHILADELPHIA UNION VS. TORONTO SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/phi-tor_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d8717077c4",
+      "title": "RED BULL NEW YORK VS. ATLANTA UNITED SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rbny-atl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9bc190be77",
+      "title": "RED BULL NEW YORK VS. ATLANTA UNITED SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rbny-atl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ef7df7c47c",
+      "title": "ATLAS VS. PACHUCA SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/ats-pac",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e9fa1b123d",
+      "title": "ATLAS VS. PACHUCA SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/ats-pac_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e19f3f8585",
+      "title": "TIGRES UANL VS. CRUZ AZUL SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/uanl-caz",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d370672d7f",
+      "title": "TIGRES UANL VS. CRUZ AZUL SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/uanl-caz_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a0f1fd012a",
+      "title": "AUSTIN VS. PORTLAND TIMBERS SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/atx-por",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4eb7324324",
+      "title": "AUSTIN VS. PORTLAND TIMBERS SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/atx-por_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-77dab506b2",
+      "title": "DALLAS VS. COLORADO RAPIDS SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dal-col",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e8b6866c95",
+      "title": "DALLAS VS. COLORADO RAPIDS SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dal-col_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4dd8030099",
+      "title": "HOUSTON DYNAMO VS. ST. LOUIS CITY SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/hou-stl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1a8bed3f6a",
+      "title": "HOUSTON DYNAMO VS. ST. LOUIS CITY SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/hou-stl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8aa660c343",
+      "title": "MINNESOTA UNITED VS. SAN JOSE EARTHQUAKES SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/min-sj",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c9b07b2dab",
+      "title": "MINNESOTA UNITED VS. SAN JOSE EARTHQUAKES SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/min-sj_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b6d34f719f",
+      "title": "REAL SALT LAKE VS. LA GALAXY SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rsl-la",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a3aae59aba",
+      "title": "REAL SALT LAKE VS. LA GALAXY SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rsl-la_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7243ed845c",
+      "title": "SAN DIEGO VS. SPORTING KANSAS CITY SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sd-skc",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5400905d59",
+      "title": "SAN DIEGO VS. SPORTING KANSAS CITY SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sd-skc_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1d7b83a2b0",
+      "title": "SEATTLE SOUNDERS VS. LAFC SERVER 1 [HD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sea-lafc",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0a5484584a",
+      "title": "SEATTLE SOUNDERS VS. LAFC SERVER 2 [SD | APPLE TV]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sea-lafc_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3cd1c164bf",
+      "title": "TOLUCA VS. MONTERREY SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/tol-mty",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d57bc0bced",
+      "title": "TOLUCA VS. MONTERREY SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/tol-mty_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-20b3da6d10",
+      "title": "PUMAS UNAM VS. AMÉRICA SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/unam-ame",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3a364fb867",
+      "title": "PUMAS UNAM VS. AMÉRICA SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/unam-ame_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-897e548e9f",
+      "title": "HEERENVEEN VS. FEYENOORD ROTTERDAM SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/hee-fey",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-37105487b4",
+      "title": "HEERENVEEN VS. FEYENOORD ROTTERDAM SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/hee-fey_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b4671fb95b",
+      "title": "NAPOLI VS. LAZIO SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/nap-laz",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1f1fe7e174",
+      "title": "NAPOLI VS. LAZIO SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/nap-laz_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ac1e5310de",
+      "title": "ELCHE VS. REAL BETIS SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/elc-bet",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7e67047bac",
+      "title": "ELCHE VS. REAL BETIS SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/elc-bet_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d8aed7c611",
+      "title": "HALMSTADS BK VS. DJURGÅRDEN SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/hbk-dju",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cc9b145ed6",
+      "title": "HALMSTADS BK VS. DJURGÅRDEN SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/hbk-dju_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c35f17f78f",
+      "title": "IFK GÖTEBORG VS. MALMÖ FF SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/got-mal",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d8677037b8",
+      "title": "IFK GÖTEBORG VS. MALMÖ FF SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/got-mal_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-49b3cffe18",
+      "title": "TWENTE VS. AJAX AMSTERDAM SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/twe-aja",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4703560bbb",
+      "title": "TWENTE VS. AJAX AMSTERDAM SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/twe-aja_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c22139613a",
+      "title": "BRIGHTON & HOVE ALBION VS. BRENTFORD SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/bha-bre",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a2ad8e92d8",
+      "title": "BRIGHTON & HOVE ALBION VS. BRENTFORD SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/bha-bre_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-201ba3033d",
+      "title": "CRYSTAL PALACE VS. LIVERPOOL SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/cry-liv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-18b88c2e73",
+      "title": "CRYSTAL PALACE VS. LIVERPOOL SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/cry-liv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-65f9d4fbda",
+      "title": "IPSWICH TOWN VS. AFC BOURNEMOUTH SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/ips-bou",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9a1b06fdec",
+      "title": "IPSWICH TOWN VS. AFC BOURNEMOUTH SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/ips-bou_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-33e902e867",
+      "title": "SUNDERLAND VS. CHELSEA SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/sun-che",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a3295de5d6",
+      "title": "SUNDERLAND VS. CHELSEA SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/sun-che_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9d9069eb48",
+      "title": "GENOA VS. MILAN SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/gen-mil",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-efdcace9e2",
+      "title": "GENOA VS. MILAN SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/gen-mil_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a71eef0fbd",
+      "title": "MONZA VS. ATALANTA SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/mon-ata",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8870ba0a74",
+      "title": "MONZA VS. ATALANTA SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/mon-ata_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f31ebf70b9",
+      "title": "STADE RENNAIS VS. LILLE SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ren-lill",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-17cbde30fc",
+      "title": "STADE RENNAIS VS. LILLE SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ren-lill_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-38fddb243e",
+      "title": "COLOGNE VS. BAYER LEVERKUSEN SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/koe-b04",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3419c5ae8c",
+      "title": "COLOGNE VS. BAYER LEVERKUSEN SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/koe-b04_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4cf3dc51f9",
+      "title": "REAL SOCIEDAD VS. RAYO VALLECANO SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/rso-ray",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-08f13d64c9",
+      "title": "REAL SOCIEDAD VS. RAYO VALLECANO SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/rso-ray_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fed9d65ef6",
+      "title": "AIK VS. BK HÄCKEN SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/aik-bkh",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8b02713e92",
+      "title": "AIK VS. BK HÄCKEN SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/aik-bkh_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e8a2c2b384",
+      "title": "IF BROMMAPOJKARNA VS. MJÄLLBY AIF SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/bro-mja",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e0f2c69540",
+      "title": "IF BROMMAPOJKARNA VS. MJÄLLBY AIF SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/bro-mja_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5191af86bf",
+      "title": "KALMAR FF VS. IK SIRIUS SERVER 1 [HD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/kff-sir",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-888aa4c7da",
+      "title": "KALMAR FF VS. IK SIRIUS SERVER 2 [SD | TV4 PLAY]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/kff-sir_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bbd286059e",
+      "title": "AZ ALKMAAR VS. GRONINGEN SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/az-gro",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a2cc8b5598",
+      "title": "AZ ALKMAAR VS. GRONINGEN SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/az-gro_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-eaf90c7fe2",
+      "title": "CAMBUUR VS. PSV EINDHOVEN SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/cam-psv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c838786b13",
+      "title": "CAMBUUR VS. PSV EINDHOVEN SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/cam-psv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5ccbae0432",
+      "title": "ANGERS VS. NICE SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ang-nice",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1dfa54afa2",
+      "title": "ANGERS VS. NICE SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ang-nice_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b9ef8b0197",
+      "title": "BREST VS. LYON SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/bre-lyon",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6f387f28ac",
+      "title": "BREST VS. LYON SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/bre-lyon_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3f6f009fdb",
+      "title": "LE HAVRE VS. LORIENT SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/hac-lor",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-883a68c07b",
+      "title": "LE HAVRE VS. LORIENT SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/hac-lor_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1722349b2f",
+      "title": "LE MANS VS. MONACO SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/mns-mon",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-abd9194f36",
+      "title": "LE MANS VS. MONACO SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/mns-mon_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fe37990240",
+      "title": "FREIBURG VS. 1. UNION BERLIN SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/scf-fcu",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1f9ffc5262",
+      "title": "FREIBURG VS. 1. UNION BERLIN SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/scf-fcu_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66250d9bf5",
+      "title": "MAN UTD VS. ASTON VILLA SERVER 1 [HD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/mun-avl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ab9f1d7cec",
+      "title": "MAN UTD VS. ASTON VILLA SERVER 2 [SD | PREMIER LEAGUE]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/mun-avl_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d26c4ee439",
+      "title": "INTER VS. COMO SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/int-como",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-67e0c50c37",
+      "title": "INTER VS. COMO SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/int-como_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c707283f63",
+      "title": "CELTA VIGO VS. LEVANTE SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/cel-lev",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-fe2f9c00db",
+      "title": "CELTA VIGO VS. LEVANTE SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/cel-lev_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-050909dbff",
+      "title": "VILLARREAL VS. GETAFE SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/vil-get",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e2db7621c3",
+      "title": "VILLARREAL VS. GETAFE SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/vil-get_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cb388effa2",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 SERVER 1 [HD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-20982a2e79",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 SERVER 2 [SD | BUNDESLIGA]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5574349cbe",
+      "title": "UTRECHT VS. NEC NIJMEGEN SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-290d25794e",
+      "title": "UTRECHT VS. NEC NIJMEGEN SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0324c93ffb",
+      "title": "FIORENTINA VS. JUVENTUS SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1dc528d986",
+      "title": "FIORENTINA VS. JUVENTUS SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4d5799eed3",
+      "title": "LENS VS. MARSEILLE SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f69e5a7b75",
+      "title": "LENS VS. MARSEILLE SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f92c54dd86",
+      "title": "ATLÉTICO MADRID VS. BARCELONA SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-85f06fbe29",
+      "title": "ATLÉTICO MADRID VS. BARCELONA SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-45ad96c17c",
+      "title": "QUERÉTARO VS. PUEBLA SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/qro-pue",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c8b0eec062",
+      "title": "QUERÉTARO VS. PUEBLA SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/qro-pue_540p",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-8e88085a6b",
+      "title": "LEÓN VS. GUADALAJARA SERVER 1 [HD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/leo-gdl",
+      "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd0771b679",
+      "title": "LEÓN VS. GUADALAJARA SERVER 2 [SD | LIGA MX]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/leo-gdl_540p",
+      "type": "IFRAME",
       "category": "Sports"
     }
   ]

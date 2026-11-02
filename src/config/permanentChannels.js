@@ -96,7 +96,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Portugal",
     "countryFlag": "https://flagcdn.com/w80/pt.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu213.click/checklist/androstreamlivesm1.m3u8",
+    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivesm1.m3u8",
     "isPermanent": true
   },
   {
@@ -196,7 +196,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Bulgaria",
     "countryFlag": "https://flagcdn.com/w80/bg.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu213.click/checklist/androstreamliveexn5.m3u8",
+    "url": "https://andro.evrenesoglu233.click/checklist/androstreamliveexn5.m3u8",
     "isPermanent": true
   },
   {
