@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:30:01.297Z",
+  "updatedAt": "2026-11-02T19:38:27.202Z",
   "channels": [
     {
       "id": "live-62e469a170",
@@ -188,87 +188,6 @@
       "source": "socolive",
       "streamUrl": "https://pull06.scstream.net/live/stream-9912135_lhd.flv?auth_key=1793645220-0-0-e9735f887e2ed23c67182a883ee3d44b",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66117c150f",
-      "title": "GENCLERBIRLIGI VS ALANYASPOR",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHR9GHiRHTLrj.m3u8?txSecret=553ec7c9cb15b07657ba06c79c043420&txTime=6AE8CDC7&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-872ecea047",
-      "title": "REAL VALLADOLID VS LEGANES",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaARk4H641eYfiw.m3u8?txSecret=9f33a6293ae5d9f10c07cf68564d2936&txTime=6AE8CDC8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b46e4529b8",
-      "title": "SPORT HUANCAYO VS FBC MELGAR",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpxf4KHzR3ew5d9.m3u8?txSecret=775bfa3ba5e0c654f40411076f4784a7&txTime=6AE8CDC8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bcaafb3897",
-      "title": "TEUTA DURRES VS PARTIZANI TIRANA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6s4Qt4RfhcDF8b.m3u8?txSecret=993af697df79811b477c2debbda69a4f&txTime=6AE8CDC9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-72942e3b8e",
-      "title": "ALL BOYS VS CLUB ATLETICO ESTUDIANTES",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYqjis24a5tw3yZH.m3u8?txSecret=a3b2e655fe6bcbf6c9d62ee1e3537594&txTime=6AE8CDC9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5079b5cc80",
-      "title": "TRACTOR S C VS NEFTCHI FERGANA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCTxLaRrg5PcB.m3u8?txSecret=9c8dab6170d33b61e5e0e57bcc6ef5a2&txTime=6AE8CDCA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-b187ca5270",
-      "title": "AL WASL VS AL QUWA AL JAWIYA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCUHb8XzPkwXd.m3u8?txSecret=3716ae2c7050d2d286da561230c3f9dd&txTime=6AE8CDCA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cbda11f4df",
-      "title": "AL SADD VS AL AHLI",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCUTBD7BmmoLT.m3u8?txSecret=22d4c410f6d262f8b6c32463b4ac5f0c&txTime=6AE8CDCA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f29e242aca",
-      "title": "ARDA VS SEPTEMVRI SOFIA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqBccPP8wJjgZVH.m3u8?txSecret=90a3c4dc68e85d14f9bc13d158352541&txTime=6AE8CDD8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -692,96 +611,6 @@
       "source": "socolive",
       "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=11bc486626c1b7c9fe75b3c1940ca1af&txTime=6ae92789",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-66117c150f",
-      "title": "GENCLERBIRLIGI VS ALANYASPOR",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHR9GHiRHTLrj.m3u8?txSecret=078b4aaf0512bdfd0559bfb57c695fdd&txTime=6AE8D49B&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9534def86d",
-      "title": "SONDERJYSKE VS COPENHAGEN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mwdpnt5ucfKueP8Vm.m3u8?txSecret=bd2579d77a14971eccbb2774aa77f2f6&txTime=6AE8D49D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cd73a33294",
-      "title": "GAIS VS AIK",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWoszNXGLU1D.m3u8?txSecret=cb394c909cadf2e0585e0f016fe03d43&txTime=6AE8D49D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cbf48d3b75",
-      "title": "MJALLBY AIF VS KALMAR",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWovBrPkAPA7.m3u8?txSecret=0959be3a496098200cdca9441045a1b8&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-872ecea047",
-      "title": "REAL VALLADOLID VS LEGANES",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaARk4H641eYfiw.m3u8?txSecret=0fb34c60f9fc349744ec5b40e374ff00&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-bcaafb3897",
-      "title": "TEUTA DURRES VS PARTIZANI TIRANA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6s4Qt4RfhcDF8b.m3u8?txSecret=6b99cca8d57a3fe2ef56b79d8ffc33a8&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-f29e242aca",
-      "title": "ARDA VS SEPTEMVRI SOFIA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqBccPP8wJjgZVH.m3u8?txSecret=202dc443a5f82bbb97d3b7caeffec927&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-80540f7bff",
-      "title": "HAPOEL RAMAT GAN VS MACCABI TEL AVIV",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq5CWnCAezmRafZ.m3u8?txSecret=30e4979d9cded834cb7b5f73488d5766&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0e0a9d5a5a",
-      "title": "ASHDOD MS VS BNEI YEHUDA TEL AVIV",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq1rNdnim6th5f5.m3u8?txSecret=22d8199d6c3c561a829cecf3568680e5&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e48888edd2",
-      "title": "HAPOEL KFAR SHALEM VS IRONI MODIIN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq1qcKDrSHFmMqH.m3u8?txSecret=5ecb1770208bd186b1678968fbc10cbb&txTime=6AE8D4A0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -4255,6 +4084,348 @@
       "source": "ppvstreams",
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/leo-gdl_540p",
       "type": "IFRAME",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0c6e2d11e3",
+      "title": "HERACLES ALMELO VS OSS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpuQnZ3zHTaRjWw.m3u8?txSecret=b464ee09f809553f7144f3c8820635f3&txTime=6AE8E6E7&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a346605e8f",
+      "title": "AJAX AMSTERDAM U21 VS VITESSE ARNHEM",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpuQnZCnCwVjQ8X.m3u8?txSecret=221373cad81a7225b6098d2a375f63a8&txTime=6AE8E6E8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f5b72dc545",
+      "title": "JONG PSV EINDHOVEN YOUTH VS NAC BREDA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpuQnZAaj51uUyd.m3u8?txSecret=091b7a6a0a16ac9ebcc3b7f7edcd3a49&txTime=6AE8E6E9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-99a8975670",
+      "title": "UTRECHT YOUTH VS DORDRECHT",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdpuQnZHBAgTPESK.m3u8?txSecret=d7848fdaf055499adf1bd9b9fd027f26&txTime=6AE8E6E9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9534def86d",
+      "title": "SONDERJYSKE VS COPENHAGEN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpnt5ucfKueP8Vm.m3u8?txSecret=356d358e4d3c127772b42b9cc6c2f574&txTime=6AE8E6E9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd73a33294",
+      "title": "GAIS VS AIK",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWoszNXGLU1D.m3u8?txSecret=16362a4ae5ed3f8a84fbfa1bd5e58722&txTime=6AE8E6EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cbf48d3b75",
+      "title": "MJALLBY AIF VS KALMAR",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWovBrPkAPA7.m3u8?txSecret=0bce0f8cd63c4163990eb8101ee23d82&txTime=6AE8E6EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-21c3fb2697",
+      "title": "UTC CAJAMARCA VS DEPORTIVO GARCILASO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdpxf4ehLSfHvJAB.m3u8?txSecret=42d5264bea5a230488f73431c86899a6&txTime=6AE8E6EA&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2ed53451c4",
+      "title": "CHACARITA JUNIORS VS NUEVA CHICAGO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYqjis26mZmQstiB.m3u8?txSecret=df58df636a1f93715dd4beaf3217a87e&txTime=6AE8E6EB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-46814a7e65",
+      "title": "ATLETICO RAFAELA VS PATRONATO PARANA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvYqjis28y3dthos5.m3u8?txSecret=f80678ac5ce678f9affb8b0c37dcf0f3&txTime=6AE8E6EB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b7d70180e",
+      "title": "COMUNICACIONES BSAS VS TALLERES REM DE ESCALADA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVdDKtrWkQh1kLWB.m3u8?txSecret=bdce3c3ac5c2811e1b92086f9983b3bb&txTime=6AE8E6EB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-60861b19fa",
+      "title": "SAN MARTIN BURZACO VS UAI URQUIZA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVdDKtr6a87jfFpK.m3u8?txSecret=56af8f1e933ec1d6ee4c5d7512f78a28&txTime=6AE8E6EB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9b07d6909d",
+      "title": "LINIERS VS ITUZAINGO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVdDKtr8mbzDVAyD.m3u8?txSecret=a9b1e1f21af22b470429ec832edfe760&txTime=6AE8E6EC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-be4a50ff11",
+      "title": "ARGENTINO DE QUILMES VS BROWN ADROGUE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVdDKtrQ9y5aGb3V.m3u8?txSecret=cb3fbc58361e53753cbcaf8d1a511015&txTime=6AE8E6EC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ab404b7242",
+      "title": "DEFENSORES UNIDOS VS DEPORTIVO LAFERRERE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVdDKtrUYvpXvRMH.m3u8?txSecret=70f1c81ded0ba168624e345a2b91d371&txTime=6AE8E6EC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ba66c39298",
+      "title": "AL GHARAFA VS AL QADSIAH",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCUnKAmi3yboD.m3u8?txSecret=e1b8d3b450fe4cbbbb223b6b7b714957&txTime=6AE8E6ED&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-917ba3a725",
+      "title": "AL ITTIHAD VS AL AIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCTHLtyGzyNmd.m3u8?txSecret=6523e5d687b6ee5fcc86ad7d37c288c6&txTime=6AE8E6ED&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6e474a1a9e",
+      "title": "FORTALEZA VS ATLETICO CLUBE GOIANIENSE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvVNfQxdj2tzHduBm.m3u8?txSecret=ea2c1c5ae7d4420d1dd7cbd141ee9e0e&txTime=6AE8E6ED&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3ccc61c72e",
+      "title": "INDEPENDIENTE YUMBO VS BOCA JUNIORS DE CALI",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk4GEyCicw9R6P9H.m3u8?txSecret=28a941b644bb66eefc6f4a217a4cb36f&txTime=6AE8E6EE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-80540f7bff",
+      "title": "HAPOEL RAMAT GAN VS MACCABI TEL AVIV",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq5CWnCAezmRafZ.m3u8?txSecret=ee77b8a0eac70488fe415c6e3dd229bf&txTime=6AE8E6EE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3deb0efc89",
+      "title": "FIORENTINA WOMEN VS JUVENTUS WOMEN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwarY7oDvyrrFswzo.m3u8?txSecret=8c596d1d0a579b5208dd4a47e7a1b6ff&txTime=6AE8E6EE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-337fb2596c",
+      "title": "JUVENTUS U23 VS PRO VERCELLI",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy7h1J1XKMfJJK.m3u8?txSecret=92efc78c536ab549050504659ac1491b&txTime=6AE8E6EF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-96a2094186",
+      "title": "CASARANO VS FOGGIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZupUdvh7qyMPv7.m3u8?txSecret=8bdc650f9c8fc5c5b822e2ad5769cf63&txTime=6AE8E6EF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f481dac391",
+      "title": "NOVARA VS DESENZANO CALVINA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxiZy7h1NQV4KK8c7.m3u8?txSecret=5039521280f08045f131de3e8600d754&txTime=6AE8E6EF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b0641084c5",
+      "title": "PENAFIEL VS FEIRENSE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweKnKJtE3KMFBnsh.m3u8?txSecret=611fc44c4d60e5f4d83b21a12dc86887&txTime=6AE8E6EF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4171f62621",
+      "title": "NEWCASTLE UNITED VS EVERTON",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdqQiGo41Ge6zfHq.m3u8?txSecret=fbcb3336de9db9c40b9c4041483e7b5c&txTime=6AE8E6F0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-87207df6ed",
+      "title": "BENFICA VS ALVERCA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweLB37D1d4EdQaNb.m3u8?txSecret=88b5710cd9359fb6d465bc6c4c1c448a&txTime=6AE8E6F0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5f559fd4dc",
+      "title": "GALATASARAY VS VFB STUTTGART",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSWNfzv8HfCT.m3u8?txSecret=75408cb3f12480a507fd83d6dc1cd42c&txTime=6AE8E712&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-210d89cdea",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXQqUYJTNqKyy.m3u8?txSecret=e49c8d1e550033cbb8a330caec6779d7&txTime=6AE8E712&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-aeb2ea57ae",
+      "title": "KONGSVINGER VS STABAEK",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EUgiNrFMP2PKD.m3u8?txSecret=678fc5b831a81fa64f502ce5fa9c4300&txTime=6AE8E7C6&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9e2639d5f9",
+      "title": "STAL RZESZOW VS PUSZCZA NIEPOLOMICE",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7AkeTnwJA3q9q.m3u8?txSecret=cf48b0ba3d6aae7afdfc6832828261ee&txTime=6AE8E7C7&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-05b7cb9296",
+      "title": "LKS LODZ VS POLONIA WARSZAWA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7AkeK11pEkAYF.m3u8?txSecret=ab360d0dbab1928a2cff4259d2ff4c31&txTime=6AE8E7C8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-5c9514a0df",
+      "title": "UNIVERSITATEA CLUJ VS FOTBAL CLUB FCSB",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaAUhACqXMaDiaK.m3u8?txSecret=2c273c94fd4a5d9841de37bcc20f4a32&txTime=6AE8E7C8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0475a7817a",
+      "title": "OSTERS IF VS HELSINGBORGS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ZxwkrHzLGtgto.m3u8?txSecret=a8b663ce08d00fd26b74dff48306d43c&txTime=6AE8E7C8&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-49a56ae37a",
+      "title": "LANDSKRONA BOIS VS OREBRO",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6ZxxbUFVyoqUh5.m3u8?txSecret=b62e90f2eb720504bef2e8a126a67ae9&txTime=6AE8E7C9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7d8005f83c",
+      "title": "DEPORTIVO VS OSASUNA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MweaGxTXxPiWKGu1R.m3u8?txSecret=c37eee828363f7b03e1dc8604d65fa3c&txTime=6AE8E7DE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f3d0935d25",
+      "title": "LORIENT VS STADE BRESTOIS 29",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6MwdpxgYThnwrijeUo.m3u8?txSecret=ba81794ca9d3ce1d493233c65c2c29c4&txTime=6AE8E7DE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2e658ea0c5",
+      "title": "GIL VICENTE VS VITORIA GUIMARAES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweLB37DAQyiYiEzB.m3u8?txSecret=d0fbde020e3fea7dd85e79532faad9de&txTime=6AE8E7DE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
       "category": "Sports"
     }
   ]
