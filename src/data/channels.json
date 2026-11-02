@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T17:48:20.390Z",
+  "updatedAt": "2026-11-02T19:29:47.308Z",
   "channels": [
     {
       "id": "live-62e469a170",
@@ -7,267 +7,6 @@
       "status": "live",
       "source": "futbolx",
       "streamUrl": "https://hey.futx.nx.kg/aln/index.m3u8?token=656e0f0f4dc8b1df62c303e081cb5e12e13de0ab-50583f38e23ea5327809f790365a8b39-1793642393-1793641193&remote=no_check_ip",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c02574ee53",
-      "title": "AL SADD VS AL AHLI [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCUTBD7Bmn8DC.m3u8?txSecret=5c7b0c4907097db19da6425c507671fb&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-e7f875296c",
-      "title": "AL SADD VS AL AHLI [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703048_1.m3u8?txSecret=d5bc622a183320ba83b3d4f5c98287b0&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07691b7821",
-      "title": "AL SADD VS AL AHLI [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703048_2.m3u8?txSecret=0c893563ecdb092bb425e8fe1b8e4a81&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-2da896b9ea",
-      "title": "AL SADD VS AL AHLI [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCUTBD7Bmn8DC.m3u8?txSecret=9cab14a3e6ffad3cbfb29c124600de47&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-07fdd9d8d7",
-      "title": "AL SADD VS AL AHLI [SERVER 5 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703048_3.m3u8?txSecret=c89ef521196a7c371dbbc33a012bcfc6&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-d6fc723d43",
-      "title": "TRACTOR VS NEFTCHI FERGANA [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCTxLaRrg5iUv.m3u8?txSecret=2223ee246ec57db0bacc417595bfc4b3&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9fe5d3a5ed",
-      "title": "TRACTOR VS NEFTCHI FERGANA [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703030_1.m3u8?txSecret=1a0964d3089ba8f0774817fd697f2950&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-896e538ec1",
-      "title": "TRACTOR VS NEFTCHI FERGANA [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703030_2.m3u8?txSecret=2f1b1991eee1dea2dd9d1a74d170f245&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-7186a3d520",
-      "title": "TRACTOR VS NEFTCHI FERGANA [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCTxLaRrg5iUv.m3u8?txSecret=933c582e2b2b4f5cc2e7e0000c625ac2&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-0f21e49a80",
-      "title": "AL WASL VS AL QUWA AL JAWIYA [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCUHb8XzPmGQN.m3u8?txSecret=bdb4fcb68516dd8f4445265a3a9b26c5&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a4d9971522",
-      "title": "AL WASL VS AL QUWA AL JAWIYA [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703029_1.m3u8?txSecret=1145a7ac457047024a6a971f728f9f6c&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-5f9dd8f7ef",
-      "title": "AL WASL VS AL QUWA AL JAWIYA [SERVER 3 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5703029_2.m3u8?txSecret=c78e9dbd06763ac3bcb0087f68c8145f&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-407596e9b7",
-      "title": "AL WASL VS AL QUWA AL JAWIYA [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCUHb8XzPmGQN.m3u8?txSecret=2cb2ad624fb35efb92c86a2155572144&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-167fe17b7c",
-      "title": "SASSUOLO VS FIORENTINA [SERVER 1 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mwe5jaUYz3uyjNMt2.m3u8?txSecret=980a26956f0a4e41e6c71f39e49c0cf6&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ea574456f9",
-      "title": "SASSUOLO VS FIORENTINA [SERVER 2 - SD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5605025_1.m3u8?txSecret=87411f49e11c273e44d477ca5fa50372&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-22c91a9f63",
-      "title": "SASSUOLO VS FIORENTINA [SERVER 3 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaUYz3uyjNMt2.m3u8?txSecret=4db7bf0eaa3e4623d90660450aebdc14&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c09cf19429",
-      "title": "SASSUOLO VS FIORENTINA [SERVER 4 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5605025_2.m3u8?txSecret=564c895fe1e3485873f67b912b9078ce&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1c95e2d408",
-      "title": "GENCLERBIRLIGI VS ALANYASPOR [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwb6hHR9GHiRHTfjU.m3u8?txSecret=ce28d39bd0cf1beda3eaa113ecec3420&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-755363d991",
-      "title": "GENCLERBIRLIGI VS ALANYASPOR [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5605039_1.m3u8?txSecret=b5471f208421aeba37e6074ea8ff556f&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a05184d22f",
-      "title": "KALAMATA VS IRAKLIS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvGx1B6f4Dc.m3u8?txSecret=e7ef645ddfeac861284efd7bb9f9748e&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-1ef00f2145",
-      "title": "KALAMATA VS IRAKLIS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601221_1.m3u8?txSecret=54c3cf889d8eb516d22fb1cb19d8975a&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-eef8c309cb",
-      "title": "ATROMITOS ATHENS VS VOLOS NPS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvmXFVLPyDG.m3u8?txSecret=013833a80e31f74cbff003e7620e9677&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-cdd0419d13",
-      "title": "ATROMITOS ATHENS VS VOLOS NPS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601222_1.m3u8?txSecret=0834313004df9f5d9d3b9610de97e7ca&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a13d17bae1",
-      "title": "RADOMIAK RADOM VS SLASK WROCLAW [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqMR56JPX3bXw5x.m3u8?txSecret=7ab73c3c57dfe70bf6ce5659d0973157&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-ce208dd2e7",
-      "title": "RADOMIAK RADOM VS SLASK WROCLAW [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601347_1.m3u8?txSecret=bc97f4e8f1eeffc8cda0355cdf0f2be3&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-c5c042eb45",
-      "title": "ZAGLEBIE LUBIN VS KORONA KIELCE [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqMR5bnPNArGvRU.m3u8?txSecret=87216a11ced37c8e792d70a6dc6adcc4&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-91f5fd87db",
-      "title": "ZAGLEBIE LUBIN VS KORONA KIELCE [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601342_1.m3u8?txSecret=bfa654a5705a8214ebf4aed26ad1a1be&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-45aa9fe08c",
-      "title": "ALL BOYS VS ESTUDIANTES DE CASEROS [SERVER 1 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjis24a5tw4JS2.m3u8?txSecret=0f25daa6f0c387f09ac07e8eaf79d9e7&txTime=6AEE11E0",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a30a48dc6f",
-      "title": "ALL BOYS VS ESTUDIANTES DE CASEROS [SERVER 2 - HD]",
-      "status": "live",
-      "source": "livelive24",
-      "streamUrl": "https://pulltx.cqsycw.com/live/202_5546568_1.m3u8?txSecret=52da861cf2242e8e5ab8e0e83986682a&txTime=6AEE11E0",
       "type": "HLS",
       "category": "Sports"
     },
@@ -1501,6 +1240,303 @@
       "status": "live",
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001791328962-0-0-f800a29ee7ce6b28a104d775039d78cd",
+      "category": "Sports"
+    },
+    {
+      "id": "live-927709d28d",
+      "title": "AL GHARAFA VS AL QADSIAH [SERVER 4 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCUnKAmi3yvfx.m3u8?txSecret=7420438f2fb1a000bb316ebe2653f193&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-213ea02b97",
+      "title": "AL ITTIHAD VS AL AIN [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mxj4TCTHLtyGzyheN.m3u8?txSecret=d2aec87ac1fddb16c4ee8d5beabd6cdb&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-19feb58bb7",
+      "title": "AL ITTIHAD VS AL AIN [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5710485_1.m3u8?txSecret=adf72b5e63a84ea111d3d22722c05c64&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f06a14139e",
+      "title": "AL ITTIHAD VS AL AIN [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mxj4TCTHLtyGzyheN.m3u8?txSecret=395b4469ddc575e346170aa582f59828&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9fbaad9692",
+      "title": "SASSUOLO VS FIORENTINA [SERVER 1 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/hd-en-6Mwe5jaUYz3uyjNMt2.m3u8?txSecret=814140ff579a56ee3c94bc0e4f5ae0dd&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-20d6c467a0",
+      "title": "SASSUOLO VS FIORENTINA [SERVER 2 - SD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5605025_1.m3u8?txSecret=b8e90281a47d90512776820603c76e26&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9521764a39",
+      "title": "SASSUOLO VS FIORENTINA [SERVER 3 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwe5jaUYz3uyjNMt2.m3u8?txSecret=d63b463da1309f7559e0bd721962301f&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e056b0d229",
+      "title": "SASSUOLO VS FIORENTINA [SERVER 4 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5605025_2.m3u8?txSecret=57622152cad46617e58176a4d10af004&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-49eea3c999",
+      "title": "GAIS VS AIK [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6EPWoszNXGLnsx.m3u8?txSecret=29a7f2b341d9296bae5bf079696898db&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-27f1ccc4f0",
+      "title": "GAIS VS AIK [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601552_1.m3u8?txSecret=e59ed9fee9451061ca1a4df19089a6f7&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ae6ee56334",
+      "title": "MJALLBY AIF VS KALMAR [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6EPWovBrPkAi2r.m3u8?txSecret=ecf4f82eefdf26505b98302c8bd46bc7&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-63bf51226e",
+      "title": "MJALLBY AIF VS KALMAR [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601549_1.m3u8?txSecret=00799d344776931d1c9a45c8b7d66be5&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f4580ab182",
+      "title": "LANDSKRONA BOIS VS OREBRO [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ZxxbUFVyoqoZp.m3u8?txSecret=c6e6ebc06741698a1f8ed575326dd61b&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-28d337650c",
+      "title": "LANDSKRONA BOIS VS OREBRO [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601561_1.m3u8?txSecret=9e1847c3bc4150579bf0f6b7cbe030ca&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-10141cc833",
+      "title": "OSTER VS HELSINGBORG [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvZ6ZxwkrHzLGu1mY.m3u8?txSecret=b151f368d54ec38a3b6f03e1116f62e8&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f87c130163",
+      "title": "OSTER VS HELSINGBORG [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601556_1.m3u8?txSecret=abe5cdce01af916e903f35ee42f14d8e&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a673925511",
+      "title": "PENAFIEL VS FEIRENSE [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MweKnKJtE3KMFC7kS.m3u8?txSecret=de0a6b76cfaa0284804c42b4cf2473b3&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-345e7a1ac8",
+      "title": "PENAFIEL VS FEIRENSE [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5604878_1.m3u8?txSecret=e26bf9da37f8a2b1a8f04e8c1329e5fa&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-d67ab34748",
+      "title": "KALAMATA VS IRAKLIS [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwarNPkvGx1B6f4Dc.m3u8?txSecret=502186623acf0f144f46e0e012ab6d15&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2a60a5a837",
+      "title": "KALAMATA VS IRAKLIS [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5601221_1.m3u8?txSecret=298ac463450f717b91c1698ad2810baa&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c81d16addc",
+      "title": "SONDERJYSKE VS COPENHAGEN [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6Mwdpnt5ucfKuePTNW.m3u8?txSecret=22f792c674ebdfa1ea12fb5f7c7b9373&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bb187416a0",
+      "title": "SONDERJYSKE VS COPENHAGEN [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5604976_1.m3u8?txSecret=735c887d78dbfb3f21fb7a0431180818&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-c2fe789f0c",
+      "title": "RAKOW CZESTOCHOWA VS POGON SZCZECIN [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdqMR56GC3B7i1w4.m3u8?txSecret=bd19db78ed090b3f7dd3c05cf784d654&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-7f82e0255a",
+      "title": "HERACLES ALMELO VS OSS [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpuQnZ3zHTaS4Pg.m3u8?txSecret=42fc8bcf86b61ed5b2ecfd46ce22a4f1&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b550d77bd2",
+      "title": "HERACLES ALMELO VS OSS [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5597277_1.m3u8?txSecret=cb02425c4ec7d348a946afa54d195ea1&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2009358069",
+      "title": "AJAX AMSTERDAM U21 VS VITESSE ARNHEM [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpuQnZCnCwVjj1G.m3u8?txSecret=6d0daf5db85e5a3e1b1bf58fa184f6b7&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-50e12c263b",
+      "title": "AJAX AMSTERDAM U21 VS VITESSE ARNHEM [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5608565_1.m3u8?txSecret=c28b0338f643a0870e36065dc074a89e&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-ee6112b1da",
+      "title": "PSV EINDHOVEN YOUTH VS NAC BREDA [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpuQnZAaj51uorN.m3u8?txSecret=b7968eb21c11e855ae945b045c52884e&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-abc3153cab",
+      "title": "PSV EINDHOVEN YOUTH VS NAC BREDA [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5608564_1.m3u8?txSecret=127b02620101dc197ebfe337f7be53c6&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cf9b97981c",
+      "title": "UTRECHT YOUTH VS DORDRECHT [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MwdpuQnZHBAgTPZK4.m3u8?txSecret=a3495d6e0bb19a89d136f1c552d7db96&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-24cc532c54",
+      "title": "UTRECHT YOUTH VS DORDRECHT [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5608563_1.m3u8?txSecret=ef4441b9c44d328408ad1ce84f27e927&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-75255d6a8e",
+      "title": "ATLETICO RAFAELA VS PATRONATO PARANA [SERVER 1 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/sd-6MvYqjis28y3dti8jp.m3u8?txSecret=6407018985a94d960c263611d5ac3689&txTime=6AEE2A40",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-58d5d14743",
+      "title": "ATLETICO RAFAELA VS PATRONATO PARANA [SERVER 2 - HD]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://pulltx.cqsycw.com/live/202_5546566_1.m3u8?txSecret=40c6307b60497b7b41d28ce1909e7354&txTime=6AEE2A40",
+      "type": "HLS",
       "category": "Sports"
     }
   ]
