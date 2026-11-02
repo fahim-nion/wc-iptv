@@ -7,12 +7,13 @@ export function getStreamUrl(channelOrUrl) {
 
   if (!url) return '';
 
-  // Never proxy IFRAME embeds (BinTV, StreamCorner, Youtube, etc)
+  // Never proxy IFRAME embeds (BinTV, StreamCorner, Youtube, PPV, etc)
   if (
     type === 'IFRAME' || 
     url.includes('bintv-sources') || 
     url.includes('/embed/') || 
-    url.includes('ehgembxe')
+    url.includes('ehgembxe') ||
+    url.includes('taifood-blog')
   ) {
     return url;
   }

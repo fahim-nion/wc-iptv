@@ -1156,4 +1156,68 @@ export async function discoverBinTV() {
     return matches;
 }
 
+export async function discoverPPVStreams() {
+    const source = config.sources?.ppvstreams;
+    if (source && source.enabled === false) return [];
+    console.log(`\n🔍 [PPVSTREAMS] Scanning English football matches from ppv.st...`);
+    const matches = [];
+
+    try {
+        const res = await fetch("https://api.ppv.st/api/streams", {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Origin": "https://ppv.st",
+                "Referer": "https://ppv.st/"
+            },
+            signal: AbortSignal.timeout(10000)
+        });
+        if (!res.ok) {
+            console.log(`   ✘ [PPVSTREAMS] API request failed: HTTP ${res.status}`);
+            return [];
+        }
+        const data = await res.json();
+        const footballCat = (data.streams || []).find(c => (c.category || '').toLowerCase() === 'football' || (c.category || '').toLowerCase() === 'soccer');
+        if (!footballCat || !Array.isArray(footballCat.streams)) return [];
+
+        console.log(`   [PPVSTREAMS] Found ${footballCat.streams.length} football events.`);
+
+        for (const s of footballCat.streams) {
+            if (!s.name) continue;
+            const baseTitle = normalizeMatchTitle(s.name);
+            const sourceTag = s.source_tag ? ` [${s.source_tag.toUpperCase()}]` : " [ENGLISH HD]";
+
+            // Main stream
+            if (s.iframe) {
+                matches.push({
+                    title: `${baseTitle} - SERVER 1${sourceTag}`,
+                    url: s.iframe,
+                    type: "IFRAME",
+                    source: "ppvstreams"
+                });
+            }
+
+            // Substreams
+            if (Array.isArray(s.substreams)) {
+                s.substreams.forEach((sub, idx) => {
+                    if (sub.iframe) {
+                        const subTag = sub.source_tag ? ` [${sub.source_tag.toUpperCase()}]` : ` [SERVER ${idx + 2}]`;
+                        matches.push({
+                            title: `${baseTitle} - SERVER ${idx + 2}${subTag}`,
+                            url: sub.iframe,
+                            type: "IFRAME",
+                            source: "ppvstreams"
+                        });
+                    }
+                });
+            }
+        }
+    } catch (err) {
+        console.log(`   ✘ [PPVSTREAMS] Error: ${err.message}`);
+    }
+
+    console.log(`[PPVSTREAMS] Discovered ${matches.length} active football streams.`);
+    return matches;
+}
+
+
 

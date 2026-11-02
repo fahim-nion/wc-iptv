@@ -2,6 +2,11 @@
   "name": "wc-iptv-crawler",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "start": "node src/crawler.js",
+    "crawl": "node src/crawler.js",
+    "permanent": "node src/updatePermanent.js"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0",

@@ -73,13 +73,17 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         }
     }
 
-    // 0a. Fast-path resolver for BinTV
+    // 0a. Fast-path resolver for BinTV & PPVStreams
     if (label.toUpperCase().includes('BINTV') || targetUrl.includes('bintv') || targetUrl.includes('ehgembxe')) {
         if (targetUrl.includes('.m3u8')) {
             const val = await validateStream(targetUrl);
             if (val.isValid) return { url: targetUrl, type: 'HLS' };
         }
         // Direct embed iframe player - handles token generation & WASM segment decoding internally
+        return { url: targetUrl, type: 'IFRAME' };
+    }
+
+    if (label.toUpperCase().includes('PPV') || targetUrl.includes('taifood-blog.asia') || targetUrl.includes('ppvservices')) {
         return { url: targetUrl, type: 'IFRAME' };
     }
 

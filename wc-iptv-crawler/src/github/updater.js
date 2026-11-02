@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '../../../');
 
-export async function pushToGitHub() {
+export async function pushToGitHub(customMessage) {
     try {
         console.log(chalk.blue("[GitHub] Checking for changes..."));
         
@@ -17,17 +17,18 @@ export async function pushToGitHub() {
             stdio: 'pipe'
         };
 
-        const status = execSync('git status --porcelain src/data/channels.json', execOptions).toString();
+        const status = execSync('git status --porcelain src/data/channels.json src/config/permanentChannels.js', execOptions).toString();
         
         if (!status) {
-            console.log(chalk.gray("[GitHub] No changes in channels.json. Skipping push."));
+            console.log(chalk.gray("[GitHub] No changes in channels.json or permanentChannels.js. Skipping push."));
             return;
         }
 
         console.log(chalk.yellow("[GitHub] Updates found. Committing..."));
         
-        execSync('git add src/data/channels.json', execOptions);
-        execSync('git commit -m "chore: auto-update live matches"', execOptions);
+        execSync('git add src/data/channels.json src/config/permanentChannels.js', execOptions);
+        const commitMsg = customMessage || "chore: auto-update live streams & permanent channels";
+        execSync(`git commit -m "${commitMsg.replace(/"/g, '\\"')}"`, execOptions);
         try {
             execSync('git push origin main', execOptions);
         } catch (pushErr) {

@@ -192,13 +192,15 @@ export default function Player({
       channel = { ...channel, url: rawUrl };
     }
 
-    // Check if this is an IFRAME embed (BinTV, StreamCorner, embedded players)
+    // Check if this is an IFRAME embed (BinTV, StreamCorner, PPVStreams, embedded players)
     const isIframe = Boolean(
       channel.type === 'IFRAME' || 
       rawUrl.includes('/embed/') || 
       rawUrl.includes('bintv-sources') || 
       rawUrl.includes('ehgembxe') ||
-      (channel.source === 'bintv' && !rawUrl.includes('.m3u8'))
+      rawUrl.includes('taifood-blog') ||
+      (channel.source === 'bintv' && !rawUrl.includes('.m3u8')) ||
+      (channel.source === 'ppvstreams' && !rawUrl.includes('.m3u8'))
     );
 
     if (isIframe) {
@@ -577,7 +579,9 @@ export default function Player({
          channel?.url?.includes('/embed/') || 
          channel?.url?.includes('bintv-sources') || 
          channel?.url?.includes('ehgembxe') ||
-         (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ? (
+         channel?.url?.includes('taifood-blog') ||
+         (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ||
+         (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
             src={channel.url}
             className={`w-full h-full relative z-0 bg-black border-0`}

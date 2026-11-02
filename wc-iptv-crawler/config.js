@@ -83,6 +83,12 @@ export default {
             priority: 5,
             homepage: "https://www.bintv.cc/",
             api: "https://bintvjson.lovable.app/api/public/bintvjson"
+        },
+        ppvstreams: {
+            enabled: true,
+            priority: 2,
+            homepage: "https://ppv.st",
+            api: "https://api.ppv.st/api/streams"
         }
     },
     polling: { upcomingMinutes: 10, liveMinutes: 2 },
