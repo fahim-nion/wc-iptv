@@ -256,9 +256,12 @@ export async function updatePermanentChannels({ push = true } = {}) {
             }
         }
 
+        const oldUrl = ch.url;
         if (targetUrl) {
             ch.url = targetUrl;
-            updatedCount++;
+            if (targetUrl !== oldUrl) {
+                updatedCount++;
+            }
         }
 
         // Health check stream
@@ -272,9 +275,13 @@ export async function updatePermanentChannels({ push = true } = {}) {
     }
 
     // 5. Save back to permanentChannels.js
-    const outputJs = `export const PERMANENT_CHANNELS = ${JSON.stringify(finalChannels, null, 2)};\n\nexport const getPermanentChannels = () => {\n  return PERMANENT_CHANNELS;\n};\n`;
-    fs.writeFileSync(PERMANENT_CONFIG_PATH, outputJs, 'utf-8');
-    console.log(chalk.green.bold(`\n✅ Saved: All ${finalChannels.length} permanent channels updated with working active stream links.`));
+    if (updatedCount > 0) {
+        const outputJs = `export const PERMANENT_CHANNELS = ${JSON.stringify(finalChannels, null, 2)};\n\nexport const getPermanentChannels = () => {\n  return PERMANENT_CHANNELS;\n};\n`;
+        fs.writeFileSync(PERMANENT_CONFIG_PATH, outputJs, 'utf-8');
+        console.log(chalk.green.bold(`\n✅ Saved: Updated ${updatedCount} permanent channels in permanentChannels.js.`));
+    } else {
+        console.log(chalk.green.bold(`\n✅ Verified: All ${finalChannels.length} listed permanent channels are already up-to-date with active ${activeBase} base.`));
+    }
 
     // 6. Push to GitHub
     if (push) {
