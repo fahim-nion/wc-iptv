@@ -779,8 +779,314 @@
       "id": "live-3ade396a6f",
       "title": "BARCELONA VS REAL MADRID [SERVER 1]",
       "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/REDZONE/mono.ts.m3u8?token=37165b6ef16e4c497262c5391221e201&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-09f4f4c251",
+      "title": "LOS ANGELES CHARGERS VS LOS ANGELES RAMS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl9/mono.ts.m3u8?token=37165b6ef16e4c497262c5391221e201&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-10dda78971",
+      "title": "KANSAS CITY CHIEFS VS DENVER BRONCOS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl10/mono.ts.m3u8?token=37165b6ef16e4c497262c5391221e201&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-346775f854",
+      "title": "NEW ENGLAND PATRIOTS VS MIAMI DOLPHINS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/nfl11/mono.ts.m3u8?token=37165b6ef16e4c497262c5391221e201&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-3bae979453",
+      "title": "PHILADELPHIA EAGLES VS WASHINGTON COMMANDERS",
+      "status": "live",
+      "source": "xyzstreams",
+      "streamUrl": "https://eu-4605069466.duckdns.org/bills/mono.ts.m3u8?token=37165b6ef16e4c497262c5391221e201&server=1",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e3ef3956fc",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793646905-0-0-df3f8d5b72529cbecb46c42435006ca3",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-06ab8c7de5",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 2 - THẠCH TÚ]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=cf2351e2cda6873664b65cc31427dbcb&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd4e35bdd9",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 3 - BLV PIRLO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=9d754437e8fb7a77f9bed1278fbbe22f&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-15312d106e",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 4 - CR BƯỞI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.flv?txSecret=6eed6020b651b598d24cde63c62b9275&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-907a598582",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 5 - BLV BÉO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=11bc486626c1b7c9fe75b3c1940ca1af&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-a1b1d97bb9",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 6 - A BỆU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793646905-0-0-be5baf77897aef8ed3fc24011b091856",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-af1970a8ff",
+      "title": "REAL OVIEDO VS LAS PALMAS [SERVER 7 - BLV HEHE]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793646905-0-0-510d87bcded66e664f98d2c13359f471",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-1003e0f27f",
+      "title": "AL SADD VS AL AHLI [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793646905-0-0-1ea3413b2420ba967570455b1cbff231",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-452f3b60c7",
+      "title": "AL SADD VS AL AHLI [SERVER 2 - TẠ BIÊN GIỚI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=9d754437e8fb7a77f9bed1278fbbe22f&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-2373b14e34",
+      "title": "AL SADD VS AL AHLI [SERVER 3 - LÃO LÂM]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-621840_lhd.flv?txSecret=d596572f89de255589cc28ca70ffa06d&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-448d47ad16",
+      "title": "AL SADD VS AL AHLI [SERVER 4 - BLV ALEX]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-387694_lhd.flv?txSecret=6eed6020b651b598d24cde63c62b9275&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-af72e42bed",
+      "title": "AL SADD VS AL AHLI [SERVER 5 - LOKA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793646905-0-0-be5baf77897aef8ed3fc24011b091856",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-794e6a0f99",
+      "title": "AL SADD VS AL AHLI [SERVER 6 - NGƯỜI CÁ]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793646905-0-0-510d87bcded66e664f98d2c13359f471",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0b44dbe018",
+      "title": "AL SADD VS AL AHLI [SERVER 7 - CURRY]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-321443_lhd.flv?auth_key=1793646905-0-0-6e672bd3d20d09db1f2c4ccba56a8c87",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-94de3a31b3",
+      "title": "SASSUOLO VS FIORENTINA [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=11bc486626c1b7c9fe75b3c1940ca1af&txTime=6ae92789",
+      "type": "FLV",
+      "category": "Sports"
+    },
+    {
+      "id": "live-66117c150f",
+      "title": "GENCLERBIRLIGI VS ALANYASPOR",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6hHR9GHiRHTLrj.m3u8?txSecret=078b4aaf0512bdfd0559bfb57c695fdd&txTime=6AE8D49B&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-9534def86d",
+      "title": "SONDERJYSKE VS COPENHAGEN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mwdpnt5ucfKueP8Vm.m3u8?txSecret=bd2579d77a14971eccbb2774aa77f2f6&txTime=6AE8D49D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cd73a33294",
+      "title": "GAIS VS AIK",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWoszNXGLU1D.m3u8?txSecret=cb394c909cadf2e0585e0f016fe03d43&txTime=6AE8D49D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-cbf48d3b75",
+      "title": "MJALLBY AIF VS KALMAR",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWovBrPkAPA7.m3u8?txSecret=0959be3a496098200cdca9441045a1b8&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-872ecea047",
+      "title": "REAL VALLADOLID VS LEGANES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaARk4H641eYfiw.m3u8?txSecret=0fb34c60f9fc349744ec5b40e374ff00&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-bcaafb3897",
+      "title": "TEUTA DURRES VS PARTIZANI TIRANA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwb6s4Qt4RfhcDF8b.m3u8?txSecret=6b99cca8d57a3fe2ef56b79d8ffc33a8&txTime=6AE8D49E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f29e242aca",
+      "title": "ARDA VS SEPTEMVRI SOFIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqBccPP8wJjgZVH.m3u8?txSecret=202dc443a5f82bbb97d3b7caeffec927&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-80540f7bff",
+      "title": "HAPOEL RAMAT GAN VS MACCABI TEL AVIV",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq5CWnCAezmRafZ.m3u8?txSecret=30e4979d9cded834cb7b5f73488d5766&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-0e0a9d5a5a",
+      "title": "ASHDOD MS VS BNEI YEHUDA TEL AVIV",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq1rNdnim6th5f5.m3u8?txSecret=22d8199d6c3c561a829cecf3568680e5&txTime=6AE8D49F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-e48888edd2",
+      "title": "HAPOEL KFAR SHALEM VS IRONI MODIIN",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwdq1qcKDrSHFmMqH.m3u8?txSecret=5ecb1770208bd186b1678968fbc10cbb&txTime=6AE8D4A0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-b133f6ec32",
+      "title": "AL SADD VS AL AHLI JEDDAH",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a16.kora-plus.li/live/b1.m3u8?token=YY5SamPnYagWTOt8s0wBupgJmHg&exp=1793646994",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-6c23fb983f",
+      "title": "AL WASL VS AL QUWA AL JAWIYA",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/b2.m3u8?token=6uKNfBjuRCOs0MbBu1wmCSuUVuI&exp=1793646999",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-f13ac2b8f1",
+      "title": "TRACTOR SAZI VS NEFTCHI",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a13.kora-plus.li/live/b3.m3u8?token=xOfGSNp21OzxpeYFPFZLv66UZwc&exp=1793647005",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-4ec1368099",
+      "title": "AL AHLY VS EL MOKAWLOON",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/on1.m3u8?token=nCkJDX1aAazaW8G8mpb6cIVf0pE&exp=1793647010",
+      "type": "HLS",
+      "category": "Sports"
+    },
+    {
+      "id": "live-065c8d4581",
+      "title": "AL ITTIHAD VS AL AIN",
+      "status": "live",
+      "source": "hesgoal",
+      "streamUrl": "https://a15.kora-plus.li/live/b3.m3u8?token=6oBFb-UOMIdwpshHB8T3trCR3vI&exp=1793647014",
       "type": "HLS",
       "category": "Sports"
     },
