@@ -15,8 +15,8 @@ export default {
         xoilac: { 
             enabled: true,
             priority: 8, 
-            homepage: "https://xoilaczcr.tv/",
-            mirrors: ["https://xoilacvba.tv/","https://xoilaczzzj.cc/"]
+            homepage: "https://xoilacz.ca/",
+            mirrors: ["https://almafestival.info/","https://xoilacxcp.tv/"]
         },
         futbolx: {
             enabled: true,

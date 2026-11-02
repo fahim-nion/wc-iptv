@@ -1138,15 +1138,14 @@ export async function discoverBinTV() {
                 const s = streams[i];
                 if (!s.url) continue;
 
-                const resolved = await resolveBintvStream(s.url);
-                if (resolved && resolved.startsWith('http')) {
-                    const srvName = s.name ? ` [${s.name.toUpperCase()}]` : ` [SERVER ${i + 1} - HD]`;
-                    matches.push({
-                        title: `${baseTitle}${srvName}`,
-                        url: resolved,
-                        source: 'bintv'
-                    });
-                }
+                const isM3u8 = s.url.includes('.m3u8');
+                const srvName = s.name ? ` [${s.name.toUpperCase()}]` : ` [SERVER ${i + 1} - HD]`;
+                matches.push({
+                    title: `${baseTitle}${srvName}`,
+                    url: s.url,
+                    type: isM3u8 ? 'HLS' : 'IFRAME',
+                    source: 'bintv'
+                });
             }
         }
     } catch (err) {

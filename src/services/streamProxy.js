@@ -3,8 +3,19 @@ const PROXY = import.meta.env.VITE_PROXY_URL;
 export function getStreamUrl(channelOrUrl) {
   const url = typeof channelOrUrl === 'string' ? channelOrUrl : (channelOrUrl?.url || '');
   const source = typeof channelOrUrl === 'string' ? '' : (channelOrUrl?.source || '');
+  const type = typeof channelOrUrl === 'string' ? '' : (channelOrUrl?.type || '');
 
   if (!url) return '';
+
+  // Never proxy IFRAME embeds (BinTV, StreamCorner, Youtube, etc)
+  if (
+    type === 'IFRAME' || 
+    url.includes('bintv-sources') || 
+    url.includes('/embed/') || 
+    url.includes('ehgembxe')
+  ) {
+    return url;
+  }
 
   if (PROXY && PROXY.length > 0) {
     const cleanProxy = PROXY.replace(/\/+$/, '');
@@ -19,6 +30,7 @@ export function getStreamUrl(channelOrUrl) {
     source.toLowerCase().includes('camel') ||
     source.toLowerCase().includes('aurasports') ||
     source.toLowerCase().includes('falconstreams') ||
+    source.toLowerCase().includes('bintv') ||
     url.includes('camel4.live') ||
     url.includes('camel1.tv') ||
     url.includes('duckdns.org') ||
@@ -36,7 +48,9 @@ export function getStreamUrl(channelOrUrl) {
     url.includes('goalakor') || 
     url.includes('goalikor') ||
     url.includes('kora-api') ||
-    url.includes('robotiva');
+    url.includes('robotiva') ||
+    url.includes('uzhi.ru') ||
+    url.includes('sytes.net');
 
   if (isCorsRestricted) {
     if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;

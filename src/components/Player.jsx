@@ -183,12 +183,7 @@ export default function Player({
 
   // Stream Player Engine Setup
   useEffect(() => {
-    if (!channel || !videoRef.current) return;
-    setIsLoading(true);
-    setShowControls(true);
-    setLoadingProgress(5);
-    setHasError(false);
-    setErrorMessage('');
+    if (!channel) return;
 
     // Protocol upgrade (HTTP -> HTTPS when site is HTTPS)
     let rawUrl = channel.url || '';
@@ -196,6 +191,41 @@ export default function Player({
       rawUrl = rawUrl.replace(/^http:\/\//i, 'https://');
       channel = { ...channel, url: rawUrl };
     }
+
+    // Check if this is an IFRAME embed (BinTV, StreamCorner, embedded players)
+    const isIframe = Boolean(
+      channel.type === 'IFRAME' || 
+      rawUrl.includes('/embed/') || 
+      rawUrl.includes('bintv-sources') || 
+      rawUrl.includes('ehgembxe') ||
+      (channel.source === 'bintv' && !rawUrl.includes('.m3u8'))
+    );
+
+    if (isIframe) {
+      if (engineRef.current) {
+        try {
+          if (typeof engineRef.current.destroy === 'function') engineRef.current.destroy();
+          else if (typeof engineRef.current.unload === 'function') engineRef.current.unload();
+        } catch (e) {}
+        engineRef.current = null;
+      }
+      setStreamType('IFRAME');
+      setHasError(false);
+      setErrorMessage('');
+      setIsLoading(false);
+      setIsPlaying(true);
+      setShowControls(true);
+      scheduleControlsHide(2500);
+      return;
+    }
+
+    if (!videoRef.current) return;
+    setIsLoading(true);
+    setShowControls(true);
+    setLoadingProgress(5);
+    setHasError(false);
+    setErrorMessage('');
+
     const streamUrl = getStreamUrl(channel);
 
     const rawLower = rawUrl.toLowerCase();
@@ -208,17 +238,6 @@ export default function Player({
     const progressInterval = setInterval(() => {
       setLoadingProgress(prev => (prev < 90 ? prev + Math.random() * 8 : prev));
     }, 400);
-
-    const isIframe = channel.type === 'IFRAME' || rawUrl.includes('/embed/');
-    if (isIframe) {
-      setStreamType('IFRAME');
-      clearInterval(progressInterval);
-      setLoadingProgress(100);
-      setIsLoading(false);
-      setIsPlaying(true);
-      scheduleControlsHide(2500);
-      return;
-    }
 
     // Watchdog timer (15 seconds before timeout)
     const watchdog = setTimeout(() => {
@@ -554,12 +573,16 @@ export default function Player({
           </div>
         )}
 
-        {channel?.type === 'IFRAME' || channel?.url?.includes('/embed/') ? (
+        {channel?.type === 'IFRAME' || 
+         channel?.url?.includes('/embed/') || 
+         channel?.url?.includes('bintv-sources') || 
+         channel?.url?.includes('ehgembxe') ||
+         (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
             src={channel.url}
             className={`w-full h-full relative z-0 bg-black border-0`}
             allowFullScreen
-            allow="autoplay; fullscreen; encrypted-media"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
             sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"
           />
         ) : (

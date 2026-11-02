@@ -74,16 +74,13 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
     }
 
     // 0a. Fast-path resolver for BinTV
-    if (label.toUpperCase().includes('BINTV') || targetUrl.includes('bintv')) {
+    if (label.toUpperCase().includes('BINTV') || targetUrl.includes('bintv') || targetUrl.includes('ehgembxe')) {
         if (targetUrl.includes('.m3u8')) {
             const val = await validateStream(targetUrl);
             if (val.isValid) return { url: targetUrl, type: 'HLS' };
         }
-        const resolved = await resolveBintvStream(targetUrl);
-        if (resolved) {
-            const val = await validateStream(resolved);
-            if (val.isValid) return { url: resolved, type: 'HLS' };
-        }
+        // Direct embed iframe player - handles token generation & WASM segment decoding internally
+        return { url: targetUrl, type: 'IFRAME' };
     }
 
     if (label.toUpperCase().includes('XYZSTREAMS') || targetUrl.includes('xyzstreams.st')) {

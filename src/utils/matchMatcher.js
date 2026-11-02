@@ -208,3 +208,4 @@ export function groupChannelsIntoFixtures(channels = []) {
 
   return Array.from(fixturesMap.values());
 }
+
