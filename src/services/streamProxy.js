@@ -7,7 +7,7 @@ export function getStreamUrl(channelOrUrl) {
 
   if (!url) return '';
 
-  // Never proxy IFRAME embeds (BinTV, StreamCorner, Youtube, PPV, etc)
+  // Never proxy IFRAME embeds (BinTV, StreamCorner, Youtube, PPV, SportOnTV, etc)
   if (
     type === 'IFRAME' || 
     url.includes('bintv-sources') || 
@@ -15,13 +15,21 @@ export function getStreamUrl(channelOrUrl) {
     url.includes('ehgembxe') ||
     url.includes('taifood-blog') ||
     url.includes('live24.html') ||
-    url.includes('embedsports.me')
+    url.includes('embedsports.me') ||
+    url.includes('thedaddy.pk') ||
+    url.includes('sportontv')
   ) {
     return url;
   }
 
-  // MahsunSports permanent channels require custom Referer headers provided by the site's /api/stream proxy
-  if (url.includes('evrenesoglu') || url.includes('mahsunsports')) {
+  // Streams that require custom Referer/Origin headers (MahsunSports, Camel1) must route through /api/stream
+  if (
+    url.includes('evrenesoglu') || 
+    url.includes('mahsunsports') ||
+    url.includes('camel4.live') ||
+    url.includes('camel1.tv') ||
+    source.toLowerCase().includes('camel')
+  ) {
     if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;
     return `/api/stream?url=${encodeURIComponent(url)}`;
   }

@@ -92,14 +92,14 @@ export default async (req, context) => {
       const rewriteUri = (uri) => {
         try {
           const absoluteUrl = new URL(uri, targetUrl);
-          if (absoluteUrl.hostname.includes("tiktokcdn.com")) {
-            return absoluteUrl.href;
-          }
           const targetParams = new URL(targetUrl).searchParams;
           for (const [key, val] of targetParams.entries()) {
             if (!absoluteUrl.searchParams.has(key)) {
               absoluteUrl.searchParams.set(key, val);
             }
+          }
+          if (absoluteUrl.hostname.includes("tiktokcdn.com") || absoluteUrl.hostname.includes("camel4.live") || absoluteUrl.hostname.includes("camel1.tv")) {
+            return absoluteUrl.href;
           }
           return `${baseUrl}?url=${encodeURIComponent(absoluteUrl.href)}`;
         } catch (e) {

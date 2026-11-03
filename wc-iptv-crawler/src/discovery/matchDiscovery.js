@@ -1292,5 +1292,124 @@ export async function discoverPPVStreams() {
     return matches;
 }
 
+export async function discoverSportOnTV() {
+    const source = config.sources?.sportontv;
+    if (source && source.enabled === false) return [];
+    console.log(`\n🔍 [SPORTONTV] Scanning live sports & football matches from sportontv.click...`);
+    const matches = [];
+
+    // 1. Manual additions from SportOnTV site config
+    const configUrl = source?.configUrl || "https://sportontv.click/new3/site-config.json";
+    try {
+        const configRes = await fetch(configUrl, {
+            headers: { "User-Agent": config.userAgent || "Mozilla/5.0" },
+            signal: AbortSignal.timeout(6000)
+        }).catch(() => null);
+
+        if (configRes && configRes.ok) {
+            const cfg = await configRes.json();
+            const manualMatches = cfg?.manualAdditions?.matches || [];
+            if (cfg?.manualAdditions?.enabled && Array.isArray(manualMatches)) {
+                for (const m of manualMatches) {
+                    if (m.enabled === false) continue;
+                    const baseTitle = normalizeMatchTitle(m.title || m.name || '');
+                    if (!baseTitle) continue;
+
+                    if (m.embedUrl) {
+                        matches.push({
+                            title: `${baseTitle} - SERVER 1 [${(m.streamLabel || 'HD').toUpperCase()}]`,
+                            url: m.embedUrl,
+                            type: "IFRAME",
+                            source: "sportontv",
+                            category: m.category || "Sports"
+                        });
+                    }
+
+                    if (Array.isArray(m.streams)) {
+                        m.streams.forEach((sub, idx) => {
+                            if (sub.enabled !== false && sub.embedUrl) {
+                                matches.push({
+                                    title: `${baseTitle} - SERVER ${idx + 2} [${(sub.streamLabel || 'ALT').toUpperCase()}]`,
+                                    url: sub.embedUrl,
+                                    type: "IFRAME",
+                                    source: "sportontv",
+                                    category: m.category || "Sports"
+                                });
+                            }
+                        });
+                    }
+                }
+            }
+        }
+    } catch (e) {
+        console.log(`   [SPORTONTV] Notice: site config skipped (${e.message})`);
+    }
+
+    // 2. Scheduled & Live streams
+    const apiUrl = source?.api || "https://api.ppv.st/api/streams";
+    try {
+        const res = await fetch(apiUrl, {
+            headers: {
+                "User-Agent": config.userAgent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://sportontv.click/",
+                "Origin": "https://sportontv.click"
+            },
+            signal: AbortSignal.timeout(10000)
+        });
+
+        if (res.ok) {
+            const data = await res.json();
+            const categories = data.streams || [];
+            const now = Date.now();
+
+            for (const cat of categories) {
+                if (!Array.isArray(cat.streams)) continue;
+                for (const s of cat.streams) {
+                    if (!s.name) continue;
+                    const isLive = Boolean(s.always_live) || (s.starts_at && s.starts_at * 1000 <= now && (!s.ends_at || s.ends_at * 1000 >= now - 7200000));
+                    const isUpcomingSoon = s.starts_at && s.starts_at * 1000 > now && (s.starts_at * 1000 - now <= 35 * 60 * 1000);
+
+                    if (!isLive && !isUpcomingSoon) continue;
+
+                    const baseTitle = normalizeMatchTitle(s.name);
+                    const tag = s.source_tag ? ` [${s.source_tag.toUpperCase()}]` : " [ENGLISH HD]";
+
+                    if (s.iframe) {
+                        matches.push({
+                            title: `${baseTitle} - SERVER 1${tag}`,
+                            url: s.iframe,
+                            type: "IFRAME",
+                            source: "sportontv",
+                            category: cat.category || "Sports",
+                            isLive
+                        });
+                    }
+
+                    if (Array.isArray(s.substreams)) {
+                        s.substreams.forEach((sub, idx) => {
+                            if (sub.iframe) {
+                                const subTag = sub.source_tag ? ` [${sub.source_tag.toUpperCase()}]` : ` [SERVER ${idx + 2}]`;
+                                matches.push({
+                                    title: `${baseTitle} - SERVER ${idx + 2}${subTag}`,
+                                    url: sub.iframe,
+                                    type: "IFRAME",
+                                    source: "sportontv",
+                                    category: cat.category || "Sports",
+                                    isLive
+                                });
+                            }
+                        });
+                    }
+                }
+            }
+        }
+    } catch (err) {
+        console.log(`   ✘ [SPORTONTV] Error: ${err.message}`);
+    }
+
+    console.log(`[SPORTONTV] Discovered ${matches.length} active streams.`);
+    return matches;
+}
+
 
 

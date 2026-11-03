@@ -89,14 +89,14 @@ function streamProxyPlugin() {
         const rewriteUri = (uri) => {
           try {
             const abs = new URL(uri, targetUrl);
-            if (abs.hostname.includes('tiktokcdn.com')) {
-              return abs.href;
-            }
             const targetParams = new URL(targetUrl).searchParams;
             for (const [key, val] of targetParams.entries()) {
               if (!abs.searchParams.has(key)) {
                 abs.searchParams.set(key, val);
               }
+            }
+            if (abs.hostname.includes('tiktokcdn.com') || abs.hostname.includes('camel4.live') || abs.hostname.includes('camel1.tv')) {
+              return abs.href;
             }
             return `${baseUrl}?url=${encodeURIComponent(abs.href)}`;
           } catch (e) {

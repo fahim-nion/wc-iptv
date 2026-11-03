@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
 import { getStreamUrl } from '../services/streamProxy';
+import { refreshCamelStreamUrl } from '../services/camelStreamResolver';
 import { useStore } from '../store/useStore';
 import { 
   Play, 
@@ -192,15 +193,20 @@ export default function Player({
       channel = { ...channel, url: rawUrl };
     }
 
-    // Check if this is an IFRAME embed (BinTV, StreamCorner, PPVStreams, embedded players)
+    // Check if this is an IFRAME embed (BinTV, StreamCorner, PPVStreams, SportOnTV, embedded players)
     const isIframe = Boolean(
       channel.type === 'IFRAME' || 
       rawUrl.includes('/embed/') || 
       rawUrl.includes('bintv-sources') || 
       rawUrl.includes('ehgembxe') ||
       rawUrl.includes('taifood-blog') ||
+      rawUrl.includes('embedsports.me') ||
+      rawUrl.includes('live24.html') ||
+      rawUrl.includes('thedaddy.pk') ||
+      rawUrl.includes('sportontv') ||
       (channel.source === 'bintv' && !rawUrl.includes('.m3u8')) ||
-      (channel.source === 'ppvstreams' && !rawUrl.includes('.m3u8'))
+      (channel.source === 'ppvstreams' && !rawUrl.includes('.m3u8')) ||
+      (channel.source === 'sportontv' && !rawUrl.includes('.m3u8'))
     );
 
     if (isIframe) {
@@ -228,13 +234,8 @@ export default function Player({
     setHasError(false);
     setErrorMessage('');
 
-    const streamUrl = getStreamUrl(channel);
-
-    const rawLower = rawUrl.toLowerCase();
-    const isHLS = rawLower.includes('.m3u8');
-    const isFLV = !isHLS && rawLower.includes('.flv');
-    const isTS = !isHLS && (rawLower.includes('.ts') || rawLower.includes('mpegts'));
-    setStreamType(isFLV ? 'HTTP-FLV' : (isTS ? 'MPEG-TS' : 'HLS'));
+    let isCancelled = false;
+    let engine = null;
 
     // Progress Bar simulation
     const progressInterval = setInterval(() => {
@@ -261,66 +262,143 @@ export default function Player({
       }, 350);
     };
 
-    // Engine initialization
-    if ((isFLV || isTS) && mpegts.isSupported()) {
-      const player = mpegts.createPlayer({
-        type: isFLV ? 'flv' : 'mse',
-        isLive: true,
-        url: streamUrl,
-        hasVideo: true,
-        hasAudio: true,
-        cors: true
-      }, {
-        enableWorker: true,
-        enableStashBuffer: true,
-        stashInitialSize: isDelayActive ? 1024 * 1024 * 6 : 1024 * 1024 * 1.5,
-        lazyLoad: false,
-        liveBufferLatencyChasing: !isDelayActive,
-        autoCleanupSourceBuffer: true
-      });
+    const setupStream = async () => {
+      let activeChannel = { ...channel, url: rawUrl };
 
-      player.attachMediaElement(videoRef.current);
-      player.load();
-      player.play()
-        .then(() => finishLoading())
-        .catch((err) => {
-          console.warn('FLV unmuted autoplay blocked, retrying muted:', err);
-          if (videoRef.current) {
-            videoRef.current.muted = true;
-            setIsMuted(true);
-            videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+      // Mint a fresh live token for Camel1 streams dynamically if needed
+      if (
+        (activeChannel.source === 'camel1' || rawUrl.includes('camel')) &&
+        rawUrl.includes('/live/') &&
+        rawUrl.includes('.m3u8')
+      ) {
+        try {
+          const refreshed = await refreshCamelStreamUrl(rawUrl);
+          if (refreshed && !isCancelled) {
+            activeChannel.url = refreshed;
+          }
+        } catch (e) {
+          console.warn('[Player] Camel1 refresh error:', e);
+        }
+      }
+
+      if (isCancelled || !videoRef.current) return;
+
+      const streamUrl = getStreamUrl(activeChannel);
+      const activeRawLower = (activeChannel.url || '').toLowerCase();
+      const isHLS = activeRawLower.includes('.m3u8');
+      const isFLV = !isHLS && activeRawLower.includes('.flv');
+      const isTS = !isHLS && (activeRawLower.includes('.ts') || activeRawLower.includes('mpegts'));
+      setStreamType(isFLV ? 'HTTP-FLV' : (isTS ? 'MPEG-TS' : 'HLS'));
+
+      // Engine initialization
+      if ((isFLV || isTS) && mpegts.isSupported()) {
+        const player = mpegts.createPlayer({
+          type: isFLV ? 'flv' : 'mse',
+          isLive: true,
+          url: streamUrl,
+          hasVideo: true,
+          hasAudio: true,
+          cors: true
+        }, {
+          enableWorker: true,
+          enableStashBuffer: true,
+          stashInitialSize: isDelayActive ? 1024 * 1024 * 6 : 1024 * 1024 * 1.5,
+          lazyLoad: false,
+          liveBufferLatencyChasing: !isDelayActive,
+          autoCleanupSourceBuffer: true
+        });
+
+        player.attachMediaElement(videoRef.current);
+        player.load();
+        player.play()
+          .then(() => finishLoading())
+          .catch((err) => {
+            console.warn('FLV unmuted autoplay blocked, retrying muted:', err);
+            if (videoRef.current) {
+              videoRef.current.muted = true;
+              setIsMuted(true);
+              videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+            }
+          });
+
+        player.on(mpegts.Events.ERROR, (errorType, errorDetail, errorInfo) => {
+          console.error('mpegts error:', errorType, errorDetail, errorInfo);
+          setHasError(true);
+          setErrorMessage(`Stream decoder error (${errorDetail || errorType})`);
+        });
+
+        engine = player;
+        engineRef.current = player;
+      } else if (Hls.isSupported()) {
+        const hls = new Hls({ 
+          enableWorker: true, 
+          maxBufferSize: isDelayActive ? 60 * 1024 * 1024 : 30 * 1024 * 1024,
+          maxBufferLength: isDelayActive ? 30 : 10,
+          maxMaxBufferLength: isDelayActive ? 60 : 20,
+          manifestLoadingTimeOut: 15000,
+          fragLoadingTimeOut: 15000,
+          enableSoftwareAES: true,
+          lowLatencyMode: !isDelayActive,
+          liveSyncDuration: isDelayActive ? 10 : 1,
+          liveMaxLatencyDuration: isDelayActive ? 25 : 5
+        });
+
+        hls.loadSource(streamUrl);
+        hls.attachMedia(videoRef.current);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          const playPromise = videoRef.current?.play();
+          if (playPromise !== undefined) {
+            playPromise
+              .then(() => finishLoading())
+              .catch(() => {
+                if (videoRef.current) {
+                  videoRef.current.muted = true;
+                  setIsMuted(true);
+                  videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
+                }
+              });
           }
         });
 
-      player.on(mpegts.Events.ERROR, (errorType, errorDetail, errorInfo) => {
-        console.error('mpegts error:', errorType, errorDetail, errorInfo);
-        setHasError(true);
-        setErrorMessage(`Stream decoder error (${errorDetail || errorType})`);
-      });
+        hls.on(Hls.Events.ERROR, (e, data) => {
+          if (data.fatal) {
+            switch (data.type) {
+              case Hls.ErrorTypes.NETWORK_ERROR:
+                console.warn('Hls network error, attempting automatic recovery...', data);
+                hls.startLoad();
+                break;
+              case Hls.ErrorTypes.MEDIA_ERROR:
+                console.warn('Hls media error, recovering...', data);
+                hls.recoverMediaError();
+                break;
+              default:
+                console.error('Hls fatal unrecoverable error:', data);
+                setHasError(true);
+                setErrorMessage('Failed to decode video stream.');
+                hls.destroy();
+                break;
+            }
+          }
+        });
 
-      engineRef.current = player;
-    } else if (Hls.isSupported()) {
-      const hls = new Hls({ 
-        enableWorker: true, 
-        maxBufferSize: isDelayActive ? 60 * 1024 * 1024 : 30 * 1024 * 1024,
-        maxBufferLength: isDelayActive ? 30 : 10,
-        maxMaxBufferLength: isDelayActive ? 60 : 20,
-        manifestLoadingTimeOut: 15000,
-        fragLoadingTimeOut: 15000,
-        enableSoftwareAES: true,
-        lowLatencyMode: !isDelayActive,
-        liveSyncDuration: isDelayActive ? 10 : 1,
-        liveMaxLatencyDuration: isDelayActive ? 25 : 5
-      });
-
-      hls.loadSource(streamUrl);
-      hls.attachMedia(videoRef.current);
-
-      hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        const playPromise = videoRef.current?.play();
+        engine = hls;
+        engineRef.current = hls;
+      } else if (videoRef.current.canPlayType('application/vnd.apple.mpegurl')) {
+        videoRef.current.src = streamUrl;
+        const playPromise = videoRef.current.play();
         if (playPromise !== undefined) {
           playPromise
-            .then(() => finishLoading())
+            .then(() => {
+              finishLoading();
+              if (isDelayActive && videoRef.current.seekable && videoRef.current.seekable.length > 0) {
+                const end = videoRef.current.seekable.end(videoRef.current.seekable.length - 1);
+                const start = videoRef.current.seekable.start(0);
+                if (end - start > 12) {
+                  videoRef.current.currentTime = Math.max(start, end - 10);
+                }
+              }
+            })
             .catch(() => {
               if (videoRef.current) {
                 videoRef.current.muted = true;
@@ -329,62 +407,17 @@ export default function Player({
               }
             });
         }
-      });
-
-      hls.on(Hls.Events.ERROR, (e, data) => {
-        if (data.fatal) {
-          switch (data.type) {
-            case Hls.ErrorTypes.NETWORK_ERROR:
-              console.warn('Hls network error, attempting automatic recovery...', data);
-              hls.startLoad();
-              break;
-            case Hls.ErrorTypes.MEDIA_ERROR:
-              console.warn('Hls media error, recovering...', data);
-              hls.recoverMediaError();
-              break;
-            default:
-              console.error('Hls fatal unrecoverable error:', data);
-              setHasError(true);
-              setErrorMessage('Failed to decode video stream.');
-              hls.destroy();
-              break;
-          }
-        }
-      });
-
-      engineRef.current = hls;
-    } else if (videoRef.current.canPlayType('application/vnd.apple.mpegurl')) {
-      // Native Apple HLS (Safari / iOS)
-      videoRef.current.src = streamUrl;
-      const playPromise = videoRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            finishLoading();
-            if (isDelayActive && videoRef.current.seekable && videoRef.current.seekable.length > 0) {
-              const end = videoRef.current.seekable.end(videoRef.current.seekable.length - 1);
-              const start = videoRef.current.seekable.start(0);
-              if (end - start > 12) {
-                videoRef.current.currentTime = Math.max(start, end - 10);
-              }
-            }
-          })
-          .catch(() => {
-            if (videoRef.current) {
-              videoRef.current.muted = true;
-              setIsMuted(true);
-              videoRef.current.play().then(() => finishLoading()).catch(() => finishLoading());
-            }
-          });
       }
-    }
+    };
+
+    setupStream();
 
     // Video Element Event Listeners
     const v = videoRef.current;
     const handleWaiting = () => {
       clearTimeout(stallTimer.current);
       stallTimer.current = setTimeout(() => {
-        if (v.paused || v.readyState < 3) {
+        if (v && (v.paused || v.readyState < 3)) {
           if (onStall) onStall();
         }
       }, 15000);
@@ -415,16 +448,29 @@ export default function Player({
     });
 
     return () => {
+      isCancelled = true;
       clearTimeout(watchdog);
       clearTimeout(stallTimer.current);
       clearInterval(progressInterval);
       if (controlsTimer.current) clearTimeout(controlsTimer.current);
-      v.removeEventListener('waiting', handleWaiting);
-      v.removeEventListener('playing', handlePlaying);
-      v.removeEventListener('canplay', handleCanPlay);
-      v.removeEventListener('play', () => setIsPlaying(true));
-      v.removeEventListener('pause', () => setIsPlaying(false));
-      if (engineRef.current) engineRef.current.destroy();
+      if (v) {
+        v.removeEventListener('waiting', handleWaiting);
+        v.removeEventListener('playing', handlePlaying);
+        v.removeEventListener('canplay', handleCanPlay);
+        v.removeEventListener('play', () => setIsPlaying(true));
+        v.removeEventListener('pause', () => setIsPlaying(false));
+      }
+      if (engine) {
+        try {
+          if (typeof engine.destroy === 'function') engine.destroy();
+          else if (typeof engine.unload === 'function') engine.unload();
+        } catch (e) {}
+      } else if (engineRef.current) {
+        try {
+          if (typeof engineRef.current.destroy === 'function') engineRef.current.destroy();
+          else if (typeof engineRef.current.unload === 'function') engineRef.current.unload();
+        } catch (e) {}
+      }
     };
   }, [channel, reloadKey, scheduleControlsHide]);
 
@@ -588,8 +634,11 @@ export default function Player({
          channel?.url?.includes('taifood-blog') ||
          channel?.url?.includes('embedsports.me') ||
          channel?.url?.includes('live24.html') ||
+         channel?.url?.includes('thedaddy.pk') ||
+         channel?.url?.includes('sportontv') ||
          (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ||
-         (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ? (
+         (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ||
+         (channel?.source === 'sportontv' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
             src={channel.url}
             className={`w-full h-full relative z-0 bg-black border-0`}

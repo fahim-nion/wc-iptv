@@ -83,7 +83,15 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         return { url: targetUrl, type: 'IFRAME' };
     }
 
-    if (label.toUpperCase().includes('PPV') || targetUrl.includes('taifood-blog.asia') || targetUrl.includes('ppvservices') || targetUrl.includes('embedsports.me')) {
+    if (
+        label.toUpperCase().includes('PPV') || 
+        label.toUpperCase().includes('SPORTONTV') ||
+        targetUrl.includes('taifood-blog') || 
+        targetUrl.includes('ppvservices') || 
+        targetUrl.includes('embedsports.me') ||
+        targetUrl.includes('thedaddy.pk') ||
+        targetUrl.includes('sportontv')
+    ) {
         return { url: targetUrl, type: 'IFRAME' };
     }
 

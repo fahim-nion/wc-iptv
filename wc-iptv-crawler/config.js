@@ -92,6 +92,13 @@ export default {
             homepage: "https://ppv.st",
             api: "https://api.ppv.st/api/streams"
         },
+        sportontv: {
+            enabled: true,
+            priority: 2,
+            homepage: "https://sportontv.click/",
+            api: "https://api.ppv.st/api/streams",
+            configUrl: "https://sportontv.click/new3/site-config.json"
+        },
         mahsunsports: {
             enabled: true,
             priority: 1,

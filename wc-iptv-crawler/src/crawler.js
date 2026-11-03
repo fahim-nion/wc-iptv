@@ -19,7 +19,8 @@ import {
     discoverXoilac,
     discoverAuraSports,
     discoverFalconStreams,
-    discoverStreamcorner
+    discoverStreamcorner,
+    discoverSportOnTV
 } from './discovery/matchDiscovery.js';
 import { captureNetworkStream } from './extraction/networkCapture.js';
 import { pushToGitHub } from './github/updater.js';
@@ -66,6 +67,7 @@ export const CRAWL_SOURCES = [
     { id: 'futbolx', name: 'FutbolX (Live Football Streams)', fn: discoverFutbolX },
     { id: 'livelive24', name: 'LiveLive24 (TopHD Multi-Server)', fn: discoverLiveLive24 },
     { id: 'ppvstreams', name: 'PPVStreams (English HD Commentary)', fn: discoverPPVStreams },
+    { id: 'sportontv', name: 'SportOnTV (Live Sports & English Feeds)', fn: discoverSportOnTV },
     { id: 'xyzstreams', name: 'XYZStreams (English HD Streams)', fn: discoverXyzStreams },
     { id: 'minutes90', name: '90Minutes (English / Global)', fn: discover90Minutes },
     { id: 'bintv', name: 'BinTV (English / UK & US Sports)', fn: discoverBinTV },
