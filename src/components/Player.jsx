@@ -3,6 +3,7 @@ import Hls from 'hls.js';
 import mpegts from 'mpegts.js';
 import { getStreamUrl } from '../services/streamProxy';
 import { refreshCamelStreamUrl } from '../services/camelStreamResolver';
+import { refreshFutbolXStreamUrl } from '../services/futbolStreamResolver';
 import { useStore } from '../store/useStore';
 import { 
   Play, 
@@ -28,6 +29,22 @@ import {
   Zap,
   Clock
 } from 'lucide-react';
+
+export function getEffectiveIframeUrl(url = '') {
+  if (!url) return '';
+  if (url.includes('live24.html')) {
+    try {
+      const raw = url.split(/[?&]url=/)[1]?.split('&')[0];
+      if (raw) {
+        let slug = decodeURIComponent(raw).trim().split('?')[0].split('#')[0];
+        const parts = slug.split('/').filter(Boolean);
+        slug = parts[parts.length - 1] || slug;
+        if (slug) return `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+      }
+    } catch (e) {}
+  }
+  return url;
+}
 
 export default function Player({ 
   channel, 
@@ -193,6 +210,11 @@ export default function Player({
       channel = { ...channel, url: rawUrl };
     }
 
+    if (rawUrl.includes('live24.html')) {
+      rawUrl = getEffectiveIframeUrl(rawUrl);
+      channel = { ...channel, url: rawUrl };
+    }
+
     // Check if this is an IFRAME embed (BinTV, StreamCorner, PPVStreams, SportOnTV, embedded players)
     const isIframe = Boolean(
       channel.type === 'IFRAME' || 
@@ -278,6 +300,21 @@ export default function Player({
           }
         } catch (e) {
           console.warn('[Player] Camel1 refresh error:', e);
+        }
+      }
+
+      // Mint a fresh live token for FutbolX Flussonic streams dynamically
+      if (
+        (activeChannel.source === 'futbolx' || rawUrl.includes('futx.nx.kg') || rawUrl.includes('futbol-x')) &&
+        rawUrl.includes('.m3u8')
+      ) {
+        try {
+          const refreshed = await refreshFutbolXStreamUrl(rawUrl);
+          if (refreshed && !isCancelled) {
+            activeChannel.url = refreshed;
+          }
+        } catch (e) {
+          console.warn('[Player] FutbolX refresh error:', e);
         }
       }
 
@@ -640,7 +677,7 @@ export default function Player({
          (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ||
          (channel?.source === 'sportontv' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
-            src={channel.url}
+            src={getEffectiveIframeUrl(channel.url)}
             className={`w-full h-full relative z-0 bg-black border-0`}
             allowFullScreen
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"

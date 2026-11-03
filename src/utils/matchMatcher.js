@@ -231,11 +231,18 @@ export function findSiblingServers(currentChannel, allChannels = []) {
   return [currentChannel];
 }
 
+let lastChannelsRef = null;
+let cachedFixtures = null;
+
 /**
  * Groups all live channels into consolidated fixtures for AvailableMatches.
  * Retains the order of newly crawled matches (latest first).
  */
 export function groupChannelsIntoFixtures(channels = []) {
+  if (channels === lastChannelsRef && cachedFixtures) {
+    return cachedFixtures;
+  }
+
   const fixturesMap = new Map();
 
   for (let idx = 0; idx < channels.length; idx++) {
@@ -289,5 +296,8 @@ export function groupChannelsIntoFixtures(channels = []) {
     }
   }
 
-  return Array.from(fixturesMap.values());
+  const result = Array.from(fixturesMap.values());
+  lastChannelsRef = channels;
+  cachedFixtures = result;
+  return result;
 }

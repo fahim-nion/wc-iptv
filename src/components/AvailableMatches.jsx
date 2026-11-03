@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useDeferredValue, useCallback } from 'react';
 import { getTeamLogo } from '../utils/teamLogos';
 import { groupChannelsIntoFixtures } from '../utils/matchMatcher';
 import { 
@@ -11,8 +11,107 @@ import {
   Radio, 
   Sparkles,
   ShieldCheck,
-  ChevronRight
+  ChevronRight,
+  ChevronDown
 } from 'lucide-react';
+
+// Memoized individual match card for high FPS UI rendering
+const MatchCard = React.memo(function MatchCard({ match, isCurrentPlaying, onSelect }) {
+  return (
+    <div 
+      onClick={() => onSelect(match.primaryChannel)}
+      className={`group relative p-3.5 sm:p-4 rounded-2xl border cursor-pointer transition-all duration-200 flex flex-col justify-between overflow-hidden active:scale-[0.98] ${
+        isCurrentPlaying
+          ? 'bg-gradient-to-br from-amber-500/20 via-[#0b1626] to-[#070b14] border-amber-500 shadow-lg shadow-amber-500/15 ring-1 ring-amber-500/40'
+          : 'bg-[#060b15]/70 hover:bg-[#0c1427] border-white/10 hover:border-white/20 shadow-md'
+      }`}
+    >
+      {/* Active Indicator Glow */}
+      {isCurrentPlaying && (
+        <div className="absolute top-0 right-0 px-2 py-0.5 bg-amber-500 text-black text-[9px] font-black uppercase rounded-bl-lg flex items-center gap-1 shadow-md">
+          <span className="w-1.5 h-1.5 rounded-full bg-black animate-pulse" />
+          Now Playing
+        </div>
+      )}
+
+      {/* Team Badges & Names */}
+      <div className="space-y-2.5">
+        {/* Team 1 */}
+        <div className="flex items-center gap-2.5 min-w-0">
+          <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-sm">
+            {match.team1Logo ? (
+              <img 
+                src={match.team1Logo} 
+                alt="" 
+                loading="lazy"
+                className="w-full h-full object-contain" 
+                onError={(e) => { e.currentTarget.style.display = 'none'; }}
+              />
+            ) : (
+              <span className="text-[10px] font-black text-amber-400 font-mono">
+                {match.team1.slice(0, 3)}
+              </span>
+            )}
+          </div>
+          <span className="text-xs sm:text-sm font-black text-white uppercase tracking-tight truncate group-hover:text-amber-400 transition-colors">
+            {match.team1}
+          </span>
+        </div>
+
+        {/* Team 2 */}
+        {match.team2 && (
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-sm">
+              {match.team2Logo ? (
+                <img 
+                  src={match.team2Logo} 
+                  alt="" 
+                  loading="lazy"
+                  className="w-full h-full object-contain" 
+                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                />
+              ) : (
+                <span className="text-[10px] font-black text-slate-400 font-mono">
+                  {match.team2.slice(0, 3)}
+                </span>
+              )}
+            </div>
+            <span className="text-xs sm:text-sm font-black text-white uppercase tracking-tight truncate group-hover:text-amber-400 transition-colors">
+              {match.team2}
+            </span>
+          </div>
+        )}
+      </div>
+
+      {/* Footer Badges & Watch Action */}
+      <div className="flex items-center justify-between gap-2 pt-3 mt-2 border-t border-white/5">
+        <div className="flex items-center gap-1.5 flex-wrap">
+          {/* Live Badge */}
+          <span className="px-2 py-0.5 rounded-md bg-red-500/15 text-red-400 border border-red-500/25 text-[9px] font-black uppercase flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+            LIVE
+          </span>
+
+          {/* Quality badge */}
+          <span className="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 text-[9px] font-black uppercase">
+            HD
+          </span>
+
+          {match.servers?.length > 1 && (
+            <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 text-[9px] font-mono font-bold">
+              {match.servers.length} SRV
+            </span>
+          )}
+        </div>
+
+        <button className="text-[10px] font-black text-amber-400 hover:text-white uppercase flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+          <span>Watch</span>
+          <ChevronRight size={13} />
+        </button>
+      </div>
+    </div>
+  );
+});
 
 export default function AvailableMatches({ 
   channels = [], 
@@ -22,6 +121,8 @@ export default function AvailableMatches({
 }) {
   const [search, setSearch] = useState('');
   const [filterSource, setFilterSource] = useState('ALL');
+  const [displayCount, setDisplayCount] = useState(36);
+  const deferredSearch = useDeferredValue(search);
 
   // Format crawl timestamp (relative + absolute)
   const formattedTimestamp = useMemo(() => {
@@ -65,10 +166,10 @@ export default function AvailableMatches({
     }));
   }, [channels]);
 
-  // Filter matches based on search and source
+  // Filter matches based on deferred search and source for instant typing responsiveness
   const filteredMatches = useMemo(() => {
+    const q = deferredSearch.toLowerCase().trim();
     return groupedMatches.filter(m => {
-      const q = search.toLowerCase().trim();
       const matchSearch = !q || 
         m.baseTitle.toLowerCase().includes(q) || 
         m.team1.toLowerCase().includes(q) || 
@@ -80,7 +181,18 @@ export default function AvailableMatches({
 
       return matchSearch && matchSource;
     });
-  }, [groupedMatches, search, filterSource]);
+  }, [groupedMatches, deferredSearch, filterSource]);
+
+  const visibleMatches = useMemo(() => {
+    return filteredMatches.slice(0, displayCount);
+  }, [filteredMatches, displayCount]);
+
+  const handleSelect = useCallback((primaryChannel) => {
+    if (onSelectChannel && primaryChannel) {
+      onSelectChannel(primaryChannel);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [onSelectChannel]);
 
   return (
     <section id="available-matches-section" className="bg-gradient-to-b from-[#0c1427]/80 to-[#070b14]/90 border border-white/10 rounded-3xl p-4 sm:p-6 backdrop-blur-2xl shadow-2xl space-y-5 scroll-mt-20">
@@ -137,7 +249,7 @@ export default function AvailableMatches({
 
         {/* Quick Source Filter Pills */}
         <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:w-auto pb-1 sm:pb-0 scrollbar-hide">
-          {['ALL', 'FUTBOLX', '90MIN', 'BINTV', 'LIVELIVE24'].map(src => (
+          {['ALL', 'FUTBOLX', 'SPORTONTV', 'LIVELIVE24', 'PPVSTREAMS', 'BINTV'].map(src => (
             <button
               key={src}
               onClick={() => setFilterSource(src)}
@@ -161,105 +273,33 @@ export default function AvailableMatches({
           <p className="text-[10px] mt-0.5">Try a different team search</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          {filteredMatches.map(match => {
-            const isCurrentPlaying = currentChannel && match.servers.some(s => s.url === currentChannel.url);
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {visibleMatches.map(match => {
+              const isCurrentPlaying = currentChannel && match.servers.some(s => s.url === currentChannel.url);
+              return (
+                <MatchCard 
+                  key={match.id}
+                  match={match}
+                  isCurrentPlaying={isCurrentPlaying}
+                  onSelect={handleSelect}
+                />
+              );
+            })}
+          </div>
 
-            return (
-              <div 
-                key={match.id}
-                onClick={() => {
-                  if (onSelectChannel) {
-                    onSelectChannel(match.primaryChannel);
-                    // Smooth scroll up to player
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }
-                }}
-                className={`group relative p-3.5 sm:p-4 rounded-2xl border cursor-pointer transition-all duration-200 flex flex-col justify-between overflow-hidden active:scale-[0.98] ${
-                  isCurrentPlaying
-                    ? 'bg-gradient-to-br from-amber-500/20 via-[#0b1626] to-[#070b14] border-amber-500 shadow-lg shadow-amber-500/15 ring-1 ring-amber-500/40'
-                    : 'bg-[#060b15]/70 hover:bg-[#0c1427] border-white/10 hover:border-white/20 shadow-md'
-                }`}
+          {filteredMatches.length > displayCount && (
+            <div className="pt-3 text-center">
+              <button
+                onClick={() => setDisplayCount(prev => prev + 36)}
+                className="px-5 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-white transition-all inline-flex items-center gap-2 hover:border-amber-500/40"
               >
-                {/* Active Indicator Glow */}
-                {isCurrentPlaying && (
-                  <div className="absolute top-0 right-0 px-2 py-0.5 bg-amber-500 text-black text-[9px] font-black uppercase rounded-bl-lg flex items-center gap-1 shadow-md">
-                    <span className="w-1.5 h-1.5 rounded-full bg-black animate-pulse" />
-                    Now Playing
-                  </div>
-                )}
-
-                {/* Team Badges & Names */}
-                <div className="space-y-2.5">
-                  {/* Team 1 */}
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-sm">
-                      {match.team1Logo ? (
-                        <img 
-                          src={match.team1Logo} 
-                          alt="" 
-                          className="w-full h-full object-contain" 
-                          onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                        />
-                      ) : (
-                        <span className="text-[10px] font-black text-amber-400 font-mono">
-                          {match.team1.slice(0, 3)}
-                        </span>
-                      )}
-                    </div>
-                    <span className="text-xs sm:text-sm font-black text-white uppercase tracking-tight truncate group-hover:text-amber-400 transition-colors">
-                      {match.team1}
-                    </span>
-                  </div>
-
-                  {/* Team 2 */}
-                  {match.team2 && (
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-sm">
-                        {match.team2Logo ? (
-                          <img 
-                            src={match.team2Logo} 
-                            alt="" 
-                            className="w-full h-full object-contain" 
-                            onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                          />
-                        ) : (
-                          <span className="text-[10px] font-black text-slate-400 font-mono">
-                            {match.team2.slice(0, 3)}
-                          </span>
-                        )}
-                      </div>
-                      <span className="text-xs sm:text-sm font-black text-white uppercase tracking-tight truncate group-hover:text-amber-400 transition-colors">
-                        {match.team2}
-                      </span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Footer Badges & Watch Action */}
-                <div className="flex items-center justify-between gap-2 pt-3 mt-2 border-t border-white/5">
-                  <div className="flex items-center gap-1.5 flex-wrap">
-                    {/* Live Badge */}
-                    <span className="px-2 py-0.5 rounded-md bg-red-500/15 text-red-400 border border-red-500/25 text-[9px] font-black uppercase flex items-center gap-1">
-                      <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                      LIVE
-                    </span>
-
-                    {/* Quality badge */}
-                    <span className="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/25 text-[9px] font-black uppercase">
-                      HD
-                    </span>
-                  </div>
-
-                  <button className="text-[10px] font-black text-amber-400 hover:text-white uppercase flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
-                    <span>Watch</span>
-                    <ChevronRight size={13} />
-                  </button>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+                <ChevronDown size={14} className="text-amber-400" />
+                Show More Matches ({filteredMatches.length - displayCount} remaining)
+              </button>
+            </div>
+          )}
+        </>
       )}
     </section>
   );

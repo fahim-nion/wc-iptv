@@ -446,7 +446,6 @@ export default function App() {
             
             {/* The Ultra-Modern Video Player */}
             <Player 
-              key={currentChannel?.url} 
               channel={currentChannel} 
               onStall={autoSwitch}
               relatedServers={relatedServers}

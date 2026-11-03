@@ -468,15 +468,32 @@ export async function discoverLiveLive24() {
         const data = await res.json();
         if (!Array.isArray(data)) return [];
 
+        const nowSec = Math.floor(Date.now() / 1000);
+
         for (const match of data) {
             if (!Array.isArray(match.streams) || match.streams.length === 0) continue;
+
+            // Filter out finished matches (> 3 hrs since start) or far future matches (> 45 min away)
+            if (match.timestamp) {
+                if (match.timestamp + 3 * 3600 < nowSec) continue;
+                if (match.timestamp - 45 * 60 > nowSec) continue;
+            }
 
             const baseName = (match.name || 'UNKNOWN MATCH').trim().toUpperCase();
 
             match.streams.forEach((stream, index) => {
                 if (!stream.url) return;
                 let resolvedUrl = stream.url;
-                if (resolvedUrl.includes('?url=') && (resolvedUrl.includes('.m3u8') || resolvedUrl.includes('live.hztx'))) {
+                if (resolvedUrl.includes('live24.html')) {
+                    const raw = resolvedUrl.split(/[?&]url=/)[1]?.split('&')[0];
+                    if (raw) {
+                        let slug = decodeURIComponent(raw).trim();
+                        slug = slug.split('?')[0].split('#')[0];
+                        const parts = slug.split('/').filter(Boolean);
+                        slug = parts[parts.length - 1] || slug;
+                        if (slug) resolvedUrl = `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+                    }
+                } else if (resolvedUrl.includes('?url=') && (resolvedUrl.includes('.m3u8') || resolvedUrl.includes('live.hztx'))) {
                     const rawParam = resolvedUrl.split(/[?&]url=/)[1]?.split('&')[0];
                     if (rawParam) {
                         try {
@@ -787,12 +804,25 @@ export async function discoverFutbolX() {
                             }
                         } catch (e) {}
 
+                        // Verify stream returns 200 (not 404)
+                        try {
+                            const checkRes = await fetch(playableUrl, {
+                                method: 'HEAD',
+                                headers: { 'Referer': 'https://www.futbol-x.xyz/' },
+                                signal: AbortSignal.timeout(3500)
+                            });
+                            if (!checkRes.ok) continue;
+                        } catch (e) {
+                            continue;
+                        }
+
                         const baseTitle = normalizeMatchTitle(match.name);
                         const serverSuffix = streamsList.length > 1 ? ` [SERVER ${i + 1} - HD]` : ` [SERVER 1 - HD]`;
                         matches.push({
                             title: `${baseTitle}${serverSuffix}`,
                             url: playableUrl,
-                            source: 'futbolx'
+                            source: 'futbolx',
+                            type: 'HLS'
                         });
                     }
                 }
@@ -1254,8 +1284,14 @@ export async function discoverPPVStreams() {
 
         console.log(`   [PPVSTREAMS] Found ${footballCat.streams.length} football events.`);
 
+        const nowSec = Date.now() / 1000;
         for (const s of footballCat.streams) {
             if (!s.name) continue;
+
+            const isLive = Boolean(s.always_live) || (s.starts_at && s.starts_at <= nowSec && (!s.ends_at || s.ends_at >= nowSec));
+            const isUpcomingSoon = s.starts_at && s.starts_at > nowSec && (s.starts_at - nowSec <= 45 * 60);
+            if (!isLive && !isUpcomingSoon) continue;
+
             const baseTitle = normalizeMatchTitle(s.name);
             const sourceTag = s.source_tag ? ` [${s.source_tag.toUpperCase()}]` : " [ENGLISH HD]";
 

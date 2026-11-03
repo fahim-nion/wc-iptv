@@ -87,7 +87,14 @@ function loadExistingChannels() {
     try {
         if (fs.existsSync(CHANNELS_PATH)) {
             const fileData = JSON.parse(fs.readFileSync(CHANNELS_PATH, 'utf-8'));
-            return fileData.channels || [];
+            const channels = fileData.channels || [];
+            const now = Date.now();
+            const MAX_AGE_MS = 3.5 * 60 * 60 * 1000;
+            return channels.filter(ch => {
+                if (!ch.crawledAt) return false;
+                const age = now - new Date(ch.crawledAt).getTime();
+                return age < MAX_AGE_MS;
+            });
         }
     } catch (e) {
         console.log(chalk.gray("[Crawler] No previous channels.json found or invalid JSON."));
@@ -214,9 +221,15 @@ export async function runFullCycle() {
     console.log(chalk.blue(`\n[Extraction] Extracting playable streams from ${queue.length} total queued matches...`));
     const newResults = await extractStreams(queue);
 
-    // Persistence: preserve active matches from previous cycle
+    // Persistence: preserve active matches from previous cycle (max 2.5 hours old)
     console.log(chalk.blue("\n[Persistence] Verifying previous matches..."));
-    const oldCandidates = existingChannels.filter(old => !newResults.find(n => n.title === old.title));
+    const now = Date.now();
+    const oldCandidates = existingChannels.filter(old => {
+        if (!old.crawledAt) return false;
+        const age = now - new Date(old.crawledAt).getTime();
+        if (age > 2.5 * 60 * 60 * 1000) return false;
+        return !newResults.find(n => n.title === old.title);
+    });
     const BATCH_SIZE = 15;
     for (let i = 0; i < oldCandidates.length; i += BATCH_SIZE) {
         const batch = oldCandidates.slice(i, i + BATCH_SIZE);

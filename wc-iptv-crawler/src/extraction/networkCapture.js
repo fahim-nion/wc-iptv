@@ -71,6 +71,7 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                 return camelStream;
             }
         }
+        return null;
     }
 
     // 0a. Fast-path resolver for BinTV & PPVStreams
@@ -86,17 +87,27 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
     if (
         label.toUpperCase().includes('PPV') || 
         label.toUpperCase().includes('SPORTONTV') ||
+        label.toUpperCase().includes('LIVELIVE24') ||
         targetUrl.includes('taifood-blog') || 
         targetUrl.includes('ppvservices') || 
         targetUrl.includes('embedsports.me') ||
         targetUrl.includes('thedaddy.pk') ||
-        targetUrl.includes('sportontv')
+        targetUrl.includes('sportontv') ||
+        targetUrl.includes('live24.html') ||
+        targetUrl.includes('livelive24.st')
     ) {
-        return { url: targetUrl, type: 'IFRAME' };
-    }
-
-    if (targetUrl.includes('live24.html') || targetUrl.includes('livelive24.st')) {
-        return { url: targetUrl, type: 'IFRAME' };
+        let finalUrl = targetUrl;
+        if (finalUrl.includes('live24.html')) {
+            const raw = finalUrl.split(/[?&]url=/)[1]?.split('&')[0];
+            if (raw) {
+                let slug = decodeURIComponent(raw).trim();
+                slug = slug.split('?')[0].split('#')[0];
+                const parts = slug.split('/').filter(Boolean);
+                slug = parts[parts.length - 1] || slug;
+                if (slug) finalUrl = `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+            }
+        }
+        return { url: finalUrl, type: 'IFRAME' };
     }
 
     if (label.toUpperCase().includes('XYZSTREAMS') || targetUrl.includes('xyzstreams.st')) {
