@@ -208,30 +208,101 @@ export async function discoverXoilac() {
     const source = config.sources.xoilac;
     if (!source || !source.enabled) return [];
 
-    console.log(`\n🔍 [XOILAC] Scanning homepage for matches...`);
-
-    const browser = await puppeteer.launch({
-        executablePath: CHROME_PATH || undefined,
-        headless: true,
-        ignoreHTTPSErrors: true,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-gpu',
-            '--disable-blink-features=AutomationControlled',
-            '--block-new-web-contents',
-            '--ignore-certificate-errors',
-            '--ignore-certificate-errors-spki-list'
-        ]
-    });
-
-    const page = await browser.newPage();
-    await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
+    console.log(`\n🔍 [XOILAC] Scanning matches...`);
     const matches = [];
-    const urls = [source.homepage, ...(source.mirrors || [])];
 
+    // 1. Fast API Discovery (gvapi.cc) - instantaneous and avoids SSL/browser blocks
+    const apiEndpoint = source.api || "https://api.gvapi.cc/api/matches";
     try {
+        const res = await fetch(apiEndpoint, {
+            headers: {
+                'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Origin': 'https://xoilacvo.us',
+                'Referer': 'https://xoilacvo.us/'
+            },
+            signal: AbortSignal.timeout(8000)
+        });
+
+        if (res.ok) {
+            const json = await res.json();
+            const data = json.data || {};
+            const slugs = Object.keys(data);
+            const liveMatches = [];
+            const upcomingMatches = [];
+
+            for (const slug of slugs) {
+                const m = data[slug];
+                const home = (m.homeTeamName || m.home_team?.name || "").trim();
+                const away = (m.awayTeamName || m.away_team?.name || "").trim();
+                if (!home || !away) continue;
+
+                const isLive = m.matchStatus === 2 || m.match_status === "live";
+                const baseTitle = `${home} VS ${away}`.toUpperCase();
+
+                let serverIndex = 1;
+                if (Array.isArray(m.anchorAppointmentVoList) && m.anchorAppointmentVoList.length > 0) {
+                    for (const a of m.anchorAppointmentVoList) {
+                        const streamUrl = a.servers?.[0] || a.playStreamAddress2;
+                        if (!streamUrl) continue;
+                        const commentator = (a.nickName || "").trim().toUpperCase();
+                        const label = commentator ? `[SERVER ${serverIndex} - ${commentator}]` : `[SERVER ${serverIndex}]`;
+                        const item = {
+                            source: 'xoilac',
+                            title: `${baseTitle} ${label}`,
+                            url: streamUrl,
+                            isLive,
+                            type: 'HLS'
+                        };
+                        if (isLive) liveMatches.push(item);
+                        else upcomingMatches.push(item);
+                        serverIndex++;
+                    }
+                } else if (m.videoUrl && m.videoUrl.includes('.m3u8')) {
+                    const item = {
+                        source: 'xoilac',
+                        title: `${baseTitle} [SERVER 1]`,
+                        url: m.videoUrl,
+                        isLive,
+                        type: 'HLS'
+                    };
+                    if (isLive) liveMatches.push(item);
+                    else upcomingMatches.push(item);
+                }
+            }
+
+            matches.push(...liveMatches, ...upcomingMatches);
+            if (matches.length > 0) {
+                console.log(`[XOILAC] API discovered ${matches.length} streams (${liveMatches.length} live).`);
+                return matches;
+            }
+        }
+    } catch (apiErr) {
+        console.log(`[XOILAC] API scan notice: ${apiErr.message}. Trying browser fallback...`);
+    }
+
+    // 2. Puppeteer browser fallback
+    let browser;
+    try {
+        browser = await puppeteer.launch({
+            executablePath: CHROME_PATH || undefined,
+            headless: true,
+            ignoreHTTPSErrors: true,
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-blink-features=AutomationControlled',
+                '--block-new-web-contents',
+                '--ignore-certificate-errors',
+                '--ignore-certificate-errors-spki-list'
+            ]
+        });
+
+        const page = await browser.newPage();
+        await page.evaluateOnNewDocument(() => { window.open = () => null; }).catch(() => {});
+        const urls = [source.homepage, ...(source.mirrors || [])];
+
         for (const url of urls) {
             try {
                 console.log(`[XOILAC] Checking: ${url}`);
@@ -366,7 +437,7 @@ export async function discoverXoilac() {
     } catch (e) {
         console.error(`[XOILAC Discovery Error]: ${e.message}`);
     } finally {
-        await browser.close();
+        if (browser) await browser.close();
     }
 
     console.log(`\n[XOILAC] Discovery complete: ${matches.length} matches`);
@@ -380,7 +451,7 @@ export async function discoverLiveLive24() {
     if (!source || !source.enabled) return [];
 
     console.log(`\n🔍 [LIVELIVE24] Scanning TopHD matches...`);
-    const endpoint = "https://livelive24.com/test/processed_matches_prioritized.json";
+    const endpoint = source.api || "https://livelive24.com/buff/output/Football.json";
     const matches = [];
 
     try {
@@ -398,14 +469,14 @@ export async function discoverLiveLive24() {
         if (!Array.isArray(data)) return [];
 
         for (const match of data) {
-            if (!match.has_stream || !Array.isArray(match.streams) || match.streams.length === 0) continue;
+            if (!Array.isArray(match.streams) || match.streams.length === 0) continue;
 
             const baseName = (match.name || 'UNKNOWN MATCH').trim().toUpperCase();
 
             match.streams.forEach((stream, index) => {
                 if (!stream.url) return;
                 let resolvedUrl = stream.url;
-                if (resolvedUrl.includes('?url=') || resolvedUrl.includes('&url=')) {
+                if (resolvedUrl.includes('?url=') && (resolvedUrl.includes('.m3u8') || resolvedUrl.includes('live.hztx'))) {
                     const rawParam = resolvedUrl.split(/[?&]url=/)[1]?.split('&')[0];
                     if (rawParam) {
                         try {
@@ -421,7 +492,8 @@ export async function discoverLiveLive24() {
                         } catch (e) {}
                     }
                 }
-                const quality = (stream.quality || '').trim().toUpperCase();
+                const streamName = (stream.name || '').trim();
+                const quality = (stream.quality || streamName || '').toUpperCase();
                 const serverLabel = quality ? `[SERVER ${index + 1} - ${quality}]` : `[SERVER ${index + 1}]`;
                 const title = `${baseName} ${serverLabel}`;
 
@@ -429,8 +501,9 @@ export async function discoverLiveLive24() {
                     source: 'livelive24',
                     title: title,
                     url: resolvedUrl,
-                    quality: stream.quality,
-                    serverIndex: index + 1
+                    quality: stream.quality || streamName,
+                    serverIndex: index + 1,
+                    type: resolvedUrl.includes('.m3u8') ? 'HLS' : 'IFRAME'
                 });
             });
         }

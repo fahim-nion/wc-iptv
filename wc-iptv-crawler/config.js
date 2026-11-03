@@ -9,14 +9,15 @@ export default {
         colatv: { 
             enabled: true,
             priority: 7, 
-            homepage: "https://colatv55.live/",
+            homepage: "https://colatv22.live/",
             mirrors: []
         },
         xoilac: { 
             enabled: true,
             priority: 8, 
-            homepage: "https://xoilacz.ca/",
-            mirrors: ["https://almafestival.info/","https://xoilacxcp.tv/"]
+            homepage: "https://xoilacvo.us/",
+            api: "https://api.gvapi.cc/api/matches",
+            mirrors: ["https://xoilacz.ca/","https://almafestival.info/","https://xoilacxcp.tv/"]
         },
         futbolx: {
             enabled: true,
@@ -29,6 +30,7 @@ export default {
             enabled: true,
             priority: 1,
             homepage: "https://livelive24.com/",
+            api: "https://livelive24.com/buff/output/Football.json",
             mirrors: []
         },
         xyzstreams: {

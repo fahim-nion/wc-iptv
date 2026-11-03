@@ -13,9 +13,17 @@ export function getStreamUrl(channelOrUrl) {
     url.includes('bintv-sources') || 
     url.includes('/embed/') || 
     url.includes('ehgembxe') ||
-    url.includes('taifood-blog')
+    url.includes('taifood-blog') ||
+    url.includes('live24.html') ||
+    url.includes('embedsports.me')
   ) {
     return url;
+  }
+
+  // MahsunSports permanent channels require custom Referer headers provided by the site's /api/stream proxy
+  if (url.includes('evrenesoglu') || url.includes('mahsunsports')) {
+    if (url.includes('/api/stream?url=') || url.includes('/.netlify/functions/stream?url=')) return url;
+    return `/api/stream?url=${encodeURIComponent(url)}`;
   }
 
   if (PROXY && PROXY.length > 0) {

@@ -586,6 +586,8 @@ export default function Player({
          channel?.url?.includes('bintv-sources') || 
          channel?.url?.includes('ehgembxe') ||
          channel?.url?.includes('taifood-blog') ||
+         channel?.url?.includes('embedsports.me') ||
+         channel?.url?.includes('live24.html') ||
          (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ||
          (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
@@ -593,7 +595,6 @@ export default function Player({
             className={`w-full h-full relative z-0 bg-black border-0`}
             allowFullScreen
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"
           />
         ) : (
           <video 
