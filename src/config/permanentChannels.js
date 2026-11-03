@@ -6,7 +6,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/batutest.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/batutest.m3u8",
     "isPermanent": true
   },
   {
@@ -16,7 +16,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebs2.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebs2.m3u8",
     "isPermanent": true
   },
   {
@@ -26,7 +26,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebs3.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebs3.m3u8",
     "isPermanent": true
   },
   {
@@ -36,7 +36,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebs4.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebs4.m3u8",
     "isPermanent": true
   },
   {
@@ -46,7 +46,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebs5.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebs5.m3u8",
     "isPermanent": true
   },
   {
@@ -56,7 +56,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebsm1.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebsm1.m3u8",
     "isPermanent": true
   },
   {
@@ -66,7 +66,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Global / MENA",
     "countryFlag": "https://flagcdn.com/w80/qa.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivebsm2.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivebsm2.m3u8",
     "isPermanent": true
   },
   {
@@ -76,7 +76,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivess1.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivess1.m3u8",
     "isPermanent": true
   },
   {
@@ -86,7 +86,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivess2.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivess2.m3u8",
     "isPermanent": true
   },
   {
@@ -96,7 +96,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Portugal",
     "countryFlag": "https://flagcdn.com/w80/pt.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivesm1.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivesm1.m3u8",
     "isPermanent": true
   },
   {
@@ -106,7 +106,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivesm1.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivesm1.m3u8",
     "isPermanent": true
   },
   {
@@ -116,7 +116,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivesm2.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivesm2.m3u8",
     "isPermanent": true
   },
   {
@@ -126,7 +126,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Spain / Europe",
     "countryFlag": "https://flagcdn.com/w80/es.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivees1.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivees1.m3u8",
     "isPermanent": true
   },
   {
@@ -136,7 +136,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Spain / Europe",
     "countryFlag": "https://flagcdn.com/w80/es.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivees2.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivees2.m3u8",
     "isPermanent": true
   },
   {
@@ -146,7 +146,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivetrts.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivetrts.m3u8",
     "isPermanent": true
   },
   {
@@ -156,7 +156,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamliveas.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamliveas.m3u8",
     "isPermanent": true
   },
   {
@@ -166,7 +166,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamliveht.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamliveht.m3u8",
     "isPermanent": true
   },
   {
@@ -176,7 +176,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivefb.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivefb.m3u8",
     "isPermanent": true
   },
   {
@@ -186,7 +186,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Turkey",
     "countryFlag": "https://flagcdn.com/w80/tr.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamlivetrtsy.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamlivetrtsy.m3u8",
     "isPermanent": true
   },
   {
@@ -196,7 +196,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Bulgaria",
     "countryFlag": "https://flagcdn.com/w80/bg.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamliveexn5.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamliveexn5.m3u8",
     "isPermanent": true
   },
   {
@@ -206,7 +206,7 @@ export const PERMANENT_CHANNELS = [
     "country": "Azerbaijan",
     "countryFlag": "https://flagcdn.com/w80/az.png",
     "group": "Sports",
-    "url": "https://andro.evrenesoglu233.click/checklist/androstreamliveidm.m3u8",
+    "url": "https://andro.evrenesoglu235.click/checklist/androstreamliveidm.m3u8",
     "isPermanent": true
   },
   {
