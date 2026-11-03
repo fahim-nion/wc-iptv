@@ -1,6 +1,496 @@
 {
-  "updatedAt": "2026-11-03T17:32:14.137Z",
+  "updatedAt": "2026-11-03T18:12:30.311Z",
   "channels": [
+    {
+      "id": "live-d0217891c3",
+      "title": "SHAKHTAR VS SPORTING CP [SERVER 1 - HD]",
+      "status": "live",
+      "source": "futbolx",
+      "streamUrl": "https://fup.futx.nx.kg/spo/index.m3u8?token=57cc4d3932abf22350bd840385d7da2c718d304a-4beab317bbb67166345d22159cad9112-1793729976-1793728776&remote=no_check_ip",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:13.329Z"
+    },
+    {
+      "id": "live-1d20658d6a",
+      "title": "GALATASARAY VS STUTTGART [SERVER 1 - HD]",
+      "status": "live",
+      "source": "futbolx",
+      "streamUrl": "https://hey.futx.nx.kg/gal/index.m3u8?token=0e3b1a95547b4d59e8ac2acab99d7e5711a02e58-f0db282dc8c37f50c4c35d30722f4673-1793729976-1793728776&remote=no_check_ip",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.343Z"
+    },
+    {
+      "id": "live-117ebf6af2",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 1 - HQ STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.547Z"
+    },
+    {
+      "id": "live-540fcd2f40",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 2 - HQ STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.547Z"
+    },
+    {
+      "id": "live-add3c16c82",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 3 - HQ SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.548Z"
+    },
+    {
+      "id": "live-c51c94d9c0",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 4 - HQ ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-4",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.548Z"
+    },
+    {
+      "id": "live-addd2da24a",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 5 - HQ PORTUGAL]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-5",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.548Z"
+    },
+    {
+      "id": "live-9974d17a05",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 6 - STREAM 6]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-6",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.548Z"
+    },
+    {
+      "id": "live-6bc1f503ed",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 7 - STREAM 7]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-7",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-6204da97bd",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 8 - SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-8",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-0a04c517a9",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 9 - ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-9",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-acabd2f4cc",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 10 - PORTUGAL]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=shakhtar-donetsk-vs-sporting-cp-stream-10",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-677cbc15f0",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 1 - HQ STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-e01ffb3d17",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 2 - HQ STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.549Z"
+    },
+    {
+      "id": "live-657ffb52d3",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 3 - HQ SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.550Z"
+    },
+    {
+      "id": "live-0854c8f1d3",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 4 - HQ GERMANY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-4",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.550Z"
+    },
+    {
+      "id": "live-e823aaaaf7",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 5 - HQ ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-5",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.550Z"
+    },
+    {
+      "id": "live-358647f79b",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 6 - HQ PORTUGAL]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-6",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.550Z"
+    },
+    {
+      "id": "live-c111fa9d25",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 7 - STREAM 7]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-7",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.551Z"
+    },
+    {
+      "id": "live-0cffdba717",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 8 - STREAM 8]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-8",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.551Z"
+    },
+    {
+      "id": "live-f24acf6a99",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 9 - SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-9",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.551Z"
+    },
+    {
+      "id": "live-e0e7807abf",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 10 - GERMANY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-10",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.551Z"
+    },
+    {
+      "id": "live-b79b4d7ce0",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 11 - ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-11",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.553Z"
+    },
+    {
+      "id": "live-56650e2a0c",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 12 - PORTUGAL]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=galatasaray-vs-vfb-stuttgart-stream-12",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.553Z"
+    },
+    {
+      "id": "live-c8541dc091",
+      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 1 - HQ GERMANY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=champions-league-konferenz-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.554Z"
+    },
+    {
+      "id": "live-8154888b43",
+      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 2 - HQ GERMANY 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=champions-league-konferenz-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.554Z"
+    },
+    {
+      "id": "live-4207e77558",
+      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 3 - GERMANY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=champions-league-konferenz-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.554Z"
+    },
+    {
+      "id": "live-470f1b7932",
+      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 4 - GERMANY 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=champions-league-konferenz-stream-4",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.554Z"
+    },
+    {
+      "id": "live-c703449395",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=al-hilal-vs-shabab-al-ahli-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.555Z"
+    },
+    {
+      "id": "live-7c85153e8e",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 2 - HQ JAPAN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=al-hilal-vs-shabab-al-ahli-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.556Z"
+    },
+    {
+      "id": "live-040d20c5a8",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 3 - JAPAN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=al-hilal-vs-shabab-al-ahli-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.556Z"
+    },
+    {
+      "id": "live-7d352591b3",
+      "title": "S. KOSTROMA VS VOLNA NIZHEGORODSKAYA [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=s-kostroma-vs-volna-nizhegorodskaya-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.557Z"
+    },
+    {
+      "id": "live-c10e95b6b3",
+      "title": "S. KOSTROMA VS VOLNA NIZHEGORODSKAYA [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=s-kostroma-vs-volna-nizhegorodskaya-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.557Z"
+    },
+    {
+      "id": "live-c8eef41bd4",
+      "title": "MAMELODI SUNDOWNS VS GOLDEN ARROWS [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=mamelodi-sundowns-vs-golden-arrows-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.558Z"
+    },
+    {
+      "id": "live-530c473cee",
+      "title": "MAMELODI SUNDOWNS VS GOLDEN ARROWS [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=mamelodi-sundowns-vs-golden-arrows-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.559Z"
+    },
+    {
+      "id": "live-2799e5bf5f",
+      "title": "IK SIRIUS VS HALMSTADS BK [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=ik-sirius-vs-halmstads-bk-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.559Z"
+    },
+    {
+      "id": "live-a62d64b8b8",
+      "title": "IK SIRIUS VS HALMSTADS BK [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=ik-sirius-vs-halmstads-bk-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.560Z"
+    },
+    {
+      "id": "live-785b759f2d",
+      "title": "IK SIRIUS VS HALMSTADS BK [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=ik-sirius-vs-halmstads-bk-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.560Z"
+    },
+    {
+      "id": "live-4c394ced52",
+      "title": "PAMPLONA VS EIBAR [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=pamplona-vs-eibar-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.561Z"
+    },
+    {
+      "id": "live-fea0bd1939",
+      "title": "PAMPLONA VS EIBAR [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=pamplona-vs-eibar-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.561Z"
+    },
+    {
+      "id": "live-f6b3d8675f",
+      "title": "PAMPLONA VS EIBAR [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=pamplona-vs-eibar-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.562Z"
+    },
+    {
+      "id": "live-2627c590e6",
+      "title": "AEL LIMASSOL VS IRAKLIS YEROLAKKOU [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=ael-limassol-vs-iraklis-yerolakkou-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.562Z"
+    },
+    {
+      "id": "live-6f9dd4e9ea",
+      "title": "AEL LIMASSOL VS IRAKLIS YEROLAKKOU [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=ael-limassol-vs-iraklis-yerolakkou-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.563Z"
+    },
+    {
+      "id": "live-cb6f214634",
+      "title": "CHROBRY GLOGOW VS ARKA GDYNIA [SERVER 1 - HQ POLAND]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=chrobry-glogow-vs-arka-gdynia-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.563Z"
+    },
+    {
+      "id": "live-2951038ea9",
+      "title": "CHROBRY GLOGOW VS ARKA GDYNIA [SERVER 2 - POLAND]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=chrobry-glogow-vs-arka-gdynia-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.563Z"
+    },
+    {
+      "id": "live-800fa72d08",
+      "title": "KARMIOTISSA VS ERMIS [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=karmiotissa-vs-ermis-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.564Z"
+    },
+    {
+      "id": "live-40b0517261",
+      "title": "KARMIOTISSA VS ERMIS [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=karmiotissa-vs-ermis-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.564Z"
+    },
+    {
+      "id": "live-5549f77579",
+      "title": "POGON SIEDLCE VS RUCH CHORZOW [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=pogon-siedlce-vs-ruch-chorzow-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.565Z"
+    },
+    {
+      "id": "live-898e89ccef",
+      "title": "POGON SIEDLCE VS RUCH CHORZOW [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://livelive24.st/live24.html?url=pogon-siedlce-vs-ruch-chorzow-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:16.565Z"
+    },
     {
       "id": "live-92c35d291c",
       "title": "GALATASARAY VS. VFB STUTTGART SERVER 1 [HD | TNT SPORTS 2]",
@@ -9,7 +499,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/gal-vfb",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.195Z"
+      "crawledAt": "2026-11-03T18:05:16.565Z"
     },
     {
       "id": "live-bb8ebfad89",
@@ -19,7 +509,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/gal-vfb_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.196Z"
+      "crawledAt": "2026-11-03T18:05:16.566Z"
     },
     {
       "id": "live-d79bc03c8c",
@@ -29,7 +519,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/shk-scp",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.196Z"
+      "crawledAt": "2026-11-03T18:05:16.566Z"
     },
     {
       "id": "live-b38f139813",
@@ -39,7 +529,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/shk-scp_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.566Z"
     },
     {
       "id": "live-249bd50a32",
@@ -49,7 +539,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-03/sir-hbk",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-3d06eeeb7f",
@@ -59,7 +549,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-03/sir-hbk_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-4840c559be",
@@ -69,7 +559,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/the-golazo-show-31725",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-6c8db3eda9",
@@ -79,7 +569,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/the-golazo-show-31725_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-db991fe8d9",
@@ -89,7 +579,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/efl-championship/2026-11-03/wat-lcn",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-bf81504031",
@@ -99,7 +589,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/efl-championship/2026-11-03/wat-lcn_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.567Z"
     },
     {
       "id": "live-9c4d862a2c",
@@ -109,7 +599,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/atm-bay",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-7f602b5c7c",
@@ -119,7 +609,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/atm-bay_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-72826ac0af",
@@ -129,7 +619,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bar-avl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.197Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-25f79e98e3",
@@ -139,7 +629,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bar-avl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-bb6d667840",
@@ -149,7 +639,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bodo-lill",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-111ee5421a",
@@ -159,7 +649,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/bodo-lill_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-873bc93bc0",
@@ -169,7 +659,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/fey-int",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-5169fb2628",
@@ -179,7 +669,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/fey-int_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.568Z"
     },
     {
       "id": "live-d0d2a386cc",
@@ -189,7 +679,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/las-slb",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-d4a9834cb6",
@@ -199,7 +689,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/las-slb_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-a367546df1",
@@ -209,7 +699,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/mun-roma",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-2726baac3e",
@@ -219,7 +709,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/mun-roma_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-da56173756",
@@ -229,7 +719,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/manchester-united-vs-as-roma-31724",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-5ae7e4af6e",
@@ -239,7 +729,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/manchester-united-vs-as-roma-31724_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-4116142c8c",
@@ -249,7 +739,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/vil-psg",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.198Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-873fb4848c",
@@ -259,7 +749,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-03/vil-psg_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.569Z"
     },
     {
       "id": "live-e273b5fecb",
@@ -269,7 +759,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/efl-championship/2026-11-03/wba-sou",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-82fc234144",
@@ -279,7 +769,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/efl-championship/2026-11-03/wba-sou_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-0a256565f4",
@@ -289,7 +779,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-04/ren-oly",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-8d903b0da7",
@@ -299,7 +789,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-04/ren-oly_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-ee0363a1d7",
@@ -309,7 +799,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-ef28e361b4",
@@ -319,7 +809,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-9011b797e2",
@@ -329,7 +819,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-c108df4bb4",
@@ -339,7 +829,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.199Z"
+      "crawledAt": "2026-11-03T18:05:16.570Z"
     },
     {
       "id": "live-687dd4379a",
@@ -349,7 +839,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/dor-bet",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-075b2f98e0",
@@ -359,7 +849,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/dor-bet_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-2eb241a06d",
@@ -369,7 +859,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fcp-nap",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-156a414cd6",
@@ -379,7 +869,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fcp-nap_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-9b813c2ef6",
@@ -389,7 +879,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rcl-como",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-30e0465d3c",
@@ -399,7 +889,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rcl-como_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-42a1765e02",
@@ -409,7 +899,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/psv-bru",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.571Z"
     },
     {
       "id": "live-ed40ce08a6",
@@ -419,7 +909,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/psv-bru_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-0779850061",
@@ -429,7 +919,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rbl-mci",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-79b8670baf",
@@ -439,7 +929,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/rbl-mci_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-89d220703c",
@@ -449,7 +939,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/slp-ars",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-406975d5bc",
@@ -459,7 +949,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/slp-ars_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.200Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-cdd22b2563",
@@ -469,7 +959,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/vfk-sab",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-f9aea3a377",
@@ -479,7 +969,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/vfk-sab_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-a290516181",
@@ -489,7 +979,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/mil-fer",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-151054cea2",
@@ -499,7 +989,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/mil-fer_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-acccf29470",
@@ -509,7 +999,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/and-slz",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-e2c1362bba",
@@ -519,7 +1009,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/and-slz_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-135df35130",
@@ -529,7 +1019,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cry-tsg",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-d557e91158",
@@ -539,7 +1029,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cry-tsg_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.572Z"
     },
     {
       "id": "live-e0c205721b",
@@ -549,7 +1039,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lev-jag",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.201Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-7295f5284b",
@@ -559,7 +1049,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lev-jag_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-b46d2895ff",
@@ -569,7 +1059,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lsk-plz",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-68c9d445e5",
@@ -579,7 +1069,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/lsk-plz_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-ab69d695fd",
@@ -589,7 +1079,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/nec-omon",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-ef17416efe",
@@ -599,7 +1089,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/nec-omon_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-3cc3da006f",
@@ -609,7 +1099,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/rso-lyon",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-14b07949f5",
@@ -619,7 +1109,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/rso-lyon_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.202Z"
+      "crawledAt": "2026-11-03T18:05:16.573Z"
     },
     {
       "id": "live-f2e4018502",
@@ -629,7 +1119,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/spp-bou",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-d5dca5e578",
@@ -639,7 +1129,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/spp-bou_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-4b954c8733",
@@ -649,7 +1139,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/agf-scb",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-537f900dfc",
@@ -659,7 +1149,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/agf-scb_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-d57e052c79",
@@ -669,7 +1159,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ata-kai",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-9744fe8639",
@@ -679,7 +1169,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ata-kai_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.574Z"
     },
     {
       "id": "live-92c9fffa3c",
@@ -689,7 +1179,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mid-aja",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.575Z"
     },
     {
       "id": "live-8627e77d4d",
@@ -699,7 +1189,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mid-aja_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.203Z"
+      "crawledAt": "2026-11-03T18:05:16.575Z"
     },
     {
       "id": "live-09d6a681c5",
@@ -709,7 +1199,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/thun-hom",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.575Z"
     },
     {
       "id": "live-6c2c34b3f7",
@@ -719,7 +1209,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/thun-hom_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.575Z"
     },
     {
       "id": "live-2d7e8dbff4",
@@ -729,7 +1219,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kups-gent",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-59b4ab0685",
@@ -739,7 +1229,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kups-gent_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-cc6732f61a",
@@ -749,7 +1239,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lri-haj",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-9be510ee7b",
@@ -759,7 +1249,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lri-haj_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-184faa3a92",
@@ -769,7 +1259,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mja-bbl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.204Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-d563e48293",
@@ -779,7 +1269,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mja-bbl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.205Z"
+      "crawledAt": "2026-11-03T18:05:16.576Z"
     },
     {
       "id": "live-df01fbcfbf",
@@ -789,7 +1279,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rsb-ide",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.205Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-54b104a1dc",
@@ -799,7 +1289,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rsb-ide_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.205Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-931b147cfb",
@@ -809,7 +1299,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/trab-scf",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.205Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-12f1849aef",
@@ -819,7 +1309,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/trab-scf_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.205Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-c3d2b87772",
@@ -829,7 +1319,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/az-juv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.207Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-1854a06db8",
@@ -839,7 +1329,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/az-juv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.207Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-308daecb5d",
@@ -849,7 +1339,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/b04-olm",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.207Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-02894cef8b",
@@ -859,7 +1349,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/b04-olm_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.577Z"
     },
     {
       "id": "live-54c929c35d",
@@ -869,7 +1359,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/slb-lech",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-9773384206",
@@ -879,7 +1369,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/slb-lech_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-2fab040df0",
@@ -889,7 +1379,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-usg",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-38a3d2562b",
@@ -899,7 +1389,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-usg_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-0fd36b0dcd",
@@ -909,7 +1399,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-bes",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.208Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-cf73fa5d84",
@@ -919,7 +1409,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/cel-bes_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.578Z"
     },
     {
       "id": "live-5b57d1f726",
@@ -929,7 +1419,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/hbe-ofi",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.579Z"
     },
     {
       "id": "live-2c3d3d9d38",
@@ -939,7 +1429,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/hbe-ofi_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.579Z"
     },
     {
       "id": "live-3db97c3a56",
@@ -949,7 +1439,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/stg-nkc",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.579Z"
     },
     {
       "id": "live-fe5076a3d2",
@@ -959,7 +1449,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/stg-nkc_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.579Z"
     },
     {
       "id": "live-81a79f7e75",
@@ -969,7 +1459,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/sun-dzg",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.580Z"
     },
     {
       "id": "live-8b7036cd01",
@@ -979,7 +1469,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/sun-dzg_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.580Z"
     },
     {
       "id": "live-f2fd54e3ec",
@@ -989,7 +1479,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/tor-ara",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.209Z"
+      "crawledAt": "2026-11-03T18:05:16.581Z"
     },
     {
       "id": "live-a8ad29eb73",
@@ -999,7 +1489,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uel/2026-11-05/tor-ara_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.581Z"
     },
     {
       "id": "live-0cfe7b6e81",
@@ -1009,7 +1499,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mon-fcn",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.581Z"
     },
     {
       "id": "live-46243174f7",
@@ -1019,7 +1509,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/mon-fcn_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.581Z"
     },
     {
       "id": "live-52e37c2b20",
@@ -1029,7 +1519,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ucra-egn",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.581Z"
     },
     {
       "id": "live-5fbba4ad9f",
@@ -1039,7 +1529,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/ucra-egn_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.582Z"
     },
     {
       "id": "live-767e24be28",
@@ -1049,7 +1539,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kbh-ibe",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.210Z"
+      "crawledAt": "2026-11-03T18:05:16.582Z"
     },
     {
       "id": "live-5a2c4288c3",
@@ -1059,7 +1549,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/kbh-ibe_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.211Z"
+      "crawledAt": "2026-11-03T18:05:16.582Z"
     },
     {
       "id": "live-92d35ba51e",
@@ -1069,7 +1559,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lug-zal",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.211Z"
+      "crawledAt": "2026-11-03T18:05:16.582Z"
     },
     {
       "id": "live-7fbfff48e5",
@@ -1079,7 +1569,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/lug-zal_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.211Z"
+      "crawledAt": "2026-11-03T18:05:16.582Z"
     },
     {
       "id": "live-8f0345ca08",
@@ -1089,7 +1579,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/twe-paf",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.211Z"
+      "crawledAt": "2026-11-03T18:05:16.583Z"
     },
     {
       "id": "live-e411dfbf8f",
@@ -1099,7 +1589,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/twe-paf_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.211Z"
+      "crawledAt": "2026-11-03T18:05:16.583Z"
     },
     {
       "id": "live-348b262ce8",
@@ -1109,7 +1599,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/get-bha",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.583Z"
     },
     {
       "id": "live-d28a149b0e",
@@ -1119,7 +1609,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/get-bha_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.583Z"
     },
     {
       "id": "live-d90b416d01",
@@ -1129,7 +1619,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/pao-cska",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.583Z"
     },
     {
       "id": "live-a01068aba7",
@@ -1139,7 +1629,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/pao-cska_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.584Z"
     },
     {
       "id": "live-5ce8e971ff",
@@ -1149,7 +1639,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rig-jabl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.584Z"
     },
     {
       "id": "live-c2669e0d94",
@@ -1159,7 +1649,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/rig-jabl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.584Z"
     },
     {
       "id": "live-12276045d4",
@@ -1169,7 +1659,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/stvv-skbr",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.584Z"
     },
     {
       "id": "live-bda54e6931",
@@ -1179,7 +1669,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/uecl/2026-11-05/stvv-skbr_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.212Z"
+      "crawledAt": "2026-11-03T18:05:16.585Z"
     },
     {
       "id": "live-f0a922cab5",
@@ -1189,7 +1679,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-06/ham-elf",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.585Z"
     },
     {
       "id": "live-84e5ef72e4",
@@ -1199,7 +1689,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-06/ham-elf_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.585Z"
     },
     {
       "id": "live-caabfa0efa",
@@ -1209,7 +1699,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-06/wil-pec",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.585Z"
     },
     {
       "id": "live-e7422b4208",
@@ -1219,7 +1709,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-06/wil-pec_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.585Z"
     },
     {
       "id": "live-f27185a226",
@@ -1229,7 +1719,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-06/hsv-bmg",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-4915ac3b9d",
@@ -1239,7 +1729,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-06/hsv-bmg_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.213Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-46d117ca7d",
@@ -1249,7 +1739,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-06/ven-udi",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-00a5149b63",
@@ -1259,7 +1749,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-06/ven-udi_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-83c8f6eeb2",
@@ -1269,7 +1759,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-06/tou-str",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-15663763e0",
@@ -1279,7 +1769,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-06/tou-str_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-d725d211ae",
@@ -1289,7 +1779,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-06/sev-ala",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.586Z"
     },
     {
       "id": "live-0f4d8df567",
@@ -1299,7 +1789,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-06/sev-ala_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-f431a534c8",
@@ -1309,7 +1799,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-06/eve-cov",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.214Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-1c08c355e5",
@@ -1319,7 +1809,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-06/eve-cov_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-4294328803",
@@ -1329,7 +1819,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/asl-jua",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-8a8e2096cf",
@@ -1339,7 +1829,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/asl-jua_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-c3713166bd",
@@ -1349,7 +1839,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/ncx-tij",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-1255127d17",
@@ -1359,7 +1849,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/ncx-tij_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.587Z"
     },
     {
       "id": "live-ab42d8909c",
@@ -1369,7 +1859,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/atl-san",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.215Z"
+      "crawledAt": "2026-11-03T18:05:16.588Z"
     },
     {
       "id": "live-30f3a8e619",
@@ -1379,7 +1869,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-06/atl-san_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.216Z"
+      "crawledAt": "2026-11-03T18:05:16.588Z"
     },
     {
       "id": "live-a48f25b750",
@@ -1389,7 +1879,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/lee-tot",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.216Z"
+      "crawledAt": "2026-11-03T18:05:16.588Z"
     },
     {
       "id": "live-ca5dd6a9a8",
@@ -1399,7 +1889,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/lee-tot_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.216Z"
+      "crawledAt": "2026-11-03T18:05:16.589Z"
     },
     {
       "id": "live-bb82aa962a",
@@ -1409,7 +1899,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/mcf-rac",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.217Z"
+      "crawledAt": "2026-11-03T18:05:16.589Z"
     },
     {
       "id": "live-689c957ea9",
@@ -1419,7 +1909,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/mcf-rac_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.217Z"
+      "crawledAt": "2026-11-03T18:05:16.589Z"
     },
     {
       "id": "live-def02fbe86",
@@ -1429,7 +1919,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/cag-fro",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.217Z"
+      "crawledAt": "2026-11-03T18:05:16.589Z"
     },
     {
       "id": "live-3a95df333c",
@@ -1439,7 +1929,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/cag-fro_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.218Z"
+      "crawledAt": "2026-11-03T18:05:16.589Z"
     },
     {
       "id": "live-a4404c5622",
@@ -1449,7 +1939,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/tor-lec",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.218Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-5d6c513022",
@@ -1459,7 +1949,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/tor-lec_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.218Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-6e9a221dd7",
@@ -1469,7 +1959,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/dor-elv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.218Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-4edb64f34e",
@@ -1479,7 +1969,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/dor-elv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.219Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-eaabf8eeb3",
@@ -1489,7 +1979,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/m05-bay",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.219Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-d2cde5b4a5",
@@ -1499,7 +1989,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/m05-bay_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.219Z"
+      "crawledAt": "2026-11-03T18:05:16.590Z"
     },
     {
       "id": "live-74d2e2d95f",
@@ -1509,7 +1999,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/rbl-fca",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.220Z"
+      "crawledAt": "2026-11-03T18:05:16.591Z"
     },
     {
       "id": "live-23db53d053",
@@ -1519,7 +2009,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/rbl-fca_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.220Z"
+      "crawledAt": "2026-11-03T18:05:16.591Z"
     },
     {
       "id": "live-cf1573e9e7",
@@ -1529,7 +2019,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/scp-sge",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.220Z"
+      "crawledAt": "2026-11-03T18:05:16.591Z"
     },
     {
       "id": "live-de92609ff4",
@@ -1539,7 +2029,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/scp-sge_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.220Z"
+      "crawledAt": "2026-11-03T18:05:16.591Z"
     },
     {
       "id": "live-d92e50f00a",
@@ -1549,7 +2039,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ars-hul",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.221Z"
+      "crawledAt": "2026-11-03T18:05:16.591Z"
     },
     {
       "id": "live-eeec89d04d",
@@ -1559,7 +2049,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ars-hul_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.221Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-aaba07b015",
@@ -1569,7 +2059,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ful-new",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.221Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-8efc2a12b1",
@@ -1579,7 +2069,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/ful-new_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.221Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-a309275f9c",
@@ -1589,7 +2079,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/esp-dep",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.222Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-48943808c8",
@@ -1599,7 +2089,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/esp-dep_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.222Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-a5a07e96d9",
@@ -1609,7 +2099,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/for-tel",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.222Z"
+      "crawledAt": "2026-11-03T18:05:16.592Z"
     },
     {
       "id": "live-84abcbb2d7",
@@ -1619,7 +2109,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/for-tel_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.222Z"
+      "crawledAt": "2026-11-03T18:05:16.593Z"
     },
     {
       "id": "live-00d0572372",
@@ -1629,7 +2119,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/aux-par",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.223Z"
+      "crawledAt": "2026-11-03T18:05:16.593Z"
     },
     {
       "id": "live-70145d5864",
@@ -1639,7 +2129,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/aux-par_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.223Z"
+      "crawledAt": "2026-11-03T18:05:16.593Z"
     },
     {
       "id": "live-826e481327",
@@ -1649,7 +2139,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/deg-gais",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.223Z"
+      "crawledAt": "2026-11-03T18:05:16.593Z"
     },
     {
       "id": "live-88378975ae",
@@ -1659,7 +2149,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/deg-gais_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.224Z"
+      "crawledAt": "2026-11-03T18:05:16.593Z"
     },
     {
       "id": "live-8f84c7c697",
@@ -1669,7 +2159,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/org-vas",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.224Z"
+      "crawledAt": "2026-11-03T18:05:16.594Z"
     },
     {
       "id": "live-3f19f8664b",
@@ -1679,7 +2169,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-07/org-vas_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.224Z"
+      "crawledAt": "2026-11-03T18:05:16.594Z"
     },
     {
       "id": "live-affbe9880c",
@@ -1689,7 +2179,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/par-bol",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.224Z"
+      "crawledAt": "2026-11-03T18:05:16.594Z"
     },
     {
       "id": "live-5f1714c89d",
@@ -1699,7 +2189,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/par-bol_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.225Z"
+      "crawledAt": "2026-11-03T18:05:16.594Z"
     },
     {
       "id": "live-0cf7e4e54e",
@@ -1709,7 +2199,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/osa-ath",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.225Z"
+      "crawledAt": "2026-11-03T18:05:16.594Z"
     },
     {
       "id": "live-61ca7d0747",
@@ -1719,7 +2209,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/osa-ath_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.225Z"
+      "crawledAt": "2026-11-03T18:05:16.595Z"
     },
     {
       "id": "live-e3ef16384f",
@@ -1729,7 +2219,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/vfb-svw",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.226Z"
+      "crawledAt": "2026-11-03T18:05:16.595Z"
     },
     {
       "id": "live-105ffe0208",
@@ -1739,7 +2229,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-07/vfb-svw_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.226Z"
+      "crawledAt": "2026-11-03T18:05:16.595Z"
     },
     {
       "id": "live-f368bab454",
@@ -1749,7 +2239,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/nfo-mci",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.226Z"
+      "crawledAt": "2026-11-03T18:05:16.595Z"
     },
     {
       "id": "live-0c94a4d1cd",
@@ -1759,7 +2249,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-07/nfo-mci_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.226Z"
+      "crawledAt": "2026-11-03T18:05:16.596Z"
     },
     {
       "id": "live-47a38990d6",
@@ -1769,7 +2259,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/ado-spa",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.596Z"
     },
     {
       "id": "live-822d26179f",
@@ -1779,7 +2269,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/ado-spa_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.596Z"
     },
     {
       "id": "live-cf9c7eec33",
@@ -1789,7 +2279,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/roma-sas",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.596Z"
     },
     {
       "id": "live-29746935e3",
@@ -1799,7 +2289,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-07/roma-sas_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.596Z"
     },
     {
       "id": "live-4142694b9c",
@@ -1809,7 +2299,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/psg-try",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.597Z"
     },
     {
       "id": "live-0efdd96dbb",
@@ -1819,7 +2309,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-07/psg-try_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.227Z"
+      "crawledAt": "2026-11-03T18:05:16.597Z"
     },
     {
       "id": "live-6dd73343a8",
@@ -1829,7 +2319,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/val-rma",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.228Z"
+      "crawledAt": "2026-11-03T18:05:16.597Z"
     },
     {
       "id": "live-aa76111c0c",
@@ -1839,7 +2329,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-07/val-rma_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.228Z"
+      "crawledAt": "2026-11-03T18:05:16.598Z"
     },
     {
       "id": "live-3a3024a527",
@@ -1849,7 +2339,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/exc-gae",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.228Z"
+      "crawledAt": "2026-11-03T18:05:16.598Z"
     },
     {
       "id": "live-ca6c6bec8f",
@@ -1859,7 +2349,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-07/exc-gae_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.228Z"
+      "crawledAt": "2026-11-03T18:05:16.598Z"
     },
     {
       "id": "live-0c6bcd92d4",
@@ -1869,7 +2359,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mtl-van",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.229Z"
+      "crawledAt": "2026-11-03T18:05:16.599Z"
     },
     {
       "id": "live-d398e5a721",
@@ -1879,7 +2369,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mtl-van_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.229Z"
+      "crawledAt": "2026-11-03T18:05:16.599Z"
     },
     {
       "id": "live-616db971b0",
@@ -1889,7 +2379,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/chi-clb",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.230Z"
+      "crawledAt": "2026-11-03T18:05:16.600Z"
     },
     {
       "id": "live-79c1fc5d32",
@@ -1899,7 +2389,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/chi-clb_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.230Z"
+      "crawledAt": "2026-11-03T18:05:16.600Z"
     },
     {
       "id": "live-0bb09db8d6",
@@ -1909,7 +2399,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dc-nyc",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.230Z"
+      "crawledAt": "2026-11-03T18:05:16.600Z"
     },
     {
       "id": "live-bfa8b04329",
@@ -1919,7 +2409,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dc-nyc_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.230Z"
+      "crawledAt": "2026-11-03T18:05:16.601Z"
     },
     {
       "id": "live-5237b8faed",
@@ -1929,7 +2419,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/cin-nsh",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.231Z"
+      "crawledAt": "2026-11-03T18:05:16.601Z"
     },
     {
       "id": "live-1528b315c6",
@@ -1939,7 +2429,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/cin-nsh_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.231Z"
+      "crawledAt": "2026-11-03T18:05:16.601Z"
     },
     {
       "id": "live-93ba73a26b",
@@ -1949,7 +2439,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mia-clt",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.231Z"
+      "crawledAt": "2026-11-03T18:05:16.602Z"
     },
     {
       "id": "live-33cb48cfa9",
@@ -1959,7 +2449,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/mia-clt_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.231Z"
+      "crawledAt": "2026-11-03T18:05:16.602Z"
     },
     {
       "id": "live-71921285e9",
@@ -1969,7 +2459,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/orl-ne",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.232Z"
+      "crawledAt": "2026-11-03T18:05:16.603Z"
     },
     {
       "id": "live-7f623e3b30",
@@ -1979,7 +2469,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/orl-ne_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.232Z"
+      "crawledAt": "2026-11-03T18:05:16.603Z"
     },
     {
       "id": "live-2b907fcd6e",
@@ -1989,7 +2479,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/phi-tor",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.232Z"
+      "crawledAt": "2026-11-03T18:05:16.603Z"
     },
     {
       "id": "live-e55a492062",
@@ -1999,7 +2489,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/phi-tor_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.233Z"
+      "crawledAt": "2026-11-03T18:05:16.604Z"
     },
     {
       "id": "live-d8717077c4",
@@ -2009,7 +2499,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rbny-atl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.233Z"
+      "crawledAt": "2026-11-03T18:05:16.604Z"
     },
     {
       "id": "live-9bc190be77",
@@ -2019,7 +2509,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rbny-atl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.233Z"
+      "crawledAt": "2026-11-03T18:05:16.604Z"
     },
     {
       "id": "live-ef7df7c47c",
@@ -2029,7 +2519,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/ats-pac",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.233Z"
+      "crawledAt": "2026-11-03T18:05:16.605Z"
     },
     {
       "id": "live-e9fa1b123d",
@@ -2039,7 +2529,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/ats-pac_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.234Z"
+      "crawledAt": "2026-11-03T18:05:16.605Z"
     },
     {
       "id": "live-e19f3f8585",
@@ -2049,7 +2539,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/uanl-caz",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.234Z"
+      "crawledAt": "2026-11-03T18:05:16.606Z"
     },
     {
       "id": "live-d370672d7f",
@@ -2059,7 +2549,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/uanl-caz_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.235Z"
+      "crawledAt": "2026-11-03T18:05:16.606Z"
     },
     {
       "id": "live-a0f1fd012a",
@@ -2069,7 +2559,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/atx-por",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.235Z"
+      "crawledAt": "2026-11-03T18:05:16.606Z"
     },
     {
       "id": "live-4eb7324324",
@@ -2079,7 +2569,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/atx-por_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.236Z"
+      "crawledAt": "2026-11-03T18:05:16.607Z"
     },
     {
       "id": "live-77dab506b2",
@@ -2089,7 +2579,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dal-col",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.236Z"
+      "crawledAt": "2026-11-03T18:05:16.607Z"
     },
     {
       "id": "live-e8b6866c95",
@@ -2099,7 +2589,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/dal-col_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.237Z"
+      "crawledAt": "2026-11-03T18:05:16.607Z"
     },
     {
       "id": "live-4dd8030099",
@@ -2109,7 +2599,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/hou-stl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.237Z"
+      "crawledAt": "2026-11-03T18:05:16.608Z"
     },
     {
       "id": "live-1a8bed3f6a",
@@ -2119,7 +2609,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/hou-stl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.238Z"
+      "crawledAt": "2026-11-03T18:05:16.608Z"
     },
     {
       "id": "live-8aa660c343",
@@ -2129,7 +2619,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/min-sj",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.238Z"
+      "crawledAt": "2026-11-03T18:05:16.609Z"
     },
     {
       "id": "live-c9b07b2dab",
@@ -2139,7 +2629,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/min-sj_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.239Z"
+      "crawledAt": "2026-11-03T18:05:16.609Z"
     },
     {
       "id": "live-b6d34f719f",
@@ -2149,7 +2639,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rsl-la",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.239Z"
+      "crawledAt": "2026-11-03T18:05:16.609Z"
     },
     {
       "id": "live-a3aae59aba",
@@ -2159,7 +2649,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/rsl-la_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.240Z"
+      "crawledAt": "2026-11-03T18:05:16.610Z"
     },
     {
       "id": "live-7243ed845c",
@@ -2169,7 +2659,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sd-skc",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.240Z"
+      "crawledAt": "2026-11-03T18:05:16.610Z"
     },
     {
       "id": "live-5400905d59",
@@ -2179,7 +2669,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sd-skc_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.241Z"
+      "crawledAt": "2026-11-03T18:05:16.611Z"
     },
     {
       "id": "live-1d7b83a2b0",
@@ -2189,7 +2679,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sea-lafc",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.241Z"
+      "crawledAt": "2026-11-03T18:05:16.612Z"
     },
     {
       "id": "live-0a5484584a",
@@ -2199,7 +2689,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/mls/2026-11-07/sea-lafc_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.241Z"
+      "crawledAt": "2026-11-03T18:05:16.612Z"
     },
     {
       "id": "live-3cd1c164bf",
@@ -2209,7 +2699,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/tol-mty",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.242Z"
+      "crawledAt": "2026-11-03T18:05:16.612Z"
     },
     {
       "id": "live-d57bc0bced",
@@ -2219,7 +2709,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/tol-mty_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.242Z"
+      "crawledAt": "2026-11-03T18:05:16.613Z"
     },
     {
       "id": "live-20b3da6d10",
@@ -2229,7 +2719,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/unam-ame",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.242Z"
+      "crawledAt": "2026-11-03T18:05:16.613Z"
     },
     {
       "id": "live-3a364fb867",
@@ -2239,7 +2729,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-07/unam-ame_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.243Z"
+      "crawledAt": "2026-11-03T18:05:16.614Z"
     },
     {
       "id": "live-897e548e9f",
@@ -2249,7 +2739,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/hee-fey",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.243Z"
+      "crawledAt": "2026-11-03T18:05:16.614Z"
     },
     {
       "id": "live-37105487b4",
@@ -2259,7 +2749,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/hee-fey_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.243Z"
+      "crawledAt": "2026-11-03T18:05:16.615Z"
     },
     {
       "id": "live-b4671fb95b",
@@ -2269,7 +2759,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/nap-laz",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.245Z"
+      "crawledAt": "2026-11-03T18:05:16.615Z"
     },
     {
       "id": "live-1f1fe7e174",
@@ -2279,7 +2769,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/nap-laz_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.246Z"
+      "crawledAt": "2026-11-03T18:05:16.616Z"
     },
     {
       "id": "live-ac1e5310de",
@@ -2289,7 +2779,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/elc-bet",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.246Z"
+      "crawledAt": "2026-11-03T18:05:16.616Z"
     },
     {
       "id": "live-7e67047bac",
@@ -2299,7 +2789,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/elc-bet_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.246Z"
+      "crawledAt": "2026-11-03T18:05:16.617Z"
     },
     {
       "id": "live-d8aed7c611",
@@ -2309,7 +2799,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/hbk-dju",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.247Z"
+      "crawledAt": "2026-11-03T18:05:16.617Z"
     },
     {
       "id": "live-cc9b145ed6",
@@ -2319,7 +2809,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/hbk-dju_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.247Z"
+      "crawledAt": "2026-11-03T18:05:16.618Z"
     },
     {
       "id": "live-c35f17f78f",
@@ -2329,7 +2819,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/got-mal",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.247Z"
+      "crawledAt": "2026-11-03T18:05:16.618Z"
     },
     {
       "id": "live-d8677037b8",
@@ -2339,7 +2829,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/got-mal_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.247Z"
+      "crawledAt": "2026-11-03T18:05:16.619Z"
     },
     {
       "id": "live-49b3cffe18",
@@ -2349,7 +2839,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/twe-aja",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.248Z"
+      "crawledAt": "2026-11-03T18:05:16.619Z"
     },
     {
       "id": "live-4703560bbb",
@@ -2359,7 +2849,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/twe-aja_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.248Z"
+      "crawledAt": "2026-11-03T18:05:16.620Z"
     },
     {
       "id": "live-c22139613a",
@@ -2369,7 +2859,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/bha-bre",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.248Z"
+      "crawledAt": "2026-11-03T18:05:16.620Z"
     },
     {
       "id": "live-a2ad8e92d8",
@@ -2379,7 +2869,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/bha-bre_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.248Z"
+      "crawledAt": "2026-11-03T18:05:16.621Z"
     },
     {
       "id": "live-201ba3033d",
@@ -2389,7 +2879,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/cry-liv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.249Z"
+      "crawledAt": "2026-11-03T18:05:16.621Z"
     },
     {
       "id": "live-18b88c2e73",
@@ -2399,7 +2889,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/cry-liv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.249Z"
+      "crawledAt": "2026-11-03T18:05:16.622Z"
     },
     {
       "id": "live-65f9d4fbda",
@@ -2409,7 +2899,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/ips-bou",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.249Z"
+      "crawledAt": "2026-11-03T18:05:16.622Z"
     },
     {
       "id": "live-9a1b06fdec",
@@ -2419,7 +2909,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/ips-bou_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.249Z"
+      "crawledAt": "2026-11-03T18:05:16.623Z"
     },
     {
       "id": "live-33e902e867",
@@ -2429,7 +2919,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/sun-che",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.249Z"
+      "crawledAt": "2026-11-03T18:05:16.624Z"
     },
     {
       "id": "live-a3295de5d6",
@@ -2439,7 +2929,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/sun-che_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.250Z"
+      "crawledAt": "2026-11-03T18:05:16.625Z"
     },
     {
       "id": "live-9d9069eb48",
@@ -2449,7 +2939,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/gen-mil",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.250Z"
+      "crawledAt": "2026-11-03T18:05:16.625Z"
     },
     {
       "id": "live-efdcace9e2",
@@ -2459,7 +2949,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/gen-mil_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.250Z"
+      "crawledAt": "2026-11-03T18:05:16.626Z"
     },
     {
       "id": "live-a71eef0fbd",
@@ -2469,7 +2959,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/mon-ata",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.250Z"
+      "crawledAt": "2026-11-03T18:05:16.626Z"
     },
     {
       "id": "live-8870ba0a74",
@@ -2479,7 +2969,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/mon-ata_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.251Z"
+      "crawledAt": "2026-11-03T18:05:16.627Z"
     },
     {
       "id": "live-f31ebf70b9",
@@ -2489,7 +2979,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ren-lill",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.251Z"
+      "crawledAt": "2026-11-03T18:05:16.628Z"
     },
     {
       "id": "live-17cbde30fc",
@@ -2499,7 +2989,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ren-lill_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.251Z"
+      "crawledAt": "2026-11-03T18:05:16.628Z"
     },
     {
       "id": "live-38fddb243e",
@@ -2509,7 +2999,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/koe-b04",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.251Z"
+      "crawledAt": "2026-11-03T18:05:16.629Z"
     },
     {
       "id": "live-3419c5ae8c",
@@ -2519,7 +3009,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/koe-b04_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.251Z"
+      "crawledAt": "2026-11-03T18:05:16.629Z"
     },
     {
       "id": "live-4cf3dc51f9",
@@ -2529,7 +3019,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/rso-ray",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.252Z"
+      "crawledAt": "2026-11-03T18:05:16.630Z"
     },
     {
       "id": "live-08f13d64c9",
@@ -2539,7 +3029,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/rso-ray_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.252Z"
+      "crawledAt": "2026-11-03T18:05:16.630Z"
     },
     {
       "id": "live-fed9d65ef6",
@@ -2549,7 +3039,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/aik-bkh",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.252Z"
+      "crawledAt": "2026-11-03T18:05:16.633Z"
     },
     {
       "id": "live-8b02713e92",
@@ -2559,7 +3049,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/aik-bkh_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.252Z"
+      "crawledAt": "2026-11-03T18:05:16.634Z"
     },
     {
       "id": "live-e8a2c2b384",
@@ -2569,7 +3059,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/bro-mja",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.252Z"
+      "crawledAt": "2026-11-03T18:05:16.635Z"
     },
     {
       "id": "live-e0f2c69540",
@@ -2579,7 +3069,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/bro-mja_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.253Z"
+      "crawledAt": "2026-11-03T18:05:16.636Z"
     },
     {
       "id": "live-5191af86bf",
@@ -2589,7 +3079,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/kff-sir",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.253Z"
+      "crawledAt": "2026-11-03T18:05:16.636Z"
     },
     {
       "id": "live-888aa4c7da",
@@ -2599,7 +3089,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/allsvenskan/2026-11-08/kff-sir_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.253Z"
+      "crawledAt": "2026-11-03T18:05:16.637Z"
     },
     {
       "id": "live-bbd286059e",
@@ -2609,7 +3099,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/az-gro",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.253Z"
+      "crawledAt": "2026-11-03T18:05:16.637Z"
     },
     {
       "id": "live-a2cc8b5598",
@@ -2619,7 +3109,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/az-gro_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.254Z"
+      "crawledAt": "2026-11-03T18:05:16.638Z"
     },
     {
       "id": "live-eaf90c7fe2",
@@ -2629,7 +3119,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/cam-psv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.254Z"
+      "crawledAt": "2026-11-03T18:05:16.638Z"
     },
     {
       "id": "live-c838786b13",
@@ -2639,7 +3129,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/cam-psv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.254Z"
+      "crawledAt": "2026-11-03T18:05:16.639Z"
     },
     {
       "id": "live-5ccbae0432",
@@ -2649,7 +3139,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ang-nice",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.254Z"
+      "crawledAt": "2026-11-03T18:05:16.639Z"
     },
     {
       "id": "live-1dfa54afa2",
@@ -2659,7 +3149,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/ang-nice_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.255Z"
+      "crawledAt": "2026-11-03T18:05:16.640Z"
     },
     {
       "id": "live-b9ef8b0197",
@@ -2669,7 +3159,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/bre-lyon",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.255Z"
+      "crawledAt": "2026-11-03T18:05:16.641Z"
     },
     {
       "id": "live-6f387f28ac",
@@ -2679,7 +3169,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/bre-lyon_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.255Z"
+      "crawledAt": "2026-11-03T18:05:16.642Z"
     },
     {
       "id": "live-3f6f009fdb",
@@ -2689,7 +3179,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/hac-lor",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.256Z"
+      "crawledAt": "2026-11-03T18:05:16.643Z"
     },
     {
       "id": "live-883a68c07b",
@@ -2699,7 +3189,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/hac-lor_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.256Z"
+      "crawledAt": "2026-11-03T18:05:16.644Z"
     },
     {
       "id": "live-1722349b2f",
@@ -2709,7 +3199,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/mns-mon",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.256Z"
+      "crawledAt": "2026-11-03T18:05:16.644Z"
     },
     {
       "id": "live-abd9194f36",
@@ -2719,7 +3209,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/mns-mon_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.256Z"
+      "crawledAt": "2026-11-03T18:05:16.645Z"
     },
     {
       "id": "live-fe37990240",
@@ -2729,7 +3219,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/scf-fcu",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.257Z"
+      "crawledAt": "2026-11-03T18:05:16.646Z"
     },
     {
       "id": "live-1f9ffc5262",
@@ -2739,7 +3229,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/scf-fcu_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.257Z"
+      "crawledAt": "2026-11-03T18:05:16.646Z"
     },
     {
       "id": "live-66250d9bf5",
@@ -2749,7 +3239,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/mun-avl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.257Z"
+      "crawledAt": "2026-11-03T18:05:16.647Z"
     },
     {
       "id": "live-ab9f1d7cec",
@@ -2759,7 +3249,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/pl/2026-11-08/mun-avl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.257Z"
+      "crawledAt": "2026-11-03T18:05:16.648Z"
     },
     {
       "id": "live-d26c4ee439",
@@ -2769,7 +3259,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/int-como",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.258Z"
+      "crawledAt": "2026-11-03T18:05:16.648Z"
     },
     {
       "id": "live-67e0c50c37",
@@ -2779,7 +3269,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/int-como_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.258Z"
+      "crawledAt": "2026-11-03T18:05:16.649Z"
     },
     {
       "id": "live-c707283f63",
@@ -2789,7 +3279,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/cel-lev",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.258Z"
+      "crawledAt": "2026-11-03T18:05:16.650Z"
     },
     {
       "id": "live-fe2f9c00db",
@@ -2799,7 +3289,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/cel-lev_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.258Z"
+      "crawledAt": "2026-11-03T18:05:16.651Z"
     },
     {
       "id": "live-050909dbff",
@@ -2809,7 +3299,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/vil-get",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.259Z"
+      "crawledAt": "2026-11-03T18:05:16.652Z"
     },
     {
       "id": "live-e2db7621c3",
@@ -2819,7 +3309,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/vil-get_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.259Z"
+      "crawledAt": "2026-11-03T18:05:16.653Z"
     },
     {
       "id": "live-cb388effa2",
@@ -2829,7 +3319,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.259Z"
+      "crawledAt": "2026-11-03T18:05:16.654Z"
     },
     {
       "id": "live-20982a2e79",
@@ -2839,7 +3329,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.259Z"
+      "crawledAt": "2026-11-03T18:05:16.655Z"
     },
     {
       "id": "live-5574349cbe",
@@ -2849,7 +3339,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.260Z"
+      "crawledAt": "2026-11-03T18:05:16.656Z"
     },
     {
       "id": "live-290d25794e",
@@ -2859,7 +3349,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.260Z"
+      "crawledAt": "2026-11-03T18:05:16.657Z"
     },
     {
       "id": "live-0324c93ffb",
@@ -2869,7 +3359,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.260Z"
+      "crawledAt": "2026-11-03T18:05:16.658Z"
     },
     {
       "id": "live-1dc528d986",
@@ -2879,7 +3369,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.261Z"
+      "crawledAt": "2026-11-03T18:05:16.658Z"
     },
     {
       "id": "live-4d5799eed3",
@@ -2889,7 +3379,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.261Z"
+      "crawledAt": "2026-11-03T18:05:16.659Z"
     },
     {
       "id": "live-f69e5a7b75",
@@ -2899,7 +3389,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.261Z"
+      "crawledAt": "2026-11-03T18:05:16.660Z"
     },
     {
       "id": "live-f92c54dd86",
@@ -2909,7 +3399,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.262Z"
+      "crawledAt": "2026-11-03T18:05:16.661Z"
     },
     {
       "id": "live-85f06fbe29",
@@ -2919,7 +3409,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.263Z"
+      "crawledAt": "2026-11-03T18:05:16.662Z"
     },
     {
       "id": "live-45ad96c17c",
@@ -2929,7 +3419,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/qro-pue",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.263Z"
+      "crawledAt": "2026-11-03T18:05:16.663Z"
     },
     {
       "id": "live-c8b0eec062",
@@ -2939,7 +3429,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/qro-pue_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.263Z"
+      "crawledAt": "2026-11-03T18:05:16.663Z"
     },
     {
       "id": "live-8e88085a6b",
@@ -2949,7 +3439,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/leo-gdl",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.264Z"
+      "crawledAt": "2026-11-03T18:05:16.664Z"
     },
     {
       "id": "live-cd0771b679",
@@ -2959,7 +3449,7 @@
       "streamUrl": "https://taifood-blog.asia/embed/liga-mx/2026-11-08/leo-gdl_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:25:59.265Z"
+      "crawledAt": "2026-11-03T18:05:16.665Z"
     },
     {
       "id": "live-212e0de6a7",
@@ -2969,7 +3459,7 @@
       "streamUrl": "https://eu-4605069466.duckdns.org/tnt4/mono.ts.m3u8?token=ead18165ccb2140bfd84e782f45614cd&server=1",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:04.198Z"
+      "crawledAt": "2026-11-03T18:05:22.169Z"
     },
     {
       "id": "live-ec5a81d6ab",
@@ -2979,7 +3469,7 @@
       "streamUrl": "https://eu-4605069466.duckdns.org/tnt2/mono.ts.m3u8?token=ead18165ccb2140bfd84e782f45614cd&server=1",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:06.348Z"
+      "crawledAt": "2026-11-03T18:05:23.716Z"
     },
     {
       "id": "live-500ab8bf0c",
@@ -2989,7 +3479,7 @@
       "streamUrl": "https://eu-4605069466.duckdns.org/CBSSN/mono.ts.m3u8?token=ead18165ccb2140bfd84e782f45614cd&server=1",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:08.918Z"
+      "crawledAt": "2026-11-03T18:05:26.787Z"
     },
     {
       "id": "live-a0822074de",
@@ -2999,7 +3489,7 @@
       "streamUrl": "https://eu-4605069466.duckdns.org/golazo/mono.ts.m3u8?token=ead18165ccb2140bfd84e782f45614cd&server=1",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:27.848Z"
+      "crawledAt": "2026-11-03T18:05:46.749Z"
     },
     {
       "id": "live-ed1816318a",
@@ -3009,247 +3499,1047 @@
       "streamUrl": "https://eu-4605069466.duckdns.org/tnt1/mono.ts.m3u8?token=ead18165ccb2140bfd84e782f45614cd&server=1",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:30.614Z"
-    },
-    {
-      "id": "live-ef13358eff",
-      "title": "GALATASARAY VS VFB STUTTGART",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a14.kora-plus.li/live/tnt2.m3u8?token=EZkowJk4dvWW6txGvBzn-wToEic&exp=1793730394",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:36.206Z"
-    },
-    {
-      "id": "live-681ca3be41",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/tnt4.m3u8?token=E3vJDRVAUSzwsVSkdRRR0WWuo28&exp=1793730399",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:41.462Z"
-    },
-    {
-      "id": "live-790d0fbb07",
-      "title": "AL HUSSEIN IRBID VS AL SHORTA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBjyHYTNfSrJT.m3u8?txSecret=1dcc6df6e27e582e559752772b83bfa3&txTime=6AEA1A7D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:42.822Z"
-    },
-    {
-      "id": "live-743b569e83",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCTx9b2WGwoqh.m3u8?txSecret=f66aa99fd2a07127f24cdf9f870d44bc&txTime=6AEA1A7E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:43.196Z"
-    },
-    {
-      "id": "live-6ed9983ec3",
-      "title": "NK ISTRA 1961 VS NK NERETVA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfgQtxzcLGvhro.m3u8?txSecret=2295416122dc1efd2abd14db33a39df3&txTime=6AEA1A7F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:43.570Z"
-    },
-    {
-      "id": "live-093a47b5b4",
-      "title": "LYNGBY BK VS RANDERS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhAP6tprn3Deo.m3u8?txSecret=3f0652bbb49275f433b142fbf7dcff87&txTime=6AEA1A7F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:43.937Z"
-    },
-    {
-      "id": "live-335d74dd00",
-      "title": "CHROBRY GLOGOW VS ARKA GDYNIA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7Ak8q1Agz1BCj.m3u8?txSecret=999ab802800dd17202af07d1b7abe405&txTime=6AEA1A80&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:44.347Z"
-    },
-    {
-      "id": "live-2d0e52e13b",
-      "title": "POGON SIEDLCE VS RUCH CHORZOW",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7CET1sg3pxBdh.m3u8?txSecret=7a1be47acd4fa4a4b32037226d1a2865&txTime=6AEA1A80&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:44.690Z"
-    },
-    {
-      "id": "live-48bd401978",
-      "title": "SPARTAK KOSTROMA VS VOLNA NIZHEGORODSKAYA",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjKHSaCFN4CzDzas.m3u8?txSecret=617f87dc91e461a68c0d1cfed502a6d9&txTime=6AEA1A80&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:45.065Z"
+      "crawledAt": "2026-11-03T18:05:48.598Z"
     },
     {
       "id": "live-5f559fd4dc",
       "title": "GALATASARAY VS VFB STUTTGART",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSWNfzv8HfCT.m3u8?txSecret=02c73f2505ae91ea4ee708fba072fbf4&txTime=6AEA1A81&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSWNfzv8HfCT.m3u8?txSecret=6f4f17408fd910bb2ba6115517d0fc74&txTime=6AEA23A9&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:45.433Z"
+      "crawledAt": "2026-11-03T18:05:51.105Z"
     },
     {
       "id": "live-210d89cdea",
       "title": "SHAKHTAR DONETSK VS SPORTING CP",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXQqUYJTNqKyy.m3u8?txSecret=3e7a39f43a82d9ca82e2d63b81c592e2&txTime=6AEA1A81&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXQqUYJTNqKyy.m3u8?txSecret=8d127fbb74fc9be5ec31c1c9df572e9f&txTime=6AEA23AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:45.885Z"
+      "crawledAt": "2026-11-03T18:05:51.411Z"
+    },
+    {
+      "id": "live-78e8b01106",
+      "title": "IK SIRIUS VS HALMSTADS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MvZ6EPWp2nJ1Be8co.m3u8?txSecret=9b1a423c58fe9a7caaf26427d29842a2&txTime=6AEA23AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:51.712Z"
+    },
+    {
+      "id": "live-3512c942dc",
+      "title": "INDEPENDIENTE RIVADAVIA RESERVES VS ESTUDIANTES LP RESERVES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk3sPoCHSNdzZnPZ.m3u8?txSecret=0848e3be0bb46a1b7748def4df59ac83&txTime=6AEA23AB&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:52.016Z"
+    },
+    {
+      "id": "live-5ebc375380",
+      "title": "ARGENTINOS JUNIORS RESERVES VS TALLERES DE CORDOBA RESERVES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk3sPoCKdrWUPhYT.m3u8?txSecret=e60332a10d73132582d72d807138b0c9&txTime=6AEA23AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:52.320Z"
+    },
+    {
+      "id": "live-b20c48822a",
+      "title": "NEWELL S RESERVES VS INDEPENDIENTE RESERVES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk3sPoCMqLNxDchM.m3u8?txSecret=315afad81fc793f7c5fd0b3fe0eb7abe&txTime=6AEA23AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:52.622Z"
+    },
+    {
+      "id": "live-97fbe676f3",
+      "title": "LANUS RESERVES VS ATLETICO RAFAELA RESERVES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk3sPoCQ2pFS3XrF.m3u8?txSecret=274881f3d2aabcaa027bf02012c703e4&txTime=6AEA23AC&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:52.918Z"
+    },
+    {
+      "id": "live-08e860500a",
+      "title": "SARMIENTO JUNIN RESERVES VS BANFIELD RESERVES",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk3sPoCURmzPhNA3.m3u8?txSecret=04e8a67b1f574135de51956088b862fa&txTime=6AEA23AD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:53.308Z"
+    },
+    {
+      "id": "live-093a47b5b4",
+      "title": "LYNGBY BK VS RANDERS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfhAP6tprn3Deo.m3u8?txSecret=db9b80fa45e8dc27bc0f293ac8fddf8a&txTime=6AEA23AD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:53.609Z"
+    },
+    {
+      "id": "live-e0c7222879",
+      "title": "NEOM VS AL DUHAIL",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjJws7udUr4wtzQF.m3u8?txSecret=5467420da513b20cb8b875be64fc5bf0&txTime=6AEA23AD&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:53.922Z"
+    },
+    {
+      "id": "live-335d74dd00",
+      "title": "CHROBRY GLOGOW VS ARKA GDYNIA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7Ak8q1Agz1BCj.m3u8?txSecret=38e1201d8f1ef01fe969a6e63c2f3bcd&txTime=6AEA23AE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:54.224Z"
+    },
+    {
+      "id": "live-2d0e52e13b",
+      "title": "POGON SIEDLCE VS RUCH CHORZOW",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mwea7CET1sg3pxBdh.m3u8?txSecret=1e03cc52e0661c349e3c2e929fff0cdc&txTime=6AEA23AE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:54.639Z"
+    },
+    {
+      "id": "live-48bd401978",
+      "title": "SPARTAK KOSTROMA VS VOLNA NIZHEGORODSKAYA",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjKHSaCFN4CzDzas.m3u8?txSecret=620cc7f66b2de818feb6247f2d49445d&txTime=6AEA23AE&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:55.000Z"
+    },
+    {
+      "id": "live-978a0b01cc",
+      "title": "AL HILAL VS SHABAB AL AHLI",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TCU7UHEcJBFaF.m3u8?txSecret=4a3a59efb39e70dc51adf3b6d69d0e7c&txTime=6AEA23AF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:05:55.307Z"
     },
     {
       "id": "live-558c08c201",
       "title": "BODO GLIMT VS LOSC LILLE",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSLnbRikGoPd.m3u8?txSecret=8b35fa74a30d15d963f72c0076c0efd4&txTime=6AEA1A8D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSLnbRikGoPd.m3u8?txSecret=f5181d42c18bda09d7815bd98e93ce02&txTime=6AEA23AF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:58.275Z"
+      "crawledAt": "2026-11-03T18:05:55.605Z"
     },
     {
       "id": "live-f01692260d",
       "title": "MAN UTD VS ROMA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXS17s31kWAnK.m3u8?txSecret=cdf8131eb0783d3368002b40f40bde7f&txTime=6AEA1A8E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXS17s31kWAnK.m3u8?txSecret=21512d6469cd32a94d9a2277ca908cdb&txTime=6AEA23AF&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:58.684Z"
+      "crawledAt": "2026-11-03T18:05:55.970Z"
     },
     {
       "id": "live-33d15e78c5",
       "title": "BARCELONA VS ASTON VILLA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xWg1mMLTMS5j5.m3u8?txSecret=945d26812d75867e36676cd27e3dcd1f&txTime=6AEA1A8E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xWg1mMLTMS5j5.m3u8?txSecret=046294d6283992e2e4f0838ca9e371ea&txTime=6AEA23B0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:59.094Z"
+      "crawledAt": "2026-11-03T18:05:56.374Z"
     },
     {
       "id": "live-48b31efb04",
       "title": "ATLETICO MADRID VS BAYERN MUNICH",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xWgB8F2RrVScX.m3u8?txSecret=866ba6f2aaee0b98ae0c848f72830387&txTime=6AEA1A8F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xWgB8F2RrVScX.m3u8?txSecret=cd15c58556e8baab11aec49943cec441&txTime=6AEA23B0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:59.448Z"
+      "crawledAt": "2026-11-03T18:05:56.677Z"
     },
     {
       "id": "live-afc2572e38",
       "title": "VILLARREAL VS PARIS SAINT GERMAIN",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xYAKY3ZEvJ1UB.m3u8?txSecret=51156004ec7e1b4220cf5bacf064e50b&txTime=6AEA1A8F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xYAKY3ZEvJ1UB.m3u8?txSecret=d9e6a1b4417fa196dc2ce05cd0247fb2&txTime=6AEA23B0&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:26:59.768Z"
+      "crawledAt": "2026-11-03T18:05:57.048Z"
     },
     {
       "id": "live-1a76f2bc4d",
       "title": "FEYENOORD VS INTER",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSffAj9fhBn7.m3u8?txSecret=5c5895dd871ddb394c6019c9a3e4a5c6&txTime=6AEA1A8F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSffAj9fhBn7.m3u8?txSecret=e16deb76ce016a6c305bc2d8647b73c6&txTime=6AEA23B1&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:27:00.085Z"
+      "crawledAt": "2026-11-03T18:05:57.347Z"
+    },
+    {
+      "id": "live-8c930f59f8",
+      "title": "SMOUHA VS PYRAMIDS",
+      "status": "live",
+      "source": "camel1",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MxjZfbyUpB9m2UjRZ.m3u8?txSecret=3ae6a50ff064bf4f1b1276de8eea45db&txTime=6AEA2432&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:08:07.428Z"
     },
     {
       "id": "live-5f6c1542fd",
       "title": "LASK LINZ VS SLOVAN BRATISLAVA",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXRfnuy95AnZ5.m3u8?txSecret=9411b091329454ce903e1a89d0f9b76a&txTime=6AEA1B61&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXRfnuy95AnZ5.m3u8?txSecret=20443dd56d636243bb7978401c24783c&txTime=6AEA247B&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:30.246Z"
+      "crawledAt": "2026-11-03T18:09:20.906Z"
     },
     {
       "id": "live-c86b01d9fd",
       "title": "QUEENS PARK RANGERS VS BURNLEY",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys4tMHooL5V.m3u8?txSecret=8a03222511b3893653e668ee1d727dd7&txTime=6AEA1B62&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys4tMHooL5V.m3u8?txSecret=f47e3e26c83e5676e3349a335d554f33&txTime=6AEA247D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:30.550Z"
+      "crawledAt": "2026-11-03T18:09:21.283Z"
     },
     {
       "id": "live-ac37c4faf7",
       "title": "DERBY COUNTY VS NORWICH CITY",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyrzVPYr9Vmh.m3u8?txSecret=b1bac1a682aa096a7d95e3d08554a72a&txTime=6AEA1B62&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyrzVPYr9Vmh.m3u8?txSecret=9dc1c2d427e4a79858f9e4f0b882d1d2&txTime=6AEA247D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:30.865Z"
+      "crawledAt": "2026-11-03T18:09:21.693Z"
     },
     {
       "id": "live-8f15156d6d",
       "title": "WATFORD VS LINCOLN CITY",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys2gsRKyQvb.m3u8?txSecret=c8074e0731dd4ce31656559df553a7c6&txTime=6AEA1B62&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys2gsRKyQvb.m3u8?txSecret=9c9541ef78233c9a32fb5fb77455a1fe&txTime=6AEA247D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:31.224Z"
+      "crawledAt": "2026-11-03T18:09:21.988Z"
     },
     {
       "id": "live-0acfbdd03f",
       "title": "PORTSMOUTH VS SWANSEA CITY",
       "status": "live",
       "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys75qAHdFEP.m3u8?txSecret=c28c5527abb6ec5044d607ebb16eda64&txTime=6AEA1B63&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRys75qAHdFEP.m3u8?txSecret=ac1b733b023314b8f317ef5e4590960d&txTime=6AEA247E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:31.527Z"
+      "crawledAt": "2026-11-03T18:09:22.307Z"
     },
     {
-      "id": "live-f32276fdac",
-      "title": "CHARLTON ATHLETIC VS BOLTON WANDERERS",
+      "id": "live-c4f12b316e",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 1]",
       "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyraK6ya4R5q.m3u8?txSecret=701170543989a997d105baf7c9fdcf18&txTime=6AEA1B63&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=14cfb7c27f9e7ef0f25255395cba525f&txTime=6aea77bd",
+      "type": "FLV",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:31.831Z"
+      "crawledAt": "2026-11-03T18:09:35.105Z"
     },
     {
-      "id": "live-638f3a6361",
-      "title": "BLACKBURN ROVERS VS STOKE CITY",
+      "id": "live-33d3beab34",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 2 - THẠCH TÚ]",
       "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyrstwwQfkK1.m3u8?txSecret=b6323f65ef10924d99870f6272466d1b&txTime=6AEA1B63&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=0ad30496d7ef6d511a29df8ef0ce9de0&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:35.294Z"
+    },
+    {
+      "id": "live-acb609e889",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 3 - BLV CỦ CẢI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793732973-0-0-d53fd80e3e7580f9b597ab9532a47f64",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:36.742Z"
+    },
+    {
+      "id": "live-e712a9c478",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 4 - SAO LA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:36.950Z"
+    },
+    {
+      "id": "live-51da570bb4",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 5 - A BỆU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:37.156Z"
+    },
+    {
+      "id": "live-a613865c71",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 6 - BLV MESSI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:37.366Z"
+    },
+    {
+      "id": "live-5205fb95d0",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 7 - BLV HEHE]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793732973-0-0-5000eb03591befbcfcba377d130f7288",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:37.540Z"
+    },
+    {
+      "id": "live-89f0d8bc0e",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:37.716Z"
+    },
+    {
+      "id": "live-5ae0520e17",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 2 - BLV PIRLO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=f98dc5f9e4c3571eccf5125325228c56&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:37.921Z"
+    },
+    {
+      "id": "live-3059d0b731",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 3 - BLV BÉO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=14cfb7c27f9e7ef0f25255395cba525f&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:38.079Z"
+    },
+    {
+      "id": "live-0b74318491",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 4 - BLV ALEX]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=c9d961aaa7ac95018ed4044b48d3b312&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:38.369Z"
+    },
+    {
+      "id": "live-068813a0d4",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 5 - LOGAN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:38.546Z"
+    },
+    {
+      "id": "live-2fac49c10a",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 6 - HẢI THANH]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793732973-0-0-57c33bd05516671c404dad91739d5eda",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:38.721Z"
+    },
+    {
+      "id": "live-ac61c012d1",
+      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 7 - A MÂN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:38.894Z"
+    },
+    {
+      "id": "live-885cef79eb",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.101Z"
+    },
+    {
+      "id": "live-1f1795f669",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 2 - REDBULL]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912131_lhd.flv?auth_key=1793732973-0-0-5ea9a6457581576704e73a867c1b266e",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.287Z"
+    },
+    {
+      "id": "live-331ed5210e",
+      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 3 - SẾU ĐẦU ĐỎ]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627318_lhd.flv?auth_key=1793732973-0-0-678cf3656658b9f73c68e85d2bf8ae26",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.484Z"
+    },
+    {
+      "id": "live-c7bd63d5b1",
+      "title": "BODO GLIMT VS LOSC LILLE [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.572Z"
+    },
+    {
+      "id": "live-d181c332f3",
+      "title": "BODO GLIMT VS LOSC LILLE [SERVER 2 - BLV ANH TÀI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.704Z"
+    },
+    {
+      "id": "live-9f2bb5ce36",
+      "title": "BODO GLIMT VS LOSC LILLE [SERVER 3 - BOSS]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-620504_lhd.flv?auth_key=1793732973-0-0-2285cd7a7ce23e804407a4dcd898d851",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:39.950Z"
+    },
+    {
+      "id": "live-6144ea204c",
+      "title": "MAN UTD VS ROMA [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.037Z"
+    },
+    {
+      "id": "live-1cd55762ef",
+      "title": "MAN UTD VS ROMA [SERVER 2 - 5 LỬA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=14cfb7c27f9e7ef0f25255395cba525f&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.139Z"
+    },
+    {
+      "id": "live-00976423c5",
+      "title": "MAN UTD VS ROMA [SERVER 3 - SAO LA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.339Z"
+    },
+    {
+      "id": "live-1349b6abf8",
+      "title": "MAN UTD VS ROMA [SERVER 4 - A BỆU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.555Z"
+    },
+    {
+      "id": "live-416ffe5f4a",
+      "title": "MAN UTD VS ROMA [SERVER 5 - BLV MESSI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.640Z"
+    },
+    {
+      "id": "live-4f75e011dc",
+      "title": "MAN UTD VS ROMA [SERVER 6 - HẢI THANH]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793732973-0-0-57c33bd05516671c404dad91739d5eda",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:40.838Z"
+    },
+    {
+      "id": "live-5d2428072d",
+      "title": "MAN UTD VS ROMA [SERVER 7 - CURRY]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:41.023Z"
+    },
+    {
+      "id": "live-d2fe2d5203",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:41.112Z"
+    },
+    {
+      "id": "live-9be9722985",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 2 - BLV LUCAS]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-620504_lhd.flv?auth_key=1793732973-0-0-2285cd7a7ce23e804407a4dcd898d851",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:41.464Z"
+    },
+    {
+      "id": "live-b1f9898581",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 3 - BLV CỦ CẢI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793732973-0-0-d53fd80e3e7580f9b597ab9532a47f64",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:41.636Z"
+    },
+    {
+      "id": "live-cad2d30a2e",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 4 - BLV WUKONG]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:41.970Z"
+    },
+    {
+      "id": "live-9f2ce702cd",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 5 - LÃO LÂM]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.044Z"
+    },
+    {
+      "id": "live-00f93e1e0a",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 6 - LOGAN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.253Z"
+    },
+    {
+      "id": "live-5fc0762ba2",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 7 - BÒ TƯƠI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.338Z"
+    },
+    {
+      "id": "live-5ae63168ab",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627318_lhd.flv?auth_key=1793732973-0-0-678cf3656658b9f73c68e85d2bf8ae26",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.546Z"
+    },
+    {
+      "id": "live-c690125c00",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 2 - CÔNG CHẤT]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793732973-0-0-5000eb03591befbcfcba377d130f7288",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.715Z"
+    },
+    {
+      "id": "live-a1deba2e39",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 3 - TUẤN CÙI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:42.928Z"
+    },
+    {
+      "id": "live-2d8c60f572",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 4 - QUỐC KHÁNH]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=0ad30496d7ef6d511a29df8ef0ce9de0&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.008Z"
+    },
+    {
+      "id": "live-ff221d8cbc",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 5 - XUÂN TÓC ĐỎ]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.282Z"
+    },
+    {
+      "id": "live-c30d306595",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 6 - VINFAST]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.367Z"
+    },
+    {
+      "id": "live-b4a6eef317",
+      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 7 - PEANUT]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=14cfb7c27f9e7ef0f25255395cba525f&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.475Z"
+    },
+    {
+      "id": "live-18a7f6f13d",
+      "title": "LASK LINZ VS SLOVAN BRATISLAVA [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.672Z"
+    },
+    {
+      "id": "live-0d6d1ee85c",
+      "title": "LASK LINZ VS SLOVAN BRATISLAVA [SERVER 2 - KENCHU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:43.878Z"
+    },
+    {
+      "id": "live-da20b1035d",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793732973-0-0-57c33bd05516671c404dad91739d5eda",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.058Z"
+    },
+    {
+      "id": "live-f65ca7ab40",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 2 - BLV LONG]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793732973-0-0-5000eb03591befbcfcba377d130f7288",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.246Z"
+    },
+    {
+      "id": "live-59daea702a",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 3 - BLV BÉO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=14cfb7c27f9e7ef0f25255395cba525f&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.322Z"
+    },
+    {
+      "id": "live-b84b67c8d7",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 4 - BLV ALEX]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=c9d961aaa7ac95018ed4044b48d3b312&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.460Z"
+    },
+    {
+      "id": "live-8c7a8f340c",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 5 - BLV A WIN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.696Z"
+    },
+    {
+      "id": "live-2ee124ab52",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 6 - LOKA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=c9d961aaa7ac95018ed4044b48d3b312&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:44.778Z"
+    },
+    {
+      "id": "live-6e37476047",
+      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 7 - A MÂN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.007Z"
+    },
+    {
+      "id": "live-09b5e87f48",
+      "title": "FEYENOORD VS INTER [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793732973-0-0-57c33bd05516671c404dad91739d5eda",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.183Z"
+    },
+    {
+      "id": "live-369b2bc929",
+      "title": "FEYENOORD VS INTER [SERVER 2 - BLV XO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=0ad30496d7ef6d511a29df8ef0ce9de0&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.321Z"
+    },
+    {
+      "id": "live-6b4fe960a9",
+      "title": "FEYENOORD VS INTER [SERVER 3 - BLV RYO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.588Z"
+    },
+    {
+      "id": "live-629292fd20",
+      "title": "FEYENOORD VS INTER [SERVER 4 - MP3]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=f98dc5f9e4c3571eccf5125325228c56&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.699Z"
+    },
+    {
+      "id": "live-bcbd25dd7c",
+      "title": "FEYENOORD VS INTER [SERVER 5 - KINH VÂN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:45.915Z"
+    },
+    {
+      "id": "live-7fd0017d01",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:46.355Z"
+    },
+    {
+      "id": "live-4bef3c415d",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 2 - BLV YONE]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793732973-0-0-dfce5cf5fbcd02fb7da59963300b549b",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:46.519Z"
+    },
+    {
+      "id": "live-970ddd9aea",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 3 - BLV VIP]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793732973-0-0-5000eb03591befbcfcba377d130f7288",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:46.725Z"
+    },
+    {
+      "id": "live-659cd33fc2",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 4 - BLV VOI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:46.901Z"
+    },
+    {
+      "id": "live-b24bde72e9",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 5 - BLV A TINH]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627318_lhd.flv?auth_key=1793732973-0-0-678cf3656658b9f73c68e85d2bf8ae26",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.073Z"
+    },
+    {
+      "id": "live-a52eb1e2cc",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 6 - BLV HUCK]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0484e71859156e9b9e47977bb8e1e007&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.158Z"
+    },
+    {
+      "id": "live-e0cd0dcbaf",
+      "title": "CHAPECOENSE VS MIRASSOL SP [SERVER 7 - ASHAHI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d3919f59c80c57f69ad3a08f5e6a62c3&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.260Z"
+    },
+    {
+      "id": "live-bd4926830d",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 1]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=0ad30496d7ef6d511a29df8ef0ce9de0&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.440Z"
+    },
+    {
+      "id": "live-c67a062807",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 2 - RICKHANTER]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793732973-0-0-d53fd80e3e7580f9b597ab9532a47f64",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.651Z"
+    },
+    {
+      "id": "live-0634124467",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 3 - ZIZOU]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627318_lhd.flv?auth_key=1793732973-0-0-678cf3656658b9f73c68e85d2bf8ae26",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.831Z"
+    },
+    {
+      "id": "live-76ae7e00fa",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 4 - BLV CUỘI]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=c9d961aaa7ac95018ed4044b48d3b312&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:47.927Z"
+    },
+    {
+      "id": "live-bb95910fb6",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 5 - BLV KAN]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793732973-0-0-6ecf23453bf1f416f25a53a22f812918",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:48.196Z"
+    },
+    {
+      "id": "live-c7ac1f49dc",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 6 - BLV COCA]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793732973-0-0-fdb9f0edfc52f578b4539afdde7e6276",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:48.374Z"
+    },
+    {
+      "id": "live-f0a5a002d5",
+      "title": "INTERNACIONAL RS VS CORITIBA SAF PR [SERVER 7 - BLV ENZO]",
+      "status": "live",
+      "source": "socolive",
+      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=c9d961aaa7ac95018ed4044b48d3b312&txTime=6aea77bd",
+      "type": "FLV",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:09:48.451Z"
+    },
+    {
+      "id": "live-c5c9c2a00d",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:32.186Z"
+      "crawledAt": "2026-11-03T18:10:26.773Z"
+    },
+    {
+      "id": "live-ff541459e7",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 2 - BLV HỔ VẰN]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:29.997Z"
+    },
+    {
+      "id": "live-bd3f6b8016",
+      "title": "BARCELONA VS ASTON VILLA [SERVER 3 - BLV SODA]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:32.778Z"
+    },
+    {
+      "id": "live-e6ce13d3d1",
+      "title": "ATLETICO MADRID VS BAYERN MNCHEN [SERVER 1]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:35.048Z"
+    },
+    {
+      "id": "live-326206c3e0",
+      "title": "ATLETICO MADRID VS BAYERN MNCHEN [SERVER 3 - BLV MOUNTAIN DEW]",
+      "status": "live",
+      "source": "colatv",
+      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:42.800Z"
+    },
+    {
+      "id": "live-12ebe8129b",
+      "title": "GALATASARAY VS VFB STUTTGART [SERVER 1 - BLV HỔ VẰN]",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live05.yefpwmc.app/live/07428422_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:43.650Z"
+    },
+    {
+      "id": "live-01e38a3c0c",
+      "title": "SHAKHTAR DONETSK VS SPORTING [SERVER 1 - BLV MOUNTAIN DEW]",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:43.744Z"
+    },
+    {
+      "id": "live-6e09835867",
+      "title": "S. KOSTROMA VS VOLNA NIZHEGORODSKAYA [SERVER 1 - BLV C2]",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:43.951Z"
+    },
+    {
+      "id": "live-8971cf6c2f",
+      "title": "AL HILAL VS AL AHLI [SERVER 1 - BLV GIÀ LÀNG]",
+      "status": "live",
+      "source": "xoilac",
+      "streamUrl": "https://live05.yefpwmc.app/live/14830711_tsc.m3u8",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-03T18:10:44.063Z"
     },
     {
       "id": "live-7d2963fe14",
@@ -3262,66 +4552,6 @@
       "crawledAt": "2026-11-03T17:30:43.928Z"
     },
     {
-      "id": "live-b72843d7a4",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 2 - CÔNG CHẤT]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.flv?txSecret=921df5b897d685007452d2e8293bb133&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:44.155Z"
-    },
-    {
-      "id": "live-80a388341a",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 3 - BLV LUCAS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793730643-0-0-b745a0b74e220cae8c68a190e78a42c4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:46.349Z"
-    },
-    {
-      "id": "live-c1d2c7a1a2",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 4 - LOKA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793730643-0-0-208bc87f0beaba244616146f800688bd",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:46.553Z"
-    },
-    {
-      "id": "live-a3b14b0b51",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 5 - CACAO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:46.793Z"
-    },
-    {
-      "id": "live-72c4659597",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 6 - BÒ TƯƠI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620797_lhd.flv?auth_key=1793730643-0-0-925b8b50516479b0f94b35f3409a3df2",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:46.965Z"
-    },
-    {
-      "id": "live-310c8dadb0",
-      "title": "ESTEGHLAL TEHRAN VS AL SHAMAL [SERVER 7 - CURRY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793730643-0-0-dde4a6c319c3c8486dc1b3249caf6ac6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:47.164Z"
-    },
-    {
       "id": "live-dfc5867969",
       "title": "AL HUSSEIN IRBID VS AL SHORTA [SERVER 1]",
       "status": "live",
@@ -3330,576 +4560,6 @@
       "type": "FLV",
       "category": "Sports",
       "crawledAt": "2026-11-03T17:30:47.450Z"
-    },
-    {
-      "id": "live-8d2a089915",
-      "title": "AL HUSSEIN IRBID VS AL SHORTA [SERVER 2 - BLV WUKONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-511367_lhd.flv?auth_key=1793730643-0-0-00f04a929449bc31a6a97ab669a2011b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:47.628Z"
-    },
-    {
-      "id": "live-05726da33b",
-      "title": "AL HUSSEIN IRBID VS AL SHORTA [SERVER 3 - ĐỖ TÚ TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1793730643-0-0-fb0c967cc509e1e8ff20c92792561c6b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:47.813Z"
-    },
-    {
-      "id": "live-c4f12b316e",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793730643-0-0-8441eec1a20a09b1ef28cea787bb5cdb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.011Z"
-    },
-    {
-      "id": "live-33d3beab34",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 2 - THẠCH TÚ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=146e9d6a08a989d60f36eae38eff6fff&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.108Z"
-    },
-    {
-      "id": "live-acb609e889",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 3 - BLV CỦ CẢI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793730643-0-0-437a22abd6c7a13bad5a5b8dafe49ce4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.296Z"
-    },
-    {
-      "id": "live-e712a9c478",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 4 - SAO LA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0600f74822c90a2ac55d059ef7fdcb21&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.508Z"
-    },
-    {
-      "id": "live-51da570bb4",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 5 - A BỆU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793730643-0-0-5864bc9112b9fd5c23a8dd42beba7228",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.699Z"
-    },
-    {
-      "id": "live-a613865c71",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 6 - BLV MESSI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d41132adbdf522eeb34466cf545ab974&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:48.908Z"
-    },
-    {
-      "id": "live-5205fb95d0",
-      "title": "GALATASARAY VS VFB STUTTGART [SERVER 7 - BLV HEHE]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793730643-0-0-8441eec1a20a09b1ef28cea787bb5cdb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.093Z"
-    },
-    {
-      "id": "live-89f0d8bc0e",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0600f74822c90a2ac55d059ef7fdcb21&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.185Z"
-    },
-    {
-      "id": "live-5ae0520e17",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 2 - BLV PIRLO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=9c466bd39f45c6e5accb195311aee566&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.398Z"
-    },
-    {
-      "id": "live-3059d0b731",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 3 - BLV BÉO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=b66cf4b353c45c88832b94401e6ae7e5&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.620Z"
-    },
-    {
-      "id": "live-0b74318491",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 4 - BLV ALEX]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=4684bab2ab06c3b2de21de62439e610f&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.703Z"
-    },
-    {
-      "id": "live-068813a0d4",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 5 - LOGAN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793730643-0-0-b2b437472adbb386498a2f97ceaeaab6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:49.939Z"
-    },
-    {
-      "id": "live-2fac49c10a",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 6 - HẢI THANH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793730643-0-0-da468fdb01fe42d8175d4e713409e70b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:50.118Z"
-    },
-    {
-      "id": "live-ac61c012d1",
-      "title": "SHAKHTAR DONETSK VS SPORTING CP [SERVER 7 - A MÂN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793730643-0-0-efda2e2eb1ce3db75e7cb1f06d4c7a78",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:50.313Z"
-    },
-    {
-      "id": "live-885cef79eb",
-      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620504_lhd.flv?auth_key=1793730643-0-0-a6b9dd1c50ca15318220c334e6a42f27",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:50.511Z"
-    },
-    {
-      "id": "live-1f1795f669",
-      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 2 - REDBULL]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=146e9d6a08a989d60f36eae38eff6fff&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:50.647Z"
-    },
-    {
-      "id": "live-331ed5210e",
-      "title": "AL HILAL VS SHABAB AL AHLI [SERVER 3 - SẾU ĐẦU ĐỎ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793730643-0-0-b745a0b74e220cae8c68a190e78a42c4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:50.921Z"
-    },
-    {
-      "id": "live-c7bd63d5b1",
-      "title": "BODO GLIMT VS LOSC LILLE [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793730643-0-0-437a22abd6c7a13bad5a5b8dafe49ce4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:51.105Z"
-    },
-    {
-      "id": "live-d181c332f3",
-      "title": "BODO GLIMT VS LOSC LILLE [SERVER 2 - BLV ANH TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793730643-0-0-da468fdb01fe42d8175d4e713409e70b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:51.402Z"
-    },
-    {
-      "id": "live-9f2bb5ce36",
-      "title": "BODO GLIMT VS LOSC LILLE [SERVER 3 - BOSS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620504_lhd.flv?auth_key=1793730643-0-0-a6b9dd1c50ca15318220c334e6a42f27",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:51.573Z"
-    },
-    {
-      "id": "live-6144ea204c",
-      "title": "MAN UTD VS ROMA [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:51.775Z"
-    },
-    {
-      "id": "live-1cd55762ef",
-      "title": "MAN UTD VS ROMA [SERVER 2 - 5 LỬA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793730643-0-0-b745a0b74e220cae8c68a190e78a42c4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:51.963Z"
-    },
-    {
-      "id": "live-00976423c5",
-      "title": "MAN UTD VS ROMA [SERVER 3 - SAO LA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912140_lhd.flv?txSecret=0600f74822c90a2ac55d059ef7fdcb21&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.069Z"
-    },
-    {
-      "id": "live-1349b6abf8",
-      "title": "MAN UTD VS ROMA [SERVER 4 - A BỆU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793730643-0-0-5864bc9112b9fd5c23a8dd42beba7228",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.289Z"
-    },
-    {
-      "id": "live-416ffe5f4a",
-      "title": "MAN UTD VS ROMA [SERVER 5 - BLV MESSI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=d41132adbdf522eeb34466cf545ab974&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.379Z"
-    },
-    {
-      "id": "live-4f75e011dc",
-      "title": "MAN UTD VS ROMA [SERVER 6 - HẢI THANH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793730643-0-0-da468fdb01fe42d8175d4e713409e70b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.585Z"
-    },
-    {
-      "id": "live-5d2428072d",
-      "title": "MAN UTD VS ROMA [SERVER 7 - CURRY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793730643-0-0-dde4a6c319c3c8486dc1b3249caf6ac6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.822Z"
-    },
-    {
-      "id": "live-d2fe2d5203",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=b66cf4b353c45c88832b94401e6ae7e5&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:52.932Z"
-    },
-    {
-      "id": "live-9be9722985",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 2 - BLV LUCAS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793730643-0-0-b745a0b74e220cae8c68a190e78a42c4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:53.159Z"
-    },
-    {
-      "id": "live-b1f9898581",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 3 - BLV CỦ CẢI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912091_lhd.flv?auth_key=1793730643-0-0-437a22abd6c7a13bad5a5b8dafe49ce4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:53.338Z"
-    },
-    {
-      "id": "live-cad2d30a2e",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 4 - BLV WUKONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-511367_lhd.flv?auth_key=1793730643-0-0-00f04a929449bc31a6a97ab669a2011b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:53.510Z"
-    },
-    {
-      "id": "live-9f2ce702cd",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 5 - LÃO LÂM]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1793730643-0-0-fb0c967cc509e1e8ff20c92792561c6b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:53.731Z"
-    },
-    {
-      "id": "live-00f93e1e0a",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 6 - LOGAN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793730643-0-0-b2b437472adbb386498a2f97ceaeaab6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:53.907Z"
-    },
-    {
-      "id": "live-5fc0762ba2",
-      "title": "BARCELONA VS ASTON VILLA [SERVER 7 - BÒ TƯƠI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620797_lhd.flv?auth_key=1793730643-0-0-925b8b50516479b0f94b35f3409a3df2",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:54.108Z"
-    },
-    {
-      "id": "live-5ae63168ab",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:54.283Z"
-    },
-    {
-      "id": "live-c690125c00",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 2 - CÔNG CHẤT]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.flv?txSecret=921df5b897d685007452d2e8293bb133&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:54.385Z"
-    },
-    {
-      "id": "live-a1deba2e39",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 3 - TUẤN CÙI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793730643-0-0-b2b437472adbb386498a2f97ceaeaab6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:54.643Z"
-    },
-    {
-      "id": "live-2d8c60f572",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 4 - QUỐC KHÁNH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793730643-0-0-da468fdb01fe42d8175d4e713409e70b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:54.812Z"
-    },
-    {
-      "id": "live-ff221d8cbc",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 5 - XUÂN TÓC ĐỎ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620797_lhd.flv?auth_key=1793730643-0-0-925b8b50516479b0f94b35f3409a3df2",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.008Z"
-    },
-    {
-      "id": "live-c30d306595",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 6 - VINFAST]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620797_lhd.flv?auth_key=1793730643-0-0-925b8b50516479b0f94b35f3409a3df2",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.178Z"
-    },
-    {
-      "id": "live-b4a6eef317",
-      "title": "ATLETICO MADRID VS BAYERN MUNICH [SERVER 7 - PEANUT]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.442Z"
-    },
-    {
-      "id": "live-18a7f6f13d",
-      "title": "LASK LINZ VS SLOVAN BRATISLAVA [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=146e9d6a08a989d60f36eae38eff6fff&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.526Z"
-    },
-    {
-      "id": "live-0d6d1ee85c",
-      "title": "LASK LINZ VS SLOVAN BRATISLAVA [SERVER 2 - KENCHU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.flv?txSecret=921df5b897d685007452d2e8293bb133&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.675Z"
-    },
-    {
-      "id": "live-da20b1035d",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1793730643-0-0-b745a0b74e220cae8c68a190e78a42c4",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:55.877Z"
-    },
-    {
-      "id": "live-f65ca7ab40",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 2 - BLV LONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793730643-0-0-dde4a6c319c3c8486dc1b3249caf6ac6",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.044Z"
-    },
-    {
-      "id": "live-59daea702a",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 3 - BLV BÉO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-459401_lhd.flv?txSecret=b66cf4b353c45c88832b94401e6ae7e5&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.120Z"
-    },
-    {
-      "id": "live-b84b67c8d7",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 4 - BLV ALEX]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-532081_lhd.flv?txSecret=4684bab2ab06c3b2de21de62439e610f&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.275Z"
-    },
-    {
-      "id": "live-8c7a8f340c",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 5 - BLV A WIN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-511367_lhd.flv?auth_key=1793730643-0-0-00f04a929449bc31a6a97ab669a2011b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.478Z"
-    },
-    {
-      "id": "live-2ee124ab52",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 6 - LOKA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793730643-0-0-208bc87f0beaba244616146f800688bd",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.648Z"
-    },
-    {
-      "id": "live-6e37476047",
-      "title": "VILLARREAL VS PARIS SAINT GERMAIN [SERVER 7 - A MÂN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-627718_lhd.flv?auth_key=1793730643-0-0-efda2e2eb1ce3db75e7cb1f06d4c7a78",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:56.848Z"
-    },
-    {
-      "id": "live-09b5e87f48",
-      "title": "FEYENOORD VS INTER [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:57.033Z"
-    },
-    {
-      "id": "live-369b2bc929",
-      "title": "FEYENOORD VS INTER [SERVER 2 - BLV XO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912128_lhd.flv?auth_key=1793730643-0-0-0fe4db0732a472298fb9811f9cd13e97",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:57.213Z"
-    },
-    {
-      "id": "live-6b4fe960a9",
-      "title": "FEYENOORD VS INTER [SERVER 3 - BLV RYO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1793730643-0-0-fb0c967cc509e1e8ff20c92792561c6b",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:57.436Z"
-    },
-    {
-      "id": "live-629292fd20",
-      "title": "FEYENOORD VS INTER [SERVER 4 - MP3]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-620797_lhd.flv?auth_key=1793730643-0-0-925b8b50516479b0f94b35f3409a3df2",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:57.604Z"
-    },
-    {
-      "id": "live-bcbd25dd7c",
-      "title": "FEYENOORD VS INTER [SERVER 5 - KINH VÂN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-291277_lhd.flv?txSecret=921df5b897d685007452d2e8293bb133&txTime=6aea6ea3",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-03T17:30:57.699Z"
     },
     {
       "id": "live-77760c0510",
@@ -3934,24 +4594,6 @@
       "status": "live",
       "source": "colatv",
       "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-8b779cd559",
-      "title": "AL QADISIYA VS AL SADD [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-79be2431dd",
-      "title": "AL QADISIYA VS AL SADD [SERVER 2 - BLV TEPPY]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
       "type": "HLS",
       "category": "Sports"
     },
@@ -4010,24 +4652,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-31084bb2dc",
-      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
-      "id": "live-a4b472d68f",
-      "title": "BESIKTAS JK VS BASAKSEHIR [SERVER 2 - BLV TEPPY]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports"
-    },
-    {
       "id": "live-32fa05f9a7",
       "title": "AL AIN VS TRACTOR S C",
       "status": "live",
@@ -4079,15 +4703,6 @@
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001793036259-0-0-9a0bb21066e0f163d052edd4a92fbe30",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-473dc60312",
-      "title": "UDINESE CALCIO VS MILAN [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
       "category": "Sports"
     },
     {
@@ -4154,15 +4769,6 @@
       "category": "Sports"
     },
     {
-      "id": "live-6cef17410f",
-      "title": "MOLDE VS FREDRIKSTAD",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-17.flv?auth_key=3000001792959697-0-0-f7a1040b06cd80a98df1b2b3ddafd31b",
-      "type": "FLV",
-      "category": "Sports"
-    },
-    {
       "id": "live-c47d9bad40",
       "title": "UNION SG VS CERCLE BRUGGE",
       "status": "live",
@@ -4187,15 +4793,6 @@
       "source": "xoilac",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001792958501-0-0-60759ef9f5f3bed660054ce3774a5f7a",
       "type": "FLV",
-      "category": "Sports"
-    },
-    {
-      "id": "live-9961af4140",
-      "title": "UDINESE CALCIO VS MILAN [SERVER 2 - BLV TEPPY]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://live05.yefpwmc.app/live/33860426_tsc.m3u8",
-      "type": "HLS",
       "category": "Sports"
     },
     {
