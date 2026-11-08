@@ -70,9 +70,12 @@ export default function App() {
     setAllChannels(combinedChannels);
     setChannels(combinedChannels);
 
-    // Default select first channel if none selected
-    if (!currentChannel && combinedChannels.length > 0) {
-      setCurrentChannel(combinedChannels[0]);
+    // Default select first channel if none selected or if currentChannel is no longer active
+    if (combinedChannels.length > 0) {
+      const stillValid = currentChannel && combinedChannels.some(c => c.url === currentChannel.url || c.name === currentChannel.name);
+      if (!stillValid) {
+        setCurrentChannel(combinedChannels[0]);
+      }
     }
 
     if (window.innerWidth < 768) {

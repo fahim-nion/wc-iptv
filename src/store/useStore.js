@@ -24,6 +24,13 @@ export const useStore = create(
       toggleStreamDelay: () => set((state) => ({ streamDelayEnabled: !state.streamDelayEnabled })),
       dismissDelayNotice: () => set({ hasSeenDelayNotice: true }),
     }),
-    { name: 'worldcup-iptv-v4' }
+    { 
+      name: 'worldcup-iptv-v4',
+      partialize: (state) => ({
+        favorites: state.favorites,
+        streamDelayEnabled: state.streamDelayEnabled,
+        hasSeenDelayNotice: state.hasSeenDelayNotice
+      })
+    }
   )
 );

@@ -781,50 +781,62 @@ export async function discoverFutbolX() {
             if (!res.ok) continue;
             const data = await res.json();
 
+            const allStreamCandidates = [];
             for (const group of data.streams || []) {
                 for (const match of group.streams || []) {
                     const streamsList = match.streams || [];
                     for (let i = 0; i < streamsList.length; i++) {
                         const s = streamsList[i];
                         if (!s.url || !s.url.startsWith('http')) continue;
-
-                        let playableUrl = s.url;
-                        try {
-                            const parsed = new URL(s.url);
-                            const tokenEndpoint = `https://www.futbol-x.xyz/api/token.js?path=${encodeURIComponent(parsed.pathname)}&sourceHost=${parsed.hostname}&expires=900`;
-                            const tokenRes = await fetch(tokenEndpoint, {
-                                headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
-                                signal: AbortSignal.timeout(6000)
-                            });
-                            if (tokenRes.ok) {
-                                const tokenData = await tokenRes.json();
-                                if (tokenData.success && tokenData.url) {
-                                    playableUrl = tokenData.url;
-                                }
-                            }
-                        } catch (e) {}
-
-                        // Verify stream returns 200 (not 404)
-                        try {
-                            const checkRes = await fetch(playableUrl, {
-                                method: 'HEAD',
-                                headers: { 'Referer': 'https://www.futbol-x.xyz/' },
-                                signal: AbortSignal.timeout(3500)
-                            });
-                            if (!checkRes.ok) continue;
-                        } catch (e) {
-                            continue;
-                        }
-
-                        const baseTitle = normalizeMatchTitle(match.name);
-                        const serverSuffix = streamsList.length > 1 ? ` [SERVER ${i + 1} - HD]` : ` [SERVER 1 - HD]`;
-                        matches.push({
-                            title: `${baseTitle}${serverSuffix}`,
-                            url: playableUrl,
-                            source: 'futbolx',
-                            type: 'HLS'
-                        });
+                        allStreamCandidates.push({ match, s, i, streamsCount: streamsList.length });
                     }
+                }
+            }
+
+            // Verify streams in parallel batches for 10x faster execution
+            const BATCH_SIZE = 6;
+            for (let b = 0; b < allStreamCandidates.length; b += BATCH_SIZE) {
+                const batch = allStreamCandidates.slice(b, b + BATCH_SIZE);
+                const batchResults = await Promise.all(batch.map(async ({ match, s, i, streamsCount }) => {
+                    let playableUrl = s.url;
+                    try {
+                        const parsed = new URL(s.url);
+                        const tokenEndpoint = `https://www.futbol-x.xyz/api/token.js?path=${encodeURIComponent(parsed.pathname)}&sourceHost=${parsed.hostname}&expires=900`;
+                        const tokenRes = await fetch(tokenEndpoint, {
+                            headers: { 'User-Agent': config.userAgent || 'Mozilla/5.0' },
+                            signal: AbortSignal.timeout(4000)
+                        });
+                        if (tokenRes.ok) {
+                            const tokenData = await tokenRes.json();
+                            if (tokenData.success && tokenData.url) {
+                                playableUrl = tokenData.url;
+                            }
+                        }
+                    } catch (e) {}
+
+                    try {
+                        const checkRes = await fetch(playableUrl, {
+                            method: 'HEAD',
+                            headers: { 'Referer': 'https://www.futbol-x.xyz/' },
+                            signal: AbortSignal.timeout(3000)
+                        });
+                        if (!checkRes.ok) return null;
+                    } catch (e) {
+                        return null;
+                    }
+
+                    const baseTitle = normalizeMatchTitle(match.name);
+                    const serverSuffix = streamsCount > 1 ? ` [SERVER ${i + 1} - HD]` : ` [SERVER 1 - HD]`;
+                    return {
+                        title: `${baseTitle}${serverSuffix}`,
+                        url: playableUrl,
+                        source: 'futbolx',
+                        type: 'HLS'
+                    };
+                }));
+
+                for (const res of batchResults) {
+                    if (res) matches.push(res);
                 }
             }
         } catch (e) {

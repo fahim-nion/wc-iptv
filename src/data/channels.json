@@ -1,2205 +1,1695 @@
 {
-  "updatedAt": "2026-11-04T18:55:43.417Z",
+  "updatedAt": "2026-11-08T20:41:09.824Z",
   "channels": [
     {
-      "id": "live-382292e6cf",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 1 - HD]",
+      "id": "live-e5509a309e",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://rip.futx.nx.kg/rma/index.m3u8?token=c76ddd2e3845991568a28a3306b626b6dda9bc4b-682dd09c316880a289f5c2b6f90acfc5-1793819215-1793818015&remote=no_check_ip",
+      "streamUrl": "https://but.futx.nx.kg/juv/index.m3u8?token=2b9b803128105a986d41ab9c9c3e296c36909667-2d95244c6da54c37b4d40f070bc36790-1794171366-1794170166&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:40.512Z"
+      "crawledAt": "2026-11-08T20:41:09.821Z"
     },
     {
-      "id": "live-883d7e37a2",
-      "title": "FENERBAHÇE VS LIVERPOOL [SERVER 1 - HD]",
+      "id": "live-66ea7b48ea",
+      "title": "LENS VS MARSEILLE [SERVER 1 - HD]",
       "status": "live",
       "source": "futbolx",
-      "streamUrl": "https://but.futx.nx.kg/liv/index.m3u8?token=2f6daedaca785d3208123545e5f5c8e913db254f-d6921a406e55684ebe4a757494d5fddc-1793819218-1793818018&remote=no_check_ip",
+      "streamUrl": "https://but.futx.nx.kg/len/index.m3u8?token=f16579ab362a13c44914ef2fc62741efc75ea9fc-e35470b22517d4ed3c3f4fcd8a75ee18-1794171366-1794170166&remote=no_check_ip",
       "type": "HLS",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.066Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-8916353368",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 1 - HQ STREAM 1]",
+      "id": "live-a5d77193c0",
+      "title": "ATLÉTICO MADRID VS BARCELONA [SERVER 1 - HD]",
+      "status": "live",
+      "source": "futbolx",
+      "streamUrl": "https://rip.futx.nx.kg/en/index.m3u8?token=ce982339f7ac239d6d4c691288cb967e1bff53f7-e7fe824d657677bd5c4e63f3626aaac8-1794171366-1794170166&remote=no_check_ip",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.822Z"
+    },
+    {
+      "id": "live-51c033bbea",
+      "title": "ATLÉTICO MADRID VS BARCELONA [SERVER 2 - HD]",
+      "status": "live",
+      "source": "futbolx",
+      "streamUrl": "https://rip.futx.nx.kg/esp/index.m3u8?token=e10aacf5c7985e6e33e7bd375b3c6e16da733cf2-684bf9334aacaf3421c3247025fba52e-1794171366-1794170166&remote=no_check_ip",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.822Z"
+    },
+    {
+      "id": "live-b8593d4389",
+      "title": "ESTRELA VS SL BENFICA [SERVER 1 - HD]",
+      "status": "live",
+      "source": "futbolx",
+      "streamUrl": "https://but.futx.nx.kg/ben/index.m3u8?token=7bb3bd1a5fc1474ef8e865d0acf8aa57b5696195-1de7df17d3bd65e575cd8cd0b7351704-1794171366-1794170166&remote=no_check_ip",
+      "type": "HLS",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.822Z"
+    },
+    {
+      "id": "live-b0bef0a401",
+      "title": "TSG HOFFENHEIM VS SCHALKE 04 [SERVER 1 - HQ STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-1",
+      "streamUrl": "https://embedsports.me/a/tsg-hoffenheim-vs-schalke-04-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.066Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-2c4415abf3",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 2 - HQ STREAM 2]",
+      "id": "live-2461387946",
+      "title": "TSG HOFFENHEIM VS SCHALKE 04 [SERVER 2 - HQ GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-2",
+      "streamUrl": "https://embedsports.me/a/tsg-hoffenheim-vs-schalke-04-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.067Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-f56c175197",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 3 - HQ STREAM 3]",
+      "id": "live-28ceae831c",
+      "title": "TSG HOFFENHEIM VS SCHALKE 04 [SERVER 3 - STREAM 3]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-3",
+      "streamUrl": "https://embedsports.me/a/tsg-hoffenheim-vs-schalke-04-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.067Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-3ec7e79432",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 4 - HQ SPAIN]",
+      "id": "live-e3070f528d",
+      "title": "TSG HOFFENHEIM VS SCHALKE 04 [SERVER 4 - GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-4",
+      "streamUrl": "https://embedsports.me/a/tsg-hoffenheim-vs-schalke-04-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.067Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-c1b23fd3d6",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 5 - HQ ITALY]",
+      "id": "live-13ba44bb71",
+      "title": "FC UTRECHT VS NEC NIJMEGEN [SERVER 1 - HQ NETHERLANDS]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-5",
+      "streamUrl": "https://embedsports.me/a/fc-utrecht-vs-nec-nijmegen-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-769ad70989",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 6 - HQ PORTUGAL]",
+      "id": "live-82bf97a542",
+      "title": "FC UTRECHT VS NEC NIJMEGEN [SERVER 2 - NETHERLANDS]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-6",
+      "streamUrl": "https://embedsports.me/a/fc-utrecht-vs-nec-nijmegen-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-a5d6ebed6b",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 7 - HQ GREECE]",
+      "id": "live-187b27e36b",
+      "title": "LECH POZNAN VS ZAGLEBIE [SERVER 1 - HQ POLAND]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-7",
+      "streamUrl": "https://embedsports.me/a/lech-poznan-vs-zaglebie-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-af59ef59f3",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 8 - STREAM 8]",
+      "id": "live-23f727845f",
+      "title": "LECH POZNAN VS ZAGLEBIE [SERVER 2 - POLAND]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-8",
+      "streamUrl": "https://embedsports.me/a/lech-poznan-vs-zaglebie-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-be290804cf",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 9 - STREAM 9]",
+      "id": "live-835af687b8",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 1 - HQ STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-9",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-10322da505",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 10 - SPAIN]",
+      "id": "live-e524db6a05",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 2 - HQ STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-10",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-a5b7efc4c9",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 11 - ITALY]",
+      "id": "live-6e27a93e1b",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 3 - HQ ITALY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-11",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-a05f7b11f6",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 12 - PORTUGAL]",
+      "id": "live-8a466e8fb2",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 4 - HQ ITALY 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-12",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-2ffa112ea7",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 13 - GREECE]",
+      "id": "live-cd47662d25",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 5 - STREAM 5]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/aek-athens-vs-real-madrid-stream-13",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-5",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-5c29406463",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 1 - HQ STREAM 1]",
+      "id": "live-718c7ed755",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 6 - STREAM 6]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-1",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-6",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-34cbd18468",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 2 - HQ STREAM 2]",
+      "id": "live-1686a1f1c3",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 7 - ITALY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-2",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-7",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-6cc75620ba",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 3 - HQ STREAM 3]",
+      "id": "live-e9e048e2c5",
+      "title": "FIORENTINA VS JUVENTUS [SERVER 8 - ITALY 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-3",
+      "streamUrl": "https://embedsports.me/a/fiorentina-vs-juventus-stream-8",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.068Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-9b422988bc",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 4 - HQ STREAM 4]",
+      "id": "live-37f96a65a2",
+      "title": "LENS VS MARSEILLE [SERVER 1 - HQ STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-4",
+      "streamUrl": "https://embedsports.me/a/lens-vs-marseille-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-63c8635df0",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 5 - HQ SPAIN]",
+      "id": "live-00a956d967",
+      "title": "LENS VS MARSEILLE [SERVER 2 - HQ FRANCE]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-5",
+      "streamUrl": "https://embedsports.me/a/lens-vs-marseille-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-c096b8a91e",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 6 - HQ GERMANY]",
+      "id": "live-6313fd3ec4",
+      "title": "LENS VS MARSEILLE [SERVER 3 - STREAM 3]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-6",
+      "streamUrl": "https://embedsports.me/a/lens-vs-marseille-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-6b2213e6a4",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 7 - HQ FRANCE]",
+      "id": "live-1dd88235a0",
+      "title": "LENS VS MARSEILLE [SERVER 4 - FRANCE]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-7",
+      "streamUrl": "https://embedsports.me/a/lens-vs-marseille-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-ee91e56ea1",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 8 - HQ ITALY]",
+      "id": "live-3ba7dbe87e",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 1 - HQ STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-8",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-19194309b1",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 9 - HQ PORTUGAL]",
+      "id": "live-29bda15520",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 2 - HQ STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-9",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-26b2f294ab",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 10 - STREAM 10]",
+      "id": "live-33d20e9917",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 3 - HQ SPAIN]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-10",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-4df70ba922",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 11 - STREAM 11]",
+      "id": "live-a08b805c1e",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 4 - HQ GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-11",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-178096114c",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 12 - STREAM 12]",
+      "id": "live-b4dc6c55fd",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 5 - HQ FRANCE]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-12",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-5",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.069Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-baed3ee8c5",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 13 - SPAIN]",
+      "id": "live-43dfe3f10f",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 6 - HQ ITALY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-13",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-6",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-554a3e699a",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 14 - GERMANY]",
+      "id": "live-82838a221b",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 7 - HQ PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-14",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-7",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-8ecb103ac0",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 15 - FRANCE]",
+      "id": "live-5971c21fdd",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 8 - STREAM 8]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-15",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-8",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.822Z"
     },
     {
-      "id": "live-e40f710ef9",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 16 - ITALY]",
+      "id": "live-4422ef3f1d",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 9 - STREAM 9]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-16",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-9",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-0a61c02d46",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 17 - PORTUGAL]",
+      "id": "live-9460f4012e",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 10 - SPAIN]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/fenerbahce-vs-liverpool-stream-17",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-10",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-55707997ac",
-      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 1 - HQ GERMANY]",
+      "id": "live-1f69ec0bd9",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 11 - GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/champions-league-konferenz-stream-1",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-11",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-49aaff0837",
-      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 2 - HQ GERMANY 2]",
+      "id": "live-888c827551",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 12 - FRANCE]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/champions-league-konferenz-stream-2",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-12",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-5bf35139ce",
-      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 3 - GERMANY]",
+      "id": "live-d755d72b2e",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 13 - ITALY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/champions-league-konferenz-stream-3",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-13",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-eab8282a46",
-      "title": "CHAMPIONS LEAGUE KONFERENZ [SERVER 4 - GERMANY 2]",
+      "id": "live-e63c3f28ef",
+      "title": "ATLETICO MADRID VS BARCELONA [SERVER 14 - PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/champions-league-konferenz-stream-4",
+      "streamUrl": "https://embedsports.me/a/atletico-madrid-vs-barcelona-stream-14",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-190a6c00cc",
-      "title": "BRAZIL U17 W VS NIGERIA U17 W [SERVER 1 - HQ STREAM 1]",
+      "id": "live-be2380a153",
+      "title": "VASCO DA GAMA VS PALMEIRAS [SERVER 1 - HQ SPAIN]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/brazil-u17-w-vs-nigeria-u17-w-stream-1",
+      "streamUrl": "https://embedsports.me/a/vasco-da-gama-vs-palmeiras-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.070Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-5484b4c380",
-      "title": "BRAZIL U17 W VS NIGERIA U17 W [SERVER 2 - HQ GERMANY]",
+      "id": "live-dd05d37d18",
+      "title": "VASCO DA GAMA VS PALMEIRAS [SERVER 2 - SPAIN]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/brazil-u17-w-vs-nigeria-u17-w-stream-2",
+      "streamUrl": "https://embedsports.me/a/vasco-da-gama-vs-palmeiras-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.071Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-2b71d1b230",
-      "title": "BRAZIL U17 W VS NIGERIA U17 W [SERVER 3 - STREAM 3]",
+      "id": "live-6f3d5fb2a1",
+      "title": "VASCO DA GAMA VS PALMEIRAS [SERVER 3 - STREAM 3]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/brazil-u17-w-vs-nigeria-u17-w-stream-3",
+      "streamUrl": "https://embedsports.me/a/vasco-da-gama-vs-palmeiras-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-1d8664a2e0",
-      "title": "BRAZIL U17 W VS NIGERIA U17 W [SERVER 4 - GERMANY]",
+      "id": "live-3107ef5a83",
+      "title": "VASCO DA GAMA VS PALMEIRAS [SERVER 4 - STREAM 4]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/brazil-u17-w-vs-nigeria-u17-w-stream-4",
+      "streamUrl": "https://embedsports.me/a/vasco-da-gama-vs-palmeiras-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-dbbd4c5434",
-      "title": "AL MUHARRAQ VS AL JAZIRA [SERVER 1 - STREAM 1]",
+      "id": "live-3c2ae81fa4",
+      "title": "ESTRELA VS BENFICA [SERVER 1 - STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/al-muharraq-vs-al-jazira-stream-1",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-eba3cfbf88",
-      "title": "AL MUHARRAQ VS AL JAZIRA [SERVER 2 - STREAM 2]",
+      "id": "live-acf55730cb",
+      "title": "ESTRELA VS BENFICA [SERVER 2 - HQ STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/al-muharraq-vs-al-jazira-stream-2",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-54c0f33e7f",
-      "title": "AL TAAWOUN VS AL FAISALY [SERVER 1 - STREAM 1]",
+      "id": "live-eb4ebdcdc4",
+      "title": "ESTRELA VS BENFICA [SERVER 3 - HQ GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/al-taawoun-vs-al-faisaly-stream-1",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-4b88ecd61e",
-      "title": "AL TAAWOUN VS AL FAISALY [SERVER 2 - STREAM 2]",
+      "id": "live-baec55ab16",
+      "title": "ESTRELA VS BENFICA [SERVER 4 - HQ PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/al-taawoun-vs-al-faisaly-stream-2",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-4",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-91b66c3863",
-      "title": "THE GOLAZO SHOW [SERVER 1 - STREAM 1]",
+      "id": "live-bd9224f182",
+      "title": "ESTRELA VS BENFICA [SERVER 5 - STREAM 5]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/the-golazo-show-stream-1",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-5",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-c5494cd801",
-      "title": "THE GOLAZO SHOW [SERVER 2 - HQ STREAM 2]",
+      "id": "live-640925d5e8",
+      "title": "ESTRELA VS BENFICA [SERVER 6 - GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/the-golazo-show-stream-2",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-6",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-51a86356df",
-      "title": "THE GOLAZO SHOW [SERVER 3 - STREAM 3]",
+      "id": "live-bf1780e6c2",
+      "title": "ESTRELA VS BENFICA [SERVER 7 - PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/the-golazo-show-stream-3",
+      "streamUrl": "https://embedsports.me/a/estrela-vs-benfica-stream-7",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.072Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-be7d18f4bb",
-      "title": "MC ALGER VS ORAN [SERVER 1 - STREAM 1]",
+      "id": "live-e683c2cd42",
+      "title": "RIO AVE VS BRAGA [SERVER 1 - HQ PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/mc-alger-vs-oran-stream-1",
+      "streamUrl": "https://embedsports.me/a/rio-ave-vs-braga-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-2b5508dd11",
-      "title": "MC ALGER VS ORAN [SERVER 2 - STREAM 2]",
+      "id": "live-655507fd09",
+      "title": "RIO AVE VS BRAGA [SERVER 2 - PORTUGAL]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/mc-alger-vs-oran-stream-2",
+      "streamUrl": "https://embedsports.me/a/rio-ave-vs-braga-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-960d5950f9",
-      "title": "MC ALGER VS ORAN [SERVER 3 - STREAM 3]",
+      "id": "live-029a1d1efc",
+      "title": "COBAN IMPERIAL VS XELAJU [SERVER 1 - STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/mc-alger-vs-oran-stream-3",
+      "streamUrl": "https://embedsports.me/a/coban-imperial-vs-xelaju-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-8f417b5fd1",
-      "title": "ANDERLECHT U23 VS K. LIERSE S.K. [SERVER 1 - STREAM 1]",
+      "id": "live-386d8ce653",
+      "title": "COBAN IMPERIAL VS XELAJU [SERVER 2 - STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/anderlecht-u23-vs-k-lierse-s-k-stream-1",
+      "streamUrl": "https://embedsports.me/a/coban-imperial-vs-xelaju-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-ed95939b18",
-      "title": "ANDERLECHT U23 VS K. LIERSE S.K. [SERVER 2 - STREAM 2]",
+      "id": "live-c4f699be57",
+      "title": "COBAN IMPERIAL VS XELAJU [SERVER 3 - STREAM 3]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/anderlecht-u23-vs-k-lierse-s-k-stream-2",
+      "streamUrl": "https://embedsports.me/a/coban-imperial-vs-xelaju-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-363d4d5db4",
-      "title": "ANDERLECHT U23 VS K. LIERSE S.K. [SERVER 3 - STREAM 3]",
+      "id": "live-7bd7c1ac6c",
+      "title": "MONTREAL ROSES W VS VANCOUVER RISE W [SERVER 1 - STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/anderlecht-u23-vs-k-lierse-s-k-stream-3",
+      "streamUrl": "https://embedsports.me/a/montreal-roses-w-vs-vancouver-rise-w-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-f4a08e11b3",
-      "title": "FRANCS BORAINS VS DENDER [SERVER 1 - STREAM 1]",
+      "id": "live-abd4ada4f4",
+      "title": "MONTREAL ROSES W VS VANCOUVER RISE W [SERVER 2 - HQ STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/francs-borains-vs-dender-stream-1",
+      "streamUrl": "https://embedsports.me/a/montreal-roses-w-vs-vancouver-rise-w-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.073Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-c8361b7cf6",
-      "title": "FRANCS BORAINS VS DENDER [SERVER 2 - STREAM 2]",
+      "id": "live-c1a1274366",
+      "title": "MONTREAL ROSES W VS VANCOUVER RISE W [SERVER 3 - STREAM 3]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/francs-borains-vs-dender-stream-2",
+      "streamUrl": "https://embedsports.me/a/montreal-roses-w-vs-vancouver-rise-w-stream-3",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.074Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-ed4b56d5e3",
-      "title": "FRANCS BORAINS VS DENDER [SERVER 3 - STREAM 3]",
+      "id": "live-4f55127d45",
+      "title": "H. BEER SHEVA VS HAPOEL TEL AVIV [SERVER 1 - STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/francs-borains-vs-dender-stream-3",
+      "streamUrl": "https://embedsports.me/a/h-beer-sheva-vs-hapoel-tel-aviv-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.074Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-d037225b3e",
-      "title": "ARTIS BRNO VS BOHEMIANS [SERVER 1 - STREAM 1]",
+      "id": "live-a6ed2906a4",
+      "title": "H. BEER SHEVA VS HAPOEL TEL AVIV [SERVER 2 - STREAM 2]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/artis-brno-vs-bohemians-stream-1",
+      "streamUrl": "https://embedsports.me/a/h-beer-sheva-vs-hapoel-tel-aviv-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.074Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-7dd6b69c5e",
-      "title": "ARTIS BRNO VS BOHEMIANS [SERVER 2 - STREAM 2]",
+      "id": "live-2c44f8ec65",
+      "title": "WURZBURGER KICKERS VS HOFFENHEIM II [SERVER 1 - HQ GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/artis-brno-vs-bohemians-stream-2",
+      "streamUrl": "https://embedsports.me/a/wurzburger-kickers-vs-hoffenheim-ii-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.074Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-5c977c1352",
-      "title": "FLORA VS TARTU WELCO [SERVER 1 - STREAM 1]",
+      "id": "live-2920f7cea0",
+      "title": "WURZBURGER KICKERS VS HOFFENHEIM II [SERVER 2 - GERMANY]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/flora-vs-tartu-welco-stream-1",
+      "streamUrl": "https://embedsports.me/a/wurzburger-kickers-vs-hoffenheim-ii-stream-2",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-55f9d90bfb",
-      "title": "FLORA VS TARTU WELCO [SERVER 2 - STREAM 2]",
+      "id": "live-1e4550edb2",
+      "title": "WASHINGTON SPIRIT VS PORTLAND THORNS FC [SERVER 1 - HQ STREAM 1]",
       "status": "live",
       "source": "livelive24",
-      "streamUrl": "https://embedsports.me/a/flora-vs-tartu-welco-stream-2",
+      "streamUrl": "https://embedsports.me/a/washington-spirit-vs-portland-thorns-fc-stream-1",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-764a66653e",
-      "title": "AEK ATHENS VS. REAL MADRID SERVER 1 [HD | TNT SPORTS 3]",
+      "id": "live-93838386ec",
+      "title": "WASHINGTON SPIRIT VS PORTLAND THORNS FC [SERVER 2 - HQ SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/washington-spirit-vs-portland-thorns-fc-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-39cc89035f",
+      "title": "WASHINGTON SPIRIT VS PORTLAND THORNS FC [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/washington-spirit-vs-portland-thorns-fc-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-f736477858",
+      "title": "WASHINGTON SPIRIT VS PORTLAND THORNS FC [SERVER 4 - SPAIN]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/washington-spirit-vs-portland-thorns-fc-stream-4",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-3a606979ec",
+      "title": "RAJA CASABLANCA VS IR TANGER [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/raja-casablanca-vs-ir-tanger-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-d8e62ee068",
+      "title": "RAJA CASABLANCA VS IR TANGER [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/raja-casablanca-vs-ir-tanger-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-00e333076f",
+      "title": "SPORT BOYS VS UTC [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/sport-boys-vs-utc-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-8b6e3df127",
+      "title": "SPORT BOYS VS UTC [SERVER 2 - HQ STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/sport-boys-vs-utc-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-1fe48cca91",
+      "title": "SPORT BOYS VS UTC [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/sport-boys-vs-utc-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-8028a7346b",
+      "title": "UNION LA CALERA VS HUACHIPATO [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/union-la-calera-vs-huachipato-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-b46aef55ba",
+      "title": "UNION LA CALERA VS HUACHIPATO [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/union-la-calera-vs-huachipato-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-9275d4b12d",
+      "title": "UNION LA CALERA VS HUACHIPATO [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/union-la-calera-vs-huachipato-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-acb0c8a794",
+      "title": "PLATENSE VS GENESIS [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/platense-vs-genesis-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-328ed795b2",
+      "title": "PLATENSE VS GENESIS [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/platense-vs-genesis-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-89e98bd6d2",
+      "title": "PLATENSE VS GENESIS [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/platense-vs-genesis-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-0db3ba9154",
+      "title": "PORTUGUESA VS METROPOLITANOS [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/portuguesa-vs-metropolitanos-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-610c681ae7",
+      "title": "PORTUGUESA VS METROPOLITANOS [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/portuguesa-vs-metropolitanos-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-709dac612d",
+      "title": "PORTUGUESA VS METROPOLITANOS [SERVER 3 - STREAM 3]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/portuguesa-vs-metropolitanos-stream-3",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-01ead78a80",
+      "title": "VICENZA VS CREMONESE [SERVER 1 - HQ ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/vicenza-vs-cremonese-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-2df84c7fde",
+      "title": "VICENZA VS CREMONESE [SERVER 2 - ITALY]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/vicenza-vs-cremonese-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-0f38740043",
+      "title": "ATHLETIC VS ATLETICO GOIANIENSE [SERVER 1 - STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/athletic-vs-atletico-goianiense-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-9c89847601",
+      "title": "ATHLETIC VS ATLETICO GOIANIENSE [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/athletic-vs-atletico-goianiense-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-f7003086b3",
+      "title": "OLYMPIACOS VS PAOK [SERVER 1 - HQ STREAM 1]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/olympiacos-vs-paok-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-6025537bda",
+      "title": "OLYMPIACOS VS PAOK [SERVER 2 - STREAM 2]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/olympiacos-vs-paok-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-54fc9cc39f",
+      "title": "STAL MIELEC VS RUCH CHORZOW [SERVER 1 - HQ POLAND]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/stal-mielec-vs-ruch-chorzow-stream-1",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-2dc680d90e",
+      "title": "STAL MIELEC VS RUCH CHORZOW [SERVER 2 - POLAND]",
+      "status": "live",
+      "source": "livelive24",
+      "streamUrl": "https://embedsports.me/a/stal-mielec-vs-ruch-chorzow-stream-2",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-a7dfa319af",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 - SERVER 1 [HD | FANDANGO]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-70eafd60cc",
-      "title": "AEK ATHENS VS. REAL MADRID SERVER 2 [SD | TNT SPORTS 3]",
+      "id": "live-90769c2a25",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 - SERVER 2 [SD | FANDANGO]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/aek-rma_540p",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-34cc9410eb",
-      "title": "FENERBAHCE VS. LIVERPOOL SERVER 1 [HD | TNT SPORTS 1]",
+      "id": "live-5574349cbe",
+      "title": "UTRECHT VS. NEC NIJMEGEN - SERVER 1 [HD | ESPN]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-66c6e4dd69",
-      "title": "FENERBAHCE VS. LIVERPOOL SERVER 2 [SD | TNT SPORTS 1]",
+      "id": "live-290d25794e",
+      "title": "UTRECHT VS. NEC NIJMEGEN - SERVER 2 [SD | ESPN]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/ucl/2026-11-04/fen-liv_540p",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-23890311b9",
-      "title": "THE GOLAZO SHOW SERVER 1 [HD | PARAMOUNT+]",
+      "id": "live-0324c93ffb",
+      "title": "FIORENTINA VS. JUVENTUS - SERVER 1 [HD | PARAMOUNT+]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/the-golazo-show-31755",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.075Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
-      "id": "live-664b044e5b",
-      "title": "THE GOLAZO SHOW SERVER 2 [SD | PARAMOUNT+]",
+      "id": "live-1dc528d986",
+      "title": "FIORENTINA VS. JUVENTUS - SERVER 2 [SD | PARAMOUNT+]",
       "status": "live",
       "source": "ppvstreams",
-      "streamUrl": "https://taifood-blog.asia/embed/the-golazo-show-31755_540p",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv_540p",
       "type": "IFRAME",
       "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-4d5799eed3",
+      "title": "LENS VS. MARSEILLE - SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-f69e5a7b75",
+      "title": "LENS VS. MARSEILLE - SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm_540p",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-f92c54dd86",
+      "title": "ATLÉTICO MADRID VS. BARCELONA - SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-85f06fbe29",
+      "title": "ATLÉTICO MADRID VS. BARCELONA - SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "ppvstreams",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar_540p",
+      "type": "IFRAME",
+      "category": "Sports",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
       "id": "live-6cb24bf93b",
-      "title": "NFL NETWORK SERVER 1 [HD | NFL NETWORK (ESPN)]",
+      "title": "NFL NETWORK - SERVER 1 [HD | NFL NETWORK (ESPN)]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/nfl-network",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
     },
     {
       "id": "live-6dd623b681",
-      "title": "NFL NETWORK SERVER 2 [SD | NFL NETWORK (ESPN)]",
+      "title": "NFL NETWORK - SERVER 2 [SD | NFL NETWORK (ESPN)]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/nfl-network_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-5da1d9210b",
+      "title": "DALLAS COWBOYS AT INDIANAPOLIS COLTS - SERVER 1 [HD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/dal-ind",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-0a76674362",
+      "title": "DALLAS COWBOYS AT INDIANAPOLIS COLTS - SERVER 2 [SD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/dal-ind_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-f810f556dd",
+      "title": "NEW YORK JETS AT KANSAS CITY CHIEFS - SERVER 1 [HD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/nyj-kc",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-81a8af563c",
+      "title": "NEW YORK JETS AT KANSAS CITY CHIEFS - SERVER 2 [SD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/nyj-kc_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-b6e7c0ebd8",
+      "title": "DETROIT LIONS AT MIAMI DOLPHINS - SERVER 1 [HD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/det-mia",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.823Z"
+    },
+    {
+      "id": "live-b1858ecb82",
+      "title": "DETROIT LIONS AT MIAMI DOLPHINS - SERVER 2 [SD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/det-mia_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-beafe05e14",
+      "title": "CLEVELAND BROWNS AT NEW ORLEANS SAINTS - SERVER 1 [HD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/cle-no",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-f8525872e8",
+      "title": "CLEVELAND BROWNS AT NEW ORLEANS SAINTS - SERVER 2 [SD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/cle-no_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-22f153278f",
+      "title": "NEW YORK GIANTS AT PHILADELPHIA EAGLES - SERVER 1 [HD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/nyg-phi",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-79f4b6cc52",
+      "title": "NEW YORK GIANTS AT PHILADELPHIA EAGLES - SERVER 2 [SD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/nyg-phi_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-b6ed73701d",
+      "title": "LOS ANGELES RAMS AT WASHINGTON COMMANDERS - SERVER 1 [HD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/lar-wsh",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-462ff29dc2",
+      "title": "LOS ANGELES RAMS AT WASHINGTON COMMANDERS - SERVER 2 [SD | FOX]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/lar-wsh_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-c976c7703c",
+      "title": "DENVER BRONCOS AT CAROLINA PANTHERS - SERVER 1 [HD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/den-car",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-7f6731102f",
+      "title": "DENVER BRONCOS AT CAROLINA PANTHERS - SERVER 2 [SD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/den-car_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-44653593cb",
+      "title": "NFL REDZONE - SERVER 1 [HD | NFL REDZONE]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl-redzone-31950",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-9136f98009",
+      "title": "NFL REDZONE - SERVER 2 [SD | NFL REDZONE]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl-redzone-31950_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-08a3727a82",
+      "title": "HOUSTON TEXANS AT LOS ANGELES CHARGERS - SERVER 1 [HD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/hou-lac",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-7dca88f8a4",
+      "title": "HOUSTON TEXANS AT LOS ANGELES CHARGERS - SERVER 2 [SD | CBS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nfl/2026-11-08/hou-lac_540p",
+      "type": "IFRAME",
+      "category": "American Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-248365fba2",
-      "title": "FOX FOOTY SERVER 1 [HD | KAYO]",
+      "title": "FOX FOOTY - SERVER 1 [HD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-footy",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "Australian Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-ad0364ca32",
-      "title": "FOX FOOTY SERVER 2 [SD | KAYO]",
+      "title": "FOX FOOTY - SERVER 2 [SD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-footy_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "Australian Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-117ce091b8",
+      "title": "ARKANSAS RAZORBACKS AT VIRGINIA CAVALIERS - SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/cbb/2026-11-08/ark-uva",
+      "type": "IFRAME",
+      "category": "Basketball",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-ba3c43c69a",
+      "title": "ARKANSAS RAZORBACKS AT VIRGINIA CAVALIERS - SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/cbb/2026-11-08/ark-uva_540p",
+      "type": "IFRAME",
+      "category": "Basketball",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-46c8e7dd78",
+      "title": "PHILADELPHIA 76ERS VS. CHICAGO BULLS - SERVER 1 [HD | NBA LEAGUE PASS (HOME)]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nba/2026-11-08/phi-chi",
+      "type": "IFRAME",
+      "category": "Basketball",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-591b30fbed",
+      "title": "PHILADELPHIA 76ERS VS. CHICAGO BULLS - SERVER 2 [SD | NBA LEAGUE PASS (HOME)]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nba/2026-11-08/phi-chi_540p",
+      "type": "IFRAME",
+      "category": "Basketball",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-45fdb764eb",
-      "title": "WILLOW SERVER 1 [HD | WILLOW]",
+      "title": "WILLOW - SERVER 1 [HD | WILLOW]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-ad1063b18c",
-      "title": "WILLOW SERVER 2 [SD | WILLOW]",
+      "title": "WILLOW - SERVER 2 [SD | WILLOW]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-0d08d7584e",
-      "title": "WILLOW SERVER 3 [HD | WILLOW 2]",
+      "title": "WILLOW - SERVER 3 [HD | WILLOW 2]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow-2",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.076Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-e751b147cf",
-      "title": "WILLOW SERVER 4 [SD | WILLOW 2]",
+      "title": "WILLOW - SERVER 4 [SD | WILLOW 2]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow-2_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-ff5cc2c800",
-      "title": "WILLOW SERVER 5 [HD | WILLOW SPORTS]",
+      "title": "WILLOW - SERVER 5 [HD | WILLOW SPORTS]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow-sports",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-55780e7935",
-      "title": "WILLOW SERVER 6 [SD | WILLOW SPORTS]",
+      "title": "WILLOW - SERVER 6 [SD | WILLOW SPORTS]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-willow-sports_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-3871cfc2a1",
-      "title": "FOX CRICKET SERVER 1 [HD | KAYO]",
+      "title": "FOX CRICKET - SERVER 1 [HD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-cricket",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-ada3944b79",
-      "title": "FOX CRICKET SERVER 2 [SD | KAYO]",
+      "title": "FOX CRICKET - SERVER 2 [SD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-cricket_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Cricket",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-a7dfa319af",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 - SERVER 1 [HD | FANDANGO]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-90769c2a25",
+      "title": "TSG HOFFENHEIM VS. SCHALKE 04 - SERVER 2 [SD | FANDANGO]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/bundesliga/2026-11-08/tsg-s04_540p",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-5574349cbe",
+      "title": "UTRECHT VS. NEC NIJMEGEN - SERVER 1 [HD | ESPN]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-290d25794e",
+      "title": "UTRECHT VS. NEC NIJMEGEN - SERVER 2 [SD | ESPN]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/eredivisie/2026-11-08/utr-nec_540p",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-0324c93ffb",
+      "title": "FIORENTINA VS. JUVENTUS - SERVER 1 [HD | PARAMOUNT+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-1dc528d986",
+      "title": "FIORENTINA VS. JUVENTUS - SERVER 2 [SD | PARAMOUNT+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/seriea/2026-11-08/fio-juv_540p",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-4d5799eed3",
+      "title": "LENS VS. MARSEILLE - SERVER 1 [HD | LIGUE 1+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-f69e5a7b75",
+      "title": "LENS VS. MARSEILLE - SERVER 2 [SD | LIGUE 1+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/ligue1/2026-11-08/rcl-olm_540p",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-f92c54dd86",
+      "title": "ATLÉTICO MADRID VS. BARCELONA - SERVER 1 [HD | ESPN+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-85f06fbe29",
+      "title": "ATLÉTICO MADRID VS. BARCELONA - SERVER 2 [SD | ESPN+]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/laliga/2026-11-08/atm-bar_540p",
+      "type": "IFRAME",
+      "category": "Football",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-73dfd34ca5",
-      "title": "SKY SPORTS GOLF SERVER 1 [HD | NOWTV]",
+      "title": "SKY SPORTS GOLF - SERVER 1 [HD | NOWTV]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/sky-sports-golf-29059",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.077Z"
+      "category": "Golf",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-91f1a55426",
-      "title": "SKY SPORTS GOLF SERVER 2 [SD | NOWTV]",
+      "title": "SKY SPORTS GOLF - SERVER 2 [SD | NOWTV]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/sky-sports-golf-29059_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "Golf",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-74ff7a0d5c",
-      "title": "NHL NETWORK SERVER 1 [HD | NHL NETWORK]",
+      "title": "NHL NETWORK - SERVER 1 [HD | NHL NETWORK]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/nhl-network-29780",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-a197d1f683",
-      "title": "NHL NETWORK SERVER 2 [SD | NHL NETWORK]",
+      "title": "NHL NETWORK - SERVER 2 [SD | NHL NETWORK]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/nhl-network-29780_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-36af60e438",
+      "title": "FLORIDA PANTHERS VS. BOSTON BRUINS - SERVER 1 [HD | SCRIPPS SPORTS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nhl/2026-11-08/fla-bos",
+      "type": "IFRAME",
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-2b9a683dda",
+      "title": "FLORIDA PANTHERS VS. BOSTON BRUINS - SERVER 2 [SD | SCRIPPS SPORTS]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nhl/2026-11-08/fla-bos_540p",
+      "type": "IFRAME",
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-a2b53c44f7",
+      "title": "VEGAS GOLDEN KNIGHTS VS. BUFFALO SABRES - SERVER 1 [HD | MSGB]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nhl/2026-11-08/vgk-buf",
+      "type": "IFRAME",
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
+    },
+    {
+      "id": "live-3cb6217922",
+      "title": "VEGAS GOLDEN KNIGHTS VS. BUFFALO SABRES - SERVER 2 [SD | MSGB]",
+      "status": "live",
+      "source": "sportontv",
+      "streamUrl": "https://taifood-blog.asia/embed/nhl/2026-11-08/vgk-buf_540p",
+      "type": "IFRAME",
+      "category": "Ice Hockey",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-351f0f8316",
-      "title": "FOX LEAGUE SERVER 1 [HD | KAYO]",
+      "title": "FOX LEAGUE - SERVER 1 [HD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-league",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "Rugby",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-26de88c6b5",
-      "title": "FOX LEAGUE SERVER 2 [SD | KAYO]",
+      "title": "FOX LEAGUE - SERVER 2 [SD | KAYO]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-fox-league_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "Rugby",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-6b7fad9faf",
-      "title": "24/7 SOUTH PARK SERVER 1 [HD | 24/7 CHANNEL]",
+      "title": "24/7 SOUTH PARK - SERVER 1 [HD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-south-park",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-88394c1720",
-      "title": "24/7 SOUTH PARK SERVER 2 [SD | 24/7 CHANNEL]",
+      "title": "24/7 SOUTH PARK - SERVER 2 [SD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-south-park_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-575b4e0e31",
-      "title": "24/7 COWS SERVER 1 [HD | 24/7 CHANNEL]",
+      "title": "24/7 COWS - SERVER 1 [HD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-cows",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.078Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-992b3b0b63",
-      "title": "24/7 COWS SERVER 2 [SD | 24/7 CHANNEL]",
+      "title": "24/7 COWS - SERVER 2 [SD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-cows_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-b67896d88e",
-      "title": "24/7 FAMILY GUY SERVER 1 [HD | 24/7 CHANNEL]",
+      "title": "24/7 FAMILY GUY - SERVER 1 [HD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-family-guy",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-e6bd0565a6",
-      "title": "24/7 FAMILY GUY SERVER 2 [SD | 24/7 CHANNEL]",
+      "title": "24/7 FAMILY GUY - SERVER 2 [SD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-family-guy_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-768f00de64",
-      "title": "24/7 THE SIMPSONS SERVER 1 [HD | 24/7 CHANNEL]",
+      "title": "24/7 THE SIMPSONS - SERVER 1 [HD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-the-simpsons",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-019232c3b9",
-      "title": "24/7 THE SIMPSONS SERVER 2 [SD | 24/7 CHANNEL]",
+      "title": "24/7 THE SIMPSONS - SERVER 2 [SD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-the-simpsons_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-aeabec081d",
-      "title": "24/7 SPONGEBOB SQUAREPANTS SERVER 1 [HD | 24/7 CHANNEL]",
+      "title": "24/7 SPONGEBOB SQUAREPANTS - SERVER 1 [HD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-spongebob-squarepants",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.079Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-8b59a67207",
-      "title": "24/7 SPONGEBOB SQUAREPANTS SERVER 2 [SD | 24/7 CHANNEL]",
+      "title": "24/7 SPONGEBOB SQUAREPANTS - SERVER 2 [SD | 24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/247-spongebob-squarepants_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-b5c26b2629",
-      "title": "RALLY TV SERVER 1 [24/7 CHANNEL]",
+      "title": "RALLY TV - SERVER 1 [24/7 CHANNEL]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/rally-tv",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-056e0ba329",
-      "title": "SKY SPORTS RACING SERVER 1 [HD | NOW TV]",
+      "title": "SKY SPORTS RACING - SERVER 1 [HD | NOW TV]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/sky-sports-racing",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-1da3de6a34",
-      "title": "SKY SPORTS RACING SERVER 2 [SD | NOW TV]",
+      "title": "SKY SPORTS RACING - SERVER 2 [SD | NOW TV]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/sky-sports-racing_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-0ae80d18b3",
-      "title": "CNN SERVER 1 [HD | CNN]",
+      "title": "CNN - SERVER 1 [HD | CNN]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/cnn-31729",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-c37b0c440e",
-      "title": "CNN SERVER 2 [SD | CNN]",
+      "title": "CNN - SERVER 2 [SD | CNN]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/cnn-31729_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-ac2ad0e8f9",
-      "title": "FOX NEWS SERVER 1 [HD | FOX NEWS]",
+      "title": "FOX NEWS - SERVER 1 [HD | FOX NEWS]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/fox-news-31730",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     },
     {
       "id": "live-1b2e7f5626",
-      "title": "FOX NEWS SERVER 2 [SD | FOX NEWS]",
+      "title": "FOX NEWS - SERVER 2 [SD | FOX NEWS]",
       "status": "live",
       "source": "sportontv",
       "streamUrl": "https://taifood-blog.asia/embed/fox-news-31730_540p",
       "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:43.080Z"
-    },
-    {
-      "id": "live-5d5e2fedec",
-      "title": "FENERBAHÇE VS LIVERPOOL",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/tnt1/mono.ts.m3u8?token=a72572a88cf8b93c7ced978cb5992c69&server=1",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:48.736Z"
-    },
-    {
-      "id": "live-59ae206900",
-      "title": "AEK ATHENS VS REAL MADRID",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/tnt3/mono.ts.m3u8?token=a72572a88cf8b93c7ced978cb5992c69&server=1",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:52.311Z"
-    },
-    {
-      "id": "live-2980f1a2ec",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/tnt4/mono.ts.m3u8?token=a72572a88cf8b93c7ced978cb5992c69&server=1",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:54.743Z"
-    },
-    {
-      "id": "live-45f82b24a9",
-      "title": "PORTO VS NAPOLI",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/CBSSN/mono.ts.m3u8?token=a72572a88cf8b93c7ced978cb5992c69&server=1",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:56.893Z"
-    },
-    {
-      "id": "live-4050e61d41",
-      "title": "RB LEIPZIG VS MAN CITY",
-      "status": "live",
-      "source": "xyzstreams",
-      "streamUrl": "https://eu-4605069466.duckdns.org/tnt2/mono.ts.m3u8?token=a72572a88cf8b93c7ced978cb5992c69&server=1",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.537Z"
-    },
-    {
-      "id": "live-b97521ebf8",
-      "title": "REAL MADRID @ AEK ATHENS [NO DELAYS]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9wcmFiYXNocHJvamVjdC5naXRodWIuaW8vbTN1OHBsYXllci8_c3JjPWh0dHBzOi8vbGl2ZTA1Lm1pZWtnby5hcHAvbGl2ZS8xNDgzMDcxMS5tM3U4",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.537Z"
-    },
-    {
-      "id": "live-9407072664",
-      "title": "REAL MADRID @ AEK ATHENS [TNT SPORTS 3]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvYmphcnp4ZjktMTcxMw",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.537Z"
-    },
-    {
-      "id": "live-2059ebd097",
-      "title": "REAL MADRID @ AEK ATHENS [TNT SPORTS 3]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvYmphcnp4ZjktNDU5NA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.538Z"
-    },
-    {
-      "id": "live-df6301aa37",
-      "title": "LIVERPOOL @ FENERBAHCE [NO DELAY]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9wcmFiYXNocHJvamVjdC5naXRodWIuaW8vbTN1OHBsYXllci8_c3JjPWh0dHBzOi8vbGl2ZTA1Lm1pZWtnby5hcHAvbGl2ZS8zMzk4MjMwOS5tM3U4",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.538Z"
-    },
-    {
-      "id": "live-50130e2561",
-      "title": "LIVERPOOL @ FENERBAHCE [TNT SPORTS 1]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvZTBseXJraHItODk3Mw",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.538Z"
-    },
-    {
-      "id": "live-4182c284ae",
-      "title": "WEST HAM UNITED @ CARDIFF CITY [SKY SPORTS+]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvb2FvanlrbWwtNzg1Mw",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.538Z"
-    },
-    {
-      "id": "live-da70f4a38a",
-      "title": "MIDDLESBROUGH @ WREXHAM [SKY SPORTS+]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYveHBld2V2MHAtNDI1Mg",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.539Z"
-    },
-    {
-      "id": "live-dddff4d146",
-      "title": "WOLVERHAMPTON WANDERERS @ BRISTOL CITY [SKY SPORTS+]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvYzFzZWMyaXctNTcxMQ",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.540Z"
-    },
-    {
-      "id": "live-21af3f8901",
-      "title": "REAL BETIS @ BORUSSIA DORTMUND [NO DELAY]",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/b1tr.m3u8?token=Aec6JIe26Xw6iZB1-kHGdLS_Rok&exp=1794172882",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.540Z"
-    },
-    {
-      "id": "live-633bf5bf40",
-      "title": "REAL BETIS @ BORUSSIA DORTMUND [TNT SPORTS 4]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvM3UycmZobXAtODQ2OA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.540Z"
-    },
-    {
-      "id": "live-2474aaf19c",
-      "title": "REAL BETIS @ BORUSSIA DORTMUND [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvZG5uc3d5aXYtMjk3NA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.540Z"
-    },
-    {
-      "id": "live-146bb002a3",
-      "title": "NAPOLI @ PORTO [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvZ25oOW91d2UtMzg2Nw",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-84fe10c120",
-      "title": "COMO @ LENS [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvc3J5emUyeHgtMjA3OA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-f321eec214",
-      "title": "CLUB BRUGGE @ PSV EINDHOVEN [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvcjV6Mjl6ZnctNDkxMA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-19a2c59be6",
-      "title": "MAN CITY @ RB LEIPZIG [NO DELAY]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9wcmFiYXNocHJvamVjdC5naXRodWIuaW8vbTN1OHBsYXllci8_c3JjPWh0dHBzOi8vbGl2ZTA1Lm1pZWtnby5hcHAvbGl2ZS8wMjQ1Njk2Ni5tM3U4",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-9dedd9390c",
-      "title": "MAN CITY @ RB LEIPZIG [TNT SPORTS 2]",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a12.kora-plus.li/live/mag1.m3u8?token=ytsQ5JhUShXdQsaa701tjTNNtik&exp=1794172888",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-6e62ed921e",
-      "title": "MAN CITY @ RB LEIPZIG [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvY25wdGJsNG0tMzc2",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-434a22b69e",
-      "title": "ARSENAL @ SLAVIA PRAGUE [NO DELAY]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9wcmFiYXNocHJvamVjdC5naXRodWIuaW8vbTN1OHBsYXllci8_c3JjPWh0dHBzOi8vbGl2ZTA1Lm1pZWtnby5hcHAvbGl2ZS8xODgxMjMwNC5tM3U4",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-372d17f52d",
-      "title": "ARSENAL @ SLAVIA PRAGUE [TNT SPORTS 1]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvZTBseXJraHItMTAwMg",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-d0517aa39d",
-      "title": "ARSENAL @ SLAVIA PRAGUE [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvbzl5ZnlndHItMTcxMQ",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-fee26781e5",
-      "title": "SABAH @ VIKING [STAN SPORT]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvazVhbWlqOWwtNjc4MQ",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.541Z"
-    },
-    {
-      "id": "live-6389fbe755",
-      "title": "VASCO DA GAMA @ ATHLETICO PR [FANATIZ]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvemthMDVsMmctODY0NQ",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.542Z"
-    },
-    {
-      "id": "live-a81362b7f3",
-      "title": "GRÊMIO @ FLAMENGO [FANATIZ]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYveXUyNTFqNDgtNzc2Mg",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.542Z"
-    },
-    {
-      "id": "live-ddbb91bfa0",
-      "title": "ATLÉTICO MG @ BOTAFOGO [FANATIZ]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYvZXF6aTMweG0tNjEzMA",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.542Z"
-    },
-    {
-      "id": "live-a10e29d5a5",
-      "title": "CORINTHIANS @ SÃO PAULO [FANATIZ]",
-      "status": "live",
-      "source": "bintv",
-      "streamUrl": "https://bintv-sources.pages.dev/?id=aHR0cHM6Ly9laGdlbWJ4ZS5jZmQvYmludHYveHo1aHJzanUtMjI4Ng",
-      "type": "IFRAME",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:52:58.542Z"
-    },
-    {
-      "id": "live-c503b038a9",
-      "title": "FENERBAHÇE VS LIVERPOOL",
-      "status": "live",
-      "source": "hesgoal",
-      "streamUrl": "https://a15.kora-plus.li/live/tnt1.m3u8?token=qJCdpyUrQ_H45Kcg6It3XwiwNlQ&exp=1793821982",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:04.087Z"
-    },
-    {
-      "id": "live-b28ad67544",
-      "title": "AEK ATHENS VS REAL MADRID",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xWggeSMRb4M6w_md.m3u8?txSecret=39da8bf6c4baa23f2778000937972838&txTime=6AEB803C&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:05.801Z"
-    },
-    {
-      "id": "live-2c844d93b4",
-      "title": "FENERBAHCE VS LIVERPOOL",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSg7YVbRcBcs_md.m3u8?txSecret=70514b874721bac085ec00ecc67c6902&txTime=6AEB803D&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:06.105Z"
-    },
-    {
-      "id": "live-ae55ff5713",
-      "title": "AL MUHARRAQ VS AL JAZIRA UAE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBjdMRhaJtocs.m3u8?txSecret=c7af961e82bfe8a3052d2a58f94e715f&txTime=6AEB803E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:06.550Z"
-    },
-    {
-      "id": "live-687ed35a4d",
-      "title": "AL TAAWOUN VS AL FAISALY AMMAN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4TBk92Qx3xmNis.m3u8?txSecret=12c2197c8f6b20c8a7ac48c648003b7d&txTime=6AEB803E&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:06.927Z"
-    },
-    {
-      "id": "live-1e9a401627",
-      "title": "ARTIS BRNO VS BOHEMIANS PRAHA 1905",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweaZJPhwf9AikBDy.m3u8?txSecret=9e474a1609c6de9825b4625ab76af2f4&txTime=6AEB803F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:07.234Z"
-    },
-    {
-      "id": "live-21fb474010",
-      "title": "BRAZIL U17 WOMEN VS NIGERIA U17 WOMEN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxk43FxLAqKN8vSwh_md.m3u8?txSecret=7a09479bf7ace1666a22f27cd453f771&txTime=6AEB803F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:07.549Z"
-    },
-    {
-      "id": "live-bed0c4e568",
-      "title": "PENAFIEL U23 VS FAMALICAO U23",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6Mxia8vuCsw3mSBgxo.m3u8?txSecret=9d4e41c511846280fdaa8940ae516d79&txTime=6AEB803F&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:07.951Z"
-    },
-    {
-      "id": "live-777ce8ec1c",
-      "title": "CARDIFF CITY VS WEST HAM UNITED",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyhDRR1514CP.m3u8?txSecret=a8864444b0b303d0282cca9095462f54&txTime=6AEB8040&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:08.272Z"
-    },
-    {
-      "id": "live-97379506ca",
-      "title": "LENS VS COMO",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXRfwhtczUTAf.m3u8?txSecret=d136f74d4791140928f475cc0ae5601a&txTime=6AEB8040&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:08.655Z"
-    },
-    {
-      "id": "live-937a4dbd70",
-      "title": "SLAVIA PRAHA VS ARSENAL",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXQpua6QBSagX.m3u8?txSecret=5be5c4705c5d44faabd1f7e158130412&txTime=6AEB8040&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:08.975Z"
-    },
-    {
-      "id": "live-94db4c001b",
-      "title": "PORTO VS NAPOLI",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSg39XrTxMK5.m3u8?txSecret=5e0477f09d6cdefac3fdc5947502ef84&txTime=6AEB8041&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:09.280Z"
-    },
-    {
-      "id": "live-c9f13889b2",
-      "title": "PSV EINDHOVEN VS CLUB BRUGGE",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXRqVaywtfPpb.m3u8?txSecret=568448f9faa30a5e921826c90f1d91af&txTime=6AEB8041&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:09.692Z"
-    },
-    {
-      "id": "live-40ba595d42",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXSB3iw3SxGyD.m3u8?txSecret=e100f5165cdb466ee591c20bf63ea236&txTime=6AEB8041&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:09.995Z"
-    },
-    {
-      "id": "live-481659b8fe",
-      "title": "RB LEIPZIG VS MAN CITY",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xXRqgaPJHnyb5.m3u8?txSecret=28d0f3e4a15db396e249134cb537c692&txTime=6AEB8042&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:10.306Z"
-    },
-    {
-      "id": "live-019235d4c6",
-      "title": "BRISTOL CITY VS WOLVERHAMPTON WANDERERS",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MweZwRyrcWar3tLEj.m3u8?txSecret=aee4e51e349ecb1fe1d1e3dad74c0e97&txTime=6AEB8042&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:10.716Z"
-    },
-    {
-      "id": "live-cebd46c583",
-      "title": "VIKING VS SABAH BAKU",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/hd-en-6Mxj4xYAKaF37Q7vd5.m3u8?txSecret=384e7508e3819b15979e64b76823528a&txTime=6AEB8045&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:13.433Z"
-    },
-    {
-      "id": "live-7edae8bcc7",
-      "title": "KV KORTRIJK VS KV MECHELEN",
-      "status": "live",
-      "source": "camel1",
-      "streamUrl": "https://liveplay1.camel4.live/live/sd-6MwdqQkWRwVLozLzKZ.m3u8?txSecret=047ce5b855ef6b7b911704a0d9e0f8b9&txTime=6AEB8045&lat=9000&auth=f8b1476062fb1620599b418fcd0508e6",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:14.095Z"
-    },
-    {
-      "id": "live-6abe043fcf",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793821994-0-0-d07d97d0f91b9183851d1ba70f80b206",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:15.633Z"
-    },
-    {
-      "id": "live-06cf50a272",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 2 - BLV CUỘI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:15.802Z"
-    },
-    {
-      "id": "live-dceb73b14b",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 3 - BLV COCA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:15.995Z"
-    },
-    {
-      "id": "live-aa66d148c5",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 4 - BLV PIRLO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=c9469900edba215e13489fe9e0e10046&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:17.337Z"
-    },
-    {
-      "id": "live-2e144fbe1e",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 5 - A BỆU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:17.530Z"
-    },
-    {
-      "id": "live-ac2b2f5afb",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 6 - LOGAN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793821994-0-0-c0bd83eb08cf95490792cc80a0b1f9bb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:17.704Z"
-    },
-    {
-      "id": "live-5eafff8d63",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 7 - HẢI THANH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793821994-0-0-d07d97d0f91b9183851d1ba70f80b206",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:17.911Z"
-    },
-    {
-      "id": "live-31d8691aa8",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:18.070Z"
-    },
-    {
-      "id": "live-9effc946c2",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 2 - THẠCH TÚ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912116_lhd.flv?txSecret=82b995aa648e82b00c5d88249168b788&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:18.275Z"
-    },
-    {
-      "id": "live-40adfb7423",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 3 - BLV MESSI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=bfd2b8521a8800f7a32e34c4955a0adf&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:18.508Z"
-    },
-    {
-      "id": "live-1281971720",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 4 - BLV ALEX]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793821994-0-0-ee3e508537a2563ed0fc7d1bf42d5341",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:18.677Z"
-    },
-    {
-      "id": "live-bbe9413677",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 5 - LOKA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:18.860Z"
-    },
-    {
-      "id": "live-c1f807f65b",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 6 - CURRY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.044Z"
-    },
-    {
-      "id": "live-1f4b02c953",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 7 - BLV HEHE]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.225Z"
-    },
-    {
-      "id": "live-3b6daac3dd",
-      "title": "LENS VS COMO [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.400Z"
-    },
-    {
-      "id": "live-59863040b0",
-      "title": "LENS VS COMO [SERVER 2 - REDBULL]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.593Z"
-    },
-    {
-      "id": "live-c150e2e24f",
-      "title": "LENS VS COMO [SERVER 3 - BLV GIÓ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=bfd2b8521a8800f7a32e34c4955a0adf&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.690Z"
-    },
-    {
-      "id": "live-5d6e26cefb",
-      "title": "LENS VS COMO [SERVER 4 - BLV XO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:19.876Z"
-    },
-    {
-      "id": "live-07ba7068fa",
-      "title": "LENS VS COMO [SERVER 5 - ĐỖ TÚ TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:20.102Z"
-    },
-    {
-      "id": "live-4dcf15c8e9",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:20.319Z"
-    },
-    {
-      "id": "live-b0da50f2c3",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 2 - A PÁO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912119_lhd.flv?auth_key=1793821994-0-0-d07d97d0f91b9183851d1ba70f80b206",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:20.510Z"
-    },
-    {
-      "id": "live-dd783dfcb0",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 3 - BLV ALEX]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793821994-0-0-ee3e508537a2563ed0fc7d1bf42d5341",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:20.716Z"
-    },
-    {
-      "id": "live-77c343d872",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 4 - LOKA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:20.887Z"
-    },
-    {
-      "id": "live-a9fe46852d",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 5 - NGƯỜI CÁ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.077Z"
-    },
-    {
-      "id": "live-905e881395",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 6 - BÒ TƯƠI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.250Z"
-    },
-    {
-      "id": "live-edbe35c895",
-      "title": "SLAVIA PRAHA VS ARSENAL [SERVER 7 - CURRY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.436Z"
-    },
-    {
-      "id": "live-e6769cbe51",
-      "title": "PORTO VS NAPOLI [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=c9469900edba215e13489fe9e0e10046&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.512Z"
-    },
-    {
-      "id": "live-38d2d1b2d1",
-      "title": "PORTO VS NAPOLI [SERVER 2 - TRÀ ĐÁ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793821994-0-0-ee3e508537a2563ed0fc7d1bf42d5341",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.753Z"
-    },
-    {
-      "id": "live-ff8583805a",
-      "title": "PORTO VS NAPOLI [SERVER 3 - XUÂN TÓC ĐỎ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:21.938Z"
-    },
-    {
-      "id": "live-30af23df05",
-      "title": "PORTO VS NAPOLI [SERVER 4 - VINFAST]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:22.113Z"
-    },
-    {
-      "id": "live-948c24ee31",
-      "title": "PORTO VS NAPOLI [SERVER 5 - SẾU ĐẦU ĐỎ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:22.284Z"
-    },
-    {
-      "id": "live-741c16ad24",
-      "title": "VIKING VS SABAH BAKU [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=bfd2b8521a8800f7a32e34c4955a0adf&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:22.385Z"
-    },
-    {
-      "id": "live-6aebc9cd3e",
-      "title": "VIKING VS SABAH BAKU [SERVER 2 - TUẤN CÙI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:22.602Z"
-    },
-    {
-      "id": "live-ba20f78303",
-      "title": "PSV EINDHOVEN VS CLUB BRUGGE [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793821994-0-0-c0bd83eb08cf95490792cc80a0b1f9bb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:22.777Z"
-    },
-    {
-      "id": "live-3a99ca49ea",
-      "title": "PSV EINDHOVEN VS CLUB BRUGGE [SERVER 2 - BLV ANH TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.070Z"
-    },
-    {
-      "id": "live-a12eb1ef0d",
-      "title": "PSV EINDHOVEN VS CLUB BRUGGE [SERVER 3 - XUÂN SON]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.247Z"
-    },
-    {
-      "id": "live-4b9b24245f",
-      "title": "PSV EINDHOVEN VS CLUB BRUGGE [SERVER 4 - BOSS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.417Z"
-    },
-    {
-      "id": "live-ba2068b262",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.600Z"
-    },
-    {
-      "id": "live-5760632a47",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 2 - BLV LONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.785Z"
-    },
-    {
-      "id": "live-a6de6397a9",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 3 - BLV WUKONG]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912127_lhd.flv?txSecret=c9469900edba215e13489fe9e0e10046&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:23.864Z"
-    },
-    {
-      "id": "live-0798403fff",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 4 - BLV A WIN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:24.089Z"
-    },
-    {
-      "id": "live-95361e0523",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 5 - BLV VOI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793821994-0-0-ee3e508537a2563ed0fc7d1bf42d5341",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:24.268Z"
-    },
-    {
-      "id": "live-498f7ae30e",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 6 - BLV BẢY]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:24.523Z"
-    },
-    {
-      "id": "live-299ce9ec1f",
-      "title": "BORUSSIA DORTMUND VS REAL BETIS [SERVER 7 - KENCHU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:24.700Z"
-    },
-    {
-      "id": "live-d320edb4f2",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:24.876Z"
-    },
-    {
-      "id": "live-12a8bbee47",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 2 - BLV COCA]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.045Z"
-    },
-    {
-      "id": "live-493c111a9b",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 3 - A BỆU]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912142_lhd.flv?auth_key=1793821994-0-0-411a2329dc6ba97329acd0684ddab6d1",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.267Z"
-    },
-    {
-      "id": "live-df0972a1c1",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 4 - BLV MESSI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=bfd2b8521a8800f7a32e34c4955a0adf&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.349Z"
-    },
-    {
-      "id": "live-4bae341d43",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 5 - LOGAN]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-552832_lhd.flv?auth_key=1793821994-0-0-c0bd83eb08cf95490792cc80a0b1f9bb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.578Z"
-    },
-    {
-      "id": "live-ad208d5d93",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 6 - CACAO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.743Z"
-    },
-    {
-      "id": "live-2d74d20595",
-      "title": "RB LEIPZIG VS MAN CITY [SERVER 7 - BLV HEHE]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:25.929Z"
-    },
-    {
-      "id": "live-04187610f4",
-      "title": "UNION LA CALERA VS COQUIMBO UNIDO [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:26.106Z"
-    },
-    {
-      "id": "live-14d0631d57",
-      "title": "UNION LA CALERA VS COQUIMBO UNIDO [SERVER 2 - ĐỖ TÚ TÀI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1793821994-0-0-ee3e508537a2563ed0fc7d1bf42d5341",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:26.287Z"
-    },
-    {
-      "id": "live-e523163c0b",
-      "title": "UNION LA CALERA VS COQUIMBO UNIDO [SERVER 3 - CHAN ĐÊ]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-327159_lhd.flv?auth_key=1793821994-0-0-96c83e9baedcbc7b76297d92a16c21eb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:26.459Z"
-    },
-    {
-      "id": "live-e8436a90d6",
-      "title": "FLAMENGO RJ VS GREMIO RS [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:26.638Z"
-    },
-    {
-      "id": "live-86d1dcd957",
-      "title": "FLAMENGO RJ VS GREMIO RS [SERVER 2 - LUCAS]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622240_lhd.flv?auth_key=1793821994-0-0-f36a983d295c078da275e9ca426e568d",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:26.819Z"
-    },
-    {
-      "id": "live-615ecc920a",
-      "title": "FLAMENGO RJ VS GREMIO RS [SERVER 3 - RAMBO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.001Z"
-    },
-    {
-      "id": "live-1159b4f4a7",
-      "title": "FLAMENGO RJ VS GREMIO RS [SERVER 4 - LION]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.199Z"
-    },
-    {
-      "id": "live-61b9469556",
-      "title": "FLAMENGO RJ VS GREMIO RS [SERVER 5 - ASHAHI]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull.niur.live/live/stream-9912141_lhd.flv?txSecret=bfd2b8521a8800f7a32e34c4955a0adf&txTime=6aebd37a",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.286Z"
-    },
-    {
-      "id": "live-6bc429ad7d",
-      "title": "ATHLETICO PARANAENSE PR VS VASCO DA GAMA SAF RJ [SERVER 1]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.493Z"
-    },
-    {
-      "id": "live-ee3c034cc1",
-      "title": "ATHLETICO PARANAENSE PR VS VASCO DA GAMA SAF RJ [SERVER 2 - YONE]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.682Z"
-    },
-    {
-      "id": "live-a8e9371ac5",
-      "title": "ATHLETICO PARANAENSE PR VS VASCO DA GAMA SAF RJ [SERVER 3 - VIP]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-622241_lhd.flv?auth_key=1793821994-0-0-990e21012320bb9d6fa275da5c414741",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:27.851Z"
-    },
-    {
-      "id": "live-811126a843",
-      "title": "ATHLETICO PARANAENSE PR VS VASCO DA GAMA SAF RJ [SERVER 4 - CÁO]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912133_lhd.flv?auth_key=1793821994-0-0-b44b34232f7fe3e7f7b59340f867cc89",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:28.032Z"
-    },
-    {
-      "id": "live-488e6aa299",
-      "title": "ATHLETICO PARANAENSE PR VS VASCO DA GAMA SAF RJ [SERVER 5 - A TINH]",
-      "status": "live",
-      "source": "socolive",
-      "streamUrl": "https://pull06.scstream.net/live/stream-9912146_lhd.flv?auth_key=1793821994-0-0-06eb4c14d74f59c1ce39334f972734fb",
-      "type": "FLV",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:53:28.204Z"
-    },
-    {
-      "id": "live-2270325c06",
-      "title": "REAL MADRID VS PANATHINAIKOS [SERVER 1]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:10.448Z"
-    },
-    {
-      "id": "live-96bb4ebdf6",
-      "title": "REAL MADRID VS PANATHINAIKOS [SERVER 2 - BLV POCARI]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:12.366Z"
-    },
-    {
-      "id": "live-97b3abf435",
-      "title": "REAL MADRID VS PANATHINAIKOS [SERVER 3 - BLV TARZAAN]",
-      "status": "live",
-      "source": "colatv",
-      "streamUrl": "https://colatv88xi.cc/video2/output.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:14.370Z"
-    },
-    {
-      "id": "live-88c67b01bd",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 1 - BLV C2]",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:15.294Z"
-    },
-    {
-      "id": "live-9b1074ecff",
-      "title": "AEK ATHENS VS REAL MADRID [SERVER 2 - BLV GIÀ LÀNG]",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live05.yefpwmc.app/live/14830711_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:15.471Z"
-    },
-    {
-      "id": "live-3f412de6dc",
-      "title": "FENERBAHCE VS LIVERPOOL [SERVER 1 - BLV REVIVE]",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live05.yefpwmc.app/live/78905744_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:15.601Z"
-    },
-    {
-      "id": "live-f1ea42c9b8",
-      "title": "AL TAAWOUN VS AL FAISALY AMMAN [SERVER 1 - BLV MONSTER]",
-      "status": "live",
-      "source": "xoilac",
-      "streamUrl": "https://live05.yefpwmc.app/live/75915087_tsc.m3u8",
-      "type": "HLS",
-      "category": "Sports",
-      "crawledAt": "2026-11-04T18:54:15.843Z"
+      "category": "24/7 Streams",
+      "crawledAt": "2026-11-08T20:41:09.824Z"
     }
   ]
 }
