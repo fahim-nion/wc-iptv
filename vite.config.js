@@ -58,7 +58,11 @@ function streamProxyPlugin() {
         headers['Origin'] = 'https://mahsunsports.xyz';
       }
 
-      const response = await fetch(targetUrl, { headers, redirect: 'manual' });
+      const response = await fetch(targetUrl, { 
+        headers, 
+        redirect: 'manual',
+        signal: AbortSignal.timeout(15000)
+      });
 
       res.setHeader('Access-Control-Allow-Origin', '*');
       res.setHeader('Access-Control-Allow-Headers', '*');
@@ -128,9 +132,15 @@ function streamProxyPlugin() {
       const arrayBuffer = await response.arrayBuffer();
       return res.end(Buffer.from(arrayBuffer));
     } catch (err) {
-      console.error('Stream proxy error:', err.message);
-      res.statusCode = 502;
-      return res.end('Proxy Error');
+      if (req.destroyed || res.destroyed || err.name === 'AbortError' || err.message?.includes('terminated')) {
+        // Normal client-side stream cancellation or channel switch
+        return;
+      }
+      console.warn(`[Stream Proxy] Stream notice (${err.message}) for:`, targetUrl?.substring(0, 80));
+      if (!res.headersSent) {
+        res.statusCode = 502;
+        return res.end('Proxy Error');
+      }
     }
   };
 
