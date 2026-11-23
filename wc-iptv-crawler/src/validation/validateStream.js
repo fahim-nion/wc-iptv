@@ -65,7 +65,7 @@ export async function validateStream(url, referer = "", timeoutMs = 5000) {
         const contentType = (response.headers.get('content-type') || '').toLowerCase();
 
         // Support IFRAME stream players (StreamCorner / BinTV / PPVStreams / LiveLive24 / SportOnTV / embeds)
-        if (url.includes('pandecocogaming') || url.includes('/embed/') || url.includes('bintv-sources') || url.includes('ehgembxe') || url.includes('taifood-blog') || url.includes('embedsports.me') || url.includes('live24.html') || url.includes('livelive24.st') || url.includes('thedaddy.pk') || url.includes('sportontv') || (url.includes('/stream/') && !url.includes('.flv') && !url.includes('.m3u8'))) {
+        if (url.includes('pandecocogaming') || url.includes('/embed/') || url.includes('/api/embed') || url.includes('bintv-sources') || url.includes('ehgembxe') || url.includes('taifood-blog') || url.includes('sportsframe.me') || url.includes('embedsports.me') || url.includes('live24.html') || url.includes('livelive24.st') || url.includes('thedaddy') || url.includes('sportontv') || (url.includes('/stream/') && !url.includes('.flv') && !url.includes('.m3u8'))) {
             return { isValid: response.status === 200, status: response.status, contentType };
         }
         

@@ -145,7 +145,193 @@ function streamProxyPlugin() {
   };
 }
 
+function embedProxyPlugin() {
+  const handler = async (req, res, next) => {
+    if (!req.url.startsWith('/api/embed') && !req.url.startsWith('/.netlify/functions/embed')) {
+      return next();
+    }
+
+    if (req.method === 'OPTIONS') {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Headers', '*');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
+      res.statusCode = 204;
+      return res.end();
+    }
+
+    try {
+      const parsedUrl = new URL(req.url, 'http://localhost');
+      let targetUrl = parsedUrl.searchParams.get('url');
+
+      if (!targetUrl || !targetUrl.startsWith('http')) {
+        res.statusCode = 400;
+        return res.end('Invalid URL');
+      }
+
+      if (targetUrl.includes('embedsports.me/a/')) {
+        targetUrl = targetUrl.replace('embedsports.me/a/', 'sportsframe.me/a/');
+      }
+
+      let defaultReferer = 'https://fc26.netlify.app/';
+      if (targetUrl.includes('taifood-blog') || targetUrl.includes('ppv')) {
+        defaultReferer = 'https://ppv.land/';
+      } else if (targetUrl.includes('thedaddy') || targetUrl.includes('dembed')) {
+        defaultReferer = 'https://thedaddy.li/';
+      } else if (targetUrl.includes('bintv')) {
+        defaultReferer = 'https://www.bintv.cc/';
+      }
+
+      const response = await fetch(targetUrl, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+          'Referer': defaultReferer,
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Sec-Fetch-Dest': 'iframe',
+          'Sec-Fetch-Mode': 'navigate',
+          'Sec-Fetch-Site': 'cross-site'
+        },
+        redirect: 'follow',
+        signal: AbortSignal.timeout(15000)
+      });
+
+      if (!response.ok) {
+        res.statusCode = response.status;
+        return res.end(`Upstream error: HTTP ${response.status}`);
+      }
+
+      const finalUrl = response.url || targetUrl;
+      let finalOrigin = '';
+      try {
+        finalOrigin = new URL(finalUrl).origin;
+      } catch (e) {
+        finalOrigin = targetUrl.split('/').slice(0, 3).join('/');
+      }
+
+      let html = await response.text();
+
+      // Base tag
+      if (!html.includes('<base')) {
+        if (html.includes('<head>')) {
+          html = html.replace('<head>', `<head>\n<base href="${finalOrigin}/">\n`);
+        } else if (html.includes('<html')) {
+          html = html.replace(/<html[^>]*>/i, `$&<head><base href="${finalOrigin}/"></head>`);
+        }
+      }
+
+      // Shield script
+      const shieldScript = `
+<script>
+(function() {
+  try {
+    window.open = function() {
+      console.warn('[Shield] Blocked popup window.open call');
+      return null;
+    };
+    Object.defineProperty(window, 'open', {
+      value: function() { return null; },
+      writable: false,
+      configurable: false
+    });
+  } catch(e) {}
+
+  window.sandDetect = function() {};
+
+  try {
+    if (!document.referrer) {
+      Object.defineProperty(document, 'referrer', {
+        value: ${JSON.stringify(finalUrl)},
+        configurable: true
+      });
+    }
+  } catch(e) {}
+
+  const origAddEventListener = EventTarget.prototype.addEventListener;
+  EventTarget.prototype.addEventListener = function(type, listener, options) {
+    if (type === 'click' || type === 'mousedown' || type === 'pointerdown' || type === 'mouseup') {
+      const fnStr = (listener && listener.toString) ? listener.toString() : '';
+      if (
+        fnStr.includes('window.open') ||
+        fnStr.includes('aclib') ||
+        fnStr.includes('gripping-table') ||
+        fnStr.includes('artoumemo') ||
+        fnStr.includes('intellipopup') ||
+        fnStr.includes('popunder')
+      ) {
+        console.warn('[Shield] Neutralized ad click listener');
+        return;
+      }
+    }
+    return origAddEventListener.call(this, type, listener, options);
+  };
+})();
+</script>
+<meta name="referrer" content="no-referrer-when-downgrade" />
+`;
+
+      if (html.includes('<head>')) {
+        html = html.replace('<head>', `<head>${shieldScript}`);
+      } else {
+        html = shieldScript + html;
+      }
+
+      // Eliminate fake PDF canary object
+      html = html.replace(/<object\s+data=["'][^"']*pdf[^"']*["'][^>]*>[\s\S]*?<\/object>/gi, '');
+      html = html.replace(/<object[^>]*onerror=["'][^"']*sandDetect[^"']*["'][^>]*>[\s\S]*?<\/object>/gi, '');
+      html = html.replace(/<object[^>]*data=["']data:application\/pdf[^>]*>/gi, '');
+
+      // Defang sandDetect & referrer checks
+      html = html.replace(/window\.sandDetect\s*=\s*\(\)\s*=>[^,]*,/g, 'window.sandDetect=()=>{},');
+      html = html.replace(/sandDetect\(\)/g, 'void(0)');
+      html = html.replace(/throw\s+e\("Referrer check failed[^"]*"\)[^;]*;/g, '/*referrer check bypassed*/;');
+      html = html.replace(/if\s*\(\s*!\s*\(\s*document\.referrer[^)]*\)\s*\)/g, 'if(false)');
+
+      // Strip ad scripts
+      html = html.replace(/<script\b[^>]*>([\s\S]*?)<\/script>/gi, (full) => {
+        if (
+          full.includes('gripping-table') ||
+          full.includes('intellipopup') ||
+          full.includes('artoumemo') ||
+          full.includes('disable-devtool') ||
+          full.includes('aclib') ||
+          full.includes('acscdn') ||
+          full.includes('wpnxiswpuyrfn') ||
+          full.includes('vbcojhroxkoaf') ||
+          full.includes('x4G9Tq2Kw6R7v1Dy3P0B5N8Lc9M2zF') ||
+          full.includes('ZpQw9XkLmN8c3vR3')
+        ) {
+          return '<!-- [Shield] Intrusive ad script stripped -->';
+        }
+        return full;
+      });
+
+      html = html.replace(/aclib\.runPop\s*\([^)]*\);?/gi, '');
+      html = html.replace(/var a\s*=\s*location\.protocol\s*\+\s*["']\/\/["']\s*\+\s*location\.host/gi, `var a="${finalOrigin}"`);
+
+      res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Cache-Control', 'public, max-age=60');
+      res.statusCode = 200;
+      return res.end(html);
+    } catch (err) {
+      console.error('Embed proxy error:', err.message);
+      res.statusCode = 502;
+      return res.end('Embed Proxy Error');
+    }
+  };
+
+  return {
+    name: 'embed-proxy',
+    configureServer(server) {
+      server.middlewares.use(handler);
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(handler);
+    }
+  };
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), streamProxyPlugin()]
+  plugins: [react(), streamProxyPlugin(), embedProxyPlugin()]
 });

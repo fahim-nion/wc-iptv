@@ -12,11 +12,13 @@ export function getStreamUrl(channelOrUrl) {
     type === 'IFRAME' || 
     url.includes('bintv-sources') || 
     url.includes('/embed/') || 
+    url.includes('/api/embed') || 
     url.includes('ehgembxe') ||
     url.includes('taifood-blog') ||
     url.includes('live24.html') ||
+    url.includes('sportsframe.me') ||
     url.includes('embedsports.me') ||
-    url.includes('thedaddy.pk') ||
+    url.includes('thedaddy') ||
     url.includes('sportontv')
   ) {
     return url;

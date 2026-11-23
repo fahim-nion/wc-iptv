@@ -491,7 +491,7 @@ export async function discoverLiveLive24() {
                         slug = slug.split('?')[0].split('#')[0];
                         const parts = slug.split('/').filter(Boolean);
                         slug = parts[parts.length - 1] || slug;
-                        if (slug) resolvedUrl = `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+                        if (slug) resolvedUrl = `https://sportsframe.me/a/${encodeURIComponent(slug)}`;
                     }
                 } else if (resolvedUrl.includes('?url=') && (resolvedUrl.includes('.m3u8') || resolvedUrl.includes('live.hztx'))) {
                     const rawParam = resolvedUrl.split(/[?&]url=/)[1]?.split('&')[0];

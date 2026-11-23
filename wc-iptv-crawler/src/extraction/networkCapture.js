@@ -90,8 +90,9 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
         label.toUpperCase().includes('LIVELIVE24') ||
         targetUrl.includes('taifood-blog') || 
         targetUrl.includes('ppvservices') || 
+        targetUrl.includes('sportsframe.me') ||
         targetUrl.includes('embedsports.me') ||
-        targetUrl.includes('thedaddy.pk') ||
+        targetUrl.includes('thedaddy') ||
         targetUrl.includes('sportontv') ||
         targetUrl.includes('live24.html') ||
         targetUrl.includes('livelive24.st')
@@ -104,8 +105,10 @@ export async function captureNetworkStream(targetUrl, label = "Source") {
                 slug = slug.split('?')[0].split('#')[0];
                 const parts = slug.split('/').filter(Boolean);
                 slug = parts[parts.length - 1] || slug;
-                if (slug) finalUrl = `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+                if (slug) finalUrl = `https://sportsframe.me/a/${encodeURIComponent(slug)}`;
             }
+        } else if (finalUrl.includes('embedsports.me/a/')) {
+            finalUrl = finalUrl.replace('embedsports.me/a/', 'sportsframe.me/a/');
         }
         return { url: finalUrl, type: 'IFRAME' };
     }

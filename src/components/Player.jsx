@@ -32,18 +32,43 @@ import {
 
 export function getEffectiveIframeUrl(url = '') {
   if (!url) return '';
-  if (url.includes('live24.html')) {
+  if (url.startsWith('/api/embed')) return url;
+
+  let cleanUrl = url;
+
+  // Unwrap live24.html wrapper if present
+  if (cleanUrl.includes('live24.html')) {
     try {
-      const raw = url.split(/[?&]url=/)[1]?.split('&')[0];
+      const raw = cleanUrl.split(/[?&]url=/)[1]?.split('&')[0];
       if (raw) {
         let slug = decodeURIComponent(raw).trim().split('?')[0].split('#')[0];
         const parts = slug.split('/').filter(Boolean);
         slug = parts[parts.length - 1] || slug;
-        if (slug) return `https://embedsports.me/a/${encodeURIComponent(slug)}`;
+        if (slug) cleanUrl = `https://sportsframe.me/a/${encodeURIComponent(slug)}`;
       }
     } catch (e) {}
   }
-  return url;
+
+  // Pre-normalize embedsports.me -> sportsframe.me
+  if (cleanUrl.includes('embedsports.me/a/')) {
+    cleanUrl = cleanUrl.replace('embedsports.me/a/', 'sportsframe.me/a/');
+  }
+
+  // Route third-party iframe embeds through our anti-ad, anti-sandbox sanitizer
+  if (
+    cleanUrl.includes('sportsframe.me') ||
+    cleanUrl.includes('embedsports.me') ||
+    cleanUrl.includes('taifood-blog') ||
+    cleanUrl.includes('/embed/') ||
+    cleanUrl.includes('bintv-sources') ||
+    cleanUrl.includes('thedaddy') ||
+    cleanUrl.includes('sportontv') ||
+    cleanUrl.includes('ehgembxe')
+  ) {
+    return `/api/embed?url=${encodeURIComponent(cleanUrl)}`;
+  }
+
+  return cleanUrl;
 }
 
 export default function Player({ 
@@ -222,9 +247,10 @@ export default function Player({
       rawUrl.includes('bintv-sources') || 
       rawUrl.includes('ehgembxe') ||
       rawUrl.includes('taifood-blog') ||
+      rawUrl.includes('sportsframe.me') ||
       rawUrl.includes('embedsports.me') ||
       rawUrl.includes('live24.html') ||
-      rawUrl.includes('thedaddy.pk') ||
+      rawUrl.includes('thedaddy') ||
       rawUrl.includes('sportontv') ||
       (channel.source === 'bintv' && !rawUrl.includes('.m3u8')) ||
       (channel.source === 'ppvstreams' && !rawUrl.includes('.m3u8')) ||
@@ -669,17 +695,19 @@ export default function Player({
          channel?.url?.includes('bintv-sources') || 
          channel?.url?.includes('ehgembxe') ||
          channel?.url?.includes('taifood-blog') ||
+         channel?.url?.includes('sportsframe.me') ||
          channel?.url?.includes('embedsports.me') ||
          channel?.url?.includes('live24.html') ||
-         channel?.url?.includes('thedaddy.pk') ||
+         channel?.url?.includes('thedaddy') ||
          channel?.url?.includes('sportontv') ||
          (channel?.source === 'bintv' && !channel?.url?.includes('.m3u8')) ||
          (channel?.source === 'ppvstreams' && !channel?.url?.includes('.m3u8')) ||
          (channel?.source === 'sportontv' && !channel?.url?.includes('.m3u8')) ? (
           <iframe 
             src={getEffectiveIframeUrl(channel.url)}
-            className={`w-full h-full relative z-0 bg-black border-0`}
+            className="w-full h-full relative z-0 bg-black border-0"
             allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           />
         ) : (
